@@ -1,0 +1,18 @@
+extends main
+
+include ./mixins/home/home
+
+block head
+  title #{title} Marketing Examples
+  meta(property='og:title', content=`${title} Marketing Examples`)
+  meta(name='twitter:title', content=`${title} Marketing Examples`)
+  meta(property='og:url', content=`https://good-marketing.com/${url}`)
+  link(rel='canonical', href=`https://good-marketing.com/${url}`)
+  meta(name='description', content=`Learn from real world ${title} marketing examples used by successful startups`)
+  meta(property='og:description', content=`Learn from real world ${title} marketing examples used by successful startups`)
+  meta(name='twitter:description', content=`Learn from real world ${title} marketing examples used by successful startups`)
+  meta(property='og:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/gd__${cards[0].num}.jpg`)
+  meta(name='twitter:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/gd__${cards[0].num}.jpg`)
+
+block content
+  +home(cards, activeFilters)

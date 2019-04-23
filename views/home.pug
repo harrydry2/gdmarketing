@@ -1,7 +1,10 @@
 extends main
 
-include mixins/front
+include ./mixins/home/home
 
 block content
-  +front()
+  +home(cards, activeFilters)
+
+
+
 

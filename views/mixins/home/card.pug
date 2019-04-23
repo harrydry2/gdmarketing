@@ -1,0 +1,9 @@
+mixin card({num, title, url, link, tag})
+  .card
+    img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/gd__${num}.jpg`)
+    h2=title
+    .card__bottom
+      a.card__bottom-link(href=`${url}` target="_blank")
+        !=icon("link")
+        .card__bottom-link-text=link
+      .card__bottom-tag=tag

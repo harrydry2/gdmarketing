@@ -4,14 +4,16 @@ html,body
   font-weight: 400
   color: $black
 
+input, div, p
+  font-family: "Circular"
+
 h1
-  font-family: "Canela"
-  font-size: 4.7rem
+  font-size: 2.6rem
+  font-weight: 600
   @media (max-width: 1180px)
     font-size: 2.6rem
 
 h2
-  font-family: "Canela"
   font-size: 3.2rem
   color: $black
   @media (max-width: 800px)
@@ -32,3 +34,9 @@ p
   display: inline
   @media (max-width: 1180px)
     display: none
+
+.filter
+  border: 2px solid gold
+
+.filter.active
+  border-bottom: 4px solid #ff4742

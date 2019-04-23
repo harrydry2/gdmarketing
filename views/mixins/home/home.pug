@@ -1,0 +1,24 @@
+include ./card
+include ./filters
+
+mixin home(cards, activeFilters)
+  .home
+    .home__left
+      a.home__left-logo(href="/")!=icon("gmLogoBig")
+      +filters(activeFilters)
+    .home__right
+      .home__right-header
+        .home__right-header-wrap
+          a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")
+          .search
+            .search__icon!=icon("search")
+            input(placeholder="Search for marketing ideas here").search__inner-text
+          .home__right-header-icons
+            a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("twitter")
+      .outerCard
+        each card in cards
+          +card(card)
+    //- mobile layout
+    .hm__button Show filters
+    .hm__filters
+      +filters(activeFilters)

@@ -1,0 +1,15 @@
+mixin filter(name, svg, activeFilters=[])
+  - var active = activeFilters.indexOf(svg) > -1 ? "filters__active" : "";
+  .filters__spec(data-slug=`${svg}` data-term=`${svg}` class=active)
+    .filters__spec-inner
+      .filters__spec-inner-icon!=icon(`./filters/${svg}`)
+      .filters__spec-inner-text=name
+
+mixin filters(activeFilters)
+  .filters
+    +filter("Cold Email", "coldemail", activeFilters)
+    +filter("Viral", "viral", activeFilters)
+    +filter("Giveaway", "giveaway", activeFilters)
+    +filter("Intercom", "intercom", activeFilters)
+    +filter("Sharing", "sharing", activeFilters)
+    +filter("Twitter", "twitter", activeFilters)

@@ -1,0 +1,165 @@
+.home
+  display: flex
+  &__left
+    border-right: 1px solid $border
+    @media screen and (max-width: 940px)
+      display: none
+    &-logo
+      padding: 1.6rem
+      display: block
+  &__right
+    display: flex
+    flex-direction: column
+    flex: 1
+    &-header
+      border-bottom: 1px solid $border
+      @media screen and (max-width: 768px)
+        border: none
+      &-icons
+        @media screen and (max-width: 940px)
+          display: none
+      &-wrap
+        padding: 1rem 2.2rem
+        display: flex
+        align-items: center
+        @media screen and (max-width: 768px)
+          padding: 2rem 2rem 0rem 2rem
+        @media screen and (max-width: 360px)
+          padding: 1.8rem 1.8rem 0rem 1.8rem
+        &-logoSmall
+          display: none
+          @media screen and (max-width: 940px)
+            display: block
+            margin-right: 1.8rem
+
+// filters
+
+.filters
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-auto-rows: 10.9rem
+  width: 25rem
+  background: $white
+  // remove when filters go over scroll
+  height: 100%
+  @media screen and (max-width: 768px)
+    grid-template-columns: 1fr 1fr 1fr
+    width: 100%
+
+  &__spec
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    cursor: pointer
+    transition: all 0.2s
+    &:hover
+      transition: all 0.2s
+      background: #F0F7FB
+    &-inner
+      height: 4.3rem
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      width: 100%
+      &-icon
+        text-align: center
+      &-text
+        font-size: 1.3rem
+        margin-top: 0.9rem
+        text-align: center
+
+.filters__active
+  transition: all 0.2s
+  background: #F0F7FB
+  .filters__spec-inner-text
+    font-weight: 600
+    color: $brand
+  .fillSVG
+    & > *
+      fill: $brand
+  .strokeSVG
+    & > *
+      stroke: $brand
+
+// search
+
+.search
+  background: #F1F5F8
+  max-width: 64rem
+  margin-right: 6rem
+  border-radius: 4px
+  height: 5.2rem
+  display: flex
+  align-items: center
+  position: relative
+  flex: 1
+  @media screen and (max-width: 940px)
+    margin-right: 0rem
+    max-width: none
+  @media screen and (max-width: 768px)
+    height: 4.6rem
+  &__icon
+    position: absolute
+    left: 2rem
+    transform: translateY(1px)
+    @media screen and (max-width: 768px)
+      left: 1.6rem
+  input
+    background: #F1F5F8
+    padding-left: 5rem
+    padding-right: 2.2rem
+    width: 100%
+    font-weight: 500
+    font-size: 1.5rem
+    @media screen and (max-width: 768px)
+      font-size: 1.4rem
+      padding-left: 4.2rem
+      padding-right: 2rem
+    &::placeholder
+      color: #8795A1
+
+// catchem title
+
+// .catchem__title
+//   font-size: 2.6rem
+//   font-weight: 500
+//   padding: 3.2rem 2.2rem 1rem 2.2rem
+
+// mobile layour
+
+.hm
+  &__button
+    display: none
+    bottom: 0
+    height: 6rem
+    position: fixed
+    z-index: 3
+    background: $brand
+    width: 100%
+    font-size: 1.8rem
+    justify-content: center
+    align-items: center
+    color: $white
+    font-weight: 500
+    @media screen and (max-width: 940px)
+      display: flex
+    @media screen and (max-width: 768px)
+      font-size: 1.6rem
+      height: 5.6rem
+  &__filters
+    display: none
+    width: 100%
+    position: fixed
+    overflow-y: scroll
+    top: 0
+    bottom: 0
+    margin-bottom: 5.6rem
+    left: 0
+    z-index: 2
+    &-active
+      display: block
+
+
+
+

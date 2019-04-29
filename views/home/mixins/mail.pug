@@ -1,0 +1,22 @@
+mixin tick(text)
+  .tick
+    .tick__icon!=icon("check")
+    .tick__text=text
+
+mixin mail()
+  .outerMail
+    .mail
+      .mail__icon!=icon("cross")
+      h2 Improve your marketing with one new tip every day
+      .mail__tickouter
+        +tick("Real startups")
+        +tick("Easy to implement")
+        +tick("30 second read")
+        +tick("No spam")
+        +tick("Free, forever")
+      .mail__bc
+        .mail__input
+          .mail__input-icon!=icon("mail")
+          input(placeholder="example@example.com")
+        .mail__button Upgrade my marketing
+        .mail__bc-red

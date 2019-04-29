@@ -1,0 +1,47 @@
+include ../home/mixins/home
+include ../home/mixins/mail
+include ./mixins/card
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='/dist/bundle.css')
+    link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/harrydry/tysonfury/favicon.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='https://s3.amazonaws.com/harrydry/tysonfury/favicon.png')
+    meta(name='twitter:site', content='@harrydry')
+    meta(property='og:site_name', content='The Marketing Album — 50 Strategies & Case Studies to upgrade your marketing')
+    meta(name='twitter:card', content='summary_large_image')
+    meta(property='og:image:height', content='543')
+    meta(property='og:image:width', content='1000')
+    meta(property='og:type', content='website')
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-91909305-8')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-91909305-8');
+    //- post
+    title #{card.title}
+    meta(property='og:title', content=`${card.title}`)
+    meta(name='twitter:title', content=`${card.title}`)
+    meta(property='og:url', content=`https://good-marketing.com/${card.slug}`)
+    link(rel='canonical', href=`https://good-marketing.com/${card.slug}`)
+    meta(name='description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
+    meta(property='og:description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
+    meta(name='twitter:description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
+    meta(property='og:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.slug}.${card.img}`)
+    meta(name='twitter:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.slug}.${card.img}`)
+    body
+    +home(cards, activeFilters)
+    .outerPost
+      .outerPost__close!=icon("cross")
+      .post
+        +pCard(card)
+        .content
+          block content
+    +mail()
+  block scripts
+    script(src="/dist/bundle.js")

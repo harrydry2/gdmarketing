@@ -1,0 +1,14 @@
+extends base
+
+include ./mixins/home
+include ./mixins/mail
+include ./mixins/cardPopup
+
+block content
+  +home(cards, activeFilters)
+  +mail()
+  +cardPopup()
+
+
+
+

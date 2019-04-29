@@ -2,8 +2,19 @@ import './sass/styles.sass';
 import axios from 'axios';
 import algoliasearch from 'algoliasearch';
 import { $, $$ } from './modules/bling';
+import { postPopup } from './modules/postPopup';
+import { mailPopup } from './modules/mailPopup';
+// 1) Deals with the filter across screens
 
-const filterArray = Array.from($$('.filters__spec'));
+let filterArray;
+const array = Array.from($$('.filters__spec'));
+const arrayLength = array.length;
+
+if (window.innerWidth < 768) {
+  filterArray = array.slice(arrayLength / 2, arrayLength);
+} else {
+  filterArray = array.slice(0, arrayLength / 2);
+}
 
 filterArray.forEach(filterItem => {
   filterItem.on('click', async e => {
@@ -14,15 +25,19 @@ filterArray.forEach(filterItem => {
       .filter(filter => filter.classList.contains('filters__active'))
       .map(filter => filter.dataset.term)
       .join('-');
-    // change push state
-    window.history.pushState(
-      'data to be passed',
-      'Title of the page',
-      `${activeFilters}-marketing-examples`
-    );
-    // axios the new marketing ideas
-    const { data } = await axios.get(`/api/getideas?q=${activeFilters}`);
+    // if no filters default to all
+    if (activeFilters.length === 0) {
+      window.history.pushState('', '', `/`);
+      var { data } = await axios.get(`/api/getideas?q=all`);
+    } else {
+      // change push state
+      window.history.pushState('', '', `/marketing-examples/${activeFilters}`);
+      // axios the filtered marketing ideas
+      var { data } = await axios.get(`/api/getideas?q=${activeFilters}`);
+    }
     $('.outerCard').innerHTML = data;
+    // popup after dynamically inserted
+    postPopup(Array.from($$('.card')));
   });
 });
 
@@ -36,9 +51,15 @@ hmButton.on('click', () => {
   } else {
     hmButton.innerText = it1;
   }
-
   hmFilters.classList.toggle('hm__filters-active');
+  $('body').classList.toggle('noScroll');
 });
+
+// mailPopup
+mailPopup();
+
+// popup from homepage (also if close post page)
+postPopup(Array.from($$('.card')));
 
 // const client = algoliasearch('5E0AQ9NLML', '7d9052aece14bf435bb151b3e44da2d9');
 // const index = client.initIndex('cards');

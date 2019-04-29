@@ -1,58 +1,46 @@
 [
   {
-    "num": 1,
+    "num": "1",
     "title": "How to share effectively on Reddit",
-    "url": "https://starterstory.com",
-    "link": "starterstory.com",
-    "tag": "twitter"
+    "sUrl": "https://starterstory.com",
+    "sText": "starterstory.com",
+    "tFront": "Sharing",
+    "tBack": "sharing",
+    "slug": "sharing-on-reddit",
+    "img": "jpg",
+    "desc": "This is a dummy example text bitchhhh!"
   },
   {
-    "num": 2,
+    "num": "2",
     "title": "Using retweets as your currency",
-    "url": "https://javascriptgrammar.com",
-    "link": "javascriptgrammar.com",
-    "tag": "sharing"
+    "sUrl": "https://javascriptgrammar.com",
+    "sText": "javascriptgrammar.com",
+    "tFront": "Sharing",
+    "tBack": "sharing",
+    "slug": "retweets-as-currency",
+    "img": "png",
+    "desc": "This is a dummy example text bitchhhh!"
   },
   {
-    "num": 3,
+    "num": "3",
     "title": "Creative use of Intercom to build goodwill",
-    "url": "https://baremetrics.com",
-    "link": "baremetrics.com",
-    "tag": "intercom"
+    "sUrl": "https://baremetrics.com",
+    "sText": "baremetrics.com",
+    "tFront": "Goodwill",
+    "tBack": "goodwill",
+    "slug": "use-intercom-to-build-goodwill",
+    "img": "jpg",
+    "desc": "This is a dummy example text bitchhhh!"
   },
   {
-    "num": 4,
+    "num": "4",
     "title": "Giveaway a “free” bathing suit. Get 750k followers",
-    "url": "https://sunnycoclothing.com",
-    "link": "sunnycoclothing.com",
-    "tag": "twitter"
-  },
-  {
-    "num": 5,
-    "title": "How to share effectively on Reddit",
-    "url": "https://starterstory.com",
-    "link": "starterstory.com",
-    "tag": "twitter"
-  },
-  {
-    "num": 6,
-    "title": "Using retweets as your currency",
-    "url": "https://javascriptgrammar.com",
-    "link": "javascriptgrammar.com",
-    "tag": "sharing"
-  },
-  {
-    "num": 7,
-    "title": "Creative use of Intercom to build goodwill",
-    "url": "https://baremetrics.com",
-    "link": "baremetrics.com",
-    "tag": "intercom"
-  },
-  {
-    "num": 8,
-    "title": "Giveaway a “free” bathing suit. Get 750k followers",
-    "url": "https://sunnycoclothing.com",
-    "link": "sunnycoclothing.com",
-    "tag": "twitter"
+    "sUrl": "https://sunnycoclothing.com",
+    "sText": "sunnycoclothing.com",
+    "tFront": "Giveaway",
+    "tBack": "giveaway",
+    "slug": "free-bathing-suit-giveaway",
+    "img": "jpg",
+    "desc": "This is a dummy example text bitchhhh!"
   }
 ]

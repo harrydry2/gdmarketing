@@ -1,0 +1,9 @@
+img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.slug}.${card.img}`).post__top-img
+.pCard(data-slug=`${card.slug}`)
+  img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.slug}.${card.img}`)
+  h2=card.title
+  .pCard__bottom
+    a.pCard__bottom-link(href=`${card.sUrl}` target="_blank")
+      !=icon("link")
+      .pCard__bottom-link-text=card.sText
+    .pCard__bottom-tag=card.tFront

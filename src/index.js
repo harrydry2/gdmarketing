@@ -4,6 +4,13 @@ import algoliasearch from 'algoliasearch';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { mailPopup } from './modules/mailPopup';
+import { lazyLoad } from './modules/lazyLoad';
+
+window.page = 2;
+window.busy = false;
+
+console.log($('.outerLoader'));
+
 // 1) Deals with the filter across screens
 
 let filterArray;
@@ -16,8 +23,14 @@ if (window.innerWidth < 768) {
   filterArray = array.slice(0, arrayLength / 2);
 }
 
+lazyLoad(filterArray);
+
 filterArray.forEach(filterItem => {
   filterItem.on('click', async e => {
+    // reset page settings for new filters
+    window.page = 2;
+    window.busy = false;
+    $('.outerLoader').style.display = 'block';
     // toggle active state
     e.currentTarget.classList.toggle('filters__active');
     // array of active filters
@@ -28,12 +41,12 @@ filterArray.forEach(filterItem => {
     // if no filters default to all
     if (activeFilters.length === 0) {
       window.history.pushState('', '', `/`);
-      var { data } = await axios.get(`/api/getideas?q=all`);
+      var { data } = await axios.get(`/api/lazy/1/all`);
     } else {
       // change push state
       window.history.pushState('', '', `/marketing-examples/${activeFilters}`);
       // axios the filtered marketing ideas
-      var { data } = await axios.get(`/api/getideas?q=${activeFilters}`);
+      var { data } = await axios.get(`/api/lazy/1/${activeFilters}`);
     }
     $('.outerCard').innerHTML = data;
     // popup after dynamically inserted

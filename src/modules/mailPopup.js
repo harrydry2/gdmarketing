@@ -20,7 +20,7 @@ export function mailPopup() {
   const onEmailList = window.localStorage.getItem('onEmailList');
   const howLongSinceClosed = differenceInDays(new Date(), lsMail);
 
-  if (onEmailList !== 'true' && (lsMail == null || howLongSinceClosed > 5)) {
+  if (onEmailList !== 'true' && (lsMail == null || howLongSinceClosed > 3)) {
     setTimeout(() => {
       outerMail.style.display = 'flex';
       $('body').classList.toggle('noScroll');

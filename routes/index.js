@@ -6,9 +6,8 @@ const postController = require('../controllers/postController');
 const emailController = require('../controllers/emailController');
 
 router.get('/', mainController.home);
-
 // api
-router.get('/api/getideas', mainController.getideas);
+router.get('/api/lazy/:page/:filterParam', mainController.lazy);
 router.get('/api/getcontent', mainController.getcontent);
 router.get('/api/getpCard', mainController.getpCard);
 router.get('/api/postideas', mainController.postideas);

@@ -4,16 +4,31 @@ const Cards = mongoose.model('Cards');
 const dbCards = require('../scripts/cards');
 
 exports.home = async (req, res) => {
-  const cards = await Cards.find();
+  // get skip + limit
+  const page = +req.params.page || 1;
+  const limit = 10;
+  const skip = limit * page - limit;
+  const cards = await Cards.find()
+    .skip(skip)
+    .limit(limit);
   res.render('./home/ext', { cards });
 };
 
-exports.getideas = async (req, res) => {
-  if (req.query.q === 'all') {
-    var cards = await Cards.find();
+exports.lazy = async (req, res) => {
+  let cards;
+  const { page } = req.params || 1;
+  const { filterParam } = req.params;
+  const limit = 10;
+  const skip = limit * page - limit;
+  if (filterParam === 'all') {
+    cards = await Cards.find()
+      .skip(skip)
+      .limit(limit);
   } else {
-    const activeFilters = req.query.q.split('-');
-    var cards = await Cards.find({ tBack: { $in: activeFilters } });
+    const activeFilters = filterParam.split('-');
+    cards = await Cards.find({ tBack: { $in: activeFilters } })
+      .skip(skip)
+      .limit(limit);
   }
   res.render('./backend/cards', { cards });
 };
@@ -39,8 +54,13 @@ exports.postideas = async (req, res) => {
 exports.filters = async (req, res) => {
   const { filters } = req.params;
   const activeFilters = filters.split('-');
+  const page = req.params.page || 1;
+  const limit = 10;
+  const skip = limit * page - limit;
   // find active cards
-  const cards = await Cards.find({ tBack: { $in: activeFilters } });
+  const cards = await Cards.find({ tBack: { $in: activeFilters } })
+    .skip(skip)
+    .limit(limit);
   // turn active filters into meta suitable
   const title = activeFilters
     .map(string => string.charAt(0).toUpperCase() + string.slice(1))

@@ -1,9 +1,9 @@
-mixin card({num, title, sUrl, sText, tFront, tBack, slug, img})
+mixin card({num, title, sUrl, sText, tFront, tBack, slug, img, imgType})
   .card(data-slug=`${slug}`)
-    img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${slug}.${img}`)
+    img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}`)
     h2=title
     .card__bottom
-      a.card__bottom-link(href=`${sUrl}` target="_blank")
-        !=icon("link")
-        .card__bottom-link-text=sText
-      .card__bottom-tag=tFront
+      .card__bottom-link
+        .ideaSVG!=icon("ideaSVG")
+        a(href=`${sUrl}` target="_blank").pCard__bottom-link-text=sText
+      .card__bottom-tag(class=`ct__${tBack}`)=tFront

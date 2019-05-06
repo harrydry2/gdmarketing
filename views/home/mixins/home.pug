@@ -1,9 +1,8 @@
 include ./card
 include ./filters
 
-mixin home(cards, activeFilters)
-  //- pre!=dump(cards)
-  .home
+mixin home(cards, activeFilters, displaynone = "")
+  .home(class=`${displaynone}`)
     .home__left
       a.home__left-logo(href="/")!=icon("gmLogoBig")
       +filters(activeFilters)
@@ -19,6 +18,8 @@ mixin home(cards, activeFilters)
       .outerCard
         each card in cards
           +card(card)
+      .outerLoader
+        .loader
     //- mobile layout
     .hm__button Show filters
     .hm__filters

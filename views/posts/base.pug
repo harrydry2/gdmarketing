@@ -34,11 +34,13 @@ html(lang='en')
     meta(name='twitter:description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
     meta(property='og:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.slug}.${card.img}`)
     meta(name='twitter:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.slug}.${card.img}`)
-    body
+    body.postNoScroll
     +home(cards, activeFilters)
     .outerPost
       .outerPost__close!=icon("cross")
       .post
+        .popupLoader
+          .loader
         +pCard(card)
         .content
           block content

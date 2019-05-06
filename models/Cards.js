@@ -11,6 +11,7 @@ const cardsSchema = new mongoose.Schema({
   tBack: String,
   slug: String,
   img: String,
+  imgType: String,
   desc: String,
 });
 

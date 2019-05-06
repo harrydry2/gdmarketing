@@ -8,12 +8,12 @@
   z-index: 2
   // for card
   height: 100%
-  width: 40.5rem
+  width: 43rem
   border-radius: 0px
   justify-content: center
   align-items: center
-  @media screen and (max-width: 768px)
-    height: 22rem
+  @media screen and (max-width: 550px)
+    width: 100%
   img
     position: absolute
     object-fit: cover
@@ -30,10 +30,10 @@
     font-weight: 600
     position: relative
     z-index: 1
-    width: 28rem
+    width: 30rem
     text-align: center
     @media screen and (max-width: 768px)
-      font-size: 2rem
+      font-size: 2.2rem
       padding: 1rem
   &__bottom
     display: flex
@@ -47,6 +47,8 @@
     &-link
       display: flex
       align-items: center
+      margin-left: 0.4rem
+      // border: 2px solid blue
       &-text
         font-size: 1.4rem
         text-shadow: 1px 1px 0 rgba(0,0,0,0.35)
@@ -55,7 +57,7 @@
     &-tag
       width: 10.1rem
       padding: 0.8rem 0
-      background: #C7E9BA
+      // background: #C7E9BA
       display: flex
       justify-content: center
       font-size: 1.2rem

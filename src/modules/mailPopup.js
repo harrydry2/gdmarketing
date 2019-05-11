@@ -23,7 +23,7 @@ export function mailPopup() {
 
   if ($('.outerMailActive')) {
     outerMail.style.display = 'flex';
-    $('body').classList.add('mailNoScroll');
+    $('.iosOverflow').classList.add('mailNoScroll');
     alreadyPoppedUp = true;
   }
 
@@ -34,14 +34,14 @@ export function mailPopup() {
   ) {
     setTimeout(() => {
       outerMail.style.display = 'flex';
-      $('body').classList.add('mailNoScroll');
+      $('.iosOverflow').classList.add('mailNoScroll');
     }, 3000);
   }
 
   mailClose.on('click', () => {
     window.localStorage.setItem('lsmail', new Date());
     outerMail.style.display = 'none';
-    $('body').classList.remove('mailNoScroll');
+    $('.iosOverflow').classList.remove('mailNoScroll');
   });
 
   mailButton.on('click', async () => {

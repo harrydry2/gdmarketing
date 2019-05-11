@@ -65,7 +65,7 @@ hmButton.on('click', () => {
     hmButton.innerText = it1;
   }
   hmFilters.classList.toggle('hm__filters-active');
-  $('body').classList.toggle('noScroll');
+  $('.iosOverflow').classList.toggle('noScroll');
 });
 
 // mailPopup

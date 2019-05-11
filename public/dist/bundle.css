@@ -82,13 +82,16 @@ html, body {
   color: #030212; }
 
 .noScroll {
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed; }
 
 .mailNoScroll {
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed; }
 
 .postNoScroll {
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed; }
 
 input, div, p {
   font-family: "Circular"; }

@@ -5,9 +5,10 @@ include ./mixins/mail
 include ./mixins/cardPopup
 
 block content
-  +home(cards, activeFilters)
-  +mail(subscribePage)
-  +cardPopup()
+  .iosOverflow
+    +home(cards, activeFilters)
+    +mail(subscribePage)
+    +cardPopup()
 
 
 

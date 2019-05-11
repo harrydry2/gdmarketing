@@ -5,8 +5,8 @@ function closePopup() {
   // remove outer post
   $('.outerPost').style.display = 'none';
   // remove no scroll and post no scroll
-  $('body').classList.remove('noScroll');
-  $('body').classList.remove('postNoScroll');
+  $('.iosOverflow').classList.remove('noScroll');
+  $('.iosOverflow').classList.remove('postNoScroll');
   // push back to "/"
   window.history.pushState('', '', '/');
 }
@@ -18,7 +18,7 @@ export function postPopup(cards) {
         return;
       }
       // add noScroll
-      $('body').classList.add('noScroll');
+      $('.iosOverflow').classList.add('noScroll');
       // show outer post
       $('.outerPost').style.display = 'flex';
       // populate post

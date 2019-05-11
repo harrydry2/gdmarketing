@@ -1,0 +1,45 @@
+.fillSVG
+  & > *
+    fill: $black
+
+.strokeSVG
+  & > *
+    stroke: $black
+
+.gmLogoSmallSVG
+  width: 4.4rem
+  @media screen and (max-width: 768px)
+    width: 4.2rem
+
+// home
+.twitterSVG
+  width: 2.5rem
+  & > *
+    fill: #566A76
+    transition: all 0.2s
+  &:hover
+    & > *
+      fill: $brand
+      transition: all 0.2s
+
+// .ideaSVG
+//   transform: translateY(1px)
+
+
+// cross
+.mail__icon
+  .crossSVG
+    width: 1.7rem
+    & > *
+      fill: $black
+
+.outerPost__close
+  .crossSVG
+    width: 2.2rem
+    & > *
+      fill: $black
+  @media screen and (max-width: 768px)
+    .crossSVG
+      width: 1.7rem
+      & > *
+        fill: $white

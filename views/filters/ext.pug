@@ -1,0 +1,21 @@
+extends ../home/base
+include ../home/mixins/home
+include ../home/mixins/mail
+include ../home/mixins/cardPopup
+
+block head
+  title #{title} Marketing Examples
+  meta(property='og:title', content=`${title} Marketing Examples`)
+  meta(name='twitter:title', content=`${title} Marketing Examples`)
+  meta(property='og:url', content=`https://good-marketing.com/marketing-examples/${filters}`)
+  link(rel='canonical', href=`https://good-marketing.com/marketing-examples/${filters}`)
+  meta(name='description', content=`Learn from real world ${title} marketing examples used by successful startups`)
+  meta(property='og:description', content=`Learn from real world ${title} marketing examples used by successful startups`)
+  meta(name='twitter:description', content=`Learn from real world ${title} marketing examples used by successful startups`)
+  meta(property='og:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${cards[0].num}.${cards[0].img}`)
+  meta(name='twitter:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${cards[0].num}.${cards[0].img}`)
+
+block content
+  +home(cards, activeFilters)
+  +mail()
+  +cardPopup()

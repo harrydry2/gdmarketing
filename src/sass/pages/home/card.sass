@@ -1,0 +1,90 @@
+.outerCard
+  padding: 2.2rem
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 2.2rem
+  @media screen and (max-width: 1240px)
+    grid-template-columns: repeat(2, 1fr)
+  @media screen and (max-width: 940px)
+    margin-bottom: 6rem
+  @media screen and (max-width: 768px)
+    grid-gap: 2rem
+    padding: 2rem
+  @media screen and (max-width: 360px)
+    grid-gap: 1.8rem
+    padding: 1.8rem
+  @media screen and (max-width: 660px)
+    grid-template-columns: 1fr
+
+.card
+  padding: 0.9rem
+  height: 23.9rem
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  border-radius: 8px
+  position: relative
+  overflow: hidden
+  cursor: pointer
+  z-index: 2
+  @media screen and (max-width: 768px)
+    height: 22rem
+  img
+    position: absolute
+    // object-fit: cover
+    width: 100%
+    height: 100%
+    top: 0%
+    left: 0%
+    z-index: 0
+  h2
+    font-size: 2.2rem
+    padding: 1.2rem
+    color: $white
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.35)
+    line-height: 1.3
+    font-weight: 600
+    position: relative
+    z-index: 1
+    @media screen and (max-width: 768px)
+      font-size: 2rem
+      padding: 1rem
+  &__bottom
+    display: flex
+    justify-content: space-between
+    align-items: center
+    z-index: 1
+    position: relative
+    &-link
+      display: flex
+      align-items: center
+      margin-left: 0.4rem
+      // border: 2px solid blue
+      &-text
+        font-size: 1.4rem
+        text-shadow: 1px 1px 0 rgba(0,0,0,0.35)
+        color: $white
+        margin-left: 0.7rem
+    &-tag
+      width: 10.1rem
+      padding: 0.8rem 0
+      // background: #C7E9BA
+      display: flex
+      justify-content: center
+      font-size: 1.2rem
+      font-weight: 500
+      border-radius: 100px
+
+// for both post card and home card
+
+.ct
+  &__sharing
+    background: #C7E9BA
+  &__goodwill
+    background: #DCDBF4
+  &__giveaway
+    background: #FDAFC4
+  &__coldemail
+    background: hsla(293, 52, 82, 1)
+  &__viral
+    background: hsla(203, 72, 82, 1)

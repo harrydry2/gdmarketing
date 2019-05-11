@@ -1,9 +1,19 @@
 require('dotenv').config();
-const expressStaticGzip = require('express-static-gzip');
 const express = require('express');
 const path = require('path');
+const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const compression = require('compression');
+
+mongoose.Promise = global.Promise;
+mongoose.connect(
+  `mongodb+srv://harrydry:${
+    process.env.PWORD
+  }@gdmarketing-mxilm.mongodb.net/test`,
+  { useNewUrlParser: true }
+);
+require('./models/Cards.js');
+require('./models/Emails.js');
 
 const fs = require('fs');
 
@@ -20,9 +30,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
 app.use((req, res, next) => {
   res.locals.icon = name => fs.readFileSync(`./public/icons/${name}.svg`);
+  res.locals.dump = obj => JSON.stringify(obj, null, 2);
   next();
 });
 

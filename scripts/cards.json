@@ -14,8 +14,8 @@
   {
     "num": "2",
     "title": "Using retweets as your currency",
-    "sUrl": "https://javascriptgrammar.com",
-    "sText": "Javascript Grammar",
+    "sUrl": "http://www.javascriptteacher.com/free-book.html",
+    "sText": "Javascript Teacher",
     "tFront": "Sharing",
     "tBack": "sharing",
     "slug": "retweets-as-currency",
@@ -92,6 +92,18 @@
     "tBack": "coldemail",
     "slug": "veed-send-a-pigeon",
     "img": "veedstudio",
+    "imgType": "jpg",
+    "desc": "This is a dummy example text bitchhhh!"
+  },
+  {
+    "num": "10",
+    "title": "Growing 2.5 million subscribers piggy backing on viral trends",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Flare TV",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "how-flaretv-grew",
+    "img": "flaretv",
     "imgType": "jpg",
     "desc": "This is a dummy example text bitchhhh!"
   },

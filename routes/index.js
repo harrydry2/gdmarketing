@@ -6,6 +6,7 @@ const postController = require('../controllers/postController');
 const emailController = require('../controllers/emailController');
 
 router.get('/', mainController.home);
+router.get('/subscribe', emailController.subscribePage);
 // api
 router.get('/api/lazy/:page/:filterParam', mainController.lazy);
 router.get('/api/getcontent', mainController.getcontent);

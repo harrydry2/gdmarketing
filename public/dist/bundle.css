@@ -84,11 +84,11 @@ html, body {
 .noScroll {
   overflow: hidden; }
 
+.mailNoScroll {
+  overflow: hidden; }
+
 .postNoScroll {
   overflow: hidden; }
-  @media screen and (max-width: 768px) {
-    .postNoScroll {
-      overflow: auto; } }
 
 input, div, p {
   font-family: "Circular"; }
@@ -705,6 +705,9 @@ p {
     font-size: 1.7rem;
     line-height: 1.85;
     padding: 0.76rem; }
+    @media screen and (max-width: 550px) {
+      .content p {
+        padding: .7rem 2rem; } }
     .content p .bold {
       font-weight: 600; }
     .content p .italic {
@@ -714,13 +717,25 @@ p {
     padding: 0rem 5rem; }
     @media screen and (max-width: 550px) {
       .content .speech {
-        padding: .76rem 2rem; } }
+        padding: .7rem 2rem; } }
   .content .inwardSpeech {
     font-style: italic;
     padding: 1.2rem 5rem; }
+    @media screen and (max-width: 550px) {
+      .content .inwardSpeech {
+        padding: 1rem 3.4rem; } }
+  .content .list {
+    padding: 0.1rem 0.76rem 0.1rem 2rem; }
+    @media screen and (max-width: 550px) {
+      .content .list {
+        padding: 0.1rem 2rem 0.1rem 3.4rem; } }
+    .content .list__top {
+      padding-top: 0.76rem; }
+    .content .list__bottom {
+      padding-bottom: 0.76rem; }
   .content a {
     color: #4742DE;
-    font-weight: 600; }
+    font-weight: 500; }
   .content img {
     border: 8px solid #ffdddd;
     margin: 4rem auto;

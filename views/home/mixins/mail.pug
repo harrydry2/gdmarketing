@@ -3,8 +3,8 @@ mixin tick(text)
     .tick__icon!=icon("check")
     .tick__text=text
 
-mixin mail()
-  .outerMail
+mixin mail(subscribePage)
+  .outerMail(class=`${subscribePage}`)
     .mail
       .mail__icon!=icon("cross")
       h2 Improve your marketing with one new tip every day

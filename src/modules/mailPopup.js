@@ -19,18 +19,29 @@ export function mailPopup() {
   const lsMail = window.localStorage.getItem('lsmail');
   const onEmailList = window.localStorage.getItem('onEmailList');
   const howLongSinceClosed = differenceInDays(new Date(), lsMail);
+  let alreadyPoppedUp = false;
 
-  if (onEmailList !== 'true' && (lsMail == null || howLongSinceClosed > 3)) {
+  if ($('.outerMailActive')) {
+    outerMail.style.display = 'flex';
+    $('body').classList.add('mailNoScroll');
+    alreadyPoppedUp = true;
+  }
+
+  if (
+    onEmailList !== 'true' &&
+    !alreadyPoppedUp &&
+    (lsMail == null || howLongSinceClosed > 3)
+  ) {
     setTimeout(() => {
       outerMail.style.display = 'flex';
-      $('body').classList.toggle('noScroll');
+      $('body').classList.add('mailNoScroll');
     }, 3000);
   }
 
   mailClose.on('click', () => {
     window.localStorage.setItem('lsmail', new Date());
     outerMail.style.display = 'none';
-    $('body').classList.toggle('noScroll');
+    $('body').classList.remove('mailNoScroll');
   });
 
   mailButton.on('click', async () => {

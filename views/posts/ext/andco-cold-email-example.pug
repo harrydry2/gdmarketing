@@ -1,6 +1,6 @@
 extends ../base
 
-mixin postBottom()
+block content
   p The trick to writing any cold email is that you&nbsp;
     span.bold don't want it to read like a cold email.
     | &nbsp;This one's a great example.
@@ -16,6 +16,3 @@ mixin postBottom()
   p Finally, it's also worth mentioning the lovely personalised touch to close. Your cold emails should never be purely extractative. Taking an interest in someone else's world goes a long way.
   p For another case showing the benefits of personalisation take a look at&nbsp;
     a(href="http://localhost:7777/how-personalisation-improves-cold-emails" target="_blank") this example.
-
-block content
-  +postBottom()

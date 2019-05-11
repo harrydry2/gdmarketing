@@ -1,6 +1,6 @@
 extends ../base
 
-mixin postBottom()
+block content
   p Back in 2017, Ramp sent 50,000 emails to companies hoping to sell some personalised t-shirts.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/rampt1.png", alt="Rampt Shirts Cold Email").img__85
   p Firstly, the subject line is great. Certainly enough to&nbsp;
@@ -26,6 +26,3 @@ mixin postBottom()
     | , "What's the best cold email you have ever read?" and the founder, Neil Cocker, has told this story at conferences and events across four different countries.
   p In fact, I wouldn't be surprised if Ramp made more money through circulation of this story than the email campaign itself.
   //- p The SEO benefits are particularly useful given the competitiveness of keyword for customised t-shirts.
-
-block content
-  +postBottom()

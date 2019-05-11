@@ -8,6 +8,8 @@
     font-size: 1.7rem
     line-height: 1.85
     padding: 0.76rem
+    @media screen and (max-width: 550px)
+      padding: .7rem 2rem
     .bold
       font-weight: 600
     .italic
@@ -16,14 +18,23 @@
     line-height: 1.85
     padding: 0rem 5rem
     @media screen and (max-width: 550px)
-      padding: .76rem 2rem
+      padding: .7rem 2rem
   .inwardSpeech
     font-style: italic
     padding: 1.2rem 5rem
-    // text-align: center
+    @media screen and (max-width: 550px)
+      padding: 1rem 3.4rem
+  .list
+    padding: 0.1rem 0.76rem 0.1rem 2rem
+    @media screen and (max-width: 550px)
+      padding: 0.1rem 2rem 0.1rem 3.4rem
+    &__top
+      padding-top: 0.76rem
+    &__bottom
+      padding-bottom: 0.76rem
   a
     color: $brand
-    font-weight: 600
+    font-weight: 500
   img
     // border: 8px solid #DDDDFF
     border: 8px solid #ffdddd
@@ -42,6 +53,7 @@
     margin: 4rem auto
     display: block
     cursor: pointer
+
 
 .img__70
   width: 70%

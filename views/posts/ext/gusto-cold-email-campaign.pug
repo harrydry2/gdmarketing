@@ -1,6 +1,6 @@
 extends ../base
 
-mixin postBottom()
+block content
   p When writing cold emails half the battle is avoiding getting it thrown into the trash after ten seconds.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/gusto2.png", alt="Gusto Dog Cold Email").img__90
   p In this example, the absurdity of the opening paragraph and dog picture is enough to put a smile on your face and critically&nbsp;
@@ -14,6 +14,3 @@ mixin postBottom()
   p would be an improvement. When cold emailing you need to make the CTA as&nbsp;
     span.bold simple as possible
     | &nbsp;to follow.
-
-block content
-  +postBottom()

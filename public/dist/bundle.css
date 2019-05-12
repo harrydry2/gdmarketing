@@ -81,6 +81,9 @@ html, body {
   font-weight: 400;
   color: #030212; }
 
+* {
+  -webkit-overflow-scrolling: touch; }
+
 .noScroll {
   overflow: hidden;
   position: fixed; }

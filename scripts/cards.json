@@ -1,17 +1,5 @@
 [
   {
-    "num": "1",
-    "title": "How to share effectively on Reddit",
-    "sUrl": "https://starterstory.com",
-    "sText": "Starter Story",
-    "tFront": "Sharing",
-    "tBack": "sharing",
-    "slug": "sharing-on-reddit",
-    "img": "sharing-on-reddit",
-    "imgType": "jpg",
-    "desc": "This is a dummy example text bitchhhh!"
-  },
-  {
     "num": "2",
     "title": "Using retweets as your currency",
     "sUrl": "http://www.javascriptteacher.com/free-book.html",
@@ -68,6 +56,18 @@
     "tBack": "coldemail",
     "slug": "gusto-cold-email-campaign",
     "img": "gusto",
+    "imgType": "jpg",
+    "desc": "This is a dummy example text bitchhhh!"
+  },
+  {
+    "num": "1",
+    "title": "How to share effectively on Reddit",
+    "sUrl": "https://starterstory.com",
+    "sText": "Starter Story",
+    "tFront": "Sharing",
+    "tBack": "sharing",
+    "slug": "sharing-on-reddit",
+    "img": "sharing-on-reddit",
     "imgType": "jpg",
     "desc": "This is a dummy example text bitchhhh!"
   },

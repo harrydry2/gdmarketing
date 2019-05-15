@@ -47,12 +47,12 @@ export function mailPopup() {
   if (
     onEmailList !== 'true' &&
     !alreadyPoppedUp &&
-    (lsMail == null || howLongSinceClosed < 3)
+    (lsMail == null || howLongSinceClosed > 3)
   ) {
     setTimeout(() => {
       outerMail.style.display = 'flex';
       $('.iosOverflow').classList.add('mailNoScroll');
-    }, 3000);
+    }, 12000);
   }
 
   mailClose.on('click', () => {

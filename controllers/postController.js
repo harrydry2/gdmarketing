@@ -4,7 +4,7 @@ const Cards = mongoose.model('Cards');
 
 exports.post = async (req, res) => {
   // find specific card
-  const { slug } = req.params;
+  const { slug, filters } = req.params;
   const card = await Cards.findOne({ slug });
   // find all cards
   const page = req.params.page || 1;

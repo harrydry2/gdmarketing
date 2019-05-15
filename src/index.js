@@ -1,15 +1,13 @@
 import './sass/styles.sass';
 import axios from 'axios';
-import algoliasearch from 'algoliasearch';
+// import algoliasearch from 'algoliasearch';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
-import { mailPopup } from './modules/mailPopup';
+import { mailPopup, mailSubmitFromPost } from './modules/mailPopup';
 import { lazyLoad } from './modules/lazyLoad';
 
 window.page = 2;
 window.busy = false;
-
-console.log($('.outerLoader'));
 
 // 1) Deals with the filter across screens
 
@@ -30,7 +28,6 @@ filterArray.forEach(filterItem => {
     // reset page settings for new filters
     window.page = 2;
     window.busy = false;
-    $('.outerLoader').style.display = 'block';
     // toggle active state
     e.currentTarget.classList.toggle('filters__active');
     // array of active filters
@@ -44,7 +41,7 @@ filterArray.forEach(filterItem => {
       var { data } = await axios.get(`/api/lazy/1/all`);
     } else {
       // change push state
-      window.history.pushState('', '', `/marketing-examples/${activeFilters}`);
+      window.history.pushState('', '', `/${activeFilters}`);
       // axios the filtered marketing ideas
       var { data } = await axios.get(`/api/lazy/1/${activeFilters}`);
     }
@@ -70,6 +67,12 @@ hmButton.on('click', () => {
 
 // mailPopup
 mailPopup();
+
+// only if Post page
+if ($('.postNoScroll')) {
+  console.log('beans');
+  mailSubmitFromPost();
+}
 
 // popup from homepage (also if close post page)
 postPopup(Array.from($$('.card')));

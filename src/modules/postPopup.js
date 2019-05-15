@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { $, $$ } from './bling';
+import { mailSubmitAddOn } from './mailPopup';
 
 function closePopup() {
   // remove outer post
@@ -17,6 +18,10 @@ export function postPopup(cards) {
       if (e.target.classList.contains('pCard__bottom-link-text')) {
         return;
       }
+      const tag = card
+        .querySelector('.card__bottom-tag')
+        .className.split(' ')[1]
+        .substring(4);
       // add noScroll
       $('.iosOverflow').classList.add('noScroll');
       // show outer post
@@ -33,8 +38,9 @@ export function postPopup(cards) {
       $('.post__top').innerHTML = cardData;
       $('.content').innerHTML = contentData;
       $('.popupLoader').style.display = 'none';
+      mailSubmitAddOn();
       // push
-      window.history.pushState('', '', `../${slug}`);
+      window.history.pushState('', '', `../${tag}/${slug}`);
     });
   });
 

@@ -136,7 +136,8 @@ p {
 .outerLoader {
   height: 8rem;
   width: 100%;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  display: none; }
 
 .loader {
   display: block;
@@ -178,6 +179,9 @@ p {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+
+.filterH1 {
+  padding: 3rem 0rem 0.8rem 3rem; }
 
 .fillSVG > * {
   fill: #030212; }
@@ -455,7 +459,7 @@ p {
       font-weight: 500;
       border-radius: 100px; }
 
-.ct__sharing {
+.ct__referral {
   background: #C7E9BA; }
 
 .ct__goodwill {
@@ -469,6 +473,9 @@ p {
 
 .ct__viral {
   background: #b0d9f2; }
+
+.ct__content {
+  background: #f4f7b6; }
 
 .outerMail {
   justify-content: center;
@@ -573,6 +580,14 @@ p {
   .tick__text {
     font-size: 1.6rem;
     margin-left: 1.4rem; }
+
+.addOnEmail, .postEmail {
+  width: 32.8rem;
+  margin: 4.6rem auto 3rem auto; }
+  @media screen and (max-width: 424px) {
+    .addOnEmail, .postEmail {
+      width: 100%;
+      padding: 0 2rem; } }
 
 .outerPost {
   justify-content: center;
@@ -790,4 +805,33 @@ p {
 
 .img__60 {
   width: 60%; }
+
+.undera {
+  width: 100%;
+  margin-top: 7rem;
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .undera:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #e1e1e1;
+    content: '';
+    width: 100%;
+    height: 2px; }
+  .undera__center {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    z-index: 6;
+    background: #fff;
+    padding: 0 4rem; }
+    .undera__center-text {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.6px;
+      margin-right: 3rem; }
 

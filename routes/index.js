@@ -14,10 +14,10 @@ router.get('/api/getpCard', mainController.getpCard);
 router.get('/api/postideas', mainController.postideas);
 router.post('/api/subscribe', emailController.subscribe);
 
-// filters
-router.get('/marketing-examples/:filters', mainController.filters);
-
 // posts
-router.get('/:slug', postController.post);
+router.get('/:filter/:slug', postController.post);
+
+// filters
+router.get('/:filters', mainController.filters);
 
 module.exports = router;

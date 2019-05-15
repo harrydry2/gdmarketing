@@ -9,26 +9,25 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
     link(rel='stylesheet', href='/dist/bundle.css')
-    link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/harrydry/tysonfury/favicon.png')
-    link(rel='icon', type='image/png', sizes='16x16', href='https://s3.amazonaws.com/harrydry/tysonfury/favicon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/harrydry/gdmarketing/meFav.png')
     meta(name='twitter:site', content='@harrydry')
-    meta(property='og:site_name', content='The Marketing Album — 50 Strategies & Case Studies to upgrade your marketing')
-    meta(name='twitter:card', content='summary_large_image')
-    meta(property='og:image:height', content='543')
-    meta(property='og:image:width', content='1000')
+    meta(property='og:site_name', content='Marketing Examples — Real world marketing case studies')
+    //- meta(name='twitter:card', content='summary_large_image')
+    //- meta(property='og:image:height', content='543')
+    //- meta(property='og:image:width', content='1000')
     meta(property='og:type', content='website')
-    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-91909305-8')
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-91909305-10')
     script.
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-91909305-8');
+      gtag('config', 'UA-91909305-10');
     //- post
     title #{card.title}
     meta(property='og:title', content=`${card.title}`)
     meta(name='twitter:title', content=`${card.title}`)
-    meta(property='og:url', content=`https://good-marketing.com/${card.slug}`)
-    link(rel='canonical', href=`https://good-marketing.com/${card.slug}`)
+    meta(property='og:url', content=`https://marketingexamples.com/${card.slug}`)
+    link(rel='canonical', href=`https://marketingexamples.com/${card.slug}`)
     meta(name='description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
     meta(property='og:description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
     meta(name='twitter:description', content=`Learn from real world ${card.desc} marketing examples used by successful startups`)
@@ -45,6 +44,16 @@ html(lang='en')
           +pCard(card)
           .content
             block content
+            .undera
+              .undera__center
+                .undera__center-text Like the article?
+                a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com%2F${card.slug}&via=harrydry%20&text=${encodeURI(card.title)}` target="_blank")!=icon("twitter")
+            .postEmail
+              .mail__input
+                .mail__input-icon!=icon("mail")
+                input(placeholder="example@example.com")
+              .mail__button Get one new tip every day
+              .mail__bc-red
       +mail()
   block scripts
     script(src="/dist/bundle.js")

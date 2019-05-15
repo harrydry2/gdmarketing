@@ -9,10 +9,27 @@ function validateEmail(email) {
   return re.test(email);
 }
 
+function submitMail(button, red, input) {
+  button.on('click', async () => {
+    red.style.display = 'block';
+    if (validateEmail(input.value)) {
+      window.localStorage.setItem('onEmailList', 'true');
+      await axios.post('/api/subscribe', {
+        email: input.value,
+      });
+      red.style.color = '#00c26e';
+      red.innerText = `Sweet! Just sent an email :)`;
+    } else {
+      red.style.color = '#D0021B';
+      red.innerText = 'Not a valid email. Try again.';
+    }
+  });
+}
+
 export function mailPopup() {
-  const mailButton = $('.mail__button');
-  const mailInput = $('.mail__input > input');
-  const mailRed = $('.mail__bc-red');
+  const mailButton = $('.mail__bc .mail__button');
+  const mailInput = $('.mail__bc .mail__input > input');
+  const mailRed = $('.mail__bc .mail__bc-red');
   const outerMail = $('.outerMail');
   const mailClose = $('.mail__icon');
 
@@ -30,7 +47,7 @@ export function mailPopup() {
   if (
     onEmailList !== 'true' &&
     !alreadyPoppedUp &&
-    (lsMail == null || howLongSinceClosed > 3)
+    (lsMail == null || howLongSinceClosed < 3)
   ) {
     setTimeout(() => {
       outerMail.style.display = 'flex';
@@ -44,18 +61,19 @@ export function mailPopup() {
     $('.iosOverflow').classList.remove('mailNoScroll');
   });
 
-  mailButton.on('click', async () => {
-    mailRed.style.display = 'block';
-    if (validateEmail(mailInput.value)) {
-      window.localStorage.setItem('onEmailList', 'true');
-      await axios.post('/api/subscribe', {
-        email: mailInput.value,
-      });
-      mailRed.style.color = '#00c26e';
-      mailRed.innerText = `Sweet! Just sent an email :)`;
-    } else {
-      mailRed.style.color = '#D0021B';
-      mailRed.innerText = 'Not a valid email. Try again.';
-    }
-  });
+  submitMail(mailButton, mailRed, mailInput);
+}
+
+export function mailSubmitFromPost() {
+  const mailButtonSpec = $('.postEmail .mail__button');
+  const mailInputSpec = $('.postEmail .mail__input > input');
+  const mailRedSpec = $('.postEmail .mail__bc-red');
+  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec);
+}
+
+export function mailSubmitAddOn() {
+  const mailButtonSpec = $('.addOnEmail .mail__button');
+  const mailInputSpec = $('.addOnEmail .mail__input > input');
+  const mailRedSpec = $('.addOnEmail .mail__bc-red');
+  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec);
 }

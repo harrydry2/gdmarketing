@@ -1,10 +1,10 @@
 include ./card
 include ./filters
 
-mixin home(cards, activeFilters, displaynone = "")
+mixin home(cards, activeFilters, title, displaynone = "")
   .home(class=`${displaynone}`)
     .home__left
-      a.home__left-logo(href="/")!=icon("gmLogoBig")
+      a.home__left-logo(href="/")!=icon("meLogoBig")
       +filters(activeFilters)
     .home__right
       .home__right-header
@@ -15,11 +15,13 @@ mixin home(cards, activeFilters, displaynone = "")
             input(placeholder="Search for marketing ideas here").search__inner-text
           .home__right-header-icons
             a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("twitter")
+      if (title)
+        h1.filterH1 #{title} Marketing Examples
       .outerCard
         each card in cards
           +card(card)
-      .outerLoader
-        .loader
+      //- .outerLoader
+      //-   .loader
     //- mobile layout
     .hm__button Show filters
     .hm__filters

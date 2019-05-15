@@ -22,17 +22,14 @@ export function lazyLoad(filterArray) {
       // set filter param
       const filterParam = activeFilters.length === 0 ? 'all' : activeFilters;
       try {
-        $('.loader').style.display = 'block';
         const { data } = await axios.get(
           `/api/lazy/${window.page}/${filterParam}`
         );
         $('.outerCard').insertAdjacentHTML('beforeend', data);
-        $('.loader').style.display = 'none';
         postPopup(Array.from($$('.card')));
         if (data.length) {
           window.page += 1;
         } else {
-          $('.outerLoader').style.display = 'none';
           return;
         }
         window.busy = false;

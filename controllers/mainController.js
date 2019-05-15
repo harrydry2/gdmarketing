@@ -62,8 +62,12 @@ exports.filters = async (req, res) => {
     .skip(skip)
     .limit(limit);
   // turn active filters into meta suitable
-  const title = activeFilters
+  let title = activeFilters
     .map(string => string.charAt(0).toUpperCase() + string.slice(1))
     .join(' and ');
+  // edge case for two word filters
+  if (title.includes('Coldemail')) {
+    title = title.replace('Coldemail', 'Cold Email');
+  }
   res.render('filters/ext', { cards, title, activeFilters, filters });
 };

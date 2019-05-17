@@ -16,7 +16,9 @@ html(lang='en')
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-91909305-10');
+      var origin = window.location.protocol + '//' + window.location.host;
+      var pathname = window.location.href.substr(origin.length);
+      gtag('config', 'UA-91909305-10', {'page_path': pathname});
     block head
       title Marketing Examples | Real world marketing case studies
       meta(property='og:title', content='Marketing Examples — Real world marketing case studies')

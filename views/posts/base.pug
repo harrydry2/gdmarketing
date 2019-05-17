@@ -21,7 +21,9 @@ html(lang='en')
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-91909305-10');
+      var origin = window.location.protocol + '//' + window.location.host;
+      var pathname = window.location.href.substr(origin.length);
+      gtag('config', 'UA-91909305-10', {'page_path': pathname});
     //- post
     title #{card.title}
     meta(property='og:title', content=`${card.title}`)
@@ -46,7 +48,7 @@ html(lang='en')
             .undera
               .undera__center
                 .undera__center-text Like the article?
-                a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com%2F${card.tBack}%2F${card.slug}&via=harrydry%20&text=${encodeURI(card.title)}` target="_blank")!=icon("twitter")
+                a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}&via=harrydry%20&text=${encodeURI(card.title)}` target="_blank")!=icon("twitter")
             .postEmail
               .mail__input
                 .mail__input-icon!=icon("mail")

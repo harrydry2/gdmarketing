@@ -10,6 +10,7 @@ function closePopup() {
   $('.iosOverflow').classList.remove('postNoScroll');
   // push back to "/"
   window.history.pushState('', '', '/');
+  document.title = 'Marketing Examples | Real world marketing case studies';
 }
 
 export function postPopup(cards) {
@@ -22,6 +23,8 @@ export function postPopup(cards) {
         .querySelector('.card__bottom-tag')
         .className.split(' ')[1]
         .substring(4);
+      // this will change as h4 changes
+      const title = card.querySelector('h4').innerText;
       // add noScroll
       $('.iosOverflow').classList.add('noScroll');
       // show outer post
@@ -40,7 +43,8 @@ export function postPopup(cards) {
       $('.popupLoader').style.display = 'none';
       mailSubmitAddOn();
       // push
-      window.history.pushState('', '', `../${tag}/${slug}`);
+      window.history.pushState('brother', 'Brother MInda', `../${tag}/${slug}`);
+      document.title = title;
     });
   });
 

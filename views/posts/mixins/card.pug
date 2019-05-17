@@ -3,7 +3,7 @@ mixin pCard({num, title, sUrl, sText, tFront, tBack, slug, img, imgType})
     img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}`).post__top-img
     .pCard(data-slug=`${slug}`)
       img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}`)
-      h2=title
+      h1=title
       .pCard__bottom
         .pCard__bottom-link
           .ideaSVG!=icon("ideaSVG")

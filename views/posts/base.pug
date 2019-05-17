@@ -35,7 +35,6 @@ html(lang='en')
     meta(name='twitter:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${card.img}.${card.imgType}`)
     body
     .iosOverflow.postNoScroll
-      +home(cards, activeFilters)
       .outerPost
         .outerPost__close!=icon("cross")
         .post
@@ -54,6 +53,7 @@ html(lang='en')
                 input(placeholder="example@example.com")
               .mail__button Get one new tip every day
               .mail__bc-red
+      +home(cards, activeFilters)
       +mail()
   block scripts
     script(src="/dist/bundle.js")

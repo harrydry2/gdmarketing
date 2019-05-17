@@ -1,7 +1,7 @@
 mixin card({num, title, sUrl, sText, tFront, tBack, slug, img, imgType})
-  .card(data-slug=`${slug}`)
+  li.card(data-slug=`${slug}`)
     img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}`)
-    h2=title
+    h4=title
     .card__bottom
       .card__bottom-link
         .ideaSVG!=icon("ideaSVG")

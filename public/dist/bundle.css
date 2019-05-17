@@ -86,15 +86,18 @@ html, body {
 
 .noScroll {
   overflow: hidden;
-  position: fixed; }
+  position: fixed;
+  height: 100%; }
 
 .mailNoScroll {
   overflow: hidden;
-  position: fixed; }
+  position: fixed;
+  height: 100%; }
 
 .postNoScroll {
   overflow: hidden;
-  position: fixed; }
+  position: fixed;
+  height: 100%; }
 
 input, div, p {
   font-family: "Circular"; }
@@ -422,7 +425,7 @@ p {
     top: 0%;
     left: 0%;
     z-index: 0; }
-  .card h2 {
+  .card h4 {
     font-size: 2.2rem;
     padding: 1.2rem;
     color: #fff;
@@ -432,7 +435,7 @@ p {
     position: relative;
     z-index: 1; }
     @media screen and (max-width: 768px) {
-      .card h2 {
+      .card h4 {
         font-size: 2rem;
         padding: 1rem; } }
   .card__bottom {
@@ -674,7 +677,7 @@ p {
     top: 0%;
     left: 0%;
     z-index: 0; }
-  .pCard h2 {
+  .pCard h1, .pCard h2 {
     font-size: 2.4rem;
     color: #fff;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
@@ -685,7 +688,7 @@ p {
     width: 30rem;
     text-align: center; }
     @media screen and (max-width: 768px) {
-      .pCard h2 {
+      .pCard h1, .pCard h2 {
         font-size: 2.2rem;
         padding: 1rem; } }
   .pCard__bottom {

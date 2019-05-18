@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const path = require('path');
 
 const Cards = mongoose.model('Cards');
 const dbCards = require('../scripts/cards');
@@ -12,6 +13,11 @@ exports.home = async (req, res) => {
     .skip(skip)
     .limit(limit);
   res.render('./home/ext', { cards });
+};
+
+exports.xml = async (req, res) => {
+  res.contentType('application/xml');
+  res.sendFile(path.join(__dirname, 'sitemap.xml'));
 };
 
 exports.lazy = async (req, res) => {

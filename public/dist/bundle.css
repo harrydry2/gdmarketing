@@ -480,6 +480,9 @@ p {
 .ct__content {
   background: #f4f7b6; }
 
+.ct__seo {
+  background: #bff8ef; }
+
 .outerMail {
   justify-content: center;
   align-items: center;
@@ -729,6 +732,13 @@ p {
   @media screen and (max-width: 550px) {
     .content {
       padding: 2rem 0rem; } }
+  .content h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 2rem 0.76rem;
+    text-transform: uppercase; }
+  .content .h2start {
+    padding: 0.76rem 0.76rem 2rem 0.76rem; }
   .content p {
     font-size: 1.7rem;
     line-height: 1.85;

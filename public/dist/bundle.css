@@ -737,8 +737,14 @@ p {
     font-weight: bold;
     padding: 2rem 0.76rem;
     text-transform: uppercase; }
+    @media screen and (max-width: 550px) {
+      .content h2 {
+        padding: 1.6rem 2rem; } }
   .content .h2start {
     padding: 0.76rem 0.76rem 2rem 0.76rem; }
+    @media screen and (max-width: 550px) {
+      .content .h2start {
+        padding: 1.6rem 2rem; } }
   .content p {
     font-size: 1.7rem;
     line-height: 1.85;
@@ -763,7 +769,8 @@ p {
       .content .inwardSpeech {
         padding: 1rem 3.4rem; } }
   .content .list {
-    padding: 0.1rem 0.76rem 0.1rem 2rem; }
+    padding: 0.1rem 0.76rem 0.1rem 2rem;
+    display: block; }
     @media screen and (max-width: 550px) {
       .content .list {
         padding: 0.1rem 2rem 0.1rem 3.4rem; } }
@@ -773,7 +780,9 @@ p {
       padding-bottom: 0.76rem; }
   .content a {
     color: #4742DE;
-    font-weight: 500; }
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 1.85; }
   .content img {
     border: 8px solid #ffdddd;
     margin: 4rem auto;

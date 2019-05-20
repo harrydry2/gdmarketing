@@ -125,7 +125,14 @@
     <!-- seo -->
   <url>
     <loc>https://marketingexamples.com/seo/long-tail-keywords</loc>
-    <lastmod>2019-05-18</lastmod>
+    <lastmod>2019-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <!-- conversion -->
+  <url>
+    <loc>https://marketingexamples.com/conversion/sign-up-field-which-converts</loc>
+    <lastmod>2019-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

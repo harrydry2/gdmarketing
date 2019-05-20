@@ -483,6 +483,9 @@ p {
 .ct__seo {
   background: #bff8ef; }
 
+.ct__conversion {
+  background: #eacdcd; }
+
 .outerMail {
   justify-content: center;
   align-items: center;
@@ -736,7 +739,8 @@ p {
     font-size: 1.6rem;
     font-weight: bold;
     padding: 2rem 0.76rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    line-height: 1.4; }
     @media screen and (max-width: 550px) {
       .content h2 {
         padding: 1.6rem 2rem; } }

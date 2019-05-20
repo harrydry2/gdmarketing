@@ -12,6 +12,18 @@
     "desc": "How @jstut leveraged retweets to share his coding book around the twittersphere"
   },
   {
+    "num": "2",
+    "title": "How Notion's sign-up field converts like a boss",
+    "sUrl": "http://notion.so",
+    "sText": "Notion",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "sign-up-field-which-converts",
+    "img": "notion",
+    "imgType": "png",
+    "desc": "How @jstut leveraged retweets to share his coding book around the twittersphere"
+  },
+  {
     "num": "3",
     "title": "Creative use of Intercom to build goodwill",
     "sUrl": "https://baremetrics.com",
@@ -92,6 +104,18 @@
     "tBack": "seo",
     "slug": "long-tail-keywords",
     "img": "nomad",
+    "imgType": "jpg",
+    "desc": "This is a dummy example text bitchhhh!"
+  },
+  {
+    "num": "1",
+    "title": "If you're priority is an email list get a /newsletter page",
+    "sUrl": "https://jamesclear.com/newsletter",
+    "sText": "James Clear",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "long-tail-keywords",
+    "img": "ah1",
     "imgType": "jpg",
     "desc": "This is a dummy example text bitchhhh!"
   },

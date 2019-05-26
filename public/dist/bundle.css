@@ -81,6 +81,10 @@ html, body {
   font-weight: 400;
   color: #030212; }
 
+a {
+  display: inline;
+  clear: none; }
+
 * {
   -webkit-overflow-scrolling: touch; }
 
@@ -226,7 +230,9 @@ p {
 .home {
   display: flex; }
   .home__left {
-    border-right: 1px solid #e1e1e1; }
+    border-right: 1px solid #e1e1e1;
+    height: 100%;
+    position: fixed; }
     @media screen and (max-width: 940px) {
       .home__left {
         display: none; } }
@@ -236,7 +242,11 @@ p {
   .home__right {
     display: flex;
     flex-direction: column;
-    flex: 1; }
+    flex: 1;
+    margin-left: 25rem; }
+    @media screen and (max-width: 940px) {
+      .home__right {
+        margin: 0; } }
     .home__right-header {
       border-bottom: 1px solid #e1e1e1; }
       @media screen and (max-width: 768px) {

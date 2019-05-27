@@ -44,9 +44,21 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
+    <url>
+    <loc>https://marketingexamples.com/conversion</loc>
+    <lastmod>2019-05-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/seo</loc>
+    <lastmod>2019-05-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
   <!-- coldemail -->
   <url>
-    <loc>https://marketingexamples.com/coldemail/ramptshirts-sales-email</loc>
+    <loc>https://marketingexamples.com/coldemail/best-sales-email-ever</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -64,26 +76,26 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/coldemail/veed-send-a-pigeon</loc>
+    <loc>https://marketingexamples.com/coldemail/signalling-in-marketing</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/coldemail/personalisation-in-cold-emails</loc>
+    <loc>https://marketingexamples.com/coldemail/write-personalised-cold-emails</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- viral -->
   <url>
-    <loc>https://marketingexamples.com/viral/how-flaretv-grew</loc>
+    <loc>https://marketingexamples.com/viral/piggyback-viral-trends</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/viral/yeezy-dating-serve-a-niche</loc>
+    <loc>https://marketingexamples.com/viral/serve-a-niche-market</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -110,28 +122,34 @@
   </url>
   <!-- referral -->
   <url>
-    <loc>https://marketingexamples.com/referral/referral-loops-content-marketing</loc>
+    <loc>https://marketingexamples.com/referral/viral-loops-content-marketing</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- goodwill -->
   <url>
-    <loc>https://marketingexamples.com/goodwill/intercom-goodwill</loc>
+    <loc>https://marketingexamples.com/goodwill/build-customer-goodwill</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
     <!-- seo -->
   <url>
-    <loc>https://marketingexamples.com/seo/long-tail-keywords</loc>
+    <loc>https://marketingexamples.com/seo/dominate-long-tail-keywords</loc>
     <lastmod>2019-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
     <!-- conversion -->
   <url>
-    <loc>https://marketingexamples.com/conversion/sign-up-field-which-converts</loc>
+    <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>
+    <lastmod>2019-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/conversion/newsletter</loc>
     <lastmod>2019-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

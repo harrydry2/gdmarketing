@@ -1,6 +1,5 @@
 import './sass/styles.sass';
 import axios from 'axios';
-// import algoliasearch from 'algoliasearch';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { mailPopup, mailSubmitFromPost } from './modules/mailPopup';
@@ -76,19 +75,3 @@ if ($('.postNoScroll')) {
 
 // popup from homepage (also if close post page)
 postPopup(Array.from($$('.card')));
-
-// const client = algoliasearch('5E0AQ9NLML', '7d9052aece14bf435bb151b3e44da2d9');
-// const index = client.initIndex('cards');
-
-// index.search(
-//   {
-//     query: 'Reddit',
-//     // attributesToRetrieve: ['firstname', 'lastname'],
-//     hitsPerPage: 50,
-//   },
-//   function searchDone(err, content) {
-//     if (err) throw err;
-
-//     console.log(content.hits);
-//   }
-// );

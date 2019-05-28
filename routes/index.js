@@ -6,6 +6,7 @@ const postController = require('../controllers/postController');
 const emailController = require('../controllers/emailController');
 
 router.get('/', mainController.home);
+router.get('/slack', mainController.slack);
 router.get('/sitemap.xml', mainController.xml);
 router.get('/subscribe', emailController.subscribePage);
 // api

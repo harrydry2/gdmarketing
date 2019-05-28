@@ -15,6 +15,10 @@ exports.home = async (req, res) => {
   res.render('./home/ext', { cards });
 };
 
+exports.slack = async (req, res) => {
+  res.render('./home/slack');
+};
+
 exports.xml = async (req, res) => {
   res.contentType('application/xml');
   res.sendFile(path.join(__dirname, 'sitemap.xml'));

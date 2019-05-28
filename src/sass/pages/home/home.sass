@@ -21,17 +21,34 @@
       @media screen and (max-width: 768px)
         border: none
       &-icons
-        @media screen and (max-width: 940px)
-          display: none
+        display: flex
+        align-items: center
+        height: 5.2rem
+        // @media screen and (max-width: 940px)
+        //   display: none
+        @media screen and (max-width: 768px)
+          height: 4.6rem
+        a
+          margin-left: 1.8rem
+          font-size: 1.5rem
+          text-transform: uppercase
+          font-weight: bold
+          color: $brand
+          @media screen and (max-width: 768px)
+            margin-left: 1.4rem
+          &:nth-child(2)
+            margin-left: 1.8rem
+            @media screen and (max-width: 768px)
+              margin-left: 1.4rem
       &-wrap
-        padding: 1rem 2.2rem
+        padding: 1rem 2.6rem 1rem 2.2rem
         display: flex
         align-items: center
         justify-content: space-between
         @media screen and (max-width: 768px)
-          padding: 2rem 2rem 0rem 2rem
+          padding: 2rem 2.4rem 0rem 2rem
         @media screen and (max-width: 360px)
-          padding: 1.8rem 1.8rem 0rem 1.8rem
+          padding: 1.8rem 2rem 0rem 1.8rem
         &-logoSmall
           display: none
           @media screen and (max-width: 940px)
@@ -103,6 +120,7 @@
   @media screen and (max-width: 940px)
     margin-right: 0rem
     max-width: none
+    display: none
   @media screen and (max-width: 768px)
     height: 4.6rem
   &__icon

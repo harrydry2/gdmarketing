@@ -12,8 +12,11 @@ mixin home(cards, activeFilters, title, displaynone = "")
           a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")
           .search
             .search__icon!=icon("search")
-            input(placeholder="Search for marketing ideas here").search__inner-text
+            input(placeholder="Search for marketing ideas here (doesn't work)").search__inner-text
           .home__right-header-icons
+            a(href="/subscribe") Get new tips
+            //- a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("mail")
+            a(href="/slack")!=icon("slackSVG")
             a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("twitter")
       if (title)
         h1.filterH1 #{title} Marketing Examples

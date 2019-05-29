@@ -51,7 +51,6 @@ filterArray.forEach(filterItem => {
 });
 
 if (!$('.slack')) {
-  console.log('bitch');
   const hmButton = $('.hm__button');
   const hmFilters = $('.hm__filters');
   hmButton.on('click', () => {

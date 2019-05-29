@@ -57,9 +57,10 @@ export function postPopup(cards) {
     closePopup();
   });
 
-  // close on click
-  $('.outerPost').on('click', e => {
-    closePopup();
+  document.on('click', e => {
+    if (e.target.classList.contains('outerPost')) {
+      closePopup();
+    }
   });
 
   // close on esc

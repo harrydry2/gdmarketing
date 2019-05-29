@@ -3,6 +3,9 @@ import { $, $$ } from './bling';
 import { mailSubmitAddOn } from './mailPopup';
 
 function closePopup() {
+  // post scroll to top on close
+  console.log('run');
+  $('.post').scrollTop = 0;
   // remove outer post
   $('.outerPost').style.display = 'none';
   // remove no scroll and post no scroll
@@ -49,7 +52,13 @@ export function postPopup(cards) {
   });
 
   // close on click
-  $('.outerPost__close').on('click', () => {
+  $('.outerPost__close').on('click', e => {
+    e.stopPropagation();
+    closePopup();
+  });
+
+  // close on click
+  $('.outerPost').on('click', e => {
     closePopup();
   });
 

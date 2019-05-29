@@ -1,13 +1,24 @@
 extends base
 
-include ./mixins/home
 include ./mixins/mail
-include ./mixins/cardPopup
 
 block content
   .iosOverflow
-    p Hi, haven't actually made the slack group yet. I'm a member of a bunch of Marketing Slack groups and all the free one's just get overloaded with self-promotion. For this reason, I'm thinking about making it a paid channel. Creating a genuinely good space to learn about marketing, get advice and improve. If you're interested in joining please send an email to&nbsp;
-      a(href="mailto:harrydry1996@gmail.com") harrydry1996@gmail.com
-      |&nbsp;with your thoughts.
-    p Cheers, Harry
-    +mail(subscribePage)
+    .slack
+      p Hi. There is no Slack atm. I'm a member of a bunch of Marketing Slack groups and they all just get overloaded with self-promotion.
+      br
+      br
+      p I'm thinking about making the Slack a paid channel, to filter out the bs, and so people can actualy have genuinely useful discussions.
+      br
+      br
+      p Also thinking about bundling the Slack group with premium memberships where some of the best articles will go. If this might interest you please dm me&nbsp;
+        a(href="https://twitter.com/harrydry" target="_blank").slacka @harrydry
+        |&nbsp;on twitter. Some places will be given out free.
+      br
+      br
+      p Cheers, Harry
+      br
+      br
+      p To go back to the website,&nbsp;
+        a(href="/").slacka click here :)
+    +mail()

@@ -50,28 +50,32 @@ filterArray.forEach(filterItem => {
   });
 });
 
-const hmButton = $('.hm__button');
-const hmFilters = $('.hm__filters');
-hmButton.on('click', () => {
-  const it1 = 'Show filters';
-  const it2 = 'Show marketing ideas';
-  if (hmButton.innerText === it1) {
-    hmButton.innerText = it2;
-  } else {
-    hmButton.innerText = it1;
-  }
-  hmFilters.classList.toggle('hm__filters-active');
-  $('.iosOverflow').classList.toggle('noScroll');
-});
+if (!$('.slack')) {
+  console.log('bitch');
+  const hmButton = $('.hm__button');
+  const hmFilters = $('.hm__filters');
+  hmButton.on('click', () => {
+    const it1 = 'Show filters';
+    const it2 = 'Show marketing ideas';
+    if (hmButton.innerText === it1) {
+      hmButton.innerText = it2;
+    } else {
+      hmButton.innerText = it1;
+    }
+    hmFilters.classList.toggle('hm__filters-active');
+    $('.iosOverflow').classList.toggle('noScroll');
+  });
+}
 
 // mailPopup
 mailPopup();
 
 // only if Post page
 if ($('.postNoScroll')) {
-  console.log('beans');
   mailSubmitFromPost();
 }
 
 // popup from homepage (also if close post page)
-postPopup(Array.from($$('.card')));
+if (!$('.slack')) {
+  postPopup(Array.from($$('.card')));
+}

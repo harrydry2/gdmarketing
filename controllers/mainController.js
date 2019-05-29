@@ -24,6 +24,11 @@ exports.xml = async (req, res) => {
   res.sendFile(path.join(__dirname, 'sitemap.xml'));
 };
 
+exports.txt = async (req, res) => {
+  res.contentType('text/plain');
+  res.sendFile(path.join(__dirname, 'robots.txt'));
+};
+
 exports.lazy = async (req, res) => {
   let cards;
   const { page } = req.params || 1;

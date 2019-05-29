@@ -18,7 +18,7 @@ function submitMail(button, red, input) {
         email: input.value,
       });
       red.style.color = '#00c26e';
-      red.innerText = `Sweet! Just sent an email :)`;
+      red.innerText = `Sweet! Look out for an email sooooon :)`;
     } else {
       red.style.color = '#D0021B';
       red.innerText = 'Not a valid email. Try again.';

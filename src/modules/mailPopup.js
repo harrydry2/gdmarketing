@@ -52,7 +52,7 @@ export function mailPopup() {
     setTimeout(() => {
       outerMail.style.display = 'flex';
       $('.iosOverflow').classList.add('mailNoScroll');
-    }, 25000);
+    }, 40000);
   }
 
   mailClose.on('click', () => {

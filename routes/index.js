@@ -17,6 +17,8 @@ router.get('/api/getpCard', mainController.getpCard);
 router.get('/api/postideas', mainController.postideas);
 router.post('/api/subscribe', emailController.subscribe);
 
+router.get('/api/emails', emailController.get);
+
 // posts
 router.get('/:filter/:slug', postController.post);
 

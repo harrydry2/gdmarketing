@@ -14,15 +14,26 @@ function submitMail(button, red, input) {
     red.style.display = 'block';
     if (validateEmail(input.value)) {
       window.localStorage.setItem('onEmailList', 'true');
-      await axios.post('/api/subscribe', {
+      const { data } = await axios.post('/api/subscribe', {
         email: input.value,
       });
-      red.style.color = '#00c26e';
-      red.innerText = `Sweet! Look out for an email sooooon :)`;
+      if (data.email === 'true') {
+        red.style.color = '#00c26e';
+        red.innerText = `Sweet! Look out for an email sooooon :)`;
+      }
+      if (data.email === 'duplicate') {
+        red.style.color = '#D0021B';
+        red.innerText = 'Email already signed up';
+      }
+      if (data.email === 'dunno') {
+        red.style.color = '#D0021B';
+        red.innerText = 'Unknown error. Tweet @harrydry';
+      }
     } else {
       red.style.color = '#D0021B';
       red.innerText = 'Not a valid email. Try again.';
     }
+    input.value = '';
   });
 }
 

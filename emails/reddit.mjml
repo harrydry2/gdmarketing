@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0px 22px 0px 22px" />
+      <mj-section background-color="#fff" padding="20px 0px 20px 0px" />
+      <mj-column padding="0" />
+      <mj-text padding="0" />
+      <mj-image padding="0" />
+      <mj-class name="p" font-size="16px" padding="9px 0px 9px 0px" line-height="28px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" />
+    </mj-attributes>
+    <mj-style>
+      a {
+        color: #4742DE;
+        font-weight: 500;
+        text-decoration: none
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section>
+        <mj-column>
+          <mj-image width="200px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo.png" padding-top="9px"></mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="p"><a href="https://www.thomascook.com/" target="_blank">Thomas Cook</a> is a travel company, who provide package holidays to hundreds of destinations around the world. This article gives a step by step breakdown of how they uncovered a huge SEO opportunity.</mj-text>
+          <mj-text mj-class="h2">Keyword Research</mj-text>
+          <mj-text mj-class="p">The first step in any SEO journey is <span class="bold">keyword research</span>. Put yourself in the shoes of your customer and think about the sort of things they might type into Google.</mj-text>
+          <mj-text mj-class="p">Cheers, <br>Harry (<a href="https://twitter.com/harrydry" target="_blank">@harrydry</a>) </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

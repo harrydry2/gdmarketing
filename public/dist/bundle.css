@@ -200,6 +200,31 @@ p {
 .filterH1 {
   padding: 3rem 0rem 0.8rem 3rem; }
 
+.harry {
+  position: fixed;
+  background: #fff;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 3px;
+  padding: 0.8rem;
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 940px) {
+    .harry {
+      display: none; } }
+  .harry__img {
+    border-radius: 100px;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 0.8rem; }
+  .harry__text {
+    font-size: 1.5rem;
+    color: #030212;
+    opacity: 0.9; }
+
 .fillSVG > * {
   fill: #030212; }
 
@@ -218,7 +243,7 @@ p {
     .twitterSVG {
       height: 2.1rem; } }
   .twitterSVG > * {
-    fill: #333; }
+    fill: #4742DE; }
 
 .slackSVG {
   height: 2.5rem; }
@@ -648,7 +673,7 @@ p {
   align-items: center;
   position: fixed;
   display: flex;
-  z-index: 3;
+  z-index: 4;
   left: 0;
   top: 0;
   height: 100%;
@@ -782,7 +807,8 @@ p {
     font-weight: bold;
     padding: 2rem 0.76rem;
     text-transform: uppercase;
-    line-height: 1.4; }
+    line-height: 1.4;
+    color: #4742DE; }
     @media screen and (max-width: 550px) {
       .content h2 {
         padding: 1.6rem 2rem; } }
@@ -825,8 +851,8 @@ p {
     .content .list__bottom {
       padding-bottom: 0.76rem; }
   .content a {
-    color: #4742DE;
-    font-weight: 500; }
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #030212; }
   .content img {
     border: 8px solid #ffdddd;
     margin: 4rem auto;
@@ -904,4 +930,7 @@ p {
       font-weight: 600;
       letter-spacing: 0.6px;
       margin-right: 3rem; }
+    .undera__center-twitter {
+      border-bottom: none !important;
+      padding: 0 !important; }
 

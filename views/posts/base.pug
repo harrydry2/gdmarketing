@@ -1,5 +1,6 @@
 include ../home/mixins/home
 include ../home/mixins/mail
+include ../home/mixins/harry
 include ./mixins/card
 
 doctype html
@@ -55,5 +56,6 @@ html(lang='en')
               .mail__bc-red
       +home(cards, activeFilters)
       +mail()
+      +harry()
   block scripts
     script(src="/dist/bundle.js")

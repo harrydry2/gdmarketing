@@ -2,6 +2,7 @@ extends ../home/base
 include ../home/mixins/home
 include ../home/mixins/mail
 include ../home/mixins/cardPopup
+include ../home/mixins/harry
 
 block head
   title #{title} Marketing Examples
@@ -19,3 +20,4 @@ block content
     +home(cards, activeFilters, title)
     +mail()
     +cardPopup()
+    +harry()

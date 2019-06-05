@@ -130,3 +130,28 @@ p
 .filterH1
   padding: 3rem 0rem 0.8rem 3rem
 
+.harry
+  position: fixed
+  background: #fff
+  z-index: 3
+  right: 0
+  bottom: 0
+  border-top-left-radius: 3px
+  padding: 0.8rem
+  border-top: 1px solid hsla(0, 0%, 90%, 1)
+  border-left: 1px solid hsla(0, 0%, 90%, 1)
+  display: flex
+  align-items: center
+  @media screen and (max-width: 940px)
+    display: none
+  &__img
+    border-radius: 100px
+    width: 2.4rem
+    height: 2.4rem
+    margin-right: 0.8rem
+  &__text
+    font-size: 1.5rem
+    color: $black
+    opacity: 0.9
+
+

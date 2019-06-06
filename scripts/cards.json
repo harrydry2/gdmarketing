@@ -1,6 +1,18 @@
 [
   {
     "num": "1",
+    "title": "How to self promote on Reddit",
+    "sUrl": "https://trennd.co/",
+    "sText": "Trennd",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "self-promote-on-reddit",
+    "img": "sharing-on-reddit",
+    "imgType": "jpg",
+    "desc": "Starter Story Coming soon ..."
+  },
+  {
+    "num": "1",
     "title": "How step by step keyword research led to an SEO goldmine",
     "sUrl": "https://www.thomascook.com/holidays/weather/",
     "sText": "Thomas Cook",
@@ -178,17 +190,5 @@
     "img": "fortnite",
     "imgType": "jpg",
     "desc": "Fortnite Coming soon ..."
-  },
-  {
-    "num": "1",
-    "title": "How to share content effectively on Reddit",
-    "sUrl": "https://starterstory.com",
-    "sText": "Starter Story",
-    "tFront": "Content",
-    "tBack": "content",
-    "slug": "sharing-on-reddit",
-    "img": "sharing-on-reddit",
-    "imgType": "jpg",
-    "desc": "Starter Story Coming soon ..."
   }
 ]

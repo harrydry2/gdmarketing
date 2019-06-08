@@ -856,8 +856,7 @@ p {
   .content img {
     border: 8px solid #ffdddd;
     margin: 4rem auto;
-    display: block;
-    box-shadow: 0 15px 35px 0 rgba(50, 50, 93, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.07); }
+    display: block; }
     @media screen and (max-width: 550px) {
       .content img {
         margin: 3rem auto;

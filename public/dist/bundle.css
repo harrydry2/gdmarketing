@@ -863,13 +863,19 @@ p {
         width: 100%;
         border: none;
         border-top: 5px solid #ffdddd;
-        border-bottom: 5px solid #ffdddd;
-        box-shadow: none; } }
+        border-bottom: 5px solid #ffdddd; } }
   .content video {
     border: 8px solid #ffdddd;
     margin: 4rem auto;
     display: block;
     cursor: pointer; }
+    @media screen and (max-width: 550px) {
+      .content video {
+        margin: 3rem auto;
+        width: 100%;
+        border: none;
+        border-top: 5px solid #ffdddd;
+        border-bottom: 5px solid #ffdddd; } }
 
 .img__70 {
   width: 70%; }

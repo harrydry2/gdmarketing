@@ -19,7 +19,7 @@ function submitMail(button, red, input) {
       });
       if (data.email === 'true') {
         red.style.color = '#00c26e';
-        red.innerText = `Just sent an email - check spam :)`;
+        red.innerText = `Check your inbox - also spam :)`;
       }
       if (data.email === 'duplicate') {
         red.style.color = '#D0021B';

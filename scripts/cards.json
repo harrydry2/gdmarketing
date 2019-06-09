@@ -1,6 +1,18 @@
 [
   {
     "num": "1",
+    "title": "How Phil Knight sold the first Nikes",
+    "sUrl": "https://nike.com/",
+    "sText": "Nike",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "how-phil-knight-sold-nikes",
+    "img": "nike",
+    "imgType": "jpg",
+    "desc": "Reddit is a bit of an untapped goldmine for marketers. The site is made up of thousands of niche communities (subreddits). This gives an opportunity to communicate directly with your audience."
+  },
+  {
+    "num": "1",
     "title": "The key to self promotion on Reddit",
     "sUrl": "https://trennd.co/",
     "sText": "Trennd",

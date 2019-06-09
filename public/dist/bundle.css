@@ -553,6 +553,9 @@ p {
 .ct__conversion {
   background: #eacdcd; }
 
+.ct__direct {
+  background: #ffd6f1; }
+
 .outerMail {
   justify-content: center;
   align-items: center;

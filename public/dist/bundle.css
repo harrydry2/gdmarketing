@@ -471,6 +471,38 @@ p {
     .outerCard {
       grid-template-columns: 1fr; } }
 
+.sponsor {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    .sponsor {
+      height: 22rem;
+      grid-row-start: 3;
+      grid-row-end: 4; } }
+  .sponsor__inner {
+    width: 30rem; }
+    .sponsor__inner-p {
+      font-size: 1.5rem;
+      line-height: 1.3;
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-bottom: 1.6rem; }
+    .sponsor__inner-button {
+      display: inline-flex;
+      background-color: #4742DE;
+      padding: 1rem;
+      font-size: 1.2rem;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px; }
+  .sponsor img {
+    width: 4rem; }
+
 .card {
   padding: 0.9rem;
   height: 23.9rem;

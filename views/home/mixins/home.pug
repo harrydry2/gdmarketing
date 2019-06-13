@@ -21,6 +21,11 @@ mixin home(cards, activeFilters, title, displaynone = "")
       if (title)
         h1.filterH1 #{title} Marketing Examples
       ul.outerCard
+        .sponsor
+          .sponsor__inner
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/heymarketers1.png", target="_blank" alt="Hey Marketers")
+            .sponsor__inner-p Discover The Best Marketing Jobs In Tech, SaaS, & E-Commerce
+            a.sponsor__inner-button(href="https://www.heymarketers.com?ref=marketingexamples") Get hired
         each card in cards
           +card(card)
       //- .outerLoader

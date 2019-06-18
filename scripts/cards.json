@@ -1,6 +1,18 @@
 [
   {
     "num": "1",
+    "title": "I like Revue's newsletter sign up flow",
+    "sUrl": "https://www.getrevue.co/",
+    "sText": "Revue",
+    "tFront": "Direct",
+    "tBack": "direct",
+    "slug": "newsletter-signup-flow",
+    "img": "revue",
+    "imgType": "jpg",
+    "desc": "The story of how Phil Knight and Jeff Johnson drove to track meets all over the Pacific Northwest and sold more shoes than you can imagine out of the boots of their car."
+  },
+  {
+    "num": "1",
     "title": "How Nike sold its first 50,000 shoes",
     "sUrl": "https://nike.com/",
     "sText": "Nike",

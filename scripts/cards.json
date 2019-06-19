@@ -1,15 +1,15 @@
 [
   {
     "num": "1",
-    "title": "I like Revue's newsletter sign up flow",
+    "title": "An improved newsletter sign up flow",
     "sUrl": "https://www.getrevue.co/",
     "sText": "Revue",
-    "tFront": "Direct",
-    "tBack": "direct",
+    "tFront": "Conversion",
+    "tBack": "conversion",
     "slug": "newsletter-signup-flow",
     "img": "revue",
     "imgType": "jpg",
-    "desc": "The story of how Phil Knight and Jeff Johnson drove to track meets all over the Pacific Northwest and sold more shoes than you can imagine out of the boots of their car."
+    "desc": "How asking to be added to your recipients' address book results in improved email open rates"
   },
   {
     "num": "1",

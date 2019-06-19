@@ -66,12 +66,13 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
-          <mj-text mj-class="h1" align="center">A very warm welcome</mj-text>
-          <mj-text mj-class="p">Firstly, thank you very much for subscribing. It feels awesome to know that people enjoy reading my articles and like to learn from real-world examples.</mj-text>
-          <mj-text mj-class="p">One favour to ask is that you add this address to your contacts list. If you click the 3 dots on the right-hand side of Gmail it should be an option in the dropdown. This prevents the emails ending up in spam.</mj-text>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">Welcome</mj-text>
+          <mj-text mj-class="p">It feels awesome to know that people enjoy reading my articles and like to learn from real-world examples. Thank you for subscribing.</mj-text>
           <mj-text mj-class="p">The best place to stay up to date is on <a class="underA semibold" href="https://twitter.com/goodmarketingHQ" target="_blank">twitter</a> where I distill each example into an easy to digest thread.</mj-text>
-          <mj-text mj-class="p">Cheers, <br>Harry (<a class="underA" href="https://twitter.com/harrydry" target="_blank">@harrydry</a>), founder of Marketing Examples</mj-text>
+          <mj-text mj-class="p">Whilst you're here, one big favour to ask is that you whitelist this email address. It prevents the marketing tips going to spam:</mj-text>
+          <mj-text mj-class="p">On Gmail Web: <span class="italic">3 grey dots > Add to Contacts List</span></br>On Gmail App (if in junk / promotions): <span class="italic">3 white dots > Move to > Primary</span></br>On iPhone (if in junk): <span class="italic">Swipe left on mail > More > Mark > Not as junk</span></mj-text>
+          <mj-text mj-class="p">Cheers, <br>Harry</mj-text>
           <mj-text mj-class="p ps">p.s - you can reply to this email to get in touch with me. Happy to answer any marketing questions. Feedback on the site or ideas for articles are also great.</mj-text>
         </mj-column>
       </mj-section>
@@ -79,7 +80,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

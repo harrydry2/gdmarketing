@@ -876,6 +876,11 @@ p {
     @media screen and (max-width: 550px) {
       .content .inwardSpeech {
         padding: 1rem 3.4rem; } }
+  .content .letter {
+    padding: 0.76rem 5rem; }
+    @media screen and (max-width: 550px) {
+      .content .letter {
+        padding: .7rem 3.4rem; } }
   .content .list {
     padding: 0.1rem 0.76rem 0.1rem 2rem;
     display: block; }

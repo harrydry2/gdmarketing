@@ -12,6 +12,18 @@
     "desc": "140 Canvas printed bespoke canvas', posted them to the PO boxes of YouTubers around the world and ended up with their product getting seen by over 3.7 million people."
   },
   {
+    "num": "10",
+    "title": "How Fortnite changed the way video games were marketed",
+    "sUrl": "https://www.epicgames.com/fortnite",
+    "sText": "Fortnite",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "fortnite-changed-marketing",
+    "img": "fortnite",
+    "imgType": "jpg",
+    "desc": "How Fortnite flipped the growth funnel on its head and forever changed the way video games are marketed."
+  },
+  {
     "num": "1",
     "title": "A much improved newsletter sign up flow",
     "sUrl": "https://www.getrevue.co/",
@@ -214,17 +226,5 @@
     "img": "free-bathing-suit-giveaway",
     "imgType": "jpg",
     "desc": "Sunny Co Clothing Coming soon ..."
-  },
-  {
-    "num": "10",
-    "title": "What Fortnite can teach us about virality",
-    "sUrl": "https://www.epicgames.com/fortnite",
-    "sText": "Fortnite",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "fortnite-viral-marketing",
-    "img": "fortnite",
-    "imgType": "jpg",
-    "desc": "Fortnite Coming soon ..."
   }
 ]

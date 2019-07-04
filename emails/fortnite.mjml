@@ -1,0 +1,116 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
+          <mj-text mj-class="h1" align="center">#005 - How Fortnite changed the way video games were marketed</mj-text>
+          <mj-text mj-class="p">Flashback to 2017. My friend Giles and I set up a small business allowing anyone to design their own tweets and purchase them as canvas prints.</mj-text>
+          <mj-text mj-class="p">Sales were dwindling. We had £200 left in the bank and needed to get eyeballs on our product in the run-up to Christmas.</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas1.jpg" alt="140 Canvas"></mj-image>
+          <mj-text mj-class="h2">Giles' Idea</mj-text>
+          <mj-text mj-class="p">At this time Giles sent me a Casey Neistat video where he opens fan mail on camera. He said we should post Casey one of our canvases in the hope that he'd open it on camera and we’d get some exposure.</mj-text>
+          <mj-text mj-class="p">It sounded wacky. But I agreed it was a worth a shot.</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas2.jpg" alt="Casey Mail Time"></mj-image>
+          <mj-text mj-class="p">We found ten YouTubers who did these "Mail Time" videos, wrote ten funny tweets, printed them off as A1 Canvases, and shipped them to their PO boxes around the world.</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas3.jpg" alt="Casey Mail Time"></mj-image>
+          <mj-text mj-class="h2">The results</mj-text>
+          <mj-text mj-class="p">A couple of weeks passed and a YouTuber called Chilly opened one of our canvases on camera. She was so impressed that she gave us a free shoutout and pinned my comment to the top of her video. This video ended up with <span class="bold">3.3 million views</span>.</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas6.png" alt="Casey Mail Time"></mj-image>
+          <mj-text mj-class="p">A few more weeks passed and another YouTuber called Sodapoppin opened our canvas on camera. That video ended up with 400k views. I edited a short YouTube video showing our Mail Time coverage <a class="underA" href="https://www.youtube.com/watch?v=oXGF2_D-Cqo" target="_blank"> here<a /></mj-text>
+          <mj-text mj-class="p">And that was that. <span class="bold">£250</span> spent. <span class="bold">2/10</span> canvases opened. <span class="bold">3.7</span> million views. <span class="bold">17k</span> uniques our site. Can't really complain.</mj-text>
+          <mj-text mj-class="h2">Why it worked</mj-text>
+          <mj-text mj-class="p">Having watched countless Mail Time videos to prepare I think it came down getting these things right:</mj-text>
+          <mj-text mj-class="p list list__top">&#x2022; Dozens of personal touches</mj-text>
+          <mj-text mj-class="p list">&#x2022; Coming across like a genuine fan</mj-text>
+          <mj-text mj-class="p list list__bottom">&#x2022; Being a plucky underdog</mj-text>
+          <mj-text mj-class="p">This email is plenty long enough, so if you want to know the <span class="bold">specific steps</span> and <span class="bold">actual letters</span> we sent take take a look at the full case study.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="buttonSection">
+        <mj-column>
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/giveaway/youtube-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_4">
+            <span class="brand semibold"> Read the full story </span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-text mj-class="p">If you're enjoying the tips following on <a class="underA" href="https://twitter.com/GoodMarketingHQ" target="_blank">twitter</a> keeps me motivated. Building out a community forum atm :)</mj-text>
+          <mj-text mj-class="p">Cheers, <br>Harry</mj-text>
+          <mj-text mj-class="p">p.s. - to get in touch just reply to this email :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="{{UnsubscribeURL}}" target="_blank">Marketing Examples</a> | <a class="unsub" href="">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -15,6 +15,12 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>https://marketingexamples.com/direct</loc>
+    <lastmod>2019-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>https://marketingexamples.com/viral</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
@@ -87,6 +93,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- direct -->
+  <url>
+    <loc>https://marketingexamples.com/direct/how-nike-sold-first-shoes</loc>
+    <lastmod>2019-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- viral -->
   <url>
     <loc>https://marketingexamples.com/viral/piggyback-viral-trends</loc>
@@ -101,22 +114,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/viral/fortnite-viral-marketing</loc>
-    <lastmod>2019-05-18</lastmod>
+    <loc>https://marketingexamples.com/viral/fortnite-changed-marketing</loc>
+    <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- giveaway -->
   <url>
-    <loc>https://marketingexamples.com/giveaway/free-bathing-suit-giveaway</loc>
-    <lastmod>2019-05-18</lastmod>
+    <loc>https://marketingexamples.com/giveaway/youtube-marketing</loc>
+    <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- content -->
   <url>
-    <loc>https://marketingexamples.com/content/sharing-on-reddit</loc>
-    <lastmod>2019-05-18</lastmod>
+    <loc>https://marketingexamples.com/content/self-promote-on-reddit</loc>
+    <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -151,6 +164,12 @@
   <url>
     <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>
     <lastmod>2019-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/conversion/newsletter-signup-flow</loc>
+    <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

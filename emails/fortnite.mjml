@@ -20,6 +20,7 @@
       <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
       <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
       <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
       <mj-class name="img300" width="300px" fluid-on-mobile="true" />
       <mj-class name="img350" width="350px" fluid-on-mobile="true" />
       <mj-class name="img400" width="400px" fluid-on-mobile="true" />
@@ -68,38 +69,32 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
           <mj-text mj-class="h1" align="center">#005 - How Fortnite changed the way video games were marketed</mj-text>
-          <mj-text mj-class="p">Flashback to 2017. My friend Giles and I set up a small business allowing anyone to design their own tweets and purchase them as canvas prints.</mj-text>
-          <mj-text mj-class="p">Sales were dwindling. We had £200 left in the bank and needed to get eyeballs on our product in the run-up to Christmas.</mj-text>
-          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas1.jpg" alt="140 Canvas"></mj-image>
-          <mj-text mj-class="h2">Giles' Idea</mj-text>
-          <mj-text mj-class="p">At this time Giles sent me a Casey Neistat video where he opens fan mail on camera. He said we should post Casey one of our canvases in the hope that he'd open it on camera and we’d get some exposure.</mj-text>
-          <mj-text mj-class="p">It sounded wacky. But I agreed it was a worth a shot.</mj-text>
-          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas2.jpg" alt="Casey Mail Time"></mj-image>
-          <mj-text mj-class="p">We found ten YouTubers who did these "Mail Time" videos, wrote ten funny tweets, printed them off as A1 Canvases, and shipped them to their PO boxes around the world.</mj-text>
-          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas3.jpg" alt="Casey Mail Time"></mj-image>
-          <mj-text mj-class="h2">The results</mj-text>
-          <mj-text mj-class="p">A couple of weeks passed and a YouTuber called Chilly opened one of our canvases on camera. She was so impressed that she gave us a free shoutout and pinned my comment to the top of her video. This video ended up with <span class="bold">3.3 million views</span>.</mj-text>
-          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/140canvas6.png" alt="Casey Mail Time"></mj-image>
-          <mj-text mj-class="p">A few more weeks passed and another YouTuber called Sodapoppin opened our canvas on camera. That video ended up with 400k views. I edited a short YouTube video showing our Mail Time coverage <a class="underA" href="https://www.youtube.com/watch?v=oXGF2_D-Cqo" target="_blank"> here<a /></mj-text>
-          <mj-text mj-class="p">And that was that. <span class="bold">£250</span> spent. <span class="bold">2/10</span> canvases opened. <span class="bold">3.7</span> million views. <span class="bold">17k</span> uniques our site. Can't really complain.</mj-text>
-          <mj-text mj-class="h2">Why it worked</mj-text>
-          <mj-text mj-class="p">Having watched countless Mail Time videos to prepare I think it came down getting these things right:</mj-text>
-          <mj-text mj-class="p list list__top">&#x2022; Dozens of personal touches</mj-text>
-          <mj-text mj-class="p list">&#x2022; Coming across like a genuine fan</mj-text>
-          <mj-text mj-class="p list list__bottom">&#x2022; Being a plucky underdog</mj-text>
-          <mj-text mj-class="p">This email is plenty long enough, so if you want to know the <span class="bold">specific steps</span> and <span class="bold">actual letters</span> we sent take take a look at the full case study.</mj-text>
+          <mj-text mj-class="h2">Before Fortnite</mj-text>
+          <mj-text mj-class="p">Before Fortnite came along, 99% of video games companies had a "top-down" approach to growth. Building <span class="bold">awareness</span> was the number one priority.</mj-text>
+          <mj-text mj-class="p">Take a look at this graph showing <span class="italic">interest over time</span> of two of the biggest games of 2018:</mj-text>
+          <mj-image mj-class="cImg img450" src="https://s3.amazonaws.com/harrydry/gdmarketing/fortnite2.png" alt="140 Canvas"></mj-image>
+          <mj-text mj-class="p">They'd splash the cash on a huge launch, sell 85% of gross revenue in the first week, toast a celebratory beer, and then move on to next years game.</mj-text>
+          <mj-text mj-class="p">Whilst this approach certainly works, it’s hardly a good use of the growth funnel. There’s not much <span class="bold">conversion</span>, <span class="bold">referral</span> and <span class="bold">retention</span> going on.</mj-text>
+          <mj-text mj-class="h2">Fortnite</mj-text>
+          <mj-text mj-class="p">When Fortnite launched in 2017, they didn’t have the budget or reputation of a Call of Duty. They couldn’t simply drum up <span class="bold">awareness</span> at will. So, instead of looking at growth "top-down" they were forced to look at it "bottom-up".</mj-text>
+          <mj-text mj-class="p">The theory was if they could nail <span class="bold">conversion</span>, <span class="bold">referral</span> and <span class="bold">retention</span> (the cheaper parts of the growth funnel) they could close up the leaks and lay some solid foundations for growth down the line.</mj-text>
+          <mj-text mj-class="p">Add Fortnite to the <span class="italic">interest over time</span> graph you’ll see this in action. There was no big launch spike, instead 9 months of slow and steady growth before momentum grew.</mj-text>
+          <mj-image mj-class="cImg img450" src="https://s3.amazonaws.com/harrydry/gdmarketing/fortnite3.png" alt="140 Canvas"></mj-image>
+          <mj-text mj-class="h2">CONVERSION / RETENTION / REFERRAL</mj-text>
+          <mj-text mj-class="p">If you're into the story check out the full case study where I break down <span class="bold">how Fortnite nailed each stage of the growth funnel</span> one by one.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/giveaway/youtube-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_4">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/viral/fortnite-changed-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_5">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>
       </mj-section>
       <mj-section mj-class="preSection">
         <mj-column>
-          <mj-text mj-class="p">If you're enjoying the tips following on <a class="underA" href="https://twitter.com/GoodMarketingHQ" target="_blank">twitter</a> keeps me motivated. Building out a community forum atm :)</mj-text>
+          <mj-text mj-class="p">Apologies for the delay in writing this one. This article is more ambitious than the others. Some simpler ones coming so the pace should go back to one a day.</mj-text>
+          <mj-text mj-class="p">If you're enjoying the tips following on <a class="underA" href="https://twitter.com/GoodMarketingHQ" target="_blank">twitter</a> keeps me motivated.</mj-text>
           <mj-text mj-class="p">Cheers, <br>Harry</mj-text>
           <mj-text mj-class="p">p.s. - to get in touch just reply to this email :)</mj-text>
         </mj-column>

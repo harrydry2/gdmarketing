@@ -993,6 +993,11 @@ span {
 
 .img__35 {
   width: 35%; }
+  @media screen and (max-width: 550px) {
+    .img__35 {
+      margin: 3rem auto !important;
+      width: 60% !important;
+      border: 5px solid #ffdddd !important; } }
 
 .img__30 {
   width: 30%; }

@@ -20,6 +20,7 @@
       <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
       <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
       <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
       <mj-class name="img250" width="250px" fluid-on-mobile="true" />
       <mj-class name="img300" width="300px" fluid-on-mobile="true" />
       <mj-class name="img350" width="350px" fluid-on-mobile="true" />
@@ -69,11 +70,18 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
           <mj-text mj-class="h1" align="center">#006 - How Tweet Photo grew purely through organic referral</mj-text>
-          <mj-text mj-class="p">Tweet Photo automatically posts your Instagram photos to Twitter. But instead of just linking the URL it embeds the full photo.</mj-text>
-          <mj-text mj-class="p">The trick is, at the end of every tweet “via <a href="https://tweet.photo/" class="underA" target="_blank">tweet.photo</a>” is appended.</mj-text>
-          <mj-image mj-class="cImg img350" src="https://s3.amazonaws.com/harrydry/gdmarketing/tweetphoto1.jpg" alt="140 Canvas"></mj-image>
+          <mj-text mj-class="p"><a href="https://tweet.photo/" class="underA" target="_blank">Tweet Photo</a> automatically posts your Instagram photos to Twitter. But instead of just linking the URL it embeds the full photo.</mj-text>
+          <mj-text mj-class="p">The trick is, at the end of every tweet “via tweet.photo” is appended.</mj-text>
+          <mj-image mj-class="cImg img350" src="https://s3.amazonaws.com/harrydry/gdmarketing/tweetphoto1.jpg" alt="Tweet Photo Zendeya"></mj-image>
           <mj-text mj-class="p">Yep, it's that simple. Why does it work?</mj-text>
           <mj-text mj-class="p">Well, <span class="bold">every user of Tweet Photo is also promoting Tweet Photo</span>. And given the product attracts highly sort after Instagram “influencers” this is seriously valuable.</mj-text>
+          <mj-text mj-class="p">Last week 1919 tweets were posted “via tweet.photo”. That's one every five minutes. Churn is so low that this number will keep going up and given the strength of the referral loop:</mj-text>
+          <mj-text mj-class="p inwardSpeech">More tweets => More awareness => More users => More tweets...</mj-text>
+          <mj-text mj-class="p">it wouldn't surprise me if Tweet Photo swept the Twittersphere.</mj-text>
+          <mj-image mj-class="cImg img200" src="https://s3.amazonaws.com/harrydry/gdmarketing/tweetphoto3.png" alt="Tweet Photo Cycle"></mj-image>
+          <mj-text mj-class="h2">How do I apply this?</mj-text>
+          <mj-text mj-class="p">Well, the lesson here isn’t to force your users to tweet “via [your startup]” every time they use your product. It’s to <span class="bold">set up systems in your product that encourage organic referral.</mj-text>
+          <mj-text mj-class="p">To read the full case study (including Tweet Photo's metrics) click below.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="buttonSection">

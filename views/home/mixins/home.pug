@@ -21,12 +21,12 @@ mixin home(cards, activeFilters, title, displaynone = "")
       if (title)
         h1.filterH1 #{title} Marketing Examples
       .outerCard
-        //- .sponsor
-        //-   .sponsor__inner
-        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/heymarketers1.png", target="_blank" alt="Hey Marketers")
-        //-     .sponsor__inner-p Word-of-mouth is the most genuine marketing
-        //-     a.sponsor__inner-button(href="https://www.heymarketers.com?ref=marketingexamples") Get hired
-        .sponsor
+        .sponsor.sponsor2
+          .sponsor__inner
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/heymarketers1.png", target="_blank" alt="Hey Marketers")
+            .sponsor__inner-p Discover The Best Marketing Jobs In Tech, SaaS, & E-Commerce
+            a.sponsor__inner-button(href="https://www.heymarketers.com?ref=marketingexamples") Get hired
+        .sponsor.sponsor1
           .sponsor__inner
             !=icon("rh2")
             .sponsor__inner-p Have you set up referral channels? <br>If not, you should try Referral Hero :)

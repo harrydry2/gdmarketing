@@ -471,19 +471,29 @@ p {
     .outerCard {
       grid-template-columns: 1fr; } }
 
-.sponsor {
+.sponsor1 {
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-column-start: 1; }
+  @media screen and (max-width: 768px) {
+    .sponsor1 {
+      height: 22rem;
+      grid-row-start: 3; } }
+
+.sponsor2 {
+  grid-row-start: 3;
+  grid-column-start: 2; }
+  @media screen and (max-width: 768px) {
+    .sponsor2 {
+      height: 22rem;
+      grid-row-start: 5;
+      grid-column-start: auto; } }
+
+.sponsor {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center; }
-  @media screen and (max-width: 768px) {
-    .sponsor {
-      height: 22rem;
-      grid-row-start: 3;
-      grid-row-end: 4; } }
   .sponsor__inner {
     width: 30rem; }
     .sponsor__inner-p {

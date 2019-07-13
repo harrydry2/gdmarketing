@@ -1,18 +1,6 @@
 [
   {
     "num": "1",
-    "title": "How Tweet Photo designed virality into its product",
-    "sUrl": "https://tweet.photo/",
-    "sText": "Tweet Photo",
-    "tFront": "Referral",
-    "tBack": "referral",
-    "slug": "design-virality-into-product",
-    "img": "tweetphoto",
-    "imgType": "jpg",
-    "desc": "How Tweet Photo grew from 0 to 1,700 users purely through organic referral."
-  },
-  {
-    "num": "1",
     "title": "Becoming an antifragile brand. Ft. Lewis Capaldi & KFC",
     "sUrl": "https://www.kfc.co.uk/",
     "sText": "KFC",
@@ -34,6 +22,18 @@
     "img": "fortnite",
     "imgType": "jpg",
     "desc": "How Fortnite flipped the growth funnel on its head and forever changed the way video games are marketed."
+  },
+  {
+    "num": "1",
+    "title": "How Tweet Photo designed virality into its product",
+    "sUrl": "https://tweet.photo/",
+    "sText": "Tweet Photo",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "design-virality-into-product",
+    "img": "tweetphoto",
+    "imgType": "jpg",
+    "desc": "How Tweet Photo grew from 0 to 1,700 users purely through organic referral."
   },
   {
     "num": "1",

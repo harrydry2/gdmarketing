@@ -872,11 +872,9 @@ p {
         padding: .7rem 2rem; } }
     .content p .bold {
       font-weight: 600;
-      white-space: nowrap;
       display: inline-block; }
     .content p .italic {
       font-style: italic;
-      white-space: nowrap;
       display: inline-block; }
   .content .speech {
     line-height: 1.8;

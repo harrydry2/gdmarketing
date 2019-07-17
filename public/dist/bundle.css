@@ -631,9 +631,9 @@ p {
       padding: 4rem 2rem 2rem 2rem; } }
   .mail__icon {
     position: absolute;
-    top: 18px;
-    right: 12px;
-    padding: 1rem;
+    top: 0px;
+    right: 0px;
+    padding: 3.6rem;
     cursor: pointer; }
   .mail h2 {
     font-weight: 600;

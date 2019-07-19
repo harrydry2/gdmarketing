@@ -480,12 +480,21 @@ p {
       grid-row-start: 3; } }
 
 .sponsor2 {
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-column-start: 2; }
   @media screen and (max-width: 768px) {
     .sponsor2 {
       height: 22rem;
-      grid-row-start: 5;
+      grid-row-start: 8;
+      grid-column-start: auto; } }
+
+.sponsor3 {
+  grid-row-start: 6;
+  grid-column-start: 1; }
+  @media screen and (max-width: 768px) {
+    .sponsor3 {
+      height: 22rem;
+      grid-row-start: 13;
       grid-column-start: auto; } }
 
 .sponsor {
@@ -511,7 +520,7 @@ p {
       font-weight: bold;
       border-radius: 5px; }
   .sponsor img {
-    width: 4rem; }
+    width: 4.6rem; }
 
 .card {
   padding: 0.9rem;
@@ -598,6 +607,9 @@ p {
 
 .ct__direct {
   background: #ffd6f1; }
+
+.ct__signalling {
+  background: #f3e2f3; }
 
 .outerMail {
   justify-content: center;

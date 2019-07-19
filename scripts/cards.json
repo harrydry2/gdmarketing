@@ -250,5 +250,17 @@
     "img": "ah1",
     "imgType": "jpg",
     "desc": "James Clear Coming soon ..."
+  },
+  {
+    "num": "1",
+    "title": "Why you shouldn't send an email (Signalling Theory)",
+    "sUrl": "https://www.youtube.com/watch?v=VYBOPPoiRRY",
+    "sText": "Patreon",
+    "tFront": "Signalling",
+    "tBack": "signalling",
+    "slug": "costly-signalling-theory",
+    "img": "patreon",
+    "imgType": "jpg",
+    "desc": "Why you shouldn't send an email (Signalling Theory)"
   }
 ]

@@ -485,7 +485,7 @@ p {
   @media screen and (max-width: 768px) {
     .sponsor2 {
       height: 22rem;
-      grid-row-start: 8;
+      grid-row-start: 9;
       grid-column-start: auto; } }
 
 .sponsor3 {
@@ -494,7 +494,7 @@ p {
   @media screen and (max-width: 768px) {
     .sponsor3 {
       height: 22rem;
-      grid-row-start: 13;
+      grid-row-start: 15;
       grid-column-start: auto; } }
 
 .sponsor {
@@ -520,7 +520,7 @@ p {
       font-weight: bold;
       border-radius: 5px; }
   .sponsor img {
-    width: 4.6rem; }
+    width: 4.8rem; }
 
 .card {
   padding: 0.9rem;

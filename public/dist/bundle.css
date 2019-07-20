@@ -883,11 +883,9 @@ p {
       .content p {
         padding: .7rem 2rem; } }
     .content p .bold {
-      font-weight: 600;
-      display: inline-block; }
+      font-weight: 600; }
     .content p .italic {
-      font-style: italic;
-      display: inline-block; }
+      font-style: italic; }
   .content .speech {
     line-height: 1.8;
     padding: 0rem 5rem; }
@@ -946,8 +944,10 @@ mark {
   background-color: rgba(254, 19, 19, 0.25); }
 
 span {
-  display: inline-block;
   line-height: initial; }
+
+.norm {
+  font-style: normal; }
 
 .ss1 {
   background-color: rgba(19, 217, 198, 0.25); }

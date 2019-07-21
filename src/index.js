@@ -25,6 +25,7 @@ lazyLoad(filterArray);
 filterArray.forEach(filterItem => {
   filterItem.on('click', async e => {
     // reset page settings for new filters
+    e.preventDefault();
     window.page = 2;
     window.busy = false;
     // toggle active state

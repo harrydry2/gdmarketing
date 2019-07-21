@@ -8,7 +8,7 @@ const emailController = require('../controllers/emailController');
 router.get('/', mainController.home);
 router.get('/slack', mainController.slack);
 router.get('/sitemap.xml', mainController.xml);
-router.get('/robots.txt', mainController.txt);
+// router.get('/robots.txt', mainController.txt);
 router.get('/subscribe', emailController.subscribePage);
 // api
 router.get('/api/lazy/:page/:filterParam', mainController.lazy);

@@ -18,6 +18,7 @@ function closePopup() {
 export function postPopup(cards) {
   cards.forEach(card => {
     card.on('click', async e => {
+      e.preventDefault();
       if (e.target.classList.contains('pCard__bottom-link-text')) {
         return;
       }

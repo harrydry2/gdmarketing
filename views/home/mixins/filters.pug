@@ -1,6 +1,6 @@
 mixin filter(fFilter, bFilter, activeFilters=[])
   - var active = activeFilters.indexOf(bFilter) > -1 ? "filters__active" : "";
-  .filters__spec(data-slug=`${bFilter}` data-term=`${bFilter}` class=active)
+  a.filters__spec(href=`/${bFilter}` data-slug=`${bFilter}` data-term=`${bFilter}` class=active)
     .filters__spec-inner
       .filters__spec-inner-icon!=icon(`./filters/${bFilter}`)
       .filters__spec-inner-text=fFilter

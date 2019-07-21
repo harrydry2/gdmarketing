@@ -62,6 +62,12 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/signalling</loc>
+    <lastmod>2019-06-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
   <!-- coldemail -->
   <url>
     <loc>https://marketingexamples.com/coldemail/best-sales-email-ever</loc>
@@ -120,12 +126,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/viral/design-virality-into-product</loc>
-    <lastmod>2019-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://marketingexamples.com/viral/antifragile-brand</loc>
     <lastmod>2019-06-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -145,9 +145,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/content/how-to-post-on-hacker-news</loc>
+    <lastmod>2019-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- referral -->
   <url>
     <loc>https://marketingexamples.com/referral/viral-loops-content-marketing</loc>
+    <lastmod>2019-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/referral/design-virality-into-product</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -172,7 +184,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-    <!-- conversion -->
+  <!-- conversion -->
   <url>
     <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>
     <lastmod>2019-05-21</lastmod>
@@ -188,6 +200,13 @@
   <url>
     <loc>https://marketingexamples.com/conversion/newsletter</loc>
     <lastmod>2019-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- conversion -->
+  <url>
+    <loc>https://marketingexamples.com/signalling/costly-signalling-theory</loc>
+    <lastmod>2019-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

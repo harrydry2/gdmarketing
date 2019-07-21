@@ -54,11 +54,13 @@ export function postPopup(cards) {
   // close on click
   $('.outerPost__close').on('click', e => {
     e.stopPropagation();
+    e.preventDefault();
     closePopup();
   });
 
   document.on('click', e => {
     if (e.target.classList.contains('outerPost')) {
+      e.preventDefault();
       closePopup();
     }
   });

@@ -240,6 +240,18 @@
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   },
   {
+    "num": "9",
+    "title": "How 2 minutes of personalisation transforms your cold emails",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Beamery",
+    "tFront": "Cold Email",
+    "tBack": "coldemail",
+    "slug": "write-personalised-cold-emails",
+    "img": "beamery",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
     "num": "1",
     "title": "If your priority is an email list get a /newsletter page",
     "sUrl": "https://jamesclear.com/newsletter",
@@ -248,6 +260,18 @@
     "tBack": "conversion",
     "slug": "newsletter",
     "img": "ah1",
+    "imgType": "jpg",
+    "desc": "James Clear Coming soon ..."
+  },
+  {
+    "num": "1",
+    "title": "How Jason Cohen does direct sales",
+    "sUrl": "https://wpengine.co.uk/",
+    "sText": "WP Engine",
+    "tFront": "Direct",
+    "tBack": "direct",
+    "slug": "jason-cohen-sales",
+    "img": "wpengine",
     "imgType": "jpg",
     "desc": "James Clear Coming soon ..."
   },

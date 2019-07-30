@@ -1,11 +1,13 @@
 extends ../base
 
 block content
-  p Back in February 2010, Jason Cohen had an idea. A new Wordpress hosting service, that would help with speed, scalability, and security.
+  p Back in February 2010,!{' '}
+    a(href="https://twitter.com/asmartbear") Jason Cohen
+    |!{' '}had an idea: A new Wordpress hosting service, that would help with speed, scalability, and security.
   p He now faced the challenge that everyone with a startup idea once faces:!{' '}
     span.italic How do I get my first customers
     | ?
-  p Jason's approach was simple and brilliant. He logged onto Linkedin, searched for people who were consultants in Wordpress and sent them all the following email:
+  p Jason's approach was simple and brilliant. He logged onto Linkedin, searched for Wordpress consultants and sent them the following email:
   img(src="https://harrydry.s3.amazonaws.com/gdmarketing/wpengine.png", alt="Jason Cohen's Sales Email").img__75
   h2 The results
   p Jason sent!{' '}
@@ -18,7 +20,9 @@ block content
     span.bold 30
     |!{' '}verbally agreed to pay!{' '}
     span.bold $50 / mo
-    |!{' '}once he’d built it.
+    |!{' '}once the product was ready.
+  p To quote Jason:
+  p.inwardSpeech Before I had a company name, before I had a powerpoint presentation, before I had any employees, before I had a server, before I had anything, I already had 30 customers willing to pay.
   h2 Why does it work so well?
   p Well, Jason's email is a masterclass.
   p He puts himself in the consultant's shoes, shows respect for their time, and even calls out the elephant in the room - that the majority of these emails are just people trying to grab your time. Oh, and it's an!{' '}
@@ -39,20 +43,26 @@ block content
     a(href="https://wpengine.com" target="_blank") WP Engine
     |!{' '}is a business with!{' '}
     span.bold 500+ employees
-    |!{' '}making in more than!{' '}
+    |!{' '}making more than!{' '}
     span.bold $100M / yr
     | .
   p I bet they've still got people logging onto Linkedin, finding Wordpress consultants, sending similar emails, just like Jason did nine years earlier.
+  h2 NOD OF APPRECIATION
+  p This example is taken from a talk Jason did at MicroConf 6 years ago, titled, “
+    a(href="https://vimeo.com/74338272" target="_blank") Designing the Ideal Bootstrapped Business
+    | ”. I'd definitely recommend it.
   h2 Support
   p If you liked the article sharing the thread on Twitter is really appreciated. Thank You!
-  blockquote.twitter-tweet(data-dnt='true', data-theme='light', data-link-color='#4742DE')
+  blockquote.twitter-tweet
     p(lang='en', dir='ltr')
-      | 🔥How Fortnite changed the way video games were marketed
+      | 🔥How Jason Cohen (
+      a(href='https://twitter.com/asmartbear?ref_src=twsrc%5Etfw') @asmartbear
+      | ) does direct sales.
       br
       br
       | THREAD ...
     | — Marketing Examples (@GoodMarketingHQ)
-    a(href='https://twitter.com/GoodMarketingHQ/status/1147175729853022209?ref_src=twsrc%5Etfw') July 5, 2019
+    a(href='https://twitter.com/GoodMarketingHQ/status/1156233854216298497?ref_src=twsrc%5Etfw') July 30, 2019
   script(async='', src='https://platform.twitter.com/widgets.js', charset='utf-8')
   p I'd like to thank&nbsp;
     a(href="https://emailoctopus.com/?ref=marketingexamples" target="_blank") EmailOctopus
@@ -60,3 +70,13 @@ block content
     span.bold fraction of the price
     |&nbsp;of MailChimp. Any questions, or help getting set up feel free to!{' '}
     a(href="mailto:harry@marketingexamples.com" target="_blank") email me.
+  .undera
+    .undera__center
+      .undera__center-text Share the article
+      a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com/direct/jason-cohen-sales&via=GoodMarketingHQ%20&text=${encodeURI("How Jason Cohen does direct sales")}` target="_blank")!=icon("twitter")
+  .addOnEmail
+    .mail__input
+      .mail__input-icon!=icon("mail")
+      input(placeholder="example@example.com")
+    .mail__button Get one new tip every day
+    .mail__bc-red

@@ -106,6 +106,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/direct/jason-cohen-sales</loc>
+    <lastmod>2019-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- viral -->
   <url>
     <loc>https://marketingexamples.com/viral/piggyback-viral-trends</loc>

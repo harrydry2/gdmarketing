@@ -48,6 +48,9 @@ export function postPopup(cards) {
       // push
       window.history.pushState('brother', 'Brother MInda', `../${tag}/${slug}`);
       document.title = title;
+      window.twttr.ready(twttr => {
+        twttr.widgets.load(document.getElementById('blockquote'));
+      });
     });
   });
 

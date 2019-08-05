@@ -63,7 +63,7 @@ export function mailPopup() {
     setTimeout(() => {
       outerMail.style.display = 'flex';
       $('.iosOverflow').classList.add('mailNoScroll');
-    }, 75000);
+    }, 120000);
   }
 
   mailClose.on('click', () => {

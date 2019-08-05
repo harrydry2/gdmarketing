@@ -92,7 +92,7 @@
           <mj-text mj-class="p">He finds a post relevant to his domain, offers thoughtful advice, and then links his own product. The result: <span class="bold">590</span> Hacker News users check out his website.</mj-text>
           <mj-text mj-class="h2">More</mj-text>
           <mj-text mj-class="p">Not going to lie, this is a <span class="bold">long and detailed</span> case study which I spent a while on. So if you'd like to read on, well ... you know what to do.</mj-text>
-          <mj-text mj-class="p">Quite fittingly, as I send this email, the case study is flying high on the front page of <a class="underA" href="https://news.ycombinator.com/" target="_blank">Hacker News</a> haha!</mj-text>
+          <mj-text mj-class="p">Quite fittingly, as I send this email, the case study is flying high on the front page of <a class="underA" href="https://news.ycombinator.com/" target="_blank">Hacker News</a> haha! Check out the discussion there :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="buttonSection">

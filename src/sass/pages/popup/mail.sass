@@ -35,9 +35,15 @@
   h2
     font-weight: 600
     font-size: 3.1rem
-    color: #000000
+    color: $black
     text-align: center
     line-height: 1.29
+  &__small
+    font-size: 1.3rem
+    color: $black
+    text-align: center
+    margin-top: 1.4rem
+    font-weight: 600
   &__tickouter
     display: inline-flex
     flex-direction: column
@@ -107,7 +113,17 @@
 
 .addOnEmail, .postEmail
   width: 32.8rem
-  margin: 4.6rem auto 3rem auto
+  margin: 3rem auto 3rem auto
+  &__header
+    .bold
+      font-weight: 600
   @media screen and (max-width: 424px)
     width: 100%
     padding: 0 2rem
+
+.postEmail
+  &__header
+    font-size: 1.4rem
+    margin-bottom: 3rem
+    text-align: center
+    line-height: 1.4

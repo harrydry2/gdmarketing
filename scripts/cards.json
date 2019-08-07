@@ -37,27 +37,15 @@
   },
   {
     "num": "1",
-    "title": "Costly Signalling Theory",
-    "sUrl": "https://www.youtube.com/watch?v=VYBOPPoiRRY",
-    "sText": "Patreon",
-    "tFront": "Signalling",
-    "tBack": "signalling",
-    "slug": "costly-signalling-theory",
-    "img": "patreon",
+    "title": "How Jeff Johnson sold Nike's first shoes",
+    "sUrl": "https://nike.com/",
+    "sText": "Nike",
+    "tFront": "Direct",
+    "tBack": "direct",
+    "slug": "how-nike-sold-first-shoes",
+    "img": "nike",
     "imgType": "jpg",
-    "desc": "An awareness of costly signalling theory is invaluable in understanding the psychology of marketing."
-  },
-  {
-    "num": "1",
-    "title": "Becoming an antifragile brand. Ft. Lewis Capaldi & KFC",
-    "sUrl": "https://www.kfc.co.uk/",
-    "sText": "KFC",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "antifragile-brand",
-    "img": "kfc",
-    "imgType": "jpg",
-    "desc": "What Lewis Capaldi and KFC can teach you about becoming an antifragile brand."
+    "desc": "The story of how Phil Knight and Jeff Johnson drove to track meets all over the Pacific Northwest and sold more shoes than you can imagine out of the boots of their car."
   },
   {
     "num": "10",
@@ -97,6 +85,18 @@
   },
   {
     "num": "1",
+    "title": "How step by step keyword research led to an SEO goldmine",
+    "sUrl": "https://www.thomascook.com/holidays/weather/",
+    "sText": "Thomas Cook",
+    "tFront": "Seo",
+    "tBack": "seo",
+    "slug": "step-by-step-keyword-research",
+    "img": "thomascook",
+    "imgType": "jpg",
+    "desc": "How keyword research led Thomas Cook to an SEO goldmine and which pulls in an additional 450,000 organic users per month ..."
+  },
+  {
+    "num": "1",
     "title": "A much improved newsletter sign up flow",
     "sUrl": "https://www.getrevue.co/",
     "sText": "Revue",
@@ -109,15 +109,27 @@
   },
   {
     "num": "1",
-    "title": "How Jeff Johnson sold Nike's first shoes",
-    "sUrl": "https://nike.com/",
-    "sText": "Nike",
-    "tFront": "Direct",
-    "tBack": "direct",
-    "slug": "how-nike-sold-first-shoes",
-    "img": "nike",
+    "title": "Costly Signalling Theory",
+    "sUrl": "https://www.youtube.com/watch?v=VYBOPPoiRRY",
+    "sText": "Patreon",
+    "tFront": "Signalling",
+    "tBack": "signalling",
+    "slug": "costly-signalling-theory",
+    "img": "patreon",
     "imgType": "jpg",
-    "desc": "The story of how Phil Knight and Jeff Johnson drove to track meets all over the Pacific Northwest and sold more shoes than you can imagine out of the boots of their car."
+    "desc": "An awareness of costly signalling theory is invaluable in understanding the psychology of marketing."
+  },
+  {
+    "num": "1",
+    "title": "Becoming an antifragile brand. Ft. Lewis Capaldi & KFC",
+    "sUrl": "https://www.kfc.co.uk/",
+    "sText": "KFC",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "antifragile-brand",
+    "img": "kfc",
+    "imgType": "jpg",
+    "desc": "What Lewis Capaldi and KFC can teach you about becoming an antifragile brand."
   },
   {
     "num": "1",
@@ -130,18 +142,6 @@
     "img": "trennd",
     "imgType": "jpg",
     "desc": "Reddit is a bit of an untapped goldmine for marketers. The site is made up of thousands of niche communities (subreddits). This gives an opportunity to communicate directly with your audience."
-  },
-  {
-    "num": "1",
-    "title": "How step by step keyword research led to an SEO goldmine",
-    "sUrl": "https://www.thomascook.com/holidays/weather/",
-    "sText": "Thomas Cook",
-    "tFront": "Seo",
-    "tBack": "seo",
-    "slug": "step-by-step-keyword-research",
-    "img": "thomascook",
-    "imgType": "jpg",
-    "desc": "How keyword research led Thomas Cook to an SEO goldmine and which pulls in an additional 450,000 organic users per month ..."
   },
   {
     "num": "1",

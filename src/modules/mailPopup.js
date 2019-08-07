@@ -63,7 +63,7 @@ export function mailPopup() {
     setTimeout(() => {
       outerMail.style.display = 'flex';
       $('.iosOverflow').classList.add('mailNoScroll');
-    }, 120000);
+    }, 40000);
   }
 
   mailClose.on('click', () => {
@@ -86,5 +86,12 @@ export function mailSubmitAddOn() {
   const mailButtonSpec = $('.addOnEmail .mail__button');
   const mailInputSpec = $('.addOnEmail .mail__input > input');
   const mailRedSpec = $('.addOnEmail .mail__bc-red');
+  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec);
+}
+
+export function mailSubmitHome() {
+  const mailButtonSpec = $('.search__text');
+  const mailInputSpec = $('.search__left > input');
+  const mailRedSpec = $('.search__text-info');
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec);
 }

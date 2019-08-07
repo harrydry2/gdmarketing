@@ -2,7 +2,11 @@ import './sass/styles.sass';
 import axios from 'axios';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
-import { mailPopup, mailSubmitFromPost } from './modules/mailPopup';
+import {
+  mailPopup,
+  mailSubmitFromPost,
+  mailSubmitHome,
+} from './modules/mailPopup';
 import { lazyLoad } from './modules/lazyLoad';
 
 window.page = 2;
@@ -69,6 +73,7 @@ if (!$('.slack')) {
 
 // mailPopup
 mailPopup();
+mailSubmitHome();
 
 // only if Post page
 if ($('.postNoScroll')) {

@@ -279,7 +279,7 @@ p {
       .home__left {
         display: none; } }
     .home__left-logo {
-      padding: 1.6rem;
+      padding: 1.5rem 1.6rem;
       display: block; }
   .home__right {
     display: flex;
@@ -297,7 +297,12 @@ p {
       .home__right-header-icons {
         display: flex;
         align-items: center;
-        height: 5.2rem; }
+        height: 5rem; }
+        .home__right-header-icons-gnt {
+          display: none; }
+          @media screen and (max-width: 940px) {
+            .home__right-header-icons-gnt {
+              display: block; } }
         @media screen and (max-width: 768px) {
           .home__right-header-icons {
             height: 4.6rem; } }
@@ -375,15 +380,8 @@ p {
     stroke: #4742DE; }
 
 .search {
-  background: #F1F5F8;
-  max-width: 64rem;
-  margin-right: 6rem;
-  border-radius: 4px;
-  height: 5.2rem;
   display: flex;
-  align-items: center;
-  position: relative;
-  flex: 1; }
+  align-items: center; }
   @media screen and (max-width: 940px) {
     .search {
       margin-right: 0rem;
@@ -392,6 +390,35 @@ p {
   @media screen and (max-width: 768px) {
     .search {
       height: 4.6rem; } }
+  .search__text {
+    font-size: 1.3rem;
+    display: inline-flex;
+    background-color: #4742DE;
+    padding: 0rem 1.5rem;
+    height: 5rem;
+    font-size: 1.3rem;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer; }
+    .search__text:hover {
+      opacity: 0.8;
+      transition: all 0.2s; }
+    .search__text-info {
+      font-size: 1.3rem;
+      margin-left: 2rem; }
+  .search__left {
+    background: #F1F5F8;
+    max-width: none;
+    margin-right: 2.2rem;
+    border-radius: 5px;
+    height: 5rem;
+    width: 33rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1; }
   .search__icon {
     position: absolute;
     left: 2rem;
@@ -650,9 +677,15 @@ p {
   .mail h2 {
     font-weight: 600;
     font-size: 3.1rem;
-    color: #000000;
+    color: #030212;
     text-align: center;
     line-height: 1.29; }
+  .mail__small {
+    font-size: 1.3rem;
+    color: #030212;
+    text-align: center;
+    margin-top: 1.4rem;
+    font-weight: 600; }
   .mail__tickouter {
     display: inline-flex;
     flex-direction: column;
@@ -720,11 +753,19 @@ p {
 
 .addOnEmail, .postEmail {
   width: 32.8rem;
-  margin: 4.6rem auto 3rem auto; }
+  margin: 3rem auto 3rem auto; }
+  .addOnEmail__header .bold, .postEmail__header .bold {
+    font-weight: 600; }
   @media screen and (max-width: 424px) {
     .addOnEmail, .postEmail {
       width: 100%;
       padding: 0 2rem; } }
+
+.postEmail__header {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  line-height: 1.4; }
 
 .outerPost {
   justify-content: center;

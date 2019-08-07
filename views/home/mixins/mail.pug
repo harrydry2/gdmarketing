@@ -7,12 +7,13 @@ mixin mail(subscribePage)
   .outerMail(class=`${subscribePage}`)
     .mail
       .mail__icon!=icon("cross")
-      h2 Improve your marketing with one new tip every day
+      h2 Join 1,337 marketers getting 2 case studies every week
       .mail__tickouter
         +tick("Real startups")
         +tick("Easy to implement")
-        +tick("1 minute read")
-        +tick("No spam")
+        +tick("2 minute read")
+        //- +tick("No spam")
+        +tick("< 0.4% unsubscribe")
         +tick("Free, forever")
       .mail__bc
         .mail__input

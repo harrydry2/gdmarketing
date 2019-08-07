@@ -7,7 +7,7 @@
     @media screen and (max-width: 940px)
       display: none
     &-logo
-      padding: 1.6rem
+      padding: 1.5rem 1.6rem
       display: block
   &__right
     display: flex
@@ -23,9 +23,11 @@
       &-icons
         display: flex
         align-items: center
-        height: 5.2rem
-        // @media screen and (max-width: 940px)
-        //   display: none
+        height: 5rem
+        &-gnt
+          display: none
+          @media screen and (max-width: 940px)
+            display: block
         @media screen and (max-width: 768px)
           height: 4.6rem
         a
@@ -105,21 +107,43 @@
 // search
 
 .search
-  background: #F1F5F8
-  max-width: 64rem
-  margin-right: 6rem
-  border-radius: 4px
-  height: 5.2rem
   display: flex
   align-items: center
-  position: relative
-  flex: 1
   @media screen and (max-width: 940px)
     margin-right: 0rem
     max-width: none
     display: none
   @media screen and (max-width: 768px)
     height: 4.6rem
+  &__text
+    font-size: 1.3rem
+    display: inline-flex
+    background-color: #4742DE
+    padding: 0rem 1.5rem
+    height: 5rem
+    font-size: 1.3rem
+    color: white
+    align-items: center
+    font-weight: bold
+    border-radius: 5px
+    cursor: pointer
+    &:hover
+      opacity: 0.8
+      transition: all 0.2s
+    &-info
+      font-size: 1.3rem
+      margin-left: 2rem
+  &__left
+    background: #F1F5F8
+    max-width: none
+    margin-right: 2.2rem
+    border-radius: 5px
+    height: 5rem
+    width: 33rem
+    display: flex
+    align-items: center
+    position: relative
+    flex: 1
   &__icon
     position: absolute
     left: 2rem

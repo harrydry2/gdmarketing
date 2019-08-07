@@ -11,10 +11,13 @@ mixin home(cards, activeFilters, title, displaynone = "")
         .home__right-header-wrap
           a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")
           .search
-            .search__icon!=icon("search")
-            input(placeholder="Search for marketing ideas here (doesn't work)").search__inner-text
+            .search__left
+              .search__icon!=icon("mail1")
+              input(placeholder="Get two new case studies every week").search__inner-text
+            .search__text Stay updated
+            .search__text-info
           .home__right-header-icons
-            a(href="/subscribe") get new tips
+            a.home__right-header-icons-gnt(href="/subscribe") get new tips
             //- a(href="/subscribe") album
             //- a(href="/slack")!=icon("slackSVG")
             a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("twitter")

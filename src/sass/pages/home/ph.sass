@@ -1,0 +1,27 @@
+.ph
+  background: $brand
+  display: flex
+  align-items: center
+  height: 5.2rem
+  justify-content: center
+  cursor: pointer
+  transition: all 0.2s
+  &:hover
+    opacity: 0.94
+    transition: all 0.2s
+  &__sticker
+    font-size: 2.6rem
+    &__right
+      margin-left: 2rem
+      @media screen and (max-width: 768px)
+        margin-left: 1.4rem
+    &__left
+      margin-right: 2rem
+      @media screen and (max-width: 768px)
+        margin-right: 1.4rem
+  &__text
+    color: $white
+    font-weight: bold
+    font-size: 1.4rem
+    span
+      border-bottom: 2px solid white

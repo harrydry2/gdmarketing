@@ -18,8 +18,15 @@
       margin: 0
     &-header
       border-bottom: 1px solid $border
+      position: fixed
+      border-left: 1px solid $border
+      z-index: 3
+      background-color: white
+      width: calc(100% - 25rem)
+      @media screen and (max-width: 940px)
+        width: calc(100%)
       @media screen and (max-width: 768px)
-        border: none
+        border-left: none
       &-icons
         display: flex
         align-items: center
@@ -45,9 +52,9 @@
         align-items: center
         justify-content: space-between
         @media screen and (max-width: 768px)
-          padding: 2rem 2.4rem 0rem 2rem
+          padding: 1rem 2rem 1rem 2rem
         @media screen and (max-width: 360px)
-          padding: 1.8rem 2rem 0rem 1.8rem
+          padding: 1rem 1.8rem 1rem 1.8rem
         &-logoSmall
           display: none
           @media screen and (max-width: 940px)

@@ -924,6 +924,10 @@ p {
           font-weight: bold; }
         .monial__inner-bottom-text-bottom {
           font-size: 1.4rem; }
+  .monial a {
+    padding-bottom: 0rem !important;
+    border: none !important;
+    z-index: 2; }
 
 .pCard {
   padding: 0.9rem;

@@ -32,6 +32,11 @@ html(lang='en')
       };
       return t;
       }(document, "script", "twitter-wjs"));
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KFP5QFB');
     block head
       title Marketing Examples | Real world marketing case studies
       meta(property='og:title', content='Marketing Examples — Real world marketing case studies')
@@ -44,6 +49,8 @@ html(lang='en')
       meta(property='og:image', content='https://s3.amazonaws.com/harrydry/gdmarketing/cards/main.jpg')
       meta(name='twitter:image', content='https://s3.amazonaws.com/harrydry/gdmarketing/cards/main.jpg')
     body
+      noscript
+        iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-KFP5QFB' height='0' width='0' style='display:none;visibility:hidden')
       block content
   block scripts
     script(src="/dist/bundle.js")

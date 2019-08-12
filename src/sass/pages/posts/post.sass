@@ -56,3 +56,58 @@
       object-fit: cover
       position: absolute
       transform: scale(1.1)
+
+// monial
+
+.monial
+  display: flex
+  margin-bottom: 3.5rem
+  width: 100%
+  justify-content: space-between
+  @media (max-width: 768px)
+    flex-direction: column
+    align-items: center
+  &__inner
+    position: relative
+    width: 23.4rem
+    @media (max-width: 768px)
+      &:last-child
+        display: none
+    &-quote
+      font-size: 16rem
+      position: absolute
+      left: -2.6rem
+      top: 0
+      color: $grey
+      opacity: 0.08
+      line-height: 0.5
+      z-index: 0
+    &-text
+      font-size: 1.5rem
+      line-height: 1.4
+      position: relative
+      &-bold
+        font-weight: 600
+      @media (max-width: 768px)
+        text-align: center
+    &-bottom
+      margin-top: 1.4rem
+      display: flex
+      @media (max-width: 768px)
+        justify-content: center
+      &-pic
+        width: 3.8rem !important
+        height: 3.8rem !important
+        border-radius: 100px !important
+        margin: 0 !important
+        border: none !important
+      &-text
+        margin-left: 1.4rem
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        &-top
+          font-size: 1.5rem
+          font-weight: bold
+        &-bottom
+          font-size: 1.4rem

@@ -479,7 +479,7 @@ p {
   bottom: 0;
   margin-bottom: 5.6rem;
   left: 0;
-  z-index: 2; }
+  z-index: 4; }
   .hm__filters-active {
     display: block; }
 
@@ -538,9 +538,10 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
   .sponsor__inner {
-    width: 30rem; }
+    max-width: 30rem; }
     .sponsor__inner-p {
       font-size: 1.5rem;
       line-height: 1.3;
@@ -792,7 +793,7 @@ p {
 
 .addOnEmail, .postEmail {
   width: 32.8rem;
-  margin: 3rem auto 3rem auto; }
+  margin: 5rem auto 6.4rem auto; }
   .addOnEmail__header .bold, .postEmail__header .bold {
     font-weight: 600; }
   @media screen and (max-width: 424px) {
@@ -801,7 +802,7 @@ p {
       padding: 0 2rem; } }
 
 .postEmail__header {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 3rem;
   text-align: center;
   line-height: 1.4; }
@@ -867,6 +868,62 @@ p {
       object-fit: cover;
       position: absolute;
       transform: scale(1.1); }
+
+.monial {
+  display: flex;
+  margin-bottom: 3.5rem;
+  width: 100%;
+  justify-content: space-between; }
+  @media (max-width: 768px) {
+    .monial {
+      flex-direction: column;
+      align-items: center; } }
+  .monial__inner {
+    position: relative;
+    width: 23.4rem; }
+    @media (max-width: 768px) {
+      .monial__inner:last-child {
+        display: none; } }
+    .monial__inner-quote {
+      font-size: 16rem;
+      position: absolute;
+      left: -2.6rem;
+      top: 0;
+      color: #808D9A;
+      opacity: 0.08;
+      line-height: 0.5;
+      z-index: 0; }
+    .monial__inner-text {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      position: relative; }
+      .monial__inner-text-bold {
+        font-weight: 600; }
+      @media (max-width: 768px) {
+        .monial__inner-text {
+          text-align: center; } }
+    .monial__inner-bottom {
+      margin-top: 1.4rem;
+      display: flex; }
+      @media (max-width: 768px) {
+        .monial__inner-bottom {
+          justify-content: center; } }
+      .monial__inner-bottom-pic {
+        width: 3.8rem !important;
+        height: 3.8rem !important;
+        border-radius: 100px !important;
+        margin: 0 !important;
+        border: none !important; }
+      .monial__inner-bottom-text {
+        margin-left: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .monial__inner-bottom-text-top {
+          font-size: 1.5rem;
+          font-weight: bold; }
+        .monial__inner-bottom-text-bottom {
+          font-size: 1.4rem; }
 
 .pCard {
   padding: 0.9rem;
@@ -955,6 +1012,13 @@ p {
     @media screen and (max-width: 550px) {
       .content .h2start {
         padding: 1.6rem 2rem; } }
+  .content h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: #4742DE;
+    padding: 1.5rem 0.76rem 1.5rem 2rem; }
   .content p {
     font-size: 1.7rem;
     line-height: 1.8;
@@ -966,6 +1030,8 @@ p {
       font-weight: 600; }
     .content p .italic {
       font-style: italic; }
+  .content .point1 {
+    padding: 0.76rem 0.76rem 0.76rem 2rem; }
   .content .speech {
     line-height: 1.8;
     padding: 0rem 5rem; }
@@ -1107,6 +1173,19 @@ span {
 
 .img__20 {
   width: 20%; }
+  @media screen and (max-width: 550px) {
+    .img__20 {
+      margin: 3rem auto !important;
+      width: 30% !important;
+      border: 5px solid #ffdddd !important; } }
+
+.img__15 {
+  width: 15%; }
+  @media screen and (max-width: 550px) {
+    .img__15 {
+      margin: 3rem auto !important;
+      width: 25% !important;
+      border: 5px solid #ffdddd !important; } }
 
 .undera {
   width: 100%;

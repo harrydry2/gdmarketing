@@ -209,6 +209,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/conversion/product-hunt</loc>
+    <lastmod>2019-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- signalling -->
   <url>
     <loc>https://marketingexamples.com/signalling/costly-signalling-theory</loc>

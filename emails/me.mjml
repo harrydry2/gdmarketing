@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img100" width="100px" fluid-on-mobile="true" />
+      <mj-class name="img150" width="150px" fluid-on-mobile="true" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
+          <mj-text mj-class="h1" align="center">#012 - How to launch on Product Hunt</mj-text>
+          <mj-text mj-class="p">Hey all, sorry for the delay in finishing this case study. People have been praising the quality, so I wanted to take a little longer and get it right!</mj-text>
+          <mj-text mj-class="p">Last Wednesday I launched Marketing Examples to Product Hunt. It received more than <span class="bold">1,500</span> upvotes, was voted <span class="italic">Product of the Week</span>, and my email list zoomed from <span class="bold">1,300</span> to <span class="bold">3,300</span> in the space of 72 hours.</mj-text>
+          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/gdmarketing/ph1.png" alt="Wimpy"></mj-image>
+          <mj-text mj-class="p">This is the step by step account of how I did it.</mj-text>
+          <mj-text mj-class="h2">Step 1 - Don't launch straight away</mj-text>
+          <mj-text mj-class="p">23rd May 2019 Marketing Examples v1.0 went live. The site had a few case studies, several bugs, and an email box which didn’t convert well. The old version of me would have thrown it on Product Hunt straight away. But I decided to wait.</mj-text>
+          <mj-text mj-class="p">Firstly, it’s not every day you can launch on Product Hunt. I didn’t want to waste my “turn” with the very first iteration of my site.</mj-text>
+          <mj-text mj-class="p">Secondly, I didn’t want to launch in a vacuum. <span class="bold">Product Hunt multiplies current momentum</span>. Having a small following of “fans” who are happy to shout about your product on launch day goes a long way</mj-text>
+          <mj-text mj-class="p">So I set myself a target. <span class="bold">1000</span> email subscribers. <span class="bold">1000</span> twitter followers. And then I would launch. 70 days later I hit my target. It was showtime.</mj-text>
+          <mj-text mj-class="h2">Step 2 - Define your goal</mj-text>
+          <mj-text mj-class="p">In the past, I’ve fallen into the trap of using upvotes as my barometer of success. But when you think about it, upvotes are really just <span class="bold">a means to an end</span>. They are coupons you exchange for traffic. It’s what you do with that traffic which matters.</mj-text>
+          <mj-text mj-class="p">So, what was my goal? Well, I wanted to maximise email subscribers. I spent the day before launch making sure my site was in the best possible shape to collect emails.</mj-text>
+          <mj-text mj-class="p">After all, 100 upvotes and 100 email sign-ups is more valuable than 1000 upvotes and a site which can’t convert anyone</mj-text>
+          <mj-text mj-class="h2">Step 3 - Schedule</mj-text>
+          <mj-text mj-class="p">Now I had the foundations in place it was time to schedule my post on Product Hunt. I chose <span class="bold">12:01 AM PST</span> and <span class="bold">Wednesday 7th August</span> (the very next day). New products hit the homepage at midnight so this would give me the full 24hrs of exposure. I’d also avoid the weekend traffic lull.</mj-text>
+          <mj-text mj-class="p">I filled in the description, added some images, wrote a first comment, and my friend Jana, made a nice GIF for me. Things were starting to take shape.</mj-text>
+          <mj-image mj-class="cImg img100" src="https://harrydry.s3.amazonaws.com/gdmarketing/ph2.gif" alt="Wimpy"></mj-image>
+          <mj-text mj-class="h2">Step 4 - Banner Time</mj-text>
+          <mj-text mj-class="p">The next morning I woke up early, excited for what lay ahead. The first thing I did was add a banner to my website. This would give anyone coming <span class="bold">directly</span> to my site an easy route to support my launch.</mj-text>
+          <mj-image mj-class="cImg img300" src="https://harrydry.s3.amazonaws.com/gdmarketing/ph3.png" alt="Wimpy"></mj-image>
+          <mj-text mj-class="h2">Step 5 - Bigger Forums</mj-text>
+          <mj-text mj-class="p">Next, I posted on the Startup School forum and also added a Milestone to my Indie Hackers product page. Both posts sat at the top for the whole day.</mj-text>
+          <mj-image mj-class="cImg img450" src="https://harrydry.s3.amazonaws.com/gdmarketing/ph52.png" alt="Wimpy"></mj-image>
+          <mj-text mj-class="p">Why were my posts so well received? Well, I wasn’t just screaming, “Everyone look at me!” at the top of my voice. I also included some tips on <span class="italic">how best to launch to Product Hunt</span>. And I think people appreciated the balance.</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/ph6a.png" alt="Wimpy"></mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="buttonSection">
+        <mj-column>
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/conversion/product-hunt?utm_source=newsletter&utm_medium=email&utm_campaign=email_12">
+            <span class="brand semibold"> Read the full case study </span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-text mj-class="p">Instead you might prefer the summarised<a class="underA" href="https://twitter.com/GoodMarketingHQ/status/1162655778173591552" target="_blank"> Twitter thread</a>.</mj-text>
+          <mj-text mj-class="h2">Sponsor</mj-text>
+          <mj-text mj-class="p">Thanks to my sponsor, <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">EmailOctopus</a>. I use them for all my own <span class="bold">email marketing</span> and would definately recommend them.</mj-text>
+          <mj-text mj-class="p">Cheers, <br>Harry</mj-text>
+          <mj-text mj-class="p">p.s. - thanks to everyone who supported on Product Hunt :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

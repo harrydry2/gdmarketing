@@ -289,7 +289,7 @@
   },
   {
     "num": "9",
-    "title": "Marketing tools are slowing down your site's performance.",
+    "title": "Marketing tools are damaging your SEO. And how to fix it.",
     "sUrl": "https://www.todesktop.com/",
     "sText": "ToDesktop",
     "tFront": "SEO",
@@ -297,6 +297,6 @@
     "slug": "performance",
     "img": "lighthouse",
     "imgType": "jpg",
-    "desc": "It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it?"
+    "desc": "It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it? Well, open up Chrome DevTools, click the Audits tab, then Run Audits and you'll see that “Performance” is made up from 6 metrics"
   }
 ]

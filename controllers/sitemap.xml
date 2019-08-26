@@ -190,6 +190,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/seo/performance</loc>
+    <lastmod>2019-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- conversion -->
   <url>
     <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>

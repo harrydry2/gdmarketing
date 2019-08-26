@@ -1,0 +1,114 @@
+p It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it?
+p Well, open up Chrome DevTools, click the!{' '}
+  span.italic Audits
+  |!{' '}tab, then!{' '}
+  span.italic Run Audits
+  |!{' '}and you'll see that “Performance” is made up from 6 metrics:
+img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lighthouse4.png" alt="Google Lighthouse Audit Example").img__80
+p And if you dig into Chrome's!{' '}
+  a(href="https://github.com/GoogleChrome/lighthouse/blob/master/docs/scoring.md" target="_blank") GitHub page
+  |!{' '}you'll see that they've all got different weights attached:
+img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lighthouse5.png" alt="Google Lighthouse Performance Weights").img__70
+p Most casuals assume that performance is all about!{' '}
+  span.bold how fast a site displays on the screen
+  |!{' '} — “
+  a(href="https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint" target="_blank") First Meaningful Paint
+  | ”. But if you look at the weights you'll see that “
+  a(href="https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive" target="_blank") Time to Interactive
+  | ” —!{' '}
+  span.bold how long it takes for a site to become interactive
+  |!{' '}— is far more important.
+p Essentially, Google prioritises “interactivity” over “visibility”. Even if your page!{' '}
+  span.bold appears
+  |!{' '}fast, 3rd party scripts loading in the background (delaying user interaction) will see you penalised.
+h2 ToDesktop
+p One example of this is!{' '}
+  a(href="https://www.todesktop.com/") ToDesktop
+  | . Their site content loads in < 1s, but run it through a Google Audit and its “Time to Interactive” is a whopping!{' '}
+  span.bold 8.8 seconds
+  | .
+p The culprit (as is often the case) is 3rd party scripts from shiny marketing tools:!{' '}
+  a(href="https://www.intercom.com/" target="_blank") Intercom
+  |!{' '}for chat,!{' '}
+  a(href="" target="_blank") Segment
+  |!{' '}for data,!{' '}
+  a(href="" target="_blank") Hotjar
+  |!{' '}for heatmaps, etc ...
+h2 Solving the problem
+p So, what can you can do about this? Well, ToDesktop's founder,!{' '}
+  a(href="https://twitter.com/DaveJ" target="_blank") David
+  | , came up with a clever solution. First, load the page without any heavy scripts. Then wait for a scroll event, then wait a further second, and then load in Intercom, Segment, etc ...
+video(src="https://s3.amazonaws.com/harrydry/gdmarketing/lighthouse6.mp4" class="img__80" playsinline="playsinline" preload="none" poster="https://harrydry.s3.amazonaws.com/gdmarketing/lighthouse6a.png" onclick="this.paused ? this.play() : this.pause();")
+p The!{' '}
+  span.bold before
+  |!{' '}and!{' '}
+  span.bold after
+  |!{' '}results are quite revealing:
+img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lighthouse7.png" alt="ToDesktop's Before and After Google Audit").img__90
+p “Time to Interactive” plummets from!{' '}
+  span.bold 8.8s
+  |!{' '}to!{' '}
+  span.bold 0.9s
+  |!{' '}— mission accomplished. Interestingly, “Paint” numbers remain!{' '}
+  span.bold exactly the same
+  | . The casual observer may notice no real difference in performance. But Google certainly does.
+p The code snippet is pretty straightforward:
+img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lighthouse3.png" alt="Time to Interaction Code Snippet").img__65
+h2 Does this stuff make a difference?
+p Well, David made this change on June 14th. Since then ToDesktop's organic clicks and impressions have!{' '}
+  span.bold nearly tripled
+  | !{' '}and David tells me that he's jumped from!{' '}
+  span.italic 20-something to 11th for the search “website to desktop app”
+  | .
+img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lighthouse2.png" alt="ToDesktop's improved organic search").img__90
+p It's impossible to isolate how much of this can be attributed to improved “performance”. But there's certainly a clear correlation.
+h2 Support
+p Thank you for taking the time to read. If you learnt something sharing the thread on Twitter is really appreciated.
+blockquote.twitter-tweet
+  p(lang='en' dir='ltr')
+    | &#x1F525; I got 2000 new subscribers from my Product Hunt launch
+    br
+    br
+    | THREAD...
+  | &mdash; Marketing Examples (@GoodMarketingHQ)
+  a(href='https://twitter.com/GoodMarketingHQ/status/1162655778173591552?ref_src=twsrc%5Etfw') August 17, 2019
+script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+p I'd also like to thank&nbsp;
+  a(href="https://emailoctopus.com/?ref=marketingexamples" target="_blank") EmailOctopus
+  |&nbsp;for sponsoring the site. They provide email marketing for a&nbsp;
+  span.bold fraction of the price
+  |&nbsp;of MailChimp. From firsthand experience, I'd certainly recommend them.
+.undera
+  .undera__center
+    .undera__center-text Share on Twitter
+    a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com/direct/jason-cohen-sales&via=GoodMarketingHQ%20&text=${encodeURI("How Jason Cohen does direct sales")}` target="_blank")!=icon("twitter")
+.addOnEmail
+  .postEmail__header Join!{' '}
+    span.bold 4,723
+    |!{' '}marketers getting<br> 2 case studies every Tuesday and Friday
+  .mail__input
+    .mail__input-icon!=icon("mail")
+    input(placeholder="example@example.com")
+  .mail__button Upgrade my marketing
+  .mail__bc-red
+.monial
+  .monial__inner
+    .monial__inner-quote “
+    .monial__inner-text Hands down!{' '}
+      span.monial__inner-text-bold the best
+      |!{' '}marketing newsletter I'm subscribed to.
+    .monial__inner-bottom
+      a(href="https://twitter.com/george__mack" target="_blank")
+        img.monial__inner-bottom-pic(src="https://harrydry.s3.amazonaws.com/gdmarketing/gm.jpg", alt="George Mack Marketing")
+      .monial__inner-bottom-text
+        a(href="https://twitter.com/george__mack" target="_blank").monial__inner-bottom-text-top George Mack
+        a(href="https://www.sportstack.com?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Growth, Sportstack
+  .monial__inner
+    .monial__inner-quote “
+    .monial__inner-text Marketing Examples is so f***ing great. I love it!
+    .monial__inner-bottom
+      a(href="https://twitter.com/bentossell" target="_blank")
+        img.monial__inner-bottom-pic(src="https://harrydry.s3.amazonaws.com/gdmarketing/ben.jpg", alt="Ben Tossell Marketing")
+      .monial__inner-bottom-text
+        a(href="https://twitter.com/bentossell" target="_blank").monial__inner-bottom-text-top Ben Tossell
+        a(href="https://www.makerpad.co?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Founder, Makerpad

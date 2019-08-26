@@ -289,26 +289,14 @@
   },
   {
     "num": "9",
-    "title": "How Steve Schoger grew from 1,000 to 30,000 twitter followers in 14 months",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "Beamery",
-    "tFront": "Social Media",
-    "tBack": "socialmedia",
-    "slug": "how-steve-schoger-grew-twitter",
-    "img": "beamery",
+    "title": "Marketing tools are slowing down your site's performance.",
+    "sUrl": "https://www.todesktop.com/",
+    "sText": "ToDesktop",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "performance",
+    "img": "lighthouse",
     "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "1",
-    "title": "If your priority is an email list get a /newsletter page",
-    "sUrl": "https://jamesclear.com/newsletter",
-    "sText": "James Clear",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "newsletter",
-    "img": "ah1",
-    "imgType": "jpg",
-    "desc": "James Clear Coming soon ..."
+    "desc": "It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it?"
   }
 ]

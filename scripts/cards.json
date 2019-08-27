@@ -1,5 +1,17 @@
 [
   {
+    "num": "9",
+    "title": "Marketing tools are damaging your SEO. And how to fix it.",
+    "sUrl": "https://www.todesktop.com/",
+    "sText": "ToDesktop",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "performance",
+    "img": "lighthouse",
+    "imgType": "jpg",
+    "desc": "It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it? Well, open up Chrome DevTools, click the Audits tab, then Run Audits and you'll see that “Performance” is made up from 6 metrics"
+  },
+  {
     "num": "1",
     "title": "How I got 2,000 new subscribers from Product Hunt",
     "sUrl": "https://marketingexamples.com",
@@ -286,17 +298,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Marketing tools are damaging your SEO. And how to fix it.",
-    "sUrl": "https://www.todesktop.com/",
-    "sText": "ToDesktop",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "performance",
-    "img": "lighthouse",
-    "imgType": "jpg",
-    "desc": "It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it? Well, open up Chrome DevTools, click the Audits tab, then Run Audits and you'll see that “Performance” is made up from 6 metrics"
   }
 ]

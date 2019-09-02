@@ -10,6 +10,7 @@ router.get('/slack', mainController.slack);
 router.get('/sitemap.xml', mainController.xml);
 // test
 router.get('/test', postController.test);
+router.get('/test1', postController.test1);
 // router.get('/robots.txt', mainController.txt);
 router.get('/subscribe', emailController.subscribePage);
 // api

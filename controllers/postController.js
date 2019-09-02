@@ -28,3 +28,16 @@ exports.test = async (req, res) => {
     .limit(limit);
   res.render(`./posts/ext/test`, { card, cards });
 };
+
+exports.test1 = async (req, res) => {
+  const slug = 'adam-wathan-pricing';
+  const card = await Cards.findOne({ slug });
+  // find all cards
+  const page = req.params.page || 1;
+  const limit = 10;
+  const skip = limit * page - limit;
+  const cards = await Cards.find()
+    .skip(skip)
+    .limit(limit);
+  res.render(`./posts/ext/test1`, { card, cards });
+};

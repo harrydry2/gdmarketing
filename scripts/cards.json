@@ -244,8 +244,8 @@
     "title": "Use Intercom to build customer goodwill",
     "sUrl": "https://baremetrics.com",
     "sText": "Baremetrics",
-    "tFront": "Goodwill",
-    "tBack": "goodwill",
+    "tFront": "Conversion",
+    "tBack": "conversion",
     "slug": "build-customer-goodwill",
     "img": "baremetrics",
     "imgType": "jpg",
@@ -304,11 +304,11 @@
     "title": "Refactoring UI: A lesson in pricing",
     "sUrl": "https://refactoringui.com/book/",
     "sText": "Refactoring UI",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "adam-wathan-pricing",
+    "tFront": "Pricing",
+    "tBack": "pricing",
+    "slug": "refactoring-ui",
     "img": "adam",
     "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+    "desc": "How Adam Wathan and Steve Schoger escaped the dogma of e-book pricing and made $1.5M selling Refactoring UI, their design book."
   }
 ]

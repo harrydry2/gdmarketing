@@ -45,7 +45,7 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/goodwill</loc>
+    <loc>https://marketingexamples.com/pricing</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -65,6 +65,12 @@
   <url>
     <loc>https://marketingexamples.com/signalling</loc>
     <lastmod>2019-06-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/sideproject</loc>
+    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
@@ -96,6 +102,13 @@
   <url>
     <loc>https://marketingexamples.com/coldemail/write-personalised-cold-emails</loc>
     <lastmod>2019-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- sideproject -->
+  <url>
+    <loc>https://marketingexamples.com/sideproject/the-tour-de-france</loc>
+    <lastmod>2019-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -170,13 +183,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- goodwill -->
-  <url>
-    <loc>https://marketingexamples.com/goodwill/build-customer-goodwill</loc>
-    <lastmod>2019-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
     <!-- seo -->
   <url>
     <loc>https://marketingexamples.com/seo/dominate-long-tail-keywords</loc>
@@ -218,6 +224,12 @@
   <url>
     <loc>https://marketingexamples.com/conversion/product-hunt</loc>
     <lastmod>2019-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/conversion/build-customer-goodwill</loc>
+    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

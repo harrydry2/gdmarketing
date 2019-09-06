@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "The 1903 Tour de France",
+    "sUrl": "https://www.letour.fr/en/",
+    "sText": "L'Auto",
+    "tFront": "Side Project",
+    "tBack": "sideproject",
+    "slug": "tour-de-france",
+    "img": "tour",
+    "imgType": "jpg",
+    "desc": "The 1903 Tour de France was set up as a “side project” which ended up changing the fortunes of its parent newspaper L'Auto"
+  },
+  {
+    "num": "9",
     "title": "Refactoring UI: A lesson in high prices",
     "sUrl": "https://refactoringui.com/book/",
     "sText": "Refactoring UI",
@@ -310,17 +322,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "The 1903 Tour de France",
-    "sUrl": "https://www.letour.fr/en/",
-    "sText": "L'Auto",
-    "tFront": "Side Project",
-    "tBack": "sideproject",
-    "slug": "tour-de-france",
-    "img": "tour",
-    "imgType": "jpg",
-    "desc": "The 1903 Tour de France was set up as a “side project” which ended up changing the fortunes of its parent newspaper L'Auto"
   }
 ]

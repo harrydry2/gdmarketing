@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const eoAPI = '8c233156-83ca-11e9-9307-06b4694bee2a';
 
-const Emails = mongoose.model('Emails');
+const EmailsNum = mongoose.model('EmailsNum');
 const Cards = mongoose.model('Cards');
 
 // exports.subscribe = async (req, res) => {
@@ -12,15 +12,25 @@ const Cards = mongoose.model('Cards');
 // };
 
 exports.subscribe = async (req, res) => {
+  const { email, num } = req.body;
   try {
     const posted = await axios.post(
       `https://emailoctopus.com/api/1.5/lists/${process.env.EOLIST}/contacts`,
       {
         api_key: process.env.EOAPI,
-        email_address: req.body.email,
+        email_address: email,
         status: 'SUBSCRIBED',
       }
     );
+    if (num === 1) {
+      await EmailsNum.updateOne({ id: 10000 }, { $inc: { num1: 1 } });
+    } else if (num === 2) {
+      await EmailsNum.updateOne({ id: 10000 }, { $inc: { num2: 1 } });
+    } else if (num === 3) {
+      await EmailsNum.updateOne({ id: 10000 }, { $inc: { num3: 1 } });
+    } else if (num === 4) {
+      await EmailsNum.updateOne({ id: 10000 }, { $inc: { num4: 1 } });
+    }
     res.json({ email: 'true' });
   } catch (err) {
     if (err.response.data.error.code === 'MEMBER_EXISTS_WITH_EMAIL_ADDRESS') {
@@ -30,13 +40,6 @@ exports.subscribe = async (req, res) => {
     }
     console.log(err.response.data.error.code);
   }
-};
-
-exports.get = async (req, res) => {
-  const emails = await Emails.find();
-  const single = emails.map(email => email.email);
-  console.log(single);
-  res.json({ single });
 };
 
 exports.subscribePage = async (req, res) => {

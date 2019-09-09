@@ -13,7 +13,7 @@ mongoose.connect(
   { useNewUrlParser: true }
 );
 require('./models/Cards.js');
-require('./models/Emails.js');
+require('./models/EmailsNum.js');
 
 const fs = require('fs');
 

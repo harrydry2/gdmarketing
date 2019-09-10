@@ -322,5 +322,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "An email opt-in rate of 13%",
+    "sUrl": "https://marketingexamples.com",
+    "sText": "Marketing Examples",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "email-opt-in",
+    "img": "eoi",
+    "imgType": "png",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

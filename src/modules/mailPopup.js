@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 import axios from 'axios';
 import { differenceInDays } from 'date-fns';
 import { $, $$ } from './bling';
@@ -10,13 +11,20 @@ function validateEmail(email) {
 }
 
 function submitMail(button, red, input, num) {
+  var numm = num;
   button.on('click', async () => {
+    if (
+      $('.iosOverflow') &&
+      $('.iosOverflow').classList.contains('number5chanel')
+    ) {
+      numm = 5;
+    }
     red.style.display = 'block';
     if (validateEmail(input.value)) {
       window.localStorage.setItem('onEmailList', 'true');
       const { data } = await axios.post('/api/subscribe', {
         email: input.value,
-        num,
+        num: numm,
       });
       if (data.email === 'true') {
         red.style.color = '#00c26e';
@@ -48,7 +56,8 @@ export function mailPopup() {
   const lsMail = window.localStorage.getItem('lsmail');
   const onEmailList = window.localStorage.getItem('onEmailList');
   const howLongSinceClosed = differenceInDays(new Date(), lsMail);
-  let alreadyPoppedUp = false;
+  var alreadyPoppedUp = false;
+  var emailNum = 4;
 
   if ($('.outerMailActive')) {
     outerMail.style.display = 'flex';
@@ -64,6 +73,7 @@ export function mailPopup() {
     setTimeout(() => {
       outerMail.style.display = 'flex';
       $('.iosOverflow').classList.add('mailNoScroll');
+      $('.iosOverflow').classList.add('number5chanel');
     }, 40000);
   }
 
@@ -72,7 +82,7 @@ export function mailPopup() {
     outerMail.style.display = 'none';
     $('.iosOverflow').classList.remove('mailNoScroll');
   });
-  submitMail(mailButton, mailRed, mailInput, 4);
+  submitMail(mailButton, mailRed, mailInput, emailNum);
 }
 
 export function mailSubmitHome() {
@@ -99,4 +109,5 @@ export function mailSubmitAddOn() {
 // 1 - home
 // 2 - on page
 // 3 - on page ajax
-// 4 - direct popup
+// 4 - direct
+// 5 - popup

@@ -13,6 +13,7 @@ const Cards = mongoose.model('Cards');
 
 exports.subscribe = async (req, res) => {
   const { email, num } = req.body;
+  console.log(num, 'done');
   try {
     const posted = await axios.post(
       `https://emailoctopus.com/api/1.5/lists/${process.env.EOLIST}/contacts`,
@@ -30,6 +31,8 @@ exports.subscribe = async (req, res) => {
       await EmailsNum.updateOne({ id: 10000 }, { $inc: { num3: 1 } });
     } else if (num === 4) {
       await EmailsNum.updateOne({ id: 10000 }, { $inc: { num4: 1 } });
+    } else if (num === 5) {
+      await EmailsNum.updateOne({ id: 10000 }, { $inc: { num5: 1 } });
     }
     res.json({ email: 'true' });
   } catch (err) {

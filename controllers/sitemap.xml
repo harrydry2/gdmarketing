@@ -74,6 +74,12 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/socialmedia</loc>
+    <lastmod>2019-09-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
   <!-- coldemail -->
   <url>
     <loc>https://marketingexamples.com/coldemail/best-sales-email-ever</loc>
@@ -237,6 +243,13 @@
   <url>
     <loc>https://marketingexamples.com/signalling/costly-signalling-theory</loc>
     <lastmod>2019-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- socialmedia -->
+  <url>
+    <loc>https://marketingexamples.com/socialmedia/iron-neck</loc>
+    <lastmod>2019-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

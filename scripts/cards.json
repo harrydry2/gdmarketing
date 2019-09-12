@@ -334,5 +334,17 @@
     "img": "eoi",
     "imgType": "png",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Joe Rogan recommends your product. What should you do?",
+    "sUrl": "https://www.iron-neck.com/",
+    "sText": "Iron Neck",
+    "tFront": "Paid Ads",
+    "tBack": "paidads",
+    "slug": "iron-neck",
+    "img": "jr",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

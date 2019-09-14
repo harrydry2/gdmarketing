@@ -46,6 +46,15 @@ function submitMail(button, red, input, num) {
   });
 }
 
+function mouseoutFun(e) {
+  if (e.toElement === null && e.relatedTarget === null) {
+    $('.outerMail').style.display = 'flex';
+    $('.iosOverflow').classList.add('mailNoScroll');
+    $('.iosOverflow').classList.add('number5chanel');
+    document.removeEventListener('mouseout', mouseoutFun);
+  }
+}
+
 export function mailPopup() {
   const mailButton = $('.mail__bc .mail__button');
   const mailInput = $('.mail__bc .mail__input > input');
@@ -70,17 +79,24 @@ export function mailPopup() {
     !alreadyPoppedUp &&
     (lsMail == null || howLongSinceClosed > 3)
   ) {
-    setTimeout(() => {
-      outerMail.style.display = 'flex';
-      $('.iosOverflow').classList.add('mailNoScroll');
-      $('.iosOverflow').classList.add('number5chanel');
-    }, 40000);
+    if (window.innerWidth <= 500) {
+      setTimeout(() => {
+        $('.outerMail').style.display = 'flex';
+        $('.iosOverflow').classList.add('mailNoScroll');
+        $('.iosOverflow').classList.add('number5chanel');
+      }, 5000);
+    } else {
+      setTimeout(() => {
+        document.addEventListener('mouseout', mouseoutFun);
+      }, 5000);
+    }
   }
 
   mailClose.on('click', () => {
     window.localStorage.setItem('lsmail', new Date());
     outerMail.style.display = 'none';
     $('.iosOverflow').classList.remove('mailNoScroll');
+    alreadyPoppedUp = true;
   });
   submitMail(mailButton, mailRed, mailInput, emailNum);
 }

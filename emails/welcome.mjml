@@ -4,7 +4,7 @@
     <mj-breakpoint width="320px" />
     <mj-attributes>
       <mj-all padding='0' />
-      <mj-wrapper background-color="#fff" padding="0px" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
       <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
@@ -68,12 +68,12 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">Welcome</mj-text>
-          <mj-text mj-class="p">It feels awesome to know that people enjoy reading my articles and like to learn from real-world examples. Thank you for subscribing.</mj-text>
-          <mj-text mj-class="p">The best place to stay up to date is on <a class="underA semibold" href="https://twitter.com/goodmarketingHQ" target="_blank">twitter</a> where I distill each example into an easy to digest thread.</mj-text>
+          <mj-text mj-class="p">It feels awesome to know that people enjoy reading my articles. Thank you for subscribing. Expect emails Tuesdays and Fridays.</mj-text>
+          <mj-text mj-class="p">I also share quick tips on <a class="underA semibold" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a>. Well, I say quick but I probably spend about 5 hours on each one. For example <a class="underA semibold" href="https://twitter.com/GoodMarketingHQ/status/1171825118366064641" target="_blank">here</a>!</mj-text>
           <mj-text mj-class="p">Whilst you're here, one big favour to ask is that you whitelist this email address. It prevents the marketing tips going to spam:</mj-text>
           <mj-text mj-class="p">On Gmail Web: <span class="italic">3 grey dots > Add to Contacts List</span></br>On Gmail App (if in junk / promotions): <span class="italic">3 white dots > Move to > Primary</span></br>On iPhone (if in junk): <span class="italic">Swipe left on mail > More > Mark > Not as junk</span></mj-text>
-          <mj-text mj-class="p">Cheers, <br>Harry</mj-text>
-          <mj-text mj-class="p ps">p.s - you can reply to this email to get in touch with me. Happy to answer any marketing questions. Feedback on the site or ideas for articles are also great.</mj-text>
+          <mj-text mj-class="p">Peace be with you, <br>Harry</mj-text>
+          <mj-text mj-class="p ps">p.s - just reply to this email to get in touch</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

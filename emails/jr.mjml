@@ -1,0 +1,97 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
+          <mj-text mj-class="h1" align="center">#016 - Some quite genius PPC retargeting</mj-text>
+          <mj-text mj-class="p">Came across some a lovely ad the other day by The Iron Neck.</mj-text>
+          <mj-text mj-class="p">Joe Rogan has been banging on about how amazing their product is for a while. So they edited all the footage into a video and ran it as an ad <span class="bold">targeting Joe Rogan fans</span>!</mj-text>
+          <mj-image mj-class="cImg img300" src="https://harrydry.s3.amazonaws.com/gdmarketing/jr.jpg" alt="Lewis Capaldi Chewbacca"></mj-image>
+          <mj-text mj-class="p">Click <a class="underA" href="https://s3.amazonaws.com/harrydry/gdmarketing/jr.mp4" target="_blank">here</a> to play the video.</mj-text>
+          <mj-text mj-class="h2">Why does it work?</mj-text>
+          <mj-text mj-class="p">Well, if you're a fan of Joe Rogan this doesn’t feel like an ad. People watch his videos for fun. So, you get the <span class="bold">reach</span> of an ad whilst maintaining the <span class="bold">engagement</span> of a regular post.</mj-text>
+          <mj-text mj-class="p">Secondly, the social proof is off the chart. Joe's not being paid to say any of this. And that makes a huge difference.</mj-text>
+          <mj-text mj-class="p">And finally, there's a <span class="bold">retargeting</span> benefit. I imagine a lot of people seeing the ad remember Joe talking about the Iron Neck on a previous podcast. But perhaps they were out running or about to go to bed. Only in seeing it on Instagram the next morning are they’re reminded to check it out.</mj-text>
+          <mj-text mj-class="p">Admittedly, this might not be the most applicable! Not everyone has Joe Rogan praising their product! But it's a lesson in <span class="bold">how to think</span> as a marketer.</mj-text>
+          <mj-text mj-class="p">I'll be back on Tuesday morning. Have a nice weekend. To read the article on the website click <a class="underA" href="https://marketingexamples.com/socialmedia/iron-neck" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="h2">Sponsor</mj-text>
+          <mj-text mj-class="p">Thanks to my sponsor, <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">EmailOctopus</a>. I use them for all my own <span class="bold">email marketing</span> and would definately recommend them.</mj-text>
+          <mj-text mj-class="p">Cheers, <br>Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

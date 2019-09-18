@@ -1,7 +1,99 @@
 extends ../base
 
 block content
-  p Back
-  video(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi.mp4" class="img__85" playsinline="playsinline" controls="controls")
-  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi1.png" alt="Go viral with Hunter.io").img__60
-  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi3.png" alt="Go viral with Hunter.io").img__100
+  p Over the last 2 months, Marketing Examples welcomed!{' '}
+    span.bold 31,273
+    |!{' '}first time visitors.!{' '}
+    span.bold 4,173
+    |!{' '}of these visitors subscribed to the email list. That’s an email opt-in of!{' '}
+    span.bold 13.3%
+    | .
+  p The industry average is!{' '}
+    span.bold 2%
+    | . The top 10 percentile average is!{' '}
+    span.bold 5%
+    | . So, screw it, I’ll go there:
+  p.inwardSpeech Marketing Examples is one of the best websites in the world at converting passers-by into email subscribers.
+  p What follows is a series of things I've observed whilst trying to build a website which maximises email subscribers.
+  h2 Being obvious works
+  //- p I imagine a few of you have read The Alchemist. Pretty good book right? How many of you signed up to Paulo Cuhelo’s email list?
+  //- p Last week a friend told me they wanted a new blog to read. I recommended Paul Modrowski’s blog, “On the Inside”. It then occurred to me that I've never actually signed up to Paul’s email list. I must have just missed it.
+  //- p No matter how amazing your work no one is going to go out of their own way to sign up to your email list. You have to make it easy. Incredibly easy
+  p No matter how amazing your work no one is going to go out of their way to hunt down your email box. You have to make it obvious. Incredibly obvious.
+  p There are four ways to sign up to the Marketing Examples email list:
+  p.list.list__top 1) From the fixed position nav bar (a la!{' '}
+    a(href="https://marketingexamples.com/conversion/sign-up-form-converts" target="_blank") Notion
+    | )
+  p.list 2) At the end of any article
+  p.list 3) Directly from the /subscribe page
+  p.list.list__bottom 4) Through the popup modal
+  p From any given point you're only one click away from subscribing. CTA coverage 100%!
+  //- p There's an element of costly signalling at play. If someone mentions their email list only fleetingly you might assume it's not their top priority. The sheer effort taken in trying to persuade someone to join the Marketing Examples email list signals that it’s a list worth subscribing to.
+  h2 Popup timing matters
+  p I went to a museum last weekend. On my way out a member of staff told me that every time a new exhibition opens they send out an email and asked whether I'd like to sign up. I said sure.
+  p Now, imagine a parallel universe. Ten seconds after I walk through the museum's doors the same lady jumps out in front of me and asks if I’d like to join the email list.
+  p The latter is how most popups do work. The former is how they!{' '}
+    span.bold should
+    |!{' '}work.
+  p The benefit of waiting until a user exits your website is obvious. You’re not going to annoy them by springing open a popup whilst they’re in the middle of an article.
+  h2 Popups run the game
+  p If human behaviour was rational the exit-intent popup on Marketing Examples would be futile. Users have already have seen the email box on the home page or at the end of an article. Surely they've already decided whether or not to sign up?
+  p Apparently not. Here is a graph showing Marketing Examples subscribers by source:
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi1.png" alt="Go viral with Hunter.io").img__70
+  p  The “futile” popup contributes 50% of total sign-ups. Without it, Marketing Examples would currently have!{' '}
+    span.bold 2900
+    |!{' '}subscribers instead of!{' '}
+    span.bold 5800
+    | .
+  p Implementation is easier than you think. With code:
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi4.png" alt="Exit itent popup code").img__80
+  p And without code:
+  p.list.list__top 1) OptinMonster connects with Email Octopus
+  p.list.list__bottom 2) MailerMunch & Wisepops connects with Mailchimp, Klaviyo etc ...
+  p *Note - Most exit-intent popups default to timeout based on mobile.
+  h2 Get a Subscribe page
+  p The benefit of a dedicated subscribe page is that it allows you to link!{' '}
+    span.bold directly
+    |!{' '}to your email list.
+  //- p Essentially, I can create value on other platforms (Twitter, Reddit, Startup School etc ...) and then convert this value directly into email subscribers rather than just exchanging it for a website session.
+  p This means any value I create on other platforms (Twitter, Reddit, Startup School, etc ...) can be converted directly into email subscribers rather than just exchanged for a website session.
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi5.png" alt="Go viral with Hunter.io").img__100
+  p And it works. Over the past 3 months, 1070 users have come directly to my subscribe page. 50% joining the email list. You’ll notice the little spikes every time an article gains traction on another platform.
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi6.png" alt="Go viral with Hunter.io").img__80
+  h2 Ask like a human
+  p If Kanye West was in the business of growing an email list he should write:
+  p.inwardSpeech Hi, I’m creative genius Kanye West. Every song I make is dope. If you want to get notified when I make a new one pop your email in the box below.
+  p This is an example of a!{' '}
+    span.bold human call to action
+    |. And it’s powerful. Humans respond to other humans. On YouTube people seem to get this. The majority of videos include some sort of human CTA — “Hit the subscribe button...”.
+  p But on websites, impersonal email boxes are still the modus operandi. Recently I went back through my old case studies adding a human CTA at the end of each article:
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi9.png" alt="Go viral with Hunter.io").img__70
+  h2 Ask like a human
+  p Last week a friend asked me what my favourite blog is. I recommended Paul Modrowski’s blog, “On the Inside”. It then occurred to me that I’ve never actually signed up to Paul’s email list.
+  p All Paul had to do was ask me and I’d have obliged. But instead, he relied on an impersonal email box. I felt like I owed it to Paul. Evidently I didn’t feel like I owed the email box.
+  p On YouTube people seem to get this. The majority of videos include some sort of personal CTA — “Don’t forget to subscribe...”, but for whatever reason the power of the human tone has yet to cross over to websites.
+  p On this observation, I’ve went gone through my old case studies and added some kind of personal CTA to each one.
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi9.png" alt="Go viral with Hunter.io").img__70
+  h2 Makeover time
+  //- p Everything up to now has been focused on perfecting structure. But it’s not going to count for much if your email box still looks like this:
+  p Enough structure. It’s not going to help much if your email box still looks like this:
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi7.png" alt="Go viral with Hunter.io").img__60
+  p I've got 3 simple rules to improve any email section:
+  p.list.list__top 1) Explain!{' '}
+    span.bold why
+    |!{' '}people should sign up
+  p.list 2) Add social proof (e.g. No. of subscribers, unsubscribe rate, quote)
+  p.list.list__bottom 3) Replace “Subscribe” with a value-based CTA
+  img(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi8.png" alt="Go viral with Hunter.io").img__90
+  //- video(src="https://harrydry.s3.amazonaws.com/gdmarketing/eoi.mp4" class="img__85" playsinline="playsinline" controls="controls")
+  h2 Summary
+  p Choosing whether or not to subscribe to an email list is a split-second decision. Almost, a subconscious response to a set of conditions. This means that subtle psychological tweaks can make a big difference.
+  p Here’s the checklist:
+  p.list.list__top 1) 100% CTA coverage
+  p.list 2) Exit-intent popup
+  p.list 3) Subscribe page
+  p.list 4) Ask as a human
+  p.list 5) Give a clear reason to sign up
+  p.list 6) Social Proof
+  p.list 7) Value-based messaging
+  p And now, young Padawan, as you walk through the valley of the shadow of death you shall fear no evil.

@@ -346,5 +346,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How one confirmation email won CD Baby thousands of new customers",
+    "sUrl": "https://cdbaby.com/",
+    "sText": "CD Baby",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "cd-baby-confirmation-email",
+    "img": "beamery",
+    "imgType": "jpg",
+    "desc": "Back in 1998, when Derek Sivers first founded CD Baby, their order confirmation email was the regular: “Your order has shipped today. Please let us know if it doesn’t arrive. Thank you for your business.”"
   }
 ]

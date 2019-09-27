@@ -358,5 +358,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Using Giphy to increase brand awareness",
+    "sUrl": "https://karlaandco.com/",
+    "sText": "Karla and Co.",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "giphy-brand-awareness",
+    "img": "beamery",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

@@ -2,6 +2,7 @@ import './sass/styles.sass';
 import axios from 'axios';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
+import { resize, copyGif } from './modules/gifs';
 import {
   mailPopup,
   mailSubmitFromPost,
@@ -26,36 +27,38 @@ if (window.innerWidth < 768) {
 
 lazyLoad(filterArray);
 
-filterArray.forEach(filterItem => {
-  filterItem.on('click', async e => {
-    // reset page settings for new filters
-    e.preventDefault();
-    window.page = 2;
-    window.busy = false;
-    // toggle active state
-    e.currentTarget.classList.toggle('filters__active');
-    // array of active filters
-    const activeFilters = filterArray
-      .filter(filter => filter.classList.contains('filters__active'))
-      .map(filter => filter.dataset.term)
-      .join('-');
-    // if no filters default to all
-    if (activeFilters.length === 0) {
-      window.history.pushState('', '', `/`);
-      var { data } = await axios.get(`/api/lazy/1/all`);
-    } else {
-      // change push state
-      window.history.pushState('', '', `/${activeFilters}`);
-      // axios the filtered marketing ideas
-      var { data } = await axios.get(`/api/lazy/1/${activeFilters}`);
-    }
-    $('.outerCard').innerHTML = data;
-    // popup after dynamically inserted
-    postPopup(Array.from($$('.card')));
+if (!$('.gif')) {
+  filterArray.forEach(filterItem => {
+    filterItem.on('click', async e => {
+      // reset page settings for new filters
+      e.preventDefault();
+      window.page = 2;
+      window.busy = false;
+      // toggle active state
+      e.currentTarget.classList.toggle('filters__active');
+      // array of active filters
+      const activeFilters = filterArray
+        .filter(filter => filter.classList.contains('filters__active'))
+        .map(filter => filter.dataset.term)
+        .join('-');
+      // if no filters default to all
+      if (activeFilters.length === 0) {
+        window.history.pushState('', '', `/`);
+        var { data } = await axios.get(`/api/lazy/1/all`);
+      } else {
+        // change push state
+        window.history.pushState('', '', `/${activeFilters}`);
+        // axios the filtered marketing ideas
+        var { data } = await axios.get(`/api/lazy/1/${activeFilters}`);
+      }
+      $('.outerCard').innerHTML = data;
+      // popup after dynamically inserted
+      postPopup(Array.from($$('.card')));
+    });
   });
-});
+}
 
-if (!$('.slack')) {
+if (!$('.gif')) {
   const hmButton = $('.hm__button');
   const hmFilters = $('.hm__filters');
   hmButton.on('click', () => {
@@ -72,8 +75,10 @@ if (!$('.slack')) {
 }
 
 // mailPopup
-mailPopup();
-mailSubmitHome();
+if (!$('.gif')) {
+  mailPopup();
+  mailSubmitHome();
+}
 
 // only if Post page
 if ($('.postNoScroll')) {
@@ -81,6 +86,13 @@ if ($('.postNoScroll')) {
 }
 
 // popup from homepage (also if close post page)
-if (!$('.slack')) {
+if (!$('.gif')) {
   postPopup(Array.from($$('.card')));
+}
+
+// gif page
+if ($('.gif')) {
+  window.addEventListener('load', resize);
+  window.addEventListener('resize', resize);
+  copyGif();
 }

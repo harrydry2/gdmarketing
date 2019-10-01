@@ -245,6 +245,14 @@ p {
   .twitterSVG > * {
     fill: #4742DE; }
 
+.gif__inner-header-tweet .twitterSVG {
+  height: 2.1rem; }
+  @media screen and (max-width: 768px) {
+    .gif__inner-header-tweet .twitterSVG {
+      height: 2.1rem; } }
+  .gif__inner-header-tweet .twitterSVG > * {
+    fill: #fff; }
+
 .slackSVG {
   height: 2.5rem; }
   @media screen and (max-width: 768px) {
@@ -683,6 +691,53 @@ p {
     font-size: 1.4rem; }
     .ph__text span {
       border-bottom: 2px solid white; }
+
+.gif {
+  background-color: #1C1F29;
+  width: 100%; }
+  .gif__video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; }
+  .gif__inner {
+    max-width: 109.2rem;
+    padding: 0 2.2rem;
+    margin: 0 auto; }
+    .gif__inner-header {
+      border-bottom: 1px solid #383D47;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .gif__inner-header-h1 {
+        padding: 2rem 0; }
+    .gif__inner-gif {
+      padding: 2.2rem 0;
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-auto-rows: 1rem;
+      grid-auto-flow: row; }
+
+.gif__item {
+  position: relative;
+  cursor: pointer; }
+  .gif__item-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .gif__item-overlay-text {
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: bold; }
+  .gif__item:hover .gif__item-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: all 0.2s; }
 
 .outerMail {
   justify-content: center;

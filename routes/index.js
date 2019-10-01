@@ -6,7 +6,7 @@ const postController = require('../controllers/postController');
 const emailController = require('../controllers/emailController');
 
 router.get('/', mainController.home);
-router.get('/slack', mainController.slack);
+router.get('/gifs', mainController.gifs);
 router.get('/sitemap.xml', mainController.xml);
 // tes
 // router.get('/robots.txt', mainController.txt);

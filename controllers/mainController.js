@@ -15,8 +15,8 @@ exports.home = async (req, res) => {
   res.render('./home/ext', { cards });
 };
 
-exports.slack = async (req, res) => {
-  res.render('./home/slack');
+exports.gifs = async (req, res) => {
+  res.render('./home/gifs');
 };
 
 exports.xml = async (req, res) => {

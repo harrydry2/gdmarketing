@@ -361,13 +361,13 @@
   },
   {
     "num": "9",
-    "title": "Single page websites are damaging your SEO",
-    "sUrl": "https://karlaandco.com/",
-    "sText": "Karla and Co.",
+    "title": "Basic SEO and Specsavers' FAQ page",
+    "sUrl": "https://specsavers.com.au",
+    "sText": "Specsavers",
     "tFront": "SEO",
     "tBack": "seo",
-    "slug": "unique-pages",
-    "img": "beamery",
+    "slug": "specsavers",
+    "img": "up",
     "imgType": "jpg",
     "desc": "adas asdsa dasd dsd"
   }

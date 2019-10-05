@@ -8,10 +8,11 @@ import {
   mailSubmitFromPost,
   mailSubmitHome,
 } from './modules/mailPopup';
-import { lazyLoad } from './modules/lazyLoad';
+import { lazyLoad, gifLoad } from './modules/lazyLoad';
 
 window.page = 2;
 window.busy = false;
+window.gifbusy = false;
 
 // 1) Deals with the filter across screens
 
@@ -25,7 +26,9 @@ if (window.innerWidth < 768) {
   filterArray = array.slice(0, arrayLength / 2);
 }
 
-lazyLoad(filterArray);
+if (!$('.gif')) {
+  lazyLoad(filterArray);
+}
 
 if (!$('.gif')) {
   filterArray.forEach(filterItem => {
@@ -95,4 +98,5 @@ if ($('.gif')) {
   window.addEventListener('load', resize);
   window.addEventListener('resize', resize);
   copyGif();
+  gifLoad();
 }

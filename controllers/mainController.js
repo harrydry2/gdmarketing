@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 const path = require('path');
 
 const Cards = mongoose.model('Cards');
+const Gifs = mongoose.model('Gifs');
 const dbCards = require('../scripts/cards');
+const dbGifs = require('../scripts/gifs');
 
 exports.home = async (req, res) => {
   // get skip + limit
@@ -16,7 +18,13 @@ exports.home = async (req, res) => {
 };
 
 exports.gifs = async (req, res) => {
-  res.render('./home/gifs');
+  const page = +req.params.page || 1;
+  const limit = 8;
+  const skip = limit * page - limit;
+  const gifs = await Gifs.find()
+    .skip(skip)
+    .limit(limit);
+  res.render('./home/gifs', { gifs });
 };
 
 exports.xml = async (req, res) => {
@@ -48,6 +56,39 @@ exports.lazy = async (req, res) => {
   res.render('./backend/cards', { cards });
 };
 
+exports.lazyGif = async (req, res) => {
+  let { page } = req.params || 1;
+  console.log(page, 'start');
+  if (parseFloat(page) === 2) {
+    res.render('./backend/gifs/box1');
+    return;
+  }
+  if (parseFloat(page) === 4) {
+    res.render('./backend/gifs/box2');
+    return;
+  }
+  if (parseFloat(page) === 6) {
+    res.render('./backend/gifs/box3');
+    return;
+  }
+  if (page > 2 && page < 4) {
+    page -= 1;
+  }
+  if (page > 4 && page < 6) {
+    page -= 2;
+  }
+  if (page > 6) {
+    page -= 3;
+  }
+  const limit = 8;
+  console.log(page, 'end');
+  const skip = limit * page - limit;
+  const gifs = await Gifs.find()
+    .skip(skip)
+    .limit(limit);
+  res.render('./backend/gifs', { gifs });
+};
+
 exports.getcontent = async (req, res) => {
   const { slug } = req.query;
   res.render(`./backend/posts/content/${slug}`);
@@ -64,6 +105,13 @@ exports.postideas = async (req, res) => {
   await Cards.insertMany(dbCards);
   const cards = await Cards.find();
   res.json(cards);
+};
+
+exports.postgifs = async (req, res) => {
+  await Gifs.deleteMany({});
+  await Gifs.insertMany(dbGifs);
+  const gifs = await Gifs.find();
+  res.json(gifs);
 };
 
 exports.filters = async (req, res) => {

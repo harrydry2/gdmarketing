@@ -277,6 +277,16 @@ p {
     .outerPost__close .crossSVG > * {
       fill: #fff; } }
 
+.harryGIF__inner-logo-down > * {
+  width: 4.4rem; }
+
+.gif__inner-header-logo-me > * {
+  width: 4rem; }
+
+@media screen and (max-width: 768px) {
+  .gif__inner-header-logo-me > * {
+    width: 3.7rem; } }
+
 .home {
   display: flex; }
   .home__left {
@@ -693,7 +703,7 @@ p {
       border-bottom: 2px solid white; }
 
 .gif {
-  background-color: #1C1F29;
+  background-color: #0e2439;
   width: 100%; }
   .gif__video {
     width: 100%;
@@ -704,12 +714,28 @@ p {
     padding: 0 2.2rem;
     margin: 0 auto; }
     .gif__inner-header {
-      border-bottom: 1px solid #383D47;
+      border-bottom: 1px solid #1f364d;
       display: flex;
       align-items: center;
       justify-content: space-between; }
-      .gif__inner-header-h1 {
-        padding: 2rem 0; }
+      .gif__inner-header-logo {
+        display: flex;
+        align-items: center;
+        padding: 2rem 0;
+        color: white; }
+        @media screen and (max-width: 768px) {
+          .gif__inner-header-logo {
+            padding: 1.6rem 0; } }
+        .gif__inner-header-logo-logo {
+          font-size: 2.6rem; }
+          @media screen and (max-width: 768px) {
+            .gif__inner-header-logo-logo {
+              font-size: 2.2rem; } }
+        .gif__inner-header-logo-by {
+          font-size: 1.2rem;
+          font-weight: bold;
+          margin: 0 1rem;
+          color: white; }
     .gif__inner-gif {
       padding: 2.2rem 0;
       display: grid;
@@ -720,7 +746,8 @@ p {
 
 .gif__item {
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 5px solid #1f364d; }
   .gif__item-overlay {
     width: 100%;
     height: 100%;
@@ -738,6 +765,34 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 1;
     transition: all 0.2s; }
+
+.harryGIF {
+  grid-column: span 1;
+  grid-row: span 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%; }
+  .harryGIF__inner {
+    max-width: 32rem; }
+    .harryGIF__inner-p {
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 1.3;
+      font-weight: bold;
+      margin-top: 1.2rem;
+      margin-bottom: 2rem; }
+    .harryGIF__inner-button {
+      display: inline-flex;
+      background-color: #4742DE;
+      padding: 1rem;
+      font-size: 1.2rem;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px; }
 
 .outerMail {
   justify-content: center;

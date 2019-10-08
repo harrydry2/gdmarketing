@@ -131,7 +131,7 @@ export function gifLoad() {
       return;
     }
     if (
-      Math.round(window.innerHeight + window.scrollY) >=
+      Math.round(window.innerHeight + window.scrollY + 200) >=
       document.body.offsetHeight
     ) {
       window.gifbusy = true;

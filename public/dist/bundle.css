@@ -753,6 +753,10 @@ p {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       grid-auto-rows: 1rem;
       grid-auto-flow: row; }
+  .gif__footer {
+    height: 30rem;
+    background: white;
+    width: 100%; }
 
 .gif__item {
   position: relative;

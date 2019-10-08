@@ -791,6 +791,15 @@ p {
   width: 100%; }
   .harryGIF__inner {
     max-width: 32rem; }
+    .harryGIF__inner-img {
+      background-image: url("https://harrydry.s3.amazonaws.com/gdmarketing/harry.jpg");
+      margin: 0 auto;
+      width: 4.2rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 4.4rem;
+      border-radius: 100%; }
     .harryGIF__inner-p {
       color: white;
       text-align: center;

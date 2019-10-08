@@ -6,7 +6,7 @@ export function copyGif() {
   const clipboard = new ClipboardJS(clip);
   clipboard.on('success', e => {
     const text = e.trigger.querySelector('.gif__item-overlay-text');
-    text.innerText = 'Success :)';
+    text.innerText = 'Gif copied :)';
   });
 }
 

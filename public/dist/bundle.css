@@ -713,6 +713,16 @@ p {
     max-width: 109.2rem;
     padding: 0 2.2rem;
     margin: 0 auto; }
+    .gif__inner-mobile {
+      font-size: 1.5rem;
+      color: white;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 2.2rem;
+      display: none; }
+      @media screen and (max-width: 768px) {
+        .gif__inner-mobile {
+          display: block; } }
     .gif__inner-header {
       border-bottom: 1px solid #1f364d;
       display: flex;

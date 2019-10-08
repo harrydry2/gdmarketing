@@ -57,29 +57,7 @@ exports.lazy = async (req, res) => {
 };
 
 exports.lazyGif = async (req, res) => {
-  let { page } = req.params || 1;
-  console.log(page, 'start');
-  if (parseFloat(page) === 2) {
-    res.render('./backend/gifs/box1');
-    return;
-  }
-  if (parseFloat(page) === 4) {
-    res.render('./backend/gifs/box2');
-    return;
-  }
-  if (parseFloat(page) === 6) {
-    res.render('./backend/gifs/box3');
-    return;
-  }
-  if (page > 2 && page < 4) {
-    page -= 1;
-  }
-  if (page > 4 && page < 6) {
-    page -= 2;
-  }
-  if (page > 6) {
-    page -= 3;
-  }
+  const { page } = req.params || 1;
   const limit = 8;
   console.log(page, 'end');
   const skip = limit * page - limit;

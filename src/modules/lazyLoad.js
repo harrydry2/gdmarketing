@@ -127,7 +127,7 @@ export function gifLoad() {
         // } else {
         //   newdata = data;
         // }
-        $('.gif__inner-gif').insertAdjacentHTML('beforeend', newdata);
+        $('.gif__inner-gif').insertAdjacentHTML('beforeend', data);
         copyGif();
         // $$('.gif__video').forEach(video => {
         //   video.addEventListener('loadeddata', resize);

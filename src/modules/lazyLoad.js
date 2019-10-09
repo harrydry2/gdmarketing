@@ -118,20 +118,20 @@ export function gifLoad() {
       try {
         let newdata;
         const { data } = await axios.get(`/api/lazyGif/${window.page}`);
-        // if (window.page === 2) {
-        //   newdata = box1.concat(data);
-        // } else if (window.page === 3) {
-        //   newdata = box2.concat(data);
-        // } else if (window.page === 4) {
-        //   newdata = box3.concat(data);
-        // } else {
-        //   newdata = data;
-        // }
+        if (window.page === 2) {
+          newdata = box1.concat(data);
+        } else if (window.page === 3) {
+          newdata = box2.concat(data);
+        } else if (window.page === 4) {
+          newdata = box3.concat(data);
+        } else {
+          newdata = data;
+        }
         $('.gif__inner-gif').insertAdjacentHTML('beforeend', data);
         copyGif();
-        // $$('.gif__video').forEach(video => {
-        //   video.addEventListener('loadeddata', resize);
-        // });
+        $$('.gif__video').forEach(video => {
+          video.addEventListener('loadeddata', resize);
+        });
         if (data.length) {
           window.page += 1;
         } else {

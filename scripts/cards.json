@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Podia's hub of competitor comparison pages",
+    "sUrl": "https://podia.com",
+    "sText": "Podia",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "competitor-comparison",
+    "img": "podia",
+    "imgType": "png",
+    "desc": "How Podia built a hub of “[competitor] + alternative” pages pulling in 5,500 organic traffic each month"
+  },
+  {
+    "num": "9",
     "title": "Basic SEO and Specsavers' FAQ page",
     "sUrl": "https://specsavers.com.au",
     "sText": "Specsavers",
@@ -370,17 +382,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Podia's hub of competitor comparison pages",
-    "sUrl": "https://podia.com",
-    "sText": "Podia",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "competitor-comparison",
-    "img": "podia",
-    "imgType": "png",
-    "desc": "How Podia built a hub of “[competitor] + alternative” pages pulling in 5,500 organic traffic each month"
   }
 ]

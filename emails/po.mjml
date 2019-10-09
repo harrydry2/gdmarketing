@@ -1,0 +1,114 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
+          <mj-text mj-class="h1" align="center">#020 - Podia's hub of competitor comparison pages</mj-text>
+          <mj-text mj-class="p">For any popular product, there’s always a bunch of people who are unhappy or who want to compare alternatives.</mj-text>
+          <mj-text mj-class="p">One nice trick is creating a comparison page targeting the “[your competitor name] + alternative” search term. For example, EmailOctopus has a “Mailchimp alternative” page.</mj-text>
+          <mj-text mj-class="p">Even if the search volume is low it's one of the best terms to rank for because anyone Googling has an <span class="bold">intent to purchase</span>. A “[competitor] + alternative” page with <span class="bold">50 / mo</span> organic traffic might convert more paid users than a blog post with <span class="bold">5000 / mo</span> organic traffic.</mj-text>
+          <mj-text mj-class="p">Podia, the online course platform, nails this strategy.</mj-text>
+          <mj-text mj-class="h2">Hub of Pages</mj-text>
+          <mj-text mj-class="p">The first area where Podia excels is volume. In total they have <span class="bold">37</span> “[competitor] + alternative” pages (all variations of the same template) pulling in <span class="bold">5,500</span> organic traffic / mo:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://s3.amazonaws.com/harrydry/gdmarketing/po1a.png" alt="Podia's Organic Traffic / mo"></mj-image>
+          <mj-text mj-class="p">No matter which competitor becomes “the next big thing” Podia are ready to pinch any unhappy customers.</mj-text>
+          <mj-text mj-class="h2">More</mj-text>
+          <mj-text mj-class="p">The rest of the case study focuses on how Podia:</mj-text>
+          <mj-text mj-class="p list list__top">• Position themselves as the antidote to each competitor's pain</mj-text>
+          <mj-text mj-class="p list">• Engage users with a targeted popup</mj-text>
+          <mj-text mj-class="p list list__bottom">• Prevent competitors pulling the same trick on them</mj-text>
+          <mj-text mj-class="p">In my opinion, it's one of the most pratical examples yet.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="buttonSection">
+        <mj-column>
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/seo/competitor-comparison?utm_source=newsletter&utm_medium=email&utm_campaign=email_20">
+            <span class="brand semibold">Read the case study</span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-text mj-class="p">If you enjoy the emails I do really appreciate it if you forward them onto any marketing friends. Anyone new can subscribe <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="h2">Sponsor</mj-text>
+          <mj-text mj-class="p">Thanks to my sponsor, <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">EmailOctopus</a>. I use them for all my own <span class="bold">email marketing</span> and would certainly recommend them.</mj-text>
+          <mj-text mj-class="p">Thanks, <br>Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

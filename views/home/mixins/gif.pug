@@ -2,4 +2,4 @@ mixin gif({gif, id})
   .gif__item(data-clipboard-text=`${id}`)
     .gif__item-overlay
       .gif__item-overlay-text Copy Gif for Slack
-    video(alt="Marketing GIF" src=`${gif}` playsinline="playsinline" loop="loop" muted="muted" autoplay="autoplay" class="gif__video")
+    video(alt="Marketing GIF" src=`${gif}` playsinline="playsinline" loop="loop" muted="muted" autoplay="autoplay" autobuffer class="gif__video")

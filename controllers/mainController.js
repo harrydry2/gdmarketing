@@ -19,7 +19,7 @@ exports.home = async (req, res) => {
 
 exports.gifs = async (req, res) => {
   const page = +req.params.page || 1;
-  const limit = 8;
+  const limit = 10;
   const skip = limit * page - limit;
   const gifs = await Gifs.find()
     .skip(skip)
@@ -41,7 +41,7 @@ exports.lazy = async (req, res) => {
   let cards;
   const { page } = req.params || 1;
   const { filterParam } = req.params;
-  const limit = 10;
+  const limit = 8;
   const skip = limit * page - limit;
   if (filterParam === 'all') {
     cards = await Cards.find()

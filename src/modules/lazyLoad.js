@@ -105,6 +105,37 @@ const box3 = `<div class="harryGIF">
 </div>
 </div>`;
 
+export function gifLoadMobile() {
+  $('.gif__button-ds').on('click', async () => {
+    try {
+      let newdata;
+      const { data } = await axios.get(`/api/lazyGif/${window.page}`);
+      if (window.page === 2) {
+        newdata = box1.concat(data);
+      } else if (window.page === 3) {
+        newdata = box2.concat(data);
+      } else if (window.page === 4) {
+        newdata = box3.concat(data);
+      } else {
+        newdata = data;
+      }
+      $('.gif__inner-gif').insertAdjacentHTML('beforeend', newdata);
+      copyGif();
+      // $$('.gif__video').forEach(video => {
+      //   video.addEventListener('loadeddata', resize);
+      // });
+      if (data.length) {
+        window.page += 1;
+      } else {
+        return;
+      }
+      window.gifbusy = false;
+    } catch (err) {
+      console.log(err);
+    }
+  });
+}
+
 export function gifLoad() {
   window.onscroll = async () => {
     if (window.gifbusy) {

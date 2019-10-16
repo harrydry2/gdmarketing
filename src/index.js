@@ -8,7 +8,7 @@ import {
   mailSubmitFromPost,
   mailSubmitHome,
 } from './modules/mailPopup';
-import { lazyLoad, gifLoad } from './modules/lazyLoad';
+import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
 
 window.page = 2;
 window.busy = false;
@@ -95,8 +95,13 @@ if (!$('.gif')) {
 
 // gif page
 if ($('.gif')) {
-  window.addEventListener('load', resize);
-  window.addEventListener('resize', resize);
   copyGif();
-  gifLoad();
+  if (window.innerWidth > 768) {
+    window.addEventListener('load', resize);
+    window.addEventListener('resize', resize);
+    gifLoad();
+  } else {
+    window.addEventListener('load', resize);
+    gifLoadMobile();
+  }
 }

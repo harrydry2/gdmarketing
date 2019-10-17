@@ -750,9 +750,6 @@ p {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       grid-auto-rows: 1rem;
       grid-auto-flow: row; }
-      @media screen and (max-width: 768px) {
-        .gif__inner-gif {
-          display: block; } }
   .gif__footer {
     height: 30rem;
     background: white;

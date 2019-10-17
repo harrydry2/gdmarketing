@@ -2,7 +2,7 @@ import './sass/styles.sass';
 import axios from 'axios';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
-import { resize, copyGif } from './modules/gifs';
+import { resize, copyGif, gifStart } from './modules/gifs';
 import {
   mailPopup,
   mailSubmitFromPost,
@@ -96,12 +96,13 @@ if (!$('.gif')) {
 // gif page
 if ($('.gif')) {
   copyGif();
-  if (window.innerWidth > 768) {
-    window.addEventListener('load', resize);
-    window.addEventListener('resize', resize);
-    gifLoad();
-  } else {
-    window.addEventListener('load', resize);
-    gifLoadMobile();
-  }
+  // if (window.innerWidth > 768) {
+  window.addEventListener('load', resize);
+  window.addEventListener('resize', resize);
+  gifLoad();
+  gifStart();
+  // } else {
+  //   window.addEventListener('load', resize);
+  //   gifLoadMobile();
+  // }
 }

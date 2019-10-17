@@ -119,11 +119,16 @@ export function gifLoadMobile() {
       } else {
         newdata = data;
       }
-      $('.gif__inner-gif').insertAdjacentHTML('beforeend', newdata);
+      $('.gif__inner-gif').innerHTML = newdata;
+      window.scrollTo({
+        top: 100,
+        left: 0,
+        behavior: 'smooth',
+      });
       copyGif();
-      // $$('.gif__video').forEach(video => {
-      //   video.addEventListener('loadeddata', resize);
-      // });
+      $$('.gif__video').forEach(video => {
+        video.addEventListener('loadeddata', resize);
+      });
       if (data.length) {
         window.page += 1;
       } else {

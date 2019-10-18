@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "7 practical ways to write copy that converts",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Annie Maguire",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "copywriting",
+    "img": "cc",
+    "imgType": "jpg",
+    "desc": "Conversion copywriting is an art. Here are 7 practical tips that you can implement today to make your landing page convert better."
+  },
+  {
+    "num": "9",
     "title": "Podia's hub of competitor comparison pages",
     "sUrl": "https://podia.com",
     "sText": "Podia",
@@ -382,17 +394,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "7 practical ways to write copy that converts",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "Annie Maguire",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "copywriting",
-    "img": "cc",
-    "imgType": "jpg",
-    "desc": "Conversion copywriting is an art. Here are 7 practical tips that you can implement today to make your landing page convert better."
   }
 ]

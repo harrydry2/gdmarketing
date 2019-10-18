@@ -79,7 +79,11 @@ if (!$('.gif')) {
 
 // mailPopup
 if (!$('.gif')) {
-  mailPopup();
+  if (!window.location.href.includes('utm_source=newsletter')) {
+    mailPopup();
+  } else {
+    console.log('no more emails popups for loving subs');
+  }
   mailSubmitHome();
 }
 

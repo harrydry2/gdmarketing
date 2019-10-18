@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="16px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/conversion/copywriting?utm_source=newsletter&utm_medium=email&utm_campaign=email_21"></mj-image>
+          <mj-text mj-class="h1" align="center">#021 - 7 practical ways to write copy that converts:</mj-text>
+          <mj-text mj-class="h2under">1) Use value-based messaging</mj-text>
+          <mj-text mj-class="p">Talk less about your <span class="bold">product</span> and more about the <span class="bold">value</span> your product brings. People don’t want a <span class="bold">better toothbrush</span>. They want a <span class="bold">brighter smile</span>:</mj-text>
+          <mj-image mj-class="cImg img450" src="https://s3.amazonaws.com/harrydry/gdmarketing/cc1.jpg" alt="Podia's Organic Traffic / mo"></mj-image>
+          <mj-text mj-class="h2under">2) Get specific</mj-text>
+          <mj-text mj-class="p">Landing page copy is full of unfalsifiable, blanket claims: “more, easier, faster ...”</mj-text>
+          <mj-text mj-class="p">If you want to stand out <span class="bold">get specific</span>. You can’t bullshit specifics:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://s3.amazonaws.com/harrydry/gdmarketing/cc5.png" alt="Podia's Organic Traffic / mo"></mj-image>
+          <mj-text mj-class="h2under">3) Call out the type of customer you serve</mj-text>
+          <mj-text mj-class="p">People pay attention when they know something is specifically for them:</mj-text>
+          <mj-image mj-class="cImg img450" src="https://s3.amazonaws.com/harrydry/gdmarketing/cc6.png" alt="Podia's Organic Traffic / mo"></mj-image>
+          <mj-text mj-class="p inwardSpeech">“What? Loads of authors are using this. I’m an author. Maybe I should be too ...”</mj-text>
+          <mj-text mj-class="h2under">4) Think “Call-to-value” not “Call-to-action”</mj-text>
+          <mj-text mj-class="p">Buttons which amplify <span class="bold">“value”</span> over <span class="bold">“action”</span> usually perform better. “Create Your Website” is more enticing than “Sign up now”:</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/cc7.png" alt="Podia's Organic Traffic / mo"></mj-image>
+          <mj-text mj-class="h2">More</mj-text>
+          <mj-text mj-class="p">There's <span class="bold">3</span> more super short, practical tips in the full case study:</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="buttonSection">
+        <mj-column>
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/conversion/copywriting?utm_source=newsletter&utm_medium=email&utm_campaign=email_21">
+            <span class="brand semibold">Read all the tips</span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-text mj-class="p">Will be back on Tuesday with another case study (and a lighthearted bonus).</mj-text>
+          <mj-text mj-class="p">I'm always on the hunt for <a class="underA" href="https://twitter.com/GoodMarketingHQ/status/1168488373675339778" target="_blank">quick twitter tips</a>. If you've got any ideas please get in touch.</mj-text>
+          <mj-text mj-class="p">And finally, if you enjoy the emails I do really appreciate it if you forward them onto any marketing friends. Anyone new can subscribe <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="h2">Sponsor</mj-text>
+          <mj-text mj-class="p">Thanks to my sponsor, <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">EmailOctopus</a>. I use them for all my own <span class="bold">email marketing</span> and would certainly recommend them.</mj-text>
+          <mj-text mj-class="p">Over and out, <br>Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -70,7 +70,7 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com"></mj-image>
-          <mj-text mj-class="h1" align="center">#020 - Podia's hub of competitor comparison pages</mj-text>
+          <mj-text mj-class="h1" align="center">#021 - Podia's hub of competitor comparison pages</mj-text>
           <mj-text mj-class="p">For any popular product, there’s always a bunch of people who are unhappy or who want to compare alternatives.</mj-text>
           <mj-text mj-class="p">One nice trick is creating a comparison page targeting the “[your competitor name] + alternative” search term. For example, EmailOctopus has a “Mailchimp alternative” page.</mj-text>
           <mj-text mj-class="p">Even if the search volume is low it's one of the best terms to rank for because anyone Googling has an <span class="bold">intent to purchase</span>. A “[competitor] + alternative” page with <span class="bold">50 / mo</span> organic traffic might convert more paid users than a blog post with <span class="bold">5000 / mo</span> organic traffic.</mj-text>

@@ -9,7 +9,7 @@ const dbGifs = require('../scripts/gifs');
 exports.home = async (req, res) => {
   // get skip + limit
   const page = +req.params.page || 1;
-  const limit = 10;
+  const limit = 8;
   const skip = limit * page - limit;
   const cards = await Cards.find()
     .skip(skip)

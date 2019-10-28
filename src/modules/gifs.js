@@ -28,29 +28,29 @@ export function resize() {
   grid.removeAttribute('style');
 }
 
-function iiViewport(elem) {
-  const bounding = elem.getBoundingClientRect();
-  return (
-    bounding.top >= 0 &&
-    bounding.left >= 0 &&
-    bounding.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-    bounding.right <=
-      (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
+// function iiViewport(elem) {
+//   const bounding = elem.getBoundingClientRect();
+//   return (
+//     bounding.top >= 0 &&
+//     bounding.left >= 0 &&
+//     bounding.bottom <=
+//       (window.innerHeight || document.documentElement.clientHeight) &&
+//     bounding.right <=
+//       (window.innerWidth || document.documentElement.clientWidth)
+//   );
+// }
 
-export function gifStart() {
-  const gifs = $$('.gif__video');
-  window.addEventListener('scroll', () => {
-    gifs.forEach(gif => {
-      if (iiViewport(gif)) {
-        if (gif.paused) {
-          gif.play();
-        }
-      } else if (!gif.paused) {
-        gif.pause();
-      }
-    });
-  });
-}
+// export function gifStart() {
+//   const gifs = $$('.gif__video');
+//   window.addEventListener('scroll', () => {
+//     gifs.forEach(gif => {
+//       if (iiViewport(gif)) {
+//         if (gif.paused) {
+//           gif.play();
+//         }
+//       } else if (!gif.paused) {
+//         gif.pause();
+//       }
+//     });
+//   });
+// }

@@ -58,7 +58,7 @@ exports.lazy = async (req, res) => {
 
 exports.lazyGif = async (req, res) => {
   const { page } = req.params || 1;
-  const limit = 8;
+  const limit = 10;
   console.log(page, 'end');
   const skip = limit * page - limit;
   const gifs = await Gifs.find()

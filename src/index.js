@@ -104,7 +104,7 @@ if ($('.gif')) {
   window.addEventListener('load', resize);
   window.addEventListener('resize', resize);
   gifLoad();
-  gifStart();
+  // gifStart();
   // } else {
   //   window.addEventListener('load', resize);
   //   gifLoadMobile();

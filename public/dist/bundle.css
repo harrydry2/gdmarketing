@@ -759,6 +759,11 @@ p {
   position: relative;
   cursor: pointer;
   border: 5px solid #1f364d; }
+  .gif__item-special {
+    border: 5px solid #4742DE; }
+    .gif__item-special:hover {
+      border: 5px solid #ffffff;
+      transition: all 0.2s; }
   .gif__item-overlay {
     width: 100%;
     height: 100%;
@@ -772,8 +777,25 @@ p {
       color: #fff;
       font-size: 1.6rem;
       font-weight: bold; }
+  .gif__item-special-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .gif__item-special-overlay-text {
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: bold; }
   .gif__item:hover .gif__item-overlay {
     background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: all 0.2s; }
+  .gif__item:hover .gif__item-special-overlay {
+    background-color: #4742DE;
     opacity: 1;
     transition: all 0.2s; }
 
@@ -786,6 +808,10 @@ p {
   flex-direction: column;
   text-align: center;
   width: 100%; }
+  .harryGIF__video {
+    height: 100%;
+    width: 100%;
+    object-fit: fill; }
   .harryGIF__inner {
     max-width: 32rem; }
     .harryGIF__inner-img {

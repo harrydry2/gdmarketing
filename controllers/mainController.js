@@ -96,7 +96,7 @@ exports.filters = async (req, res) => {
   const { filters } = req.params;
   const activeFilters = filters.split('-');
   const page = req.params.page || 1;
-  const limit = 10;
+  const limit = 8;
   const skip = limit * page - limit;
   // find active cards
   const cards = await Cards.find({ tBack: { $in: activeFilters } })

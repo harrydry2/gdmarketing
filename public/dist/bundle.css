@@ -551,6 +551,15 @@ p {
       grid-row-start: 15;
       grid-column-start: auto; } }
 
+.sponsor4 {
+  grid-row-start: 8;
+  grid-column-start: 2; }
+  @media screen and (max-width: 768px) {
+    .sponsor4 {
+      height: 22rem;
+      grid-row-start: 20;
+      grid-column-start: auto; } }
+
 .sponsor {
   display: flex;
   justify-content: center;
@@ -558,6 +567,8 @@ p {
   flex-direction: column;
   text-align: center;
   width: 100%; }
+  .sponsor__inner-center {
+    border-radius: 40px; }
   .sponsor__inner {
     max-width: 30rem; }
     .sponsor__inner-p {

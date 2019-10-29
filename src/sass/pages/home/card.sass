@@ -41,6 +41,14 @@
     grid-row-start: 15
     grid-column-start: auto
 
+.sponsor4
+  grid-row-start: 8
+  grid-column-start: 2
+  @media screen and (max-width: 768px)
+    height: 22rem
+    grid-row-start: 20
+    grid-column-start: auto
+
 .sponsor
   display: flex
   justify-content: center
@@ -48,6 +56,8 @@
   flex-direction: column
   text-align: center
   width: 100%
+  &__inner-center
+    border-radius: 40px
   &__inner
     max-width: 30rem
     &-p

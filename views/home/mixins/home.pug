@@ -28,19 +28,24 @@ mixin home(cards, activeFilters, title, displaynone = "")
       .outerCard
         .sponsor.sponsor1
           .sponsor__inner
-            !=icon("emailoctopus")
-            .sponsor__inner-p I use EmailOctopus for my email marketing. So should you.
-            a.sponsor__inner-button(href="https://www.emailoctopus.com?ref=marketingexamples" target="_blank") Get started
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/trainual.png", alt="Trainual logo")
+            .sponsor__inner-p Trainual is the easiest way to train your team and keep things running smooth as you scale.
+            a.sponsor__inner-button(href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=online-sponsorship" target="_blank") Try it out
         .sponsor.sponsor2
           .sponsor__inner
             !=icon("emailoctopus")
-            .sponsor__inner-p Discover how much you can save by switching to EmailOctopus
-            a.sponsor__inner-button(href="https://emailoctopus.com/savings-calculator?ref=marketingexamples" target="_blank") Compare savings
+            .sponsor__inner-p I use EmailOctopus for my email marketing. So should you.
+            a.sponsor__inner-button(href="https://www.emailoctopus.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=online-sponsorship" target="_blank") Get started
         .sponsor.sponsor3
           .sponsor__inner
-            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/eoBros.jpg", alt="EmailOctopus Indie Hackers Interview")
-            .sponsor__inner-p How two brothers bootstrapped their email marketing platform to profitability.
-            a.sponsor__inner-button(href="https://www.indiehackers.com/podcast/042-gareth-and-jonathan-bull-of-emailoctopus?ref=marketingexamples" target="_blank") Play the interview
+            img.sponsor__inner-center(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/chris.jpg", alt="Trainual logo")
+            .sponsor__inner-p Zero to $2M in annual recurring revenue in 15 months
+            a.sponsor__inner-button(href="https://trainual.com/press/freelance-to-founder-podcast/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=online-sponsorship" target="_blank") Learn how
+        .sponsor.sponsor4
+          .sponsor__inner
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/trainual.png", alt="Trainual logo")
+            .sponsor__inner-p Trainual is easier-than-ever onboarding and training to scale your business faster
+            a.sponsor__inner-button(href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=online-sponsorship" target="_blank") Get started
         each card in cards
           +card(card)
       //- .outerLoader

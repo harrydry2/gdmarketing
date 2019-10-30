@@ -3,6 +3,7 @@ const path = require('path');
 
 const Cards = mongoose.model('Cards');
 const Gifs = mongoose.model('Gifs');
+const mobile = require('is-mobile');
 const dbCards = require('../scripts/cards');
 const dbGifs = require('../scripts/gifs');
 
@@ -17,15 +18,23 @@ exports.home = async (req, res) => {
   res.render('./home/ext', { cards });
 };
 
-exports.gifs = async (req, res) => {
-  const page = +req.params.page || 1;
-  const limit = 7;
-  const skip = limit * page - limit;
-  const gifs = await Gifs.find()
-    .skip(skip)
-    .limit(limit);
-  res.render('./home/gifs', { gifs });
-};
+if (!mobile()) {
+  exports.gifs = async (req, res) => {
+    const page = +req.params.page || 1;
+    const limit = 8;
+    const skip = limit * page - limit;
+    const gifs = await Gifs.find()
+      .skip(skip)
+      .limit(limit);
+    res.render('./home/gifs', { gifs });
+  };
+}
+
+if (mobile()) {
+  exports.gifs = async (req, res) => {
+    res.json({ bees: true });
+  };
+}
 
 exports.xml = async (req, res) => {
   res.contentType('application/xml');
@@ -58,8 +67,7 @@ exports.lazy = async (req, res) => {
 
 exports.lazyGif = async (req, res) => {
   const { page } = req.params || 1;
-  const limit = 7;
-  console.log(page, 'end');
+  const limit = 8;
   const skip = limit * page - limit;
   const gifs = await Gifs.find()
     .skip(skip)

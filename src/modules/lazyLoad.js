@@ -123,6 +123,7 @@ export function gifLoad() {
       try {
         let newdata;
         const { data } = await axios.get(`/api/lazyGif/${window.page}`);
+        console.log(data, 'data');
         if (window.page === 2) {
           newdata = box1.concat(data);
         } else if (window.page === 3) {

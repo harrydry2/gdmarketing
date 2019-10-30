@@ -3,8 +3,10 @@ const path = require('path');
 
 const Cards = mongoose.model('Cards');
 const Gifs = mongoose.model('Gifs');
+const GifsMob = mongoose.model('GifsMob');
 const dbCards = require('../scripts/cards');
 const dbGifs = require('../scripts/gifs');
+const dbGifsMob = require('../scripts/gifsMob');
 
 function isMobile(ua) {
   const mobileRE = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series[46]0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i;
@@ -45,9 +47,10 @@ exports.gifs = async (req, res) => {
       .limit(limit);
     res.render('./home/gifs', { gifs });
   } else {
-    const gifsMob = await Gifs.find()
+    const gifsMob = await GifsMob.find()
       .skip(skip)
       .limit(limit);
+    console.log(gifsMob);
     res.render('./home/gifsMob', { gifsMob });
   }
 };
@@ -85,10 +88,18 @@ exports.lazyGif = async (req, res) => {
   const { page } = req.params || 1;
   const limit = 8;
   const skip = limit * page - limit;
-  const gifs = await Gifs.find()
-    .skip(skip)
-    .limit(limit);
-  res.render('./backend/gifs', { gifs });
+  if (!isMobile(req.headers['user-agent'])) {
+    const gifs = await Gifs.find()
+      .skip(skip)
+      .limit(limit);
+    res.render('./backend/gifs', { gifs });
+  } else {
+    const gifsMob = await GifsMob.find()
+      .skip(skip)
+      .limit(limit);
+    console.log(gifsMob);
+    res.render('./backend/gifsMob', { gifsMob });
+  }
 };
 
 exports.getcontent = async (req, res) => {
@@ -113,6 +124,13 @@ exports.postgifs = async (req, res) => {
   await Gifs.deleteMany({});
   await Gifs.insertMany(dbGifs);
   const gifs = await Gifs.find();
+  res.json(gifs);
+};
+
+exports.postgifsMob = async (req, res) => {
+  await GifsMob.deleteMany({});
+  await GifsMob.insertMany(dbGifsMob);
+  const gifs = await GifsMob.find();
   res.json(gifs);
 };
 

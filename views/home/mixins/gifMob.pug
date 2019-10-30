@@ -1,0 +1,5 @@
+mixin gifMob({gif, id})
+  .gif__item(data-clipboard-text=`${id}`)
+    .gif__item-overlay
+      .gif__item-overlay-text Copy Gif for Slack
+    img(src=`${gif}` class="gif__video")

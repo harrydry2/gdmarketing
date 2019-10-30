@@ -19,6 +19,7 @@ router.get('/api/getcontent', mainController.getcontent);
 router.get('/api/getpCard', mainController.getpCard);
 router.get('/api/postideas', mainController.postideas);
 router.get('/api/postgifs', mainController.postgifs);
+router.get('/api/postgifsMob', mainController.postgifsMob);
 router.post('/api/subscribe', emailController.subscribe);
 
 // posts

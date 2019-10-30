@@ -1,0 +1,22 @@
+extends gifsbase
+
+include ./mixins/mail
+include ./mixins/gifMob
+include ./mixins/ph
+include ./mixins/harry
+
+block content
+  +ph()
+  .gif.iosOverflow
+    .gif__inner
+      .gif__inner-header
+        .gif__inner-header-logo
+          h1.gif__inner-header-logo-logo Startup Gifs
+          .gif__inner-header-logo-by BY
+          a(href="/").gif__inner-header-logo-me!=icon("gif-logome")
+        a(href="https://twitter.com/goodmarketinghq" target="_blank").gif__inner-header-tweet!=icon("twitter")
+      .gif__inner-mobile Tap Gif to copy for Slack
+      .gif__inner-gif
+        each gif in gifsMob
+          +gifMob(gif)
+    +harry()

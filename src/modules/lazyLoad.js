@@ -110,6 +110,11 @@ const box4 = `<div class="harryGIF">
 </div>
 </div>`;
 
+function isMobile(ua) {
+  const mobileRE = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series[46]0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i;
+  return mobileRE.test(ua);
+}
+
 export function gifLoad() {
   window.onscroll = async () => {
     if (window.gifbusy) {
@@ -137,12 +142,15 @@ export function gifLoad() {
         }
         $('.gif__inner-gif').insertAdjacentHTML('beforeend', newdata);
         copyGif();
-        // $$('.gif__video').forEach(img => {
-        //   img.addEventListener('load', resize);
-        // });
-        $$('.gif__video').forEach(img => {
-          img.addEventListener('loadeddata', resize);
-        });
+        if (!isMobile(navigator.userAgent)) {
+          $$('.gif__video').forEach(img => {
+            img.addEventListener('loadeddata', resize);
+          });
+        } else {
+          $$('.gif__video').forEach(img => {
+            img.addEventListener('load', resize);
+          });
+        }
         if (data.length) {
           window.page += 1;
         } else {

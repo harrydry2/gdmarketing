@@ -19,7 +19,7 @@ exports.home = async (req, res) => {
 
 exports.gifs = async (req, res) => {
   const page = +req.params.page || 1;
-  const limit = 10;
+  const limit = 7;
   const skip = limit * page - limit;
   const gifs = await Gifs.find()
     .skip(skip)
@@ -58,7 +58,7 @@ exports.lazy = async (req, res) => {
 
 exports.lazyGif = async (req, res) => {
   const { page } = req.params || 1;
-  const limit = 10;
+  const limit = 7;
   console.log(page, 'end');
   const skip = limit * page - limit;
   const gifs = await Gifs.find()

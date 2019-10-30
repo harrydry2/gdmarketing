@@ -1193,6 +1193,8 @@ p {
     @media screen and (max-width: 550px) {
       .content h2 {
         padding: 1.6rem 2rem; } }
+    .content h2 a {
+      border-bottom: 1px solid #4742DE; }
   .content h2.under {
     font-size: 1.7rem;
     text-transform: none; }

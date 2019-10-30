@@ -137,8 +137,11 @@ export function gifLoad() {
         }
         $('.gif__inner-gif').insertAdjacentHTML('beforeend', newdata);
         copyGif();
+        // $$('.gif__video').forEach(img => {
+        //   img.addEventListener('load', resize);
+        // });
         $$('.gif__video').forEach(img => {
-          img.addEventListener('load', resize);
+          img.addEventListener('loadeddata', resize);
         });
         if (data.length) {
           window.page += 1;

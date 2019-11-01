@@ -99,6 +99,7 @@ if (!$('.gif')) {
 
 // gif page
 if ($('.gif')) {
+  mailPopup();
   copyGif();
   // if (window.innerWidth > 768) {
   window.addEventListener('load', resize);

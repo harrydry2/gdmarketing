@@ -43,7 +43,7 @@ export function lazyLoad(filterArray) {
 
 const box1 = `<a href="/" class="gif__item gif__item-special" data-clipboard-text="undefined">
     <div class="gif__item-special-overlay"><div class="gif__item-special-overlay-text">Check out Marketing Examples</div></div>
-    <img class="harryGIF__video" src="https://media.giphy.com/media/dvOtM0onTGUdRiRga7/giphy.gif" />
+    <video  autoplay="autoplay" muted loop="true" preload="auto" playsinline="playsinline" class="harryGIF__video" src="https://media.giphy.com/media/KDnKkscFt9Sjug3MCe/giphy.mp4" />
 </a>`;
 
 const box2 = `<div class="harryGIF">
@@ -77,7 +77,7 @@ const box3 = `<div class="harryGIF">
         </g>
     </g>
 </svg></div>
-    <div class="harryGIF__inner-p">If you want a classic marketing tale, I wrote about how Nike sold it’s first shoes.</div>
+    <div class="harryGIF__inner-p">For a practical marketing lesson I wrote about how Nike sold it’s first shoes.</div>
     <a class="harryGIF__inner-button" href="/direct/how-nike-sold-first-shoes">Read Nike's story</a>
 </div>
 </div>`;
@@ -105,8 +105,8 @@ const box4 = `<div class="harryGIF">
         </g>
     </g>
 </svg></div>
-<div class="harryGIF__inner-p">Or for something pratical this one about why Notion's sign up form converts so well.</div>
-    <a class="harryGIF__inner-button" href="/conversion/sign-up-form-converts">Read Notion's story</a>
+<div class="harryGIF__inner-p">Or for a classic marketing tale, I wrote about how Nike sold it’s first shoes</div>
+    <a class="harryGIF__inner-button" href="/conversion/sign-up-form-converts">Read Nike's story</a>
 </div>
 </div>`;
 

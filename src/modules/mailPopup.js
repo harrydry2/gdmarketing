@@ -79,12 +79,12 @@ export function mailPopup() {
     !alreadyPoppedUp &&
     (lsMail == null || howLongSinceClosed > 3)
   ) {
-    if (window.innerWidth <= 1024) {
+    if (window.innerWidth <= 4000) {
       setTimeout(() => {
         $('.outerMail').style.display = 'flex';
         $('.iosOverflow').classList.add('mailNoScroll');
         $('.iosOverflow').classList.add('number5chanel');
-      }, 40000);
+      }, 20000);
     } else {
       setTimeout(() => {
         document.addEventListener('mouseout', mouseoutFun);

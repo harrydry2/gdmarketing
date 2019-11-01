@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "SEO project marketing",
+    "sUrl": "https://kapwing.com",
+    "sText": "Kapwing",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "seo-project-marketing",
+    "img": "kapwing",
+    "imgType": "jpg",
+    "desc": "Make side projects. Host them on your own domain. Get them in front of the press. The idea is press exposure results in articles (and backlinks). And because the projects are hosted on your own domain any “link juice” flows to other pages on your website helping them rank better."
+  },
+  {
+    "num": "9",
     "title": "7 practical ways to write copy that converts",
     "sUrl": "https://beamery.com/blog/personalized-emails",
     "sText": "Annie Maguire",
@@ -392,18 +404,6 @@
     "tBack": "coldemail",
     "slug": "write-personalised-cold-emails",
     "img": "beamery",
-    "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "SEO project marketing",
-    "sUrl": "https://kapwing.com",
-    "sText": "Kapwing",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "seo-project-marketing",
-    "img": "kapwing",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }

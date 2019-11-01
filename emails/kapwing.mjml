@@ -70,35 +70,37 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/conversion/copywriting?utm_source=newsletter&utm_medium=email&utm_campaign=email_21"></mj-image>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/seo/seo-project-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_22"></mj-image>
           <mj-text mj-class="h1" align="center">#022 - SEO Project Marketing</mj-text>
-          <mj-text mj-class="p">Kapwing is an online video editor founded by Julia Enthoven and Eric Lu. The last two years have </mj-text>
-          <mj-text mj-class="p">This case study focuses on one particular link building strategy they employed. I’m going to call it <span class="bold">SEO Project Marketing</span>. It works like this:</mj-text>
+          <mj-text mj-class="p">Two years ago Kapwing was just like every other new startup. No funding. No organic traffic. No users. Today they have more than <span class="bold">2000</span> unique backlinks and get <span class="bold">1.8M</span> organic traffic from Google each month.</mj-text>
+          <mj-text mj-class="p">This example focuses on one link building strategy they employed to great effect. It works like this:</mj-text>
           <mj-text mj-class="p list list__top">1. Make side projects</mj-text>
           <mj-text mj-class="p list">2. Host them on your own domain</mj-text>
           <mj-text mj-class="p list list__bottom">3. Get them in front of the press</mj-text>
           <mj-text mj-class="p">The idea is that <span class="bold">press exposure results in articles</span> (and backlinks). And because the projects are hosted on your own domain any “link juice” flows to other pages on your website helping them rank better.</mj-text>
           <mj-text mj-class="h2">Results</mj-text>
-          <mj-text mj-class="p">In total Kapwing has launched <span class="bold"> ten</span> of these side projects. You only have to add together the numbers to see what an effective link building strategy it has been:</mj-text>
+          <mj-text mj-class="p">In total Kapwing has launched <span class="bold"> ten</span> of these side projects. Adding together the numbers you see what an effective link building strategy it has been:</mj-text>
           <mj-image mj-class="cImg img450" src="https://s3.amazonaws.com/harrydry/gdmarketing/kapwing1.png" alt="Podia's Organic Traffic / mo"></mj-image>
+          <mj-text mj-class="p list list__top">• <span class="bold">15</span> days invested</mj-text>
+          <mj-text mj-class="p list list__bottom">• <span class="bold">481</span> total links</mj-text>
+          <mj-text mj-class="p">To put in context a well executed guest posting strategy could produce <span class="bold">15</span> backlinks in <span class="bold">15</span> days.</mj-text>
           <mj-text mj-class="h2">More</mj-text>
-          <mj-text mj-class="p">The rest of the case study focuses on:</mj-text>
-          <mj-text mj-class="p list list__top">• Position themselves as the antidote to each competitor's pain</mj-text>
-          <mj-text mj-class="p list">• Engage users with a targeted popup</mj-text>
-          <mj-text mj-class="p list list__bottom">• Prevent competitors pulling the same trick on them</mj-text>
+          <mj-text mj-class="p">This email gives you the overview. The full case study goes into detail on:</mj-text>
+          <mj-text mj-class="p list">• How Kapwing got their side projects in front of the press </mj-text>
+          <mj-text mj-class="p list list__bottom">• Why I think this strategy is so powerful</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/conversion/copywriting?utm_source=newsletter&utm_medium=email&utm_campaign=email_21">
-            <span class="brand semibold">Read all full case study</span>
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/seo/seo-project-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_22">
+            <span class="brand semibold">Read the case study</span>
           </mj-button>
         </mj-column>
       </mj-section>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-text mj-class="h2">My own attempt</mj-text>
-          <mj-text mj-class="p">Inspired by Julia and Eric I've given this strategy a go myself. The past week I've built <a class="underA" href="https://marketingexamples.com/gifs" target="_blank">Startup Gifs</a>. This morning it's live on <a class="underA" href="https://producthunt.com" target="_blank">Product Hunt</a>.</mj-text>
+          <mj-text mj-class="h2">My own experiment</mj-text>
+          <mj-text mj-class="p">Always willing to eat my own dog food, I've given this strategy a go myself. The past week I've built a side project, <a class="underA" href="https://marketingexamples.com/gifs" target="_blank">Startup Gifs</a>, and this morning it's live on <a class="underA" href="https://www.producthunt.com/posts/startup-gifs-2" target="_blank">Product Hunt</a>.</mj-text>
           <mj-text mj-class="p">Hopefully it pulls in backlinks and gives Marketing Examples some exposure:</mj-text>
         </mj-column>
       </mj-section>
@@ -113,7 +115,7 @@
         <mj-column>
           <mj-text mj-class="h2">New Sponsor</mj-text>
           <mj-text mj-class="p">Also, one more bit of news. We've got a <span class="semibold">new sponsor</span>!</mj-text>
-          <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=online-sponsorship" target="_blank">Trainual</a> solves this problem. I started testing them out a few weeks ago and have been impressed so far.</mj-text>
+          <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. I started testing them out a few weeks ago and have been impressed so far.</mj-text>
           <mj-text mj-class="p">Over and out, <br>Harry</mj-text>
         </mj-column>
       </mj-section>

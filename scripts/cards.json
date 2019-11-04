@@ -406,5 +406,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How Volvo won the Super Bowl (without running an ad)",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Volvo",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "volvo-contest",
+    "img": "volvo",
+    "imgType": "jpg",
+    "desc": "How Volvo's interception stole the show at the 2015 Super Bowl. Whenever you saw any other car commercial during the Super Bowl you could win a Volvo XC 60 for a loved one. All you had to do was was tweet why they deserved the car using the hashtag #VolvoContest during the commercial."
   }
 ]

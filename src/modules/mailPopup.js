@@ -29,6 +29,17 @@ function submitMail(button, red, input, num) {
       if (data.email === 'true') {
         red.style.color = '#00c26e';
         red.innerText = `Just sent confirmation - check spam :)`;
+        if (numm === 1) {
+          red.classList.add('gta__1');
+        } else if (numm === 2) {
+          red.classList.add('gta__2');
+        } else if (numm === 3) {
+          red.classList.add('gta__3');
+        } else if (numm === 4) {
+          red.classList.add('gta__4');
+        } else if (numm === 5) {
+          red.classList.add('gta__5');
+        }
       }
       if (data.email === 'duplicate') {
         red.style.color = '#D0021B';
@@ -79,7 +90,7 @@ export function mailPopup() {
     !alreadyPoppedUp &&
     (lsMail == null || howLongSinceClosed > 3)
   ) {
-    if (window.innerWidth <= 1000) {
+    if (window.innerWidth <= 30000) {
       setTimeout(() => {
         $('.outerMail').style.display = 'flex';
         $('.iosOverflow').classList.add('mailNoScroll');

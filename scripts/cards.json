@@ -418,5 +418,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "5 keys to sharing content on Twitter",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Beamery",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "share-content-on-twitter",
+    "img": "twitter",
+    "imgType": "jpg",
+    "desc": "In one second someone subconsciously decides whether to engage with your content on Twitter or to scroll by. These tips are about optimising for that one second."
   }
 ]

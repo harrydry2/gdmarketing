@@ -100,7 +100,6 @@ a {
   -webkit-overflow-scrolling: touch; }
 
 .noScroll {
-  overflow: hidden;
   position: fixed;
   height: 100%; }
 
@@ -110,7 +109,6 @@ a {
   height: 100%; }
 
 .postNoScroll {
-  overflow: hidden;
   position: fixed;
   height: 100%; }
 

@@ -46,8 +46,8 @@ export function postPopup(cards) {
       $('.popupLoader').style.display = 'none';
       mailSubmitAddOn();
       // push
-      // window.history.pushState('brother', 'Brother MInda', `../${tag}/${slug}`);
-      // document.title = title;
+      window.history.pushState('brother', 'Brother MInda', `../${tag}/${slug}`);
+      document.title = title;
       // window.twttr.ready(twttr => {
       //   twttr.widgets.load(document.getElementById('blockquote'));
       // });

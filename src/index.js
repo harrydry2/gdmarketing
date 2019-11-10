@@ -99,6 +99,7 @@ if (!$('.gif')) {
 
 // gif page
 if ($('.gif')) {
+  console.log('beans');
   mailPopup();
   copyGif();
   // if (window.innerWidth > 768) {

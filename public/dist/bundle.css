@@ -1232,6 +1232,9 @@ p {
       font-weight: 600; }
     .content p .italic {
       font-style: italic; }
+  .content .asterix {
+    text-align: center;
+    padding: 2rem 0; }
   .content .point1 {
     padding: 0.76rem 0.76rem 0.76rem 2rem; }
   .content .speech {

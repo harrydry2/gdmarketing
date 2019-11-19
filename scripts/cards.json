@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "How to get Tom Hanks on your podcast",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "The Nerdist Podcast",
+    "tFront": "Signalling",
+    "tBack": "signalling",
+    "slug": "tom-hanks-podcast",
+    "img": "tomhanks",
+    "imgType": "jpg",
+    "desc": "This article explains how Chris Hardwick from the Nerdist podcast used a vintage 1934 Smith Corona typewriter to quite creatively bribe Tom Hanks onto the Nerdist podcast back in 2012."
+  },
+  {
+    "num": "9",
     "title": "Using GIPHY for free brand awareness",
     "sUrl": "https://beamery.com/blog/personalized-emails",
     "sText": "Karla And Co.",
@@ -442,17 +454,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How to get Tom Hanks on your podcast",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "The Nerdist Podcast",
-    "tFront": "Signalling",
-    "tBack": "signalling",
-    "slug": "tom-hanks-podcast",
-    "img": "tomhanks",
-    "imgType": "jpg",
-    "desc": "This article explains how Chris Hardwick from the Nerdist podcast used a vintage 1934 Smith Corona typewriter to quite creatively bribe Tom Hanks onto the Nerdist podcast back in 2012."
   }
 ]

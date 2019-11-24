@@ -454,5 +454,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Let your customers write your copy for you",
+    "sUrl": "https://www.designacademy.io/",
+    "sText": "Design Academy",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "customers",
+    "img": "da",
+    "imgType": "jpg",
+    "desc": "Copywriting doesn't require the “perfect line” or a “flash of inspiration”. Just talk to your customers, listen to what they're saying, and let them do the work for you. This article explains how Design Academy does just that"
   }
 ]

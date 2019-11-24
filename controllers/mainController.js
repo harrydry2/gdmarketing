@@ -52,6 +52,11 @@ exports.txt = async (req, res) => {
   res.sendFile(path.join(__dirname, 'robots.txt'));
 };
 
+exports.rss = async (req, res) => {
+  res.contentType('application/xml');
+  res.sendFile(path.join(__dirname, 'marketingexamples.rss'));
+};
+
 exports.lazy = async (req, res) => {
   let cards;
   const { page } = req.params || 1;

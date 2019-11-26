@@ -87,6 +87,14 @@ if (!$('.gif')) {
   mailSubmitHome();
 }
 
+//
+
+if ($('.undera__center-text')) {
+  if (window.innerWidth > 768) {
+    $('.undera__center-text').innerText = 'CLICK ICON TO SHARE';
+  }
+}
+
 // only if Post page
 if ($('.postNoScroll')) {
   mailSubmitFromPost();

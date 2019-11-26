@@ -243,6 +243,22 @@ p {
   .twitterSVG > * {
     fill: #4742DE; }
 
+.facebookSVG {
+  height: 2.2rem; }
+  @media screen and (max-width: 768px) {
+    .facebookSVG {
+      height: 2.2rem; } }
+  .facebookSVG > * {
+    fill: #4742DE; }
+
+.linkedinSVG {
+  height: 2.4rem; }
+  @media screen and (max-width: 768px) {
+    .linkedinSVG {
+      height: 2.4rem; } }
+  .linkedinSVG > * {
+    fill: #4742DE; }
+
 .gif__inner-header-tweet .twitterSVG {
   height: 2.1rem; }
   @media screen and (max-width: 768px) {
@@ -1414,15 +1430,18 @@ span {
     z-index: 6;
     background: #fff;
     padding: 0 4rem; }
+    @media screen and (max-width: 550px) {
+      .undera__center {
+        padding: 0 2.4rem; } }
     .undera__center-text {
       font-size: 1.4rem;
       text-transform: uppercase;
       font-weight: 600;
       letter-spacing: 0.6px;
-      margin-right: 3rem; }
+      margin-right: 1.6rem; }
     .undera__center-twitter {
       border-bottom: none !important;
-      padding: 0 !important; }
+      padding: 0 0.7rem !important; }
 
 .twitter-tweet {
   margin: 3.4rem auto !important;

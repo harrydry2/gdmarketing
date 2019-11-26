@@ -46,6 +46,11 @@ export function postPopup(cards) {
       $('.popupLoader').style.display = 'none';
       mailSubmitAddOn();
       // push
+      if ($('.undera__center-text')) {
+        if (window.innerWidth > 768) {
+          $('.undera__center-text').innerText = 'CLICK ICON TO SHARE';
+        }
+      }
       window.history.pushState('brother', 'Brother MInda', `../${tag}/${slug}`);
       document.title = title;
       window.twttr.ready(twttr => {

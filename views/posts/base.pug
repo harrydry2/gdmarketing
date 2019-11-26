@@ -52,8 +52,10 @@ html(lang='en')
             block content
             .undera
               .undera__center
-                .undera__center-text Share on Twitter
+                .undera__center-text Share on
+                a.undera__center-twitter(href=`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}` target="_blank")!=icon("facebook")
                 a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}&via=GoodMarketingHQ%20&text=${encodeURI(card.title)}` target="_blank")!=icon("twitter")
+                a.undera__center-twitter(href=`https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}` target="_blank")!=icon("linkedin")
             .postEmail
               .postEmail__header Join!{' '}
                 span.bold 7,897

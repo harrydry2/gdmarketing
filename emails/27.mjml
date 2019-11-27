@@ -1,0 +1,103 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="16px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/copywriting/customers/?utm_source=newsletter&utm_medium=email&utm_campaign=email_27"></mj-image>
+          <mj-text mj-class="h1" align="center">#027 - Let your customers write your copy for you</mj-text>
+          <mj-text mj-class="p">The best copy reads like your customers wrote it.</mj-text>
+          <mj-text mj-class="p">In the case of Design Academy, this is quite literally the case. On sign up you get sent an email asking “what is your biggest frustration with design?”.</mj-text>
+          <mj-text mj-class="p">The answers are then saved in one big Google sheet:</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/daE.png" alt="Design Academy Enail and Google Sheet"></mj-image>
+          <mj-text mj-class="p">This means when it comes to writing landing page copy they don't have to guess. They know exactly who their customer is, the language they use and the pain points they want solved.</mj-text>
+          <mj-text mj-class="p">Instead of writing <span class="bold">“catch-all”</span> copy they can write <span class="bold">specific copy</span> talking directly to their customer:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/da.png" alt="Design Academy before and after copy"></mj-image>
+          <mj-text mj-class="p">Copywriting doesn't require the <span class="italic">perfect line</span> or a <span class="italic">flash of inspiration</span>. Just ask your customers questions and let them do the work for you.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Thank you for reading. The majority of today's article is in the email, but if you'd like to read a little more <a class="underA" href="https://marketingexamples.com/copywriting/customers/?utm_source=newsletter&utm_medium=email&utm_campaign=email_27" target="_blank">click here</a>.</mj-text>
+          <mj-text mj-class="p">If you've see any potential <span class="italic">Marketing Examples</span> in the wild please do reply.</mj-text>
+          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="h2">Sponsor</mj-text>
+          <mj-text mj-class="p"><a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> is the easiest way to train your team and keep things running smooth as you scale. I'm a fan myself. You should check them out.</mj-text>
+          <mj-text mj-class="p">Over and out, <br>Harry</mj-text>
+          <mj-text mj-class="p">P.S. If you got forwarded the email you can subscribe <a class="underA" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

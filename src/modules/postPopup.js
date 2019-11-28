@@ -12,7 +12,7 @@ function closePopup() {
   $('.iosOverflow').classList.remove('postNoScroll');
   // push back to "/"
   window.history.pushState('', '', '/');
-  document.title = 'Marketing Examples | Really good marketing examples';
+  document.title = 'Marketing Examples | Real world marketing examples';
 }
 
 export function postPopup(cards) {

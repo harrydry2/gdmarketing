@@ -5,12 +5,12 @@ const mainController = require('../controllers/mainController');
 const postController = require('../controllers/postController');
 const emailController = require('../controllers/emailController');
 
+router.get('/robots.txt', mainController.txt);
 router.get('/', mainController.home);
 router.get('/gifs', mainController.gifs);
 router.get('/sitemap.xml', mainController.xml);
 router.get('/marketingexamples.rss', mainController.rss);
 // tes
-router.get('/robots.txt', mainController.txt);
 router.get('/subscribe', emailController.subscribePage);
 // api
 

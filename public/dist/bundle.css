@@ -612,7 +612,7 @@ p {
       color: white;
       font-weight: bold;
       border-radius: 5px; }
-  .sponsor img {
+  .sponsor img, .sponsor picture {
     width: 4.8rem; }
 
 .card {
@@ -629,7 +629,7 @@ p {
   @media screen and (max-width: 768px) {
     .card {
       height: 22rem; } }
-  .card img {
+  .card img, .card picture {
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -1154,7 +1154,7 @@ p {
   @media screen and (max-width: 550px) {
     .pCard {
       width: 100%; } }
-  .pCard img {
+  .pCard img, .pCard picture, .pCard source {
     position: absolute;
     object-fit: cover;
     width: 100%;

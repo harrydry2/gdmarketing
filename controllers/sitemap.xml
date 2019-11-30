@@ -3,14 +3,12 @@
   <!-- main -->
   <url>
     <loc>https://marketingexamples.com/</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <!-- filters -->
   <url>
     <loc>https://marketingexamples.com/coldemail</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
@@ -22,43 +20,36 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/viral</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/giveaway</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/content</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/referral</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/pricing</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
     <url>
     <loc>https://marketingexamples.com/conversion</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/seo</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
@@ -70,7 +61,6 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/sideproject</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
@@ -83,31 +73,26 @@
   <!-- coldemail -->
   <url>
     <loc>https://marketingexamples.com/coldemail/best-sales-email-ever</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/coldemail/funny-cold-email</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/coldemail/advice-emails</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/coldemail/signalling-in-marketing</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/coldemail/write-personalised-cold-emails</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -134,13 +119,11 @@
   <!-- viral -->
   <url>
     <loc>https://marketingexamples.com/viral/piggyback-viral-trends</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/viral/serve-a-niche-market</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -152,6 +135,18 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/viral/antifragile-brand</loc>
+    <lastmod>2019-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://marketingexamples.com/viral/volvo-contest</loc>
+    <lastmod>2019-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/viral/tesla-marketing-strategy</loc>
     <lastmod>2019-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -171,7 +166,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/content/how-to-post-on-hacker-news</loc>
+    <loc>https://marketingexamples.com/content/drive-traffic-from-hacker-news</loc>
+    <lastmod>2019-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://marketingexamples.com/content/share-content-on-twitter</loc>
+    <lastmod>2019-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/content/giphy-marketing</loc>
     <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -179,13 +186,16 @@
   <!-- referral -->
   <url>
     <loc>https://marketingexamples.com/referral/viral-loops-content-marketing</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/referral/design-virality-into-product</loc>
-    <lastmod>2019-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/referral/thank-you-cards-promote-business</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -226,6 +236,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/seo/seo-project-marketing</loc>
+    <lastmod>2019-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- conversion -->
   <url>
     <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>
@@ -246,12 +262,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/conversion/newsletter</loc>
-    <lastmod>2019-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://marketingexamples.com/conversion/product-hunt</loc>
     <lastmod>2019-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -259,13 +269,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/conversion/build-customer-goodwill</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://marketingexamples.com/conversion/email-subscribers</loc>
-    <lastmod>2019-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -276,10 +284,23 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/signalling/tom-hanks-podcast</loc>
+    <lastmod>2019-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- socialmedia -->
   <url>
     <loc>https://marketingexamples.com/socialmedia/iron-neck</loc>
     <lastmod>2019-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <!-- copywriting -->
+  <url>
+    <loc>https://marketingexamples.com/copywriting/customers</loc>
+    <lastmod>2019-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

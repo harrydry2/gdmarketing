@@ -4,13 +4,27 @@
 <channel>
   <title>Marketing Examples</title>
   <link>https://marketingexamples.com</link>
-  <description>Marketing examples</description>
+  <description>Real world marketing examples</description>
   <item>
-    <title>Content Title</title>
-    <link>Direct URL to content</link>
-    <guid>Unique ID for content. Copy the URL again</guid>
-    <pubDate>Wed, 27 Nov 2013 15:17:32 GMT</pubDate>
-    <description>Description for your content.</description>
+    <title>Let your customers write your copy for you</title>
+    <link>https://marketingexamples.com/copywriting/customers</link>
+    <guid>https://marketingexamples.com/copywriting/customers</guid>
+    <pubDate>Sat, 30 Nov 2019 12:00:00 GMT</pubDate>
+    <description>Copywriting doesn't require the “perfect line” or a “flash of inspiration”. Just talk to your customers, listen to what they're saying, and let them do the work for you. This article explains how Design Academy does just that</description>
+  </item>
+  <item>
+    <title>Using GIPHY for free brand awareness</title>
+    <link>https://marketingexamples.com/content/giphy-marketing</link>
+    <guid>https://marketingexamples.com/content/giphy-marketing</guid>
+    <pubDate>Thu, 28 Nov 2019 15:17:32 GMT</pubDate>
+    <description>All you need is a Giphy brand channel. Then any GIF you upload is publically available on Giphy's search engine. And there's nothing stopping you slipping in your logo, product, or even URL</description>
+  </item>
+  <item>
+    <title>6 keys to sharing content on Twitter</title>
+    <link>https://marketingexamples.com/content/share-content-on-twitter</link>
+    <guid>https://marketingexamples.com/content/share-content-on-twitter</guid>
+    <pubDate>Tue, 26 Nov 2019 15:17:32 GMT</pubDate>
+    <description>How you share is just as important as what you share. In one second someone subconsciously decides whether to engage with your content on Twitter or to scroll by. These tips are about optimising for that one second</description>
   </item>
 </channel>
 </rss>

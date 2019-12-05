@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "The genius of Tesla's marketing strategy",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Tesla",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "tesla-marketing-strategy",
+    "img": "tesla",
+    "imgType": "jpg",
+    "desc": "Tesla have zero advertising budget. The focus is on turning customers into fans. The result is quite an extraordinary marketing strategy which I've broken down:"
+  },
+  {
+    "num": "9",
     "title": "Let your customers write your copy for you",
     "sUrl": "https://www.designacademy.io/",
     "sText": "Design Academy",
@@ -466,18 +478,6 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "The genius of Tesla's marketing strategy",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "Tesla",
-    "tFront": "Referral",
-    "tBack": "referral",
-    "slug": "tesla-marketing-strategy",
-    "img": "tesla",
-    "imgType": "jpg",
-    "desc": "Tesla have zero advertising budget. The focus is on turning customers into fans. The result is quite an extraordinary marketing strategy which I've broken down:"
   },
   {
     "num": "9",

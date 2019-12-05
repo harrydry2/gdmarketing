@@ -1,0 +1,112 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="16px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 28px 0px" line-height="26px" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/referral/tesla-marketing-strategy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_28"></mj-image>
+          <mj-text mj-class="h1" align="center">#028 - The genius of Tesla's marketing strategy</mj-text>
+          <mj-text mj-class="p">Traditional advertising is <span class="bold">less</span> effective than ever before. It interrupts. It can’t get through ad blockers. We’ve learned to ignore it.</mj-text>
+          <mj-text mj-class="p">Having fans sell your product is <span class="bold">more</span> effective than ever before.</mj-text>
+          <mj-text mj-class="p">Tesla grasp this. They have zero advertising budget. The focus is on <span class="bold">turning customers into fans</span>. And it's fair to say they've succeeded:</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/tesla1.png" alt="Graph of Tesla's Subreddit size and Twitter following"></mj-image>
+          <mj-text mj-class="p">If I had one just one word to summarise Tesla's success it would be authenticity. They are unashamedly <span class="bold">themselves</span>.</mj-text>
+          <mj-text mj-class="p">The car makes “fart noises”. Their CEO makes memes. Simultaneously, they have the best engineers in the world working on a solution to the fossil fuel crisis.</mj-text>
+          <mj-text mj-class="p">The result is both one of the most <span class="bold">carefree</span> and one of the most <span class="bold">ambitious</span> brands on the planet. It's Weasley's Wizard Wheezes meets Tony Stark. And the juxtaposition is captivating.</mj-text>
+          <mj-text mj-class="h2">More</mj-text>
+          <mj-text mj-class="p">There's plenty more in the full case study. In my own humble opinion, it's one of the best yet.</mj-text>
+          <mj-text mj-class="p">The central point is that marketing should be less about <span class="bold">attracting eyeballs</span> and more about <span class="bold">building relationships</span>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="buttonSection">
+        <mj-column>
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/referral/tesla-marketing-strategy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_28">
+            <span class="brand semibold">Read the full case study</span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-text mj-class="h2">Sponsor</mj-text>
+          <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. You should check them out.</mj-text>
+          <mj-text mj-class="p">Over and out, <br>Harry</mj-text>
+          <mj-text mj-class="p">P.S. If you got forwarded the email you can subscribe <a class="underA" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

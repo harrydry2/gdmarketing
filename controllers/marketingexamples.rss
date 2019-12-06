@@ -5,10 +5,16 @@
   <title>Marketing Examples</title>
   <link>https://marketingexamples.com</link>
   <description>Real world marketing examples</description>
+  <image>
+    <url>https://ph-files.imgix.net/05d67c08-68ab-4e82-8c71-4f317eed0657?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max&dpr=2</url>
+    <title>Marketing Examples Cover</title>
+    <link>https://marketingexamples.com</link>
+  </image>
   <item>
     <title>Let your customers write your copy for you</title>
     <link>https://marketingexamples.com/copywriting/customers</link>
     <guid>https://marketingexamples.com/copywriting/customers</guid>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg" length="5588242" type="image/jpeg"/>
     <pubDate>Sat, 30 Nov 2019 12:00:00 GMT</pubDate>
     <description>Copywriting doesn't require the “perfect line” or a “flash of inspiration”. Just talk to your customers, listen to what they're saying, and let them do the work for you. This article explains how Design Academy does just that</description>
   </item>
@@ -16,6 +22,7 @@
     <title>Using GIPHY for free brand awareness</title>
     <link>https://marketingexamples.com/content/giphy-marketing</link>
     <guid>https://marketingexamples.com/content/giphy-marketing</guid>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/giphy.jpg" length="5588242" type="image/jpeg"/>
     <pubDate>Thu, 28 Nov 2019 15:17:32 GMT</pubDate>
     <description>All you need is a Giphy brand channel. Then any GIF you upload is publically available on Giphy's search engine. And there's nothing stopping you slipping in your logo, product, or even URL</description>
   </item>
@@ -23,6 +30,7 @@
     <title>6 keys to sharing content on Twitter</title>
     <link>https://marketingexamples.com/content/share-content-on-twitter</link>
     <guid>https://marketingexamples.com/content/share-content-on-twitter</guid>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/twitter.jpg" length="5588242" type="image/jpeg"/>
     <pubDate>Tue, 26 Nov 2019 15:17:32 GMT</pubDate>
     <description>How you share is just as important as what you share. In one second someone subconsciously decides whether to engage with your content on Twitter or to scroll by. These tips are about optimising for that one second</description>
   </item>

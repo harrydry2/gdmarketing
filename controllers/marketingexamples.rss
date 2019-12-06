@@ -6,28 +6,52 @@
   <link>https://marketingexamples.com</link>
   <description>Real world marketing examples</description>
   <item>
+    <title>The genius of Tesla's marketing strategy</title>
+    <link>https://marketingexamples.com/referral/tesla-marketing-strategy</link>
+    <guid>https://marketingexamples.com/referral/tesla-marketing-strategy</guid>
+    <pubDate>Fri, 06 Dec 2019 18:00:00 GMT</pubDate>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/tesla.jpg" length="0" type="image/jpeg"/>
+    <media:content medium="image" url="https://s3.amazonaws.com/harrydry/gdmarketing/main/tesla.jpg"/>
+    <description><![CDATA[
+<div> <img src="https://s3.amazonaws.com/harrydry/gdmarketing/main/tesla.jpg" style="width: 100%;"> <div>Traditional advertising is less effective than ever before. It interrupts. It can’t get through ad blockers. We’ve learned to ignore it.
+
+Having fans sell your product is more effective than ever before.
+
+Tesla grasp this. They have zero advertising budget. The focus is on turning customers into fans. And it's fair to say they've succeeded:</div> </div>
+]]></description>
+  </item>
+  <item>
     <title>Let your customers write your copy for you</title>
     <link>https://marketingexamples.com/copywriting/customers</link>
     <guid>https://marketingexamples.com/copywriting/customers</guid>
-    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg" length="5588242" type="image/jpeg"/>
     <pubDate>Sat, 30 Nov 2019 12:00:00 GMT</pubDate>
-    <description>Copywriting doesn't require the “perfect line” or a “flash of inspiration”. Just talk to your customers, listen to what they're saying, and let them do the work for you. This article explains how Design Academy does just that</description>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg" length="0" type="image/jpeg"/>
+    <media:content medium="image" url="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg"/>
+    <description><![CDATA[
+<div> <img src="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg" style="width: 100%;"> <div>The best copy reads like your customers wrote it. In the case of Design Academy, this is quite literally the case. On sign up you get sent an email asking “what is your biggest frustration with design?”</div> </div>
+]]></description>
   </item>
   <item>
     <title>Using GIPHY for free brand awareness</title>
     <link>https://marketingexamples.com/content/giphy-marketing</link>
     <guid>https://marketingexamples.com/content/giphy-marketing</guid>
-    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/giphy.jpg" length="5588242" type="image/jpeg"/>
-    <pubDate>Thu, 28 Nov 2019 15:17:32 GMT</pubDate>
-    <description>All you need is a Giphy brand channel. Then any GIF you upload is publically available on Giphy's search engine. And there's nothing stopping you slipping in your logo, product, or even URL</description>
+    <pubDate>Thu, 28 Nov 2019 12:00:00 GMT</pubDate>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/giphy.jpg" length="0" type="image/jpeg"/>
+    <media:content medium="image" url="https://s3.amazonaws.com/harrydry/gdmarketing/cards/giphy.jpg"/>
+    <description><![CDATA[
+<div> <img src="https://s3.amazonaws.com/harrydry/gdmarketing/cards/giphy.jpg" style="width: 100%;"> <div>All you need is a Giphy brand channel. Then any GIF you upload is publically available on Giphy's search engine. And there's nothing stopping you slipping in your logo, product, or even URL.</div> </div>
+]]></description>
   </item>
   <item>
     <title>6 keys to sharing content on Twitter</title>
     <link>https://marketingexamples.com/content/share-content-on-twitter</link>
     <guid>https://marketingexamples.com/content/share-content-on-twitter</guid>
-    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/twitter.jpg" length="5588242" type="image/jpeg"/>
-    <pubDate>Tue, 26 Nov 2019 15:17:32 GMT</pubDate>
-    <description>How you share is just as important as what you share. In one second someone subconsciously decides whether to engage with your content on Twitter or to scroll by. These tips are about optimising for that one second</description>
+    <pubDate>Tue, 26 Nov 2019 12:00:00 GMT</pubDate>
+    <enclosure url="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg" length="0" type="image/jpeg"/>
+    <media:content medium="image" url="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg"/>
+    <description><![CDATA[
+<div> <img src="https://s3.amazonaws.com/harrydry/gdmarketing/main/da.jpg" style="width: 100%;"> <div>How you share is just as important as what you share. In one second someone subconsciously decides whether to engage with your content or to scroll by. These tips are about optimising for that one second:</div> </div>
+]]></description>
   </item>
 </channel>
 </rss>

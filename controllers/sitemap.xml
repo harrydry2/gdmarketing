@@ -58,6 +58,11 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>https://marketingexamples.com/email</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>https://marketingexamples.com/sideproject</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -96,6 +101,12 @@
   <!-- sideproject -->
   <url>
     <loc>https://marketingexamples.com/sideproject/tour-de-france</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <!-- email -->
+  <url>
+    <loc>https://marketingexamples.com/email/indie-hackers-newsletter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

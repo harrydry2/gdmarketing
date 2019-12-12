@@ -707,6 +707,15 @@ p {
 .ct__sideproject {
   background: #38f0c5; }
 
+.ct__email {
+  background: #f3e2f3; }
+
+.ct__copywriting {
+  background: #38f0c5; }
+
+.ct__socialmedia {
+  background: #ffd6f1; }
+
 .ph {
   background: #4742DE;
   display: flex;

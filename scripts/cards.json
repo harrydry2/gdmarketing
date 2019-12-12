@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "The Indie Hackers newsletters",
+    "sUrl": "https://indiehackers.com",
+    "sText": "Indie Hackers",
+    "tFront": "Email",
+    "tBack": "email",
+    "slug": "indie-hackers-newsletter",
+    "img": "ih",
+    "imgType": "jpg",
+    "desc": "Indie Hackers is an online community of independent entrepreneurs, with a pretty sizeable email list. Throughout 2019 they’ve moved away from one generic email digest and started offering users the option of up to eight tailored newsletters"
+  },
+  {
+    "num": "9",
     "title": "The genius of Tesla's marketing strategy",
     "sUrl": "https://beamery.com/blog/personalized-emails",
     "sText": "Tesla",
@@ -490,17 +502,5 @@
     "img": "revchris",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Indie Hackers' seven newsletters",
-    "sUrl": "https://indiehackers.com",
-    "sText": "Indie Hackers",
-    "tFront": "Email",
-    "tBack": "email",
-    "slug": "indie-hackers-newsletter",
-    "img": "ih",
-    "imgType": "jpg",
-    "desc": "Indie Hackers is an online community of independent entrepreneurs, with a pretty sizeable email list. Throughout 2019 they’ve moved away from one generic email digest and started offering users the option of up to eight tailored newsletters"
   }
 ]

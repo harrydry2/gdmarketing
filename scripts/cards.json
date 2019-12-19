@@ -1,6 +1,30 @@
 [
   {
     "num": "9",
+    "title": "How Rev. Chris grew 100k Instagram followers",
+    "sUrl": "https://saintsaviours.net/",
+    "sText": "Rev. Chris",
+    "tFront": "Social Media",
+    "tBack": "socialmedia",
+    "slug": "rev-chris-instagram",
+    "img": "revchris",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "1",
+    "title": "How Nomad List dominates longer tail keywords",
+    "sUrl": "https://nomadlist.com",
+    "sText": "Nomad List",
+    "tFront": "Seo",
+    "tBack": "seo",
+    "slug": "dominate-long-tail-keywords",
+    "img": "nomad",
+    "imgType": "jpg",
+    "desc": "A detailed case study explaining how Nomad List autogenerates several thousand indexed pages which hoover up organic traffic from long tail keyword phrases."
+  },
+  {
+    "num": "9",
     "title": "The Indie Hackers newsletters",
     "sUrl": "https://indiehackers.com",
     "sText": "Indie Hackers",
@@ -301,18 +325,6 @@
   },
   {
     "num": "1",
-    "title": "How Nomad List dominates longer tail keywords",
-    "sUrl": "https://nomadlist.com",
-    "sText": "Nomad List",
-    "tFront": "Seo",
-    "tBack": "seo",
-    "slug": "dominate-long-tail-keywords",
-    "img": "nomad",
-    "imgType": "jpg",
-    "desc": "A detailed case study explaining how Nomad List autogenerates several thousand indexed pages which hoover up organic traffic from long tail keyword phrases."
-  },
-  {
-    "num": "1",
     "title": "A much improved newsletter sign up flow",
     "sUrl": "https://www.getrevue.co/",
     "sText": "Revue",
@@ -488,18 +500,6 @@
     "tBack": "coldemail",
     "slug": "write-personalised-cold-emails",
     "img": "beamery",
-    "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How Rev. Chris grew 100k Instagram followers",
-    "sUrl": "https://saintsaviours.net/",
-    "sText": "Rev. Chris",
-    "tFront": "Social Media",
-    "tBack": "socialmedia",
-    "slug": "rev-chris-instagram",
-    "img": "revchris",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   },

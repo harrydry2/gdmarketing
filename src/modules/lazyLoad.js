@@ -11,7 +11,7 @@ export function lazyLoad(filterArray) {
       return;
     }
     if (
-      Math.round(window.innerHeight + window.scrollY) >=
+      Math.round(window.innerHeight + window.scrollY + 350) >=
       document.body.offsetHeight
     ) {
       window.busy = true;

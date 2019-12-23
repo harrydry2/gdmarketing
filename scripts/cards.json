@@ -1,15 +1,39 @@
 [
   {
     "num": "9",
-    "title": "How Rev. Chris grew 100k Instagram followers",
-    "sUrl": "https://saintsaviours.net/",
-    "sText": "Rev. Chris",
-    "tFront": "Social Media",
-    "tBack": "socialmedia",
-    "slug": "rev-chris-instagram",
-    "img": "revchris",
+    "title": "Refactoring UI: A lesson in high prices",
+    "sUrl": "https://refactoringui.com/book/",
+    "sText": "Refactoring UI",
+    "tFront": "Pricing",
+    "tBack": "pricing",
+    "slug": "refactoring-ui",
+    "img": "adam",
     "imgType": "jpg",
-    "desc": "For two and and a half years Rev. Chris Lee's Instagram account grew steadily. He posted mostly pictures of himself, his family, and the church. In July 2019 things changed. Chris started uploading “60 second sermons”."
+    "desc": "How Adam Wathan and Steve Schoger escaped the dogma of e-book pricing and made $1.35M selling Refactoring UI, their design book."
+  },
+  {
+    "num": "9",
+    "title": "7 practical ways to write copy that converts",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Annie Maguire",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "copywriting",
+    "img": "cc",
+    "imgType": "jpg",
+    "desc": "Conversion copywriting is an art. Here are 7 practical tips that you can implement today to make your landing page convert better."
+  },
+  {
+    "num": "1",
+    "title": "How I got 2,000 new subscribers from Product Hunt",
+    "sUrl": "https://marketingexamples.com",
+    "sText": "Marketing Examples",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "product-hunt",
+    "img": "me",
+    "imgType": "jpg",
+    "desc": "Last Wednesday I launched Marketing Examples to Product Hunt. It received more than 1,500 upvotes, was voted Product of the Week, and my email list zoomed from 1,300 to 3,300 in the space of 72 hours. This is the step by step account of how I did it."
   },
   {
     "num": "1",
@@ -73,6 +97,18 @@
   },
   {
     "num": "9",
+    "title": "How Rev. Chris grew 100k Instagram followers",
+    "sUrl": "https://saintsaviours.net/",
+    "sText": "Rev. Chris",
+    "tFront": "Social Media",
+    "tBack": "socialmedia",
+    "slug": "rev-chris-instagram",
+    "img": "revchris",
+    "imgType": "jpg",
+    "desc": "For two and and a half years Rev. Chris Lee's Instagram account grew steadily. He posted mostly pictures of himself, his family, and the church. In July 2019 things changed. Chris started uploading “60 second sermons”."
+  },
+  {
+    "num": "9",
     "title": "6 keys to sharing content on Twitter",
     "sUrl": "https://beamery.com/blog/personalized-emails",
     "sText": "Steph Smith",
@@ -106,18 +142,6 @@
     "img": "kapwing",
     "imgType": "jpg",
     "desc": "Make side projects. Host them on your own domain. Get them in front of the press. The idea is press exposure results in articles (and backlinks). And because the projects are hosted on your own domain any “link juice” flows to other pages on your website helping them rank better."
-  },
-  {
-    "num": "9",
-    "title": "7 practical ways to write copy that converts",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "Annie Maguire",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "copywriting",
-    "img": "cc",
-    "imgType": "jpg",
-    "desc": "Conversion copywriting is an art. Here are 7 practical tips that you can implement today to make your landing page convert better."
   },
   {
     "num": "9",
@@ -205,18 +229,6 @@
   },
   {
     "num": "9",
-    "title": "Refactoring UI: A lesson in high prices",
-    "sUrl": "https://refactoringui.com/book/",
-    "sText": "Refactoring UI",
-    "tFront": "Pricing",
-    "tBack": "pricing",
-    "slug": "refactoring-ui",
-    "img": "adam",
-    "imgType": "jpg",
-    "desc": "How Adam Wathan and Steve Schoger escaped the dogma of e-book pricing and made $1.35M selling Refactoring UI, their design book."
-  },
-  {
-    "num": "9",
     "title": "Marketing tools are damaging your SEO. And how to fix it.",
     "sUrl": "https://www.todesktop.com/",
     "sText": "ToDesktop",
@@ -226,18 +238,6 @@
     "img": "lighthouse",
     "imgType": "jpg",
     "desc": "It's no secret that a site's “performance” is a ranking factor for search. But how does Google actually measure it? Well, open up Chrome DevTools, click the Audits tab, then Run Audits and you'll see that “Performance” is made up from 6 metrics"
-  },
-  {
-    "num": "1",
-    "title": "How I got 2,000 new subscribers from Product Hunt",
-    "sUrl": "https://marketingexamples.com",
-    "sText": "Marketing Examples",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "product-hunt",
-    "img": "me",
-    "imgType": "jpg",
-    "desc": "Last Wednesday I launched Marketing Examples to Product Hunt. It received more than 1,500 upvotes, was voted Product of the Week, and my email list zoomed from 1,300 to 3,300 in the space of 72 hours. This is the step by step account of how I did it."
   },
   {
     "num": "10",

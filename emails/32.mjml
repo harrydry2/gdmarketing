@@ -1,0 +1,135 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="16px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="16px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#031 - How to write a landing page title</mj-text>
+          <mj-text mj-class="h3" align="center">(Copywriting • 2 mins • <a class="underB" href="https://marketingexamples.com/copywriting/landing-page-title/?utm_source=newsletter&utm_medium=email&utm_campaign=email_31" target="_blank">Read on website</a> )</mj-text>
+          <mj-text mj-class="p">I hope you had a nice break. We're back. And it's all about titles.</mj-text>
+          <mj-text mj-class="p">Most things in marketing are <span class="bold">unimportant</span>. And we stress about them. Landing page headlines are <span class="bold">important</span>. And we don't stress about them.</mj-text>
+          <mj-text mj-class="p">I've spent the past fortnight reading 500 landing page titles and talking to copywriting experts. This is what I've learnt:</mj-text>
+          <mj-text mj-class="h2under">1) There is no universal approach</mj-text>
+          <mj-text mj-class="h2under">2) You’re not Vladamir Nabakov</mj-text>
+          <mj-text mj-class="p">Failed poets turned copywriters have a soft spot for fancy titles which say, quite literally, nothing. Avoid these at all cost</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do2.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
+          <mj-text mj-class="h2under">3) You're on a speed date</mj-text>
+          <mj-text mj-class="p">If you can't make your <span class="bold">product</span> interesting in six words sell the <span class="bold">benefits</span> instead:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do3.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
+          <mj-text mj-class="h2under">4) Speak with conviction. People will believe you.</mj-text>
+          <mj-text mj-class="p list list__top">• Don't say “We help” say “It's how”</mj-text>
+          <mj-text mj-class="p list list__bottom">• Don't say “alternative...” say “replaces...”</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do4.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
+          <mj-text mj-class="h2under">5) How to choose a title:</mj-text>
+          <mj-text mj-class="p">Write down 10 titles. Show them to your friends. Ignore their advice. Wait 24 hours. Ask which one they remember. That's your title.</mj-text>
+          <mj-text mj-class="p">Being memorable is more important than being likeable. People jump from site to site and come back to what they <span class="bold">remember</span>:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do5.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
+          <mj-text mj-class="h2under">Sponsor</mj-text>
+          <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. You should check them out.</mj-text>
+          <mj-text mj-class="p">Thanks for reading. I'll be back on Tuesday!<br></mj-text>
+          <mj-text mj-class="p">— Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">If you enjoyed the email (and are in a generous mood) please do like or retweet <a class="underA bold subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1205170495953526785">the thread</a> on Twitter. It really does help.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any marketers this email might help? Feel free to forward it. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

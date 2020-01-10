@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "How to write a landing page title",
+    "sUrl": "https://refactoringui.com/book/",
+    "sText": "Annie Maguire",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "landing-page-title",
+    "img": "do",
+    "imgType": "jpg",
+    "desc": "Most things in marketing are unimportant. And we stress about them. Landing page headlines are important. And we don't stress about them. I've spent the past fortnight reading 500 landing page titles and talking to copywriting experts. This is what I've learnt:"
+  },
+  {
+    "num": "9",
     "title": "Refactoring UI: A lesson in high prices",
     "sUrl": "https://refactoringui.com/book/",
     "sText": "Refactoring UI",
@@ -10,18 +22,6 @@
     "img": "adam",
     "imgType": "jpg",
     "desc": "How Adam Wathan and Steve Schoger escaped the dogma of e-book pricing and made $1.35M selling Refactoring UI, their design book."
-  },
-  {
-    "num": "9",
-    "title": "7 practical ways to write copy that converts",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "Annie Maguire",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "copywriting",
-    "img": "cc",
-    "imgType": "jpg",
-    "desc": "Conversion copywriting is an art. Here are 7 practical tips that you can implement today to make your landing page convert better."
   },
   {
     "num": "1",
@@ -130,6 +130,18 @@
     "img": "volvo",
     "imgType": "jpg",
     "desc": "How Volvo's interception stole the show at the 2015 Super Bowl. Whenever you saw any other car commercial during the Super Bowl you could win a Volvo XC 60 for a loved one. All you had to do was was tweet why they deserved the car using the hashtag #VolvoContest during the commercial."
+  },
+  {
+    "num": "9",
+    "title": "7 practical ways to write copy that converts",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Annie Maguire",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "copywriting",
+    "img": "cc",
+    "imgType": "jpg",
+    "desc": "Conversion copywriting is an art. Here are 7 practical tips that you can implement today to make your landing page convert better."
   },
   {
     "num": "9",
@@ -514,17 +526,5 @@
     "img": "amul",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How to write a landing page title",
-    "sUrl": "https://refactoringui.com/book/",
-    "sText": "Annie Maguire",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "landing-page-title",
-    "img": "do",
-    "imgType": "jpg",
-    "desc": "How Adam Wathan and Steve Schoger escaped the dogma of e-book pricing and made $1.35M selling Refactoring UI, their design book."
   }
 ]

@@ -82,34 +82,34 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#031 - How to write a landing page title</mj-text>
-          <mj-text mj-class="h3" align="center">(Copywriting • 2 mins • <a class="underB" href="https://marketingexamples.com/copywriting/landing-page-title/?utm_source=newsletter&utm_medium=email&utm_campaign=email_31" target="_blank">Read on website</a> )</mj-text>
-          <mj-text mj-class="p">I hope you had a nice break. We're back. And it's all about titles.</mj-text>
-          <mj-text mj-class="p">Most things in marketing are <span class="bold">unimportant</span>. And we stress about them. Landing page headlines are <span class="bold">important</span>. And we don't stress about them.</mj-text>
-          <mj-text mj-class="p">I've spent the past fortnight reading 500 landing page titles and talking to copywriting experts. This is what I've learnt:</mj-text>
-          <mj-text mj-class="h2under">1) There is no universal approach</mj-text>
-          <mj-text mj-class="h2under">2) You’re not Vladamir Nabakov</mj-text>
-          <mj-text mj-class="p">Failed poets turned copywriters have a soft spot for fancy titles which say, quite literally, nothing. Avoid these at all cost</mj-text>
-          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do2.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
+          <mj-text mj-class="h3" align="center">(Copywriting tips • 2 mins • <a class="underB" href="https://marketingexamples.com/copywriting/landing-page-title/?utm_source=newsletter&utm_medium=email&utm_campaign=email_31" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h2under">1) Speak with conviction</mj-text>
+          <mj-text mj-class="p list list__top">• Don't say “We help” say “It's how”</mj-text>
+          <mj-text mj-class="p list list__bottom">• Don't say “alternative” say “replaces”</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do4.png" alt="Speak with conviction copywriting"></mj-image>
+          <mj-text mj-class="h2under">2) You’re not Vladimir Nabokov</mj-text>
+          <mj-text mj-class="p">Failed poets turned copywriters have a soft spot for fancy titles which say, quite literally, nothing. Avoid at all costs:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do2.png" alt="Lead with product copywriting"></mj-image>
           <mj-text mj-class="h2under">3) You're on a speed date</mj-text>
           <mj-text mj-class="p">If you can't make your <span class="bold">product</span> interesting in six words sell the <span class="bold">benefits</span> instead:</mj-text>
-          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do3.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
-          <mj-text mj-class="h2under">4) Speak with conviction. People will believe you.</mj-text>
-          <mj-text mj-class="p list list__top">• Don't say “We help” say “It's how”</mj-text>
-          <mj-text mj-class="p list list__bottom">• Don't say “alternative...” say “replaces...”</mj-text>
-          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do4.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
-          <mj-text mj-class="h2under">5) How to choose a title:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do3.png" alt="Lead with value copywriting"></mj-image>
+          <mj-text mj-class="h2under">4) How to choose a title:</mj-text>
           <mj-text mj-class="p">Write down 10 titles. Show them to your friends. Ignore their advice. Wait 24 hours. Ask which one they remember. That's your title.</mj-text>
-          <mj-text mj-class="p">Being memorable is more important than being likeable. People jump from site to site and come back to what they <span class="bold">remember</span>:</mj-text>
-          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do5.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
+          <mj-text mj-class="p">Being <span class="bold">memorable</span> is more important than being <span class="bold">likeable</span>:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do5.png" alt="How to choose a landing page title"></mj-image>
+          <mj-text mj-class="h2under">5) Your title should match your customer's mindset</mj-text>
+          <mj-text mj-class="p">Annie Maguire is a conversion copywriter. The majority of her traffic comes through personal recommendations. They're warm leads looking to solve a problem. So she leads with a <span class="bold">solution</span>!</mj-text>
+          <mj-text mj-class="p">Zenbu is a social media intelligence app. The majority of their traffic comes organically to their blog. They're cold leads unaware any problem exists. So Zenbu highlights the <span class="bold">problem</span>!</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/do1.png" alt="landing page title match sales funnel"></mj-image>
+          <mj-text mj-class="p">That's all folks. Hope you had a lovely Christmas. I'll be back on Tuesday.<br></mj-text>
           <mj-text mj-class="h2under">Sponsor</mj-text>
           <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. You should check them out.</mj-text>
-          <mj-text mj-class="p">Thanks for reading. I'll be back on Tuesday!<br></mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">If you enjoyed the email (and are in a generous mood) please do like or retweet <a class="underA bold subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1205170495953526785">the thread</a> on Twitter. It really does help.</mj-text>
+          <mj-text mj-class="p">If you're in a generous mood please do like or retweet <a class="underA bold subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1215637286823526401">the thread</a> on Twitter. It really does help.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -117,7 +117,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any marketers this email might help? Feel free to forward it. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

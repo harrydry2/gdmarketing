@@ -526,5 +526,17 @@
     "img": "amul",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Talk triggers",
+    "sUrl": "http://www.skipskitchen.com/",
+    "sText": "Skip's Kitchen",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "talk-triggers",
+    "img": "skips",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

@@ -8,6 +8,7 @@ const emailController = require('../controllers/emailController');
 router.get('/robots.txt', mainController.txt);
 router.get('/', mainController.home);
 router.get('/gifs', mainController.gifs);
+// router.get('/podcast', mainController.podcast);
 router.get('/sitemap.xml', mainController.xml);
 router.get('/marketingexamples.rss', mainController.rss);
 // tes

@@ -1,0 +1,25 @@
+extends base
+
+include ../general/menu
+include ./podcastEp
+
+block content
+  +menu()
+  .podcastTop
+    .podcastTop__header The Marketing Examples Podcast
+    .podcastTop__p.podcastTop__p-fc Marketing tips and stories from the best
+    .podcastTop__p After each episode I jot down what I’ve learnt. If you’d like my notes pop your email in the box:
+    .podcastTop__ss
+      input(placeholder="Email")
+      button Subscribe
+  .podcastBottom
+    .podcastBottom__alt
+      .podcastBottom__alt-inner
+          a.podcastBottom__alt-inner-iTunes(href="")
+          a.podcastBottom__alt-inner-Spotify(href="")
+          a.podcastBottom__alt-inner-iTunes(href="")
+          a.podcastBottom__alt-inner-Breaker(href="")
+    .podcastBottom__section
+      +podcastEp()
+      +podcastEp()
+

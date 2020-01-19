@@ -538,5 +538,17 @@
     "img": "skips",
     "imgType": "jpg",
     "desc": ""
+  },
+  {
+    "num": "9",
+    "title": "How a taco restaurant turned a robbery into a hilarious ad",
+    "sUrl": "http://www.skipskitchen.com/",
+    "sText": "Frijoles & Frescas",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "taco-robbery",
+    "img": "skips",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

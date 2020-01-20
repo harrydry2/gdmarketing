@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "The best word of mouth strategies in the world",
+    "sUrl": "http://www.skipskitchen.com/",
+    "sText": "Skip's Kitchen",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "word-of-mouth",
+    "img": "skips",
+    "imgType": "jpg",
+    "desc": "Less than 1/1000 businesses have a proper word of mouth strategy. Yet they pull in customers just as reliably as paid ads for a fraction of the cost."
+  },
+  {
+    "num": "9",
     "title": "How to write a landing page title",
     "sUrl": "https://refactoringui.com/book/",
     "sText": "Annie Maguire",
@@ -526,18 +538,6 @@
     "img": "amul",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "The best word of mouth strategies in the world",
-    "sUrl": "http://www.skipskitchen.com/",
-    "sText": "Skip's Kitchen",
-    "tFront": "Referral",
-    "tBack": "referral",
-    "slug": "word-of-mouth",
-    "img": "skips",
-    "imgType": "jpg",
-    "desc": "Less than 1/1000 businesses have a proper word of mouth strategy. Yet they pull in customers just as reliably as paid ads for a fraction of the cost."
   },
   {
     "num": "9",

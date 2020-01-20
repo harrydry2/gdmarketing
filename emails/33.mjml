@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="16px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="16px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" />
+      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#032 - The best word of mouth strategies in the world</mj-text>
+          <mj-text mj-class="h3" align="center">(Creativity • 2 mins • <a class="underB" href="https://marketingexamples.com/referral/word-of-mouth/?utm_source=newsletter&utm_medium=email&utm_campaign=email_32" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h2under">1) The Doubletree Cookie</mj-text>
+          <mj-text mj-class="p">On check-in at any Hilton Doubletree hotel, every single guest gets given a warm chocolate chip cookie.</mj-text>
+          <mj-text mj-class="p">75,000 are given out each day. 34% of guests tell their friends. That's 25,000 stories being told about Doubletree, every single day.</mj-text>
+          <mj-text mj-class="p">The unit cost of a cookie is $0.20.</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/skips1.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="h2under">2) Skip's Kitchen</mj-text>
+          <mj-text mj-class="p">Skip’s is a classic Californian burger restaurant. Except just before you pay the waiter pulls out a deck of cards. If you pick the joker your meal is free.</mj-text>
+          <mj-text mj-class="p">The financial cost to Skip's is just $2 for every $100 spent.</mj-text>
+          <mj-text mj-class="p">They'd never spent a single penny on advertising.</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/skips2.jpg" alt="Skip's restaurant joker"></mj-image>
+          <mj-text mj-class="h2under">3) The Neptune Theatre</mj-text>
+          <mj-text mj-class="p">In 1973, John Neville took over as director of the Neptune Theatre.</mj-text>
+          <mj-text mj-class="p">Every time a new show opened, he'd give free tickets to local taxi drivers. In return, they'd talk up the shows to their passengers.</mj-text>
+          <mj-text mj-class="p">Two years later theatre subscriptions had doubled.</mj-text>
+          <mj-text mj-class="h2under">4) Penn & Teller</mj-text>
+          <mj-text mj-class="p">Every Penn & Teller show ends the same way. The magicians dash up the center aisle of the theatre and wait in the foyer to greet their fans.</mj-text>
+          <mj-text mj-class="p">They take selfies, shake hands, and answer questions. Each night 200 customers leave with a story to tell.</mj-text>
+          <mj-text mj-class="p">That's how you become the longest-running headline act in Vegas history.</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/skips3.jpg" alt="Penn and Teller selfies"></mj-image>
+          <mj-text mj-class="h2under">So there you go</mj-text>
+          <mj-text mj-class="p">Well executed word of mouth strategies pull in customers just as reliably as paid ads. Yet they're neglected. Marketers are more comfortable imitating than originating.</mj-text>
+          <mj-text mj-class="p">Don't be afraid to stand out. Give your customers a story to tell and they'll sell your product for you.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Thanks for reading. I'll be back before Lingard scores a goal.</mj-text>
+          <mj-text mj-class="h2under">Sponsor</mj-text>
+          <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. You should check them out.</mj-text>
+          <mj-text mj-class="p">— Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">If you're feeling generous please do like or retweet <a class="underA bold subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1219227667179937792">the thread</a> on Twitter. It really does help.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

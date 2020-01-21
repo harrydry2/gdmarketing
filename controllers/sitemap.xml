@@ -142,8 +142,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
+  <url>
     <loc>https://marketingexamples.com/viral/volvo-contest</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/viral/taco-robbery</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -197,6 +202,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/referral/cd-baby-confirmation-email</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/referral/word-of-mouth</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -287,6 +297,11 @@
     <!-- copywriting -->
   <url>
     <loc>https://marketingexamples.com/copywriting/customers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/copywriting/landing-page-title</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

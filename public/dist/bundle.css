@@ -1012,7 +1012,8 @@ p {
 .mailO {
   font-size: 1.4rem;
   text-align: center;
-  margin-top: 2.2rem; }
+  margin-top: 2.2rem;
+  color: gray; }
   @media screen and (max-width: 700px) {
     .mailO {
       font-size: 1.3rem;

@@ -11,11 +11,11 @@
       <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
       <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
-      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
-      <mj-class name="h2under" font-size="16px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
-      <mj-class name="h1" font-size="18px" font-weight="bold" padding="30px 0px 20px 0px" line-height="26px" />
-      <mj-class name="h3" font-size="16px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" />
-      <mj-class name="p" font-size="16px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="h2" font-size="17px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 0px 0px" line-height="30px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
       <mj-class name="asterix" mj-text align="center"="center" />
       <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
       <mj-class name="list" padding="1px 7px 1px 20px" />
@@ -51,7 +51,7 @@
       }
 
       .brand {
-        color: #4742DE;
+        color: #e6375a;
       }
 
       .bold {
@@ -80,10 +80,7 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/em/emLogo.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#032 - The best word of mouth strategies in the world</mj-text>
-          <mj-text mj-class="h3" align="center">(Creativity • 2 mins • <a class="underB" href="https://marketingexamples.com/referral/word-of-mouth/?utm_source=newsletter&utm_medium=email&utm_campaign=email_32" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="h2under">1) The Doubletree Cookie</mj-text>
+          <mj-text mj-class="h1" align="left">Welcome to the Email Mastery Course</mj-text>
           <mj-text mj-class="p">On check-in at any Hilton Doubletree hotel, every single guest gets given a warm chocolate chip cookie.</mj-text>
           <mj-text mj-class="p">75,000 are given out each day. 34% of guests tell their friends. That's 25,000 stories being told about Doubletree, every single day.</mj-text>
           <mj-text mj-class="p">The unit cost of a cookie is $0.20.</mj-text>

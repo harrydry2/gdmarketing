@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 10px 0px" line-height="30px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #e6375a;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #e6375a;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/em/em2.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-text mj-class="h1" align="center">Lesson 1: Understanding email marketing</mj-text>
+          <mj-text mj-class="p">Sales is the art of communication. And email is the communication backbone of the internet.</mj-text>
+          <mj-text mj-class="p">Other communication platforms will rise and fall. Email isn’t going anywhere.</mj-text>
+          <mj-text mj-class="p">It’s been around longer than all the others. It will survive longer than all the others. It’s <a class="underA" href="">Lindy</a>.</mj-text>
+          <mj-text mj-class="p">The aim of this first lesson isn’t to turn you into an email master. It’s to provide an introduction to the power of email and explains why it remains the most useful sales and communication tool today.</mj-text>
+          <mj-text mj-class="h2">Ownership</mj-text>
+          <mj-text mj-class="p">10 years ago Facebook groups were considered <span class="italic">the next big thing</span>. Companies invested time and money into growing their own. The following 10 years saw engagement on Facebook decline and the majority of Facebook groups become worthless.</mj-text>
+          <mj-text mj-class="p">If you’ve built up an email list, <span class="bold">you own that list</span>. No one can take it away from you. Your ability to communicate with your audience is not dependent on the success of a third-party platform. All you need is an Email Service Provider (or SMTP server) and you can send a message to anyone’s email address.</mj-text>
+          <mj-text mj-class="h2">Bigger Reach</mj-text>
+          <mj-text mj-class="p">On both Twitter and Instagram the “<a class="underA" href="https://www.linkedin.com/pulse/20140805160323-143109-the-disappointing-truth-about-how-many-people-see-your-tweets-a-not-many/">completion rate</a>” for each user is around 5%. 10,000 followers results in 500 impressions.</mj-text>
+          <mj-text mj-class="p">On email, the industry wide <a class="underA" href="https://mailchimp.com/resources/email-marketing-benchmarks/">open rate</a> is 21%. 10,000 subscribers results in a 2,100 opens.</mj-text>
+          <mj-text mj-class="h2">Conversion is king</mj-text>
+          <mj-text mj-class="p">Email doesn’t just have higher quantity reach but also a far higher quality.</mj-text>
+          <mj-text mj-class="p">On social media an impression is someone seeing your post on their timeline. A small % fully read your message. An even smaller % click on it. </mj-text>
+          <mj-text mj-class="p">On email “reach” is considered an open. You have their undivided attention. You’re not capped at 280 characters. And you can include buttons to click through to a website.</mj-text>
+          <mj-text mj-class="p">The upshot is <span class="bold">email converts better than any other social media platform can</span>.</mj-text>
+          <mj-text mj-class="p">Let’s look at a real world example of this:</mj-text>
+          <mj-text mj-class="p">Back in 2016, a web development teacher called Wes Bos launched a new course called, <a class="underA" href="https://reactforbeginners.com/">React for Beginners</a>, priced at $149.</mj-text>
+          <mj-text mj-class="p">At the time his email list was 29,000 and his Twitter following was 35,000. Below is a diagram showing the three main channels his first week sales came from:</mj-text>
+          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/em1-1.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">That’s <span class="bold">4.1</span> times more paying customers from email than from Twitter. Now this is an isolated example, but it’s illustrative of a broader point:</mj-text>
+          <mj-text mj-class="p"><span class="bold italic">When it comes to conversion email is king!</span></mj-text>
+          <mj-text mj-class="h2">Summary</mj-text>
+          <mj-text mj-class="p">Not only is email the only channel you have complete ownership over. It’s also the channel with the best reach and which converts best.</mj-text>
+          <mj-text mj-class="p">Tomorrow’s lesson we will dive into the nitty gritty. It’s focused on how to actually grow an email list.</mj-text>
+          <mj-text mj-class="p">— Alec (<a class="underA" href="">@email_mastery</a>)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="46px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | Adress, San Francisco, Postcode</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

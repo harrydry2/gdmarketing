@@ -1,0 +1,148 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 10px 0px" line-height="30px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #e6375a;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .underC {
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #e6375a;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/em/em2.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-text mj-class="h1" align="center">Lesson 7: The lesser-known metrics</mj-text>
+          <mj-text mj-class="p">Yesterday we covered the basics. This lesson covers three <span class="bold">more advanced</span> KPIs which are in fact more revealing than a lot of the fundamentals:</mj-text>
+          <mj-text mj-class="h2">1) Open Reach</mj-text>
+          <mj-text mj-class="p"><a class="underA" href="https://engage.guru/open-reach-what-is-it-and-why-is-it-more-insightful-than-open-rate/" target="_blank">Open reach</a> is a new metric to the email marketing world. We’ve found it both more insightful and nuanced than open rate:</mj-text>
+          <mj-text mj-class="p inwardSpeech">= # of unique subscribers who open at least one email / # of unique subscribers who received at least one email</mj-text>
+          <mj-text mj-class="p inwardSpeech">** across a given time period (i.e. 30 days, 90 days, etc.)</mj-text>
+          <mj-text mj-class="p"><span class="bold">Open rate</span> is calculated on an email by email basis.</mj-text>
+          <mj-text mj-class="p"><span class="bold">Open reach</span> is calculated over a series of emails and looks at your audience engagement as a whole.</mj-text>
+          <mj-text mj-class="p">That makes it a more useful proxy for how engaged your overall list is. For example, imagine:</mj-text>
+          <mj-text mj-class="p list list__top">• Your email list has 100,000 subscribers</mj-text>
+          <mj-text mj-class="p list">• You’ve sent 4 emails over a week regarding a Black Friday sale</mj-text>
+          <mj-text mj-class="p list list__bottom">• Each campaign was opened by 20,000.</mj-text>
+          <mj-text mj-class="p">If you’re just measuring open rate all you’d know is that 20% of each email is opened. But what is more important is your lists <span class="bold">overall engagement</span>. And a 20% open rate doesn’t give an indication as to what this might be.</mj-text>
+          <mj-text mj-class="p">It could be the same 20,000 people opening each email, in which case your <span class="bold">Open Reach</span> would be 20% or it could be a different 20,000 people opening each email in which case your overall <span class="bold">open reach</span> would be 80%.</mj-text>
+          <mj-text mj-class="p">And this is relevant because in one scenario just 20% of your list is aware of your sale and in another 80% of your list is.</mj-text>
+          <mj-text mj-class="h2">2) Inbox Placement Report (IPR) By Domain</mj-text>
+          <mj-text mj-class="p">IPR by domain is another nuanced measure that allows you to dive deeper into email deliverability performance and issues. Essentially it measures where the emails you send end up, but critically allows you to see this on a domain by domain basis.</mj-text>
+          <mj-text mj-class="p">For example, imagine you've just sent off an email to your list of 100,000 and your ESP reports:</mj-text>
+          <mj-image mj-class="cImg img350" src="https://harrydry.s3.amazonaws.com/em/e7a.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">With an open rate of 16% you might be tempted to investigate and see if there’s a problem delivering to a specific domain (or ISP). This is where tracking inbox placement by domain comes in:</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/em/e7b.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">It’s easy to highlight Hotmail as the problem child, and then you can dig deeper into why deliverability is lagging and look to resolve it.</mj-text>
+          <mj-text mj-class="h2">How do I actually generate an IPR by domain?</mj-text>
+          <mj-text mj-class="p">Well, it’s a fairly new measure. This means a lot of ESP’s are yet to introduce it to their metrics dashboard. But it’s easy enough to carry out yourself in a few steps:</mj-text>
+          <mj-text mj-class="h2">Step 1</mj-text>
+          <mj-text mj-class="p">Export your email campaign and duplicate into different sheets. Label each sheet with the name of an email client (e.g. Gmail, Yahoo, Hotmail ...)</mj-text>
+          <mj-text mj-class="h2">Step 2</mj-text>
+          <mj-text mj-class="p">Go through each sheet and run a custom text filter on the email address column. For example on the Gmail sheet you’d filter where email addresses “contains gmail.com”. This will leave you with different sheets including just the emails sent to each provider.</mj-text>
+          <mj-text mj-class="h2">Step 3</mj-text>
+          <mj-text mj-class="p">All that’s left is some simple maths. You total up the “unopened”, “opened”, “bounced” columns and divide by the total number of Gmail addresses sent to give you unopened / open and bounce rate <span class="bold">by domain</span>.</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/em/e7c.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="h2">3) Opens by Device</mj-text>
+          <mj-text mj-class="p">This last <span class="italic">lesser-known metric</span> is <span class="bold">opens by device</span>. This allows you to know what % of your audience is reading on Mobile or Desktop. Why is it relevant?</mj-text>
+          <mj-text mj-class="p">Well, if you know 85% of your emails are being read on mobile, you’re going to want to make some tweaks to your design. For instance:</mj-text>
+          <mj-text mj-class="p list list__top">• Shorter emails</mj-text>
+          <mj-text mj-class="p list">• Buttons instead of links</mj-text>
+          <mj-text mj-class="p list list__bottom">• Fewer images / GIFs (3G connections may struggle to load)</mj-text>
+          <mj-text mj-class="p">A lot of ESP’s give data on opens by device otherwise signing up to <a class="underA" href="https://engage.guru/open-reach-what-is-it-and-why-is-it-more-insightful-than-open-rate/" target="_blank">Litmus</a> would be your best bet.</mj-text>
+          <mj-text mj-class="p asterix"> * * *</mj-text>
+          <mj-text mj-class="p">Phew! That’s it for lesson 7. It’s also the end of the course. We hope you enjoyed it. We’ll be in touch tomorrow to send a PDF of all the lessons.</mj-text>
+          <mj-text mj-class="p">If you have any questions please do get in touch. We respond personally to every single one.</mj-text>
+          <mj-text mj-class="p">Thanks<br>Alec (<a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">@email_mastery</a>)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="46px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

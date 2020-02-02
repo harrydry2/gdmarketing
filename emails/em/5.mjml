@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 10px 0px" line-height="30px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #e6375a;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .underC {
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #e6375a;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/em/em2.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-text mj-class="h1" align="center">Lesson 5: Improving open and click-through rates</mj-text>
+          <mj-text mj-class="p">So far we’ve covered how to grow your list, how to segment a list, and what high performing email copy looks like. But if your subscriber never opens your email or never clicks through all the previous good work you’ve done is wasted.</mj-text>
+          <mj-text mj-class="p">This email covers how subtle behavioral tweaks such as enticing subject lines, relevant email content, and attractive CTAs, can encourage your subscribers to actually click through.</mj-text>
+          <mj-text mj-class="h2">Subject Lines</mj-text>
+          <mj-text mj-class="p">To quote the legendary David Ogilvy: When you’ve written your headline you’ve spent 80 cents of your dollar.</mj-text>
+          <mj-text mj-class="p">He clearly knew that headlines are the most essential element of your marketing copy.</mj-text>
+          <mj-text mj-class="p">So let’s start with open rates and the importance of subject lines.</mj-text>
+          <mj-text mj-class="p">Much of email marketing is <span class="bold">unimportant</span>. And we stress about it. Subject titles are <span class="bold">important</span>. And we don't stress about them. They’re the <span class="bold">first thing</span> your subscriber sees. And the majority of the time the <span class="bold">only thing</span> your subscriber reads.</mj-text>
+          <mj-text mj-class="p">There’s no one size fits all approach to a great subject line but here are four quick tips to be aware of:</mj-text>
+          <mj-text mj-class="h2">1) Don’t exceed 50 characters</mj-text>
+          <mj-text mj-class="p">Most email clients chop your title at around the 50 character mark. And on mobile, you’ve got even fewer. So get to the point. Research suggests that around 7 words is the sweet spot.</mj-text>
+          <mj-text mj-class="h2">2) Use personalization… when the time’s right</mj-text>
+          <mj-text mj-class="p">Most ESPs allow you to include each subscriber’s name in the email. This is a powerful tactic to grab subscribers' attention. But the more you employ it the less effective it is. So hold back this bullet until the time’s right.</mj-text>
+          <mj-text mj-class="p">Two use cases I like are to re-engage inactive subscribers or to announce a new product launch:</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/em/e5a.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="h2">3) The quick A/B test</mj-text>
+          <mj-text mj-class="p">A/B test might sound a bit overkill but it’s far simpler than it sounds. Imagine you’ve got 20,000 subscribers.</mj-text>
+          <mj-text mj-class="p list list__top">1) Send 500 subscribers <span class="bold">Subject line</span> A and 500 subscribers <span class="italic">Subject line</span> B.</mj-text>
+          <mj-text mj-class="p list">2) Wait 24 hours</mj-text>
+          <mj-text mj-class="p list list__bottom">3) Send the remaining subscribers the better performing title.</mj-text>
+          <mj-text mj-class="p">After a few months of A/B testing, you’ll start to get a feel for what sort of subject lines work best for your audience. Do my subscribers prefer short or long titles? Do questions work? Does personalisation work? And then tweak future titles to match.</mj-text>
+          <mj-text mj-class="h2">4) There’s no one size fits all approach</mj-text>
+          <mj-text mj-class="p">The key to writing subject titles is being aware of your recipients' mindset. Take two different scenarios:</mj-text>
+          <mj-text mj-class="p list list__top">a) An email sent to users who’ve signed up for free eBook</mj-text>
+          <mj-text mj-class="p list list__bottom">b) An email sent to re-engage inactive subscribers </mj-text>
+          <mj-text mj-class="p">In the first scenario, the recipient is <span class="bold">expecting an email</span>. A straightforward subject line telling your subscribers exactly what you sent them is all that’s required.</mj-text>
+          <mj-text mj-class="p">In the second scenario, the recipient may have forgotten they signed up to your mailing list. A less explicit, more attention-grabbing subject line might work better to entice an open.</mj-text>
+          <mj-text mj-class="h2">4) There’s no one size fits all approach</mj-text>
+          <mj-text mj-class="p">It’s no secret that the time you send your email matters. But what if you’ve got a worldwide audience? Any emails your scheduling for 9am PST are arriving just as everyone’s gone home across Europe.</mj-text>
+          <mj-text mj-class="p">Well, several ESP’s track geolocation data on sign up. This means you can target each recipient by their specific time zone. Is early morning the best time to send your email? Well, you can schedule for 9AM, no matter what time zone your subscribers are in.</mj-text>
+          <mj-text mj-class="h2">Click-Through Rates</mj-text>
+          <mj-text mj-class="p">Subject lines and scheduled sending should cover getting your email opened. Now all that’s left to do is to get subscribers to click through:</mj-text>
+          <mj-text mj-class="h2">1) Segmentation</mj-text>
+          <mj-text mj-class="p">First and foremost click-throughs are a function of email quality. And email quality is a case of sending the right person the right email at the right time. This is where segmentation comes in.</mj-text>
+          <mj-text mj-class="p">Not all your subscribers are the same. So splitting your list into cohorts and sending tailored content is the easiest way to raise the quality of your emails and increase your click-through rate.</mj-text>
+          <mj-text mj-class="h2">2) One button per email</mj-text>
+          <mj-text mj-class="p">The most surefire way to guarantee a subscriber <span class="bold">does not</span> click your button is by asking them to click two buttons. A nice rule of thumb is <span class="bold">one</span> clear goal per email and <span class="bold">one</span> single button to back up that goal.</mj-text>
+          <mj-text mj-class="h2">3) Think “Call-to-value” not “Call-to-action”</mj-text>
+          <mj-text mj-class="p">Button text also matters. Buttons that amplify “value” over “action” usually perform better.</mj-text>
+          <mj-text mj-class="p">People want to “Create a website” they don’t want to “Sign up now”.</mj-text>
+          <mj-image mj-class="cImg img450" src="https://harrydry.s3.amazonaws.com/em/e5b.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">That’s everything for this lesson. Tomorrow’s lesson is about all about the essential metrics you should be tracking.</mj-text>
+          <mj-text mj-class="p">If you have any questions about this lesson please do get in touch. We respond personally to every single one.</mj-text>
+          <mj-text mj-class="p">Thanks<br>Alec (<a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">@email_mastery</a>)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="46px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

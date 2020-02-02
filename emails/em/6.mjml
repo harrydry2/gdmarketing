@@ -1,0 +1,135 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 10px 0px" line-height="30px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #e6375a;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .underC {
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #e6375a;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/em/em2.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-text mj-class="h1" align="center">Lesson 6: Choosing the right KPI’s and metrics</mj-text>
+          <mj-text mj-class="p">This lesson is all about the essential metrics you should be tracking. But before we get into that I just want to take a second to explain why tracking email metrics is so important:</mj-text>
+          <mj-text mj-class="p">Email marketing without looking at metrics is like a student writing essay after essay, without bothering to read the teacher’s feedback. They’re going to make all the same mistakes because there’s no <span class="bold">feedback loop</span> in place.</mj-text>
+          <mj-text mj-class="p">In email marketing, the email metrics are that feedback loop. They tell you what worked, what didn’t, and crucially give you all the information you need to iterate and improve next time:</mj-text>
+          <mj-text mj-class="h2">The fundamental metrics:</mj-text>
+          <mj-text mj-class="p"><span class="bold">Open Rate</span> — The percentage of people who open an email campaign. A measure of your list engagement and deliverability.</mj-text>
+          <mj-text mj-class="p inwardSpeech"> = Emails Opened / (Emails Sent – Bounces)</mj-text>
+          <mj-text mj-class="p"><span class="bold">Unsubscribe Rate</span> — The % of people who unsubscribe when an email campaign is sent. A measure of the effectiveness of email content.</mj-text>
+          <mj-text mj-class="p inwardSpeech">= No. Of Unsubscribes / (Emails Sent – Bounces)</mj-text>
+          <mj-text mj-class="p"><span class="bold">Delivery Rate</span> — The % of emails that are successfully delivered. A measure of the validity of the email addresses on your list.</mj-text>
+          <mj-text mj-class="p inwardSpeech">= (No. of emails sent - No. of Bounces) / No. of emails sent</mj-text>
+          <mj-text mj-class="p"><span class="bold">Click to Open Rate (CTOR)</span> — The % of people who click from the % of people who <span class="bold">open</span>. Possibly the best measure of the effectiveness of your email’s content and subscriber engagement.</mj-text>
+          <mj-text mj-class="p inwardSpeech">= Total unique clicks / Total unique opens</mj-text>
+          <mj-text mj-class="h2">How to track them</mj-text>
+          <mj-text mj-class="p">Email metrics are contextual, not universal. A 10-year-old email list is different from a 6-month-old list. A curated newsletter is different from a promotional email.</mj-text>
+          <mj-text mj-class="p">What this means is that you shouldn’t take too much notice of “industry averages”. Instead you should benchmark against yourself. This involves creating a spreadsheet where you detail your previous email history:</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/em/e6a.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">The benefit of benchmarking is the ability to look at your campaigns from the macro perspective. You don’t get caught up in the noise of individual numbers and are better placed to spot longer-term trends that might be emerging.</mj-text>
+          <mj-text mj-class="h2">The Open Rate Fallacy</mj-text>
+          <mj-text mj-class="p">Finally, I’d just like to highlight a classic trap people fall into when assessing the quality of their email campaigns:</mj-text>
+          <mj-text mj-class="p inwardSpeech">The open rate of a campaign is correlated to the quality of the email.</mj-text>
+          <mj-text mj-class="p">Now, this might seem obvious, but I can’t tell you how many times I’ve heard the sentence:</mj-text>
+          <mj-text mj-class="p inwardSpeech">The open rates were low. That must have been a poor email.</mj-text>
+          <mj-text mj-class="p">Your open rate depends on many things. But one thing it does not depend on is the contents of your email. <span class="bold">People do not know what your email looks like before they open it!</span></mj-text>
+          <mj-text mj-class="p">A better measure of email quality is <span class="bold">Click to Open Rate (CTOR)</span>. If people are clicking after opening the email the chances are they liked what they read.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Anyway, that’s all folks. The aim of this email was to get you up to speed with the basics. In tomorrow’s lesson, we will dig a bit deeper into some <span class="bold">lesser-known email metrics</span>.</mj-text>
+          <mj-text mj-class="p">If you have any questions please do get in touch. We respond personally to every single one.</mj-text>
+          <mj-text mj-class="p">Thanks<br>Alec (<a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">@email_mastery</a>)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="46px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

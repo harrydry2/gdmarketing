@@ -3,17 +3,16 @@
     <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
     <mj-breakpoint width="320px" />
     <mj-attributes>
-      <mj-all padding='0' font-family="Nunito" />
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
       <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
       <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
-      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
       <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
-      <mj-class name="h2" font-size="17px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
-      <mj-class name="h2under" font-size="17px" font-weight="bold" padding="20px 0px 20px 0px" line-height="21px" color="#e6375a" />
-      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 0px 0px" line-height="30px" />
+      <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 10px 0px" line-height="30px" />
       <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
       <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
       <mj-class name="asterix" mj-text align="center"="center" />
@@ -37,16 +36,20 @@
     </mj-attributes>
     <mj-style inline="inline">
       .underA {
-        color: #030212;
+        color: #e6375a;
         text-decoration: none;
-        padding-bottom: 0.1rem;
-        border-bottom: 1px solid;
+        font-weight: 600;
       }
 
       .underB {
         color: #545454;
         text-decoration: none;
         padding-bottom: 0.1rem;
+        border-bottom: 1px solid;
+      }
+
+      .underC {
+        text-decoration: none;
         border-bottom: 1px solid;
       }
 
@@ -80,56 +83,25 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-text mj-class="h1" align="left">Welcome to the Email Mastery Course</mj-text>
-          <mj-text mj-class="p">On check-in at any Hilton Doubletree hotel, every single guest gets given a warm chocolate chip cookie.</mj-text>
-          <mj-text mj-class="p">75,000 are given out each day. 34% of guests tell their friends. That's 25,000 stories being told about Doubletree, every single day.</mj-text>
-          <mj-text mj-class="p">The unit cost of a cookie is $0.20.</mj-text>
-          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/skips1.png" alt="Hilton Doubletree cookie"></mj-image>
-          <mj-text mj-class="h2under">2) Skip's Kitchen</mj-text>
-          <mj-text mj-class="p">Skip’s is a classic Californian burger restaurant. Except just before you pay the waiter pulls out a deck of cards. If you pick the joker your meal is free.</mj-text>
-          <mj-text mj-class="p">The financial cost to Skip's is just $2 for every $100 spent.</mj-text>
-          <mj-text mj-class="p">They'd never spent a single penny on advertising.</mj-text>
-          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/skips2.jpg" alt="Skip's restaurant joker"></mj-image>
-          <mj-text mj-class="h2under">3) The Neptune Theatre</mj-text>
-          <mj-text mj-class="p">In 1973, John Neville took over as director of the Neptune Theatre.</mj-text>
-          <mj-text mj-class="p">Every time a new show opened, he'd give free tickets to local taxi drivers. In return, they'd talk up the shows to their passengers.</mj-text>
-          <mj-text mj-class="p">Two years later theatre subscriptions had doubled.</mj-text>
-          <mj-text mj-class="h2under">4) Penn & Teller</mj-text>
-          <mj-text mj-class="p">Every Penn & Teller show ends the same way. The magicians dash up the center aisle of the theatre and wait in the foyer to greet their fans.</mj-text>
-          <mj-text mj-class="p">They take selfies, shake hands, and answer questions. Each night 200 customers leave with a story to tell.</mj-text>
-          <mj-text mj-class="p">That's how you become the longest-running headline act in Vegas history.</mj-text>
-          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/skips3.jpg" alt="Penn and Teller selfies"></mj-image>
-          <mj-text mj-class="h2under">So there you go</mj-text>
-          <mj-text mj-class="p">Well executed word of mouth strategies pull in customers just as reliably as paid ads. Yet they're neglected. Marketers are more comfortable imitating than originating.</mj-text>
-          <mj-text mj-class="p">Don't be afraid to stand out. Give your customers a story to tell and they'll sell your product for you.</mj-text>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p">Thanks for reading. I'll be back before Lingard scores a goal.</mj-text>
-          <mj-text mj-class="h2under">Sponsor</mj-text>
-          <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. You should check them out.</mj-text>
-          <mj-text mj-class="p">— Harry</mj-text>
+          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/em/em2.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-text mj-class="h1" align="center">Welcome to Email Mastery Course</mj-text>
+          <mj-text mj-class="p">First and foremost thank you for signing up.</mj-text>
+          <mj-text mj-class="p">At Email Mastery we believe:</mj-text>
+          <mj-text mj-class="p inwardSpeech">The highest level of mastery is simplicity. Most information out there is irrelevant. And most effort is wasted, but only the expert knows what to ignore.</mj-text>
+          <mj-text mj-class="p">The aim of this course is to reduce email topics down to their simplest form. Every line in the lessons you are about to receive is there for a reason.</mj-text>
+          <mj-text mj-class="p">One favor to ask is that you whitelist this email address. We’ve put a lot of effort into the course so it’d be a shame if the emails ended up in spam or promotions folder.</mj-text>
+          <mj-text mj-class="p">The first lesson will be with you in about 5 minutes. In the meantime, could you answer 1 question for us?</mj-text>
+          <mj-text mj-class="p"><span class="bold">What is the ONE aspect of email that you’d most like to improve?</span></mj-text>
+          <mj-text mj-class="p">This helps us get to know our audience better and also gives us inspiration for topics we should dive into on the website.</mj-text>
+          <mj-text mj-class="p">Enjoy the course,<br>— Alec (<a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">@email_mastery</a>)</mj-text>
+          <mj-text mj-class="p">P.S. Feel free to connect on <a class="underA" href="https://www.linkedin.com/in/alec-beglarian/" target="_blank">LinkedIn</a></mj-text>
         </mj-column>
-      </mj-section>
-      <mj-section mj-class="shareSection" background-color="#ffebef">
-        <mj-column>
-          <mj-text mj-class="p">If you're feeling generous please do like or retweet <a class="underA bold subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1219227667179937792">the thread</a> on Twitter. It really does help.</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="whiteSection" padding="9px 0">
-        <mj-column></mj-column>
-      </mj-section>
-      <mj-section mj-class="shareSection" background-color="#e5f5ff">
-        <mj-column>
-          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="whiteSection" padding-top="36px">
-        <mj-column></mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
-          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

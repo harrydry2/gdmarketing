@@ -82,23 +82,23 @@
           <mj-text mj-class="h1" align="center">Lesson 1: Understanding email marketing</mj-text>
           <mj-text mj-class="p">Sales is the art of communication. And email is the communication backbone of the internet.</mj-text>
           <mj-text mj-class="p">Other communication platforms will rise and fall. Email isn’t going anywhere.</mj-text>
-          <mj-text mj-class="p">It’s been around longer than all the others. It will survive longer than all the others. It’s <a class="underA" href="">Lindy</a>.</mj-text>
+          <mj-text mj-class="p">It’s been around longer than all the others. It will survive longer than all the others. It’s <a class="underA" href="https://en.wikipedia.org/wiki/Lindy_effect" target="_blank">Lindy</a>.</mj-text>
           <mj-text mj-class="p">The aim of this first lesson isn’t to turn you into an email master. It’s to provide an introduction to the power of email and explains why it remains the most useful sales and communication tool today.</mj-text>
           <mj-text mj-class="h2">Ownership</mj-text>
           <mj-text mj-class="p">10 years ago Facebook groups were considered <span class="italic">the next big thing</span>. Companies invested time and money into growing their own. The following 10 years saw engagement on Facebook decline and the majority of Facebook groups become worthless.</mj-text>
           <mj-text mj-class="p">If you’ve built up an email list, <span class="bold">you own that list</span>. No one can take it away from you. Your ability to communicate with your audience is not dependent on the success of a third-party platform. All you need is an Email Service Provider (or SMTP server) and you can send a message to anyone’s email address.</mj-text>
           <mj-text mj-class="h2">Bigger Reach</mj-text>
-          <mj-text mj-class="p">On both Twitter and Instagram the “<a class="underA" href="https://www.linkedin.com/pulse/20140805160323-143109-the-disappointing-truth-about-how-many-people-see-your-tweets-a-not-many/">completion rate</a>” for each user is around 5%. 10,000 followers results in 500 impressions.</mj-text>
-          <mj-text mj-class="p">On email, the industry wide <a class="underA" href="https://mailchimp.com/resources/email-marketing-benchmarks/">open rate</a> is 21%. 10,000 subscribers results in a 2,100 opens.</mj-text>
+          <mj-text mj-class="p">On both Twitter and Instagram the “<a class="underA" href="https://www.linkedin.com/pulse/20140805160323-143109-the-disappointing-truth-about-how-many-people-see-your-tweets-a-not-many/" target="_blank">completion rate</a>” for each user is around 5%. 10,000 followers results in 500 impressions.</mj-text>
+          <mj-text mj-class="p">On email, the industry wide <a class="underA" href="https://mailchimp.com/resources/email-marketing-benchmarks/" target="_blank">open rate</a> is 21%. 10,000 subscribers results in a 2,100 opens.</mj-text>
           <mj-text mj-class="h2">Conversion is king</mj-text>
           <mj-text mj-class="p">Email doesn’t just have higher quantity reach but also a far higher quality.</mj-text>
           <mj-text mj-class="p">On social media an impression is someone seeing your post on their timeline. A small % fully read your message. An even smaller % click on it. </mj-text>
           <mj-text mj-class="p">On email “reach” is considered an open. You have their undivided attention. You’re not capped at 280 characters. And you can include buttons to click through to a website.</mj-text>
           <mj-text mj-class="p">The upshot is <span class="bold">email converts better than any other social media platform can</span>.</mj-text>
           <mj-text mj-class="p">Let’s look at a real world example of this:</mj-text>
-          <mj-text mj-class="p">Back in 2016, a web development teacher called Wes Bos launched a new course called, <a class="underA" href="https://reactforbeginners.com/">React for Beginners</a>, priced at $149.</mj-text>
+          <mj-text mj-class="p">Back in 2016, a web development teacher called Wes Bos launched a new course called, <a class="underA" href="https://reactforbeginners.com/" target="_blank">React for Beginners</a>, priced at $149.</mj-text>
           <mj-text mj-class="p">At the time his email list was 29,000 and his Twitter following was 35,000. Below is a diagram showing the three main channels his first week sales came from:</mj-text>
-          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/em1-1.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/e1a.png" alt="Hilton Doubletree cookie"></mj-image>
           <mj-text mj-class="p">That’s <span class="bold">4.1</span> times more paying customers from email than from Twitter. Now this is an isolated example, but it’s illustrative of a broader point:</mj-text>
           <mj-text mj-class="p"><span class="bold italic">When it comes to conversion email is king!</span></mj-text>
           <mj-text mj-class="h2">Summary</mj-text>
@@ -119,7 +119,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | Adress, San Francisco, Postcode</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

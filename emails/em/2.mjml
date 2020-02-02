@@ -8,7 +8,7 @@
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
       <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
-      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
       <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
       <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
@@ -48,6 +48,11 @@
         border-bottom: 1px solid;
       }
 
+      .underC {
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
       .brand {
         color: #e6375a;
       }
@@ -78,31 +83,46 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-text mj-class="h1" align="left">Lesson 1: Understanding email marketing</mj-text>
-          <mj-text mj-class="p">Sales is the art of communication. And email is the communication backbone of the internet.</mj-text>
-          <mj-text mj-class="p">Other communication platforms will rise and fall. Email isn’t going anywhere.</mj-text>
-          <mj-text mj-class="p">It’s been around longer than all the others. It will survive longer than all the others. It’s <a class="underA" href="">Lindy</a>.</mj-text>
-          <mj-text mj-class="p">The aim of this first lesson isn’t to turn you into an email master. It’s to provide an introduction to the power of email and explains why it remains the most useful sales and communication tool today.</mj-text>
-          <mj-text mj-class="h2">Ownership</mj-text>
-          <mj-text mj-class="p">10 years ago Facebook groups were considered <span class="italic">the next big thing</span>. Companies invested time and money into growing their own. The following 10 years saw engagement on Facebook decline and the majority of Facebook groups become worthless.</mj-text>
-          <mj-text mj-class="p">If you’ve built up an email list, <span class="bold">you own that list</span>. No one can take it away from you. Your ability to communicate with your audience is not dependent on the success of a third-party platform. All you need is an Email Service Provider (or SMTP server) and you can send a message to anyone’s email address.</mj-text>
-          <mj-text mj-class="h2">Bigger Reach</mj-text>
-          <mj-text mj-class="p">On both Twitter and Instagram the “<a class="underA" href="https://www.linkedin.com/pulse/20140805160323-143109-the-disappointing-truth-about-how-many-people-see-your-tweets-a-not-many/">completion rate</a>” for each user is around 5%. 10,000 followers results in 500 impressions.</mj-text>
-          <mj-text mj-class="p">On email, the industry wide <a class="underA" href="https://mailchimp.com/resources/email-marketing-benchmarks/">open rate</a> is 21%. 10,000 subscribers results in a 2,100 opens.</mj-text>
-          <mj-text mj-class="h2">Conversion is king</mj-text>
-          <mj-text mj-class="p">Email doesn’t just have higher quantity reach but also a far higher quality.</mj-text>
-          <mj-text mj-class="p">On social media an impression is someone seeing your post on their timeline. A small % fully read your message. An even smaller % click on it. </mj-text>
-          <mj-text mj-class="p">On email “reach” is considered an open. You have their undivided attention. You’re not capped at 280 characters. And you can include buttons to click through to a website.</mj-text>
-          <mj-text mj-class="p">The upshot is <span class="bold">email converts better than any other social media platform can</span>.</mj-text>
-          <mj-text mj-class="p">Let’s look at a real world example of this:</mj-text>
-          <mj-text mj-class="p">Back in 2016, a web development teacher called Wes Bos launched a new course called, <a class="underA" href="https://reactforbeginners.com/">React for Beginners</a>, priced at $149.</mj-text>
-          <mj-text mj-class="p">At the time his email list was 29,000 and his Twitter following was 35,000. Below is a diagram showing the three main channels his first week sales came from:</mj-text>
-          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/em1-1.png" alt="Hilton Doubletree cookie"></mj-image>
-          <mj-text mj-class="p">That’s <span class="bold">4.1</span> times more paying customers from email than from Twitter. Now this is an isolated example, but it’s illustrative of a broader point:</mj-text>
-          <mj-text mj-class="p"><span class="bold italic">When it comes to conversion email is king!</span></mj-text>
-          <mj-text mj-class="h2">Summary</mj-text>
-          <mj-text mj-class="p">Not only is email the only channel you have complete ownership over. It’s also the channel with the best reach and which converts best.</mj-text>
-          <mj-text mj-class="p">Tomorrow’s lesson we will dive into the nitty gritty. It’s focused on how to actually grow an email list.</mj-text>
+          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/em/em2.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-text mj-class="h1" align="center">Lesson 2: Growing an email list</mj-text>
+          <mj-text mj-class="p">Growing an email list is not rocket science. Essentially, it comes down to:</mj-text>
+          <mj-text mj-class="p list list__top">• Creating an email or offer (product, service or content) people want to sign up for</mj-text>
+          <mj-text mj-class="p list list__bottom">• Making sure the people visiting your website are converting</mj-text>
+          <mj-text mj-class="p">If you can get those two steps right you’re going to be flying.</mj-text>
+          <mj-text mj-class="h2">Step 1 - Creating the right email or offer</mj-text>
+          <mj-text mj-class="p">The most common mistake people make is failing to explain <span class="bold">why</span> people should sign up. And often it’s because they don’t know themselves.</mj-text>
+          <mj-text mj-class="p">I can’t tell you the number of email boxes which look like this:</mj-text>
+          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/e2c.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">Your email must have a <span class="bold">purpose</span>. And you have to clearly explain <span class="bold">this purpose</span> to the user.</mj-text>
+          <mj-text mj-class="p">For example, look at our email mastery course. We’re not asking you to blindly enter your email. We’re clear about the value you’re getting in return: Become an email master in 6 days.</mj-text>
+          <mj-text mj-class="p">Look at some more examples:</mj-text>
+          <mj-text mj-class="p list list__top">• Product Hunt - Get the <span class="underC">best new products</span> in your inbox</mj-text>
+          <mj-text mj-class="p list">• Tesla - Be the first to receive the <span class="underC">latest product updates</span></mj-text>
+          <mj-text mj-class="p list list__bottom">• Remote OK - Get a weekly email of <span class="underC">all new remote jobs</span></mj-text>
+          <mj-text mj-class="p">In every case there is a <span class="bold">clear reason</span> to join the email list. The offer is crystal clear. There’s no ambiguity. So, before you do anything else figure out <span class="bold">what value</span> your email could offer.</mj-text>
+          <mj-text mj-class="h2">Step 2 - Improving Email Conversion</mj-text>
+          <mj-text mj-class="p">Ok, now we’ve got a valuable email we can turn our attention to making sure people are signing up.</mj-text>
+          <mj-text mj-class="p"><span class="italic">No. of Email Subscribers</span> is equal to:</mj-text>
+          <mj-text mj-class="p inwardSpeech italic">Conversion to email list * Website traffic</mj-text>
+          <mj-text mj-class="p">It’s much easier to take your conversion rate from 1% to 5% than it is to turn 100k monthly users to 500k. Here’s a quick conversion checklist:</mj-text>
+          <mj-text mj-class="h2">1) Get a popup</mj-text>
+          <mj-text mj-class="p">Love them or hate them, the reality is that popups are the <span class="bold">most effective way</span> of capturing emails. If you’re conscious about interrupting your users, one middle ground is going with an <span class="bold">exit intent popup</span>. That way you’re not going to annoy your users by springing open a modal while they’re in the middle of a paragraph.</mj-text>
+          <mj-text mj-class="p">Exit intent popups on mobile are far from perfect, so one option is to default to a timeout based solution on mobile. Or you could look at a service like WisePops, who’ve developed a <a class="underA" href="https://support.wisepops.com/en/articles/2174266-how-to-create-a-mobile-exit-popup" target="_blank">mobile exit-intent script</a> which triggers once a user:</mj-text>
+          <mj-text mj-class="p list list__top">• hits the back button on their mobile browser</mj-text>
+          <mj-text mj-class="p list list__bottom">• scrolls up a little</mj-text>
+          <mj-text mj-class="h2">2) Replace “Subscribe” with a value-based button. </mj-text>
+          <mj-text mj-class="p">No one gets excited about “subscribing” to an email list. They get excited by the <span class="bold">value</span> that the email brings. And your button should reflect this:</mj-text>
+          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/e2b.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="h2">3) Add social proof</mj-text>
+          <mj-text mj-class="p">On landing pages social proof is considered a necessity, but it’s often neglected when trying to grow an email list. Anytime you ask for someone to do something you should include social proof. Period.</mj-text>
+          <mj-text mj-class="h2">Let’s put it all together</mj-text>
+          <mj-text mj-class="p">And finally, let’s put everything we’ve learnt into practice with a before and after email example:</mj-text>
+          <mj-text mj-class="p list list__top">1) Clearly explain the <span class="bold">purpose</span> of your email</mj-text>
+          <mj-text mj-class="p list">2) Change button copy to more “value” based</mj-text>
+          <mj-text mj-class="p list list__bottom">3) Add social proof</mj-text>
+          <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/em/e2a.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-text mj-class="p">That's it for this lesson. Now our email list is growing, tomorrow’s lesson will focus on the power of segmentation.</mj-text>
+          <mj-text mj-class="p">If you have any questions please do get in touch. We respond personally to every single one.</mj-text>
           <mj-text mj-class="p">— Alec (<a class="underA" href="">@email_mastery</a>)</mj-text>
         </mj-column>
       </mj-section>
@@ -111,14 +131,14 @@
           <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section mj-class="whiteSection" padding-top="36px">
+      <mj-section mj-class="whiteSection" padding-top="46px">
         <mj-column></mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | Adress, San Francisco, Postcode</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

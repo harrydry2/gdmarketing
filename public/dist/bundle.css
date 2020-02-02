@@ -61,22 +61,33 @@ video {
   outline: none !important; }
 
 @font-face {
-  font-family: "Circular";
-  src: url(../fonts/../fonts/CircularStd-Book.woff);
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNext-Regular.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Regular.woff) format("woff");
   font-weight: 400; }
 
 @font-face {
-  font-family: "Circular";
-  src: url(../fonts/../fonts/CircularStd-Medium.woff);
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNext-Italic.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNext-Medium.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Medium.woff) format("woff");
   font-weight: 500; }
 
 @font-face {
-  font-family: "Circular";
-  src: url(../fonts/../fonts/CircularStd-Bold.woff);
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNext-DemiBold.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-DemiBold.woff) format("woff");
   font-weight: 600; }
 
+@font-face {
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNext-Bold.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Bold.woff) format("woff");
+  font-weight: 700; }
+
 html, body {
-  font-family: "Circular";
+  font-family: "AvenirNext";
   font-size: 10px;
   font-weight: 400;
   color: #030212; }
@@ -113,7 +124,7 @@ a {
   height: 100%; }
 
 input, div, p {
-  font-family: "Circular"; }
+  font-family: "AvenirNext"; }
 
 h1 {
   font-size: 2.6rem;
@@ -350,7 +361,7 @@ p {
           margin-left: 2rem;
           font-size: 1.5rem;
           text-transform: uppercase;
-          font-weight: bold;
+          font-weight: 600;
           color: #4742DE; }
           @media screen and (max-width: 768px) {
             .home__right-header-icons a {
@@ -406,7 +417,8 @@ p {
       .filters__spec-inner-text {
         font-size: 1.3rem;
         margin-top: 0.9rem;
-        text-align: center; }
+        text-align: center;
+        font-weight: 500; }
 
 .filters__active {
   transition: all 0.2s;
@@ -439,7 +451,7 @@ p {
     font-size: 1.3rem;
     color: white;
     align-items: center;
-    font-weight: bold;
+    font-weight: 600;
     border-radius: 5px;
     cursor: pointer; }
     .search__text:hover {
@@ -493,7 +505,7 @@ p {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-weight: 500; }
+  font-weight: 600; }
   @media screen and (max-width: 940px) {
     .hm__button {
       display: flex; } }
@@ -601,7 +613,7 @@ p {
     .sponsor__inner-p {
       font-size: 1.5rem;
       line-height: 1.3;
-      font-weight: bold;
+      font-weight: 600;
       margin-top: 1rem;
       margin-bottom: 1.6rem; }
     .sponsor__inner-button {
@@ -610,7 +622,7 @@ p {
       padding: 1rem;
       font-size: 1.2rem;
       color: white;
-      font-weight: bold;
+      font-weight: 700;
       border-radius: 5px; }
   .sponsor img, .sponsor picture {
     width: 4.8rem; }
@@ -638,12 +650,12 @@ p {
     left: 0%;
     z-index: 0; }
   .card h4 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     padding: 1.2rem;
     color: #fff;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
     line-height: 1.3;
-    font-weight: 600;
+    font-weight: 700;
     position: relative;
     z-index: 1; }
     @media screen and (max-width: 768px) {
@@ -661,10 +673,11 @@ p {
       align-items: center;
       margin-left: 0.4rem; }
       .card__bottom-link-text {
-        font-size: 1.4rem;
+        font-size: 2.4rem;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
         color: #fff;
-        margin-left: 0.7rem; }
+        margin-left: 0.7rem;
+        font-weight: 500; }
     .card__bottom-tag {
       width: 10.1rem;
       padding: 0.8rem 0;
@@ -741,7 +754,7 @@ p {
           margin-right: 1.4rem; } }
   .ph__text {
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.4rem; }
     .ph__text span {
       border-bottom: 2px solid white; }
@@ -787,7 +800,7 @@ p {
               font-size: 2.2rem; } }
         .gif__inner-header-logo-by {
           font-size: 1.2rem;
-          font-weight: bold;
+          font-weight: 600;
           margin: 0 1rem;
           color: white; }
     .gif__inner-gif {
@@ -823,7 +836,7 @@ p {
     .gif__item-overlay-text {
       color: #fff;
       font-size: 1.6rem;
-      font-weight: bold; }
+      font-weight: 600; }
   .gif__item-special-overlay {
     width: 100%;
     height: 100%;
@@ -836,7 +849,7 @@ p {
     .gif__item-special-overlay-text {
       color: #fff;
       font-size: 1.6rem;
-      font-weight: bold; }
+      font-weight: 600; }
   .gif__item:hover .gif__item-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 1;
@@ -875,7 +888,7 @@ p {
       text-align: center;
       font-size: 1.5rem;
       line-height: 1.3;
-      font-weight: bold;
+      font-weight: 600;
       margin-top: 1.2rem;
       margin-bottom: 2rem; }
     .harryGIF__inner-button {
@@ -884,7 +897,7 @@ p {
       padding: 1rem;
       font-size: 1.2rem;
       color: white;
-      font-weight: bold;
+      font-weight: 600;
       border-radius: 5px; }
 
 .outerMail {
@@ -927,8 +940,8 @@ p {
       .mail__icon {
         padding: 2rem; } }
   .mail h2 {
-    font-weight: 600;
-    font-size: 2.8rem;
+    font-weight: 700;
+    font-size: 2.7rem;
     color: #030212;
     text-align: center;
     line-height: 1.29; }
@@ -989,7 +1002,7 @@ p {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 2rem;
     cursor: pointer;
     transition: all 0.3s; }
@@ -1013,7 +1026,8 @@ p {
   font-size: 1.4rem;
   text-align: center;
   margin-top: 2.2rem;
-  color: gray; }
+  color: gray;
+  font-weight: 500; }
   @media screen and (max-width: 700px) {
     .mailO {
       font-size: 1.3rem;
@@ -1149,7 +1163,7 @@ p {
         justify-content: space-around; }
         .monial__inner-bottom-text-top {
           font-size: 1.5rem;
-          font-weight: bold; }
+          font-weight: 600; }
         .monial__inner-bottom-text-bottom {
           font-size: 1.4rem; }
   .monial a {
@@ -1182,11 +1196,11 @@ p {
     left: 0%;
     z-index: 0; }
   .pCard h1, .pCard h2 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     color: #fff;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
     line-height: 1.3;
-    font-weight: 600;
+    font-weight: 700;
     position: relative;
     z-index: 1;
     width: 30rem;
@@ -1212,7 +1226,8 @@ p {
         font-size: 1.4rem;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
         color: #fff;
-        margin-left: 0.7rem; }
+        margin-left: 0.7rem;
+        font-weight: 500; }
     .pCard__bottom-tag {
       width: 10.1rem;
       padding: 0.8rem 0;
@@ -1231,7 +1246,7 @@ p {
       padding: 2rem 0rem; } }
   .content h2 {
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 600;
     padding: 2rem 0.76rem;
     text-transform: uppercase;
     line-height: 1.4;
@@ -1251,7 +1266,7 @@ p {
         padding: 1.6rem 2rem; } }
   .content h3 {
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 1.4;
     color: #4742DE;
@@ -1300,7 +1315,6 @@ p {
     .content .list__bottom {
       padding-bottom: 0.76rem; }
   .content a {
-    padding-bottom: 0.1rem;
     border-bottom: 1px solid #030212; }
   .content img {
     border: 8px solid #ffdddd;
@@ -1488,7 +1502,7 @@ span {
       .menu__inner-right-text {
         font-size: 1.5rem;
         margin-right: 2rem;
-        font-weight: bold;
+        font-weight: 600;
         color: #4742DE; }
 
 .podcastTop {

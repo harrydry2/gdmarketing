@@ -10,7 +10,7 @@ router.get('/', mainController.home);
 router.get('/gifs', mainController.gifs);
 // router.get('/podcast', mainController.podcast);
 router.get('/sitemap.xml', mainController.xml);
-router.get('/marketingexamples.rss', mainController.rss);
+router.get('/rss', mainController.rss);
 // tes
 router.get('/subscribe', emailController.subscribePage);
 // api

@@ -552,7 +552,7 @@ p {
       grid-template-columns: 1fr; } }
 
 .sponsor1 {
-  grid-row-start: 1;
+  grid-row-start: 2;
   grid-column-start: 3; }
   @media screen and (max-width: 1240px) {
     .sponsor1 {
@@ -576,7 +576,7 @@ p {
       grid-column-start: auto; } }
 
 .sponsor3 {
-  grid-row-start: 5;
+  grid-row-start: 4;
   grid-column-start: 3; }
   @media screen and (max-width: 1240px) {
     .sponsor3 {
@@ -1021,17 +1021,6 @@ p {
   .tick__text {
     font-size: 1.6rem;
     margin-left: 1.4rem; }
-
-.mailO {
-  font-size: 1.4rem;
-  text-align: center;
-  margin-top: 2.2rem;
-  color: gray;
-  font-weight: 500; }
-  @media screen and (max-width: 700px) {
-    .mailO {
-      font-size: 1.3rem;
-      margin-top: 2rem; } }
 
 .addOnEmail, .postEmail {
   width: 32.8rem;

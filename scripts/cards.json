@@ -76,7 +76,7 @@
     "title": "How Nomad List dominates longer tail keywords",
     "sUrl": "https://nomadlist.com",
     "sText": "Nomad List",
-    "tFront": "Seo",
+    "tFront": "SEO",
     "tBack": "seo",
     "slug": "dominate-long-tail-keywords",
     "img": "nomad",
@@ -547,6 +547,18 @@
     "tFront": "Cold Email",
     "tBack": "coldemail",
     "slug": "write-personalised-cold-emails",
+    "img": "beamery",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How I like to run ads",
+    "sUrl": "https://maximizeyourpotential.co.uk",
+    "sText": "Maximize",
+    "tFront": "PPC",
+    "tBack": "ppc",
+    "slug": "ads",
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."

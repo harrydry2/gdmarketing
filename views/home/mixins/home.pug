@@ -14,17 +14,17 @@ mixin home(cards, activeFilters, title, displaynone = "")
           .search
             .search__left
               .search__icon!=icon("mail1")
-              input(placeholder="Get two new case studies every week").search__inner-text
+              input(placeholder="Get one new case study every week").search__inner-text
             .search__text Stay updated
             .search__text-info
           .home__right-header-icons
             a.home__right-header-icons-gnt(href="/subscribe") get new tips
             a(href="https://www.linkedin.com/in/harrydry/" target="_blank")!=icon("linkedin")
-            a(href="https://www.instagram.com/marketing_examples" target="_blank")!=icon("instagram")
+            //- a(href="https://www.instagram.com/marketing_examples" target="_blank")!=icon("instagram")
             a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("twitter")
-      if (title)
-        h1.filterH1 #{title} Marketing Examples
       .outerCard
+        if (title)
+          h1.filterH1 #{title} Marketing Examples
         .sponsor.sponsor1
           .sponsor__inner
             img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/sb.png", alt="Trainual logo")

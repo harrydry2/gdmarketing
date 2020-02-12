@@ -89,16 +89,16 @@
           <mj-text mj-class="p">At Email Mastery we believe:</mj-text>
           <mj-text mj-class="p inwardSpeech">The highest level of mastery is simplicity. Most information out there is irrelevant. And most effort is wasted, but only the expert knows what to ignore.</mj-text>
           <mj-text mj-class="p">The best place to stay up to date is on <a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">Twitter</a> where we share quick email tips!</mj-text>
-          <mj-text mj-class="p">If you're in the mood here's some of my favourite case studies:</mj-text>
+          <mj-text mj-class="p">If you're in the mood here's some of my favorite case studies:</mj-text>
           <mj-text mj-class="p list list__top"> • <a class="underA" href="https://emailmastery.org/teardown/the-casper-email-marketing-teardown/" target="_blank">Casper's Email Marketing Teardown</a></mj-text>
           <mj-text mj-class="p list"> • <a class="underA" href="https://emailmastery.org/articles/the-anatomy-of-a-successful-cart-abandonment-email/" target="_blank">The Anatomy of a Cart Abandonment Email</a></mj-text>
           <mj-text mj-class="p list list__bottom"> • <a class="underA" href="https://emailmastery.org/teardown/slack-email-marketing-teardown/" target="_blank">Slack's email marketing teardown</a></mj-text>
-          <mj-text mj-class="p">Expect one new article every fortnight. In the meantime could you answer 1 question for us:</mj-text>
+          <mj-text mj-class="p">We'll send you the latest articles or case studies as soon as they're published. In the meantime could you answer one question for us:</mj-text>
           <mj-text mj-class="p"><span class="bold">What is the ONE aspect of email that you’d most like to improve?</span></mj-text>
           <mj-text mj-class="p">This helps us get to know our audience better and also gives us inspiration for topics we should dive into on the website.</mj-text>
           <mj-text mj-class="p">Thank you once again for signing up. We really appreciate people reading.</mj-text>
-          <mj-text mj-class="p">Best — Alec</mj-text>
-          <mj-text mj-class="p">P.S. Feel free to connect on <a class="underA" href="https://www.linkedin.com/in/alec-beglarian/" target="_blank">LinkedIn</a></mj-text>
+          <mj-text mj-class="p">Thanks<br>Alec (<a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">@email_mastery</a>)</mj-text>
+          <mj-text mj-class="p">P.S. To get in touch just reply to this email</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

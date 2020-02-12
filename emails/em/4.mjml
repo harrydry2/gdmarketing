@@ -91,12 +91,12 @@
           <mj-text mj-class="p">There are some fundamental commonalities between emails that succeed and emails that don’t — that is, there’s a sort of anatomy to what makes an email campaign succeed. In this email, we’re going to look at what, exactly, that anatomy is.</mj-text>
           <mj-text mj-class="h2">1) Clear, Honest, and Enticing Subject Line</mj-text>
           <mj-text mj-class="p">The open rate of every email, regardless of its actual content, survives or dies on the subject line. And if people don’t open, then they don’t see what you’re offering and they definitely don’t click. For that reason, your subject line should have three dead-simple qualities. It should be <span class="bold">clear</span> so that people understand what they’re going to get when they open the email, it should be <span class="bold">honest</span> so there’s no sense of deception, and it should be relevantly <span class="bold">enticing</span> — that is, it should attract your target market for that specific email. Consider this example…</mj-text>
-          <mj-image mj-class="cImg img350" src="https://harrydry.s3.amazonaws.com/em/e4a.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-image mj-class="cImg img350" src="https://harrydry.s3.amazonaws.com/em/e4b.png" alt="Hilton Doubletree cookie"></mj-image>
           <mj-text mj-class="p">We’ll give you some more tips for improving your subject lines in the next email.</mj-text>
           <mj-text mj-class="h2">2) Consistent, On-Brand Design</mj-text>
           <mj-text mj-class="p">Assuming that you craft a winning subject line, people are going to open your email. When they do, they’re going to decide whether they trust your email or not — visually speaking — within <a class="underA" href="https://www.sweor.com/firstimpressions" target="blank">about 50 milliseconds</a> (.05 seconds). This process is subconscious and automatic. Your subscribers are familiar with your brand and the design in your email should be consistent with your other marketing materials so that your subscribers don’t feel whiplashed by an unfamiliar design. Keep it simple, add your logo, and make the fonts and colors on-brand.</mj-text>
           <mj-text mj-class="p">Consider this example from Nike:</mj-text>
-          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/em/e4b.png" alt="Hilton Doubletree cookie"></mj-image>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/em/e4a.png" alt="Hilton Doubletree cookie"></mj-image>
           <mj-text mj-class="h2">3) Promising, Honest Copy</mj-text>
           <mj-text mj-class="p">Once someone opens your email, they’re going to read your copy. They will already have an impression from your subject line about what they’re going to see and the copy within your email should A) fulfill that expectation and B) make new enticing, honest promises that build suspense and encourage the subscriber to click. Storytelling, social proof, urgency, and even coupons are a few effective ways to make honest, exciting promises that get people to click.</mj-text>
           <mj-text mj-class="h2">4) One CTA Per Email</mj-text>
@@ -118,7 +118,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/#subscribe">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="46px">
@@ -128,7 +128,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.org" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

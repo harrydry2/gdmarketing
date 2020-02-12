@@ -91,10 +91,10 @@
           <mj-text mj-class="p">If you can get those two steps right you’re going to be flying.</mj-text>
           <mj-text mj-class="h2">Step 1 - Creating the right email or offer</mj-text>
           <mj-text mj-class="p">The most common mistake people make is failing to explain <span class="bold">why</span> people should sign up. And often it’s because they don’t know themselves.</mj-text>
-          <mj-text mj-class="p">I can’t tell you the number of email boxes which look like this:</mj-text>
+          <mj-text mj-class="p">I can’t tell you the number of signup forms which look like this:</mj-text>
           <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/em/e2c.png" alt="Hilton Doubletree cookie"></mj-image>
           <mj-text mj-class="p">Your email must have a <span class="bold">purpose</span>. And you have to clearly explain <span class="bold">this purpose</span> to the user.</mj-text>
-          <mj-text mj-class="p">For example, look at our email mastery course. We’re not asking you to blindly enter your email. We’re clear about the value you’re getting in return: Become an email master in 6 days.</mj-text>
+          <mj-text mj-class="p">For example, look at our email mastery course. We’re not asking you to blindly enter your email. We’re clear about the value you’re getting in return: Become an email master in 7 days.</mj-text>
           <mj-text mj-class="p">Look at some more examples:</mj-text>
           <mj-text mj-class="p list list__top">• Product Hunt - Get the <span class="underC">best new products</span> in your inbox</mj-text>
           <mj-text mj-class="p list">• Tesla - Be the first to receive the <span class="underC">latest product updates</span></mj-text>
@@ -123,12 +123,12 @@
           <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/em/e2a.png" alt="Hilton Doubletree cookie"></mj-image>
           <mj-text mj-class="p">That's it for this lesson. Now our email list is growing, tomorrow’s lesson will focus on the power of segmentation.</mj-text>
           <mj-text mj-class="p">If you have any questions please do get in touch. We respond personally to every single one.</mj-text>
-          <mj-text mj-class="p">— Alec (<a class="underA" href="">@email_mastery</a>)</mj-text>
+          <mj-text mj-class="p">Thanks<br>Alec (<a class="underA" href="https://twitter.com/Email_Mastery" target="_blank">@email_mastery</a>)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/#subscribe">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="46px">
@@ -138,7 +138,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.org" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

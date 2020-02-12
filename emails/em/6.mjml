@@ -90,9 +90,9 @@
           <mj-text mj-class="p">In email marketing, the email metrics are that feedback loop. They tell you what worked, what didn’t, and crucially give you all the information you need to iterate and improve next time:</mj-text>
           <mj-text mj-class="h2">The fundamental metrics:</mj-text>
           <mj-text mj-class="p"><span class="bold">Open Rate</span> — The percentage of people who open an email campaign. A measure of your list engagement and deliverability.</mj-text>
-          <mj-text mj-class="p inwardSpeech"> = Emails Opened / (Emails Sent – Bounces)</mj-text>
+          <mj-text mj-class="p inwardSpeech"> = Emails Opened / (Emails Sent - Bounces)</mj-text>
           <mj-text mj-class="p"><span class="bold">Unsubscribe Rate</span> — The % of people who unsubscribe when an email campaign is sent. A measure of the effectiveness of email content.</mj-text>
-          <mj-text mj-class="p inwardSpeech">= No. Of Unsubscribes / (Emails Sent – Bounces)</mj-text>
+          <mj-text mj-class="p inwardSpeech">= No. Of Unsubscribes / (Emails Sent - Bounces)</mj-text>
           <mj-text mj-class="p"><span class="bold">Delivery Rate</span> — The % of emails that are successfully delivered. A measure of the validity of the email addresses on your list.</mj-text>
           <mj-text mj-class="p inwardSpeech">= (No. of emails sent - No. of Bounces) / No. of emails sent</mj-text>
           <mj-text mj-class="p"><span class="bold">Click to Open Rate (CTOR)</span> — The % of people who click from the % of people who <span class="bold">open</span>. Possibly the best measure of the effectiveness of your email’s content and subscriber engagement.</mj-text>
@@ -108,7 +108,7 @@
           <mj-text mj-class="p">Now, this might seem obvious, but I can’t tell you how many times I’ve heard the sentence:</mj-text>
           <mj-text mj-class="p inwardSpeech">The open rates were low. That must have been a poor email.</mj-text>
           <mj-text mj-class="p">Your open rate depends on many things. But one thing it does not depend on is the contents of your email. <span class="bold">People do not know what your email looks like before they open it!</span></mj-text>
-          <mj-text mj-class="p">A better measure of email quality is <span class="bold">Click to Open Rate (CTOR)</span>. If people are clicking after opening the email the chances are they liked what they read.</mj-text>
+          <mj-text mj-class="p">A better measure of email quality is <span class="bold"><a class="underA" href="https://engage.guru/metrics-every-email-marketer-should-check-regularly/" target="_blank">Click to Open Rate (CTOR)</a></span>. If people are clicking after opening the email the chances are they liked what they read.</mj-text>
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p">Anyway, that’s all folks. The aim of this email was to get you up to speed with the basics. In tomorrow’s lesson, we will dig a bit deeper into some <span class="bold">lesser-known email metrics</span>.</mj-text>
           <mj-text mj-class="p">If you have any questions please do get in touch. We respond personally to every single one.</mj-text>
@@ -117,7 +117,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who want to improve their email skills? Please do forward this email. Anyone new join our free course <a class="underA bold subscribeColor" href="https://emailmastery.org/#subscribe">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="46px">
@@ -127,7 +127,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up to the Email Mastery mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.com" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://emailmastery.org" target="_blank">Email Mastery</a> | <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe</a> | 21355 Burbank Blvd. Los Angeles, CA</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

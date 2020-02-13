@@ -299,7 +299,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-    <!-- copywriting -->
+  <!-- copywriting -->
   <url>
     <loc>https://marketingexamples.com/copywriting/customers</loc>
     <changefreq>weekly</changefreq>
@@ -307,6 +307,12 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/copywriting/landing-page-title</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- ppc -->
+  <url>
+    <loc>https://marketingexamples.com/ppc/experiments</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

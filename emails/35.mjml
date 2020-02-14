@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#034 - A story about my dad and PPC ads</mj-text>
+          <mj-text mj-class="h3" align="center">(PPC • 3 mins • <a class="underB" href="https://marketingexamples.com/poc/experiments/?utm_source=newsletter&utm_medium=email&utm_campaign=email_34" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p">My dad runs a small study skills company in the UK.</mj-text>
+          <mj-text mj-class="p">It's an old-school business. Up until last year, the only marketing he's ever done was sending flyers to schools. But, over time, flyers had stopped working so well, so he started thinking about running digital ads.</mj-text>
+          <mj-text mj-class="p">One of his friends was raving about Facebook. So he began recording testimonials with teachers and putting them out as Facebook ads (<a class="underA" href="https://twitter.com/GoodMarketingHQ/status/1228019709280432136" target="_blank">play ad</a>):</mj-text>
+          <mj-image mj-class="cImg img400" src="https://harrydry.s3.amazonaws.com/gdmarketing/dadEmail.jpg" href="https://twitter.com/GoodMarketingHQ/status/1224708341064224773" alt="Dancing cowboy"></mj-image>
+          <mj-text mj-class="p">The return was awful. But it didn't deter him. He started watching YouTube videos, signing up for webinars, and even bought an online course.</mj-text>
+          <mj-text mj-class="p">Two months later he got his first sale. The ads still weren't close to being cost-effective.</mj-text>
+          <mj-image mj-class="cImg img300" src="https://harrydry.s3.amazonaws.com/gdmarketing/dad1b.png" href="https://twitter.com/GoodMarketingHQ/status/1224708341064224773" alt="Dancing cowboy"></mj-image>
+          <mj-text mj-class="p">Dad remained adamant Facebook would come good. Every time I called he would tell me about another idea for a new campaign:</mj-text>
+          <mj-text mj-class="p inwardSpeech">I've got the pixel firing... We need a lookalike audience... It's all about the relevancy score...</mj-text>
+          <mj-text mj-class="p">Now, my dad is 58 years old. He has an old brick for a phone and thinks “emojis” are a Caribbean fruit. It was inspiring seeing him so far out his comfort zone, but I can't say I agreed with his approach.</mj-text>
+          <mj-text mj-class="p">“How do you know Facebook is <span class="italic">the best</span> way of getting in front of teachers?” I asked.</mj-text>
+          <mj-text mj-class="p">“What do you mean?”</mj-text>
+          <mj-text mj-class="p">“Well, you haven't tried any other platforms. So how do you know Facebook is this holy grail?”</mj-text>
+          <mj-text mj-class="p">To Dad's credit, he took my point onboard. He got stuck into Twitter ads, Google ads, and even sponsored a teacher's conference.</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/dad3.jpg" href="https://twitter.com/GoodMarketingHQ/status/1224708341064224773" alt="Dancing cowboy"></mj-image>
+          <mj-text mj-class="p">The Google ads bombed. His first attempt on Twitter performed better than six months of “perfecting” on Facebook. But, the conference was the real success. In just one day it pulled in more than a month's revenue.</mj-text>
+          <mj-text mj-class="p">Big up yourself, Dad.</mj-text>
+          <mj-text mj-class="h2under">The moral of the story</mj-text>
+          <mj-text mj-class="p">A little knowledge is a dangerous thing.</mj-text>
+          <mj-text mj-class="p">Any marketer tied to one idea will spend six months going from “A” to “B”. Only the one who assumes nothing finds “X“, “Y“ and “Z“.</mj-text>
+          <mj-image mj-class="cImg img550" src="https://harrydry.s3.amazonaws.com/gdmarketing/dad2a.png" href="https://twitter.com/GoodMarketingHQ/status/1224708341064224773" alt="Dancing cowboy"></mj-image>
+          <mj-text mj-class="p">The foolproof approach is to assume you're a fool. Try lots of quick experiments with different platforms. The pattern to replicate is:</mj-text>
+          <mj-text mj-class="p">- - - - - | - - - - | - | - - - -</mj-text>
+          <mj-text mj-class="p">where a dash represents a <span class="bold">small loss</span> and a straight line a <span class="bold">new discovery</span>. Then, when you find what works, hone it.</mj-text>
+          <mj-text mj-class="h2under">And finally</mj-text>
+          <mj-text mj-class="p">When running ads you want to make sure you're measuring conversions, not clicks. Clicks are <span class="bold">noise</span>. Conversions are <span class="bold">signal</span>.</mj-text>
+          <mj-text mj-class="p">Facebook would consistently drive the cheapest clicks to my dad's site. But it wasn’t the right type of “click”. None of them were interested in buying.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Thanks for reading. Not sure if anyone saw the Twitter mob from last weeks article, just want to quickly address it. Obviously, I'd never seen the person's post before. I got the idea from <a class="underD" href="https://www.youtube.com/watch?v=ptKqFafZgCk" target="_blank">this</a> YouTube video.</mj-text>
+          <mj-text mj-class="p">I didn't reply because life is too short to argue online.</mj-text>
+          <mj-text mj-class="h2under">New Sponsor</mj-text>
+          <mj-text mj-class="p">Marketing Examples has a new sponsor for February! Go check out <a class="underD" href="https://seobuddy.com/?utm_content=marketingexamples&utm_medium=sponsorship" target="_blank">SEOBUDDY</a>! It makes SEO sustainable with relevant short missions of 20 minutes.</mj-text>
+          <mj-text mj-class="p">— Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">If you enjoyed the tale please like the thread on <a class="underD subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1228019648299491329" target="_blank">Twitter</a>. You helped last the Lil Nas X article go viral. Thank you :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends interested in running ads? Please do forward this email. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

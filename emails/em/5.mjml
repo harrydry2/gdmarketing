@@ -111,7 +111,7 @@
           <mj-text mj-class="p list list__bottom">b) An email sent to re-engage inactive subscribers </mj-text>
           <mj-text mj-class="p">In the first scenario, the recipient is <span class="bold">expecting an email</span>. A straightforward subject line telling your subscribers exactly what you sent them is all that’s required.</mj-text>
           <mj-text mj-class="p">In the second scenario, the recipient may have forgotten they signed up to your mailing list. A less explicit, more attention-grabbing subject line might work better to entice an open.</mj-text>
-          <mj-text mj-class="h2">4) There’s no one size fits all approach</mj-text>
+          <mj-text mj-class="h2">Time Zone Schedule sending</mj-text>
           <mj-text mj-class="p">It’s no secret that the time you send your email matters. But what if you’ve got a worldwide audience? Any emails your scheduling for 9am PST are arriving just as everyone’s gone home across Europe.</mj-text>
           <mj-text mj-class="p">Well, several ESP’s track geolocation data on sign up. This means you can target each recipient by their specific time zone. Is early morning the best time to send your email? Well, you can schedule for 9AM, no matter what time zone your subscribers are in.</mj-text>
           <mj-text mj-class="h2">Click-Through Rates</mj-text>

@@ -565,6 +565,18 @@
   },
   {
     "num": "9",
+    "title": "The genius of noname's brand",
+    "sUrl": "https://www.noname.ca/en_CA",
+    "sText": "noname",
+    "tFront": "Social Media",
+    "tBack": "socialmedia",
+    "slug": "brand",
+    "img": "nn",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
     "title": "How Amul marketed their butter cookies",
     "sUrl": "https://amul.com/",
     "sText": "Amul",

@@ -288,6 +288,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/signalling/no-name-brand</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- socialmedia -->
   <url>
     <loc>https://marketingexamples.com/socialmedia/iron-neck</loc>

@@ -321,4 +321,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- ads -->
+  <url>
+    <loc>https://marketingexamples.com/ads/low-budget</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

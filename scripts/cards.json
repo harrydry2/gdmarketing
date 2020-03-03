@@ -4,7 +4,7 @@
     "title": "The genius of no name's brand",
     "sUrl": "https://www.noname.ca/en_CA",
     "sText": "no name",
-    "tFront": "signalling",
+    "tFront": "Signalling",
     "tBack": "signalling",
     "slug": "no-name-brand",
     "img": "nn",
@@ -589,14 +589,14 @@
   },
   {
     "num": "9",
-    "title": "6 low budget ads which went viral",
-    "sUrl": "https://amul.com/",
-    "sText": "Collection",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "funny-ads",
+    "title": "My favourite low-budget ads which went viral",
+    "sUrl": "https://drafthouse.com/",
+    "sText": "A collection",
+    "tFront": "Ads",
+    "tBack": "ads",
+    "slug": "low-budget",
     "img": "fa",
     "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+    "desc": "30 years ago, to get millions of views you needed a Super Bowl budget. Today all you need is a phone and an idea."
   }
 ]

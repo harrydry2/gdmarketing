@@ -1,0 +1,156 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#036 - What connects my favourite low-budget ads</mj-text>
+          <mj-text mj-class="h3" align="center">(Ads • 5 mins • <a class="underB" href="https://marketingexamples.com/ads/low-budget/?utm_source=newsletter&utm_medium=email&utm_campaign=email_36" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p">30 years ago, to get millions of views you needed a Super Bowl budget. Today all you need is a phone and an idea.</mj-text>
+          <mj-text mj-class="p">Grab a cup of tea, enjoy the ads, and afterwards we’ll discuss what connects them:</mj-text>
+          <mj-text mj-class="h2under">1) Say NO to Crack, Say YES! to Roller Skating — 13M views</mj-text>
+          <mj-text mj-class="p">Comedians, <span class="italic">Rhett and Link</span>, teamed up with Roller Kingdom in Reno to produce this gem:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/fae3.jpg" href="https://www.youtube.com/watch?v=t0LSkX46dS4" alt="Roller Kingdom"></mj-image>
+          <mj-text mj-class="p">The video went viral on Twitter after being shared by Complex News and Andy Richter.</mj-text>
+          <mj-text mj-class="h2under">2) Alamo's angry voicemail — 5M views</mj-text>
+          <mj-text mj-class="p">Back in 2011, a customer left an angry voicemail after being kicked out of an Alamo cinema. Alamo turned the voicemail into an ad and started playing it in all their theatres:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/fae1.png" href="https://www.youtube.com/watch?v=1L3eeC2lJZs" alt="Alamo Voicemail"></mj-image>
+          <mj-text mj-class="p">Movie go-ers found it hilarious. Soon the ad made national news.</mj-text>
+          <mj-text mj-class="h2under">3) Flea Market Montgomery — 12M views</mj-text>
+          <mj-text mj-class="p">Back in 2006, Sammy Stephens recorded a song to promote his flea market in Montgomery, Alabama.</mj-text>
+          <mj-text mj-class="p">Local DJs started playing the song and before Sammy knew it he was on <span class="italic">The Ellen Show</span>:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/fae4.jpg" href="https://www.youtube.com/watch?v=FJ3oHpup-pk" alt="Alamo Voicemail"></mj-image>
+          <mj-text mj-class="h2under">4) Our Blades Are F***ing Great — 27M views</mj-text>
+          <mj-text mj-class="p">You knew it was coming. The OG low-budget viral video cost $4,500 and was shot in 7 hours:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/fae2.jpg" href="https://www.youtube.com/watch?v=ZUG9qYTJMsI" alt="Dollar shave club"></mj-image>
+          <mj-text mj-class="p">Dollar Shave Club raised a seed round a month before shooting the video. Cleverly, they delayed the announcement.</mj-text>
+          <mj-text mj-class="p">This meant when startup media wrote about their funding, they all linked to the launch video which came out the same day. Smart.</mj-text>
+          <mj-text mj-class="h2under">5) Burglars just want Tacos — 5M views</mj-text>
+          <mj-text mj-class="p">On the 16th December 2015, Frijoles & Frescas Tacos was robbed. The next day store manager, Greg Carlson, released the security footage.</mj-text>
+          <mj-text mj-class="p">Except he added captions which turned the burglary into a story about the thieves just wanting tacos:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/fae6.jpg" href="https://www.youtube.com/watch?v=kzdv4FUHqP8" alt="Burglers love tacos"></mj-image>
+          <mj-text mj-class="h2under">6) Furkids Kitty Kommercial — 6M views</mj-text>
+          <mj-text mj-class="p">Furkids volunteer, Helen, invited her brother Paul to the pet shelter. Paul improvised with the cats for 30 minutes and produced this masterpiece:</mj-text>
+          <mj-text mj-class="p">The video hit the front page of Reddit and was all over national media overnight:</mj-text>
+          <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/fae5.jpg" href="https://www.youtube.com/watch?v=-F_8qaQ3DD0" alt="Alamo Voicemail"></mj-image>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Whilst preparing the article I played each video for my brother. The first thing he said:</mj-text>
+          <mj-text mj-class="p inwardSpeech">None of these ads make it through meetings</mj-text>
+          <mj-text mj-class="p">And he's right. These ads are the product of <span class="bold">an individual's vision</span>.</mj-text>
+          <mj-text mj-class="p">Another common thread is <span class="bold">humour</span>. There is nothing special about flea markets, razor blades, or roller skating. The product is unimportant. People share what makes them laugh.</mj-text>
+          <mj-text mj-class="p">To quote Howard Gossage, “Nobody watches ads. People watch what entertains them. Sometimes it's an ad”.</mj-text>
+          <mj-text mj-class="p">The final thread is <span class="bold">amateurishness</span>. Each ad embraces its amateurishness.</mj-text>
+          <mj-text mj-class="p">Fancy cameras, professional actors, and film degrees can be a hindrance. There is something charming about the novice.</mj-text>
+          <mj-text mj-class="p">We like to celebrate the Sammy Stephens of the world</mj-text>
+          <mj-text mj-class="p">Thanks for reading — Harry</mj-text>
+          <mj-text mj-class="h2under">Sponsor</mj-text>
+          <mj-text mj-class="p">Go check out <a class="underD" href="https://seobuddy.com/?utm_content=marketingexamples&utm_medium=sponsorship" target="_blank">SEOBUDDY</a>! It makes SEO sustainable with relevant short missions of 20 minutes.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">If you enjoyed the article please show some love to <a class="underD subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1234866137281769472" target="_blank">the thread</a> on Twitter. It really does make a difference. Thank you :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Know any friends who'd like this one? Please do forward the email. It's how the site grows. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

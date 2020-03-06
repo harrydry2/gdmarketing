@@ -589,14 +589,14 @@
   },
   {
     "num": "9",
-    "title": "How Amul marketed their butter cookies",
-    "sUrl": "https://amul.com/",
-    "sText": "Amul",
-    "tFront": "Social Media",
-    "tBack": "socialmedia",
-    "slug": "amul-butter-cookies",
-    "img": "amul",
+    "title": "Surprising a customer with a birthday cake",
+    "sUrl": "https://www.lemonade.com/",
+    "sText": "Lemonade",
+    "tFront": "Customers",
+    "tBack": "customers",
+    "slug": "birthday-cake",
+    "img": "lemon",
     "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+    "desc": "It all started when Lemonade sent a personalised birthday email to loyal customer, Andrew. Andrew was touched and thanked them on Twitter."
   }
 ]

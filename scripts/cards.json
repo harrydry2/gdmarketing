@@ -598,5 +598,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "$200 budget. 1000 new Twitter followers",
+    "sUrl": "https://emailmastery.org",
+    "sText": "Email Mastery",
+    "tFront": "PPC",
+    "tBack": "ppc",
+    "slug": "twitter-followers",
+    "img": "amul",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

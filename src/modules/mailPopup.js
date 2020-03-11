@@ -95,7 +95,7 @@ export function mailPopup() {
         $('.outerMail').style.display = 'flex';
         $('.iosOverflow').classList.add('mailNoScroll');
         $('.iosOverflow').classList.add('number5chanel');
-      }, 34000);
+      }, 40000);
     } else {
       setTimeout(() => {
         document.addEventListener('mouseout', mouseoutFun);

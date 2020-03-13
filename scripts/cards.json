@@ -601,13 +601,13 @@
   },
   {
     "num": "9",
-    "title": "$200 budget. 1000 new Twitter followers",
-    "sUrl": "https://emailmastery.org",
-    "sText": "Email Mastery",
-    "tFront": "PPC",
-    "tBack": "ppc",
-    "slug": "twitter-followers",
-    "img": "amul",
+    "title": "Chewy's marketing strategy",
+    "sUrl": "https://www.chewy.com/",
+    "sText": "Chewy",
+    "tFront": "Customers",
+    "tBack": "customers",
+    "slug": "chewy",
+    "img": "chewy",
     "imgType": "jpg",
     "desc": ""
   }

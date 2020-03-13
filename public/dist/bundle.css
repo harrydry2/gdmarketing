@@ -732,6 +732,12 @@ p {
 .ct__ppc {
   background: #ffd6f1; }
 
+.ct__customers {
+  background: #c6ece7; }
+
+.ct__ads {
+  background: #edfcb6; }
+
 .ph {
   background: #4742DE;
   display: flex;

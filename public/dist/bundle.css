@@ -673,7 +673,7 @@ p {
       align-items: center;
       margin-left: 0.4rem; }
       .card__bottom-link-text {
-        font-size: 2.4rem;
+        font-size: 1.4rem;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
         color: #fff;
         margin-left: 0.7rem;
@@ -1321,28 +1321,21 @@ p {
   .content a {
     border-bottom: 1px solid #030212; }
   .content img {
-    border: 8px solid #ffdddd;
+    border: none;
     margin: 4rem auto;
     display: block; }
     @media screen and (max-width: 550px) {
       .content img {
         margin: 3rem auto;
-        width: 100%;
-        border: none;
-        border-top: 5px solid #ffdddd;
-        border-bottom: 5px solid #ffdddd; } }
+        width: 100%; } }
   .content video {
-    border: 8px solid #ffdddd;
     margin: 4rem auto;
     display: block;
     cursor: pointer; }
     @media screen and (max-width: 550px) {
       .content video {
         margin: 3rem auto;
-        width: 100%;
-        border: none;
-        border-top: 5px solid #ffdddd;
-        border-bottom: 5px solid #ffdddd; } }
+        width: 100%; } }
 
 mark {
   background-color: rgba(254, 19, 19, 0.25); }

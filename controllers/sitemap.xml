@@ -72,6 +72,11 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/customers</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
   <!-- coldemail -->
   <url>
     <loc>https://marketingexamples.com/coldemail/best-sales-email-ever</loc>
@@ -324,6 +329,17 @@
   <!-- ads -->
   <url>
     <loc>https://marketingexamples.com/ads/low-budget</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- ads -->
+  <url>
+    <loc>https://marketingexamples.com/customers/birthday-cake</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/customers/chewy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Chewy and the customer service multiplier",
+    "sUrl": "https://www.chewy.com/",
+    "sText": "Chewy",
+    "tFront": "Customers",
+    "tBack": "customers",
+    "slug": "chewy",
+    "img": "chewy",
+    "imgType": "jpg",
+    "desc": "Chewy's marketing strategy is simple: Delight customers and they’ll become life long customers. This article explains how Chewy's built a business around great customer service."
+  },
+  {
+    "num": "9",
     "title": "Surprising a customer with birthday cake",
     "sUrl": "https://www.lemonade.com/",
     "sText": "Lemonade",
@@ -598,17 +610,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Chewy and the customer service multiplier",
-    "sUrl": "https://www.chewy.com/",
-    "sText": "Chewy",
-    "tFront": "Customers",
-    "tBack": "customers",
-    "slug": "chewy",
-    "img": "chewy",
-    "imgType": "jpg",
-    "desc": "Chewy's marketing strategy is simple: Delight customers and they’ll become life long customers. This article explains how Chewy's built a business around great customer service."
   }
 ]

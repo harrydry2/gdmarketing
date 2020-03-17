@@ -17,7 +17,7 @@
       <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
       <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
       <mj-class name="asterix" mj-text align="center"="center" />
-      <mj-class name="inwardSpeech" padding="12px 50px" font-style="italic" />
+      <mj-class name="inwardSpeech" padding="12px 38px" font-style="italic" />
       <mj-class name="list" padding="1px 7px 1px 20px" />
       <mj-class name="list__top" padding-top="8px" />
       <mj-class name="list__bottom" padding-bottom="8px" />
@@ -85,27 +85,41 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#036 - What connects my favourite low-budget ads</mj-text>
+          <mj-text mj-class="h1" align="center">#038 - Chewy</mj-text>
           <mj-text mj-class="h3" align="center">(Customers • 3 mins • <a class="underB" href="https://marketingexamples.com/customers/chewy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_39" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"></mj-text>
-          <mj-text mj-class="h2under">1) Say NO to Crack, Say YES! to Roller Skating — 13M views</mj-text>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p">Whilst preparing the article I played each video for my brother. The first thing he said:</mj-text>
-          <mj-text mj-class="p inwardSpeech">None of these ads make it through meetings</mj-text>
-          <mj-text mj-class="p">And he's right. These ads are the product of <span class="bold">an individual's vision</span>.</mj-text>
-          <mj-text mj-class="p">Another common thread is <span class="bold">humour</span>. There is nothing special about flea markets, razor blades, or roller skating. The product is unimportant. People share what makes them laugh.</mj-text>
-          <mj-text mj-class="p">To quote Howard Gossage, “Nobody watches ads. People watch what entertains them. Sometimes it's an ad”.</mj-text>
-          <mj-text mj-class="p">The final thread is <span class="bold">amateurishness</span>. Each ad embraces its amateurishness.</mj-text>
-          <mj-text mj-class="p">Fancy cameras, professional actors, and film degrees can be a hindrance. There is something charming about the novice.</mj-text>
-          <mj-text mj-class="p">We like to celebrate the Sammy Stephens of the world</mj-text>
-          <mj-text mj-class="p">Thanks for reading — Harry</mj-text>
-          <mj-text mj-class="h2under">Sponsor</mj-text>
-          <mj-text mj-class="p">Go check out <a class="underD" href="https://seobuddy.com/?utm_content=marketingexamples&utm_medium=sponsorship" target="_blank">SEOBUDDY</a>! It makes SEO sustainable with relevant short missions of 20 minutes.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey everyone. Crazy times. I hope you're alright and have enough toilet paper! If you’d like a break from COVID-19 here’s a story about the pet brand Chewy:</mj-text>
+          <mj-text mj-class="p">September 2011, Ryan Cohen and Michael Day dropped out of college to pursue their online pet food startup, Chewy.</mj-text>
+          <mj-text mj-class="p">They tried to raise money, but investors weren't interested. Apparently Amazon was <span class="italic">already established in the market</span>.</mj-text>
+          <mj-text mj-class="p">Five years later, Chewy overtook Amazon as the biggest online pet food retailer in America.</mj-text>
+          <mj-text mj-class="p">Chewy wasn't cheaper. They didn't sell special pet food. There was no <span class="italic">Prime delivery</span>. The difference was <span class="bold">customer service</span>. Where Amazon was faceless, Chewy treated customers like family.</mj-text>
+          <mj-text mj-class="p">Every customer is welcomed with a handwritten card reminding them to call anytime:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/chewy3a.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="p">They employ 100 artists whose sole job is to paint customers' pets. The portraits are then mailed to unsuspecting customers:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/chewy1a.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="p">If they hear about a pet passing away, they'll send a bouquet of flowers and a condolence note:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/chewy2a.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="p">And if you buy the wrong dog food, customer service will tell you:</mj-text>
+          <mj-text mj-class="p inwardSpeech">Don’t worry about returning it, we’ll refund you, just donate the item to a pet shelter</mj-text>
+          <mj-text mj-class="h2under">The customer service multiplier</mj-text>
+          <mj-text mj-class="p">Delighting customers is expensive. Not every company should be hiring artists and sending flowers. Why does it work for Chewy?</mj-text>
+          <mj-text mj-class="p"><span class="bold">Firstly</span>, pet food is a recurring purchase. One customer might spend $70,000 on dog food over a lifetime. It pays to delight customers when their lifetime value is high.</mj-text>
+          <mj-text mj-class="p"><span class="bold">Secondly</span>, people love to share pet-related content. Each day social media is littered with Chewy’s portraits. It pays to delight customers when they're likely to broadcast their delight.</mj-text>
+          <mj-text mj-class="p"><span class="bold">Finally</span>, in certain sensitive markets (e.g., education, healthcare, pets), people make buying decisions based on who cares most. And Chewy's customer service shows they care.</mj-text>
+          <mj-text mj-class="p">It's this combination of high lifetime value, high sharing coefficient and customers who care which make Chewy's customer service efforts so effective.</mj-text>
+          <!-- <mj-text mj-class="p list list__top">• High lifetime value</mj-text>
+          <mj-text mj-class="p list">• High sharing coefficient</mj-text>
+          <mj-text mj-class="p list list__bottom">• Customers who care</mj-text> -->
+          <!-- <mj-text mj-class="p">which make Chewy's customer service efforts so effective.</mj-text> -->
+          <mj-text mj-class="p inwardSpeech">The multiplier effect of delighting your customers is contextual on the marketplace.</mj-text>
+          <mj-text mj-class="p">You can’t set up an online kitchenware store and outcompete Amazon with better customer service. The customer service multiplier just isn't big enough.</mj-text>
+          <mj-text mj-class="h2under">New Sponsor</mj-text>
+          <mj-text mj-class="p">I've partnered with <span class="semibold">AppSumo</span> to share some useful marketing tools at discounted prices. <a class="underD" href="https://social.appsumo.com/wiu4i8" target="_blank">Check them out here</a>.</mj-text>
+          <mj-text mj-class="p">Thanks for reading, stay safe — Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">If you enjoyed the article please show some love to <a class="underD subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1234866137281769472" target="_blank">the thread</a> on Twitter. It really does make a difference. Thank you :)</mj-text>
+          <mj-text mj-class="p">If you enjoyed the email, and are feeling generous, please show some love <a class="underD subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1239957655516581889" target="_blank">on Twitter</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -113,7 +127,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who'd like this one? Please do forward the email. It's how the site grows. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Got any pals who'd enjoy a story about customer service? Forward them this email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

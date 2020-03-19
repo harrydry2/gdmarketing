@@ -1498,10 +1498,10 @@ span {
 
 .twitter-tweet {
   margin: 3.4rem auto !important;
-  width: 42rem !important; }
+  width: 48rem !important; }
   @media (max-width: 500px) {
     .twitter-tweet {
-      width: 93% !important;
+      width: 95% !important;
       padding: 0 2rem !important;
       margin: 2rem auto !important; } }
 

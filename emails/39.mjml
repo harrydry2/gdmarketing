@@ -86,8 +86,9 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#038 - Chewy</mj-text>
-          <mj-text mj-class="h3" align="center">(Customers • 3 mins • <a class="underB" href="https://marketingexamples.com/customers/chewy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_39" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey everyone. Crazy times. I hope you're alright and have enough toilet paper! If you’d like a break from COVID-19 here’s a story about the pet brand Chewy:</mj-text>
+          <mj-text mj-class="h3" align="center">(Customers • 4 mins • <a class="underB" href="https://marketingexamples.com/customers/chewy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_39" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey everyone. Crazy times. I hope you're all doing ok. Genuinely.</mj-text>
+          <mj-text mj-class="p"><span class="italic">I wrote this story sitting in my room last week. If you'd like a break from COVID-19 maybe you'll enjoy it:</mj-text>
           <mj-text mj-class="p">September 2011, Ryan Cohen and Michael Day dropped out of college to pursue their online pet food startup, Chewy.</mj-text>
           <mj-text mj-class="p">They tried to raise money, but investors weren't interested. Apparently Amazon was <span class="italic">already established in the market</span>.</mj-text>
           <mj-text mj-class="p">Five years later, Chewy overtook Amazon as the biggest online pet food retailer in America.</mj-text>
@@ -105,7 +106,7 @@
           <mj-text mj-class="p"><span class="bold">Firstly</span>, pet food is a recurring purchase. One customer might spend $70,000 on dog food over a lifetime. It pays to delight customers when their lifetime value is high.</mj-text>
           <mj-text mj-class="p"><span class="bold">Secondly</span>, people love to share pet-related content. Each day social media is littered with Chewy’s portraits. It pays to delight customers when they're likely to broadcast their delight.</mj-text>
           <mj-text mj-class="p"><span class="bold">Finally</span>, in certain sensitive markets (e.g., education, healthcare, pets), people make buying decisions based on who cares most. And Chewy's customer service shows they care.</mj-text>
-          <mj-text mj-class="p">It's this combination of high lifetime value, high sharing coefficient and customers who care which make Chewy's customer service efforts so effective.</mj-text>
+          <mj-text mj-class="p">It's this combination of high lifetime value, high sharing coefficient, and customers who care which make Chewy's customer service efforts so effective.</mj-text>
           <!-- <mj-text mj-class="p list list__top">• High lifetime value</mj-text>
           <mj-text mj-class="p list">• High sharing coefficient</mj-text>
           <mj-text mj-class="p list list__bottom">• Customers who care</mj-text> -->
@@ -113,7 +114,7 @@
           <mj-text mj-class="p inwardSpeech">The multiplier effect of delighting your customers is contextual on the marketplace.</mj-text>
           <mj-text mj-class="p">You can’t set up an online kitchenware store and outcompete Amazon with better customer service. The customer service multiplier just isn't big enough.</mj-text>
           <mj-text mj-class="h2under">New Sponsor</mj-text>
-          <mj-text mj-class="p">I've partnered with <span class="semibold">AppSumo</span> to share some useful marketing tools at discounted prices. <a class="underD" href="https://social.appsumo.com/wiu4i8" target="_blank">Check them out here</a>.</mj-text>
+          <mj-text mj-class="p">I've partnered with <span class="semibold">AppSumo</span> to share some useful marketing tools at heavily discounted prices. <a class="underD" href="https://social.appsumo.com/wiu4i8" target="_blank">Check them out here</a>.</mj-text>
           <mj-text mj-class="p">Thanks for reading, stay safe — Harry</mj-text>
         </mj-column>
       </mj-section>

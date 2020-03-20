@@ -13,6 +13,18 @@
   },
   {
     "num": "9",
+    "title": "How a creative Google ad got an investor's attention",
+    "sUrl": "https://tadabase.io/",
+    "sText": "Tadabase",
+    "tFront": "PPC",
+    "tBack": "ppc",
+    "slug": "creative-google-ad",
+    "img": "suster",
+    "imgType": "jpg",
+    "desc": "Tadabase's CEO, Moe Levine, was a long time admirer of investor, Mark Suster. So he set up some Google ads targeting Suster’s name, reminding him that he's yet to invest in no-code startups."
+  },
+  {
+    "num": "9",
     "title": "Surprising a customer with birthday cake",
     "sUrl": "https://www.lemonade.com/",
     "sText": "Lemonade",
@@ -610,17 +622,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How a creative Google ad got an investor's attention",
-    "sUrl": "https://tadabase.io/",
-    "sText": "Tadabase",
-    "tFront": "PPC",
-    "tBack": "ppc",
-    "slug": "creative-google-ad",
-    "img": "suster",
-    "imgType": "jpg",
-    "desc": "Tadabase's CEO, Moe Levine, was a long time admirer of investor, Mark Suster. So he set up some Google ads targeting Suster’s name, reminding him that he's yet to invest in no-code startups."
   }
 ]

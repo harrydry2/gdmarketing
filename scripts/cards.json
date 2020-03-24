@@ -622,5 +622,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Grubhub's local SEO strategy",
+    "sUrl": "https://www.grubhub.com/",
+    "sText": "Grubhub",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "grubhub-local-seo",
+    "img": "grubhub",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

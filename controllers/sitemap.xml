@@ -251,6 +251,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/seo/grubhub-link-building</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- conversion -->
   <url>
     <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>
@@ -326,13 +331,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/ppc/creative-google-ad</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- ads -->
   <url>
     <loc>https://marketingexamples.com/ads/low-budget</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- ads -->
+  <!-- customers -->
   <url>
     <loc>https://marketingexamples.com/customers/birthday-cake</loc>
     <changefreq>weekly</changefreq>

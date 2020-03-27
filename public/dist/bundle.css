@@ -1303,6 +1303,12 @@ p {
     @media screen and (max-width: 550px) {
       .content .inwardSpeech {
         padding: 1rem 3.4rem; } }
+  .content .isBreak {
+    display: block;
+    margin-bottom: -0.9rem; }
+    @media screen and (max-width: 550px) {
+      .content .isBreak {
+        margin-bottom: -0.6rem; } }
   .content .letter {
     padding: 0.76rem 5rem; }
     @media screen and (max-width: 550px) {

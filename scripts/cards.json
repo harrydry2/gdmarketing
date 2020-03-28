@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Grubhub's link building strategy",
+    "sUrl": "https://www.grubhub.com/",
+    "sText": "Grubhub",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "grubhub-link-building",
+    "img": "grubhub",
+    "imgType": "jpg",
+    "desc": "How Grubhub's local link building strategy saw them generate 50% more organic traffic than their competitors in the online food delivery market"
+  },
+  {
+    "num": "9",
     "title": "Chewy and the customer service multiplier",
     "sUrl": "https://www.chewy.com/",
     "sText": "Chewy",
@@ -622,17 +634,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Grubhub's link building strategy",
-    "sUrl": "https://www.grubhub.com/",
-    "sText": "Grubhub",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "grubhub-link-building",
-    "img": "grubhub",
-    "imgType": "jpg",
-    "desc": "How Grubhub's local link building strategy saw them generate 50% more organic traffic than their competitors in the online food delivery market"
   }
 ]

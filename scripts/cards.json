@@ -634,5 +634,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How Joe Wicks started a movement",
+    "sUrl": "https://www.thebodycoach.com/",
+    "sText": "Joe Wicks",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "joe-wicks",
+    "img": "jw",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

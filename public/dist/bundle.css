@@ -1031,6 +1031,19 @@ p {
     font-size: 1.6rem;
     margin-left: 1.4rem; }
 
+.mailO {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 2.2rem;
+  color: grey;
+  font-weight: 500; }
+  .mailO span {
+    color: #ff644d; }
+  @media screen and (max-width: 700px) {
+    .mailO {
+      font-size: 1.3rem;
+      margin-top: 2rem; } }
+
 .addOnEmail, .postEmail {
   width: 32.8rem;
   margin: 5rem auto 6.4rem auto; }

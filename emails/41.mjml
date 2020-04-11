@@ -93,17 +93,46 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#040 - The most creative Coronavirus company pivots</mj-text>
           <mj-text mj-class="h3" align="center">(Pivots • 3 mins • <a class="underB" href="https://marketingexamples.com/viral/coronavirus-pivots/?utm_source=newsletter&utm_medium=email&utm_campaign=email_41" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey everyone. It's been a while. .</mj-text>
-          <mj-text mj-class="p"><span class="italic">I hope this inspires you </mj-text>
-
+          <mj-text mj-class="p"><span class="italic">Hola. It's been a while. I had an article done last week. But it didn't make it past the wine tasters (my brothers). So I've done another.</mj-text>
+          <mj-text mj-class="p"><span class="italic">All aboard the coronavirus creative pivot train:</mj-text>
+          <mj-text mj-class="h2under">1) Evo Entertainment cinema</mj-text>
+          <mj-text mj-class="p">Evo Entertainment converted their parking lot into a drive-in movie theatre.</mj-text>
+          <mj-text mj-class="p">It opened a fortnight ago to <span class="italic">Spider-Man Homecoming</span>. Every show since has been sold out:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv1.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="h2under">2) Shake Shack</mj-text>
+          <mj-text mj-class="p">Shake Shack launched “DIY burger kits” with a free cooking tutorial. Now everyone stuck at home could recreate their legendary Shackburger:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv3.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="h2under">3) New Balance</mj-text>
+          <mj-text mj-class="p">In six simple words New Balance became a company with a much bigger purpose than <span class="italic">just selling shoes</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv8b.png" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="h2under">4) Lucky Devil Lounge</mj-text>
+          <mj-text mj-class="p">Portland strip club, Lucky Devil, transitioned to food delivery service, <span class="italic">Boober Eats</span>.</mj-text>
+          <mj-text mj-class="p">Pay $30, and a pair of scantily clad dancers deliver to your door:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv5.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="h2under">5) Joe Wicks</mj-text>
+          <mj-text mj-class="p">In response to UK schools being cancelled, fitness instructor Joe Wicks started livestreaming 30 minute “P.E.” classes every morning on YouTube.</mj-text>
+          <mj-text mj-class="p">The nation got behind him. And, so far, he's pulled in more than 35 million views:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv2.png" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="h2under">6) The SnapBar</mj-text>
+          <mj-text mj-class="p">Events company, The SnapBar, pivoted to gift boxes full of products from struggling local businesses.</mj-text>
+          <mj-text mj-class="p">After selling 500 in Seattle, they've expanded to LA, San Francisco, and Portland:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv7.jpg" alt="Chewy handwritten cards"></mj-image>
+          <mj-text mj-class="h2under">7) Mobile Escape</mj-text>
+          <mj-text mj-class="p">The Canadian escape room company launched Escape Mail, escape room-style puzzles delivered to your door.</mj-text>
+          <mj-text mj-class="p">Demand was so overwhelming it's now a subscription service</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv6.jpg" alt="Chewy handwritten cards"></mj-image>
           <mj-text mj-class="h2under">Sponsored by:</mj-text>
           <mj-text mj-class="p"><span class="semibold">AppSumo</span>. They're offering Marketing Examples readers some really useful marketing tools at low prices. Please <a class="underA" href="https://social.appsumo.com/wiu4i8" target="_blank">check out the selection</a>.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">I mentioned a few weeks ago how I was getting into John Prine's music. Sadly, he died this week. RIP.</mj-text>
+          <mj-text mj-class="p"><span class="italic">For a heart stained in anger grows weak and grows bitter.</span><br><span class="italic">You become your own prisoner as you watch yourself sit there.</span><br><span class="italic">Wrapped up in a trap of your very own</span><br><span class="italic">Chain of sorrow</span>.</span></mj-text>
+          <mj-text mj-class="p">— <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4iyyhnNIKe4" target="_blank"><span class="italic">Bruised Orange</span></a></mj-text>
           <mj-text mj-class="p">Thanks for reading, stay safe — Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">Bonus — <a class="underA subscribeColor" href="https://marketingexamples.com/ppc/creative-google-ad" target="_blank">How a creative Google ad got an investor's attention</a></mj-text>
+          <mj-text mj-class="p">Bonus — <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1246396186346618887" target="_blank">My favourite email popup</a></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -111,7 +140,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Got any pals who are into SEO? Please forward them this email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Any pals who might like this email? Please do forward the email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

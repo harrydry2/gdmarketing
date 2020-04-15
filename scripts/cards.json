@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Counterpunch like Carl",
+    "sUrl": "https://www.instagram.com/beachbody",
+    "sText": "Beachbody",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "counterpunch",
+    "img": "cp",
+    "imgType": "jpg",
+    "desc": "March 24. Popular Instagram account DudeWithSign takes aim at home workout videos. March 26. Beachbody’s CEO, Carl Daikeler, fires back, rallying his followers to post their home workouts with pride this Saturday."
+  },
+  {
+    "num": "9",
     "title": "The most creative Coronavirus company pivots",
     "sUrl": "https://www.shakeshack.co.uk/",
     "sText": "Coronavirus",
@@ -658,17 +670,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Counterpunch like Carl",
-    "sUrl": "https://www.instagram.com/beachbody",
-    "sText": "Beachbody",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "counterpunch",
-    "img": "cp",
-    "imgType": "jpg",
-    "desc": "March 24. Popular Instagram account DudeWithSign takes aim at home workout videos. March 26. Beachbody’s CEO, Carl Daikeler, fires back, rallying his followers to post their home workouts with pride this Saturday."
   }
 ]

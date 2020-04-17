@@ -670,5 +670,17 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How Apple clarified its message",
+    "sUrl": "https://www.apple.com/",
+    "sText": "Apple",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "apple",
+    "img": "steve2",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

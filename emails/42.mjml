@@ -91,26 +91,50 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#041 - The power of story</mj-text>
-          <mj-text mj-class="h3" align="center">(Copywriting • 2 mins • <a class="underB" href="https://marketingexamples.com/copywriting/apple/?utm_source=newsletter&utm_medium=email&utm_campaign=email_41" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hola. It's been a while. I had an article done last week. But it didn't make it past the wine tasters (my brothers). So I've done another.</mj-text>
-          <mj-text mj-class="p"><span class="italic">All aboard the coronavirus creative pivot train:</mj-text>
-          <mj-text mj-class="h2under">7) Mobile Escape</mj-text>
-          <mj-text mj-class="p">The Canadian escape room company launched Escape Mail, escape room-style puzzles delivered to your door.</mj-text>
-          <mj-text mj-class="p">Demand was so overwhelming it's now a subscription service</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cv6.jpg" alt="Chewy handwritten cards"></mj-image>
-          <mj-text mj-class="h2under">Sponsored by:</mj-text>
-          <mj-text mj-class="p"><span class="semibold">Exploding topics</span>. I came across this newsletter last week. They showcase the latest trends before they take off.</mj-text>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p">I mentioned a few weeks ago how I was getting into John Prine's music. Sadly, he died this week. RIP.</mj-text>
-          <mj-text mj-class="p"><span class="italic">For a heart stained in anger grows weak and grows bitter.</span><br><span class="italic">You become your own prisoner as you watch yourself sit there.</span><br><span class="italic">Wrapped up in a trap of your very own</span><br><span class="italic">Chain of sorrow</span>.</span></mj-text>
-          <mj-text mj-class="p">— <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4iyyhnNIKe4" target="_blank"><span class="italic">Bruised Orange</span></a></mj-text>
+          <mj-text mj-class="h1" align="center">#041 - How Steve Jobs clarified Apple's message</mj-text>
+          <mj-text mj-class="h3" align="center">(Copywriting • 2 mins • <a class="underB" href="https://marketingexamples.com/copywriting/think-different/?utm_source=newsletter&utm_medium=email&utm_campaign=email_41" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p">January 1983. Apple finish production of their new computer, <span class="italic">Lisa</span>.</mj-text>
+          <mj-text mj-class="p">Steve Jobs launches it with a nine-page ad in the <span class="italic">New York Times</span>.</mj-text>
+          <mj-text mj-class="p">It's nine pages of geek speak. Nobody outside NASA is interested. Lisa sells just 10,000 units. Steve is fired from Apple.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/steve1.jpg" alt="Apple 1983 New York Times ad"></mj-image>
+          <mj-text mj-class="p">Fourteen years later, Steve Jobs returns to Apple.</mj-text>
+          <mj-text mj-class="p">In his first campaign back he went from nine pages in the <span class="italic">New York Times</span> to two words on billboards across America: <span class="italic">Think different</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/steve2.jpg" alt="Apple Think Differnt: Moon landing"></mj-image>
+          <mj-text mj-class="p">There would be no computers in the ads. No technical jargon. No noise.</mj-text>
+          <mj-text mj-class="p">Jobs realised that people don’t buy the best product. They buy the <span class="italic">best story</span>. So that's what he sold:</mj-text>
+          <mj-text mj-class="p inwardSpeech">You see greatness. You want to emulate it. Apple is how you get there.</mj-text>
+          <mj-image mj-class="cImg img450" src="https://s3.amazonaws.com/harrydry/gdmarketing/steve3b.png" alt="Steve Jobs storyteller"></mj-image>
+          <mj-text mj-class="p">It's a simple story. Light on calories. And it stuck.</mj-text>
+          <mj-text mj-class="p">The campaign ran for 5 years. And is credited for turning Apple's fortunes around.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Credit to the book “Building a StoryBrand” where this one comes from.</span></mj-text>
+          <mj-text mj-class="h2under">Sponsored by</mj-text>
+          <mj-text mj-class="p"><span class="semibold">Exploding topics</span>. They run a great <a class="underA subscribeColor" href="https://explodingtopics.com/newsletter" target="_blank">newsletter</a> where they share all the latest trends before they go mainstream. I'm subscribed. It's good stuff! </mj-text>
           <mj-text mj-class="p">Thanks for reading, stay safe — Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">Bonus — <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1246396186346618887" target="_blank">My favourite email popup</a></mj-text>
+          <mj-text mj-class="p">If your feeling generous perhaps like or retweet <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1252258414539018242" target="_blank">the thread</a> on Twitter. It really does help the site grow :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#E6FFE5">
+        <mj-column>
+          <mj-text mj-class="p">
+            <mj-text mj-class="p">Bonus article — <a class="underA subscribeColor" href="https://marketingexamples.com/viral/counterpunch" target="_blank">How to counterpunch in marketing</a></mj-text>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">
+            <mj-text mj-class="p">Bonus tip — <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1249647702071222273" target="_blank">How to get more leads from your “contact us” section</a></mj-text>
+          </mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -118,7 +142,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Any pals who might like this email? Please do forward the email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any marketing pals who'd enjoy this? Please do forward the email. Any newbies can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

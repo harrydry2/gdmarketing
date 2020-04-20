@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "How Steve Jobs clarified Apple's message",
+    "sUrl": "https://www.apple.com/",
+    "sText": "Apple",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "think-different",
+    "img": "steve",
+    "imgType": "jpg",
+    "desc": "January 1983. Apple finish production of their latest computer, Lisa. Steve Jobs launches it with a nine-page ad in the New York Times. It's nine pages of geek speak. Nobody outside NASA is interested. Lisa sells just 10,000 units. Steve is fired from Apple."
+  },
+  {
+    "num": "9",
     "title": "Counterpunch like Carl",
     "sUrl": "https://www.instagram.com/beachbody",
     "sText": "Beachbody",
@@ -670,17 +682,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How Apple clarified its message",
-    "sUrl": "https://www.apple.com/",
-    "sText": "Apple",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "think-different",
-    "img": "steve",
-    "imgType": "jpg",
-    "desc": "January 1983. Apple finish production of their latest computer, Lisa. Steve Jobs launches it with a nine-page ad in the New York Times. It's nine pages of geek speak. Nobody outside NASA is interested. Lisa sells just 10,000 units. Steve is fired from Apple."
   }
 ]

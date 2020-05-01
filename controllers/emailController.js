@@ -20,7 +20,7 @@ exports.subscribe = async (req, res) => {
       {
         api_key: process.env.EOAPI,
         email_address: email,
-        status: 'SUBSCRIBED',
+        status: 'SUBSCRIBED'
       }
     );
     if (num === 1) {
@@ -53,5 +53,8 @@ exports.subscribePage = async (req, res) => {
   const cards = await Cards.find()
     .skip(skip)
     .limit(limit);
-  res.render('./home/ext', { cards, subscribePage: 'outerMailActive' });
+  res.render('./home/extSubscribe', {
+    cards,
+    subscribePage: 'outerMailActive',
+  });
 };

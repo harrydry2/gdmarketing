@@ -1,0 +1,13 @@
+extends subscribeBase
+
+include ./mixins/home
+include ./mixins/mail
+include ./mixins/cardPopup
+include ./mixins/harry
+
+block content
+  .iosOverflow
+    +home(cards, activeFilters)
+    +mail(subscribePage)
+    +cardPopup()
+    +harry()

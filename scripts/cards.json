@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "17 tips for great copywriting",
+    "sUrl": "https://marketingexamples.com/copywriting",
+    "sText": "A range",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "tips",
+    "img": "ct",
+    "imgType": "jpg",
+    "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
+  },
+  {
+    "num": "9",
     "title": "How Steve Jobs clarified Apple's message",
     "sUrl": "https://www.apple.com/",
     "sText": "Apple",
@@ -682,17 +694,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "17 tips for awesome copywriting",
-    "sUrl": "https://marketingexamples.com/copywriting",
-    "sText": "A range",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "tips",
-    "img": "ct",
-    "imgType": "jpg",
-    "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
   }
 ]

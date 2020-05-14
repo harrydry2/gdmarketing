@@ -694,5 +694,17 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How I share my content online",
+    "sUrl": "https://www.marketingexamples.com",
+    "sText": "Marketing Examples",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "sharing",
+    "img": "jw",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

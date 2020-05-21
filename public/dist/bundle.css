@@ -627,6 +627,9 @@ p {
   .sponsor img, .sponsor picture {
     width: 4rem; }
 
+.sponsor2Img {
+  width: 15rem !important; }
+
 .card {
   padding: 0.9rem;
   height: 23.9rem;
@@ -1517,10 +1520,10 @@ span {
 
 .twitter-tweet {
   margin: 3.4rem auto !important;
-  width: 48rem !important; }
+  width: 45rem !important; }
   @media (max-width: 500px) {
     .twitter-tweet {
-      width: 95% !important;
+      width: 94% !important;
       padding: 0 2rem !important;
       margin: 2rem auto !important; } }
 

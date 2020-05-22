@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "How I promote my content",
+    "sUrl": "https://www.marketingexamples.com",
+    "sText": "Marketing Examples",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "sharing",
+    "img": "paul",
+    "imgType": "jpg",
+    "desc": "June 2019 I wrote my first marketing article. A year later my email list hit 19,000. No ads. No connections. No existing audience. The site grew because I learned how to promote my content on the internet. Here's my process."
+  },
+  {
+    "num": "9",
     "title": "17 tips for great copywriting",
     "sUrl": "https://marketingexamples.com/copywriting",
     "sText": "A range",
@@ -694,17 +706,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How I promote my content",
-    "sUrl": "https://www.marketingexamples.com",
-    "sText": "Marketing Examples",
-    "tFront": "Content",
-    "tBack": "content",
-    "slug": "sharing",
-    "img": "paul",
-    "imgType": "jpg",
-    "desc": "June 2019 I wrote my first marketing article. A year later my email list hit 19,000. No ads. No connections. No existing audience. The site grew because I learned how to promote my content on the internet. Here's my process."
   }
 ]

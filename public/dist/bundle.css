@@ -1519,13 +1519,14 @@ span {
       padding: 0 0.7rem !important; }
 
 .twitter-tweet {
-  margin: 3.4rem auto !important;
-  width: 45rem !important; }
+  margin: 2rem auto !important;
+  width: 45rem !important;
+  transform: scale(0.88); }
   @media (max-width: 500px) {
     .twitter-tweet {
       width: 94% !important;
       padding: 0 2rem !important;
-      margin: 2rem auto !important; } }
+      margin: 1rem auto !important; } }
 
 .menu {
   display: flex;

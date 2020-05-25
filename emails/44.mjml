@@ -92,41 +92,60 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#044 - How I promote my content</mj-text>
-          <mj-text mj-class="h3" align="center">(Content • 5 mins • <a class="underB" href="https://marketingexamples.com/content/sharing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_44" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey everyone. Sorry for the hold up. The copywriting one did well. So I decided to take my time and aim for 10/10 again. </mj-text>
-          <mj-text mj-class="p"><span class="italic">Hope you enjoy my effort.</mj-text>
-          <mj-text mj-class="p">June 2019. I wrote my first marketing article. A year later my email list hit 19,000.</mj-text>
+          <mj-text mj-class="h3" align="center">(Content marketing • 3 mins • <a class="underB" href="https://marketingexamples.com/content/sharing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_44" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hola. Sorry for the hold up.</mj-text>
+          <mj-text mj-class="p"><span class="italic">I've done a behind the scenes of how I promote each article. Hope it's worth the wait.</span></mj-text>
+          <mj-text mj-class="p">May 2019. I wrote my first marketing article. A year later my email list hit 19,000.</mj-text>
           <mj-text mj-class="p">No ads. No connections. No existing audience.</mj-text>
           <mj-text mj-class="p">The site grew because I learnt how to push my content round the internet.</mj-text>
           <mj-text mj-class="h2under">Here's my process</mj-text>
           <mj-text mj-class="p">First, I found all the different places where marketers hang out.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul1.png" alt="Drifts landing page"></mj-image>
-          <mj-text mj-class="p">Then, I asked myself, “how can I add value directly to these platforms?</mj-text>
-          <mj-text mj-class="p">Adding value isn't dumping links. People are busy. Wow them on the platform they're already using. Or get ignored.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul1.png" alt="Online marketing groups"></mj-image>
+          <mj-text mj-class="p">Then, I asked myself, “how can I add value <span class="bold">directly</span> to these platforms?</mj-text>
+          <mj-text mj-class="p">Adding value isn't dumping links. People are busy. Wow them on the platform they're <span class="bold">already</span> using. Or get ignored.</mj-text>
           <mj-text mj-class="p">There's no “one-size-fits-all” formula. Twitter is not Facebook. I tailor my content to fit each platform.</mj-text>
           <mj-text mj-class="h2under">The specifics</mj-text>
-          <mj-text mj-class="p">Twitter, Reddit and Indie Hackers are places where long-form sharing works.</mj-text>
-          <mj-text mj-class="p">My strategy is simple. I share my whole article. Then, I politely ask if the reader would like to join my email list.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul1.png" alt="Drifts landing page"></mj-image>
+          <mj-text mj-class="p">Twitter, Reddit and <span class="bold">Indie Hackers</span> are places where long-form sharing works.</mj-text>
+          <mj-text mj-class="p">My strategy is simple. I share my whole article. Then, I politely ask if the reader would like to join my email list. (<a class="underA subscribeColor" href="https://s3.amazonaws.com/harrydry/gdmarketing/paul.mp4" target="_blank">see video</a>)</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul8.png" alt="Drifts landing page"></mj-image>
           <mj-text mj-class="p">Facebook and Slack groups are a different ball game. Attention spans are shorter. Self-promoters get lynched.</mj-text>
           <mj-text mj-class="p">I break my articles into visual tips. Subtly branding each one. Upfront value. No hard sell.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul2.jpg" alt="Drifts landing page"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul2.jpg" alt="How to share in Facebook groups"></mj-image>
           <mj-text mj-class="p">Then, there's a bunch of sites where I share direct links: Hacker News, Designer News, Growth Hackers, Zest.is.</mj-text>
-          <mj-text mj-class="p">Same principle applies. Tailor content to fit the platform.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul3.png" alt="Drifts landing page"></mj-image>
+          <mj-text mj-class="p">Same principle applies. <span class="italic">Tailor content to fit the platform</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul3.png" alt="Hacker News Vs. Growth Hackers"></mj-image>
           <mj-text mj-class="p">The whole process takes me 8 hours. 4 hours posting. 4 hours replying.</mj-text>
+          <mj-text mj-class="h2under">The snowball effect</mj-text>
+          <mj-text mj-class="p">How <span class="italic">other people</span> share your content is just as important as how you share it.</mj-text>
+          <mj-text mj-class="p">You don't want people sharing <span class="italic">different things</span> on <span class="italic">different platforms</span>. You want everyone sharing the <span class="italic">same thing</span> on the <span class="italic">same platform</span>.</mj-text>
+          <mj-text mj-class="p">One share on 50 platforms gets ignored. 50 retweets turn into 500.</mj-text>
+          <mj-text mj-class="p">I direct everyone who likes my article to <span class="italic">the same</span> Twitter thread.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul4.png" alt="Twitter compounds growth"></mj-image>
           <mj-text mj-class="h2under">Putting it all together</mj-text>
-          <mj-text mj-class="p list list__top">1)</mj-text>
-          <mj-text mj-class="p list">2)</mj-text>
-          <mj-text mj-class="p list list__bottom">3)</mj-text>
+          <mj-text mj-class="p list list__top">1) Create value on other platforms.</mj-text>
+          <mj-text mj-class="p list">2) Transfer <span class="italic">this value</span> to your own platform.</mj-text>
+          <mj-text mj-class="p list list__bottom">3) Store value with your email list.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul5.png" alt="How to promote content online"></mj-image>
+          <mj-text mj-class="p">Email subscribers are gold bars in the bank.</mj-text>
+          <mj-text mj-class="p">New media rise and fall. Email isn’t going anywhere. It’s been around longer. It will survive longer. <span class="italic">Medium</span> can't paywall it. It's the best place to build an audience online.</mj-text>
+          <mj-text mj-class="p">Here are the results of a year sharing content online.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul6.png" alt="Marketing Examples email list growth"></mj-image>
+          <mj-text mj-class="p">It's not rocket science:</mj-text>
+          <mj-text mj-class="p">The platforms where I add the most value <span class="bold">upfront</span> are the platforms that generate the most new subscribers.</mj-text>
+          <mj-text mj-class="p inwardSpeech">People are busy. Don't redirect them. Wow them.</mj-text>
+          <mj-text mj-class="h2under">One last thing</mj-text>
+          <mj-text mj-class="p">The best self-promoters aren't self-promoters. They take the time to become a <span class="bold">genuine</span> member of each community.</mj-text>
+          <mj-text mj-class="p">Share others' content. Write detailed comments. Make friends.</mj-text>
+          <mj-text mj-class="p">Give more than you take. It's a positive-sum game.</mj-text>
           <mj-text mj-class="h2under">Sponsored by</mj-text>
-          <mj-text mj-class="p"><span class="semibold">Exploding topics</span>. They run a great <a class="underA subscribeColor" href="https://explodingtopics.com/newsletter" target="_blank">newsletter</a> where they share all the latest trends before they go mainstream. I'm subscribed. It's good stuff! </mj-text>
+          <mj-text mj-class="p"><span class="semibold">EmailOctopus</span>. Yep! That's right. We've got the band back together.</mj-text>
+          <mj-text mj-class="p">I use EmailOctopus to send this very newsletter. Excellent deliverability. Easy automation. Responsive designs. I'm a big fan. <a class="underA subscribeColor" href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=newsletter&utm_campaign=may_2020_sponsorship&utm_content=landing_page" target="_blank">Check them out.</a> </mj-text>
           <mj-text mj-class="p">Thanks for reading, stay safe — Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">I won't lie. I've been working on this for ages! If you're feeling generous please show some love to <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1258052549246140416" target="_blank">the thread</a> on Twitter.</mj-text>
+          <mj-text mj-class="p">Competiton time! I'm giving away my 7 favourite marketing books! </mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -134,7 +153,15 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Also. I challenge you to forward this to a friend. Would really appreciate it. Anyone new can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Forward this email OR share the <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1263831025240719362" target="_blank">Twitter thread</a>. And you're entered into the draw. Winner gets posted the books. Just reply to let me know you've entered :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">Anyone who got forwarded this. Welcome to the best marketing newsletter in town. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

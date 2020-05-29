@@ -78,7 +78,6 @@
           <mj-text mj-class="p">Today's the day!</mj-text>
           <mj-text mj-class="p">I've just launched <a class="underA" href="https://www.producthunt.com/posts/email-mastery" target="_blank"> Email Mastery on Product Hunt.</a></mj-text>
           <mj-text mj-class="p">If you've been enjoying the teardowns any support is really appreciated.</mj-text>
-
           <mj-text mj-class="p">Thank you, Alec</mj-text>
           <mj-text mj-class="p">p.s. Feel free to leave any feedback in the comments </mj-text>
         </mj-column>

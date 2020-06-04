@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Growth Loops",
+    "sUrl": "https://www.reforge.com/blog/growth-loops`",
+    "sText": "Reforge",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "growth-loops",
+    "img": "gl",
+    "imgType": "jpg",
+    "desc": "Most people think you build a product then you market it. Growth loops mean building the marketing into your product."
+  },
+  {
+    "num": "9",
     "title": "How I promote my content",
     "sUrl": "https://www.marketingexamples.com",
     "sText": "Marketing Examples",
@@ -706,17 +718,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Growth Loops",
-    "sUrl": "https://www.reforge.com/blog/growth-loops`",
-    "sText": "Reforge",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "growth-loops",
-    "img": "gl",
-    "imgType": "jpg",
-    "desc": "The consensus view is that you build the product then you market it. Growth loops means building the marketing into your product."
   }
 ]

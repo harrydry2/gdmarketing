@@ -93,73 +93,67 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#045 - Growth Loops</mj-text>
           <mj-text mj-class="h3" align="center">(Growth Loops • 3 mins • <a class="underB" href="https://marketingexamples.com/viral/growth-loops/?utm_source=newsletter&utm_medium=email&utm_campaign=email_45" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Before we get into the marketing I want to say my thoughts are with our black and American readers right now. I wish you a brighter week.</mj-text>
-
+          <mj-text mj-class="p"><span class="italic">Before we get into any marketing I want to say my thoughts are with America, black people especially, right now. RIP George Floyd.</mj-text>
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p">Ask a marketer, “How does my product grow?” They'll reply:</mj-text>
           <mj-text mj-class="p inwardSpeech">Ads, affiliates, sales, social, yada yada yada</mj-text>
           <mj-text mj-class="p">They’re describing top-down growth. Your classic funnel. Pour more in. Get more out. Here’s the problem.</mj-text>
-          <mj-text mj-class="p list list__top">• Funnels flow in one direction</mj-text>
-          <mj-text mj-class="p list">• Inputs are tied to outputs</mj-text>
+          <mj-text mj-class="p list list__top">• Acquiring new customers from scratch is hard</mj-text>
+          <mj-text mj-class="p list">• Funnels flow in one direction</mj-text>
           <mj-text mj-class="p list list__bottom">• Growth is linear</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl1a.png" alt="Online marketing groups"></mj-image>
-          <mj-text mj-class="p">So how do the best products grow?</mj-text>
-          <mj-text mj-class="p">Well, it's less about pouring into a funnel. More about creating loops. Loops feed themselves.</mj-text>
-          <mj-text mj-class="p">The actions of one user create an output which create a new user.</mj-text>
+          <mj-text mj-class="p">The best marketers think less about <span class="italic">funnels</span>. More about <span class="italic">loops</span>.</mj-text>
+          <mj-text mj-class="p">Loops feed themselves. The <span class="bold">actions</span> of one user create an <span class="bold">output</span> which create a <span class="bold">new user</span>.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl1b.png" alt="Online marketing groups"></mj-image>
           <mj-text mj-class="p">Let's look at some examples.</mj-text>
           <mj-text mj-class="h2under">1) Personal viral loop</mj-text>
           <mj-text mj-class="p">Some products improve with more users. So there's a personal incentive to invite new users.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. Fantasy football, Slack, Trello</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl1.png" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl1.png" alt="Word of mouth loop"></mj-image>
           <mj-text mj-class="h2under">2) Financial viral loop</mj-text>
           <mj-text mj-class="p">Some products have financial incentives to invite new users.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. Dropbox, PayPal, Tesla</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl2.png" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl2.png" alt="Viral loop"></mj-image>
           <mj-text mj-class="h2under">3) Social viral loop</mj-text>
           <mj-text mj-class="p">Some products are so good, people just like talking about them.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. DoubleTree, Stripe, Game of Thrones</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl3.jpg" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl3.jpg" alt="Dropbox's referral viral loop"></mj-image>
           <mj-text mj-class="h2under">4) User generated content loop</mj-text>
           <mj-text mj-class="p">Some products leverage users content to grow their own organic traffic.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. Quora, Reddit, Stack Overflow</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl4.png" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl4.png" alt="Growth Loops"></mj-image>
           <mj-text mj-class="h2under">5) Physical content loop</mj-text>
           <mj-text mj-class="p">Some products attract new users simply by being noticeable. Lime's bright green is not a coincidence.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. Lime, Square, ChargedUp</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl5.jpg" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl5.jpg" alt="Lime Bikes marketing strategy"></mj-image>
           <mj-text mj-class="h2under">6) Supply-side content loop</mj-text>
           <mj-text mj-class="p">Some products incentivise users to promote their content for them.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. Meetup, ProductHunt, Typeform, SurveyMonkey</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl6.png" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl6.png" alt="User generated content loop"></mj-image>
           <mj-text mj-class="h2under">7) Embedded loop</mj-text>
           <mj-text mj-class="p">Some products grow by embedding themselves on other platforms.</mj-text>
           <mj-text mj-class="p"><span class="italic">e.g. Trustpulse, Intercom, Algolia</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl7.png" alt="Online marketing groups"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl7.png" alt="Meetup's marketing strategy"></mj-image>
           <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p">Most people think you build the product then you market it. Thinking in loops means you build the marketing into the product.</mj-text>
-          <mj-text mj-class="p">The product doesn't precede the marketing. The product is the marketing</mj-text>
-          <mj-text mj-class="p">Thank for reading, Harry</mj-text>
-          <mj-text mj-class="p"><span class="italic">Sent from my iPhone</span></mj-text>
+          <mj-text mj-class="p">Most people think you build the product <span class="bold">then</span> you market it. Thinking in loops means you build the marketing <span class="bold">into</span> the product.</mj-text>
+          <mj-text mj-class="p">The product doesn't precede the marketing. The product <span class="bold">is</span> the marketing</mj-text>
           <mj-text mj-class="p"><span class="italic">Big credit to Brian Balfour and Casey Newton. They've written some great stuff on Growth Loops. This newsletter was my summary.</span></mj-text>
-          <mj-text mj-class="h2under">Good reads</mj-text>
-          <mj-text mj-class="p">There's not enough black people in marketing. I want to shine a light on some work I like from black marketers.</mj-text>
-          <!-- <mj-text mj-class="p">No sponsor this week. Instead, I want to shine a light on some great stories from black marketers.</mj-text> -->
+          <mj-text mj-class="p">Thanks, Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">Sent from my iPhone ;)</span></mj-text>
+          <mj-text mj-class="h2under">Things worth reading</mj-text>
+          <mj-text mj-class="p">No sponsor this week. Instead, I want to share 3 articles I like from black marketers / founders.</mj-text>
           <mj-text mj-class="p list list__top">1) <a href="https://growth.design/psychology/" target="_blank" class="underA subscribeColor"> The Psychology of Design</a> — Dan Benoni</mj-text>
           <mj-text mj-class="p list">2) <a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c" target="_blank" class="underA subscribeColor">How to brainstorm business ideas</a> — Courtland Allen</mj-text>
-          <mj-text mj-class="p list">3) <a href="https://www.veed.io/blog/startup-growth-no-budget/" target="_blank" class="underA subscribeColor">0-50,000 with no marketing budget</a> — Sabba Keynejad</mj-text>
-          <mj-text mj-class="p list">4) <a href="https://growth.design/psychology/" target="_blank" class="underA subscribeColor">How to brainstorm business ideas</a> — Courtland Allen</mj-text>
-          <mj-text mj-class="p list">5) <a href="https://growth.design/psychology/" target="_blank" class="underA subscribeColor">How to brainstorm business ideas</a> — Courtland Allen</mj-text>
-          <mj-text mj-class="p">Thanks for reading, stay safe — Harry</mj-text>
+          <mj-text mj-class="p list list__bottom">3) <a href="https://www.veed.io/blog/startup-growth-no-budget/" target="_blank" class="underA subscribeColor">0-50,000 with no marketing budget</a> — Sabba Keynejad</mj-text>
           <mj-text mj-class="h2under">Last but not least...</mj-text>
-          <mj-text mj-class="p">Big thanks to everyone who entered the competition last week.</mj-text>
-          <mj-text mj-class="p">Congratulations <a href="https://twitter.com/haritrathi" target="_blank" class="underA subscribeColor">Harit Rathi</a>. The books are on their way!</mj-text>
-          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl9.jpg" alt="Online marketing groups"></mj-image>
+          <mj-text mj-class="p">Big thanks to everyone who entered the competition last newsletter.</mj-text>
+          <mj-text mj-class="p">We have a winner. Congratulations <a href="https://twitter.com/haritrathi" target="_blank" class="underA subscribeColor">Harit</a>. The books are on their way!</mj-text>
+          <mj-image mj-class="cImg img400" src="https://s3.amazonaws.com/harrydry/gdmarketing/gl9.jpg" alt="Giveaway"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">If you enjoy the emails please do <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1263831025240719362" target="_blank">share on Twitter</a> or forward to your friends. It really does help :)</mj-text>
+          <mj-text mj-class="p">If you enjoyed the newsletter please show some love<a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1268565213311311872" target="_blank"> on Twitter</a> or forward to your friends. It really does help :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">

@@ -625,10 +625,8 @@ p {
       font-weight: 700;
       border-radius: 5px; }
   .sponsor img, .sponsor picture {
-    width: 4rem; }
-
-.sponsor2Img {
-  width: 15rem !important; }
+    width: 4rem;
+    border-radius: 100%; }
 
 .card {
   padding: 0.9rem;

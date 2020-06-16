@@ -115,14 +115,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- direct -->
+  <!-- sales -->
   <url>
-    <loc>https://marketingexamples.com/direct/how-nike-sold-first-shoes</loc>
+    <loc>https://marketingexamples.com/sales/how-nike-sold-first-shoes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marketingexamples.com/direct/jason-cohen-sales</loc>
+    <loc>https://marketingexamples.com/sales/jason-cohen-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

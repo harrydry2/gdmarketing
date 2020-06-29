@@ -7,7 +7,7 @@
       <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
-      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="0px 0px 10px 0px" />
       <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
       <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
@@ -34,7 +34,7 @@
       <mj-class name="img500" width="500px" fluid-on-mobile="true" />
       <mj-class name="img550" width="550px" fluid-on-mobile="true" />
       <mj-class name="img600" width="600px" fluid-on-mobile="true" />
-      <mj-class name="longerButton" background-color="#e6375a" color="#ffffff" font-size="15px" border="2px solid #" inner-padding="16px 80px" />
+      <mj-class name="longerButton" background-color="#4742DE" color="#ffffff" font-size="15px" inner-padding="16px 80px" />
     </mj-attributes>
     <mj-style inline="inline">
       .underA {
@@ -86,48 +86,49 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#046 - How to sell potato peelers </mj-text>
-          <mj-text mj-class="p"><span class="italic">Sorry it's been a while. Let me explain. A big goal of mine this year was to properly try YouTube. 50k subscribers haha! So I took the last few weeks off, learned editing, and made my first video.</mj-text>
-          <mj-text mj-class="p"><span class="italic">It's about this guy called Joe. He sold potato peelers on the streets and became a millionaire. His pitch is legendary. I explain why.</mj-text>
+          <mj-text mj-class="h1" align="center">#046 - How to Sell + Some Practical Tips</mj-text>
+          <mj-text mj-class="p"><span class="italic">It's been a while. Let me explain.</mj-text>
+          <mj-text mj-class="p"><span class="italic">A big goal of mine this year was to try YouTube. 75k subscribers haha! So I took the last few weeks off, learnt editing, and made my first video.</mj-text>
+          <mj-text mj-class="p"><span class="italic">It's all about <span class="bold">how to sell</span>. Specifically, how to sell potato peelers ;)</mj-text>
+          <mj-text mj-class="p"><span class="italic">3 minutes. Packed with tips. I'm really proud of it.</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section mj-class="">
+      <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/giphy-marketing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_25">
+          <mj-button mj-class="longerButton" href="https://www.youtube.com/watch?v=_OMrvqU4Blk">
             <span class="bold">Watch the video</span>
           </mj-button>
         </mj-column>
       </mj-section>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p"><span class="italic">Just to be clear for first timers. This is <span class="bold">a newsletter</span>. Future editions will be back to normal. I don't want to just share a video. So here's five of my favourite marketing tips I made this last year:</mj-text>
+          <mj-text mj-class="p"><span class="italic">The newsletter will be back to normal next week. In the meantime, here's five of my favourite marketing tips: </mj-text>
           <mj-text mj-class="h2under">1) How to get more leads from your “contact us” section:</mj-text>
           <mj-text mj-class="p list list__top">1/ Contextualise header copy</mj-text>
           <mj-text mj-class="p list">2/ Use a real persons face and email</mj-text>
           <mj-text mj-class="p list list__bottom">3/ Be specific with your availability</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee4.png" alt="Drifts landing page"></mj-image>
-          <mj-text mj-class="h2under">2) How to write a cold email</mj-text>
+          <mj-text mj-class="h2under">2) My sales email template</mj-text>
+          <mj-text mj-class="p">Back in the day, I worked for a co-working company. I wrote them this cold email which we sent to London freelancers. Worked a treat. </mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee1.png" alt="Drifts landing page"></mj-image>
-          <mj-text mj-class="h2under">4) Make your marketing realer</mj-text>
-          <mj-text mj-class="p">Same title. Same painting. Same subreddit. One gets 300 votes. The other gets 70,000.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee3.jpg" alt="Drifts landing page"></mj-image>
-          <mj-text mj-class="h2under">4) Three ways to improve an email modal</mj-text>
-          <mj-text mj-class="p list list__top">1/ Explain <span class="bold">why</span> people should sign up</mj-text>
-          <mj-text mj-class="p list">2/ Add social proof</mj-text>
-          <mj-text mj-class="p list list__bottom">3/ Replace “Subscribe“ with a value-based CTA</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee6.png" alt="Drifts landing page"></mj-image>
+          <mj-text mj-class="h2under">3) Three tricks to persuade people to buy the higher tier</mj-text>
+          <mj-text mj-class="p list list__top">1) Create a hierarchy</mj-text>
+          <mj-text mj-class="p list">2) Offer a more compelling discount</mj-text>
+          <mj-text mj-class="p list list__bottom">3) Use tier names to set expectations</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee7.png" alt="Drifts landing page"></mj-image>
+          <mj-text mj-class="h2under">4) How to self promote in comments</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee8.png" alt="Drifts landing page"></mj-image>
           <mj-text mj-class="h2under">5) Think “Call-to-value” not “Call-to-action”</mj-text>
           <mj-text mj-class="p">Buttons which amplify <span class="bold">action</span> over <span class="bold">value</span> usually perform better</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/eee2.png" alt="Drifts landing page"></mj-image>
           <mj-text mj-class="h2under">Sponsored by</mj-text>
           <mj-text mj-class="p">EmailOctopus. I use them to send this very newsletter. Cheap, reliable, and great customer support. <a class="underA subscribeColor" href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=newsletter&utm_campaign=may_2020_sponsorship&utm_content=landing_page" target="_blank">Check them out!</a></mj-text>
-          <mj-text mj-class="p">Best — Harry</mj-text>
+          <mj-text mj-class="p">Thanks for reading, Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">If you enjoyed the video please show some love<a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1268565213311311872" target="_blank"> on Twitter</a> or forward to your friends. It really does help :)</mj-text>
+          <mj-text mj-class="p">If you enjoyed the video I'd love it if you dropped the link in your companies Slack. Spice up your co-workers Friday!</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -135,7 +136,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">Anyone who got forwarded this. Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any marketing pals who'd enjoy the tips. Why not forward the email? Any newbies can join <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

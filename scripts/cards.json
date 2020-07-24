@@ -733,14 +733,14 @@
   },
   {
     "num": "9",
-    "title": "Real marketing",
-    "sUrl": "",
+    "title": "Real Marketing",
+    "sUrl": "real-marketing",
     "sText": "A collection",
-    "tFront": "Sales",
-    "tBack": "sales",
+    "tFront": "Misc",
+    "tBack": "misc",
     "slug": "real-marketing",
     "img": "pata",
     "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+    "desc": "Lifeless marketing is everywhere and we copy it without thinking. So I thought I'd share some examples of real stuff."
   }
 ]

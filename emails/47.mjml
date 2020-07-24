@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 38px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 38px 12px 38px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#045 - Make your Marketing Realer</mj-text>
+          <mj-text mj-class="h3" align="center">(Raw • 3 mins • <a class="underB" href="https://marketingexamples.com/misc/real-marketing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_47" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey everyone. Sorry for the delay. Ended up taking a little holiday. Needed an oil change. But I'm back with a vengeance.</mj-text>
+          <mj-text mj-class="p"><span class="italic">This one is all about bringing your marketing to life. Hope you enjoy.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Let's start with this image.</mj-text>
+          <mj-text mj-class="p">Same title. Same painting. Same subreddit. One gets <span class="bold">300</span> votes. The other gets <span class="bold">70,000</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs1.jpg" alt="But it's rare"></mj-image>
+          <mj-text mj-class="p">People love <span class="italic">REAL</span> stuff. But it's rare.</mj-text>
+          <mj-text mj-class="p">Lifeless marketing is everywhere and we copy it without thinking.</mj-text>
+          <mj-text mj-class="p">So I thought I'd share some examples of <span class="italic">REAL</span> stuff.</mj-text>
+          <mj-text mj-class="h2under">1) Taleb's social proof</mj-text>
+          <mj-text mj-class="p">Publishers say bestsellers need endorsements from fancy media.</mj-text>
+          <mj-text mj-class="p">Nassim Taleb disagreed. For his latest book he replaced praise from <span class="italic">Economist et al.</span> with words from real readers.</mj-text>
+          <mj-text mj-class="p">Readers connect with readers in a way <span class="italic">The Economist</span> can't.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs2.png" alt="The Economist"></mj-image>
+          <mj-text mj-class="h2under">2) Patagonia's images</mj-text>
+          <mj-text mj-class="p">In the 1980s all outdoor fashion catalogs looked the same.</mj-text>
+          <mj-text mj-class="p">Paid models. Fake hikes.</mj-text>
+          <mj-text mj-class="p">Patagonia’s founder, Yvon Chouinard, was sick of it. So he placed a note in their catalog asking customers to send in real photos.</mj-text>
+          <mj-text mj-class="p">Suddenly Patagonia stood out. They still only use real customers today.</mj-text>
+          <mj-text mj-class="p inwardSpeech">A real surfer showing a little skin is a lot sexier than a half-dressed, anonymous model — Yvon Chouinard</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs3.jpg" alt="anonymous model"></mj-image>
+          <mj-text mj-class="h2under">3) Rihanna's copy</mj-text>
+          <mj-text mj-class="p">Most product launches feel like a copy and paste job.</mj-text>
+          <mj-text mj-class="p">Look what happens when Rihanna drops the clichés and talks like a real person.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs4.png" alt="real person"></mj-image>
+          <mj-text mj-class="h2under">4) Chanel's drawings</mj-text>
+          <mj-text mj-class="p">Real means human.</mj-text>
+          <mj-text mj-class="p">For Mother's Day this year <span class="italic">Chanel</span> asked employees' kids to draw their products.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs6.png" alt="draw their products"></mj-image>
+          <mj-text mj-class="h2under">5) Beachbody's Ads</mj-text>
+          <mj-text mj-class="p">Play these two ads from Beachbody's CEO.</mj-text>
+          <mj-text mj-class="p">The first is your classic clean-cut ad. The second feels like a fitness vlog. Dropping sweat. Off-the-cuff.</mj-text>
+          <mj-text mj-class="p">Much more authentic.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs9.jpg" alt="Dropping sweat" href="https://s3.amazonaws.com/harrydry/gdmarketing/rs2.mp4"></mj-image>
+          <mj-text mj-class="h2under">6) People's Vote Ads</mj-text>
+          <mj-text mj-class="p">The <span class="italic">People's Vote</span> Campaign spent more than £800k in the lead up to the 2019 UK election. Fancy cameras, expensive lighting, etc...</mj-text>
+          <mj-text mj-class="p">Their best performing ad? Staff talking to an iPhone on their way to work.</mj-text>
+          <mj-image mj-class="cImg img300" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs5.jpg" alt="lead up to" href="https://s3.amazonaws.com/harrydry/gdmarketing/rs1.mp4"></mj-image>
+          <mj-text mj-class="h2under">To wrap up</mj-text>
+          <mj-text mj-class="p">I'll leave you with my <span class="bold">real marketing manifesto:</span></mj-text>
+          <mj-text mj-class="p inwardSpeech">Real people. Real words. Real customers. Anything else goes.</mj-text>
+          <mj-text mj-class="p">I spent yesterday applying it to my email popup.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs8.png" alt="Online marketing groups"></mj-image>
+          <mj-text mj-class="h2under">Sponsored by</mj-text>
+          <mj-text mj-class="p">EmailOctopus. I use them to send this very newsletter. Cheap, reliable, and great customer support. <a class="underA subscribeColor" href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=newsletter&utm_campaign=may_2020_sponsorship&utm_content=landing_page" target="_blank">Check them out!</a></mj-text>
+          <mj-text mj-class="p">Thanks for reading, Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">If you enjoyed the newsletter please show some love<a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1286688237633798146" target="_blank"> on Twitter</a> or forward to your friends. It really does help :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">If you enjoyed the video the other week <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=BorUVHSnAyk" target="_blank">I made another</a> about why brands tell stories.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">Anyone who got forwarded this. Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

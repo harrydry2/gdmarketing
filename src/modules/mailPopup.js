@@ -67,11 +67,11 @@ function mouseoutFun(e) {
 }
 
 export function mailPopup() {
-  const mailButton = $('.mail__bc .mail__button');
-  const mailInput = $('.mail__bc .mail__input > input');
-  const mailRed = $('.mail__bc .mail__bc-red');
+  const mailButton = $('.newmail__input-input .newmail__input-input-button');
+  const mailInput = $('.newmail__input-input input');
+  const mailRed = $('.newmail__input .newmail__input-red');
   const outerMail = $('.outerMail');
-  const mailClose = $('.mail__icon');
+  const mailClose = $('.newmail__icon');
 
   const lsMail = window.localStorage.getItem('lsmail');
   const onEmailList = window.localStorage.getItem('onEmailList');

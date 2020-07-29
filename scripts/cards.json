@@ -733,6 +733,18 @@
   },
   {
     "num": "9",
+    "title": "Ahrefs' Social Proof",
+    "sUrl": "https://www.ahrefs.com",
+    "sText": "Ahrefs",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "ahrefs-social-proof",
+    "img": "asp",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
     "title": "How Joe Ades sold potato peelers",
     "sUrl": "https://www.thebodycoach.com/",
     "sText": "Joe Ades",

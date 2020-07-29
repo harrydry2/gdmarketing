@@ -5,20 +5,705 @@ mixin tick(text)
 
 mixin mail(subscribePage)
   .outerMail(class=`${subscribePage}`)
-    .mail
-      .mail__icon!=icon("cross")
-      h2 Join 25,109 marketers getting one practical case study every week.
-      .mail__tickouter
-        +tick("Real startups")
-        +tick("Actionable tips")
-        +tick("2 minute read")
-        +tick("< 0.4% unsubscribe")
-        +tick("Free, forever")
-      .mail__bc
-        .mail__input
-          .mail__input-icon!=icon("mail")
-          input(placeholder="example@example.com")
-        .mail__button Upgrade my marketing
-        .mail__bc-red
-      a(href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=website&utm_campaign=may_2020_sponsorship&utm_content=subscribe_page" target="blank").mailO Powered by!{' '}
-        span EmailOctopus
+    //- .mail
+    //-   .mail__icon!=icon("cross")
+    //-   h2 Join 25,109 marketers getting one practical case study every week.
+    //-   .mail__tickouter
+    //-     +tick("Real startups")
+    //-     +tick("Actionable tips")
+    //-     +tick("2 minute read")
+    //-     +tick("< 0.4% unsubscribe")
+    //-     +tick("Free, forever")
+    //-   .mail__bc
+    //-     .mail__input
+    //-       .mail__input-icon!=icon("mail")
+    //-       input(placeholder="example@example.com")
+    //-     .mail__button Upgrade my marketing
+    //-     .mail__bc-red
+    //-   a(href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=website&utm_campaign=may_2020_sponsorship&utm_content=subscribe_page" target="blank").mailO Powered by!{' '}
+    //-     span EmailOctopus
+    .newmail
+      .newmail__icon!=icon("cross")
+      .newmail__text
+        .newmail__harry
+          .newmail__harry-p Hey, I'm Harry
+          img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/harry.jpg", alt="")
+        .newmail__text-p Each week I share a new case study in!{' '}
+          span.bold my newsletter
+          | .
+        .newmail__text-p It’s short, sweet, and practical.
+        .newmail__text-p
+          span.bold 26k
+          |!{' '}marketers read it. I’d love you to join.
+      .newmail__input
+        .newmail__input-input
+          input(placeholder="Your email")
+          .newmail__input-input-button Try it
+        .newmail__input-red
+      .newmail__test
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/14.jpg", alt="Dave Gerhadt")
+          .testy__text My!{' '}
+            span.bold favourite
+            |!{' '}newsletter on the internet
+          .testy__num 1
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1a.jpg", alt="Dave Gerhadt")
+          .testy__text I have read!{' '}
+            span.bold every. single. article.
+          .testy__num 2
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text The newsletter is so!{' '}
+            span.bold f***ing great
+            | !
+          .testy__num 3
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/19.jpg", alt="Dave Gerhadt")
+          .testy__text Most marketing wisdom per email!{' '}
+            span.bold of all time.
+          .testy__num 4
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/16.jpg", alt="Dave Gerhadt")
+          .testy__text No fluff marketing that works!{' '}
+            span.bold right now.
+          .testy__num 5
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/6.jpg", alt="Dave Gerhadt")
+          .testy__text The only site I share with!{' '}
+            span.bold every person
+            |!{' '}every person that joins my team
+          .testy__num 6
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/7.jpg", alt="Dave Gerhadt")
+          .testy__text I!{' '}
+            span.bold literally
+            |!{' '}can't wait for new articles
+          .testy__num 7
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/8.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text
+            span.bold One of the few
+            |!{' '}newsletters I look forward to
+          .testy__num 8
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/2a.jpg", alt="Dave Gerhadt")
+          .testy__text If you don’t read Marketing Examples!{' '}
+            span.bold you aren’t really a marketer
+          .testy__num 9
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/9.jpg", alt="Dave Gerhadt")
+          .testy__text 🦄🦄🦄 —!{' '}
+            span.bold Nuff said!
+            |
+          .testy__num 10
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/2.jpg", alt="Dave Gerhadt")
+          .testy__text I am!{' '}
+            span.bold addicted!
+          .testy__num 11
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/12.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold Every post
+            |!{' '}is filled with insightful and clever tips
+          .testy__num 12
+        .testy.testy3
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/989009665680859136/8BLSfMDP_200x200.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text I open the moment I see it, and read from!{' '}
+            span.bold start to end
+            | .
+          .testy__num 13
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/48.jpg", alt="Dave Gerhadt")
+          .testy__text Concise. Actionable. Practical.
+          .testy__num 14
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/15.jpg", alt="Dave Gerhadt")
+          .testy__text Marketing!{' '}
+            span.bold made easy
+            |
+          .testy__num 15
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/5.jpg", alt="Dave Gerhadt")
+          .testy__text There’s “marketing examples”. Then there’s!{' '}
+            span.bold the Marketing Examples
+          .testy__num 16
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/17.jpg", alt="Dave Gerhadt")
+          .testy__text Wins at practical, actionable advice.!{' '}
+            span.bold No more words
+            | .
+          .testy__num 17
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/18.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text A!{' '}
+            span.bold must read
+            |!{' '}for every marketer
+          .testy__num 18
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1150125058544812032/W_epTNWm_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text The!{' '}
+            span.bold Sir Alex Ferguson
+            |!{' '}of marketing
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/20.jpg", alt="Dave Gerhadt")
+          .testy__text You!{' '}
+            span.bold ALWAYS
+            |!{' '}find something useful
+          .testy__num 20
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/21.jpg", alt="Dave Gerhadt")
+          .testy__text The!{' '}
+            span.bold best thing
+            |!{' '}a Harry has ever made on the web!
+          .testy__num 21
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/22.jpg", alt="Dave Gerhadt")
+          .testy__text I!{' '}
+            span.bold love
+            |!{' '}Marketing Examples!
+          .testy__num 22
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/23.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text Shows,!{' '}
+            span.bold inspires
+            | , teaches.
+          .testy__num 23
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/24.jpg", alt="Dave Gerhadt")
+          .testy__text Just!{' '}
+            span.bold really
+            |!{' '}f*cking great!
+          .testy__num 24
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/25.jpg", alt="Dave Gerhadt")
+          .testy__text Learnt more about marketing!{' '}
+            span.bold here
+            |!{' '}than my marketing degree.
+          .testy__num 25
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/26.jpg", alt="Dave Gerhadt")
+          .testy__text Better than!{' '}
+            span.bold business school
+          .testy__num 26
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/27.jpg", alt="Dave Gerhadt")
+          .testy__text I enjoy reading!{' '}
+            span.bold every
+            |!{' '}thread
+          .testy__num 27
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/28.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text Consistently stands above!{' '}
+            span.bold 90%
+            |!{' '}of the marketing BS.
+          .testy__num 28
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/29.jpg", alt="Dave Gerhadt")
+          .testy__text The!{' '}
+            span.bold most comprehensive
+            | , real-world examples
+          .testy__num 29
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/30.jpg", alt="Dave Gerhadt")
+          .testy__text B*llshit free newsletter that provides!{' '}
+            span.bold REAL
+            |!{' '}value.
+          .testy__num 30
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/4.jpg", alt="Dave Gerhadt")
+          .testy__text Shit you!{' '}
+            span.bold actually want
+            |!{' '}in your inbox
+          .testy__num 31
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/31.jpg", alt="Dave Gerhadt")
+          .testy__text How is this still!{' '}
+            span.bold free?
+          .testy__num 32
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/32.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text The!{' '}
+            span.bold only email
+            |!{' '}that makes me jump out of bed
+          .testy__num 33
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1222146018688430080/utMGXtsU_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text When I need!{' '}
+            span.bold marketing inspiration
+            | , I head to Marketing Examples.
+          .testy__num 34
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1260681717385269248/5qAb_ED9_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold No BS!
+          .testy__num 35
+        .testy.testy1
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1284001281825267712/NMAeoo7g_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold Stands out
+            |!{' '}amongst the crowd
+          .testy__num 36
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/36.jpg", alt="Dave Gerhadt")
+          .testy__text Sadly, there's!{' '}
+            span.bold only one
+            |!{' '}Harry Dry
+          .testy__num 37
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/37.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text One of the!{' '}
+            span.bold best marketers
+            |!{' '}I know
+          .testy__num 38
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/38.jpg", alt="Dave Gerhadt")
+          .testy__text Federer!{' '}
+            span.bold serve and volley
+            |!{' '}good!
+          .testy__num 39
+        .testy.testy5
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/39.jpg", alt="Dave Gerhadt")
+          .testy__text The most important thing is!{' '}
+            span.bold it works!
+          .testy__num 40
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/40.png", alt="Dave Gerhadt")
+          .testy__text
+            span.bold A++
+          .testy__num 41
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/41.jpg", alt="Dave Gerhadt")
+          .testy__text I have!{' '}
+            span.bold no regrets
+            | .
+          .testy__num 42
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/42.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text
+            span.bold Dangerous!{' '}
+            | in the wrong hands.
+          .testy__num 43
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1245743985966166016/YzP4Q5gE_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text I!{' '}
+            span.bold haven't
+            |!{' '}read a bad post yet.
+          .testy__num 44
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1288199968784867328/X1T4GWqW_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text You feel like the guy on the other side!{' '}
+            span.bold actually cares!
+          .testy__num 45
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/45.jpg", alt="Dave Gerhadt")
+          .testy__text I!{' '}
+            span.bold wanna be Harry
+            |!{' '}when I grow up
+          .testy__num 46
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/46.jpg", alt="Dave Gerhadt")
+          .testy__text Essential newsletter for marketers.
+          .testy__num 47
+        .testy.testy3
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/47.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text
+            span.bold No theory.
+            |!{' '}Practical advice.
+          .testy__num 48
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/49.jpg", alt="Dave Gerhadt")
+          .testy__text You should!{' '}
+            span.bold build a school
+            |!{' '}for marketing. I'd pay.
+          .testy__num 49
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/875710160559374336/Jv3ZNxyH_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text All!{' '}
+            span.bold killer
+            | . No!{' '}
+            span.bold filler
+            | .
+          .testy__num 50
+        .testy.testy1
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/52.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold Gems everywhere.
+            | !{' '}I read through every post.
+          .testy__num 51
+        .testy.testy4
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/53.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold The best
+            |!{' '}newsletter I'm subscribed to.
+          .testy__num 52
+        .testy.testy3
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1260367797881843713/OkZLWGuP_200x200.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text What!{' '}
+            span.bold I show to friends
+            |!{' '}that want to learn marketing
+          .testy__num 53
+        .testy.testy2
+          .testy__img
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/55.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold Every marketer
+            |!{' '}needs to sign up to this newsletter
+          .testy__num 54
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1145449860759543809/vnqC6-XS_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text The!{' '}
+            span.bold Michelin Star
+            |!{' '}of marketing
+          .testy__num 55
+        .testy.testy1
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1093883461310521344/l1i7ul5M_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text The most!{' '}
+            span.bold insights per word
+            |!{' '}on the web
+          .testy__num 56
+        .testy.testy4
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1164265697452666880/8p1qCBOG_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Harry says in!{' '}
+            span.bold 5 words
+            |!{' '}what others say in 200.
+          .testy__num 57
+        .testy.testy3
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1142338684970328064/hG7vG3VA_200x200.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text Harry, when are you going to!{' '}
+            span.bold charge
+            |!{' '}for this?
+          .testy__num 58
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1140294556719767552/OSa3O1Ox_400x400.jpg", alt="Dave Gerhadt")
+          .testy__text The!{' '}
+            span.bold most actionable
+            |!{' '}No BS marketing insights
+          .testy__num 59
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1268030962832748545/NgPv9JuA_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Little deposits of!{' '}
+            span.bold marketing gold
+            |!{' '}in my inbox
+          .testy__num 60
+        .testy.testy1
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1169801700950937602/qbuv9msU_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text One of those!{' '}
+            span.bold rare newsletters
+            |!{' '}that's always worth my time
+          .testy__num 61
+        .testy.testy4
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1270543549998657537/Lk0UziMJ_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text The email turned my phone into a solid brick!{' '}
+            spanb.bold of gold
+          .testy__num 62
+        .testy.testy3
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1265594546739720200/M6hMrn1c_200x200.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text My!{' '}
+            span.bold go-to
+            |!{' '}any time I need inspiration
+          .testy__num 63
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1274101975991361537/ocWUDRHy_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text The!{' '}
+            span.bold only
+            |!{' '}marketing email I read.
+          .testy__num 64
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/950976114469625856/SylJCLlQ_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Best!{' '}
+            span.bold 8-12 minutes
+            |!{' '} I spent last week.
+          .testy__num 65
+        .testy.testy1
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1207248439312076806/MQWQcXHU_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text A newsletter I!{' '}
+            span.bold can't live without
+            | !
+          .testy__num 66
+        .testy.testy4
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1078038973321117696/i-rCqe3M_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Harry!{' '}
+            span.bold knows his s**t
+            |.
+          .testy__num 67
+        .testy.testy3
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1017500391313833984/YvQZAo1z_200x200.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text The!{' '}
+            span.bold best
+            |!{' '}marketing newsletter around!
+          .testy__num 68
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1009177224866664453/IFM9gFP7_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text The articles are!{' '}
+            span.bold such
+            |!{' '}an easy read!
+          .testy__num 69
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1274444197446246401/sJbX4PeF_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text
+            span.bold Exactly
+            |!{' '}what you want from a newsletter 👏🏾
+          .testy__num 70
+        .testy.testy1
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/687001944863277056/DyHZA8uK_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text One of!{' '}
+            span.bold few newsletters
+            |!{' '}I consistently open
+          .testy__num 71
+        .testy.testy4
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1206516333652959232/Adc78quQ_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Absolutely!{' '}
+            span.bold love it!
+          .testy__num 72
+        .testy.testy3
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1083644374364377093/fJWF_Mjz_200x200.jpg", alt="Anne-Laure Le-Cnuff")
+          .testy__text Should be part of!{' '}
+            span.bold student curriculum
+            | !
+          .testy__num 73
+        .testy.testy2
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1187010941914927107/4VfcMYow_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Truly!{' '}
+            span.bold appreciate
+            |!{' '}your content
+          .testy__num 74
+        .testy.testy5
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1283805322268889090/8zqTj8Id_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text Who needs a!{' '}
+            span.bold uni textbook
+            |!{' '}when you have Marketing Examples?
+          .testy__num 75
+        .testy.testy1
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/1168918552998531072/HWgVgtiu_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text A genius that!{' '}
+            span.bold actually
+            |!{' '}gives a sh*t
+          .testy__num 76
+        .testy.testy4
+          .testy__img
+            img(src="https://pbs.twimg.com/profile_images/980191016622977025/iUPKNnoI_200x200.jpg", alt="Dave Gerhadt")
+          .testy__text I have!{' '}
+            span.bold multiple notifications
+            |!{' '}so I never miss it!
+          .testy__num 77
+        //- .testy.testy3
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Anne-Laure Le-Cnuff")
+        //-   .testy__text The newsletter is so!{' '}
+        //-     span.bold f***ing great
+        //-     | !
+        //-   .testy__num 78
+        //- .testy.testy2
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-   .testy__num 79
+        //- .testy.testy5
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold The best
+        //-     |!{' '} newsletter I'm subscribed to.
+        //-   .testy__num 80
+        //- .testy.testy1
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold
+        //-   .testy__num 81
+        //- .testy.testy4
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text I have read!{' '}
+        //-     span.bold every. single. article.
+        //-   .testy__num 82
+        //- .testy.testy3
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Anne-Laure Le-Cnuff")
+        //-   .testy__text The newsletter is so!{' '}
+        //-     span.bold f***ing great
+        //-     | !
+        //-   .testy__num 83
+        //- .testy.testy2
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-   .testy__num 84
+        //- .testy.testy5
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold The best
+        //-     |!{' '} newsletter I'm subscribed to.
+        //-   .testy__num 85
+        //- .testy.testy1
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold
+        //-   .testy__num 86
+        //- .testy.testy4
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text I have read!{' '}
+        //-     span.bold every. single. article.
+        //-   .testy__num 87
+        //- .testy.testy3
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Anne-Laure Le-Cnuff")
+        //-   .testy__text The newsletter is so!{' '}
+        //-     span.bold f***ing great
+        //-     | !
+        //-   .testy__num 88
+        //- .testy.testy2
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-   .testy__num 89
+        //- .testy.testy5
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold The best
+        //-     |!{' '} newsletter I'm subscribed to.
+        //-   .testy__num 90
+        //- .testy.testy1
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold
+        //-   .testy__num 91
+        //- .testy.testy4
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text I have read!{' '}
+        //-     span.bold every. single. article.
+        //-   .testy__num 92
+        //- .testy.testy3
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Anne-Laure Le-Cnuff")
+        //-   .testy__text The newsletter is so!{' '}
+        //-     span.bold f***ing great
+        //-     | !
+        //-   .testy__num 93
+        //- .testy.testy2
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-   .testy__num 94
+        //- .testy.testy5
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold The best
+        //-     |!{' '} newsletter I'm subscribed to.
+        //-   .testy__num 95
+        //- .testy.testy1
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold
+        //-   .testy__num 96
+        //- .testy.testy4
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text I have read!{' '}
+        //-     span.bold every. single. article.
+        //-   .testy__num 97
+        //- .testy.testy3
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Anne-Laure Le-Cnuff")
+        //-   .testy__text The newsletter is so!{' '}
+        //-     span.bold f***ing great
+        //-     | !
+        //-   .testy__num 98
+        //- .testy.testy2
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-   .testy__num 99
+        //- .testy.testy5
+        //-   .testy__img
+        //-     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/1.jpg", alt="Dave Gerhadt")
+        //-   .testy__text
+        //-     span.bold The best
+        //-     |!{' '} newsletter I'm subscribed to.
+        //-   .testy__num 100
+

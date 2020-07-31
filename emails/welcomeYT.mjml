@@ -50,8 +50,8 @@
         <mj-column>
           <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
           <mj-text mj-class="h1" align="center">Welcome to Marketing Examples</mj-text>
-          <mj-text mj-class="p">It feels awesome to know that people enjoy reading my articles. Thank you for subscribing. Expect one email per week.</mj-text>
-          <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> where I share quick marketing tips. I've compiled them all <a class="underA" href="https://twitter.com/i/events/1190303234520428544" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">It feels awesome to know that people enjoy my articles. Thank you for subscribing. Expect one email per week.</mj-text>
+          <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> where I share quick tips. I've compiled them <a class="underA" href="https://twitter.com/i/events/1190303234520428544" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="p">If you're in the mood here's some of my favourite case studies:</mj-text>
           <mj-text mj-class="p list list__top"> • <a class="underA" href="https://marketingexamples.com/viral/lil-nas-x" target="_blank">The marketing genius of Lil Nas X</a></mj-text>
           <mj-text mj-class="p list"> • <a class="underA" href="https://marketingexamples.com/copywriting/tips" target="_blank">17 tips for great copywriting</a></mj-text>
@@ -62,7 +62,7 @@
           <mj-text mj-class="p list list__bottom"> • Apple Mail: <span class="italic">Tap on email address near top (next to “From:”) > Add to VIP</span></mj-text>
           <mj-text mj-class="p">Thank you once again. I really do appreciate people reading.</mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
-          <mj-text mj-class="p">P.S. I made my very first <a class="underA" href="https://www.youtube.com/watch?v=_OMrvqU4Blk" target="_blank">YouTube video </a> last week</mj-text>
+          <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if ya want! </mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

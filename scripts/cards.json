@@ -13,6 +13,18 @@
   },
   {
     "num": "9",
+    "title": "How brands make friends on Twitter",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "Fast",
+    "tFront": "Social Media",
+    "tBack": "socialmedia",
+    "slug": "fast",
+    "img": "fast",
+    "imgType": "jpg",
+    "desc": "Fast coins term “Fastronaut”. Tweets “reply and we'll give your profile pic a Fastronaut helmet”"
+  },
+  {
+    "num": "9",
     "title": "Growth Loops",
     "sUrl": "https://www.reforge.com/blog/growth-loops`",
     "sText": "Reforge",
@@ -728,6 +740,18 @@
     "tBack": "coldemail",
     "slug": "write-personalised-cold-emails",
     "img": "beamery",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Unsplash SEO Mayhem",
+    "sUrl": "https://www.towerpaddleboards.com/",
+    "sText": "Tower Paddle Boards",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "unsplash",
+    "img": "un",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   },

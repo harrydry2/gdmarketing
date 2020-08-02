@@ -10,5 +10,5 @@ mixin pCard({num, title, sUrl, sText, tFront, tBack, slug, img, imgType})
       .pCard__bottom
         .pCard__bottom-link
           .ideaSVG!=icon("ideaSVG")
-          a(href=`${sUrl}` target="_blank").pCard__bottom-link-text=sText
+          .pCard__bottom-link-text=sText
         .pCard__bottom-tag(class=`ct__${tBack}`)=tFront

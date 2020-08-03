@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Using Unsplash for brand awareness and backlinks",
+    "sUrl": "https://www.towerpaddleboards.com/",
+    "sText": "Tower Paddle Boards",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "unsplash",
+    "img": "un",
+    "imgType": "jpg",
+    "desc": "One of my pals, Max, works for a paddleboard startup. They had some nice images from photoshoots. So he made an account on Unsplash (the photo discovery platform) and uploaded them. Five months later the images have 6M views. And 24k downloads."
+  },
+  {
+    "num": "9",
     "title": "Real Marketing",
     "sUrl": "real-marketing",
     "sText": "A collection",
@@ -745,18 +757,6 @@
   },
   {
     "num": "9",
-    "title": "Using Unsplash to build backlinks",
-    "sUrl": "https://www.towerpaddleboards.com/",
-    "sText": "Tower Paddle Boards",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "unsplash",
-    "img": "un",
-    "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
     "title": "How Joe Wicks started a movement",
     "sUrl": "https://www.thebodycoach.com/",
     "sText": "Joe Wicks",
@@ -775,6 +775,18 @@
     "tFront": "Sales",
     "tBack": "sales",
     "slug": "joe-ades",
+    "img": "ja",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "A guide to conversational copy",
+    "sUrl": "",
+    "sText": "Tips",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "conversational",
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."

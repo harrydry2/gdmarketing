@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "My guide to conversational copywriting",
+    "sUrl": "https://www.towerpaddleboards.com/",
+    "sText": "Tips",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "conversational",
+    "img": "con",
+    "imgType": "jpg",
+    "desc": "Conversational copy is writing how you talk. No sales megaphone. No corporate drone. Just a conversation. But that's easier said than done. So I've put together this guide (packed with examples) to help teach you."
+  },
+  {
+    "num": "9",
     "title": "Using Unsplash for brand awareness and backlinks",
     "sUrl": "https://www.towerpaddleboards.com/",
     "sText": "Tower Paddle Boards",
@@ -778,17 +790,5 @@
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "My guide to conversational copywriting",
-    "sUrl": "",
-    "sText": "Tips",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "conversational",
-    "img": "con",
-    "imgType": "jpg",
-    "desc": "Conversational copy is writing how you talk. No sales megaphone. No corporate drone. Just a conversation. But that's easier said than done. So I've put together this guide (packed with examples) to help teach you."
   }
 ]

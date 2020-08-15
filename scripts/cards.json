@@ -25,6 +25,18 @@
   },
   {
     "num": "9",
+    "title": "Dave Gerhardt's 1 line sales email",
+    "sUrl": "https://www.linkedin.com/in/davegerhardt/",
+    "sText": "Dave Gerhardt",
+    "tFront": "Sales",
+    "tBack": "sales",
+    "slug": "dave-gerhardt",
+    "img": "dave",
+    "imgType": "jpg",
+    "desc": "Imagine you're trying to sell an exec coaching program. Here's the 1 line email Dave Gerhardt would send. The goal is simple. Get a reply. A reply gives you something to work with."
+  },
+  {
+    "num": "9",
     "title": "Real Marketing",
     "sUrl": "real-marketing",
     "sText": "A collection",

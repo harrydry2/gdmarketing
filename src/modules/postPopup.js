@@ -32,6 +32,7 @@ export function postPopup(cards) {
       $('.iosOverflow').classList.add('noScroll');
       // show outer post
       $('.outerPost').style.display = 'flex';
+      $('.post').scrollTop = 0;
       // populate post
       const { slug } = e.currentTarget.dataset;
       $('.popupLoader').style.display = 'flex';

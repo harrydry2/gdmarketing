@@ -127,7 +127,6 @@ a {
   -webkit-overflow-scrolling: touch; }
 
 .noScroll {
-  position: fixed;
   height: 100%;
   overflow: hidden; }
 

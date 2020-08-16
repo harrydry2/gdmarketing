@@ -4,7 +4,7 @@ import { mailSubmitAddOn } from './mailPopup';
 
 function closePopup() {
   // post scroll to top on close
-  $('.post').scrollTop = 0;
+  // $('.post').scrollTop = 0;
   // remove outer post
   $('.outerPost').style.display = 'none';
   // remove no scroll and post no scroll

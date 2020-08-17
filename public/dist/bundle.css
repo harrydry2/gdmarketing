@@ -1375,7 +1375,7 @@ p {
 .content {
   width: 100%;
   background: #fff;
-  padding: 4rem 10rem; }
+  padding: 4rem 9rem; }
   @media screen and (max-width: 550px) {
     .content {
       padding: 2rem 0rem; } }

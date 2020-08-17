@@ -802,5 +802,17 @@
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Creative SEO with Carrie Rose",
+    "sUrl": "https://riseatseven.com/",
+    "sText": "Carrie Rose",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "creative",
+    "img": "ja",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

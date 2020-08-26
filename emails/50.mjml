@@ -1,0 +1,168 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 38px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 38px 12px 38px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#050 - A crash course in getting press and building links</mj-text>
+          <mj-text mj-class="h3" align="center">(Press • 3 mins • <a class="underB" href="https://marketingexamples.com/seo/press/?utm_source=newsletter&utm_medium=email&utm_campaign=email_49" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey everyone.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Today's story is about someone called Carrie. She's the co-founder of Rise at Seven, a creative SEO agency.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">A friend told me about her last year.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Ever since I’ve been consistently blown away by how easy she makes getting press look.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">And it’s not press for press's sake.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">The reward is high quality backlinks which help her clients rank for <span class="bold">ultra-competitive</span> search terms.</span></mj-text>
+          <mj-text mj-class="h2under">Lets start with an example</mj-text>
+          <mj-text mj-class="p"><span class="italic">Missguided</span> is a fashion retailer who started working with <span class="italic">Rise</span> last year.</mj-text>
+          <mj-text mj-class="p">Carrie looked at their site for 5 minutes, saw they sold dog jumpers, and knew there was a story there.</mj-text>
+          <mj-text mj-class="p">So she found some similar looking regular jumpers, and wrote the headline:</mj-text>
+          <mj-text mj-class="p inwardSpeech">Missguided launch matching jumpers for you and your dog this winter</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie1.jpg" alt="don't try"></mj-image>
+          <mj-text mj-class="p">The media loved it. The campaign pulled in 80 links. And <span class="italic">Missguided</span> soared from <span class="bold">#30</span> to <span class="bold">#1</span> for the search “dog jumpers”.</mj-text>
+          <mj-text mj-class="p">No big budget or photoshoot. Just the idea to link two pre-existing products with a clever headline.</mj-text>
+          <mj-text mj-class="h2under">Another example</mj-text>
+          <mj-text mj-class="p">November 2019, <span class="italic">Game</span> came to <span class="italic">Rise</span>.</mj-text>
+          <mj-text mj-class="p">They'd just launched a new webpage full of gaming chairs. The challenge was to rank this page in time for Christmas.</mj-text>
+          <mj-text mj-class="p">Now, getting press to link to a bunch of gaming chairs is near impossible. So, instead, Carrie dreamt up <span class="italic">The Christmas Tinner</span>.</mj-text>
+          <mj-text mj-class="p">A 3-course meal in a tin for hardcore gamers. And it was <span class="italic">this page</span> that then linked to their gaming chairs.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie3.jpg" alt="don't try"></mj-image>
+          <mj-text mj-class="p"><span class="italic">The Christmas Tinner</span> went viral.</mj-text>
+          <mj-text mj-class="p">“SEO juice” passed down. And within 3 weeks <span class="italic">Game's</span> gaming chair page was ranking for over <span class="bold">400</span> keywords.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie4.jpg" alt="don't try"></mj-image>
+          <mj-text mj-class="p">Honestly, I could tell a dozen more stories like this. But I think it’s more important to understand the process.</mj-text>
+          <mj-text mj-class="p">Carrie tells me the trick is learning to <span class="italic">think in headlines</span>.</mj-text>
+          <mj-text mj-class="p">For example, last Easter she worked with a sex toy startup. The first thing they do is figure out the headline:</mj-text>
+          <mj-text mj-class="p inwardSpeech">The world’s first Easter egg with a sex toy inside</mj-text>
+          <mj-text mj-class="p">Then they <span class="bold">work backwards</span> until it becomes reality.</mj-text>
+          <mj-text mj-class="p">Most people plough ahead with an idea. And, only when it's too late, realise there's no “hook”.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie5.jpg" alt="don't try"></mj-image>
+          <mj-text mj-class="p">Once you've got your story the final step is pitching it. Here's Carrie's crash course:</mj-text>
+          <mj-text mj-class="p list list__top"><span class="italic">1/ Journalists are busy. So make their life easy.</span> </mj-text>
+          <mj-text mj-class="p list"><span class="italic">2/ The email subject is my headline. I outline my article in the body. And embed my best image.</span></mj-text>
+          <mj-text mj-class="p list list__bottom"><span class="italic">3/ Journos open laptops at 8:30. So send outreach at 8.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie6.png" alt="don't try"></mj-image>
+          <mj-text mj-class="h2under">So there you go</mj-text>
+          <mj-text mj-class="p">14 months ago <span class="italic">Rise</span> launched with one client at £2k / mo.</mj-text>
+          <mj-text mj-class="p">Today revenue is £2M / yr. And yes, that is crazy!</mj-text>
+          <mj-text mj-class="p">It reminds me that nothing moves the needle like <span class="bold">genuine creativity</span>.</mj-text>
+          <mj-text mj-class="p">Because one 5 minute idea can have more impact than 100 guest posts.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Thanks for reading. And thanks to <a class="underA subscribeColor" href="https://www.linkedin.com/in/carrieroseballoch/" target="_blank">Carrie</a> for sharing her wizardry.</span></mj-text>
+          <mj-text mj-class="h2under">Sponsored by</mj-text>
+          <mj-text mj-class="p">EmailOctopus. I use them to send this very newsletter. Cheap, reliable, and great customer support. <a class="underA subscribeColor" href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=newsletter&utm_campaign=may_2020_sponsorship&utm_content=landing_page" target="_blank">Check them out!</a></mj-text>
+          <mj-text mj-class="p">Thanks for reading — Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Enjoy the article? Please do forward the email. Or pop the article in Slack. It really does makes a difference :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

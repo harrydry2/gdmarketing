@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "A crash course in getting press and building links",
+    "sUrl": "https://riseatseven.com/",
+    "sText": "Rise at Seven",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "press",
+    "img": "carrie",
+    "imgType": "jpg",
+    "desc": "Carrie Rose is the co-founder of Rise at Seven, a creative SEO agency. Over the last year I’ve been consistently blown away by how easy she makes getting press look. And it’s not press for press's sake. The reward is high quality backlinks which help her clients rank for ultra-competitive search terms."
+  },
+  {
+    "num": "9",
     "title": "My guide to conversational copywriting",
     "sUrl": "https://www.towerpaddleboards.com/",
     "sText": "Tips",
@@ -802,17 +814,5 @@
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "A crash course in getting press and building links",
-    "sUrl": "https://riseatseven.com/",
-    "sText": "Rise at Seven",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "press",
-    "img": "carrie",
-    "imgType": "jpg",
-    "desc": "Carrie Rose is the co-founder of Rise at Seven, a creative SEO agency. Over the last year I’ve been consistently blown away by how easy she makes getting press look. And it’s not press for press's sake. The reward is high quality backlinks which help her clients rank for ultra-competitive search terms."
   }
 ]

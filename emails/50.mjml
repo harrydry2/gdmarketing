@@ -94,10 +94,11 @@
           <mj-text mj-class="h1" align="center">#050 - A crash course in getting press and building links</mj-text>
           <mj-text mj-class="h3" align="center">(Press • 3 mins • <a class="underB" href="https://marketingexamples.com/seo/press/?utm_source=newsletter&utm_medium=email&utm_campaign=email_49" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Today's story is about someone called Carrie. She's the co-founder of Rise at Seven, a creative SEO agency.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">A friend told me about her last year.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Ever since I’ve been consistently blown away by how easy she makes getting press look.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">And it’s not press for press's sake.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I'm honestly pretty surprised. We made it to 50 newsletters.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">95 people read my first ever one. Now we're above 30,000!</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Anyhow, today's story is about a women called Carrie. She's the co-founder of Rise at Seven, a creative SEO agency.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Over the last year I’ve been consistently blown away by how easy she makes getting press look.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">And it’s not “press for press's sake”.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">The reward is high quality backlinks which help her clients rank for <span class="bold">ultra-competitive</span> search terms.</span></mj-text>
           <mj-text mj-class="h2under">Lets start with an example</mj-text>
           <mj-text mj-class="p"><span class="italic">Missguided</span> is a fashion retailer who started working with <span class="italic">Rise</span> last year.</mj-text>
@@ -133,16 +134,25 @@
           <mj-text mj-class="p">Today revenue is £2M / yr. And yes, that is crazy!</mj-text>
           <mj-text mj-class="p">It reminds me that nothing moves the needle like <span class="bold">genuine creativity</span>.</mj-text>
           <mj-text mj-class="p">Because one 5 minute idea can have more impact than 100 guest posts.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Thanks for reading. And thanks to <a class="underA subscribeColor" href="https://www.linkedin.com/in/carrieroseballoch/" target="_blank">Carrie</a> for sharing her wizardry.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Thanks for reading. And thanks to <a class="underA subscribeColor" href="https://www.linkedin.com/in/carrieroseballoch/" target="_blank">Carrie</a> for sharing her wizardry. Here's to 50 more newsletters!</span></mj-text>
           <mj-text mj-class="h2under">Sponsored by</mj-text>
           <mj-text mj-class="p">EmailOctopus. I use them to send this very newsletter. Cheap, reliable, and great customer support. <a class="underA subscribeColor" href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=newsletter&utm_campaign=may_2020_sponsorship&utm_content=landing_page" target="_blank">Check them out!</a></mj-text>
           <mj-text mj-class="p">Thanks for reading — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">PS. If anyone replies telling me what newsletter #001 was about I've got a surprise!<span class="italic"></mj-text>
         </mj-column>
       </mj-section>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
           <mj-text mj-class="p">Enjoy the article? Please do forward the email. Or pop the article in Slack. It really does makes a difference :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">10 second tip - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/dave-gerhardt" target="_blank">Dave Gerhardt's 1 line sales email</a>.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">

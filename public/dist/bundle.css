@@ -634,14 +634,14 @@ p {
       margin-bottom: 1.6rem; }
     .sponsor__inner-button {
       display: inline-flex;
-      background-color: #4742DE;
+      background-color: #054ada;
       padding: 1rem;
       font-size: 1.2rem;
       color: white;
       font-weight: 700;
       border-radius: 5px; }
   .sponsor img, .sponsor picture {
-    width: 4rem;
+    width: 6rem;
     border-radius: 100%; }
 
 .card {

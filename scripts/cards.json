@@ -814,5 +814,17 @@
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Andrew Schulz: Coming soon",
+    "sUrl": "https://theandrewschulz.com/",
+    "sText": "Andrew Schulz",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "andrew-schulz",
+    "img": "schulz",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

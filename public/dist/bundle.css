@@ -1436,7 +1436,7 @@ p {
         padding: .7rem 2rem; } }
   .content .inwardSpeech {
     font-style: italic;
-    padding: 1.2rem 5rem; }
+    padding: 1.2rem 4.5rem; }
     @media screen and (max-width: 550px) {
       .content .inwardSpeech {
         padding: 1rem 3.4rem; } }

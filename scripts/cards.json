@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "The marketing genius of Andrew Schulz",
+    "sUrl": "https://theandrewschulz.com/",
+    "sText": "Andrew Schulz",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "andrew-schulz",
+    "img": "schulz",
+    "imgType": "jpg",
+    "desc": "Let’s start in 2017. Andrew Schulz had been killing it in the New York comedy clubs for over a decade. But no network would give him a shot. So he filmed his own special. And handed it to the networks on a plate."
+  },
+  {
+    "num": "9",
     "title": "A crash course in getting press and building links",
     "sUrl": "https://riseatseven.com/",
     "sText": "Rise at Seven",
@@ -814,17 +826,5 @@
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "The marketing genius of Andrew Schulz",
-    "sUrl": "https://theandrewschulz.com/",
-    "sText": "Andrew Schulz",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "andrew-schulz",
-    "img": "schulz",
-    "imgType": "jpg",
-    "desc": "Let’s start in 2017. Andrew Schulz had been killing in the New York comedy clubs for over a decade. But no network would give him a shot. So he filmed his own special. And handed it to the networks on a plate."
   }
 ]

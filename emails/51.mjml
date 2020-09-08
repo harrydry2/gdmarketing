@@ -1,0 +1,173 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 30px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 30px 12px 30px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#051 - The marketing genius of Andrew Schulz</mj-text>
+          <mj-text mj-class="h3" align="center">(Audience building • 3 mins • <a class="underB" href="https://marketingexamples.com/viral/andrew-schulz/?utm_source=newsletter&utm_medium=email&utm_campaign=email_51" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey everyone. Today I've got a story about a New York comedian.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Except, it's really a blueprint for <span class="bold">anybody</span> trying to grow an audience. One of my favourites to write. Hope you enjoy it.</span></mj-text>
+          <mj-text mj-class="h2under">Pt 1</mj-text>
+          <mj-text mj-class="p">Let’s start in 2017.</mj-text>
+          <mj-text mj-class="p">Andrew Schulz had been killing it in the New York comedy clubs for over a decade. But no network would give him a shot.</mj-text>
+          <mj-text mj-class="p">So he spent $30k filming his own special. And handed it to the networks on a plate. <span class="italic">They still said no</span>.</mj-text>
+          <mj-text mj-class="p">Schulz realised he was going to have to make it alone. So he started analysing how people <span class="italic">actually</span> watch comedy.</mj-text>
+          <mj-text mj-class="p inwardSpeech">I asked all my friends about different specials and they all said the same thing, “Yeah, it was good. But I didn’t finish it.”</mj-text>
+          <mj-text mj-class="p inwardSpeech2">I figured the hour is too long.</mj-text>
+          <mj-text mj-class="p">So Schulz cut his special down to 16 minutes and put it on YouTube.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/sch1a.jpg" alt="wake up please cake"></mj-image>
+          <mj-text mj-class="p">He already had some subscribers from years of podcasting there. And it started getting traction.</mj-text>
+          <mj-text mj-class="p inwardSpeech">YouTube was working. So I started treating my YouTube channel like my own network.</mj-text>
+          <mj-text mj-class="p">With every new joke his channel grew. But coming up with fresh comedy every week was insane.</mj-text>
+          <mj-text mj-class="p">So Schulz started honing his improv. Because learning to roast the crowd meant new content <span class="italic">every night</span>.</mj-text>
+          <mj-text mj-class="p">He'd film every show. Sometimes 7 in one weekend. Hoping to get one electric clip for YouTube.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/sch2.jpg" alt="don't try"></mj-image>
+          <mj-text mj-class="p">Between 2018/19 Schulz uploaded 125 bits of live comedy. Contrast this with the comic who puts out one special a year.</mj-text>
+          <mj-text mj-class="p inwardSpeech">100 clips is 100 ways of discovering me. An hour on Netflix is one.</mj-text>
+          <mj-text mj-class="p inwardSpeech2">And who wants to listen to a stranger for an hour? But you'll listen to a 2-minute clip if a friend sent it to you.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/sch3.png" alt="Andrew Schulz 4:4:1 Special"></mj-image>
+          <mj-text mj-class="p">In two years his channel grew from 140k to 840k.</mj-text>
+          <mj-text mj-class="h2under">Pt 2</mj-text>
+          <mj-text mj-class="p">March 2020. Schulz was midway through his first worldwide tour. Then Coronavirus hit.</mj-text>
+          <mj-text mj-class="p">Most comedians were screwed. Schulz built a studio and started doing <span class="italic">Late Night</span> style monologues.</mj-text>
+          <mj-text mj-class="p">Except, the jokes weren't watered down to please network execs. Schulz was unfiltered. And people resonated.</mj-text>
+          <mj-text mj-class="p">For instance, contrast a “network” joke about Joe Biden with a Schulz one.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/sch5.jpg" alt="Andrew Schulz comedy roasts" href="https://s3.amazonaws.com/harrydry/gdmarketing/sch1.mp4"></mj-image>
+          <mj-text mj-class="p">Another thing Schulz nailed was distribution. He tailored his monologues to fit each social media platform</mj-text>
+          <mj-text mj-class="p">On Instagram he'd get your attention with a one-line intro. Then ask you to “turn your phone” to stop you scrolling by.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/sch6.jpg" alt="YouTube Vs Netflix for marketing" href="https://s3.amazonaws.com/harrydry/gdmarketing/sch2.mp4"></mj-image>
+          <mj-text mj-class="p">Schulz put out 17 monologues in 17 weeks averaging 2M views. That's more than the comedy networks who ignored him for 5 years.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Schulz’s story isn’t about comedy. It’s a lesson for anyone wanting to do anything.</mj-text>
+          <mj-text mj-class="p">When the gatekeepers don't let you in, <span class="italic">start your own thing</span>. Fail until it works. Then keep going until you've got momentum.</mj-text>
+          <mj-text mj-class="p">Schulz retells this Chris Rock story that sums it up:</mj-text>
+          <mj-text mj-class="p inwardSpeech">“You see someone on the side of the road with their car broken down. You drive by. But if you see somebody pushing their own car, you stop and help.”</mj-text>
+          <mj-text mj-class="p inwardSpeech2">I was an entitled little f***ing brat whining about not having a special. I helped myself. Then people helped me.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/sch4.jpg" alt="Andrew Schulz and Joe Rogan"></mj-image>
+          <mj-text mj-class="p"><span class="italic">Thank you for reading</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">If you learnt something (and are feeling generous) please do share with a friend or on <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1303330673726382083">Twitter</a>. It really makes a difference.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you sign up to get new articles <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a>. Short, sweet, and practical :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="22px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section padding-bottom="36px">
+        <mj-column>
+          <mj-text mj-class="h2under">New Sponsor</mj-text>
+          <mj-text mj-class="p">Exciting times. <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> have kindly sponsored me. I've used them for a while to help grow my search traffic. So it's a nice fit.</mj-text>
+          <mj-text mj-class="h2under">Tuesday tip (cause why not!)</mj-text>
+          <mj-text mj-class="p">Don't think about “capturing emails”. Think about creating something worth subscribing to.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip4.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p"><span class="italic">And that's a wrap. See you soon — Harry :)</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

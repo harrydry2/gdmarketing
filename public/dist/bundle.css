@@ -950,7 +950,7 @@ p {
   position: relative;
   flex-direction: column;
   border-radius: 2px;
-  height: 700px;
+  height: 80%;
   overflow-y: scroll; }
   @media screen and (max-width: 450px) {
     .newmail {

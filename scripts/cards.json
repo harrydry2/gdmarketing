@@ -826,5 +826,17 @@
     "img": "ja",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "£8k Instagram Giveaway → 1M followers",
+    "sUrl": "https://www.instagram.com/mollymaehague/",
+    "sText": "Molly-Mae",
+    "tFront": "Giveaway",
+    "tBack": "giveaway",
+    "slug": "molly-mae",
+    "img": "molly",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }
 ]

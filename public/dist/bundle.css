@@ -381,7 +381,7 @@ p {
           color: #4742DE; }
           @media screen and (max-width: 768px) {
             .home__right-header-icons a {
-              margin-left: 1.3rem;
+              margin-left: 1rem;
               font-size: 1.4rem; } }
       .home__right-header-wrap {
         padding: 1rem 2.6rem 1rem 2.2rem;

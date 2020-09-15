@@ -1,0 +1,161 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 38px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 38px 12px 38px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#052 - £8k Instagram Giveaway → 1M followers</mj-text>
+          <mj-text mj-class="h3" align="center">(Giveaway • 2 mins • <a class="underB" href="https://marketingexamples.com/giveaway/molly-mae/?utm_source=newsletter&utm_medium=email&utm_campaign=email_52" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey everyone. Hope you're well.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Last week my friends kept sharing this Instagram giveaway from ex Love Island star, Molly-Mae.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I'd never heard of her. But I'm a sucker for good marketing. So I investigated.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">In total she spent £8k on gifts. So far it's returned:</span></mj-text>
+          <mj-text mj-class="p list list__top"><span class="italic">• 270k new YouTube subscribers</span></mj-text>
+          <mj-text mj-class="p list"><span class="italic">• 210k new Instagram followers</span></mj-text>
+          <mj-text mj-class="p list list__bottom"><span class="italic">• 550k new followers of her brand</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">That's < 1p / fan. Possibly the best ROI I've ever seen.</span> </mj-text> <mj-text mj-class="p"><span class="italic">So I thought I'd break down why it worked so well.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/molly1.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">The most important thing Molly-Mae did was time her giveaway with reaching 1M YouTube subscribers.</mj-text>
+          <mj-text mj-class="p">This gave it <span class="italic">purpose</span>.</mj-text>
+          <mj-text mj-class="p">It wasn't just an attempt to get some new followers. It was a <span class="italic">celebration</span>. And people would much rather support the latter.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/molly2.jpg" alt="don't try"></mj-image>
+          <mj-text mj-class="p">Next, let's look at the specifics.</mj-text>
+          <mj-text mj-class="p">Molly-Mae asked followers to “like and tag”. She also offered bonus entries for “multiple tags” or if users shared the post to their stories.</mj-text>
+          <mj-text mj-class="p">Each one created a mini viral loop which helped the post spread.</mj-text>
+          <mj-text mj-class="p">And it worked. Her post got 1.9M comments (1900x her average).</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/molly3.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">So, the giveaway exploded. To the point where it was becoming a meme. Boys started sarcastically offering girls £5 to <span class="italic">not</span> enter.</mj-text>
+          <mj-text mj-class="p">The easy thing would be to not respond. But Molly did. And her self-awareness took ownership of the joke.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/molly5.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">Finally, let's talk results.</mj-text>
+          <mj-text mj-class="p">The aim of most giveaways is to grow the account hosting the giveaway.</mj-text>
+          <mj-text mj-class="p">But the problem is the people you’re targeting <span class="italic">already follow you</span>. It would be like running an ad <span class="italic">to your followers</span> asking them <span class="italic">to follow you</span>.</mj-text>
+          <mj-text mj-class="p">Molly-Mae realised giveaways are more effective at converting existing followers to <span class="italic">new platforms</span>.</mj-text>
+          <mj-text mj-class="p">She prioritised YouTube and her brand, <span class="italic">Filter by Molly-Mae</span>. And managed to pull 820k across!</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/molly4b.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">Okay. Last thing. Yes, it’s well-executed. But for £8k the return is still insane.</mj-text>
+          <mj-text mj-class="p">Molly-Mae's <span class="italic">personal brand</span> is what makes the difference.</mj-text>
+          <mj-text mj-class="p">If a fashion brand runs the same giveaway the numbers don't compare.</mj-text>
+          <mj-text mj-class="p">We don't celebrate brands. We celebrate individuals.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Thanks for reading. I hope you learnt something — Harry</span></mj-text>
+          <mj-text mj-class="h2under">New Sponsor</mj-text>
+          <mj-text mj-class="p">Exciting times. <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> have kindly sponsored me. I've used them for a while to help grow my search traffic. It makes SEO dead simple.</mj-text>
+          <mj-text mj-class="h2under">Tuesday tip!</mj-text>
+          <mj-text mj-class="p">Lego is cool. Seeing your daughter smile is cooler⁠</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip6a.jpg" alt="don't try"></mj-image>
+        </mj-column>
+      </mj-section>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Enjoy the newsletter? Please do forward the email. Or pop the article in Slack. It really does makes a huge difference :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

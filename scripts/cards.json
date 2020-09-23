@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "Why Burger King sponsored Stevenage F.C.",
+    "sUrl": "https://www.stevenagefc.com/",
+    "sText": "Burger King",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "stevenage-challenge",
+    "img": "stevenage",
+    "imgType": "jpg",
+    "desc": "You have to admire Burger King's creativity. For the 19/20 football season they sponsored Stevenage F.C. all to get their logo in FIFA 20. They then offered rewards for gamers to play as Stevenage, score goals, and share on Twitter."
+  },
+  {
+    "num": "9",
     "title": "£8k Instagram Giveaway → 1M followers",
     "sUrl": "https://www.instagram.com/mollymaehague/",
     "sText": "Molly-Mae",
@@ -836,6 +848,18 @@
     "tBack": "sales",
     "slug": "joe-ades",
     "img": "ja",
+    "imgType": "jpg",
+    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "The Michelin Guide — Classic content marketing",
+    "sUrl": "https://guide.michelin.com/gb/en",
+    "sText": "Michelin",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "michelin-guide",
+    "img": "michelin",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
   }

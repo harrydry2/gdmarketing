@@ -1,4 +1,4 @@
-mixin pCard({num, title, sUrl, sText, tFront, tBack, slug, img, imgType})
+mixin pCard({num, title, sUrl, sText, tFront, tBack, slug, img, imgType, done})
   .post__top
     img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}`).post__top-img
     .pCard(data-slug=`${slug}`)

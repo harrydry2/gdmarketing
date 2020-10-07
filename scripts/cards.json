@@ -861,18 +861,6 @@
     "slug": "michelin-guide",
     "img": "michelin",
     "imgType": "jpg",
-    "desc": ""
-  },
-  {
-    "num": "9",
-    "title": "“Michelin Guide” Marketing",
-    "sUrl": "https://guide.michelin.com/gb/en",
-    "sText": "Michelin",
-    "tFront": "Content",
-    "tBack": "content",
-    "slug": "michelin-guide2",
-    "img": "michelin",
-    "imgType": "jpg",
-    "desc": ""
+    "desc": "An old school content marketing story. France, 1900. Andre and Edouard Michelin had just started making tyres. The problem was there were less than 300 cars in France. So hoping to encourage car ownership they published the world's first “Michelin Guide”."
   }
 ]

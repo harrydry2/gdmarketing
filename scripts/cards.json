@@ -862,5 +862,17 @@
     "img": "michelin",
     "imgType": "jpg",
     "desc": ""
+  },
+  {
+    "num": "9",
+    "title": "“Michelin Guide” Marketing",
+    "sUrl": "https://guide.michelin.com/gb/en",
+    "sText": "Michelin",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "michelin-guide2",
+    "img": "michelin",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

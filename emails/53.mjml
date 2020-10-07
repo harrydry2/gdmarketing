@@ -91,68 +91,56 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#050 - A crash course in getting press and building links</mj-text>
-          <mj-text mj-class="h3" align="center">(Press • 3 mins • <a class="underB" href="https://marketingexamples.com/seo/press/?utm_source=newsletter&utm_medium=email&utm_campaign=email_49" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey everyone.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">I'm honestly pretty surprised. We made it to 50 newsletters.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">95 people read my first ever one. Now we're above 30,000!</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Anyhow, today's story is about a women called Carrie. She's the co-founder of Rise at Seven, a creative SEO agency.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Over the last year I’ve been consistently blown away by how easy she makes getting press look.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">And it’s not “press for press's sake”.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">The reward is high quality backlinks which help her clients rank for <span class="bold">ultra-competitive</span> search terms.</span></mj-text>
-          <mj-text mj-class="h2under">Lets start with an example</mj-text>
-          <mj-text mj-class="p"><span class="italic">Missguided</span> is a fashion retailer who started working with <span class="italic">Rise</span> last year.</mj-text>
-          <mj-text mj-class="p">Carrie looked at their site for 5 minutes, saw they sold dog jumpers, and knew there was a story there.</mj-text>
-          <mj-text mj-class="p">So she found some similar looking regular jumpers, and wrote the headline:</mj-text>
-          <mj-text mj-class="p inwardSpeech">Missguided launch matching jumpers for you and your dog this winter</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie1.jpg" alt="don't try"></mj-image>
-          <mj-text mj-class="p">The media loved it. The campaign pulled in 80 links. And <span class="italic">Missguided</span> soared from <span class="bold">#30</span> to <span class="bold">#1</span> for the search “dog jumpers”.</mj-text>
-          <mj-text mj-class="p">No big budget or photoshoot. Just the idea to link two pre-existing products with a clever headline.</mj-text>
-          <mj-text mj-class="h2under">Another example</mj-text>
-          <mj-text mj-class="p">November 2019, <span class="italic">Game</span> came to <span class="italic">Rise</span>.</mj-text>
-          <mj-text mj-class="p">They'd just launched a new webpage full of gaming chairs. The challenge was to rank this page in time for Christmas.</mj-text>
-          <mj-text mj-class="p">Now, getting press to link to a bunch of gaming chairs is near impossible. So, instead, Carrie dreamt up <span class="italic">The Christmas Tinner</span>.</mj-text>
-          <mj-text mj-class="p">A 3-course meal in a tin for hardcore gamers. And it was <span class="italic">this page</span> that then linked to their gaming chairs.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie3.jpg" alt="don't try"></mj-image>
-          <mj-text mj-class="p"><span class="italic">The Christmas Tinner</span> went viral.</mj-text>
-          <mj-text mj-class="p">“SEO juice” passed down. And within 3 weeks <span class="italic">Game's</span> gaming chair page was ranking for over <span class="bold">400</span> keywords.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie4.jpg" alt="don't try"></mj-image>
-          <mj-text mj-class="p">Honestly, I could tell a dozen more stories like this. But I think it’s more important to understand the process.</mj-text>
-          <mj-text mj-class="p">Carrie tells me the trick is learning to <span class="italic">think in headlines</span>.</mj-text>
-          <mj-text mj-class="p">For example, last Easter she worked with a sex toy startup. The first thing they do is figure out the headline:</mj-text>
-          <mj-text mj-class="p inwardSpeech">The world’s first Easter egg with a sex toy inside</mj-text>
-          <mj-text mj-class="p">Then they <span class="bold">work backwards</span> until it becomes reality.</mj-text>
-          <mj-text mj-class="p">Most people plough ahead with an idea. And, only when it's too late, realise there's no “hook”.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie5.jpg" alt="don't try"></mj-image>
-          <mj-text mj-class="p">Once you've got your story the final step is pitching it. Here's Carrie's crash course:</mj-text>
-          <mj-text mj-class="p list list__top"><span class="italic">1/ Journalists are busy. So make their life easy.</span> </mj-text>
-          <mj-text mj-class="p list"><span class="italic">2/ The email subject is my headline. I outline my article in the body. And embed my best image.</span></mj-text>
-          <mj-text mj-class="p list list__bottom"><span class="italic">3/ Journos open laptops at 8:30. So send outreach at 8.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/carrie6.png" alt="don't try"></mj-image>
-          <mj-text mj-class="h2under">So there you go</mj-text>
-          <mj-text mj-class="p">14 months ago <span class="italic">Rise</span> launched with one client at £2k / mo.</mj-text>
-          <mj-text mj-class="p">Today revenue is £2M / yr. And yes, that is crazy!</mj-text>
-          <mj-text mj-class="p">It reminds me that nothing moves the needle like <span class="bold">genuine creativity</span>.</mj-text>
-          <mj-text mj-class="p">Because one 5 minute idea can have more impact than 100 guest posts.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Thanks for reading. And thanks to <a class="underA subscribeColor" href="https://www.linkedin.com/in/carrieroseballoch/" target="_blank">Carrie</a> for sharing her wizardry. Here's to 50 more newsletters!</span></mj-text>
-          <mj-text mj-class="h2under">Sponsored by</mj-text>
-          <mj-text mj-class="p">EmailOctopus. I use them to send this very newsletter. Cheap, reliable, and great customer support. <a class="underA subscribeColor" href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=newsletter&utm_campaign=may_2020_sponsorship&utm_content=landing_page" target="_blank">Check them out!</a></mj-text>
-          <mj-text mj-class="p">Thanks for reading — Harry</mj-text>
-          <mj-text mj-class="p"><span class="italic">PS. If anyone replies telling me what newsletter #001 was about I've got a surprise!<span class="italic"></mj-text>
+          <mj-text mj-class="h1" align="center">#053 - “Michelin Guide” Marketing</mj-text>
+          <mj-text mj-class="h3" align="center">(Content • 3 mins • <a class="underB" href="https://marketingexamples.com/content/michelin-guide/?utm_source=newsletter&utm_medium=email&utm_campaign=email_53" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey. Sorry for the hold up.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">For some reason this article took me a while to get right. So long, in fact, it became a running joke in my family. Yes, they are hilarious.
+          </mj-text>
+          <mj-text mj-class="p"><span class="italic">Hope you enjoy it.</span></mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">Clermont-Ferrand, France, 1900.</span></mj-text>
+          <mj-text mj-class="p">Andre and Edouard Michelin had just started making tyres.</mj-text>
+          <mj-text mj-class="p">The problem was there were less than 300 cars in France.</mj-text>
+          <mj-text mj-class="p">So hoping to encourage car ownership they published the world's first <span class="italic">Michelin Guide</span>.</mj-text>
+          <mj-text mj-class="p">It was the ultimate guide for new motorists: maps, instructions on how to change tyres, locations of fine restaurants, etc.</mj-text>
+          <mj-text mj-class="p">And they printed 35,000 copies and gave them away for free.</mj-text>
+          <mj-text mj-class="p">Over the next decade the number of motorists soared. And so did demand for the guide.</mj-text>
+          <mj-text mj-class="p">The brothers started charging 7 francs and ramped up distribution. By 1908 different versions were being sold throughout Europe.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/mich1.jpg" alt="Michelin Guide content marketing"></mj-image>
+          <mj-text mj-class="p">It would have been easy to rest on their laurels. But each year the brothers took pride in improving the guide.</mj-text>
+          <mj-text mj-class="p">Shortly after the First World War they hired inspectors to visit restaurants. And the first <span class="italic">Michelin stars</span> were awarded.</mj-text>
+          <mj-text mj-class="p">By 1930 each new edition was a regular on France’s bestseller list.</mj-text>
+          <mj-text mj-class="p inwardSpeech">Why am I telling you this?</mj-text>
+          <mj-text mj-class="p">Well, The Michelin brothers made something so useful they never had to worry about selling tyres.</mj-text>
+          <mj-text mj-class="p">Car enthusiasts loved the <span class="italic">Michelin Guide</span>. What sort of tyres do you think they bought?</mj-text>
+          <mj-text mj-class="h2under">Confessions of an Advertising Man</mj-text>
+          <mj-text mj-class="p">In 1962 David Ogilvy had 19 clients.</mj-text>
+          <mj-text mj-class="p">He took a long vacation to write about everything he’d learnt from 14 years in advertising.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Confessions of an Advertising Man</span> sold 1 million copies. And in two decades Ogilvy's agency grew to 3000 clients and 267 offices around the world.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/mich2.png" alt="Ogilvy content marketing — Confessions of an Advertising Man"></mj-image>
+          <mj-text mj-class="h2under">River Pools</mj-text>
+          <mj-text mj-class="p">After the 2008 recession River Pools were on the brink of collapse.</mj-text>
+          <mj-text mj-class="p">They cut their $250k marketing budget and started writing blog posts answering <span class="italic">every single question</span> customers had ever asked them.</mj-text>
+          <mj-text mj-class="p">700 articles later they'd built <span class="italic">the Wikipedia for Fibreglass</span> pools. It saved their business. Every month pulling in 300k visitors to their website.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/mich3.png" alt="River Pools content marketing"></mj-image>
+          <mj-text mj-class="p">I'm re-telling these stories because their lessons have been forgotten.</mj-text>
+          <mj-text mj-class="p">Throwing a blog on a website and churning out content is the status quo. But what does it really achieve?</mj-text>
+          <mj-text mj-class="p">Content is winner takes all. The top 1% gets 99% of the attention.</mj-text>
+          <mj-text mj-class="p">So set out to create the <span class="italic">single best</span> resource for your niche.</mj-text>
+          <mj-text mj-class="p">And don't expect immediate results. Content compounds in a way other marketing channels can't.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/mich4.png" alt="Content marketing compounds"></mj-image>
+          <mj-text mj-class="p"><span class="italic">Thanks you for reading. I hope you learnt something — Harry</span></mj-text>
+          <mj-text mj-class="h2under">“Tuesday” tip</mj-text>
+          <mj-text mj-class="p">AOC's studied copywriting.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/mich6.png" alt="don't try"></mj-image>
+          <mj-text mj-class="h2under">Thanks to Ahrefs for sponsoring</mj-text>
+          <mj-text mj-class="p">They've just launched a <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">new product</a> which allows you to audit your site, monitor backlinks, and keywords.</mj-text>
+          <mj-text mj-class="p">Oh, and it's <span class="italic">free</span>. Worth checking out :)</mj-text>
         </mj-column>
-      </mj-section>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Enjoy the article? Please do forward the email. Or pop the article in Slack. It really does makes a difference :)</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="whiteSection" padding="9px 0">
-        <mj-column></mj-column>
-      </mj-section>
-      <mj-section mj-class="shareSection" background-color="#ffebef">
-        <mj-column>
-          <mj-text mj-class="p">10 second tip - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/dave-gerhardt" target="_blank">Dave Gerhardt's 1 line sales email</a>.</mj-text>
+          <mj-text mj-class="p">Enjoy this newsletter? Please do forward the email. Or pop the article in Slack. It really does makes a huge difference :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -160,7 +148,15 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Mini example - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/dave-gerhardt" target="_blank">Why Burger King sponsored Stevenage F.C.</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

@@ -1315,7 +1315,7 @@ p {
   overflow: hidden;
   z-index: 2;
   height: 100%;
-  width: 43rem;
+  width: 44rem;
   border-radius: 0px;
   justify-content: center;
   align-items: center; }
@@ -1338,12 +1338,15 @@ p {
     font-weight: 700;
     position: relative;
     z-index: 1;
-    width: 30.4rem;
+    width: 35rem;
     text-align: center; }
     @media screen and (max-width: 768px) {
       .pCard h1, .pCard h2 {
         font-size: 2.2rem;
         padding: 1rem; } }
+    @media screen and (max-width: 357px) {
+      .pCard h1, .pCard h2 {
+        width: 30.4rem; } }
   .pCard__bottom {
     display: flex;
     justify-content: space-between;

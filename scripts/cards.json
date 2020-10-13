@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "27 words that sum up the psychology of copywriting",
+    "sUrl": "http://www.blairwarren.com/one-sentence-persuasion/",
+    "sText": "1 min",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "psychology-of-persuasion",
+    "img": "ospa",
+    "imgType": "jpg",
+    "desc": "“People will do anything for those who encourage their dreams, justify their failures, allay their fears, confirm their suspicions, and help them throw rocks at their enemies.” — Blair Warren. Let's look at some examples."
+  },
+  {
+    "num": "9",
     "title": "“Michelin Guide” Marketing",
     "sUrl": "https://guide.michelin.com/gb/en",
     "sText": "Michelin",
@@ -850,17 +862,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "27 words that sum up the psychology of persuasion",
-    "sUrl": "http://www.blairwarren.com/one-sentence-persuasion/",
-    "sText": "1 min",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "psychology-of-persuasion",
-    "img": "ospa",
-    "imgType": "jpg",
-    "desc": "“People will do anything for those who encourage their dreams, justify their failures, allay their fears, confirm their suspicions, and help them throw rocks at their enemies.” — Blair Warren. Let's look at some examples."
   }
 ]

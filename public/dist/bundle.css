@@ -1338,7 +1338,7 @@ p {
     font-weight: 700;
     position: relative;
     z-index: 1;
-    width: 35rem;
+    width: 33.9rem;
     text-align: center; }
     @media screen and (max-width: 768px) {
       .pCard h1, .pCard h2 {

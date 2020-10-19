@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "What we can learn from Jürgen Klopp",
+    "sUrl": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+    "sText": "2 min",
+    "tFront": "Customers",
+    "tBack": "customers",
+    "slug": "jurgen-klopp",
+    "img": "jurgen",
+    "imgType": "jpg",
+    "desc": "Yesterday I saw this letter Liverpool manager, Jürgen Klopp, wrote to a young schoolboy dealing with anxiety. It’s remarkably thoughtful. But it didn’t surprise me. Klopp's been making people smile ever since he became a manager."
+  },
+  {
+    "num": "9",
     "title": "27 words that sum up the psychology of copywriting",
     "sUrl": "http://www.blairwarren.com/one-sentence-persuasion/",
     "sText": "1 min",
@@ -862,17 +874,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "How Jürgen Klopp makes fans smile",
-    "sUrl": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
-    "sText": "Jürgen Klopp",
-    "tFront": "Customers",
-    "tBack": "customers",
-    "slug": "jurgen-klopp",
-    "img": "jurgen",
-    "imgType": "jpg",
-    "desc": "Yesterday I saw this letter Liverpool manager, Jürgen Klopp, wrote to a young schoolboy dealing with anxiety. It’s remarkably thoughtful. But it didn’t surprise me. Klopp's been making people smile ever since he became a manager."
   }
 ]

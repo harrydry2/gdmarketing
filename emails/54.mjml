@@ -91,53 +91,72 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#054 - How Jürgen Klopp makes fans smile</mj-text>
-          <mj-text mj-class="h3" align="center">(Branding • 2 mins • <a class="underB" href="https://marketingexamples.com/customers/jurgen-klopp/?utm_source=newsletter&utm_medium=email&utm_campaign=email_54" target="_blank">Read on website</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey. Happy Monday morning!</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Today's newsletter is about the one, the only, Jürgen Klopp. As well as a few good old fashioned quick tips. Hope you enjoy it :)
-            </span></mj-text>
+          <mj-text mj-class="h1" align="center">#055 - Rewriting landing pages with a pro copywriter</mj-text>
+          <mj-text mj-class="h3" align="center">(Copywriting • 3 mins • <a class="underB" href="https://marketingexamples.com/copywriting/rewriting-landing-pages" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey. So last week I asked people on social media to “submit your company landing page” and I’d rewrite it.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Well, we did it! I teamed up with <a class="underA subscribeColor" href="https://www.linkedin.com/in/maguireannie/" target="_blank">Annie Maguire</a>, one of the best copywriters in the business.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Hopefully this gives you an insight into <span class="italic">the mind</span> of a pro copywriter.</span></mj-text>
+          <mj-text mj-class="h2under">1/ Everydae</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie8a.png" alt="Banquist landing page copywriting"></mj-image>
+          <mj-text mj-class="p">Put yourself in the customer's shoes. Kids don't care about “the next generation of SAT prep”. They care about “Acing the SAT”.</mj-text>
+          <mj-text mj-class="p">We also pulled up the $1 trial. And made the “five stars” feel REALER.</mj-text>
+          <mj-text mj-class="h2under">2/ Banquist</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie2.jpg" alt="Listen to customers copywriting"></mj-image>
+          <mj-text mj-class="p">Banquist is a unique product. But they waste their uniqueness with a vague title that could mean fifty different things.</mj-text>
+          <mj-text mj-class="p">When you've got a unique product the golden rule is <span class="italic">let the product speak for itself</span>.</mj-text>
+          <mj-text mj-class="h2under">3/ Dormio</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie6b.png" alt="Dormio landing page"></mj-image>
+          <mj-text mj-class="p">Customers' buy <span class="italic">outcomes</span> not <span class="italic">products</span>. What's more appealing:</mj-text>
+          <mj-text mj-class="p inwardSpeech list__bottom">a) A calming tea</mj-text>
+          <mj-text mj-class="p inwardSpeech list__top">b) A calming tea that helps you relax, unwind, and drift into deep, restorative sleep</mj-text>
+          <mj-text mj-class="h2under">4/ JobBoardSheet</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie1a.png" alt="JobBoardSheet landing page"></mj-image>
+          <mj-text mj-class="p">Their current copy is <span class="italic">clear</span>. But it's also <span class="italic">forgettable</span>. So we looked down their page and found this new line.</mj-text>
+          <mj-text mj-class="p">It's much more specific. And handles the customer's <span class="italic">four main objections in one sentence</span>.</mj-text>
+          <mj-text mj-class="h2under">5/ Silva</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie3.png" alt="Silva landing page"></mj-image>
+          <mj-text mj-class="p">Firstly, “Trail Runner Free” is very confusing. Is that the product? Is it free?</mj-text>
+          <mj-text mj-class="p">Also, there's no emotional pull. People don't get excited by a new <span class="italic">headlamp</span>. They get excited by new <span class="italic">adventures</span>. So sell the latter.</mj-text>
+          <mj-text mj-class="h2under">6/ Socios</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie9a.png" alt="Socios landing page copywriting"></mj-image>
+          <mj-text mj-class="p">Football fans don't care about “tokens”, “surveys”, and “rewards”.</mj-text>
+          <mj-text mj-class="p">Take ownership of the <span class="italic">real problem</span>. Fans are crying out to have their voices heard. Socios solves this. So own it.</mj-text>
+          <mj-text mj-class="p">Also, add social proof. You're literally working with Barcelona!</mj-text>
+          <mj-text mj-class="h2under">7/ Counterweight Creative</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie10.png" alt="Counterweight Creative landing page"></mj-image>
+          <mj-text mj-class="p">This one had promise. But the language is too vague. It doesn't feel REAL.</mj-text>
+          <mj-text mj-class="p">We replaced all their <span class="italic">vague</span> words with <span class="italic">specific</span> ones. You can't bullshit specifics.</mj-text>
+          <mj-text mj-class="h2under">8/ Haako</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie5.png" alt="Haako copywriting"></mj-image>
+          <mj-text mj-class="p">This one's more about <span class="italic">repackaging</span> than <span class="italic">rewriting</span>. You can't expect people to read one huge text block to understand your product.</mj-text>
+          <mj-text mj-class="p">So we condensed their text block to <span class="italic">one sentence</span>. And added an image to bring the product to life.</mj-text>
+          <mj-text mj-class="h2under">9/ Ladybird driving school</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie4.png" alt="Ladybird driving school landing page"></mj-image>
+          <mj-text mj-class="p">Ladybird's uniqueness is that <span class="italic">all their instructors are female</span>. So don't bury it half-way down the page. Lead with it.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Write the title only you can</span>.</mj-text>
           <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p">Last week I saw this letter Liverpool manager, Jürgen Klopp, wrote to a young schoolboy dealing with anxiety.</mj-text>
-          <mj-text mj-class="p">It’s remarkably thoughtful. But it didn’t surprise me. Klopp's been making people smile ever since he became a manager.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen1.png" alt="Michelin Guide content marketing"></mj-image>
-          <mj-text mj-class="p">Back in 2014 he was managing Borussia Dortmund, one of the best teams in Germany. They were having a spectacularly awful season, sitting at the bottom of the Bundesliga.</mj-text>
-          <mj-text mj-class="p">As a thank you to the fans, for sticking with the team, Klopp ordered players to serve behind the bar and pull pints at the Christmas Party.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen2.jpg" alt="Michelin Guide content marketing"></mj-image>
-          <mj-text mj-class="p">In England it's no different. He’s <span class="italic">the only</span> Premier League manager who does interviews with fan-run YouTube channels.</mj-text>
-          <mj-text mj-class="p">Pre-lockdown he'd drop in on fan events and <a class="underA subscribeColor" href="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen4.mp4" target="_blank">enjoy a beer with supporters</a>. During lockdown he did Zoom calls with fans who were self-isolating.</mj-text>
-          <mj-text mj-class="p">After winning the league he wrote an open letter in the Liverpool Echo paying respect to the fans.</mj-text>
-          <mj-text mj-class="p">To mark the end of his first season he challenged lifelong supporters to <a class="underA subscribeColor" href="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen3.mp4" target="_blank">an impromptu bowls game</a>. I could go on...</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen5c.jpg" alt="Michelin Guide content marketing"></mj-image>
-          <mj-text mj-class="p">I'm telling you about Klopp to make a simple point.</mj-text>
-          <mj-text mj-class="p inwardSpeech">If you find a way to make people smile, they’ll remember you more for that smile than for any business-model stuff.</mj-text>
-          <mj-text mj-class="p inwardSpeech2">A brand isn’t a logo or a website. It’s the sum of all the little things.</mj-text>
-          <mj-text mj-class="p">When Klopp left Dortmund in 2015 they'd just had their worst season in seven years. Most teams' fans would be booing. The whole stadium was in tears.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen6a.jpg" alt="Andrew Schulz comedy roasts" href="https://s3.amazonaws.com/harrydry/gdmarketing/jurgen6.mp4"></mj-image>
-          <mj-text mj-class="p"><span class="italic">PS: That smile line is from a <a class="underA subscribeColor" href="https://sive.rs/cdbf" target="_blank">Derek Sivers blog</a>.</span></mj-text>
-          <mj-text mj-class="h2under">Monday morning tip</mj-text>
-          <mj-text mj-class="p"> <span class="italic">People will do anything for those who:</span></mj-text>
-          <mj-text mj-class="p"> <span class="italic">• Encourage their dreams<br>• Justify their failures<br>• Allay their fears<br>• Confirm their suspicions<br>• And help throw rocks at their enemies</span></mj-text>
-          <mj-text mj-class="p"> <span class="italic">— Blair Warren</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip8.jpg" alt="don't try"></mj-image>
-          <mj-text mj-class="h2under">Monday afternoon tip</mj-text>
-          <mj-text mj-class="p"> <span class="italic">Write the title only you can.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip7.png" alt="don't try"></mj-image>
-          <mj-text mj-class="p"><span class="italic">Thanks you for reading. Over and out — Harry</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">That's all folks. Massive thank you to Annie. She did the hard work. If you'd like to work with a world-class copywriter, I couldn't recommend her more. Get in touch <a class="underA subscribeColor" href="https://anniemaguire.com/#contact" target="_blank">here</a>.</spam>
+          </mj-text>
+          <mj-text mj-class="h2under">Tuesday's “Wednesday evening” tip</mj-text>
+          <mj-text mj-class="p"> <span class="italic">Marketing is a conversation</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie11.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p"><span class="italic">Thanks for reading. Quick favour. So recently my open rate dropped a bit. The dreaded “Promotions” tab ;/</span></mj-text>
+          <mj-text mj-class="p"><span class="italic"> If you enjoy the newsletter please “Add to Contacts” so this doesn't happen to you. Would mean a lot. Gmail can't stop us!</span></mj-text>
           <mj-text mj-class="h2under">Sponsored by Ahrefs</mj-text>
-          <mj-text mj-class="p"><a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> have kindly sponsored me. I've used them for a while to help grow my search traffic. It makes SEO dead simple. I love it.</mj-text>
+          <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">If you enjoy the newsletter it'd be amazing if you could forwarded it to a pal. Each one takes a week to make. Sharing really does help :)</mj-text>
+          <mj-text mj-class="p">Annie and I spent a long while on this. It'd be amazing if you could forward this email to a pal. Or share on Slack. Or social media. Sharing makes SUCH a big difference! Thank you. </mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
         <mj-column></mj-column>
       </mj-section>
-      <mj-section mj-class="shareSection" background-color="#ffebef">
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. More case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

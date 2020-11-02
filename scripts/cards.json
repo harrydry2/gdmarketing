@@ -1,27 +1,87 @@
 [
   {
     "num": "9",
-    "title": "How Jürgen Klopp makes fans smile",
-    "sUrl": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
-    "sText": "2 min",
-    "tFront": "Customers",
-    "tBack": "customers",
-    "slug": "jurgen-klopp",
-    "img": "jurgen",
+    "title": "Rewriting landing pages with a pro copywriter",
+    "sUrl": "https://www.thebodycoach.com/",
+    "sText": "3 mins",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "rewriting-landing-pages",
+    "img": "annie",
     "imgType": "jpg",
-    "desc": "Yesterday I saw this letter Liverpool manager, Jürgen Klopp, wrote to a young schoolboy dealing with anxiety. It’s remarkably thoughtful. But it didn’t surprise me. Klopp's been making people smile ever since he became a manager."
+    "desc": "Last week I asked people on social media to submit their companies' landing pages and I’d rewrite them. Well, we did it! So I teamed up with Annie Maguire, one of the best copywriters in the business. Hopefully this gives you an insight into the mind of a pro copywriter."
   },
   {
     "num": "9",
-    "title": "27 words that sum up the psychology of copywriting",
-    "sUrl": "http://www.blairwarren.com/one-sentence-persuasion/",
-    "sText": "1 min",
+    "title": "How I promote my content",
+    "sUrl": "https://www.marketingexamples.com",
+    "sText": "Marketing Examples",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "sharing",
+    "img": "paul",
+    "imgType": "jpg",
+    "desc": "June 2019 I wrote my first marketing article. A year later my email list hit 19,000. No ads. No connections. No existing audience. The site grew because I learned how to promote my content on the internet. Here's my process."
+  },
+  {
+    "num": "9",
+    "title": "17 tips for great copywriting",
+    "sUrl": "https://marketingexamples.com/copywriting",
+    "sText": "A range",
     "tFront": "Copywriting",
     "tBack": "copywriting",
-    "slug": "psychology-of-persuasion",
-    "img": "ospa",
+    "slug": "tips",
+    "img": "ct",
     "imgType": "jpg",
-    "desc": "“People will do anything for those who encourage their dreams, justify their failures, allay their fears, confirm their suspicions, and help them throw rocks at their enemies.” — Blair Warren. Let's look at some examples."
+    "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
+  },
+  {
+    "num": "9",
+    "title": "The best word of mouth strategies in the world",
+    "sUrl": "http://www.skipskitchen.com/",
+    "sText": "Skip's Kitchen",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "word-of-mouth",
+    "img": "skips",
+    "imgType": "jpg",
+    "desc": "Less than 1/1000 businesses have a proper word of mouth strategy. Yet they pull in customers just as reliably as paid ads for a fraction of the cost."
+  },
+  {
+    "num": "9",
+    "title": "Growth Loops",
+    "sUrl": "https://www.reforge.com/blog/growth-loops`",
+    "sText": "Reforge",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "growth-loops",
+    "img": "gl",
+    "imgType": "jpg",
+    "desc": "Most people think you build a product then you market it. Growth loops mean building the marketing into your product."
+  },
+  {
+    "num": "9",
+    "title": "The marketing genius of Lil Nas X",
+    "sUrl": "https://twitter.com/LilNasX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    "sText": "Lil Nas X",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "lil-nas-x",
+    "img": "otr",
+    "imgType": "jpg",
+    "desc": "This is the story of how Lil Nas X went from college dropout sleeping on his sister’s couch to breaking Mariah Carey’s record for the most consecutive weeks at No. 1 — in just seven months."
+  },
+  {
+    "num": "9",
+    "title": "Real Marketing",
+    "sUrl": "real-marketing",
+    "sText": "A collection",
+    "tFront": "Misc",
+    "tBack": "misc",
+    "slug": "real-marketing",
+    "img": "pata",
+    "imgType": "jpg",
+    "desc": "Lifeless marketing is everywhere and we copy it without thinking. So I thought I'd share some examples of real stuff."
   },
   {
     "num": "9",
@@ -61,6 +121,18 @@
   },
   {
     "num": "9",
+    "title": "Using Unsplash for brand awareness and backlinks",
+    "sUrl": "https://www.towerpaddleboards.com/",
+    "sText": "2 min",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "unsplash",
+    "img": "un",
+    "imgType": "jpg",
+    "desc": "One of my pals, Max, works for a paddleboard startup. They had some nice images from photoshoots. So he made an account on Unsplash (the photo discovery platform) and uploaded them. Five months later the images have 6M views. And 24k downloads."
+  },
+  {
+    "num": "9",
     "title": "The marketing genius of Andrew Schulz",
     "sUrl": "https://theandrewschulz.com/",
     "sText": "3 mins",
@@ -97,18 +169,6 @@
   },
   {
     "num": "9",
-    "title": "Using Unsplash for brand awareness and backlinks",
-    "sUrl": "https://www.towerpaddleboards.com/",
-    "sText": "2 min",
-    "tFront": "SEO",
-    "tBack": "seo",
-    "slug": "unsplash",
-    "img": "un",
-    "imgType": "jpg",
-    "desc": "One of my pals, Max, works for a paddleboard startup. They had some nice images from photoshoots. So he made an account on Unsplash (the photo discovery platform) and uploaded them. Five months later the images have 6M views. And 24k downloads."
-  },
-  {
-    "num": "9",
     "title": "Dave Gerhardt's 1 line sales email",
     "sUrl": "https://www.linkedin.com/in/davegerhardt/",
     "sText": "1 min",
@@ -118,18 +178,6 @@
     "img": "dave",
     "imgType": "jpg",
     "desc": "Imagine you're trying to sell an exec coaching program. Here's the 1 line email Dave Gerhardt would send. The goal is simple. Get a reply. A reply gives you something to work with."
-  },
-  {
-    "num": "9",
-    "title": "Real Marketing",
-    "sUrl": "real-marketing",
-    "sText": "A collection",
-    "tFront": "Misc",
-    "tBack": "misc",
-    "slug": "real-marketing",
-    "img": "pata",
-    "imgType": "jpg",
-    "desc": "Lifeless marketing is everywhere and we copy it without thinking. So I thought I'd share some examples of real stuff."
   },
   {
     "num": "9",
@@ -145,18 +193,6 @@
   },
   {
     "num": "9",
-    "title": "Growth Loops",
-    "sUrl": "https://www.reforge.com/blog/growth-loops`",
-    "sText": "Reforge",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "growth-loops",
-    "img": "gl",
-    "imgType": "jpg",
-    "desc": "Most people think you build a product then you market it. Growth loops mean building the marketing into your product."
-  },
-  {
-    "num": "9",
     "title": "Ahrefs' Social Proof",
     "sUrl": "https://www.ahrefs.com",
     "sText": "Ahrefs",
@@ -169,39 +205,39 @@
   },
   {
     "num": "9",
-    "title": "How I promote my content",
-    "sUrl": "https://www.marketingexamples.com",
-    "sText": "Marketing Examples",
-    "tFront": "Content",
-    "tBack": "content",
-    "slug": "sharing",
-    "img": "paul",
+    "title": "27 words that sum up the psychology of copywriting",
+    "sUrl": "http://www.blairwarren.com/one-sentence-persuasion/",
+    "sText": "1 min",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "psychology-of-persuasion",
+    "img": "ospa",
     "imgType": "jpg",
-    "desc": "June 2019 I wrote my first marketing article. A year later my email list hit 19,000. No ads. No connections. No existing audience. The site grew because I learned how to promote my content on the internet. Here's my process."
+    "desc": "“People will do anything for those who encourage their dreams, justify their failures, allay their fears, confirm their suspicions, and help them throw rocks at their enemies.” — Blair Warren. Let's look at some examples."
   },
   {
     "num": "9",
-    "title": "17 tips for great copywriting",
-    "sUrl": "https://marketingexamples.com/copywriting",
-    "sText": "A range",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "tips",
-    "img": "ct",
+    "title": "How Jürgen Klopp makes fans smile",
+    "sUrl": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+    "sText": "2 min",
+    "tFront": "Customers",
+    "tBack": "customers",
+    "slug": "jurgen-klopp",
+    "img": "jurgen",
     "imgType": "jpg",
-    "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
+    "desc": "Yesterday I saw this letter Liverpool manager, Jürgen Klopp, wrote to a young schoolboy dealing with anxiety. It’s remarkably thoughtful. But it didn’t surprise me. Klopp's been making people smile ever since he became a manager."
   },
   {
-    "num": "9",
-    "title": "How Steve Jobs clarified Apple's message",
-    "sUrl": "https://www.apple.com/",
-    "sText": "Apple",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "think-different",
-    "img": "steve",
+    "num": "1",
+    "title": "How Jeff Johnson sold Nike's first shoes",
+    "sUrl": "https://nike.com/",
+    "sText": "Nike",
+    "tFront": "Sales",
+    "tBack": "sales",
+    "slug": "how-nike-sold-first-shoes",
+    "img": "nike",
     "imgType": "jpg",
-    "desc": "January 1983. Apple finish production of their latest computer, Lisa. Steve Jobs launches it with a nine-page ad in the New York Times. It's nine pages of geek speak. Nobody outside NASA is interested. Lisa sells just 10,000 units. Steve is fired from Apple."
+    "desc": "The story of how Phil Knight and Jeff Johnson drove to track meets all over the Pacific Northwest and sold more shoes than you can imagine out of the boots of their car."
   },
   {
     "num": "9",
@@ -214,6 +250,18 @@
     "img": "cp",
     "imgType": "jpg",
     "desc": "March 24. Popular Instagram account DudeWithSign takes aim at home workout videos. March 26. Beachbody’s CEO, Carl Daikeler, fires back, rallying his followers to post their home workouts with pride this Saturday."
+  },
+  {
+    "num": "9",
+    "title": "How Steve Jobs clarified Apple's message",
+    "sUrl": "https://www.apple.com/",
+    "sText": "Apple",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "think-different",
+    "img": "steve",
+    "imgType": "jpg",
+    "desc": "January 1983. Apple finish production of their latest computer, Lisa. Steve Jobs launches it with a nine-page ad in the New York Times. It's nine pages of geek speak. Nobody outside NASA is interested. Lisa sells just 10,000 units. Steve is fired from Apple."
   },
   {
     "num": "9",
@@ -238,6 +286,18 @@
     "img": "grubhub",
     "imgType": "jpg",
     "desc": "How Grubhub's local link building strategy saw them generate 50% more organic traffic than their competitors in the online food delivery market"
+  },
+  {
+    "num": "1",
+    "title": "How Jason Cohen does direct sales",
+    "sUrl": "https://wpengine.com/",
+    "sText": "WP Engine",
+    "tFront": "Sales",
+    "tBack": "sales",
+    "slug": "jason-cohen-sales",
+    "img": "wpengine",
+    "imgType": "jpg",
+    "desc": "How Jason Cohen got his first 30 users before even building his product."
   },
   {
     "num": "9",
@@ -289,6 +349,18 @@
   },
   {
     "num": "9",
+    "title": "How to build a website which converts email subscribers",
+    "sUrl": "https://marketingexamples.com",
+    "sText": "Marketing Examples",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "email-subscribers",
+    "img": "eoi",
+    "imgType": "png",
+    "desc": "12.9% of first time Marketing Examples users end up as a email subscribers. It's fair to say it's one of the best websites in the world at converting passers-by into email subscribers. This case study gives a step-by-step analysis."
+  },
+  {
+    "num": "9",
     "title": "The genius of no name's brand",
     "sUrl": "https://www.noname.ca/en_CA",
     "sText": "no name",
@@ -310,30 +382,6 @@
     "img": "dad",
     "imgType": "jpg",
     "desc": "My dad runs a small study skills company in the UK. It's an old-school business. Up until last year, the only marketing he's ever done was sending flyers to schools. But, over time, flyers had stopped working so well, so he started thinking about running digital ads."
-  },
-  {
-    "num": "9",
-    "title": "The marketing genius of Lil Nas X",
-    "sUrl": "https://twitter.com/LilNasX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-    "sText": "Lil Nas X",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "lil-nas-x",
-    "img": "otr",
-    "imgType": "jpg",
-    "desc": "This is the story of how Lil Nas X went from college dropout sleeping on his sister’s couch to breaking Mariah Carey’s record for the most consecutive weeks at No. 1 — in just seven months."
-  },
-  {
-    "num": "9",
-    "title": "The best word of mouth strategies in the world",
-    "sUrl": "http://www.skipskitchen.com/",
-    "sText": "Skip's Kitchen",
-    "tFront": "Referral",
-    "tBack": "referral",
-    "slug": "word-of-mouth",
-    "img": "skips",
-    "imgType": "jpg",
-    "desc": "Less than 1/1000 businesses have a proper word of mouth strategy. Yet they pull in customers just as reliably as paid ads for a fraction of the cost."
   },
   {
     "num": "9",
@@ -553,18 +601,6 @@
   },
   {
     "num": "9",
-    "title": "How to build a website which converts email subscribers",
-    "sUrl": "https://marketingexamples.com",
-    "sText": "Marketing Examples",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "email-subscribers",
-    "img": "eoi",
-    "imgType": "png",
-    "desc": "12.9% of first time Marketing Examples users end up as a email subscribers. It's fair to say it's one of the best websites in the world at converting passers-by into email subscribers. This case study gives a step-by-step analysis."
-  },
-  {
-    "num": "9",
     "title": "What to do if Joe Rogan recommends your product?",
     "sUrl": "https://www.iron-neck.com/",
     "sText": "Iron Neck",
@@ -622,30 +658,6 @@
     "img": "notion",
     "imgType": "png",
     "desc": "In three years looking at landing pages, I’ve never come across a sign-up flow better at converting than Notions. Let’s get into it."
-  },
-  {
-    "num": "1",
-    "title": "How Jason Cohen does direct sales",
-    "sUrl": "https://wpengine.com/",
-    "sText": "WP Engine",
-    "tFront": "Sales",
-    "tBack": "sales",
-    "slug": "jason-cohen-sales",
-    "img": "wpengine",
-    "imgType": "jpg",
-    "desc": "How Jason Cohen got his first 30 users before even building his product."
-  },
-  {
-    "num": "1",
-    "title": "How Jeff Johnson sold Nike's first shoes",
-    "sUrl": "https://nike.com/",
-    "sText": "Nike",
-    "tFront": "Sales",
-    "tBack": "sales",
-    "slug": "how-nike-sold-first-shoes",
-    "img": "nike",
-    "imgType": "jpg",
-    "desc": "The story of how Phil Knight and Jeff Johnson drove to track meets all over the Pacific Northwest and sold more shoes than you can imagine out of the boots of their car."
   },
   {
     "num": "10",
@@ -874,17 +886,5 @@
     "img": "jw",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Rewriting landing pages with a pro copywriter",
-    "sUrl": "https://www.thebodycoach.com/",
-    "sText": "3 mins",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "rewriting-landing-pages",
-    "img": "annie",
-    "imgType": "jpg",
-    "desc": "Last week I asked people on social media to submit their companies' landing pages and I’d rewrite them. Well, we did it! So I teamed up with Annie Maguire, one of the best copywriters in the business. Hopefully this gives you an insight into the mind of a pro copywriter."
   }
 ]

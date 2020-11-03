@@ -51,18 +51,19 @@
           <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
           <mj-text mj-class="h1" align="center">Welcome to Marketing Examples</mj-text>
           <mj-text mj-class="p">It feels awesome to know that people enjoy reading my articles. Thank you for subscribing. Expect one email per week.</mj-text>
-          <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> or <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Instagram</a> where I share quick marketing tips. I've compiled them all <a class="underA" href="https://twitter.com/i/events/1190303234520428544" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> or <a class="underA" href="https://www.instagram.com/marketing_examples" target="_blank">Instagram</a> where I share quick marketing tips. I've compiled them all <a class="underA" href="https://twitter.com/i/events/1190303234520428544" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="p">If you're in the mood here's some of my favourite case studies:</mj-text>
-          <mj-text mj-class="p list list__top"> • <a class="underA" href="https://marketingexamples.com/viral/lil-nas-x" target="_blank">The marketing genius of Lil Nas X</a></mj-text>
-          <mj-text mj-class="p list"> • <a class="underA" href="https://marketingexamples.com/copywriting/landing-page-title" target="_blank">17 tips for great copywriting</a></mj-text>
-          <mj-text mj-class="p list list__bottom"> • <a class="underA" href="https://marketingexamples.com/direct/how-nike-sold-first-shoes" target="_blank">The formula I used to grow my newsletter to 40k</a></mj-text>
-          <mj-text mj-class="p">One favour to ask is that you whitelist this email address. It prevents the emails going to spam:</mj-text>
-          <mj-text mj-class="p list list__top"> • <span class="">Gmail Web</span>: <span class="italic">3 grey dots > Add Marketing Examples to Contact List</mj-text>
+          <mj-text mj-class="p list list__top"> • <a class="underA" href="https://marketingexamples.com/copywriting/tips" target="_blank">17 tips for great copywriting</a></mj-text>
+          <mj-text mj-class="p list"> • <a class="underA" href="https://marketingexamples.com/viral/lil-nas-x" target="_blank">The marketing genius of Lil Nas X</a></mj-text>
+          <mj-text mj-class="p list list__bottom"> • <a class="underA" href="https://marketingexamples.com/content/sharing" target="_blank">Growing my newsletter to 40,000 subscribers</a></mj-text>
+          <mj-text mj-class="p">Quick favour. So, recently some of my emails been going to the dreaded “Promotions” tab. I'd really appreciate it if you <span class="italic">add this email address to contacts</span> so you actually see the emails!</mj-text>
+          <mj-text mj-class="p">I spend a full week on each edition. Would mean a lot :)</mj-text>
+          <mj-text mj-class="p list list__top"> • <span class="">Gmail Web</span>: <span class="italic">Hover over icon at top of email > Add to Contact List</mj-text>
           <mj-text mj-class="p list"> • Gmail Mobile: <span class="italic">3 grey dots > Move to > Primary</span></mj-text>
           <mj-text mj-class="p list list__bottom"> • Apple Mail: <span class="italic">Tap on email address near top (next to “From:”) > Add to VIP</span></mj-text>
           <mj-text mj-class="p">Thank you once again. I really do appreciate people reading.</mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
-          <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a></mj-text>
+          <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if you want!</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

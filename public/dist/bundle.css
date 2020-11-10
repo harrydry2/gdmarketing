@@ -1423,6 +1423,13 @@ p {
   .content .asterix {
     text-align: center;
     padding: 2rem 0 1rem 0; }
+  .content .caption {
+    padding: 2rem .76rem 4rem .76rem !important;
+    font-style: italic;
+    text-align: center; }
+    @media screen and (max-width: 550px) {
+      .content .caption {
+        padding: 2rem 2rem 3rem 2rem !important; } }
   .content .footnote {
     font-size: 1.5rem;
     padding: 0.76rem 0.76rem 0.76rem 0.76rem; }
@@ -1529,6 +1536,12 @@ span {
     left: 0;
     width: 100%;
     height: 100%; }
+
+.img__caption {
+  margin: 4rem auto 0 auto !important; }
+  @media screen and (max-width: 550px) {
+    .img__caption {
+      margin: 3rem auto 0 auto !important; } }
 
 .img__70 {
   width: 70%; }

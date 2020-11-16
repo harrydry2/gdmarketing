@@ -28,6 +28,10 @@ exports.home = async (req, res) => {
 //   res.render('./podcast/ext');
 // };
 
+exports.twitterhandbook = async (req, res) => {
+  res.render('./twitterhandbook/ext');
+};
+
 exports.gifs = async (req, res) => {
   const page = +req.params.page || 1;
   const limit = 8;

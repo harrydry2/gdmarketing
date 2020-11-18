@@ -1673,7 +1673,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100rem;
+    width: 88rem;
     margin: 0 auto; }
     .menu__inner-right {
       display: flex;
@@ -1831,11 +1831,26 @@ span {
   animation: spinning 14s infinite linear;
   animation-fill-mode: forwards !important; }
 
+.th {
+  width: 88rem;
+  margin: 0 auto; }
+  .th h1 {
+    font-size: 2rem; }
+  .th p {
+    font-size: 1.7rem; }
+
 .thSection {
-  width: 90rem;
-  margin: 0 auto;
   display: grid;
   padding: 2.2rem 0;
-  grid-gap: 1.8rem;
+  grid-gap: 2rem;
   grid-template-columns: 1fr 1fr; }
+
+.twitter-tweet {
+  margin: 0rem auto !important;
+  max-width: 43rem !important; }
+  @media (max-width: 500px) {
+    .twitter-tweet {
+      width: 94% !important;
+      padding: 0 2rem !important;
+      margin: 1rem auto !important; } }
 

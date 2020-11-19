@@ -92,56 +92,57 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#056 - My Twitter Inspiration Handbook</mj-text>
-          <mj-text mj-class="h3" align="center">(Social media • 4 mins • <a class="underB" href="https://marketingexamples.com/handbook/twitter-inspiration" target="_blank">Read the handbook</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Twitter • 5 mins • <a class="underB" href="https://marketingexamples.com/handbook/twitter-inspiration" target="_blank">Read the handbook</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey. Sorry for the delay. Wanted to email somethign I've tried something different. </span></mj-text>
           <mj-text mj-class="p"><span class="italic">When I started on Twitter I had no idea what I was doing.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">So I made one big Google Doc where I started saving all the best “brand tweets” and grouped them into categories.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">I spent the last few weeks putting it together. Hhope you find it useful.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I spent the last few weeks putting it together. Hope you find it useful.</span></mj-text>
           <mj-text mj-class="h2under">1/ Quick tips</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Teach people something new in a tweet. Short, sweet, and shareable.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc1.jpg" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">2/ Threads</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">People don't click links. So if you've got a story worth sharing write a thread.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc2.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">3/ Memes</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Make your brand relatable.</mj-text>
+          <mj-text mj-class="p">Sparknotes sells literature study guides. Twitter and literature study guides don't mix. So Sparknotes use pop-culture to make literature relatable.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc3.jpg" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">4/ “Quick reaction” tweets</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Each day a new story consumes Twitter. Think fast and you can go viral.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc4.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">5/ Build in public</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Makes your brand feel ALIVE. People want to come on the journey.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc5.jpg" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">6/ Brand beef</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">People love drama. T-Mobile bragging about their 5G is boring. T-Mobile roasting Verizon's 5G is hilarious.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc6.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">7/ Casual content</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Don't complicate it. Most people just want some light entertainment.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc7.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">8/ Replies</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Make a list of a few people in your niche. Turn on notifications. Comment something witty or thoughtful.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc8.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">9/ Questions</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Get to know your customers whilst building a sense of community.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc9.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">10/ “Reply and we'll...”</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Turns causal followers into brand advocates.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc10.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">11/ Live tweeting</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Your audience watch a cult show. That show trends every week. You live-tweet each episode.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc11.jpg" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">12/ Transparency</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Twitter loves transparency. Talk openly about your product you'll sell more of your product.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc12.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">13/ Giveaways</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Grows your follower count. Builds brand awareness.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc13.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">14/ Celebrate customers</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-text mj-class="p">Making customers look good makes you look good. It's marketing without marketing.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc14.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="h2under">15/ Galvanize followers</mj-text>
           <mj-text mj-class="p"></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc15.png" alt="Banquist landing page copywriting"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc15.png" alt="Andrew Schulz comedy roasts" href="https://s3.amazonaws.com/harrydry/gdmarketing/tttc15.mp4"></mj-image>
           <mj-text mj-class="h2under">16/ Share your product</mj-text>
           <mj-text mj-class="p"></mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc16.png" alt="Banquist landing page copywriting"></mj-image>

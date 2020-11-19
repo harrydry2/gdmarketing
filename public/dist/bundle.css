@@ -1986,7 +1986,7 @@ span {
     width: 100%; }
   .thSection video {
     width: 80%; }
-  @media screen and (max-width: 768px) {
-    .thSection {
-      width: 100%; } }
+    @media screen and (max-width: 768px) {
+      .thSection video {
+        width: 100%; } }
 

@@ -6,6 +6,7 @@
       <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
       <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
       <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
       <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
@@ -13,6 +14,11 @@
       <mj-class name="shareSection" padding="12px 20px" />
       <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
       <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
       <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
       <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
       <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
@@ -93,80 +99,75 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#056 - My Twitter Inspiration Handbook</mj-text>
           <mj-text mj-class="h3" align="center">(Twitter • 5 mins • <a class="underB" href="https://marketingexamples.com/handbook/twitter-inspiration" target="_blank">Read the handbook</a>)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey. Sorry for the delay. Wanted to email somethign I've tried something different. </span></mj-text>
-          <mj-text mj-class="p"><span class="italic">When I started on Twitter I had no idea what I was doing.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">So I made one big Google Doc where I started saving all the best “brand tweets” and grouped them into categories.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">I spent the last few weeks putting it together. Hope you find it useful.</span></mj-text>
-          <mj-text mj-class="h2under">1/ Quick tips</mj-text>
+          <mj-text mj-class="p"><span class="italic">Heya. It's been a while. What's been cooking...</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Well, a few years ago I was trying to use Twitter to promote a few side projects. But I had no idea what I was doing.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">So I made one big Google Doc where I started saving the best “brand tweets” and grouped them into different categories.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I've spent the last few weeks turning that into this little handbook. I hope you find it useful.</span></mj-text>
+          <mj-button mj-class="bg1">1/ Quick tips</mj-button>
           <mj-text mj-class="p">Teach people something new in a tweet. Short, sweet, and shareable.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc1.jpg" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">2/ Threads</mj-text>
+          <mj-button mj-class="bg2">2/ Threads</mj-button>
           <mj-text mj-class="p">People don't click links. So if you've got a story worth sharing write a thread.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc2.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">3/ Memes</mj-text>
+          <mj-button mj-class="bg3">3/ Memes</mj-button>
           <mj-text mj-class="p">Make your brand relatable.</mj-text>
           <mj-text mj-class="p">Sparknotes sells literature study guides. Twitter and literature study guides don't mix. So Sparknotes use pop-culture to make literature relatable.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc3.jpg" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">4/ “Quick reaction” tweets</mj-text>
+          <mj-button mj-class="bg4">4/ “Quick reaction” tweets</mj-button>
           <mj-text mj-class="p">Each day a new story consumes Twitter. Think fast and you can go viral.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc4.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">5/ Build in public</mj-text>
-          <mj-text mj-class="p">Makes your brand feel ALIVE. People want to come on the journey.</mj-text>
+          <mj-button mj-class="bg5">5/ Build in public</mj-button>
+          <mj-text mj-class="p">Makes your brand feel <span class="italic">ALIVE</span>. People want to come on the journey.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc5.jpg" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">6/ Brand beef</mj-text>
+          <mj-button mj-class="bg1">6/ Brand beef</mj-button>
           <mj-text mj-class="p">People love drama. T-Mobile bragging about their 5G is boring. T-Mobile roasting Verizon's 5G is hilarious.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc6.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">7/ Casual content</mj-text>
+          <mj-button mj-class="bg2">7/ Casual content</mj-button>
           <mj-text mj-class="p">Don't complicate it. Most people just want some light entertainment.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc7.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">8/ Replies</mj-text>
+          <mj-button mj-class="bg3">8/ Replies</mj-button>
           <mj-text mj-class="p">Make a list of a few people in your niche. Turn on notifications. Comment something witty or thoughtful.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc8.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">9/ Questions</mj-text>
+          <mj-button mj-class="bg4">9/ Questions</mj-button>
           <mj-text mj-class="p">Get to know your customers whilst building a sense of community.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc9.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">10/ “Reply and we'll...”</mj-text>
+          <mj-button mj-class="bg5">10/ “Reply and we'll...”</mj-button>
           <mj-text mj-class="p">Turns causal followers into brand advocates.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc10.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">11/ Live tweeting</mj-text>
+          <mj-button mj-class="bg1">11/ Live tweeting</mj-button>
           <mj-text mj-class="p">Your audience watch a cult show. That show trends every week. You live-tweet each episode.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc11.jpg" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">12/ Transparency</mj-text>
+          <mj-button mj-class="bg2">12/ Transparency</mj-button>
           <mj-text mj-class="p">Twitter loves transparency. Talk openly about your product you'll sell more of your product.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc12.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">13/ Giveaways</mj-text>
+          <mj-button mj-class="bg3">13/ Giveaways</mj-button>
           <mj-text mj-class="p">Grows your follower count. Builds brand awareness.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc13.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">14/ Celebrate customers</mj-text>
-          <mj-text mj-class="p">Making customers look good makes you look good. It's marketing without marketing.</mj-text>
+          <mj-button mj-class="bg4">14/ Celebrate customers</mj-button>
+          <mj-text mj-class="p">Making customers look good makes you look good. It's marketing without <span class="italic">marketing</span>.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc14.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">15/ Galvanize followers</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-button mj-class="bg5">15/ Galvanize followers</mj-button>
+          <mj-text mj-class="p">This tweet deserves a category of its own.</mj-text>
+          <mj-text mj-class="p">65,000 people posting photos of their Spotify playlist. All from one tweet.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc15.png" alt="Andrew Schulz comedy roasts" href="https://s3.amazonaws.com/harrydry/gdmarketing/tttc15.mp4"></mj-image>
-          <mj-text mj-class="h2under">16/ Share your product</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-button mj-class="bg1">16/ Share your product</mj-button>
+          <mj-text mj-class="p">You're allowed to share your product. Just don't make it look like an ad.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc16.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="h2under">17/ Consistency</mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-button mj-class="bg2">17/ Consistency</mj-button>
+          <mj-text mj-class="p">And finally, consistency is how you imprint yourself. Your followers should recognise you without looking at the icon.</mj-text>
+          <mj-text mj-class="p">There's no better example than no name. Consistent tone, aesthetics and message.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tttc17.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p"><span class="italic">Thanks for reading. Quick favour. So recently my open rate dropped a bit. The dreaded “Promotions” tab ;/</span></mj-text>
-          <mj-text mj-class="p"><span class="italic"> If you enjoy the newsletter please “Add to Contacts” so this doesn't happen to you. Would mean a lot. Gmail can't stop us!</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Boom. You made it. Thanks for reading.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I won't lie, this was quite the job. If you're feeling generous please do share with a pal, or Slack, or social media. Really helps. <a class="underA subscribeColor" href="https://marketingexamples.com/handbook/twitter-inspiration" target="_blank">Here's the link</a>.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I've also just launched it on <a class="underA subscribeColor" href="https://www.producthunt.com/posts/my-twitter-inspiration-handbook" target="_blank">Product Hunt</a>. Any support appreciated. Maybe we can get the No.1 spot ;)</span></mj-text>
           <mj-text mj-class="h2under">Sponsored by Ahrefs</mj-text>
-          <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
+          <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. Big thanks. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Annie and I spent a long while on this. It'd be amazing if you could forward this email to a pal. Or share on Slack. Or social media. Sharing makes SUCH a big difference! Thank you. </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="whiteSection" padding="9px 0">
-        <mj-column></mj-column>
-      </mj-section>
-      <mj-section mj-class="shareSection" background-color="#FFFCDB">
-        <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Previous case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the fun <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

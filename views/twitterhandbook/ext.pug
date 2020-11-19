@@ -2,12 +2,16 @@ extends base
 
 include ../general/menu
 include ../home/mixins/mailth
+include ../home/mixins/ph
 
 block content
   .iosOverflow.th
     +mailth()
+    +ph()
     +menu()
     .th.thTop
+      //- a.phthContainer
+      //-   .phth(href="https://www.youtube.com/watch?v=_OMrvqU4Blk" target="_blank") Live on Product Hunt. Show some love
       h1 My Twitter Inspiration Handbook
       h1.small My Twitter <br>Inspiration Handbook
       p When I started on Twitter I had no idea what I was doing.
@@ -144,7 +148,7 @@ block content
       .thLay__section.thcz12
         .thLay__top
           h1.thc2 12/ Transparency
-          p Twitter loves transparency. Talk openly about your product you'll sell more ofyour product.
+          p Twitter loves transparency. Talk openly about your product you'll sell more of your product.
         .thSection
           picture
             source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc12.webp" type="image/webp")
@@ -153,7 +157,7 @@ block content
       .thLay__section.thcz13
         .thLay__top
           h1.thc3 13/ Giveaways
-          p Grows follower count. Builds brand awareness.
+          p Grows your follower count. Builds brand awareness.
         .thSection
           picture
             source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc13.webp" type="image/webp")
@@ -199,3 +203,17 @@ block content
             source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc17.webp" type="image/webp")
             source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
             img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section
+        .thLay__top
+          h1.thc3 You made it :)
+          p Thanks for reading. This took a while.
+          p It'd be amazing if you could share with a pal. Or on!{' '}
+            a(href="" target="_blank" class="thUnderline") Twitter
+            | ,!{' '}
+            a(href="" target="_blank" class="thUnderline") Product Hunt
+            | , Slack, wherever! Really would appreciate it.
+          p Oh, and if you found it useful, you might like my!{' '}
+            a(href="https://marketingexamples.com/subscribe" target="_blank" class="thUnderline") marketing newsletter
+            | . It's 50+ hours of work boiled into one short, sweet, practical case study.
+          p Over and out,!{' '}
+            a(href="https://twitter.com/GoodMarketingHQ" target="_blank" class="thUnderline") Harry

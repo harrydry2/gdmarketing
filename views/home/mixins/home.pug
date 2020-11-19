@@ -3,7 +3,7 @@ include ./filters
 include ./ph
 
 mixin home(cards, activeFilters, title, displaynone = "")
-  //- +ph()
+  +phBase()
   .home(class=`${displaynone}`)
     .home__left
       a.home__left-logo(href="/")!=icon("meLogoBig")

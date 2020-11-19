@@ -1666,7 +1666,7 @@ span {
       margin: 1rem auto !important; } }
 
 .menu {
-  position: fixed;
+  position: sticky;
   top: 0;
   display: flex;
   height: 6.6rem;
@@ -1852,11 +1852,11 @@ span {
 
 .thTop {
   width: 60rem;
-  margin: 12.2rem auto 0rem auto; }
+  margin: 8rem auto 0rem auto; }
   @media screen and (max-width: 768px) {
     .thTop {
       width: 100%;
-      margin: 10.7rem auto 0rem auto; } }
+      margin: 6rem auto 0rem auto; } }
   .thTop h1 {
     font-size: 2.4rem;
     font-weight: 700;
@@ -1881,6 +1881,9 @@ span {
     @media screen and (max-width: 768px) {
       .thTop p {
         padding: 0.7rem 2rem; } }
+
+.thUnderline {
+  border-bottom: 1px solid #030212; }
 
 .thTags {
   padding: 4rem 0 2.2rem 0;

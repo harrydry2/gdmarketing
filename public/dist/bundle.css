@@ -1939,6 +1939,9 @@ span {
   margin: 0 auto; }
   .thLay__section {
     padding: 4rem 0 3.6rem 0; }
+    @media screen and (max-width: 768px) {
+      .thLay__section {
+        padding: 3rem 0 2.6rem 0; } }
   .thLay__top {
     width: 60rem;
     margin: 0 auto; }

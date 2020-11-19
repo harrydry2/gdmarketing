@@ -3,6 +3,7 @@ import axios from 'axios';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { resize, copyGif, gifStart } from './modules/gifs';
+import { thScroll } from './modules/thScroll';
 import {
   mailPopup,
   mailSubmitFromPost,
@@ -119,4 +120,10 @@ if ($('.gif')) {
   //   window.addEventListener('load', resize);
   //   gifLoadMobile();
   // }
+}
+
+// th page
+if ($('.th')) {
+  mailPopup();
+  thScroll();
 }

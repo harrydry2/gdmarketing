@@ -133,7 +133,8 @@ a {
 .mailNoScroll {
   overflow: hidden;
   position: fixed;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .postNoScroll {
   position: fixed;
@@ -1665,15 +1666,19 @@ span {
       margin: 1rem auto !important; } }
 
 .menu {
+  position: fixed;
+  top: 0;
   display: flex;
-  height: 7rem;
+  height: 6.6rem;
   width: 100%;
-  border-bottom: 1px solid #e1e1e1; }
+  border-bottom: 1px solid #e1e1e1;
+  background: #fff;
+  z-index: 2; }
   .menu__inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 88rem;
+    width: 80rem;
     margin: 0 auto; }
     .menu__inner-right {
       display: flex;
@@ -1831,26 +1836,93 @@ span {
   animation: spinning 14s infinite linear;
   animation-fill-mode: forwards !important; }
 
-.th {
-  width: 88rem;
+.thTop {
+  width: 60rem;
+  margin: 12.2rem auto 0rem auto; }
+  .thTop h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #030212;
+    margin-bottom: 1.8rem; }
+  .thTop p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #030212;
+    padding: 0.7rem 0; }
+
+.thTags {
+  padding: 4rem 0 2.2rem 0;
+  background-color: white; }
+  .thTags__inner {
+    margin: 0 auto;
+    width: 81rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .thTags__tag {
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 100px;
+    color: #030212;
+    margin: 0.4rem; }
+    .thTags__tag:hover {
+      opacity: 0.9;
+      cursor: pointer;
+      transition: all 0.2s; }
+
+.thArrow {
+  margin: 2rem auto;
+  display: flex;
+  width: 5rem;
+  transform: rotate(5deg); }
+
+.thc1 {
+  background-color: rgba(225, 35, 143, 0.16); }
+
+.thc2 {
+  background-color: rgba(19, 216, 196, 0.22); }
+
+.thc3 {
+  background-color: rgba(255, 56, 56, 0.21); }
+
+.thc4 {
+  background-color: rgba(77, 203, 119, 0.21); }
+
+.thc5 {
+  background-color: rgba(85, 75, 226, 0.16); }
+
+.thLay {
   margin: 0 auto; }
-  .th h1 {
-    font-size: 2rem; }
-  .th p {
-    font-size: 1.7rem; }
+  .thLay__section {
+    padding: 4rem 0 3.6rem 0; }
+  .thLay__top {
+    width: 60rem;
+    margin: 0 auto; }
+  .thLay h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #030212;
+    padding: 1.1rem 1.4rem .9rem 1.4rem;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    transform: rotate(-1deg); }
+  .thLay p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 0.7rem 0;
+    color: #030212; }
+    .thLay p .italic {
+      font-style: italic; }
 
 .thSection {
-  display: grid;
-  padding: 2.2rem 0;
-  grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr; }
-
-.twitter-tweet {
-  margin: 0rem auto !important;
-  max-width: 43rem !important; }
-  @media (max-width: 500px) {
-    .twitter-tweet {
-      width: 94% !important;
-      padding: 0 2rem !important;
-      margin: 1rem auto !important; } }
+  display: flex;
+  padding-top: 3.1rem;
+  width: 80rem;
+  margin: 0 auto; }
+  .thSection img {
+    width: 100%; }
 

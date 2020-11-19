@@ -1,271 +1,200 @@
 extends base
 
 include ../general/menu
+include ../home/mixins/mailth
 
 block content
-  +menu()
-  .th
-    h1 1/ Quick tips
-    p Teach people something new in a tweet. Short, sweet, and shareable.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | &#x1F525; Too many borders can make a design look really busy. Here&apos;s a few ideas that are a bit more subtle:
-          a(href='https://t.co/JEIrjAS5YL') pic.twitter.com/JEIrjAS5YL
-        | &mdash; Steve Schoger (@steveschoger)
-        a(href='https://twitter.com/steveschoger/status/897849211110273024?ref_src=twsrc%5Etfw') August 16, 2017
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | 4 Awesome Grilled Cheese Hacks
-          a(href='https://t.co/Ctqa4GOace') pic.twitter.com/Ctqa4GOace
-        | &mdash; Tasty (@tasty)
-        a(href='https://twitter.com/tasty/status/1084366965404241920?ref_src=twsrc%5Etfw') January 13, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Work vs. luck.
-          a(href='https://t.co/kGpFIkG2r0') pic.twitter.com/kGpFIkG2r0
-        | &mdash; Visualize Value (@visualizevalue)
-        a(href='https://twitter.com/visualizevalue/status/1325446632566099968?ref_src=twsrc%5Etfw') November 8, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Cold emails shouldn&apos;t be cold
-          a(href='https://t.co/MICSivkKHv') pic.twitter.com/MICSivkKHv
-        | &mdash; Harry&apos;s Marketing Examples (@GoodMarketingHQ)
-        a(href='https://twitter.com/GoodMarketingHQ/status/1318529112454123521?ref_src=twsrc%5Etfw') October 20, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    //- 2
-    h1 2/ Threads
-    p People don't click links. So if you've got a story worth sharing write a thread.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Tesla&rsquo;s mission is to accelerate the world&rsquo;s transition to sustainable energy.
-          br
-          br
-          | &#x1F31E;&#x26A1;&#x1F697;&#x1F50B;
-          br
-          br
-          | (a thread)
-        | &mdash; Tesla (@Tesla)
-        a(href='https://twitter.com/Tesla/status/1126575043281080323?ref_src=twsrc%5Etfw') May 9, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | My name is Japhet Sakala, I am 12 years old and I live in a village in Zambia.
-          br
-          br
-          | I love football and play at the Bar&ccedil;a Academy in Lusaka. But playing football in Africa is not always easy...
-          br
-          br
-          | &#x1F447; THREAD &#x1F447;
-          a(href='https://t.co/0brxcP2so9') pic.twitter.com/0brxcP2so9
-        | &mdash; FC Barcelona (@FCBarcelona)
-        a(href='https://twitter.com/FCBarcelona/status/1119235857184063493?ref_src=twsrc%5Etfw') April 19, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | 1/ The Amazon forest is burning up, we&rsquo;ve all heard about it by now. What can you do about it? A thread in 8 chapters. &#x1F333;&#x1F525;&#x1F469;&#x1F3FC;&zwj;&#x1F692;&#x1F4AA;&#x1F3FE;
-        | &mdash; Ecosia (@Ecosia)
-        a(href='https://twitter.com/Ecosia/status/1164489544462417920?ref_src=twsrc%5Etfw') August 22, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Time to ditch Kane and Son? &#x1F632;
-          br
-          br
-          | The
-          a(href='https://twitter.com/hashtag/FPL?src=hash&ref_src=twsrc%5Etfw') #FPL
-          |  panel have their say&mldr;
-          br
-          br
-          | THREAD &#x1F447;
-          a(href='https://t.co/tj0fHYZAp9') pic.twitter.com/tj0fHYZAp9
-        | &mdash; Fantasy Premier League (@OfficialFPL)
-        a(href='https://twitter.com/OfficialFPL/status/1326138777690140673?ref_src=twsrc%5Etfw') November 10, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    //- 3
-    h1 3/ Memes
-    p Make your brand relatable.
-    p Sparknotes sells literature study guides. Twitter and literature study guides don't mix. So Sparknotes use pop-culture to make literature relatable.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='und' dir='ltr')
-          a(href='https://t.co/LCmnVSn1tU') pic.twitter.com/LCmnVSn1tU
-        | &mdash; SparkNotes (@SparkNotes)
-        a(href='https://twitter.com/SparkNotes/status/1319331690251231232?ref_src=twsrc%5Etfw') October 22, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | How it started: How it&apos;s going:
-          a(href='https://t.co/0l6aRMBBXl') pic.twitter.com/0l6aRMBBXl
-        | &mdash; SparkNotes (@SparkNotes)
-        a(href='https://twitter.com/SparkNotes/status/1314642779990118401?ref_src=twsrc%5Etfw') October 9, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Shakespearean tragedies, act 1 vs. act 5
-          a(href='https://t.co/CBAKnwvfC9') pic.twitter.com/CBAKnwvfC9
-        | &mdash; SparkNotes (@SparkNotes)
-        a(href='https://twitter.com/SparkNotes/status/1318575709464502272?ref_src=twsrc%5Etfw') October 20, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Hamlet when he accidentally murders Polonius
-          a(href='https://t.co/9fZeoSh4JN') pic.twitter.com/9fZeoSh4JN
-        | &mdash; SparkNotes (@SparkNotes)
-        a(href='https://twitter.com/SparkNotes/status/1232018740331474944?ref_src=twsrc%5Etfw') February 24, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    //- 4
-    h1 4/ “Quick reaction” tweets
-    p Each day a new story consumes Twitter. Think fast and you can go viral.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | The evolution of the truck is here. Guaranteed shatterproof &#x1F62C;
-          a(href='https://t.co/RocTEkzzwI') pic.twitter.com/RocTEkzzwI
-        | &mdash; LEGO (@LEGO_Group)
-        a(href='https://twitter.com/LEGO_Group/status/1199644074866888706?ref_src=twsrc%5Etfw') November 27, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | STOP THE COUNT
-          a(href='https://t.co/rS94knWEhO') pic.twitter.com/rS94knWEhO
-        | &mdash; Southampton FC (@SouthamptonFC)
-        a(href='https://twitter.com/SouthamptonFC/status/1324836694420578304?ref_src=twsrc%5Etfw') November 6, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Power out? No problem.
-          a(href='http://t.co/dnQ7pOgC') pic.twitter.com/dnQ7pOgC
-        | &mdash; OREO Cookie (@Oreo)
-        a(href='https://twitter.com/Oreo/status/298246571718483968?ref_src=twsrc%5Etfw') February 4, 2013
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Looks like a problem when you don&rsquo;t use Tide Plus ColorGuard.
-          a(href='https://twitter.com/hashtag/TheDress?src=hash&ref_src=twsrc%5Etfw') #TheDress
-          a(href='https://twitter.com/hashtag/DressGate?src=hash&ref_src=twsrc%5Etfw') #DressGate
-          a(href='http://t.co/yvUudF50mt') pic.twitter.com/yvUudF50mt
-        | &mdash; Tide (@tide)
-        a(href='https://twitter.com/tide/status/571362039098183680?ref_src=twsrc%5Etfw') February 27, 2015
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    //- 5
-    h1 5/ Build in public
-    p Makes your brand feel ALIVE. People want to come on the journey.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Gatsby team hard at work on v2
-          a(href='https://t.co/BoRC9LNOzU') pic.twitter.com/BoRC9LNOzU
-        | &mdash; Gatsby (@GatsbyJS)
-        a(href='https://twitter.com/GatsbyJS/status/1031674025913724928?ref_src=twsrc%5Etfw') August 20, 2018
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | We&rsquo;ve narrowed down the Fast mascot submissions to these 16 entries.
-          br
-          br
-          | Which ones are your favorite?
-          a(href='https://t.co/a6hjjvG38n') pic.twitter.com/a6hjjvG38n
-        | &mdash; Fast &#x1F680; (@fast)
-        a(href='https://twitter.com/fast/status/1300899296217387009?ref_src=twsrc%5Etfw') September 1, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Better late than never &#x1F648; Now you can underline in Notion!
-          a(href='https://t.co/mgA3xoKESc') pic.twitter.com/mgA3xoKESc
-        | &mdash; Notion (@NotionHQ)
-        a(href='https://twitter.com/NotionHQ/status/1275559941055451136?ref_src=twsrc%5Etfw') June 23, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | We&rsquo;re just signed our biggest client! Great end to the week! Oh and the sun is shining &#x2600;&#xFE0F;&#x2600;&#xFE0F;&#x2600;&#xFE0F;
-          a(href='https://t.co/d7E7sRVzos') pic.twitter.com/d7E7sRVzos
-        | &mdash; Rise at Seven (@riseatseven)
-        a(href='https://twitter.com/riseatseven/status/1164867166900019201?ref_src=twsrc%5Etfw') August 23, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    //- 6
-    h1 6/ Brand beef
-    p Conflict creates interest. T-Mobile bragging about their 5G is boring. T-Mobile roasting Verizon's 5G is hilarious.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | .
-          a(href='https://twitter.com/Verizon?ref_src=twsrc%5Etfw') @Verizon
-          |  customers trying to find that one tiny spot in Miami with 5G.
-          a(href='https://t.co/9wAwhavOFo') pic.twitter.com/9wAwhavOFo
-        | &mdash; T-Mobile (@TMobile)
-        a(href='https://twitter.com/TMobile/status/1224164723328876544?ref_src=twsrc%5Etfw') February 3, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Explains a lot
-          a(href='https://t.co/CalmlcD3eu') https://t.co/CalmlcD3eu
-        | &mdash; Burger King (@BurgerKingUK)
-        a(href='https://twitter.com/BurgerKingUK/status/1059382781724295168?ref_src=twsrc%5Etfw') November 5, 2018
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Hey
-          a(href='https://twitter.com/McDonalds?ref_src=twsrc%5Etfw') @McDonalds
-          | , heard the news. Happy
-          a(href='https://twitter.com/hashtag/NationalFrozenFoodDay?src=hash&ref_src=twsrc%5Etfw') #NationalFrozenFoodDay
-          |  to you for all the frozen beef that&rsquo;s sticking around in your cheeseburgers.
-        | &mdash; Wendy&apos;s (@Wendys)
-        a(href='https://twitter.com/Wendys/status/971136300253401088?ref_src=twsrc%5Etfw') March 6, 2018
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | all the subway sandwiches that are good
-          a(href='https://t.co/i8RlSqpdpi') https://t.co/i8RlSqpdpi
-        | &mdash; potbelly (@Potbelly)
-        a(href='https://twitter.com/Potbelly/status/1133152281153679360?ref_src=twsrc%5Etfw') May 27, 2019
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    h1 7/ Replies
-    p An underated way of getting in front of your audience.
-    p Make a list of a few people in your niche. Turn on notifications. Comment something witty or thoughtful.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Congratulations, Serena - there&apos;s a spot reserved in the player&apos;s box &#x1F476;
-          a(href='https://twitter.com/hashtag/Wimbledon?src=hash&ref_src=twsrc%5Etfw') #Wimbledon
-          a(href='https://t.co/D8xIB3zY52') pic.twitter.com/D8xIB3zY52
-        | &mdash; Wimbledon (@Wimbledon)
-        a(href='https://twitter.com/Wimbledon/status/908369343087468544?ref_src=twsrc%5Etfw') September 14, 2017
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | Wizards still need to trust Gringotts Bank.
-          br
-          br
-          | Bitcoin fixes this.
-        | &mdash; Bitcoin (@Bitcoin)
-        a(href='https://twitter.com/Bitcoin/status/1261358216526454785?ref_src=twsrc%5Etfw') May 15, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr') &quot;5 mins T-0&quot; could be Elon&apos;s next kid&apos;s name
-        | &mdash; Morning Brew &#x2615;&#xFE0F; (@MorningBrew)
-        a(href='https://twitter.com/MorningBrew/status/1266811529409835008?ref_src=twsrc%5Etfw') May 30, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr') Sounds boring
-        | &mdash; Marques Brownlee (@MKBHD)
-        a(href='https://twitter.com/MKBHD/status/1075516475161632769?ref_src=twsrc%5Etfw') December 19, 2018
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-    h1 9/ Casual content
-    p Don't complicate it. Most people just want some light entertainment.
-    .thSection
-      blockquote.twitter-tweet
-        p(lang='en' dir='ltr')
-          | It&apos;s the first Monday of 2020. You&apos;ve got this.
-          br
-          br
-          | Love,
-          br
-          | Coffee &#x2615;&#x1F49A;
-        | &mdash; Starbucks Coffee (@Starbucks)
-        a(href='https://twitter.com/Starbucks/status/1214184421739220992?ref_src=twsrc%5Etfw') January 6, 2020
-      script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+  .iosOverflow.th
+    +mailth()
+    +menu()
+    .th.thTop
+      h1 My Twitter Inspiration Handbook
+      p When I started on Twitter I had no idea what I was doing.
+      p So I made one big Google Doc where I started saving all the best “brand tweets” and grouped them into categories.
+      p Today, it's ready to share. I hope you find it useful.
+    .thTags
+      .thTags__inner
+        .thTags__tag.thc1.thczz1 Quick tips
+        .thTags__tag.thc2.thczz2 Threads
+        .thTags__tag.thc3.thczz3 Memes
+        .thTags__tag.thc4.thczz4 Quick reaction
+        .thTags__tag.thc5.thczz5 Build in public
+        .thTags__tag.thc1.thczz6 Beef
+        .thTags__tag.thc2.thczz7 Casual content
+        .thTags__tag.thc3.thczz8 Replies
+        .thTags__tag.thc4.thczz9 Questions
+        .thTags__tag.thc5.thczz10 “Reply and we'll”
+        .thTags__tag.thc1.thczz11 Live tweeting
+        .thTags__tag.thc2.thczz12 Transparency
+        .thTags__tag.thc3.thczz13 Giveaways
+        .thTags__tag.thc4.thczz14 Celebrate Customers
+        .thTags__tag.thc5.thczz15 Galvanize followers
+        .thTags__tag.thc1.thczz16 Product
+        .thTags__tag.thc2.thczz17 Consistency
+    img(src="https://harrydry.s3.amazonaws.com/gdmarketing/tharrow.png", alt="" class="thArrow")
+    .thLay
+      .thLay__section.thcz1
+        .thLay__top
+          h1.thc1 1/ Quick tips
+          p Teach people something new in a tweet. Short, sweet, and shareable.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc1.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      //- 2
+      .thLay__section.thcz2
+        .thLay__top
+          h1.thc2 2/ Threads
+          p People don't click links. So if you've got a story worth sharing write a thread.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc2.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      //- 3
+      .thLay__section.thcz3
+        .thLay__top
+          h1.thc3 3/ Memes
+          p Make your brand relatable.
+          p Sparknotes sells literature study guides. Twitter and literature study guides don't mix. So Sparknotes use pop-culture to make literature relatable.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc3.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      //- 4
+      .thLay__section.thcz4
+        .thLay__top
+          h1.thc4 4/ “Quick reaction” tweets
+          p Each day a new story consumes Twitter. Think fast and you can go viral.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc4.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      //- 5
+      .thLay__section.thcz5
+        .thLay__top
+          h1.thc5 5/ Build in public
+          p Makes your brand feel!{' '}
+            span.italic ALIVE
+            | . People want to come on the journey.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc5.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      //- 6
+      .thLay__section.thcz6
+        .thLay__top
+          h1.thc1 6/ Brand beef
+          p Conflict creates interest. T-Mobile bragging about their 5G is boring. T-Mobile roasting Verizon's 5G is hilarious.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc6.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz7
+        .thLay__top
+          h1.thc2 7/ Casual content
+          p Don't complicate it. Most people just want some light entertainment.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc7.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz8
+        .thLay__top
+          h1.thc3 8/ Replies
+          p Make a list of a few people in your niche. Turn on notifications. Comment something witty or thoughtful.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc8.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz9
+        .thLay__top
+          h1.thc4 9/ Questions
+          p Get to know your customers whilst building a sense of community.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc9.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz10
+        .thLay__top
+          h1.thc5 10/ “Reply to this tweet and we'll...”
+          p Turns causal followers into brand advocates.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc10.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz11
+        .thLay__top
+          h1.thc1 11/ Live tweeting
+          p Your audience watch a cult show. That show trends every week. You live-tweet each episode.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc11.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz12
+        .thLay__top
+          h1.thc2 12/ Transparency
+          p Twitter loves transparency. Talk openly about your product you'll sell more ofyour product.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc12.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz13
+        .thLay__top
+          h1.thc3 13/ Giveaways
+          p Grows follower count. Builds brand awareness.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc13.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz14
+        .thLay__top
+          h1.thc4 14/ Celebrate customers
+          p Making customers look good makes you look good. It's marketing without!{' '}
+            span.italic marketing
+            | .
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc14.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz15
+        .thLay__top
+          h1.thc5 15/ Galvanize followers
+          p This tweet deserves a category of it's own.
+          p 65,000 people posting photos of their Spotify playlist. All from one tweet.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc14.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz16
+        .thLay__top
+          h1.thc1 16/ Share your product
+          p You're allowed to share your product. Just don't make it look like an ad.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc16.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")
+      .thLay__section.thcz17
+        .thLay__top
+          h1.thc2 17/ Consistency
+          p And finally, consistency is how you imprint yourself. Your followers should recognise you without looking at the icon.
+          p There's no better example than no name. Consistent tone, aesthetics and message.
+        .thSection
+          picture
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/tttc17.webp" type="image/webp")
+            source(srcset="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg" type="image/jpeg")
+            img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ttt1.jpg", alt="" class="")

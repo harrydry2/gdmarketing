@@ -67,6 +67,7 @@ function mouseoutFun(e) {
 }
 
 export function mailPopup() {
+  console.log('sss');
   const mailButton = $('.newmail__input-input .newmail__input-input-button');
   const mailInput = $('.newmail__input-input input');
   const mailRed = $('.newmail__input .newmail__input-red');
@@ -95,7 +96,7 @@ export function mailPopup() {
         $('.outerMail').style.display = 'flex';
         $('.iosOverflow').classList.add('mailNoScroll');
         $('.iosOverflow').classList.add('number5chanel');
-      }, 40000);
+      }, 1000);
     } else {
       setTimeout(() => {
         document.addEventListener('mouseout', mouseoutFun);

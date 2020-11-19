@@ -1982,6 +1982,11 @@ span {
   @media screen and (max-width: 768px) {
     .thSection {
       width: 100%; } }
-  .thSection img {
+  .thSection img, .thSection picture {
     width: 100%; }
+  .thSection video {
+    width: 80%; }
+  @media screen and (max-width: 768px) {
+    .thSection {
+      width: 100%; } }
 

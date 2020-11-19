@@ -13,8 +13,10 @@
     justify-content: space-between
     width: 80rem
     // width: 103.6rem
-    // padding: 0 1.8rem
     margin: 0 auto
+    @media screen and (max-width: 768px)
+      padding: 0 1.8rem
+      width: 100%
     &-right
       display: flex
       align-items: center
@@ -24,3 +26,11 @@
         font-weight: 600
         color: $brand
   &__logo
+    display: block
+    @media screen and (max-width: 768px)
+      display: none
+  &__logoSmall
+    display: none
+    @media screen and (max-width: 768px)
+      display: block
+      // margin-right: 1.8rem

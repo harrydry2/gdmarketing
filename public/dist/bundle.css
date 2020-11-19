@@ -1680,6 +1680,10 @@ span {
     justify-content: space-between;
     width: 80rem;
     margin: 0 auto; }
+    @media screen and (max-width: 768px) {
+      .menu__inner {
+        padding: 0 1.8rem;
+        width: 100%; } }
     .menu__inner-right {
       display: flex;
       align-items: center; }
@@ -1688,6 +1692,16 @@ span {
         margin-right: 2rem;
         font-weight: 600;
         color: #4742DE; }
+  .menu__logo {
+    display: block; }
+    @media screen and (max-width: 768px) {
+      .menu__logo {
+        display: none; } }
+  .menu__logoSmall {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .menu__logoSmall {
+        display: block; } }
 
 .podcastTop {
   width: 50rem;
@@ -1839,26 +1853,50 @@ span {
 .thTop {
   width: 60rem;
   margin: 12.2rem auto 0rem auto; }
+  @media screen and (max-width: 768px) {
+    .thTop {
+      width: 100%;
+      margin: 10.7rem auto 0rem auto; } }
   .thTop h1 {
     font-size: 2.4rem;
     font-weight: 700;
     color: #030212;
-    margin-bottom: 1.8rem; }
+    margin-bottom: 1.8rem;
+    line-height: 3rem; }
+    @media screen and (max-width: 768px) {
+      .thTop h1 {
+        display: none;
+        padding: 0 1.8rem;
+        text-align: center; } }
+  .thTop .small {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .thTop .small {
+        display: block; } }
   .thTop p {
     font-weight: 400;
     font-size: 1.8rem;
     color: #030212;
     padding: 0.7rem 0; }
+    @media screen and (max-width: 768px) {
+      .thTop p {
+        padding: 0.7rem 2rem; } }
 
 .thTags {
   padding: 4rem 0 2.2rem 0;
   background-color: white; }
+  @media screen and (max-width: 768px) {
+    .thTags {
+      padding: 2rem 0 2.2rem 0; } }
   .thTags__inner {
     margin: 0 auto;
     width: 81rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
+    @media screen and (max-width: 768px) {
+      .thTags__inner {
+        width: 100%; } }
   .thTags__tag {
     padding: 0.8rem 1.5rem;
     display: flex;
@@ -1878,6 +1916,9 @@ span {
   display: flex;
   width: 5rem;
   transform: rotate(5deg); }
+  @media screen and (max-width: 768px) {
+    .thArrow {
+      width: 4rem; } }
 
 .thc1 {
   background-color: rgba(225, 35, 143, 0.16); }
@@ -1901,6 +1942,9 @@ span {
   .thLay__top {
     width: 60rem;
     margin: 0 auto; }
+    @media screen and (max-width: 768px) {
+      .thLay__top {
+        width: 100%; } }
   .thLay h1 {
     margin-bottom: 2rem;
     font-weight: 700;
@@ -1910,11 +1954,17 @@ span {
     justify-content: center;
     font-size: 1.8rem;
     transform: rotate(-1deg); }
+    @media screen and (max-width: 768px) {
+      .thLay h1 {
+        margin-left: 1.8rem; } }
   .thLay p {
     font-size: 1.8rem;
     font-weight: 400;
     padding: 0.7rem 0;
     color: #030212; }
+    @media screen and (max-width: 768px) {
+      .thLay p {
+        padding: 0.7rem 1.8rem; } }
     .thLay p .italic {
       font-style: italic; }
 
@@ -1923,6 +1973,9 @@ span {
   padding-top: 3.1rem;
   width: 80rem;
   margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .thSection {
+      width: 100%; } }
   .thSection img {
     width: 100%; }
 

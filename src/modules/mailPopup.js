@@ -134,8 +134,16 @@ export function mailSubmitAddOn() {
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 3);
 }
 
+export function mailSubmitFromHandbook() {
+  const mailButtonSpec = $('.flowBreaker__inner .mail__button');
+  const mailInputSpec = $('.flowBreaker__inner .mail__input > input');
+  const mailRedSpec = $('.flowBreaker__inner .mail__bc-red');
+  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 3);
+}
+
 // 1 - home
 // 2 - on page
 // 3 - on page ajax
 // 4 - direct
 // 5 - popup
+// 6 - fromHandbook

@@ -1674,6 +1674,8 @@ span {
   border-bottom: 1px solid #e1e1e1;
   background: #fff;
   z-index: 2; }
+  .menu__twitter {
+    margin-left: 1.6rem; }
   .menu__inner {
     display: flex;
     align-items: center;
@@ -1689,7 +1691,6 @@ span {
       align-items: center; }
       .menu__inner-right-text {
         font-size: 1.5rem;
-        margin-right: 2rem;
         font-weight: 600;
         color: #4742DE; }
   .menu__logo {
@@ -1973,6 +1974,101 @@ span {
         padding: 0.7rem 1.8rem; } }
     .thLay p .italic {
       font-style: italic; }
+
+.flowBreaker {
+  background-color: #14233C;
+  width: 100%;
+  padding: 8rem 0;
+  margin: 4rem 0; }
+  @media screen and (max-width: 768px) {
+    .flowBreaker {
+      padding: 5rem 0; } }
+  .flowBreaker__inner {
+    width: 60rem;
+    margin: 0 auto; }
+    @media screen and (max-width: 768px) {
+      .flowBreaker__inner {
+        width: 100%; } }
+    .flowBreaker__inner__harry {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem; }
+      .flowBreaker__inner__harry-p {
+        font-size: 1.6rem;
+        background-color: #4742DE;
+        padding: 1rem;
+        display: inline-flex;
+        transform: rotate(-1deg);
+        color: white;
+        font-weight: 500; }
+      .flowBreaker__inner__harry img {
+        margin-left: 12px;
+        width: 5.3rem;
+        height: 5.3rem;
+        border-radius: 100px;
+        padding: 5px;
+        border: 2px solid #fafafa; }
+    .flowBreaker__inner-mail {
+      width: 100%;
+      margin-top: 2.6rem; }
+      @media screen and (max-width: 768px) {
+        .flowBreaker__inner-mail {
+          padding: 0 1.8rem; } }
+    .flowBreaker__inner .mail__bc-red {
+      font-size: 1.7rem;
+      margin-top: 2rem;
+      text-align: center; }
+  .flowBreaker p {
+    color: #ffffff; }
+    .flowBreaker p span.bold {
+      font-weight: 600; }
+    .flowBreaker p a {
+      border-bottom: 1px solid #ffffff; }
+
+.fbSocialProof__testy {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .fbSocialProof__testy {
+      text-align: left; } }
+  .fbSocialProof__testy-img {
+    border-radius: 100px;
+    width: 5.3rem;
+    height: 5.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white; }
+    @media screen and (max-width: 376px) {
+      .fbSocialProof__testy-img {
+        margin-left: 1rem; } }
+    .fbSocialProof__testy-img img {
+      width: 4.3rem;
+      height: 4.3rem;
+      border-radius: 100px; }
+  .fbSocialProof__testy-text {
+    font-size: 1.6rem;
+    margin-left: 1.1rem;
+    width: 34rem;
+    font-style: italic;
+    line-height: 2rem;
+    font-weight: 400;
+    z-index: 2;
+    color: #F2F2F2; }
+    @media screen and (max-width: 376px) {
+      .fbSocialProof__testy-text {
+        margin-left: 1.6rem;
+        width: 26rem; } }
+    @media screen and (max-width: 350px) {
+      .fbSocialProof__testy-text {
+        margin-left: 1rem;
+        width: 22rem; } }
+    .fbSocialProof__testy-text .bold {
+      font-weight: 600; }
 
 .thSection {
   display: flex;

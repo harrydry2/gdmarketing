@@ -3,12 +3,12 @@ include ./filters
 include ./ph
 
 mixin home(cards, activeFilters, title, displaynone = "")
-  +phBase()
   .home(class=`${displaynone}`)
     .home__left
       a.home__left-logo(href="/")!=icon("meLogoBig")
       +filters(activeFilters)
     .home__right
+      +phBase()
       .home__right-header
         .home__right-header-wrap
           a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")

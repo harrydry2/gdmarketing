@@ -355,7 +355,8 @@ p {
       border-left: 1px solid #e1e1e1;
       z-index: 3;
       background-color: white;
-      width: calc(100% - 25rem); }
+      position: sticky;
+      top: 0; }
       @media screen and (max-width: 940px) {
         .home__right-header {
           width: calc(100%); } }
@@ -548,8 +549,7 @@ p {
   padding: 2.2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2.2rem;
-  margin-top: 7rem; }
+  grid-gap: 2.2rem; }
   @media screen and (max-width: 1240px) {
     .outerCard {
       grid-template-columns: repeat(2, 1fr); } }

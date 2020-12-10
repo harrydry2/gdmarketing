@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 27px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 27px 12px 27px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#057 - My guide to brand positioning</mj-text>
+          <mj-text mj-class="h3" align="center">(Branding • 3 mins • <a class="underB" href="https://marketingexamples.com/brand/positioning" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Friends, Romans, countrymen and women. Lend me your ears!</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I spent the last few weeks reading pretty much everything I could find about how brands differentiate themselves.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">And I condensed it into this short, sweet mini guide. Hope you enjoy it.</span></mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Let's start with this line by Ted Morgan.</mj-text>
+          <mj-text mj-class="p inwardSpeech">Positioning is like finding a seat on a crowded bus</mj-text>
+          <mj-text mj-class="p">Most brands sleepwalk onto the bus and sit on top of one another.</mj-text>
+          <mj-text mj-class="p">The smart brands look left, right, find an empty row, paint their logo on it and start singing sweetly like the Sirens.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos1.jpg" alt="Sea of sameness brand positioning"></mj-image>
+          <mj-text mj-class="p">Positioning is an easy thing to complicate so let's keep it simple.</mj-text>
+          <mj-text mj-class="p inwardSpeech">Your goal is to own a space in the customer’s mind. You do this by differentiating yourself.</mj-text>
+          <mj-text mj-class="p">Differentiation is not a dark art. It's something you can learn. Here’s how you can achieve it.</mj-text>
+          <mj-button mj-class="bg1">1/ Through contrast</mj-button>
+          <mj-text mj-class="p">Point at the status quo and pit yourself against it. Contrast burns your brand into the customer's mind.</mj-text>
+          <mj-text mj-class="p list list__top">• Hey pit themselves against mainstream email</mj-text>
+          <mj-text mj-class="p list">• Lemonde pit themselves against insurance stereotypes</mj-text>
+          <mj-text mj-class="p list list__bottom">• The <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=sdF5IsyOxU4" target="_blank">“I'm a Mac”</a> ads pit themselves against the PC</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos2.png" alt="Pick a fight against status quo brand positioning"></mj-image>
+          <mj-button mj-class="bg2">2/ Through values</mj-button>
+          <mj-text mj-class="p">Think Patagonia and the environment, Ben and Jerry's and social justice, Black Rifle Coffee and gun rights.</mj-text>
+          <mj-text mj-class="p">Some will hate it. Others will rally behind you. And <span class="italic">that's the point</span>. Fence sitters don't buy.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos3.jpg" alt="Positioning through brand values"></mj-image>
+          <mj-button mj-class="bg3">3/ Through contrast</mj-button>
+          <mj-text mj-class="p">Invent a new category and you haven't got any competitors.</mj-text>
+          <mj-text mj-class="p">When Drift launched in 2016 they were just another startup in the mushy bucket of live chat software. How to stand out?</mj-text>
+          <mj-text mj-class="p">Well, they reframed live chat as <span class="italic">conversational marketing</span> and made it their mission to own this new category.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos4.png" alt="Drift's brand positioning"></mj-image>
+          <mj-button mj-class="bg4">4/ Through personality</mj-button>
+          <mj-text mj-class="p">Turn yourself into the product and no one can compete with you.</mj-text>
+          <mj-text mj-class="p">Think Kanye’s shoes, Nigella's cookbook, Wicks’s workout.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos5.jpg" alt="Productize yoursel"></mj-image>
+          <mj-button mj-class="bg5">5/ Through limitation</mj-button>
+          <mj-text mj-class="p">Instead of trying to be <span class="italic">everything for everyone</span> go all-in on <span class="italic">one</span> niche or <span class="italic">one</span> feature.</mj-text>
+          <mj-text mj-class="p">Limitation makes you easy to sum up. Being easy to sum up makes you memorable.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos6.png" alt="Brand positioning"></mj-image>
+          <mj-text mj-class="p">Writing this made me think back to how I positioned Marketing Examples.</mj-text>
+          <mj-text mj-class="p list list__top">• Contrast - Marketing content was fluffy. My goal was no fluff</mj-text>
+          <mj-text mj-class="p list">• Personality - Well, I write them all</mj-text>
+          <mj-text mj-class="p list list__bottom">• Limitation - Just examples. No agency, jobs board, etc...</mj-text>
+          <mj-button mj-class="bg1">One last thing</mj-button>
+          <mj-text mj-class="p">Positioning isn't something you make up on a whim.</mj-text>
+          <mj-text mj-class="p">Behind great positioning is a story. Positioning is the one line summary. The story makes it memorable.</mj-text>
+          <mj-text mj-class="p">Look at Drift. <span class="italic">Conversational marketing</span> isn't plucked out the sky. It's the final bullet point in their story. </mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/pos7.png" alt="Marketing Examples Product Hunt"></mj-image>
+          <mj-text mj-class="p"><span class="italic">You made it! Thank you for reading. And for your patience.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I'm going to be back with one more next week, before Christmas.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Forgive my self indulgence: But it was my goal to reach 50,000 readers by 2021. I'm 5,000 away.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">If you're feeling the Christmas spirit please do forward to a pal, share on <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1337049576029769732" target="_blank">Twitter</a>, wherever. Here's the <a class="underA subscribeColor" href="https://marketingexamples.com/brand/positioning" target="_blank">link</a>. Maybe we can get there.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Oh, and shoutout to <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1337049576029769732" target="_blank">this</a> article by Peep and Louis Grenier's <a class="underA subscribeColor" href="https://www.linkedin.com/in/louisgrenier/" target="_blank">LinkedIn</a> which I learnt a lot from.</span></mj-text>
+          <mj-text mj-class="h2under">Tuesday's “Thursday evening” tip</mj-text>
+          <mj-text mj-class="p">Social media marketing in a line.</mj-text>
+          <mj-text mj-class="p inwardSpeech">Find the overlap between what your brand wants to say and what your audience wants to hear — Matthew Kobach</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip11.png" alt="don't try"></mj-image>
+          <mj-text mj-class="h2under">Sponsored by Ahrefs</mj-text>
+          <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Previous case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the fun <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

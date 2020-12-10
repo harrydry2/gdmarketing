@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "My guide to brand positioning",
+    "sUrl": "https://www.thebodycoach.com/",
+    "sText": "Positioning",
+    "tFront": "Brand",
+    "tBack": "brand",
+    "slug": "positioning",
+    "img": "pos",
+    "imgType": "jpg",
+    "desc": "Positioning is like finding a seat on a crowded bus. Most brands sleepwalk onto the bus and sit on top of one another. The smart brands look left, right, find an empty row, paint their logo on it and start singing sweetly like the Sirens"
+  },
+  {
+    "num": "9",
     "title": "Rewriting landing pages with a pro copywriter",
     "sUrl": "https://www.thebodycoach.com/",
     "sText": "3 mins",
@@ -874,17 +886,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "My guide to brand positioning",
-    "sUrl": "https://www.thebodycoach.com/",
-    "sText": "Positioning",
-    "tFront": "Brand",
-    "tBack": "brand",
-    "slug": "positioning",
-    "img": "pos",
-    "imgType": "jpg",
-    "desc": "Positioning is like finding a seat on a crowded bus. Most brands sleepwalk onto the bus and sit on top of one another. The smart brands look left, right, find an empty row, paint their logo on it and start singing sweetly like the Sirens"
   }
 ]

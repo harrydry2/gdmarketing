@@ -877,26 +877,14 @@
   },
   {
     "num": "9",
-    "title": "A crash course in brand positioning",
+    "title": "My guide to brand positioning",
     "sUrl": "https://www.thebodycoach.com/",
     "sText": "Positioning",
     "tFront": "Brand",
     "tBack": "brand",
-    "slug": "positioning1",
+    "slug": "positioning",
     "img": "pos",
     "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "My five minute guide to positioning your brand",
-    "sUrl": "https://www.thebodycoach.com/",
-    "sText": "Positioning",
-    "tFront": "Brand",
-    "tBack": "brand",
-    "slug": "positioning2",
-    "img": "pos",
-    "imgType": "jpg",
-    "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+    "desc": "Positioning is like finding a seat on a crowded bus. Most brands sleepwalk onto the bus and sit on top of one another. The smart brands look left, right, find an empty row, paint their logo on it and start singing sweetly like the Sirens"
   }
 ]

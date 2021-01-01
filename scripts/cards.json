@@ -886,5 +886,29 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How Mark and Rox Hoyle started a movement",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "3 mins",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "ladbaby-christmas-song",
+    "img": "lad",
+    "imgType": "jpg",
+    "desc": ""
+  },
+  {
+    "num": "9",
+    "title": "How a husband and wife beat Mariah Carey to Christmas No.1",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "3 mins",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "ladbaby-christmas-song1",
+    "img": "lad",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

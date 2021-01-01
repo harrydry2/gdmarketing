@@ -1413,7 +1413,7 @@ p {
   .content p {
     font-size: 1.7rem;
     line-height: 1.8;
-    padding: 0.76rem; }
+    padding: 0.76rem 0.76rem 0.76rem 0.76rem; }
     @media screen and (max-width: 550px) {
       .content p {
         padding: .7rem 2rem; } }
@@ -1492,10 +1492,40 @@ p {
         width: 100%; } }
 
 mark {
-  background-color: rgba(254, 19, 19, 0.25); }
+  background-color: rgba(254, 19, 19, 0.25);
+  padding: 0.2rem 0.4rem; }
 
 span {
   line-height: initial; }
+
+h2.slab {
+  font-size: 1.7rem;
+  text-transform: none;
+  margin: 2rem 0.4rem;
+  font-weight: 700;
+  color: #030212;
+  padding: .9rem 1rem .7rem 1rem;
+  display: inline-flex;
+  justify-content: center;
+  transform: rotate(-1deg); }
+  @media screen and (max-width: 550px) {
+    h2.slab {
+      margin: 2rem; } }
+
+.bg1 {
+  background-color: #FADCED; }
+
+.bg2 {
+  background-color: #CBF6F2; }
+
+.bg3 {
+  background-color: #FFD5D5; }
+
+.bg4 {
+  background-color: #D9F4E2; }
+
+.bg5 {
+  background-color: #E4E2FA; }
 
 .norm {
   font-style: normal; }

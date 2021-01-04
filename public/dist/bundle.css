@@ -1491,6 +1491,15 @@ p {
         margin: 3rem auto;
         width: 100%; } }
 
+.sesquon {
+  margin: 3rem auto 4rem auto !important; }
+  @media screen and (max-width: 550px) {
+    .sesquon {
+      margin: 2rem auto 3rem auto !important; } }
+
+.ni {
+  font-style: normal !important; }
+
 mark {
   background-color: rgba(254, 19, 19, 0.25);
   padding: 0.2rem 0.4rem; }

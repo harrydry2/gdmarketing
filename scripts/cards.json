@@ -73,6 +73,18 @@
   },
   {
     "num": "9",
+    "title": "How LadBaby started a movement",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "3 mins",
+    "tFront": "Viral",
+    "tBack": "viral",
+    "slug": "ladbaby",
+    "img": "lad",
+    "imgType": "jpg",
+    "desc": "January 2018. Mark Hoyle (LadBaby) was a graphic designer with fifty thousand YouTube subscribers. Last week he and wife Rox equalled The Beatles record of 3 consecutive UK Christmas No.1's. Their story is a masterclass in how to start a movement. Let me share some lessons."
+  },
+  {
+    "num": "9",
     "title": "The marketing genius of Lil Nas X",
     "sUrl": "https://twitter.com/LilNasX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
     "sText": "Lil Nas X",
@@ -889,14 +901,26 @@
   },
   {
     "num": "9",
-    "title": "How LadBaby started a movement",
+    "title": "My guide to writing landing pages that sell",
     "sUrl": "https://beamery.com/blog/personalized-emails",
     "sText": "3 mins",
-    "tFront": "Viral",
-    "tBack": "viral",
-    "slug": "ladbaby",
-    "img": "lad",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "landing-pages1",
+    "img": "lsp",
     "imgType": "jpg",
-    "desc": "January 2018. Mark Hoyle (LadBaby) was a graphic designer with fifty thousand YouTube subscribers. Last week he and wife Rox equalled The Beatles record of 3 consecutive UK Christmas No.1's. Their story is a masterclass in how to start a movement. Let me share some lessons."
+    "desc": ""
+  },
+  {
+    "num": "9",
+    "title": "My step-by-step guide to landing pages that convert",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "3 mins",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "landing-pages2",
+    "img": "lsp",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

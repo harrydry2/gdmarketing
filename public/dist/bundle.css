@@ -1521,6 +1521,13 @@ h2.slab {
     h2.slab {
       margin: 2rem; } }
 
+.dashed {
+  width: 80rem;
+  border-top: 4px dashed #030212;
+  padding: 4rem 0 2rem 0;
+  position: relative;
+  left: -9rem; }
+
 .bg1 {
   background-color: #FADCED; }
 

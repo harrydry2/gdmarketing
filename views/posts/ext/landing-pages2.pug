@@ -3,19 +3,14 @@ extends ../base
 block content
   //- p A good landing page is simple. I’ve made hundreds. It was my old job, then I did it for clients.
   //- p When I started I'd copy sections from other sites. But after a dozen I found a formula that converted:
-  //- p There’s two parts of a landing page: What’s immediately visible!{' '}
-  //-   span.italic (above the fold)
-  //-   | . What the user scrolls to!{' '}
-  //-   span.italic (below the fold)
-  //-   | .
-  p There’s two parts to every landing page:
-  p.list.list__top 1/ What’s immediately visible!{' '}
+  p There’s two parts of a landing page: what’s immediately visible!{' '}
     span.italic (above the fold)
-  p.list.list__bottom 2/ What the user scrolls to!{' '}
+    |!{' '}and what the user scrolls to!{' '}
     span.italic (below the fold)
+    | .
   p Let's start!{' '}
     span.italic above the fold
-    |. A caveman should be able to glance at it and immediately grunt what you offer. Here’s my formula:
+    |. A caveman should be able to glance at it and immediately grunt back what you offer. Here’s my formula:
   p.list.list__top 1/ Explain the value you provide!{' '}
     span.italic (title)
   p.list 2/ Explain how you'll create it!{' '}
@@ -27,7 +22,6 @@ block content
   p.list.list__bottom 5/ Make taking the next step easy!{' '}
     span.italic (CTA)
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp.png" alt="Marketing Examples Product Hunt").img__100
-  //- p Let's dig into each component.
   h2.slab.bg1 1/ Title
   p There’s one hundred ways to write a great title. I'm going to focus on three.
   //- p The role of your title is to explain the value you provide. There's one hundred ways of doing this. I'm going to focus on three.
@@ -37,7 +31,7 @@ block content
   p.ni.inwardSpeech When your product is unique all you have to do is explain what you do as simply as possible.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp1a.png" alt="Marketing Examples Product Hunt").img__100.sesquon
   p.ni.inwardSpeech
-    span.bold 2/ Value + Hook
+    span.bold 2/ Hooks
   span.isBreak
   p.ni.inwardSpeech Most products aren't unique. So a hook adds!{' '}
     span.italic oomph
@@ -48,51 +42,41 @@ block content
   p.ni.inwardSpeech
     span.bold 3/ Own your niche
   span.isBreak
-  p.inwardSpeech.ni Some startups transcend hooks. Another pattern is to own your niche in one line.
-  //- p.inwardSpeech.ni Some startups transcend hooks. Taking ownership of your niche is more effective.
-  span.isBreak
-  p.inwardSpeech.ni Throw a net around the problem you solve. You're!{' '}
-    span.italic the
+  p.inwardSpeech.ni Some startups transcend hooks. Another pattern is to!{' '}
+    span.italic own your niche in one line
+    | . Write with conviction. You're!{' '}
+    span.italic THE
     |!{' '}solution.
-  //- p.inwardSpeech.ni Another pattern I like is to!{' '}
-  //-   span.italic own your niche in one line
-  //-   | . Throw a net around the problem you solve. You're!{' '}
-  //-   span.italic the
-  //-   |!{' '}solution.
-  //- p.inwardSpeech.ni Your customer has a problem. You're!{' '}
-  //-   span.italic the
-  //-   |!{' '}solution. The trick is conviction. Write like you’ve got no competitors.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp1c.png" alt="Marketing Examples Product Hunt").img__100.sesquon
-  //- p.inwardSpeech • Don’t say “We help” say “It's how”.<br>• Don’t say “A” say “The”.
   h2.slab.bg2 2/ Subtitle
-  p The role of your subtitle is to:
-  p.list.list__top a) Introduce the product
-  p.list.list__bottom b) Explain!{' '}
-    span how
-    |!{' '}it creates the value in your title
+  //- p The role of your subtitle is to:
+  //- p.list.list__top a) Introduce the product
+  //- p.list.list__bottom b) Explain!{' '}
+  //-   span how
+  //-   |!{' '}it creates the value in your title
+  p Subtitles are where you get specific. Introduce the product. Explain how it creates the value in your title.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp2.png" alt="Marketing Examples Product Hunt").img__100
   h2.slab.bg4 3/ Visual
-  p The role of your visual is to show your product in all it's glory. The goal is to get as close to reality as possible.
-  p Don't show me stock images. Show me your product. Or even better, your product!{' '}
+  p Show off your product in all it's glory. The goal is to get as close to reality as possible.
+  p Don't show me random images. Show me your product. Or even better, your product!{' '}
     span.italic in action
     | .
   //- p.inwardSpeech Illustrations → Your product → Your product in action
-  //- p.inwardSpeech The greatest thing to be achieved in advertising is believability, and nothing is more believable than the product itself — Leo Burnett
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp3b.jpg" alt="Marketing Examples Product Hunt").img__100
   h2.slab.bg3 4/ Social Proof
-  //- p The role of social proof (above the fold) is to establish credibility. Credibility then enhances your title.
-  p The role of social proof (above the fold) is to establish credibility in as few pixels as possible. It’s the laughter track that enhances your punchline.
+  //- p The role of social proof (above the fold) is to establish credibility. Credibility adds weight to your title.
+  p The role of social proof (above the fold) is to establish credibility in as few pixels as possible. Credibility adds weight to your title.
   //- p E.g. “How small brands sell more online” works reinforced by 18,000 customer reviews, “A Proven podcast framework” is reinforced by 900,000 donwloads, etc...
-  //- p E.g. Without social proof “How small brands sell more online” is just a bold claim. The 18,000 reviews that make you believe it.
-  //- p.list.list__top • “How small brands sell more” is reinforced by 18,000 reviews.
+  p.inwardSpeehc E.g. “How small brands sell more online” is just a claim. The 18,000 reviews make you believe it.
+  //- p.list.list__top • “How small brands sell more” is made real by 18,000 reviews.
   //- p.list • “A Proven podcast framework” is reinforced by 900,000 downloads.
   //- p.list.list__bottom • “Email's new heyday” is reinforced by awards from renowned sites.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp4a.png" alt="Marketing Examples Product Hunt").img__100
   h2.slab.bg5 5/ CTA
-  p The role of the CTA is to make taking the next step easy.
-  p Most buttons amplify action:!{' '}
+  p Your CTA makes taking the next step easy.
+  p Most buttons emphasise the action:!{' '}
     span.italic Sign Up, Start Trial etc.
-    |!{' '} Clear, but not compelling. Here's 3 more persuasive CTA types.
+    |!{' '} Clear, but not compelling. Here's three more persuasive CTA types.
   p.ni.inwardSpeech
     span.bold 1/ Call to value
   p.ni.inwardSpeech Buttons which emphasise “value” over “action” usually perform better. The trick is to fulfil the value your title promises.
@@ -111,7 +95,6 @@ block content
   //- p In seconds customers try to establish whether or not you can help them. If they can't work this out they'll leave. Make their life easy.
   //- Clarity over creativity.
   p In five seconds customers try to establish whether or not you can help them. Make their life easy.
-  p A caveman should be able to glance at your site and immediately grunt what you offer.
   p.list.list__top 1/ Explain the value you provide!{' '}
     span.italic (title)
   p.list 2/ Explain how you'll create it!{' '}
@@ -126,18 +109,18 @@ block content
   h2.slab.bg2 “Below the fold”
   p
     span.italic Above the fold
-    |!{' '}you earn the customers attention.!{' '}
+    |!{' '}you earn the customer's attention.!{' '}
     span.italic Below the fold
-    |!{' '}you earn the sale. Here's my formula:
-  p.list.list__top 1/ Deliver your sales pitch!{' '}
+    |!{' '}you earn the sale. Here's the last five steps:
+  p.list.list__top 6/ Deliver your sales pitch!{' '}
     span.italic (features and objections)
-  p.list 2/ Inspire action!{' '}
+  p.list 7/ Inspire action!{' '}
     span.italic (social proof)
-  p.list 3/ Tie up loose ends!{' '}
+  p.list 8/ Tie up loose ends!{' '}
     span.italic (FAQ)
-  p.list 4/ Repeat your call to action!{' '}
+  p.list 9/ Repeat your call to action!{' '}
     span.italic (2nd CTA)
-  p.list.list__bottom 5/ Make yourself easy to sum up!{' '}
+  p.list.list__bottom 10/ Make yourself memorable!{' '}
     span.italic (Founder's note)
   h2.slab.bg1 1/ Features and Benefits
   p This is where you deliver your product’s sales pitch. You want 3-6 different features. Each one follows a similar pattern:
@@ -145,65 +128,71 @@ block content
   p.list 2/ Explains feature. States a real world benefit
   p.list.list__bottom 3/ Brings to life with a visual element
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6.png" alt="Marketing Examples Product Hunt").img__100
-  //-
-  //-
-  //-
-  //-
-  //- h2.slab.bg1 1/ Features and objections
-  //- p This is where you deliver your sales pitch. Don’t charge in like a bull. This section takes a little planning.
-  //- //- p This is where you deliver your product’s sales pitch. Most companies just blast noise here. But there's actually a process.
-  //- //- p The primary role of your features are to make concrete the value promised in your title.
-  //- p Grab a notepad. Write your landing page title at the top. Write your customers biggest objections at the bottom.
-  //- p Below your title!{' '}
-  //-   span.italic write the features that bring to life the value in your title.
-  //-   | Above your objections!{' '}
-  //-   span.italic write what you'd say to handle each objection.
-  //- p The middle is your sales pitch.
-  //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6e.png" alt="Marketing Examples Product Hunt").img__100
-  //- p Then you layout each point just like a mini landing page:
-  //- p.list.list__top 1/ Explain the value!{' '}
-  //-   span.italic (title)
-  //- p.list 2/ Explain how you'll create it !{' '}
-  //-   span.italic (subtitle)
-  //- p.list.list__bottom 3/ Let the user visualise it!{' '}
-  //-   span.italic (visual)
+
+
+
+
+  //- h2.slab.bg1 6/ Features and objections
+  //- p Your “sales pitch” consists of features and objections. Most websites spray noise here. You want to be deliberate.
+  //- p.ni.inwardSpeech
+  //-   span.bold 1/ Start with features
+  //- span.isBreak
+  //- //- p.list.list__top 1/ Explain the value you provide!{' '}
+  //- //-   span.italic (title)
+  //- //- p.list 2/ Explain how you'll create it !{' '}
+  //- //-   span.italic (subtitle)
+  //- //- p.list.list__bottom 3/ Let the user visualise it!{' '}
+  //- //-   span.italic (visual)
+  //- //- p This is where you deliver your sales pitch. Most websites spray noise here.
+  //- //- Start with writing down the features which make concrete the value in your title.
+  //- p.ni.inwardSpeech Grab a notebook. Write your landing page title at the top. Next write the features that reinforce the value in your title.
+  //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6f.png" alt="Marketing Examples Product Hunt").img__100
+  //- span.isBreak
+  //- p.ni.inwardSpeech This is your feature outline. Lay out each one just like a mini landing page:
+  //- span.isBreak
   //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6a.png" alt="Marketing Examples Product Hunt").img__100
-  //- p Once that's achieved you progress to
-  //- p In other cases it's not as formulaic. E.g. An objection might be “This sounds complicated”. In which case you'd show a “How it works section”
-  h2.slab.bg2 2/ More social proof
-  p Above the fold social proof is about!{' '}
-    span.italic credibility
-    | . Below the fold social proof is about!{' '}
-    span.italic inspiring action
-    | .
-  //- p The role of social proof (below the fold) is to inspire action.
-  p It's not a box you tick. It’s an opportunity to sell your product. Again, the trick is to!{' '}
+  //- p Next, handle your customer's biggest objections.
+  //- p.ni.inwardSpeech
+  //-   span.bold 1/ Start with features
+  //- p For example, one might be “This sounds complicated”. To handle it you'd show how your product works in three easy steps.
+  //- //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6b.png" alt="Marketing Examples Product Hunt").img__100
+  //- //- p In other cases it's not as formulaic. E.g. An objection might be “This sounds complicated”. In which case you'd show a “How it works section”
+  h2.slab.bg2 7/ More social proof
+  p Your open goal to blow away potential customers. Use existing customers to!{' '}
     span.italic bring to life the value your page promises.
+  //- p Above the fold social proof is about!{' '}
+  //-   span.italic credibility
+  //-   | . Below the fold social proof is about!{' '}
+  //-   span.italic inspiring action
+  //-   | .
+  //- p It's not a box you tick. It’s an opportunity to sell your product. Again, the trick is to!{' '}
+  //-   span.italic bring to life the value your page promises.
   p.list.list__top • “Get a smile you love” ⟶ Customers smiling
   p.list • “Email reinvented” ⟶ Customers describing the difference
   p.list.list_bottom • “How small brands sell more” ⟶ Sales numbers
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp7.png" alt="Marketing Examples Product Hunt").img__100
-  h2.slab.bg3 3/ FAQ
-  p There's going to be objections and selling points that don’t fit neatly into your sales pitch. This is where your FAQ comes in.
+  h2.slab.bg3 8/ FAQ
+  p There's going to be features and objections that don’t fit neatly into your sales pitch. This is where your FAQ comes in.
   p Write down every unhandled objection and unarticulated selling point. Reframe into questions and answers.
+  //- p There's going to be features and objections that don’t fit neatly into your sales pitch. Write them down. Reframe into questions and answers.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp8.png" alt="Marketing Examples Product Hunt").img__100
-  h2.slab.bg4 4/ 2nd CTA
-  p It's time for our 2nd CTA.
+  h2.slab.bg4 9/ 2nd CTA
+  p We've done the selling. It's time for our 2nd CTA.
   //- p This time we’ve got the luxury of space. So instead of dropping one measly button lets reiterate the value one last time.
-  p This time we've got the luxury of space. So instead of dropping one measly button let's remind the customer why they're clicking.
+  p This time we've got the luxury of space. So instead of dropping one measly button remind the customer why they're clicking.
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp9a.png" alt="Marketing Examples Product Hunt").img__100
-  h2.slab.bg5 5/ Founder's note
-  p Finally, you leave the customer with a story that make!{' '}
-    span.italic you
-    |!{' '}easy to sum up.
+  h2.slab.bg5 10/ Founder's note
+  p Finally, you leave the customer with a story that make you easy to sum up.
   p.list.list__top 1/ Put yourself in their shoes.
   p.list 2/ Explain their problem
   p.list 3/ Take ownership of it
   p.list.list__bottom 4/ Show the happy ending
+  //- p.inwardSpeech Put yourself in their shoes. Explain their problem. Take ownership of it. Show the happy ending.
   p You're walking them down a path they'll want to walk themselves.
+  //- p Oh, and!{' '}
+  //-   spam.italic people buy from people
+  //-   | .
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp12.png" alt="Marketing Examples Product Hunt").img__100
-  p
-    span.italic PS: This is optional. It takes above average copywriting skills to pull off.
   h2.slab.bg2 Putting it all together
   p.list.list__top 1/ Explain the value you provide!{' '}
     span.italic (title)
@@ -216,22 +205,24 @@ block content
   p.list 5/ Make taking the next step easy!{' '}
     span.italic (CTA)
   p.list 6/ Deliver your sales pitch!{' '}
-    span.italic (features, benefits, how it works)
+    span.italic (features and objections)
   p.list 7/ Bring to life your offer!{' '}
     span.italic (social proof)
   p.list 8/ Tie up loose ends!{' '}
     span.italic (FAQ)
   p.list 9/ Repeat your call to action!{' '}
     span.italic (2nd CTA)
-  p.list.list__bottom 10/ Make yourself easy to sum up!{' '}
+  p.list.list__bottom 10/ Make yourself memorable!{' '}
     span.italic (Founder's note)
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp11.png" alt="Marketing Examples Product Hunt").img__100
   h2.slab.bg2 One last thing
-  //- p People are hurried. People don’t read websites for amusement. People have money in their pockets.
-  p People don’t read websites for amusement.
-  p Your landing page is your sales pitch. Examine every element on your page and ask
+  p People don’t read websites for amusement. Your landing page is nothing more than your sales pitch. Examine each element and ask
   p.inwardSpeech Would this help me sell if I met the buyer in person?
-  p If no, remove it.
-  p Salespeople don’t use words like!{' '}
-    span.italic empower
-    | . They don’t show random images of women standing in front of desks. They seek sales. Not appluase.
+  p If the answers no, remove it.
+  //- p Salespeople don’t use words like!{' '}
+  //-   span.italic empower
+  //-   | . They don't show random images of smiling women. They're not interested in an award for creativity.
+  p Salespeople don’t use fancy words. They don't show random images of smiling women. They're not interested in awards for creativity.
+  p They're interested in!{' '}
+    span.italic the customer
+    | . And solving their problems.

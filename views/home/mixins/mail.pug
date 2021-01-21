@@ -5,35 +5,18 @@ mixin tick(text)
 
 mixin mail(subscribePage)
   .outerMail(class=`${subscribePage}`)
-    //- .mail
-    //-   .mail__icon!=icon("cross")
-    //-   h2 Join 36,991 marketers getting one practical case study every week.
-    //-   .mail__tickouter
-    //-     +tick("Real startups")
-    //-     +tick("Actionable tips")
-    //-     +tick("2 minute read")
-    //-     +tick("< 0.4% unsubscribe")
-    //-     +tick("Free, forever")
-    //-   .mail__bc
-    //-     .mail__input
-    //-       .mail__input-icon!=icon("mail")
-    //-       input(placeholder="example@example.com")
-    //-     .mail__button Get new case studies
-    //-     .mail__bc-red
-    //-   a(href="https://emailoctopus.com/?utm_source=marketingexamples&utm_medium=website&utm_campaign=may_2020_sponsorship&utm_content=subscribe_page" target="blank").mailO Powered by!{' '}
-    //-     span EmailOctopus
     .newmail
       .newmail__icon!=icon("cross")
       .newmail__text
         .newmail__harry
           .newmail__harry-p Hey, I'm Harry
           img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/harry.jpg", alt="")
-        .newmail__text-p Each week I share a new case study in!{' '}
+        .newmail__text-p Every couple of weeks I share a new case study in!{' '}
           span.bold my newsletter
           | .
         .newmail__text-p It’s short, sweet, and practical.
         .newmail__text-p
-          span.bold 44k
+          span.bold 49k
           |!{' '}marketers read it. I’d love you to join.
       .newmail__input
         .newmail__input-input

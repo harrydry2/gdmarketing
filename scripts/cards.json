@@ -901,26 +901,14 @@
   },
   {
     "num": "9",
-    "title": "My guide to writing landing pages that sell",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "3 mins",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "landing-pages1",
-    "img": "lsp",
-    "imgType": "jpg",
-    "desc": ""
-  },
-  {
-    "num": "9",
     "title": "My step-by-step guide to landing pages that convert",
     "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "3 mins",
+    "sText": "4 mins",
     "tFront": "Conversion",
     "tBack": "conversion",
-    "slug": "landing-pages2",
+    "slug": "landing-page-guide",
     "img": "lsp",
     "imgType": "jpg",
-    "desc": ""
+    "desc": "There’s two parts of a landing page: what’s immediately visible (above the fold) and what the user scrolls to (below the fold). Let's start above the fold. To quote Donald Miller, a caveman should be able to glance at it and immediately grunt back what you offer. Here’s my formula:"
   }
 ]

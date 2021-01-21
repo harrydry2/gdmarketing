@@ -3,10 +3,9 @@ extends ../base
 block content
   //- p Landing pages are simple. So simple people make them complicated.
   //- p I’ve made hundreds of landing pages. It was my old job. Then I did it for clients. Here’s the formula that converted best:
-  p There’s two parts to every landing page:
-  p.list.list__top 1/ What’s immediately visible!{' '}
+  p There’s two parts to every landing page: what’s immediately visible!{' '}
     span.italic (above the fold)
-  p.list.list__bottom 2/ What the user scrolls to!{' '}
+    | and what the user scrolls to!{' '}
     span.italic (below the fold)
   p
     span.italic Above the fold
@@ -101,11 +100,11 @@ block content
   //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp1.png" alt="Marketing Examples Product Hunt").img__100.sesquon
   h2.slab.bg2 “Below the fold”
   //- p In five seconds customers try to establish whether or not you can help them. The role of above the fold is to make it easy for them.
-  //- p People don’t read websites for amusement.
-  p Above the fold you earn the customers attention.!{' '}
+  p
+    span.italic Above the fold
+    |!{' '}you earn the customer's attention.!{' '}
     span.italic Below the fold
-    |!{' '}you earn the sale. Here's my formula.
-  //- p Each element is designed to help you sell if you met the buyer in person. Here's my formula:
+    |!{' '}you earn the sale. Here's my formula:
   p.list.list__top 1/ Your sales pitch!{' '}
     span.italic (features and objections)
   p.list 2/ Inspire action!{' '}
@@ -116,26 +115,58 @@ block content
     span.italic (2nd CTA)
   p.list.list__bottom 5/ Make yourself memorable!{' '}
     span.italic (Founder's note)
-  h2.slab.bg1 1/ Features and Benefits
-  p This is where you deliver your product’s sales pitch.
-  //- p Don’t charge in like a bull. This section takes a little planning.
-  p Start by outlining your biggest selling points. Each selling point consists of:
-  p.list.list__top 1/ Feature!{' '}
-    span.italic (aspect of your product)
-  p.list 2/ Explanation!{' '}
-    span.italic (how it works)
-  p.list 3/ Benefit!{' '}
-    span.italic (what it does for me)
-  p.list.list__bottom 4/ Visual!{' '}
-    span.italic (how you bring it to life)
-  p And corresponds to a section of your sales pitch.
-  img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6.png" alt="Marketing Examples Product Hunt").img__100
-  p Next write down and handle your customers biggest objections.
-  p Often your handling will trigger a benefit. In which case stick with pattern above:
-  img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6.png" alt="Marketing Examples Product Hunt").img__100
-  p In other cases it's not as formulaic.
-  p E.g. One objection might be “this sounds complicated”. And you'd handle it by simplfying your product into three easy steps.
-  img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6b.png" alt="Marketing Examples Product Hunt").img__100
+  //- p E.g. Imagine your title promises “podcasts that sound amazing”. Your features turn “
+  //-   span.ss3 sound
+  //-   | !{' '}amazing” into concrete statements. Lay out each one just like a mini landing page:
+  //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6a.png" alt="Marketing Examples Product Hunt").img__100
+  //- p E.g. Riverside's title promises “podcasts that look and sound amazing”. Their features turn this “
+  //-   span.ss4 “look”
+  //-   |!{' '}and!{' '}
+  //-   span.ss3 “sound”
+  //-   | !{' '}” into concrete statements.
+  //- p Let's use Riverside as an example. Their title promises “podcasts that!{' '}
+  //-   span.ss4 look
+  //-   |!{' '}and!{' '}
+  //-   span.ss3 sound
+  //-   |!{' '}amazing”. Immediately below the fold they make these promises concrete.
+  h2.slab.bg1 6/ Features
+  p Your first job!{' '}
+    span.italic below the fold
+    |!{' '}is making concrete the value you promise!{' '}
+    span.italic above the fold
+    | .
+  p Take Riverside for example. Their title promises “podcasts that!{' '}
+    span.ss4 look
+    |!{' '}and!{' '}
+    span.ss3 sound
+    |!{' '}amazing”. Their first two features make this title concrete.
+  img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6c.png" alt="Marketing Examples Product Hunt").img__100
+  p Same principle with Smile Direct. Their title promises “a smile you love in 4-6 months”. Immediately below the fold they make it concrete.
+  p Their!{' '}
+    span.italic how it works
+    |!{' '} make this title concrete.
+  img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6y.png" alt="Marketing Examples Product Hunt").img__100
+  h2.slab.bg1 7/ Objections
+  p Next handle your customer's biggest objections. This means talking to customers.
+  p Group together reoccurring objections. And use their own words to handle their pain.
+  //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6q.png" alt="Marketing Examples Product Hunt").img__100
+  //- p.ni.inwardSpeech
+  //-   span.bold 1/ Features
+  //- span.isBreak
+  //- p.ni.inwardSpeech Your features make concrete the value promised “above the fold”.
+  //- span.isBreak
+  //- p.ni.inwardSpeech Imagine your tite promises “podcasts that look and sound amazing”. Their features turn “look and sound” into something concrete.
+  //- span.isBreak
+  //- p.ni.inwardSpeech Lay out each one just like a mini landing page:
+  //- img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6a.png" alt="Marketing Examples Product Hunt").img__100
+  //- p.ni.inwardSpeech
+  //-   span.bold 2/ Objections
+  //- span.isBreak
+  //- p.ni.inwardSpeech Handing customer's objections are less formulaic.
+  //- span.isBreak
+  //- p.ni.inwardSpeech For example, one might be “This sounds complicated”. And to handle it you'd show!{' '}
+  //-   span.italic how your product works in three easy steps.
+  img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp6q.png" alt="Marketing Examples Product Hunt").img__100
   h2.slab.bg2 2/ More social proof
   p Above the fold social proof is about!{' '}
     span.italic credibility
@@ -190,13 +221,22 @@ block content
     span.italic (Founder's note)
   img(src="https://s3.amazonaws.com/harrydry/gdmarketing/lsp11.png" alt="Marketing Examples Product Hunt").img__100
   h2.slab.bg2 One last thing
-  p People don’t read websites for amusement.
-  p Your landing page is your sales pitch. Examine each element and ask
-  p.inwardSpeech Would this help me sell if I met the buyer in person?
-  p If the answers no, remove it.
-  p Salespeople don’t use fancy words or show random images of smiling women. They're not interested in button color or awards for creativtiy.
-  p They're interested in!{' '}
-    span.italic the customer
-    | . And solving their problems.
+  p I can't stress the following words enough.
+    span.italic Your landing page is nothing more than your sales pitch.
+  p Examine each element and ask
+  p.inwardSpeech Would this help me sell if I met the customer in person?
+  p If no, remove it. If you don't know!{' '}
+    span.italic go out and sell to customer's in person.
+  p You'll soon learn that fancy words and random images of smiling women don't get you far.
+  p But more importantly, you'll learn the customers attitude. And what you need to say to convince them.
+  //- p You'll learn that fancy words and random images of smiling women don't get you far. But more importantly, you'll learn what it takes to open their wallets.
+  //- p You'll learn the words your customer's want to hear.
+  //- p People don’t read websites for amusement. Your landing page is your sales pitch. Examine each element and ask
+  //- p.inwardSpeech Would this help me sell if I met the buyer in person?
+  //- p If no, remove it.
+  //- p Salespeople aren't interested in awards for creativity. They're interested in!{' '}
+  //-   span.italic the customer
+  //-   | . And solving their problems.
+  //- p.inwardSpeech That's a line from Donald Miller.
+  //- p Salespeople don’t use fancy words or show random images of smiling women. They're not interested in button color or awards for creativtiy.
   //- p They introduce the product. Demonstrate it's value. Handle your objections. Show happy customers. Solve your problems.
-

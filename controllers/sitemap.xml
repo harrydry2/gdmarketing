@@ -121,6 +121,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/viral/ladbaby</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- giveaway -->
   <url>
     <loc>https://marketingexamples.com/giveaway/youtube-marketing</loc>
@@ -257,6 +262,11 @@
     <priority>0.8</priority>
   </url>
   <!-- conversion -->
+  <url>
+    <loc>https://marketingexamples.com/conversion/landing-page-guideß</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://marketingexamples.com/conversion/sign-up-form-converts</loc>
     <changefreq>weekly</changefreq>

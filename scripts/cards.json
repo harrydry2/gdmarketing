@@ -1,6 +1,18 @@
 [
   {
     "num": "9",
+    "title": "My step-by-step guide to landing pages that convert",
+    "sUrl": "https://beamery.com/blog/personalized-emails",
+    "sText": "4 mins",
+    "tFront": "Conversion",
+    "tBack": "conversion",
+    "slug": "landing-page-guide",
+    "img": "lsp",
+    "imgType": "jpg",
+    "desc": "There’s two parts of a landing page: what’s immediately visible (above the fold) and what the user scrolls to (below the fold). Let's start above the fold. To quote Donald Miller, a caveman should be able to glance at it and immediately grunt back what you offer. Here’s my formula:"
+  },
+  {
+    "num": "9",
     "title": "My guide to brand positioning",
     "sUrl": "https://www.thebodycoach.com/",
     "sText": "Positioning",
@@ -898,17 +910,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "My step-by-step guide to landing pages that convert",
-    "sUrl": "https://beamery.com/blog/personalized-emails",
-    "sText": "4 mins",
-    "tFront": "Conversion",
-    "tBack": "conversion",
-    "slug": "landing-page-guide",
-    "img": "lsp",
-    "imgType": "jpg",
-    "desc": "There’s two parts of a landing page: what’s immediately visible (above the fold) and what the user scrolls to (below the fold). Let's start above the fold. To quote Donald Miller, a caveman should be able to glance at it and immediately grunt back what you offer. Here’s my formula:"
   }
 ]

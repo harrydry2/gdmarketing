@@ -103,11 +103,11 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#058 - My step by step guide to landing pages which convert</mj-text>
-          <mj-text mj-class="h3" align="center">(Landing Pages • 5 mins • <a class="underB" href="https://marketingexamples.com/conversion/landing-pages" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Landing Pages • 4 mins • <a class="underB" href="https://marketingexamples.com/conversion/landing-pages" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">My landing page guide is finally DONE. And I've never been happier to press send on an email haha!</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Good landing pages follow a pattern. I learnt this making dozens and dozens. It was my old job. Then I did it for clients.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">This is the step-by-step guide I wish I had five years ago. It took me goodness knows how long. Hope you enjoy it.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Good landing pages are simple. They follow a pattern. I learnt this making dozens and dozens. It was my old job. Then I did it for clients.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">This is the step-by-step guide I wish I had when I started. It took me goodness knows how long. Hope you enjoy it.</span></mj-text>
           <mj-text mj-class="p"><span class="italic"></span></mj-text>
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p">There’s two parts of a landing page: what’s immediately visible (<span class="italic">above the fold</span>) and what the user scrolls to (<span class="italic">below the fold</span>).</mj-text>

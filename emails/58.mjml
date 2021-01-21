@@ -4,7 +4,7 @@
     <mj-breakpoint width="320px" />
     <mj-attributes>
       <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
-      <mj-wrapper background-color="#fff" padding="0 18px" />
+      <mj-wrapper background-color="#fff" padding="0 19px" />
       <mj-column padding="0" />
       <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="10px 15px 8px 15px" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
@@ -24,8 +24,8 @@
       <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
       <mj-class name="asterix" mj-text align="center" />
       <mj-class name="inwardSpeech" padding="12px 27px" font-style="italic" />
-      <mj-class name="inwardSpeechNI" padding="12px 22px" />
-      <mj-class name="inwardSpeechNIT" padding="5px 22px 12px 22px" />
+      <mj-class name="inwardSpeechNI" padding="12px 24px" />
+      <mj-class name="inwardSpeechNIT" padding="5px 24px 12px 24px" />
       <mj-class name="inwardSpeech2" padding="4px 27px 12px 27px" font-style="italic" />
       <mj-class name="list" padding="1px 7px 1px 20px" />
       <mj-class name="list__top" padding-top="8px" />
@@ -105,16 +105,19 @@
           <mj-text mj-class="h1" align="center">#058 - My step by step guide to landing pages which convert</mj-text>
           <mj-text mj-class="h3" align="center">(Landing Pages • 5 mins • <a class="underB" href="https://marketingexamples.com/conversion/landing-pages" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">My landing page guide is finally DONE! And, I know this sound lame. But I've never been more excited to send an email.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">My goal was to give you a rock solid approach to landing pages. Hope you enjoy it.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">My landing page guide is finally DONE. And I've never been happier to press send on an email haha!</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Good landing pages follow a pattern. I learnt this making dozens and dozens. It was my old job. Then I did it for clients.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">This is the step-by-step guide I wish I had five years ago. It took me goodness knows how long. Hope you enjoy it.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic"></span></mj-text>
           <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p">There’s two parts of a landing page: what’s immediately visible (above the fold) and what the user scrolls to (below the fold).</mj-text>
-          <mj-text mj-class="p">Let's start above the fold. A caveman should be able to glance at it and immediately grunt back what you offer. Here’s my formula:</mj-text>
-          <mj-text mj-class="p list list__top">1/ Explain the value you provide (title)</mj-text>
-          <mj-text mj-class="p list">2/ Explain how you'll create it (subtitle)</mj-text>
-          <mj-text mj-class="p list">3/ Let the user visualise it (visual)</mj-text>
-          <mj-text mj-class="p list">4/ Make it believable (social proof)</mj-text>
-          <mj-text mj-class="p list list__bottom">5/ Make taking the next step easy (CTA)</mj-text>
+          <mj-text mj-class="p">There’s two parts of a landing page: what’s immediately visible (<span class="italic">above the fold</span>) and what the user scrolls to (<span class="italic">below the fold</span>).</mj-text>
+          <mj-text mj-class="p">Let's start <span class="italic">above the fold</span>. To quote Donald Miller, <span class="italic">a caveman should be able to glance at it and immediately grunt back what you offer</span>.</mj-text>
+          <mj-text mj-class="p">Here's my formula:</mj-text>
+          <mj-text mj-class="p list list__top">1/ Explain the value you provide (<span class="italic">title</span>)</mj-text>
+          <mj-text mj-class="p list">2/ Explain how you'll create it (<span class="italic">subtitle</span>)</mj-text>
+          <mj-text mj-class="p list">3/ Let the user visualise it (<span class="italic">visual</span>)</mj-text>
+          <mj-text mj-class="p list">4/ Make it believable (<span class="italic">social proof</span>)</mj-text>
+          <mj-text mj-class="p list list__bottom">5/ Make taking the next step easy (<span class="italic">CTA</span>)</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll1.png" alt="Image 1"></mj-image>
           <mj-button mj-class="bg1">1/ Title</mj-button>
           <mj-text mj-class="p">There’s one hundred ways to write a great title. I'm going to focus on three.</mj-text>
@@ -122,99 +125,107 @@
           <mj-text mj-class="p inwardSpeechNIT">When your product is unique all you have to do is explain what you do as simply as possible.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll1a.png" alt="Positioning through brand values"></mj-image>
           <mj-text mj-class="p inwardSpeechNI"><span class="bold">2/ Hooks </span></mj-text>
-          <mj-text mj-class="p inwardSpeechNIT">Most products aren't unique. So a hook adds oomph. The easiest way to write hooks is to address your customer's biggest objection.</mj-text>
+          <mj-text mj-class="p inwardSpeechNIT">Most products aren't unique. So a hook adds <span class="italic">oomph</span>. The easiest way to write hooks is to address your customer's biggest objection.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll1b.png" alt="Positioning through brand values"></mj-image>
           <mj-text mj-class="p inwardSpeechNI"><span class="bold">3/ Own your niche</span></mj-text>
-          <mj-text mj-class="p inwardSpeechNIT">Some startups transcend hooks. Another pattern is to own your niche in one line. Write with conviction. You're THE solution.</mj-text>
+          <mj-text mj-class="p inwardSpeechNIT">Some startups transcend hooks. Another pattern is to <span class="italic">own your niche in one line</span>. Write with conviction. You're <span class="italic">THE</span> solution.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll1c.png" alt="Positioning through brand values"></mj-image>
           <mj-button mj-class="bg2">2/ Subtitle</mj-button>
           <mj-text mj-class="p">Subtitles are where you get specific. Introduce the product. Explain how it creates the value in your title.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll2.png" alt="Image 2"></mj-image>
           <mj-button mj-class="bg3">3/ Visual</mj-button>
           <mj-text mj-class="p">Show off your product in all its glory. The goal is to get as close to reality as possible.</mj-text>
-          <mj-text mj-class="p">Don't show me fancy illustrations. Show me your product. Or even better, your product in action.</mj-text>
+          <mj-text mj-class="p">Don't show me fancy illustrations. Show me your product. Or even better, your product <span class="italic">in action</span>.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll3.jpg" alt="Image 2"></mj-image>
           <mj-button mj-class="bg4">4/ Social proof</mj-button>
-          <mj-text mj-class="p">The role of social proof (above the fold) is to add instant credibility to the value your promising.</mj-text>
-          <mj-text mj-class="p">Take Privy for example. Any startup can write “How small brands sell more online”. But it's their “18,000+ reviews” that make you believe it.</mj-text>
+          <mj-text mj-class="p">Social proof (<span class="italic">above the fold</span>) adds instant credibility to the value you're promising.</mj-text>
+          <mj-text mj-class="p">Take Privy for example. Any startup can write “How small brands sell more online”. But it's their “18,000+ reviews” make you believe it.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll4.png" alt="Image 2"></mj-image>
           <mj-button mj-class="bg5">5/ CTA</mj-button>
-          <mj-text mj-class="p">Most buttons emphasise action: Sign Up, Start Trial etc. Here's three more persuasive CTA types.</mj-text>
+          <mj-text mj-class="p">Your CTA makes taking the next step easy.</mj-text>
+          <mj-text mj-class="p">Most buttons emphasise action: <span class="italic">Sign Up, Start Trial etc</span>. Here's three more compelling CTA types.</mj-text>
           <mj-text mj-class="p inwardSpeechNI"><span class="bold">1/ Call to value</span></mj-text>
           <mj-text mj-class="p inwardSpeechNIT">Buttons which emphasise “value” over “action” usually perform better. The trick is to fulfil the value your title promises.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll5a.png" alt="Positioning through brand values"></mj-image>
-          <mj-text mj-class="p inwardSpeechNI"><span class="bold">2/Objection Handle</span></mj-text>
+          <mj-text mj-class="p inwardSpeechNI"><span class="bold">2/ Objection Handle</span></mj-text>
           <mj-text mj-class="p inwardSpeechNIT">Add a few words to your CTA to handle the user's biggest objection to clicking.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll5b.png" alt="Positioning through brand values"></mj-image>
           <mj-text mj-class="p inwardSpeechNI"><span class="bold">3/ Email Capture + CTA</span></mj-text>
-          <mj-text mj-class="p inwardSpeechNIT">Pair email capture with your CTA to make signing up as easy as possible. This doesn't mean sacrificing customer info.</mj-text>
-          <mj-text mj-class="p inwardSpeechNIT">You can collect whilst onboarding.</mj-text>
+          <mj-text mj-class="p inwardSpeechNIT">Pair email capture with your CTA to make signing up as easy as possible.</mj-text>
+          <mj-text mj-class="p inwardSpeechNIT"> This doesn't mean sacrificing customer info. You can collect whilst onboarding.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll5c.png" alt="Positioning through brand values"></mj-image>
           <mj-button mj-class="bg1">“Above the fold” recap</mj-button>
           <mj-text mj-class="p">In five seconds customers try to establish whether or not you can help them. Make their life easy.</mj-text>
-          <mj-text mj-class="p list list__top">1/ Explain the value you provide (title)</mj-text>
-          <mj-text mj-class="p list">2/ Explain how you'll create it (subtitle)</mj-text>
-          <mj-text mj-class="p list">3/ Let the user visualise it (visual)</mj-text>
-          <mj-text mj-class="p list">4/ Make it believable (social proof)</mj-text>
-          <mj-text mj-class="p list list__bottom">5/ Make taking the next step easy (CTA)</mj-text>
+          <mj-text mj-class="p list list__top">1/ Explain the value you provide (<span class="italic">title</span>)</mj-text>
+          <mj-text mj-class="p list">2/ Explain how you'll create it (<span class="italic">subtitle</span>)</mj-text>
+          <mj-text mj-class="p list">3/ Let the user visualise it (<span class="italic">visual</span>)</mj-text>
+          <mj-text mj-class="p list">4/ Make it believable (<span class="italic">social proof</span>)</mj-text>
+          <mj-text mj-class="p list list__bottom">5/ Make taking the next step easy (<span class="italic">CTA</span>)</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll5d.jpg" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg2">Let's go “Below the fold”</mj-button>
-          <mj-text mj-class="p">Above the fold you earn the customer's attention. Below the fold you earn the sale. Here's the last five steps:</mj-text>
-          <mj-text mj-class="p list list__top">6/ Deliver your sales pitch (features and objections)</mj-text>
-          <mj-text mj-class="p list">7/ Inspire action (social proof)</mj-text>
-          <mj-text mj-class="p list">8/ Tie up loose ends (FAQ)</mj-text>
-          <mj-text mj-class="p list">9/ Repeat your call to action (2nd CTA)</mj-text>
-          <mj-text mj-class="p list list__bottom">10/ Make yourself memorable (Founder's note)</mj-text>
+          <mj-button mj-class="bg2">“Below the fold”</mj-button>
+          <mj-text mj-class="p"><span class="italic">Above the fold</span> you earn the customer's attention. <span class="italic">Below the fold</span> you earn the sale. Here's the last five steps:</mj-text>
+          <mj-text mj-class="p list list__top">6/ Make the value you promise concrete (<span class="italic">features and objections</span>)</mj-text>
+          <mj-text mj-class="p list">7/ Inspire action (<span class="italic">social proof</span>)</mj-text>
+          <mj-text mj-class="p list">8/ Tie up loose ends (<span class="italic">FAQ</span>)</mj-text>
+          <mj-text mj-class="p list">9/ Repeat your call to action (<span class="italic">2nd CTA</span>)</mj-text>
+          <mj-text mj-class="p list list__bottom">10/ Make yourself memorable (<span class="italic">Founder's note</span>)</mj-text>
           <mj-button mj-class="bg3">6/ Features and Objections</mj-button>
-          <mj-text mj-class="p">The first thing you do below the fold is make concrete the value you promise above the fold.</mj-text>
+          <mj-text mj-class="p">The first thing you do <span class="italic">below the fold</span> is make concrete the value you promise <span class="italic">above the fold</span>.</mj-text>
           <mj-text mj-class="p">Take Riverside for example. Their title promises “podcasts that <span class="mm1">look</span> and <span class="mm2">sound</span> amazing”. Their first two features make this concrete.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll6a.png" alt="Positioning through brand values"></mj-image>
           <mj-text mj-class="p">The second thing you do is handle your customer's biggest objections.</mj-text>
           <mj-text mj-class="p">This means talking to customers. Group together reoccurring objections. Use their own words to handle them.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll6b.png" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg3">7/ More social proof</mj-button>
-          <mj-text mj-class="p">Above the fold social proof is about credibility. Below the fold social proof is about inspiring action. It's a free pass to sell your product.</mj-text>
-          <mj-text mj-class="p">Use existing customers to bring to life the value you promise.</mj-text>
+          <mj-button mj-class="bg4">7/ More social proof</mj-button>
+          <mj-text mj-class="p"><span class="italic">Above the fold</span> social proof is about <span class="italic">credibility</span>. <span class="italic">Below the fold</span> social proof is about <span class="italic">inspiring action</span>. It's a free pass to sell your product.</mj-text>
+          <mj-text mj-class="p">Use existing customers to <span class="italic">bring to life</span> the value you promise.</mj-text>
           <mj-text mj-class="p list list__top">• “Get a smile you love” ⟶ Customers smiling</mj-text>
           <mj-text mj-class="p list">• “Email reinvented” ⟶ Customers describing the difference</mj-text>
           <mj-text mj-class="p list list__bottom">• “How small brands sell more” ⟶ Sales numbers</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll7.jpg" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg4">8/ FAQ</mj-button>
-          <mj-text mj-class="p"></mj-text>
-          <mj-text mj-class="p"></mj-text>
+          <mj-button mj-class="bg5">8/ FAQ</mj-button>
+          <mj-text mj-class="p">There's going to be features and objections you want to mention that don't fit in neatly above. This is where your FAQ comes in.</mj-text>
+          <mj-text mj-class="p">Write them down. Reframe into questions and answers.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll8.png" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg4">9/ 2nd CTA</mj-button>
+          <mj-button mj-class="bg1">9/ 2nd CTA</mj-button>
           <mj-text mj-class="p">We've done the hard selling. It's time for our 2nd CTA.</mj-text>
           <mj-text mj-class="p">This time we've got the luxury of space. So instead of dropping one measly button remind the customer why they're clicking.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll9.png" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg4">10/ Founder's note</mj-button>
+          <mj-button mj-class="bg2">10/ Founder's note</mj-button>
           <mj-text mj-class="p">Finally, you leave the customer with a story that makes you easy to sum up.</mj-text>
           <mj-text mj-class="p list list__top">1/ Put yourself in their shoes</mj-text>
           <mj-text mj-class="p list">2/ Explain their problem</mj-text>
           <mj-text mj-class="p list">3/ Take ownership of it</mj-text>
           <mj-text mj-class="p list list__bottom">4/ Show the happy ending</mj-text>
-          <mj-text mj-class="p">You're walking them down a path they'll want to walk themselves. Oh, and people buy from people.</mj-text>
+          <mj-text mj-class="p">You're walking them down a path they'll want to walk themselves. Oh, and <span class="italic">people buy from people</span>.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll10.png" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg4">Putting it all together</mj-button>
-          <mj-text mj-class="p list list__top">1/ Explain the value you provide (title)</mj-text>
-          <mj-text mj-class="p list">2/ Explain how you'll create it (subtitle)</mj-text>
-          <mj-text mj-class="p list">3/ Let the user visualise it (visual)</mj-text>
+          <mj-button mj-class="bg3">Putting it all together</mj-button>
+          <mj-text mj-class="p list list__top">1/ Explain the value you provide (<span class="italic">title</span>)</mj-text>
+          <mj-text mj-class="p list">2/ Explain how you'll create it (<span class="italic">subtitle</span>)</mj-text>
+          <mj-text mj-class="p list">3/ Let the user visualise it (<span class="italic">visual</span>)</mj-text>
           <mj-text mj-class="p list">4/ Make it believable (social proof)</mj-text>
-          <mj-text mj-class="p list">5/ Make taking the next step easy (CTA)<br><br></mj-text>
-          <mj-text mj-class="p list">6/ Deliver your sales pitch (features and objections)</mj-text>
+          <mj-text mj-class="p list">5/ Make taking the next step easy (<span class="italic">CTA</span>)<br><br></mj-text>
+          <mj-text mj-class="p list">6/ Make the value you promise concrete (features and objections)</mj-text>
           <mj-text mj-class="p list">7/ Inspire action (social proof)</mj-text>
-          <mj-text mj-class="p list">8/ Tie up loose ends (FAQ)</mj-text>
+          <mj-text mj-class="p list">8/ Tie up loose ends (<span class="italic">FAQ</span>)</mj-text>
           <mj-text mj-class="p list">9/ Repeat your call to action (2nd CTA)</mj-text>
           <mj-text mj-class="p list list__bottom">10/ Make yourself memorable (Founder's note)</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lll11.png" alt="Positioning through brand values"></mj-image>
-          <mj-button mj-class="bg5">One last thing</mj-button>
+          <mj-button mj-class="bg4">One last thing</mj-button>
           <mj-text mj-class="p">Your landing page is your sales pitch. Never forget this. Examine each element and ask:</mj-text>
           <mj-text mj-class="p inwardSpeech">Would this help me sell if I met the customer in person?</mj-text>
-          <mj-text mj-class="p">If not, remove it. And if you don't know go out and sell to customers in person.</mj-text>
-          <mj-text mj-class="p">You'll learn that fancy words and random images of smiling women don't get you far. But more importantly, you'll learn the attitude of your customer and the words you need to convince them.</mj-text>
+          <mj-text mj-class="p">If not, remove it. And if you don't know <span class="italic">go out and sell in person.</span></mj-text>
+          <mj-text mj-class="p">You'll learn that fancy words and random images of smiling women don't get you far. More importantly, you'll learn the attitude of your customer and the words you need to convince them.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">Phew! You made it. If you read every word I salute you. To be clear. This is a guide. Not an instruction manual.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">If you found it useful I'd really appreciate it if you could forward to a pal, share on social media, slack, wherever. <a class="underA subscribeColor" href="https://marketingexamples.com/conversion/landing-page-guide" target="_blank">Here's the link</a>.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Shoutout to <a class="underA subscribeColor" href="https://www.amazon.com/Building-StoryBrand-Miller-Donald/dp/1400201837" target="_blank">Building a Storybrand</a>, <a class="underA subscribeColor" href="https://www.amazon.com/Scientific-Advertising-Claude-Hopkins/dp/1603866361" target="_blank">Scientific Advertising</a>, Julian Shapiro's <a class="underA subscribeColor" href="https://www.julian.com/guide/growth/landing-pages" target="_blank">landing page guide</a>, Demand Curve's <a class="underA subscribeColor" href="https://www.demandcurve.com/playbooks/above-the-fold" target="_blank">Above the Fold guide</a> where I got some ideas from. All great resources.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I've also got some Marketing Examples news to share. Look out for an email on Monday.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Thanks for reading. Over and out — Harry</span></mj-text>
           <mj-text mj-class="h2under">Sponsored by Ahrefs</mj-text>
-          <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
+          <mj-text mj-class="p">They've recently launched a <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">new product</a> which allows you to audit your site, monitor backlinks, and keywords.</mj-text>
+          <mj-text mj-class="p">And it's <span class="italic">free</span>. Worth checking out :)</mj-text>
+          <mj-text mj-class="p"><span class="italic"></span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">

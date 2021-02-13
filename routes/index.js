@@ -10,6 +10,7 @@ router.get('/', mainController.home);
 router.get('/gifs', mainController.gifs);
 // router.get('/podcast', mainController.podcast);
 router.get('/handbook/twitter-inspiration', mainController.twitterhandbook);
+router.get('/course', mainController.course);
 router.get('/sitemap.xml', mainController.xml);
 router.get('/rss', mainController.rss);
 // tes

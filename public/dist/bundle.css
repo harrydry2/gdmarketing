@@ -2306,6 +2306,30 @@ h2.slab {
       opacity: 1 !important;
       transition: opacity 1.4s; }
 
+.sp {
+  display: flex;
+  margin-top: 2.6rem; }
+  .sp img {
+    width: 5.4rem;
+    border-radius: 100px;
+    border: 2px solid #4742DE; }
+  .sp__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: .8rem; }
+    .sp__right-top {
+      font-size: 2rem;
+      color: #4742DE;
+      font-weight: 600; }
+    .sp__right-bottom {
+      font-size: 1.6rem;
+      color: #777471;
+      margin-top: 0.6rem;
+      font-weight: 500;
+      font-style: italic;
+      margin-left: .8rem; }
+
 .rightBucket {
   border: 2px solid blue; }
 

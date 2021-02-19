@@ -62,46 +62,23 @@ video {
 
 @font-face {
   font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-Regular.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Regular.woff) format("woff");
-  font-weight: 400; }
-
-@font-face {
-  font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-Italic.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Italic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-MediumItalic.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-MediumItalic.woff) format("woff");
-  font-weight: 500;
-  font-style: italic; }
-
-@font-face {
-  font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-DemiBoldItalic.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-DemiBoldItalic.woff) format("woff");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-Medium.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Medium.woff) format("woff");
-  font-weight: 500; }
-
-@font-face {
-  font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-DemiBold.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-DemiBold.woff) format("woff");
-  font-weight: 600; }
-
-@font-face {
-  font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-Bold.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Bold.woff) format("woff");
+  src: url(../fonts/../fonts/AvenirNextLTPro-Bold.woff2) format("woff2"), url(../fonts/../fonts/AvenirNextLTPro-Bold.woff) format("woff");
   font-weight: 700; }
 
 @font-face {
   font-family: "AvenirNext";
-  src: url(../fonts/../fonts/AvenirNext-Heavy.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Heavy.woff) format("woff");
-  font-weight: 800; }
+  src: url(../fonts/../fonts/AvenirNextLTPro-Demi.woff2) format("woff2"), url(../fonts/../fonts/AvenirNextLTPro-Demi.woff) format("woff");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNextLTPro-Medium.woff2) format("woff2"), url(../fonts/../fonts/AvenirNextLTPro-Medium.woff) format("woff");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNextLTPro-Regular.woff2) format("woff2"), url(../fonts/../fonts/AvenirNextLTPro-Regular.woff) format("woff");
+  font-weight: 400; }
 
 @font-face {
   font-family: "Muggsy";
@@ -115,7 +92,10 @@ html, body {
   font-family: "AvenirNext";
   font-size: 10px;
   font-weight: 400;
-  color: #030212; }
+  color: #030212;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale !important; }
 
 a {
   display: inline;
@@ -2281,7 +2261,7 @@ h2.slab {
         justify-content: flex-start; }
         @media (max-width: 540px) {
           .ccc__left-mail-left {
-            width: 70%; } }
+            width: 65%; } }
         .ccc__left-mail-left-icon {
           display: flex;
           align-items: center; }
@@ -2355,7 +2335,8 @@ h2.slab {
       transition: opacity 1.4s; }
 
 .tim {
-  width: 4.6rem; }
+  width: 4.4rem;
+  transform: rotate(-2deg); }
 
 .dave {
   width: 5.2rem; }

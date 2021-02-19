@@ -25,6 +25,7 @@ router.get('/api/postideas', mainController.postideas);
 router.get('/api/postgifs', mainController.postgifs);
 router.get('/api/postgifsMob', mainController.postgifsMob);
 router.post('/api/subscribe', emailController.subscribe);
+router.post('/api/subscribeCourse', emailController.subscribeCourse);
 
 // posts
 router.get('/:filter/:slug', postController.post);

@@ -496,7 +496,7 @@ p {
     margin-right: 2.2rem;
     border-radius: 5px;
     height: 5rem;
-    width: 33rem;
+    width: 43rem;
     display: flex;
     align-items: center;
     position: relative;
@@ -2279,6 +2279,16 @@ h2.slab {
           width: 100%;
           padding: 0.8rem;
           margin-top: 2.2rem; } }
+      .ccc__left-mail-info {
+        font-size: 1.8rem;
+        margin-top: 1.6rem;
+        font-style: italic;
+        font-weight: 500;
+        display: none; }
+        @media (max-width: 540px) {
+          .ccc__left-mail-info {
+            text-align: center;
+            font-size: 1.6rem; } }
       .ccc__left-mail-left {
         display: flex;
         justify-content: flex-start; }
@@ -2357,6 +2367,10 @@ h2.slab {
       opacity: 1 !important;
       transition: opacity 1.4s; }
 
+.cmt6 {
+  text-align: center;
+  margin-top: 1rem; }
+
 .tom {
   width: 4.4rem;
   transform: rotate(-2deg); }
@@ -2404,6 +2418,8 @@ h2.slab {
       margin-top: 0.5rem;
       font-weight: 600;
       text-align: center; }
+      .spm__outer-pos a:hover {
+        text-decoration: underline; }
 
 .sp {
   display: flex;
@@ -2474,11 +2490,18 @@ h2.slab {
       max-width: 55rem; }
 
 .mail__as {
-  margin: 4rem auto 4rem auto;
+  margin: 4rem auto 0.2rem auto;
   width: 50rem; }
-  @media (max-width: 1300px) {
+  @media (max-width: 540px) {
     .mail__as {
-      width: 100%; } }
+      width: 100%;
+      margin: 3rem auto 0.2rem auto; } }
+
+.mailEnd {
+  margin-top: 3.8rem !important; }
+  @media (max-width: 540px) {
+    .mailEnd {
+      margin-top: 2.8rem !important; } }
 
 .ccLetter {
   margin: 10rem auto 0rem auto;

@@ -22,13 +22,19 @@ function submitMail(button, red, input, num) {
     red.style.display = 'block';
     if (validateEmail(input.value)) {
       window.localStorage.setItem('onEmailList', 'true');
-      const { data } = await axios.post('/api/subscribe', {
-        email: input.value,
-        num: numm,
-      });
+      if (numm === 7) {
+        var { data } = await axios.post('/api/subscribeCourse', {
+          email: input.value,
+        });
+      } else {
+        var { data } = await axios.post('/api/subscribe', {
+          email: input.value,
+          num: numm,
+        });
+      }
       if (data.email === 'true') {
         red.style.color = '#00c26e';
-        red.innerText = `Just sent confirmation - check spam :)`;
+        red.innerText = `Just sent an email - check spam :)`;
         if (numm === 1) {
           red.classList.add('gta__1');
         } else if (numm === 2) {
@@ -141,9 +147,24 @@ export function mailSubmitFromHandbook() {
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 3);
 }
 
+export function mailSubmitFromCourseTop() {
+  const mailButtonSpec = $('.cmt1');
+  const mailInputSpec = $('.cmt2');
+  const mailRedSpec = $('.cmt3');
+  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 7);
+}
+
+export function mailSubmitFromCourseBottom() {
+  const mailButtonSpec = $('.cmt4');
+  const mailInputSpec = $('.cmt5');
+  const mailRedSpec = $('.cmt6');
+  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 7);
+}
+
 // 1 - home
 // 2 - on page
 // 3 - on page ajax
 // 4 - direct
 // 5 - popup
 // 6 - fromHandbook
+// 7 - fromCourse

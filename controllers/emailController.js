@@ -1,15 +1,36 @@
 const mongoose = require('mongoose');
 const axios = require('axios');
 
-const eoAPI = '8c233156-83ca-11e9-9307-06b4694bee2a';
-
 const EmailsNum = mongoose.model('EmailsNum');
 const Cards = mongoose.model('Cards');
 
-// exports.subscribe = async (req, res) => {
-//   const email = await new Emails(req.body).save();
-//   res.json({ fuck: 'fuck' });
-// };
+// course
+
+exports.subscribeCourse = async (req, res) => {
+  const { email } = req.body;
+  try {
+    const posted = await axios.post(
+      `https://emailoctopus.com/api/1.5/lists/${
+        process.env.EOLISTCOURSE
+      }/contacts`,
+      {
+        api_key: process.env.EOAPI,
+        email_address: email,
+        status: 'SUBSCRIBED',
+      }
+    );
+    res.json({ email: 'true' });
+  } catch (err) {
+    if (err.response.data.error.code === 'MEMBER_EXISTS_WITH_EMAIL_ADDRESS') {
+      res.json({ email: 'duplicate' });
+    } else {
+      res.json({ email: 'dunno' });
+    }
+    console.log(err.response.data.error.code);
+  }
+};
+
+// regular
 
 exports.subscribe = async (req, res) => {
   const { email, num } = req.body;
@@ -20,7 +41,7 @@ exports.subscribe = async (req, res) => {
       {
         api_key: process.env.EOAPI,
         email_address: email,
-        status: 'SUBSCRIBED'
+        status: 'SUBSCRIBED',
       }
     );
     if (num === 1) {

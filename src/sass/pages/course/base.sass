@@ -129,7 +129,15 @@
         width: 100%
         padding: 0.8rem
         margin-top: 2.2rem
-        // display: none
+      &-info
+        font-size: 1.8rem
+        margin-top: 1.6rem
+        font-style: italic
+        font-weight: 500
+        display: none
+        @media (max-width: 540px)
+          text-align: center
+          font-size: 1.6rem
       &-left
         display: flex
         justify-content: flex-start
@@ -199,9 +207,11 @@
       opacity: 1 !important
       transition: opacity 1.4s
 
+.cmt6
+  text-align: center
+  margin-top: 1rem
 
 .tom
-  // width: 4.6rem
   width: 4.4rem
   transform: rotate(-2deg)
 
@@ -249,6 +259,9 @@
       margin-top: 0.5rem
       font-weight: 600
       text-align: center
+      a
+        &:hover
+          text-decoration: underline
 
 .sp
   display: flex
@@ -318,11 +331,16 @@
       max-width: 55rem
 
 .mail__as
-  margin: 4rem auto 4rem auto
+  margin: 4rem auto 0.2rem auto
   width: 50rem
-  @media (max-width: 1300px)
+  @media (max-width: 540px)
     width: 100%
+    margin: 3rem auto 0.2rem auto
 
+.mailEnd
+  margin-top: 3.8rem !important
+  @media (max-width: 540px)
+    margin-top: 2.8rem !important
 
 .ccLetter
   margin: 10rem auto 0rem auto

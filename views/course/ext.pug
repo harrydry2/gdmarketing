@@ -13,11 +13,12 @@ block content
       .ccc__left-mail
         .ccc__left-mail-left
           .ccc__left-mail-left-icon!=icon("mail")
-          input(type="text" placeholder="Your Email")
-        button Stay updated
+          input(type="text" placeholder="Your Email").cmt2
+        button.cmt1 Stay updated
       .underText
         .underText__text Get course updates and a launch discount
         img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/arrow.png", alt="")
+      .ccc__left-mail-info.cmt3
       .sp
         img(src="https://harrydry.s3.amazonaws.com/gdmarketing/quotes/2a.jpg", alt="Dave Gerhardt").sp__img
         .sp__right
@@ -29,17 +30,20 @@ block content
       .spm__outer.spm__outer-rotX
         .spm__outer-left.spm__outer-rm
           .spm__outer-line “If Harry Dry made it, I’m buying it”
-          .spm__outer-pos Dave Gerhardt, CMO at Privy
+          .spm__outer-pos
+            a(href="") Dave Gerhardt, CMO at Privy
         img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/dave.png", alt="Dave Gerhardt").dave
       .spm__outer.spm__outer-rotY
         img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/medal.png", alt="Dave Gerhardt").spm__outer-rm.medal
         .spm__outer-left
           .spm__outer-line “The #1 marketing newsletter”
-          .spm__outer-pos Voted for by marketers (Source)
+          .spm__outer-pos
+            a(href="") Voted for by marketers (Ahrefs)
       .spm__outer.spm__outer-rotX
         .spm__outer-left.spm__outer-rm
           .spm__outer-line “Better than my marketing degree”
-          .spm__outer-pos Tom Dunn, Growth Marketer at Fives
+          .spm__outer-pos
+            a(href="") Tom Dunn, Growth Marketer at Fives
         img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/td1.png", alt="Dave Gerhardt").tom
     img(src="https://harrydry.s3.amazonaws.com/gdmarketing/tharrow.png", alt="").ccc__left-img
     .ccc__right
@@ -173,9 +177,10 @@ block content
     .ccc__left-mail.mail__as
       .ccc__left-mail-left
         .ccc__left-mail-left-icon!=icon("mail")
-        input(type="text" placeholder="Your Email")
-      button Stay updated
-    p Over and out,
+        input(type="text" placeholder="Your Email").cmt5
+      button.cmt4 Stay updated
+    .ccc__left-mail-info.cmt6
+    p.mailEnd Over and out,
     .sig
       .sig__left
         img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/mea.jpg", alt="Harry Dry").sig__left-me
@@ -195,11 +200,26 @@ block content
         | &mdash; Benni (@towardsmeraki)
         a(href='https://twitter.com/towardsmeraki/status/1318569973917356032?ref_src=twsrc%5Etfw') October 20, 2020
       script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-      blockquote.twitter-tweet(data-conversation='none' data-dnt='true')
+      blockquote.twitter-tweet
         p(lang='en' dir='ltr')
-          | I&apos;ve learnt more about great marketing here, than 3 years at Uni during my marketing degree.
-        | &mdash; Tom Dunn &#x1F4F8;&#x1F3A5; (@MrTomDunn)
-        a(href='https://twitter.com/MrTomDunn/status/1287780389986107393?ref_src=twsrc%5Etfw') July 27, 2020
+          | Just wanted to give a shoutout to
+          a(href='https://twitter.com/harrydry?ref_src=twsrc%5Etfw') @harrydry
+          |  and his amazing
+          a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
+          |  website &amp; newsletter.
+          br
+          br
+          | (which
+          a(href='https://twitter.com/ahrefs?ref_src=twsrc%5Etfw') @ahrefs
+          |  is now a happy sponsor of)
+          br
+          br
+          | Imo Harry found a great content angle that the marketing folks were craving for and gets tons of traction with it.
+          br
+          br
+          | Young talent FTW! &#x1F4AA;
+        | &mdash; Tim Soulo (@timsoulo)
+        a(href='https://twitter.com/timsoulo/status/1303550744092487680?ref_src=twsrc%5Etfw') September 9, 2020
       script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
       blockquote.twitter-tweet(data-conversation='none' data-dnt='true')
         p(lang='en' dir='ltr')

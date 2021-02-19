@@ -2594,8 +2594,8 @@ h2.slab {
   display: none; }
   @media (max-width: 540px) {
     .ccLetterImgMob {
-      width: calc(100% - 2.8rem);
-      margin: 5rem 1.4rem 5rem 1.4rem;
+      width: calc(100% - 2rem);
+      margin: 5rem 1rem 5rem 1rem;
       display: block; } }
 
 .ccLetterArrow {

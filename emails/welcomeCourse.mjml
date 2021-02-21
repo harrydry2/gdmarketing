@@ -48,21 +48,12 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="50px" align="center" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
-          <mj-text mj-class="h1" align="center">Welcome to Marketing Examples</mj-text>
-          <mj-text mj-class="p">It feels awesome to know that people enjoy my articles. Thank you for subscribing. Expect one email per week.</mj-text>
-          <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> where I share quick tips. I've compiled them <a class="underA" href="https://twitter.com/i/events/1190303234520428544" target="_blank">here</a>.</mj-text>
-          <mj-text mj-class="p">If you're in the mood here's some of my favourite case studies:</mj-text>
-          <mj-text mj-class="p list list__top"> • <a class="underA" href="https://marketingexamples.com/viral/lil-nas-x" target="_blank">The marketing genius of Lil Nas X</a></mj-text>
-          <mj-text mj-class="p list"> • <a class="underA" href="https://marketingexamples.com/copywriting/tips" target="_blank">17 tips for great copywriting</a></mj-text>
-          <mj-text mj-class="p list list__bottom"> • <a class="underA" href="https://marketingexamples.com/content/sharing" target="_blank">How I promote my content</a></mj-text>
-          <mj-text mj-class="p">One favour to ask is that you whitelist this email address. It prevents the emails going to spam:</mj-text>
-          <mj-text mj-class="p list list__top"> • <span class="">Gmail Web</span>: <span class="italic">Hover over icon at top of email > Add to Contact List</mj-text>
-          <mj-text mj-class="p list"> • Gmail Mobile: <span class="italic">3 grey dots > Move to > Primary</span></mj-text>
-          <mj-text mj-class="p list list__bottom"> • Apple Mail: <span class="italic">Tap on email address near top (next to “From:”) > Add to VIP</span></mj-text>
-          <mj-text mj-class="p">Thank you once again. I really do appreciate people reading.</mj-text>
+          <mj-text mj-class="p">Hey.</mj-text>
+          <mj-text mj-class="p">You're here for the course. Sweet. I’m working hard on it.</mj-text>
+          <mj-text mj-class="p">Quick favour: Reply with the number one topic you’d like to see covered. Be as specific or general as you like. I'll reply.</mj-text>
+          <mj-text mj-class="p">Quick tip: </mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
-          <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if ya want! </mj-text>
+          <mj-text mj-class="p">P.S. Seriously pumped for this</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

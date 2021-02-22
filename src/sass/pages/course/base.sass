@@ -223,10 +223,13 @@
   background-color: hsla(324, 68, 84, 100)
 
 .ccOrange
-  background-color: hsla(18, 92, 72, 100)
+  background-color: hsla(16, 92, 72, 100)
 
 .ccPurple
   background-color: hsla(250, 93, 83, 100)
+
+.ccBlue
+  background-color: rgba(19, 216, 196, 0.6)
 
 .ccYellow
   background-color: hsla(48, 96, 70, 100)
@@ -332,38 +335,6 @@
       a
         &:hover
           text-decoration: underline
-
-// .sp
-//   display: flex
-//   margin-top: 2.6rem
-//   img
-//     width: 5.4rem
-//     border-radius: 100px
-//     border: 2px solid $brand
-//   &__right
-//     display: flex
-//     flex-direction: column
-//     justify-content: center
-//     margin-left: .8rem
-//     &-top
-//       font-size: 2rem
-//       color: $brand
-//       font-weight: 600
-//     &-bottom
-//       font-size: 1.6rem
-//       color: #777471
-//       margin-top: 0.6rem
-//       font-weight: 500
-//       font-style: italic
-//       margin-left: .8rem
-//       a
-//         &:hover
-//           text-decoration: underline
-//   @media (max-width: 540px)
-//     display: none
-
-
-
 
 .rightBucket
   border: 2px solid blue
@@ -481,15 +452,17 @@
     text-align: center
     margin: 3rem auto 2rem auto
   .thc1
-    background-color: hsla(156, 50, 59, .30)
+    background-color: hsla(156, 50, 59, .34)
     // background-color: hsla(140, 55, 55, .21)
   .thc2
     // background-color: hsla(326, 76, 51, .16)
     background-color: hsla(324, 68, 84, .54)
   .thc3
-    background-color: hsla(360, 100, 61, .21)
+    background-color: hsla(16, 92, 72, .4)
+    // background-color: hsla(360, 100, 61, .21)
   .thc4
-    background-color: hsla(174, 84, 46, .22)
+    background-color: hsla(250, 93, 83, .5)
+    // background-color: hsla(174, 84, 46, .22)
   // .thc5
   //   background-color: hsla(244, 72, 59, .16)
 
@@ -503,20 +476,17 @@
 .ccLetterImgMob
   display: none
   @media (max-width: 540px)
+    display: block
     width: calc(100% - 2rem)
     margin: 5rem 1rem 5rem 1rem
-    display: block
 
 .ccLetterArrow
-  width: 5rem
+  width: 7.6rem
   margin: 10rem auto
   display: flex
   @media (max-width: 540px)
-    width: 4.2rem
+    width: 6rem
     margin: 4rem auto
-  &__1
-    width: 7rem
-
 .ccLetterImg1
   width: 80rem
   margin: 10rem auto
@@ -568,3 +538,77 @@
   line-height: 1
   @media (max-width: 540px)
     display: none
+
+.ccBody
+  position: relative
+  overflow: hidden
+
+.circle1
+  top: -28rem
+  left: -28rem
+  width: 48.5rem
+  height: 48.5rem
+  @media (max-width: 540px)
+    top: -23rem
+    left: -22rem
+    width: 92vw
+    height: 92vw
+
+.circle2
+  top: -18rem
+  right: -24rem
+  width: 46rem
+  height: 47rem
+  @media (max-width: 540px)
+    top: 7rem
+    right: -27rem
+    width: 39rem
+    height: 39rem
+
+.circle3
+  top: 62rem
+  left: -37rem
+  width: 48rem
+  height: 48rem
+
+.circle4
+  top: 150rem
+  right: -33rem
+  width: 47rem
+  height: 47rem
+
+.circle5
+  top: 225rem
+  left: 16%
+  width: 46rem
+  height: 57rem
+
+.circle6
+  top: 300rem
+  right: -37rem
+  width: 48rem
+  height: 48rem
+
+.circle7
+  top: 375rem
+  left: -32rem
+  width: 46rem
+  height: 46rem
+
+.circle8
+  top: 450rem
+  right: -37rem
+  width: 52rem
+  height: 52rem
+
+.circle9
+  top: 525rem
+  left: -37rem
+  width: 52rem
+  height: 52rem
+
+.circle10
+  top: 600rem
+  right: -37rem
+  width: 52rem
+  height: 52rem

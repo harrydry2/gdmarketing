@@ -2344,10 +2344,13 @@ h2.slab {
   background-color: #f2badc; }
 
 .ccOrange {
-  background-color: #f99d76; }
+  background-color: #f99976; }
 
 .ccPurple {
   background-color: #b9abfc; }
+
+.ccBlue {
+  background-color: rgba(19, 216, 196, 0.6); }
 
 .ccYellow {
   background-color: #fcdf69; }
@@ -2582,13 +2585,13 @@ h2.slab {
     text-align: center;
     margin: 3rem auto 2rem auto; }
   .ccLetter .thc1 {
-    background-color: rgba(98, 203, 161, 0.3); }
+    background-color: rgba(98, 203, 161, 0.34); }
   .ccLetter .thc2 {
     background-color: rgba(242, 186, 220, 0.54); }
   .ccLetter .thc3 {
-    background-color: rgba(255, 56, 56, 0.21); }
+    background-color: rgba(249, 153, 118, 0.4); }
   .ccLetter .thc4 {
-    background-color: rgba(19, 216, 196, 0.22); }
+    background-color: rgba(185, 171, 252, 0.5); }
 
 .ccLetterImg {
   width: 100rem;
@@ -2602,20 +2605,18 @@ h2.slab {
   display: none; }
   @media (max-width: 540px) {
     .ccLetterImgMob {
+      display: block;
       width: calc(100% - 2rem);
-      margin: 5rem 1rem 5rem 1rem;
-      display: block; } }
+      margin: 5rem 1rem 5rem 1rem; } }
 
 .ccLetterArrow {
-  width: 5rem;
+  width: 7.6rem;
   margin: 10rem auto;
   display: flex; }
   @media (max-width: 540px) {
     .ccLetterArrow {
-      width: 4.2rem;
+      width: 6rem;
       margin: 4rem auto; } }
-  .ccLetterArrow__1 {
-    width: 7rem; }
 
 .ccLetterImg1 {
   width: 80rem;
@@ -2673,4 +2674,80 @@ h2.slab {
   @media (max-width: 540px) {
     .mobileCourse {
       display: none; } }
+
+.ccBody {
+  position: relative;
+  overflow: hidden; }
+
+.circle1 {
+  top: -28rem;
+  left: -28rem;
+  width: 48.5rem;
+  height: 48.5rem; }
+  @media (max-width: 540px) {
+    .circle1 {
+      top: -23rem;
+      left: -22rem;
+      width: 92vw;
+      height: 92vw; } }
+
+.circle2 {
+  top: -18rem;
+  right: -24rem;
+  width: 46rem;
+  height: 47rem; }
+  @media (max-width: 540px) {
+    .circle2 {
+      top: 7rem;
+      right: -27rem;
+      width: 39rem;
+      height: 39rem; } }
+
+.circle3 {
+  top: 62rem;
+  left: -37rem;
+  width: 48rem;
+  height: 48rem; }
+
+.circle4 {
+  top: 150rem;
+  right: -33rem;
+  width: 47rem;
+  height: 47rem; }
+
+.circle5 {
+  top: 225rem;
+  left: 16%;
+  width: 46rem;
+  height: 57rem; }
+
+.circle6 {
+  top: 300rem;
+  right: -37rem;
+  width: 48rem;
+  height: 48rem; }
+
+.circle7 {
+  top: 375rem;
+  left: -32rem;
+  width: 46rem;
+  height: 46rem; }
+
+.circle8 {
+  top: 450rem;
+  right: -37rem;
+  width: 52rem;
+  height: 52rem; }
+
+.circle9 {
+  top: 525rem;
+  left: -37rem;
+  width: 52rem;
+  height: 52rem; }
+
+.circle10 {
+  top: 600rem;
+  right: -37rem;
+  width: 52rem;
+  height: 52rem; }
 

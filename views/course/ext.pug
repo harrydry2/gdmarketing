@@ -199,7 +199,7 @@ block content
           .ccc-mail-left-icon!=icon("mail")
           input(type="text" placeholder="Your Email").cmt5
         button.cmt4 Stay updated
-      .ccc__left-mail-info.cmt6
+      .ccc-mail-info.cmt6
       p.mailEnd Over and out,
       .sig
         .sig__left
@@ -215,7 +215,6 @@ block content
       .circle.ccOrange.circle11
       .circle.ccYellow.circle12
       .tweets
-        //- img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/arrow1.png", alt="").ccLetterArrow
         .tweets__text PS: HERE’S SOME NICE STUFF FOLKS HAVE SAID :)
         .tweets__container
           blockquote.twitter-tweet
@@ -339,6 +338,11 @@ block content
             | &mdash; fred rivett &#x1F468;&#x1F3FB;&zwj;&#x1F4BB; (@fredrivett)
             a(href='https://twitter.com/fredrivett/status/1264548889073459206?ref_src=twsrc%5Etfw') May 24, 2020
           script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+          blockquote.twitter-tweet(data-conversation='none' data-dnt='true')
+            p(lang='en' dir='ltr') You know Harry, this what you&apos;re doing is better than an MBA class
+            | &mdash; Anurag Baveja (@AnuragBaveja)
+            a(href='https://twitter.com/AnuragBaveja/status/1312052086176018432?ref_src=twsrc%5Etfw') October 2, 2020
+          script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
           blockquote.twitter-tweet
             p(lang='en' dir='ltr')
               | You should all follow
@@ -405,14 +409,6 @@ block content
             | &mdash; Chintan Bavishi (@BavishiChintan)
             a(href='https://twitter.com/BavishiChintan/status/1306659013493317632?ref_src=twsrc%5Etfw') September 17, 2020
           script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-          blockquote.twitter-tweet
-            p(lang='en' dir='ltr')
-              | I bookmark anything
-              a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
-              |  a gift that keeps giving &gt;&gt;&gt;&gt;&gt;&gt;
-            | &mdash; Ibukun &#x2B50;&#xFE0F; (@IbukunJoyce_)
-            a(href='https://twitter.com/IbukunJoyce_/status/1338877840897560579?ref_src=twsrc%5Etfw') December 15, 2020
-          script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
           blockquote.twitter-tweet(data-conversation='none')
             p(lang='en' dir='ltr')
               | Facts. There isn&rsquo;t an account on Twitter I learn more from than
@@ -423,33 +419,10 @@ block content
             | &mdash; Skyler Hefley (@SkylerHefley)
             a(href='https://twitter.com/SkylerHefley/status/1352462790926204929?ref_src=twsrc%5Etfw') January 22, 2021
           script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-          blockquote.twitter-tweet
-            p(lang='en' dir='ltr')
-              | Sitting on a beach. Binge reading
-              a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
-              |  &#x1F325;&#xFE0F;
-            | &mdash; Just Add Milk (@JAM_Ventures)
-            a(href='https://twitter.com/JAM_Ventures/status/1288065158590468097?ref_src=twsrc%5Etfw') July 28, 2020
-          script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
           blockquote.twitter-tweet(data-conversation='none' data-dnt='true' data-theme='light')
             p(lang='en' dir='ltr') Hands down the most marketing wisdom per email of all the time.
             | &mdash; Corey Haines &#x1F4A1; (@coreyhainesco)
             a(href='https://twitter.com/coreyhainesco/status/1287789009008078862?ref_src=twsrc%5Etfw') July 27, 2020
-          script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-          blockquote.twitter-tweet
-            p(lang='en' dir='ltr')
-              | I got asked in english class about what blogs I followed and the first thing that came to my mind was
-              a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
-              |  sooooo
-              a(href='https://twitter.com/harrydry?ref_src=twsrc%5Etfw') @harrydry
-              |  I guess you just got pitched to a bunch of teenagers lol
-            | &mdash; Miguel Piedrafita &#x1F680; (@m1guelpf)
-            a(href='https://twitter.com/m1guelpf/status/1196342386219266048?ref_src=twsrc%5Etfw') November 18, 2019
-          script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-          blockquote.twitter-tweet(data-conversation='none' data-dnt='true')
-            p(lang='en' dir='ltr') You know Harry, this what you&apos;re doing is better than an MBA class
-            | &mdash; Anurag Baveja (@AnuragBaveja)
-            a(href='https://twitter.com/AnuragBaveja/status/1312052086176018432?ref_src=twsrc%5Etfw') October 2, 2020
           script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
           blockquote.twitter-tweet
             p(lang='en' dir='ltr')
@@ -462,4 +435,30 @@ block content
             | &mdash; Gasper Yanga (@CCBenji)
             a(href='https://twitter.com/CCBenji/status/1290252999344840705?ref_src=twsrc%5Etfw') August 3, 2020
           script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
-        img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/taf.jpg", alt="Looney Tunes").taf
+          //- blockquote.twitter-tweet
+          //-   p(lang='en' dir='ltr')
+          //-     | I bookmark anything
+          //-     a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
+          //-     |  a gift that keeps giving &gt;&gt;&gt;&gt;&gt;&gt;
+          //-   | &mdash; Ibukun &#x2B50;&#xFE0F; (@IbukunJoyce_)
+          //-   a(href='https://twitter.com/IbukunJoyce_/status/1338877840897560579?ref_src=twsrc%5Etfw') December 15, 2020
+          //- script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+          //- blockquote.twitter-tweet
+          //-   p(lang='en' dir='ltr')
+          //-     | I got asked in english class about what blogs I followed and the first thing that came to my mind was
+          //-     a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
+          //-     |  sooooo
+          //-     a(href='https://twitter.com/harrydry?ref_src=twsrc%5Etfw') @harrydry
+          //-     |  I guess you just got pitched to a bunch of teenagers lol
+          //-   | &mdash; Miguel Piedrafita &#x1F680; (@m1guelpf)
+          //-   a(href='https://twitter.com/m1guelpf/status/1196342386219266048?ref_src=twsrc%5Etfw') November 18, 2019
+          //- script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+          //- blockquote.twitter-tweet
+          //-   p(lang='en' dir='ltr')
+          //-     | Sitting on a beach. Binge reading
+          //-     a(href='https://twitter.com/GoodMarketingHQ?ref_src=twsrc%5Etfw') @GoodMarketingHQ
+          //-     |  &#x1F325;&#xFE0F;
+          //-   | &mdash; Just Add Milk (@JAM_Ventures)
+          //-   a(href='https://twitter.com/JAM_Ventures/status/1288065158590468097?ref_src=twsrc%5Etfw') July 28, 2020
+          //- script(async='' src='https://platform.twitter.com/widgets.js' charset='utf-8')
+      img(src="https://harrydry.s3.amazonaws.com/gdmarketing/course/taf.jpg", alt="Looney Tunes").taf

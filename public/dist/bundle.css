@@ -2154,7 +2154,7 @@ h2.slab {
       .ccc__inner {
         width: calc(100% - 4rem);
         margin: 0 2rem; } }
-  @media (max-width: 1440px) {
+  @media (max-width: 1500px) {
     .ccc__tl {
       top: -28rem;
       left: -28rem;
@@ -2164,9 +2164,9 @@ h2.slab {
     .ccc__tl {
       top: -21vw;
       left: -21vw;
-      width: 42vw;
-      height: 42vw; } }
-  @media (max-width: 1440px) {
+      width: 42.4vw;
+      height: 42.4vw; } }
+  @media (max-width: 1500px) {
     .ccc__tr {
       top: -36rem;
       right: -36rem;
@@ -2178,7 +2178,7 @@ h2.slab {
       right: -22vw;
       width: 43vw;
       height: 43vw; } }
-  @media (max-width: 1440px) {
+  @media (max-width: 1500px) {
     .ccc__bl {
       bottom: -28rem;
       left: -26rem;
@@ -2188,9 +2188,9 @@ h2.slab {
     .ccc__bl {
       bottom: -21vw;
       left: -20vw;
-      width: 40vw;
-      height: 37vw; } }
-  @media (max-width: 1440px) {
+      width: 41vw;
+      height: 41vw; } }
+  @media (max-width: 1500px) {
     .ccc__br {
       bottom: -22rem;
       right: -24rem;
@@ -2368,7 +2368,8 @@ h2.slab {
   animation-fill-mode: forwards;
   animation-play-state: running;
   opacity: 0;
-  transform: scale(0); }
+  transform: scale(0);
+  z-index: -1; }
 
 @keyframes cad {
   0% {
@@ -2469,18 +2470,23 @@ h2.slab {
 
 .tweets {
   max-width: 128rem;
-  margin: 6rem auto 0 auto; }
+  margin: 10rem auto 0 auto; }
+  @media (max-width: 540px) {
+    .tweets {
+      margin: 6rem auto 0 auto; } }
   .tweets__text {
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin: 0 auto;
-    font-weight: 500;
-    text-align: center; }
+    text-align: center;
+    font-family: Muggsy;
+    line-height: 1.3;
+    width: 32.5rem; }
   .tweets__container {
     display: grid;
     align-items: center;
     justify-content: center;
     grid-gap: 1.8rem;
-    margin: 6rem 2rem;
+    margin: 10rem 2rem 6rem 2rem;
     z-index: 4;
     grid-template-columns: 1fr 1fr 1fr !important; }
     @media (max-width: 1300px) {
@@ -2492,9 +2498,10 @@ h2.slab {
     @media (max-width: 1000px) {
       .tweets__container {
         grid-template-columns: repeat(auto-fill, 36rem) !important; } }
-    @media (max-width: 1000px) {
+    @media (max-width: 540px) {
       .tweets__container {
-        grid-template-columns: repeat(auto-fill, 100%) !important; } }
+        grid-template-columns: repeat(auto-fill, 100%) !important;
+        margin: 6rem 2rem 6rem 2rem; } }
     .tweets__container .twitter-tweet {
       margin: 0rem !important;
       max-width: 55rem;
@@ -2514,6 +2521,13 @@ h2.slab {
     .mailEnd {
       margin-top: 2.8rem !important; } }
 
+.taf {
+  margin: 10rem auto 6rem auto; }
+  @media (max-width: 540px) {
+    .taf {
+      margin: 6rem 2rem 6rem 2rem;
+      width: calc(100% - 4rem); } }
+
 .ccLetter {
   margin: 10rem auto 0rem auto;
   width: 68rem;
@@ -2526,7 +2540,7 @@ h2.slab {
   @media (max-width: 540px) {
     .ccLetter {
       width: calc(100%);
-      margin: 4rem 0rem 0rem 0rem;
+      margin: 5rem 0rem 0rem 0rem;
       padding: 2rem; } }
   .ccLetter p {
     font-size: 1.9rem;
@@ -2595,7 +2609,7 @@ h2.slab {
 
 .ccLetterImg {
   width: 100rem;
-  margin: 10rem auto;
+  margin: 10rem auto 0 auto;
   display: flex; }
   @media (max-width: 540px) {
     .ccLetterImg {
@@ -2607,21 +2621,16 @@ h2.slab {
     .ccLetterImgMob {
       display: block;
       width: calc(100% - 2rem);
-      margin: 5rem 1rem 5rem 1rem; } }
+      margin: 5rem 1rem 0rem 1rem; } }
 
 .ccLetterArrow {
   width: 7.6rem;
-  margin: 10rem auto;
+  margin: 10rem auto 0 auto;
   display: flex; }
   @media (max-width: 540px) {
     .ccLetterArrow {
       width: 6rem;
-      margin: 4rem auto; } }
-
-.ccLetterImg1 {
-  width: 80rem;
-  margin: 10rem auto;
-  display: flex; }
+      margin: 5rem auto 0 auto; } }
 
 .sig {
   display: flex;
@@ -2660,14 +2669,14 @@ h2.slab {
       font-weight: 600; }
       @media (max-width: 540px) {
         .sig__right-name {
-          font-size: 1.8rem; } }
+          font-size: 1.7rem; } }
     .sig__right-founder {
       font-size: 1.9rem;
       font-weight: 400;
       margin-top: .8rem; }
       @media (max-width: 540px) {
         .sig__right-founder {
-          font-size: 1.8rem; } }
+          font-size: 1.7rem; } }
 
 .mobileCourse {
   line-height: 1; }
@@ -2682,72 +2691,164 @@ h2.slab {
 .circle1 {
   top: -28rem;
   left: -28rem;
-  width: 48.5rem;
-  height: 48.5rem; }
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle1 {
+      width: 48.5rem;
+      height: 48.5rem; } }
   @media (max-width: 540px) {
     .circle1 {
-      top: -23rem;
-      left: -22rem;
-      width: 92vw;
-      height: 92vw; } }
+      top: -28rem;
+      left: -32rem;
+      width: 42rem;
+      height: 42rem; } }
 
 .circle2 {
   top: -18rem;
-  right: -24rem;
-  width: 46rem;
-  height: 47rem; }
+  right: -24.6rem;
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle2 {
+      width: 46rem;
+      height: 49rem; } }
   @media (max-width: 540px) {
     .circle2 {
       top: 7rem;
       right: -27rem;
-      width: 39rem;
-      height: 39rem; } }
+      width: 41rem;
+      height: 41rem; } }
 
 .circle3 {
   top: 62rem;
   left: -37rem;
-  width: 48rem;
-  height: 48rem; }
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle3 {
+      width: 48rem;
+      height: 48rem; } }
+  @media (max-width: 540px) {
+    .circle3 {
+      left: -29rem;
+      width: 39rem;
+      height: 26rem;
+      top: auto;
+      bottom: 23.4rem; } }
+  @media (max-width: 400px) {
+    .circle3 {
+      bottom: 21.4rem; } }
 
 .circle4 {
-  top: 150rem;
+  top: 0rem;
   right: -33rem;
-  width: 47rem;
-  height: 47rem; }
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle4 {
+      width: 48rem;
+      height: 48rem; } }
+  @media (max-width: 540px) {
+    .circle4 {
+      top: 0rem;
+      right: -11rem;
+      width: 25rem;
+      height: 25rem; } }
 
 .circle5 {
-  top: 225rem;
-  left: 16%;
+  top: 90rem;
+  left: 20%;
   width: 46rem;
   height: 57rem; }
+  @media (max-width: 1500px) {
+    .circle5 {
+      left: 16%; } }
+  @media (max-width: 1220px) {
+    .circle5 {
+      left: 10%; } }
+  @media (max-width: 540px) {
+    .circle5 {
+      display: none; } }
 
 .circle6 {
-  top: 300rem;
-  right: -37rem;
-  width: 48rem;
-  height: 48rem; }
+  bottom: 0rem;
+  right: -34rem;
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle6 {
+      width: 48rem;
+      height: 48rem; } }
+  @media (max-width: 540px) {
+    .circle6 {
+      background-color: #b9abfc; } }
 
 .circle7 {
-  top: 375rem;
+  top: 45rem;
   left: -32rem;
-  width: 46rem;
-  height: 46rem; }
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle7 {
+      width: 46rem;
+      height: 46rem; } }
+  @media (max-width: 540px) {
+    .circle7 {
+      top: 0rem;
+      left: -20rem;
+      background-color: #fcdf69; } }
 
 .circle8 {
-  top: 450rem;
+  top: 120rem;
   right: -37rem;
   width: 52rem;
   height: 52rem; }
+  @media (max-width: 540px) {
+    .circle8 {
+      top: 76rem;
+      width: 55rem; } }
 
 .circle9 {
-  top: 525rem;
+  top: 220rem;
   left: -37rem;
   width: 52rem;
   height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle9 {
+      width: 52rem;
+      height: 52rem; } }
+  @media (max-width: 540px) {
+    .circle9 {
+      top: 119rem; } }
 
 .circle10 {
-  top: 600rem;
-  right: -37rem;
+  top: 40rem;
+  right: -35rem;
   width: 52rem;
   height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle10 {
+      width: 50rem;
+      height: 50rem; } }
+
+.circle11 {
+  top: 120rem;
+  left: -35rem;
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle11 {
+      width: 50rem;
+      height: 50rem; } }
+
+.circle12 {
+  top: 200rem;
+  right: -35rem;
+  width: 52rem;
+  height: 52rem; }
+  @media (max-width: 1500px) {
+    .circle12 {
+      width: 50rem;
+      height: 50rem; } }
 

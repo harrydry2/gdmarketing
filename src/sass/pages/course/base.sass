@@ -17,6 +17,10 @@
       width: calc(100% - 4rem)
       margin: 0 2rem
   &__tl
+    top: -28rem
+    left: -28rem
+    width: 62rem
+    height: 50rem
     @media (max-width: 1500px)
       top: -28rem
       left: -28rem
@@ -28,6 +32,10 @@
       width: 42.4vw
       height: 42.4vw
   &__tr
+    top: -36rem
+    right: -25rem
+    width: 64rem
+    height: 58rem
     @media (max-width: 1500px)
       top: -36rem
       right: -36rem
@@ -39,6 +47,10 @@
       width: 43vw
       height: 43vw
   &__bl
+    bottom: -28rem
+    left: -26rem
+    width: 63rem
+    height: 47rem
     @media (max-width: 1500px)
       bottom: -28rem
       left: -26rem
@@ -50,6 +62,10 @@
       width: 41vw
       height: 41vw
   &__br
+    bottom: -22rem
+    right: -16rem
+    width: 56rem
+    height: 43rem
     @media (max-width: 1500px)
       bottom: -22rem
       right: -24rem
@@ -394,13 +410,24 @@
     margin-top: 2.8rem !important
 
 .taf
-  margin: 10rem auto 10rem auto
+  margin: 10rem auto 0rem auto
   transform: rotate(-1deg)
   display: flex
   width: 50rem
   @media (max-width: 540px)
-    margin: 0rem 2rem 6rem 2rem
+    margin: 0rem 2rem 0rem 2rem
     width: calc(100% - 4rem)
+  &__text
+    font-size: 1.6rem
+    margin: 2rem auto 10rem auto
+    text-align: center
+    transform: rotate(-1deg)
+    @media (max-width: 540px)
+      margin: 2rem auto 6rem auto
+    a
+      border-bottom: 1px solid $black
+      padding-bottom: 0.2rem
+      transform: rotate(-1deg)
 
 
 .ccLetter
@@ -479,9 +506,9 @@
     // background-color: hsla(360, 100, 61, .21)
   .thc4
     background-color: hsla(250, 93, 83, .5)
-    // background-color: hsla(174, 84, 46, .22)
-  // .thc5
-  //   background-color: hsla(244, 72, 59, .16)
+  .thc5
+    // background-color: hsla(244, 72, 59, .16)
+    background-color: hsla(174, 84, 46, .22)
 
 .ccLetterImg
   width: 100rem
@@ -658,10 +685,10 @@
   width: 52rem
   height: 52rem
   @media (max-width: 540px)
-    top: 65rem
+    top: 73rem
     width: 55rem
   @media (max-width: 400px)
-    top: 73rem
+    top: 81rem
   @media (max-width: 340px)
     top: 73rem
 
@@ -674,9 +701,9 @@
     width: 52rem
     height: 52rem
   @media (max-width: 540px)
-    top: 106rem
+    top: 115rem
   @media (max-width: 400px)
-    top: 119rem
+    top: 125rem
 
 .circle10
   top: 40rem

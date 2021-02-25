@@ -2154,54 +2154,74 @@ h2.slab {
       .ccc__inner {
         width: calc(100% - 4rem);
         margin: 0 2rem; } }
-  @media (max-width: 1500px) {
-    .ccc__tl {
-      top: -28rem;
-      left: -28rem;
-      width: 48.5rem;
-      height: 48.5rem; } }
-  @media (max-width: 700px) {
-    .ccc__tl {
-      top: -21vw;
-      left: -21vw;
-      width: 42.4vw;
-      height: 42.4vw; } }
-  @media (max-width: 1500px) {
-    .ccc__tr {
-      top: -36rem;
-      right: -36rem;
-      width: 59rem;
-      height: 59rem; } }
-  @media (max-width: 700px) {
-    .ccc__tr {
-      top: -19vw;
-      right: -22vw;
-      width: 43vw;
-      height: 43vw; } }
-  @media (max-width: 1500px) {
-    .ccc__bl {
-      bottom: -28rem;
-      left: -26rem;
-      width: 46rem;
-      height: 46rem; } }
-  @media (max-width: 700px) {
-    .ccc__bl {
-      bottom: -21vw;
-      left: -20vw;
-      width: 41vw;
-      height: 41vw; } }
-  @media (max-width: 1500px) {
-    .ccc__br {
-      bottom: -22rem;
-      right: -24rem;
-      width: 43rem;
-      height: 43rem; } }
-  @media (max-width: 700px) {
-    .ccc__br {
-      bottom: -20vw;
-      right: -20vw;
-      width: 39vw;
-      height: 39vw; } }
+  .ccc__tl {
+    top: -28rem;
+    left: -28rem;
+    width: 62rem;
+    height: 50rem; }
+    @media (max-width: 1500px) {
+      .ccc__tl {
+        top: -28rem;
+        left: -28rem;
+        width: 48.5rem;
+        height: 48.5rem; } }
+    @media (max-width: 700px) {
+      .ccc__tl {
+        top: -21vw;
+        left: -21vw;
+        width: 42.4vw;
+        height: 42.4vw; } }
+  .ccc__tr {
+    top: -36rem;
+    right: -25rem;
+    width: 64rem;
+    height: 58rem; }
+    @media (max-width: 1500px) {
+      .ccc__tr {
+        top: -36rem;
+        right: -36rem;
+        width: 59rem;
+        height: 59rem; } }
+    @media (max-width: 700px) {
+      .ccc__tr {
+        top: -19vw;
+        right: -22vw;
+        width: 43vw;
+        height: 43vw; } }
+  .ccc__bl {
+    bottom: -28rem;
+    left: -26rem;
+    width: 63rem;
+    height: 47rem; }
+    @media (max-width: 1500px) {
+      .ccc__bl {
+        bottom: -28rem;
+        left: -26rem;
+        width: 46rem;
+        height: 46rem; } }
+    @media (max-width: 700px) {
+      .ccc__bl {
+        bottom: -21vw;
+        left: -20vw;
+        width: 41vw;
+        height: 41vw; } }
+  .ccc__br {
+    bottom: -22rem;
+    right: -16rem;
+    width: 56rem;
+    height: 43rem; }
+    @media (max-width: 1500px) {
+      .ccc__br {
+        bottom: -22rem;
+        right: -24rem;
+        width: 43rem;
+        height: 43rem; } }
+    @media (max-width: 700px) {
+      .ccc__br {
+        bottom: -20vw;
+        right: -20vw;
+        width: 39vw;
+        height: 39vw; } }
   .ccc h1 {
     font-size: 4rem;
     font-weight: 800;
@@ -2526,14 +2546,26 @@ h2.slab {
       margin-top: 2.8rem !important; } }
 
 .taf {
-  margin: 10rem auto 10rem auto;
+  margin: 10rem auto 0rem auto;
   transform: rotate(-1deg);
   display: flex;
   width: 50rem; }
   @media (max-width: 540px) {
     .taf {
-      margin: 0rem 2rem 6rem 2rem;
+      margin: 0rem 2rem 0rem 2rem;
       width: calc(100% - 4rem); } }
+  .taf__text {
+    font-size: 1.6rem;
+    margin: 2rem auto 10rem auto;
+    text-align: center;
+    transform: rotate(-1deg); }
+    @media (max-width: 540px) {
+      .taf__text {
+        margin: 2rem auto 6rem auto; } }
+    .taf__text a {
+      border-bottom: 1px solid #030212;
+      padding-bottom: 0.2rem;
+      transform: rotate(-1deg); }
 
 .ccLetter {
   margin: 10rem auto 0rem auto;
@@ -2613,6 +2645,8 @@ h2.slab {
     background-color: rgba(249, 153, 118, 0.4); }
   .ccLetter .thc4 {
     background-color: rgba(185, 171, 252, 0.5); }
+  .ccLetter .thc5 {
+    background-color: rgba(19, 216, 196, 0.22); }
 
 .ccLetterImg {
   width: 100rem;
@@ -2813,11 +2847,11 @@ h2.slab {
   height: 52rem; }
   @media (max-width: 540px) {
     .circle8 {
-      top: 65rem;
+      top: 73rem;
       width: 55rem; } }
   @media (max-width: 400px) {
     .circle8 {
-      top: 73rem; } }
+      top: 81rem; } }
   @media (max-width: 340px) {
     .circle8 {
       top: 73rem; } }
@@ -2833,10 +2867,10 @@ h2.slab {
       height: 52rem; } }
   @media (max-width: 540px) {
     .circle9 {
-      top: 106rem; } }
+      top: 115rem; } }
   @media (max-width: 400px) {
     .circle9 {
-      top: 119rem; } }
+      top: 125rem; } }
 
 .circle10 {
   top: 40rem;

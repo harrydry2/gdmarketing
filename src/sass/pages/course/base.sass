@@ -1,3 +1,53 @@
+.left__menu
+  position: fixed
+  left: 0
+  top: 50%
+  transform: translate(0, -50%)
+  z-index: 2
+  transition: all 0.4s
+  background-color: #FAFAFA
+  padding: 2rem
+  transition: all 0.4s
+  opacity: 0
+  box-shadow: 0.2rem 0.2rem 4rem rgba(0, 0, 0, 0.1)
+  @media (max-width: 1023px)
+    display: none
+  &-active
+    transition: all 0.4s
+    opacity: 1
+  &-text
+    margin-bottom: 1.1rem
+    font-size: 1.6rem
+    text-align: left
+    cursor: pointer
+    position: relative
+    width: -webkit-max-content
+    opacity: 0.5
+    font-weight: 400
+    &::before
+      content: ""
+      width: 0%
+      height: 1px
+      background: $black
+      position: absolute
+      top: 50%
+      transform: translateY(-40%)
+      left: -2%
+      transition: all 0.4s
+    &:hover
+      opacity: 0.8
+      transition: all 0.2s
+    &:last-child
+      margin-bottom: 0rem
+
+.strike
+  &::before
+    width: 104%
+  &__active
+    opacity: 1
+    font-weight: 500
+    transition: all 0.4s
+
 .ccc
   position: relative
   font-family: "AvenirNext"
@@ -5,6 +55,8 @@
   width: 100%
   overflow: hidden
   padding-bottom: 7rem
+  z-index: 3
+  background-color: white
   &__inner
     width: 61rem
     margin: 0 auto
@@ -310,7 +362,7 @@
   display: block
   background-color: #061019
   padding: 0rem 0 3rem 0
-  z-index: 1
+  z-index: 5
   position: relative
   .quotes
     width: 8rem

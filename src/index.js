@@ -3,7 +3,8 @@ import axios from 'axios';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { resize, copyGif, gifStart } from './modules/gifs';
-import { thScroll } from './modules/thScroll';
+import { thScroll, courseScroll } from './modules/thScroll';
+
 import { cycleImages } from './modules/course';
 import {
   mailPopup,
@@ -119,11 +120,6 @@ if ($('.gif')) {
   window.addEventListener('load', resize);
   window.addEventListener('resize', resize);
   gifLoad();
-  // gifStart();
-  // } else {
-  //   window.addEventListener('load', resize);
-  //   gifLoadMobile();
-  // }
 }
 
 // th page
@@ -134,7 +130,11 @@ if ($('.th')) {
 }
 
 if ($('.cc')) {
+  if (window.innerWidth > 1023) {
+    courseScroll();
+  }
   mailSubmitFromCourseTop();
+  mailSubmitFromCourseBottom();
   setTimeout(() => {
     const tc = $('.tweets__container');
     console.log('hello');

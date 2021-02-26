@@ -5,11 +5,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    bundle: ['./src/index.js'],
+    bundle: ['./src/index.js']
   },
   output: {
     path: path.resolve(__dirname, 'public', 'dist'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   module: {
     rules: [
@@ -20,14 +20,14 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
-          'sass-loader',
+          'sass-loader'
         ],
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: 'babel-loader'
         },
       },
       {
@@ -42,7 +42,9 @@ module.exports = {
     ],
   },
   plugins: [
-    new MiniCssExtractPlugin('bundle.css'),
+    new MiniCssExtractPlugin({
+      filename: 'bundle.v2.css',
+    }),
     // minify
     // new webpack.DefinePlugin({
     //   "process.env": {

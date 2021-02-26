@@ -1,4 +1,6 @@
+/* eslint-disable no-var */
 import zen from 'zenscroll';
+import debounce from 'lodash.debounce';
 import { $, $$ } from './bling';
 
 export function thScroll() {
@@ -52,5 +54,131 @@ export function thScroll() {
   });
   $('.thczz17').on('click', () => {
     zen.center($('.thcz17'));
+  });
+}
+
+export function courseScroll() {
+  // easier shit
+  var tweets = $('.tweets');
+  var leftMenu = $('.left__menu');
+  var spm = $('.spm');
+
+  var menuObserver2 = new window.IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        // enter
+        leftMenu.classList.remove('left__menu-active');
+        return;
+      }
+      if (entry.boundingClientRect.top > 0) {
+        // below
+        if (!leftMenu.classList.contains('left__menu-active')) {
+          leftMenu.classList.add('left__menu-active');
+        }
+      }
+    },
+    {
+      root: null,
+      threshold: 0,
+    }
+  );
+  const menuObserver = new window.IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        // enter
+        leftMenu.classList.remove('left__menu-active');
+        return;
+      }
+      if (entry.boundingClientRect.top > 0) {
+        // below
+      } else {
+        // above
+        console.log('lesgo');
+        leftMenu.classList.add('left__menu-active');
+      }
+    },
+    {
+      root: null,
+      threshold: 0,
+    }
+  );
+  // spmTrigger
+  // menuObserver.observe(spm);
+  // menuObserver2.observe(tweets);
+
+  window.on(
+    'scroll',
+    debounce(function() {
+      if (window.scrollY < 2000) {
+        menuObserver.observe(spm);
+      } else {
+        menuObserver2.observe(tweets);
+      }
+    }, 100)
+  );
+
+  // hard shit
+  var currentlyOn = 1;
+  const observer = new window.IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        // enter
+        var num = entry.target.className.slice(-1);
+        var newnum = (parseInt(num) + 1).toString();
+        var newCurrentlyOn = parseInt(num);
+        if (currentlyOn > newCurrentlyOn) {
+          const lmi = $(`.ccsc${num}a`);
+          const lmiNext = $(`.ccsc${newnum}a`);
+          lmi.classList.remove('strike');
+          lmi.classList.add('strike__active');
+          lmiNext.classList.contains('strike__active')
+            ? lmiNext.classList.remove('strike__active')
+            : null;
+        }
+        return;
+      }
+      if (entry.boundingClientRect.top > 0) {
+        // below
+      } else {
+        // above
+        const num = entry.target.className.slice(-1);
+        if (parseInt(num) === 4) {
+          return;
+        }
+        const newnum = (parseInt(num) + 1).toString();
+        console.log(num);
+        const lmi = $(`.ccsc${num}a`);
+        const lmiNext = $(`.ccsc${newnum}a`);
+        currentlyOn = parseInt(num) + 1;
+        lmi.classList.add('strike');
+        lmi.classList.contains('strike__active')
+          ? lmi.classList.remove('strike__active')
+          : null;
+        lmiNext.classList.add('strike__active');
+      }
+    },
+    {
+      root: null,
+      threshold: 0,
+    }
+  );
+
+  const Arrayof = $$('.ccLetter');
+  Arrayof.forEach(el => {
+    observer.observe(el);
+  });
+
+  zen.setup(null, 30);
+  $('.ccsc1a').on('click', () => {
+    zen.to($('.ccsc1'));
+  });
+  $('.ccsc2a').on('click', () => {
+    zen.to($('.ccsc2'));
+  });
+  $('.ccsc3a').on('click', () => {
+    zen.to($('.ccsc3'));
+  });
+  $('.ccsc4a').on('click', () => {
+    zen.to($('.ccsc4'));
   });
 }

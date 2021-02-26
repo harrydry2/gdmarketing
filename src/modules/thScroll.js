@@ -63,7 +63,7 @@ export function courseScroll() {
   var leftMenu = $('.left__menu');
   var spm = $('.spm');
 
-  var menuObserver2 = new window.IntersectionObserver(
+  var menuObserver2 = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
         // enter
@@ -82,7 +82,7 @@ export function courseScroll() {
       threshold: 0,
     }
   );
-  const menuObserver = new window.IntersectionObserver(
+  const menuObserver = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
         // enter
@@ -102,9 +102,6 @@ export function courseScroll() {
       threshold: 0,
     }
   );
-  // spmTrigger
-  // menuObserver.observe(spm);
-  // menuObserver2.observe(tweets);
 
   window.on(
     'scroll',
@@ -119,7 +116,7 @@ export function courseScroll() {
 
   // hard shit
   var currentlyOn = 1;
-  const observer = new window.IntersectionObserver(
+  const observer = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
         // enter

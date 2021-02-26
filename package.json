@@ -58,6 +58,7 @@
     "express": "^4.16.2",
     "express-static-gzip": "^0.3.0",
     "instantsearch.js": "^3.4.0",
+    "intersection-observer": "^0.12.0",
     "is-mobile": "^2.1.0",
     "lodash.debounce": "^4.0.8",
     "mjml-head-font": "^4.5.1",

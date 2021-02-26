@@ -4,6 +4,7 @@ import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { resize, copyGif, gifStart } from './modules/gifs';
 import { thScroll, courseScroll } from './modules/thScroll';
+// import { thScroll, courseScroll } from './modules/thScroll1';
 
 import { cycleImages } from './modules/course';
 import {

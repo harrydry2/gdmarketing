@@ -12,7 +12,7 @@
       <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
       <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
-      <mj-class name="h1" font-size="19px" font-weight="bold" padding="0px 0px 10px 0px" line-height="30px" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
       <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
       <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
       <mj-class name="asterix" mj-text align="center"="center" />
@@ -26,9 +26,9 @@
     </mj-attributes>
     <mj-style inline="inline">
       .underA {
-        color: #4742DE;
+        color: #030212;
         text-decoration: none;
-        font-weight: 500;
+        border-bottom: 1px solid;
       }
 
       .bold {
@@ -48,19 +48,22 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-text mj-class="p">Hey.</mj-text>
-          <mj-text mj-class="p">You're here for the course. Sweet. I’m working hard on it.</mj-text>
-          <mj-text mj-class="p">Quick favour: Reply with the number one topic you’d like to see covered. Be as specific or general as you like. I'll reply.</mj-text>
-          <mj-text mj-class="p">Quick tip: </mj-text>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding="9px"></mj-image>
+          <mj-text mj-class="p">Hey — It’s Harry</mj-text>
+          <mj-text mj-class="p">You're here for the course. Awesome. I’m working hard on it. The code for the 15% discount will be <span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4jXEuIHY9ic" target="_blank">steamedhams</a></span>. Enjoy!</mj-text>
+          <mj-text mj-class="p">I want to make sure the content hits the mark. So, a quick question if you don't mind...</mj-text>
+          <mj-text mj-class="p inwardSpeech">Where are you at with marketing? What's the #1 topic you’d like to see covered?</mj-text>
+          <mj-text mj-class="p">Whilst you wait, I've put together an email series: <span class="italic">The 7 case studies subscribers found most useful over the last two years.</span> If you’d like to read them <a class="underA subscribeColor" trigger-id="2297969" target="_blank">click here</a>. You'll get one each weekday morning.</mj-text>
+          <mj-text mj-class="p">That’s everything.</mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
-          <mj-text mj-class="p">P.S. Seriously pumped for this</mj-text>
+          <mj-text mj-class="p">PS — Almost forgot why you signed up early. The code for the 15% discount will be <span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4jXEuIHY9ic" target="_blank">steamedhams</a></span>. Enjoy!</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this because you signed up to the Marketing Examples mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

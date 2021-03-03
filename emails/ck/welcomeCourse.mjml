@@ -1,0 +1,69 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 0px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="17px" font-weight="600" padding="18px 0px 18px 0px" line-height="21px" color="#e6375a" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="10px 0px 0px 0px" line-height="30px" color="#545454" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="28px" color="#030212" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="inwardSpeech" padding="12px 30px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .bold {
+        font-weight: 500;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .unsub {
+        color: #808080
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding="9px"></mj-image>
+          <mj-text mj-class="p">Hey — It’s Harry</mj-text>
+          <mj-text mj-class="p">You're here for the course. Awesome. I’m working hard on it. The code for the 15% discount will be <span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4jXEuIHY9ic" target="_blank">steamedhams</a></span>. Enjoy!</mj-text>
+          <mj-text mj-class="p">Whilst you wait, I've put together an email series: <span class="italic">The 5 case studies subscribers found most useful over the last 2 years</span>. If you’d like to read them <a class="underA subscribeColor" href="https://marketingexamples.com/best-of/subscribe" trigger-id="2297969" target="_blank">click here</a>. You'll get one each weekday.</mj-text>
+          <mj-text mj-class="p">That’s everything I think. Can't wait to get this out there.</mj-text>
+          <mj-text mj-class="p">— Harry</mj-text>
+          <mj-text mj-class="p">PS — It'd be nice to learn more about the folks interested in this. Feel free to reply with: <span class="italic ">Where you're at with your own marketing, the #1 topic you want to get better at, anything else.</span> I'll reply back.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this because you signed up to the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -1,0 +1,57 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='/dist/bundle.v3.css')
+    link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/harrydry/gdmarketing/meFav.png')
+    meta(name='twitter:site', content='@goodMarketingHq')
+    meta(property='og:site_name', content='Marketing Examples')
+    meta(name='twitter:card', content='summary_large_image')
+    meta(property='og:image:height', content='628')
+    meta(property='og:image:width', content='1200')
+    meta(property='og:type', content='website')
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-91909305-10')
+    script(async='', src='https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-91909305-10');
+      window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      t._e = [];
+      t.ready = function(f) {
+      t._e.push(f);
+      };
+      return t;
+      }(document, "script", "twitter-wjs"));
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KFP5QFB');
+    block head
+      title Best of Marketing Examples
+      meta(property='og:title', content='Best of Marketing Examples')
+      meta(name='twitter:title', content='Best of Marketing Examples')
+      meta(property='og:url', content='https://marketingexamples.com/best-of/subscribe')
+      link(rel='canonical', href='https://marketingexamples.com/best-of/subscribe')
+      meta(name='description', content=`Best of Marketing Examples`)
+      meta(property='og:description', content=`Best of Marketing Examples`)
+      meta(name='twitter:description', content=`Best of Marketing Examples`)
+      meta(property='og:image', content='')
+      meta(name='twitter:image', content='')
+    body
+      noscript
+        iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-KFP5QFB' height='0' width='0' style='display:none;visibility:hidden')
+      block content
+  block scripts
+    script(src="/dist/bundle.js")

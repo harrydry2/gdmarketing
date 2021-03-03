@@ -910,5 +910,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "Apple’s “Shot on iPhone” campaign",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Brand",
+    "tBack": "brand",
+    "slug": "shot-on-iphone",
+    "img": "shotoniphone",
+    "imgType": "jpg",
+    "desc": ""
   }
 ]

@@ -798,8 +798,18 @@ p {
     color: #fff;
     font-weight: 600;
     font-size: 1.4rem; }
+    @media screen and (max-width: 768px) {
+      .ph__text {
+        display: none; } }
     .ph__text span {
       border-bottom: 2px solid white; }
+  .ph__text-mobile {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .ph__text-mobile {
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.4rem; } }
 
 .gif {
   background-color: #0e2439;

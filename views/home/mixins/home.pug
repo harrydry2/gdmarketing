@@ -8,7 +8,7 @@ mixin home(cards, activeFilters, title, displaynone = "")
       a.home__left-logo(href="/")!=icon("meLogoBig")
       +filters(activeFilters)
     .home__right
-      //- +phBase()
+      +phBase()
       .home__right-header
         .home__right-header-wrap
           a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")

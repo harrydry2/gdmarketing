@@ -34,7 +34,7 @@ function submitMail(button, red, input, num) {
       }
       if (data.email === "true") {
         red.style.color = "#00c26e";
-        red.innerText = `Check your inbox in 2 mins :)`;
+        red.innerText = `Just sent an email — Check spam :)`;
         if (numm === 1) {
           red.classList.add("gta__1");
         } else if (numm === 2) {

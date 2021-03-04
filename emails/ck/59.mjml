@@ -88,9 +88,9 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#059 - Some exciting news. Then 6 mini examples</mj-text>
           <mj-text mj-class="h3" align="center">(A different kind of email • 3 mins)</mj-text>
-          <mj-text mj-class="p"><span class="">Hey — Harry here. Hope you're all well.</span></mj-text>
-          <mj-button mj-class="bg4">Some news</mj-button>
-          <mj-text mj-class="p">I’m working on a practical marketing course. Coming in August. I spent last month planning and writing a nice landing page.</mj-text>
+          <mj-text mj-class="p"><span class="">Hey — Harry here. Hope you're all well. It's been a while. </span></mj-text>
+          <mj-button mj-class="bg4">Some exciting news</mj-button>
+          <mj-text mj-class="p">I’m working on a practical marketing course. I spent last month planning it and making the landing page.</mj-text>
           <mj-text mj-class="p"><a class="underA underB subscribeColor bold" href="https://marketingexamples.com/course" target="_blank">Check it out</a></mj-text>
           <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/cards/coursePoster1.png" href="https://marketingexamples.com/course" alt="Marketing Examples Course"></mj-image>
           <mj-text mj-class="p">Now, I'm proud of this newsletter. And want to keep it clean. So the course <span class="italic bold">has a separate email list</span>.</mj-text>
@@ -105,7 +105,7 @@
           <mj-text mj-class="p list">• Gives up control</mj-text>
           <mj-text mj-class="p list list__bottom">• Let's them persuade <span class="italic">themselves</span></mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip25.png" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="pbold">2/ Don't complicate it</mj-text>
+          <mj-text mj-class="pbold">2/ Don't complicate marketing</mj-text>
           <mj-text mj-class="p">I've been chatting to the owner of a decorative concrete company.</mj-text>
           <mj-text mj-class="p">Each month they pay <span class="italic">$600 / mo</span> for an ad in a local magazine that gets sent to 7000 wealthy homes in Georgia. Last 3 months they've made <span class="italic">$75,000</span> from these ads.</mj-text>
           <mj-text mj-class="p">Don't complicate marketing. Fish where the fish are.</mj-text>
@@ -126,20 +126,21 @@
           <mj-text mj-class="p">Make yourself easy to sum up</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip23.png" alt="Sea of sameness brand positioning"></mj-image>
           <mj-text mj-class="pbold">6/ Kapwing's a meme maker. I love their YouTube strategy</mj-text>
-          <mj-text mj-class="p list list__top">• Find memes about to go viral</mj-text>
-          <mj-text mj-class="p list">• Upload “how to make meme” videos to YT</mj-text>
+          <mj-text mj-class="p list list__top">• Finds memes about to go viral</mj-text>
+          <mj-text mj-class="p list">• Uploads “how to make meme” videos to YT</mj-text>
           <mj-text mj-class="p list">• Hundreds of thousands start Googling</mj-text>
           <mj-text mj-class="p list">• Watch Kapwing's tutorial</mj-text>
           <mj-text mj-class="p list list__bottom">• Which uses <span class="italic">their app</span> to make the meme</mj-text>
           <mj-text mj-class="p">420k views / month</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip20.jpg" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="p"><span class="italic">Alright. That's all folks. Sorry for the wait. Planning the course took longer than I thought.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Let's end on a high. A couple of weeks ago we got voted the #1 marketing newsletter in a <a class="underA subscribeColor" href="https://ahrefs.com/blog/best-marketing-newsletters/" target="_blank">survey by Ahrefs</a>. Honestly, made my week.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">As a little thank you I'm <span class="bold">giving away my 7 favourite marketing books</span>. To enter all you've got to do is reply with a marketing joke. Whoever makes me laugh most, wins. Simple. Next week, I'll announce the winner.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">I'll be back on the 10th March (my birthday).</span></mj-text>
-          <mj-text mj-class="pbold">Sponsored by Ahrefs</mj-text>
-          <mj-text mj-class="p">Okay. I promise that survey wasn't a set up haha. <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. They're great. Check them out.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Alright. That's all folks. Sorry about the wait. Planning this course took longer than anticipated.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic"> Let's end on a high. A couple of weeks ago we got voted the #1 marketing newsletter in a <a class="underA subscribeColor" href="https://ahrefs.com/blog/best-marketing-newsletters/" target="_blank">survey by Ahrefs</a>. Honestly, made my week.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">As a little thank you I'm giving away my 7 favourite marketing books. They're full of images and low on words. So don't worry about being overwhelmed. To enter reply with... your favourite movie. Haha. Can't think of anything else. Next week, I'll draw a name and post them :)</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Last thing. I've just changed email providers and am a bit nervous about open rates. If you enjoy the newsletter please take a sec to “Add to Contacts”, to make sure you keep getting it. Would really appreciate it.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I'll be back on the 10th March (my birthday) with some more tips.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
+          <mj-text mj-class="pbold">Sponsored by Ahrefs</mj-text>
+          <mj-text mj-class="p">Okay. I promise that survey wasn't set up haha. <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. They're great. Check them out.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

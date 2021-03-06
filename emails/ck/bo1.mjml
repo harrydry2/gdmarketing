@@ -7,32 +7,28 @@
       <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
-      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
       <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
-      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
       <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
-      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="pbold" font-size="17px" font-weight="600" padding="8px 0px 8px 0px" line-height="29px" color="#4742DE" />
       <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
       <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
       <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
       <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
       <mj-class name="inwardSpeech" padding="12px 38px" font-style="italic" />
-      <mj-class name="inwardSpeech2" padding="4px 38px 12px 38px" font-style="italic" />
       <mj-class name="list" padding="1px 7px 1px 20px" />
       <mj-class name="list__top" padding-top="8px" />
       <mj-class name="list__bottom" padding-bottom="8px" />
       <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
       <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
       <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
-      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
-      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
-      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
-      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
-      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
-      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
-      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
-      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
       <mj-class name="img600" width="600px" fluid-on-mobile="true" />
       <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
     </mj-attributes>
@@ -91,70 +87,83 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#001 - Learn copywriting in 21 tips</mj-text>
-          <mj-text mj-class="h3" align="center">(Copywriting • 3 mins)</mj-text>
-          <mj-text mj-class="p"><span class="italic">Two weeks. No articles. What happened?</mj-text>
-          <mj-text mj-class="p"><span class="italic"><a class="underA subscribeColor" trigger-id="2301452" target="_blank">unsubscribe</a> I wanted to start with a bang. So I melded together my two best </mj-text>
-          <mj-text mj-class="p"><span class="italic">Enough talk. Hope you enjoy it:</mj-text>
-          <mj-text mj-class="p"><span class="italic">Enough talk. Hope you enjoy it:</mj-text>
-          <mj-text mj-class="h2under">1) Write with your eraser</mj-text>
-          <mj-text mj-class="p">You get 100 bucks for every word you rub out from your title:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt1.png" alt="Trello landing page"></mj-image>
-          <mj-text mj-class="h2under">2) Don't exaggerate</mj-text>
-          <mj-text mj-class="p">An honest line always feels warmer:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt2.jpg" alt="Volkswagon ads"></mj-image>
-          <mj-text mj-class="h2under">3) No one cares what you can do</mj-text>
+          <mj-text mj-class="h1" align="center">#001 - My copywriting handbook</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey — Harry here. </mj-text>
+          <mj-text mj-class="p"><span class="italic">Over the next five working days I'm sending the five case studies subscribers found most useful over the last two years.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Today, you're getting <span class="bold">my crash course in copywriting</span>. Enjoy!</mj-text>
+          <mj-text mj-class="p"><span class="italic">PS: This is a long. Might be one to bookmark and come back to. If you'd like to opt-out of the just <a class="underA subscribeColor" trigger-id="2301452" target="_blank">click here</a> </mj-text>
+          <mj-button mj-class="bg4">Let's start with 7 quick tips</mj-button>
+          <mj-text mj-class="pbold">1/ No one cares what you can do</mj-text>
           <mj-text mj-class="p">Everyone cares what you can do <span class="italic">for them</span>.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt3.jpg" alt="Apple iPod ads"></mj-image>
-          <mj-text mj-class="h2under">4) Avoid the passive voice</mj-text>
-          <mj-text mj-class="p">It's indirect and awkward:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt4.png" alt="Passive voice"></mj-image>
-          <mj-text mj-class="h2under">5) Don't kill your personality</mj-text>
-          <mj-text mj-class="p">The best brands feel “real”:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt11a.png" alt="Andie's email"></mj-image>
-          <mj-text mj-class="h2under">6) Avoid “landing page words”</mj-text>
+          <mj-text mj-class="pbold">2/ Write with your eraser</mj-text>
+          <mj-text mj-class="p">You get 100 bucks for every word you rub out from your title.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt1.png" alt="Trello landing page"></mj-image>
+          <mj-text mj-class="pbold">3/ Avoid “landing page words”</mj-text>
           <mj-text mj-class="p"><span class="italic">Unlock, unleash, exceed, empower, supercharge, etc.</span></mj-text>
           <mj-text mj-class="p">Real people don't use them.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt13.png" alt="Frontend mentor"></mj-image>
-          <mj-text mj-class="h2under">7) Find the tension</mj-text>
-          <mj-text mj-class="p">“Pleasant” gets forgotten. Conflict creates interest:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt12d.png" alt="Lemonade landing page"></mj-image>
-          <mj-text mj-class="h2under">8) Write how you talk</mj-text>
-          <mj-text mj-class="p">Casual. Colloquial. Full of pronouns:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt5.png" alt="Basecamps landing page"></mj-image>
-          <mj-text mj-class="h2under">9) Avoid “contained” titles</mj-text>
-          <mj-text mj-class="p">Write something that pulls your reader down the page:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt14.png" alt="Zenbu landing page"></mj-image>
-          <mj-text mj-class="h2under">10) Formatting matters</mj-text>
-          <mj-text mj-class="p">Write scannable copy:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt6.png" alt="Everyone scans"></mj-image>
-          <mj-text mj-class="h2under">11) Kill adverbs. Kill adjectives.</mj-text>
-          <mj-text mj-class="p">They're flowery. They're vague. They try too hard:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt9.png" alt="Adjective and verb tips"></mj-image>
-          <mj-text mj-class="h2under">12) Stories make you memorable</mj-text>
-          <mj-text mj-class="p">Write scannable copy</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt8.png" alt="Power of stories"></mj-image>
-          <mj-text mj-class="h2under">13) More periods, fewer commas</mj-text>
+          <mj-text mj-class="pbold">4/ Your first line is crucial</mj-text>
+          <mj-text mj-class="p">If people don’t read it, they’re not going to read your second line either. How can you make it so compelling that every reader reads it?</mj-text>
+          <mj-text mj-class="p">Keep it short.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cttt21.png" alt="Short first line"></mj-image>
+          <mj-text mj-class="pbold">5/ Write the title only you can</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cttt20.png" alt="Volkswagon ads"></mj-image>
+          <mj-text mj-class="pbold">6/ Kill adjectives. Kill adverbs.</mj-text>
+          <mj-text mj-class="p">The best brands feel <span class="italic">REAL</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt11a.png" alt="Andie's email"></mj-image>
+          <mj-text mj-class="pbold">7/ More periods, fewer commas</mj-text>
           <mj-text mj-class="p">Periods mean short sentences. We like short sentences.</mj-text>
           <mj-text mj-class="p">Commas mean long, painful sentences, like this one, which New Yorker writers think are clever, but real people find torturous, because they wind on and on without actually saying anything</mj-text>
-          <mj-text mj-class="h2under">14) Fence sitters don't buy</mj-text>
-          <mj-text mj-class="p">Go to the edge:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt7.png" alt="Ernest Shackleton"></mj-image>
-          <mj-text mj-class="h2under">15) Think slippery slide</mj-text>
-          <mj-text mj-class="p">Every line of copy should lead to the next.</mj-text>
-          <mj-text mj-class="p">Play this ad. You won't be able to stop:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt20.jpg" alt="Slippery slide" href="https://www.youtube.com/watch?v=eXL2YukS6Sc"></mj-image>
-          <mj-text mj-class="h2under">16) Your first line is crucial</mj-text>
-          <mj-text mj-class="p">If people don’t read it, they’re not going to read your second line either.</mj-text>
-          <mj-text mj-class="p">Keep it short:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt10.png" alt="Short first line"></mj-image>
-          <mj-text mj-class="h2under">17) Copywriting is selling</mj-text>
-          <mj-text mj-class="p">Don’t romanticize it. The goal isn't to be clever or cute.</mj-text>
-          <mj-text mj-class="p">The goal is to inspire action:</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt16.png" alt="Drifts landing page"></mj-image>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="h2under">1/ Today's quick tip</mj-text>
-          <mj-text mj-class="p">Thanks for reading — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">h/t David Perell</span></mj-text>
+          <mj-button mj-class="bg4">Now let's rewrite some real landing pages</mj-button>
+          <mj-text mj-class="p">Back in October, I asked people to “submit your company landing page” and I’d rewrite it. Well we did!</mj-text>
+          <mj-text mj-class="p">I worked on these with <a class="underA">Annie Maguire</a> — one of the best copywriters in the business.</mj-text>
+          <mj-text mj-class="pbold">1/ Everydae</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie8a.png" alt="Banquist landing page copywriting"></mj-image>
+          <mj-text mj-class="p">Put yourself in the customer's shoes. Kids don't care about “the next generation of SAT prep”. They care about “Acing the SAT”.</mj-text>
+          <mj-text mj-class="p">We also pulled up the $1 trial. And made the “five stars” feel REALER.</mj-text>
+          <mj-text mj-class="pbold">2/ Banquist</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie2.jpg" alt="Listen to customers copywriting"></mj-image>
+          <mj-text mj-class="p">Banquist is a unique product. But they waste their uniqueness with a vague title that could mean fifty different things.</mj-text>
+          <mj-text mj-class="p">When you've got a unique product the golden rule is <span class="italic">let the product speak for itself</span>.</mj-text>
+          <mj-text mj-class="pbold">3/ Dormio</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie6b.png" alt="Dormio landing page"></mj-image>
+          <mj-text mj-class="p">Customers' buy <span class="italic">outcomes</span> not <span class="italic">products</span>. What's more appealing:</mj-text>
+          <mj-text mj-class="p inwardSpeech list__bottom">a) A calming tea</mj-text>
+          <mj-text mj-class="p inwardSpeech list__top">b) A calming tea that helps you relax, unwind, and drift into deep, restorative sleep</mj-text>
+          <mj-text mj-class="pbold">4/ JobBoardSheet</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie1a.png" alt="JobBoardSheet landing page"></mj-image>
+          <mj-text mj-class="p">Their current copy is <span class="italic">clear</span>. But it's also <span class="italic">forgettable</span>. So we looked down their page and found this new line.</mj-text>
+          <mj-text mj-class="p">It's much more specific. And handles the customer's <span class="italic">four main objections in one sentence</span>.</mj-text>
+          <mj-text mj-class="pbold">5/ Counterweight Creative</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie10.png" alt="Counterweight Creative landing page"></mj-image>
+          <mj-text mj-class="p">This one had promise. But the language is too vague. It doesn't feel REAL.</mj-text>
+          <mj-text mj-class="p">We replaced all their <span class="italic">vague</span> words with <span class="italic">specific</span> ones. You can't bullshit specifics.</mj-text>
+          <mj-button mj-class="bg2">And finally...</mj-button>
+          <mj-text mj-class="p">I love conversational copywriting — <span class="italic">Writing how you talk. No sales megaphone. No business speak.</span></mj-text>
+          <mj-text mj-class="p">But it's easier said than done. Here's 7 tips to help you out.</mj-text>
+          <mj-text mj-class="pbold">1/ Don't write AT the reader</mj-text>
+          <mj-text mj-class="p">Involve the reader in your copy.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con6.jpg" alt="reader time"></mj-image>
+          <mj-text mj-class="pbold">2/ Use your customers' words</mj-text>
+          <mj-text mj-class="p">It's the easiest way to get the tone right.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con10.png" alt="lol at gmail"></mj-image>
+          <mj-text mj-class="pbold">3/ Don't persuade</mj-text>
+          <mj-text mj-class="p">Let the reader <span class="italic">be persuaded</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con7.png" alt="persuade"></mj-image>
+          <mj-text mj-class="pbold">4/ Load up on personal pronouns</mj-text>
+          <mj-text mj-class="p">People pay attention when you talk directly to them. Also, keep it casual, keep it colloquial.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt5.png" alt="personal pronoun"></mj-image>
+          <mj-text mj-class="pbold">5/ Don't kill your personality</mj-text>
+          <mj-text mj-class="p">Conversation should feel <span class="italic">REAL</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt11a.png" alt="Andie's email"></mj-image>
+          <mj-text mj-class="pbold">6/ Ditch the thesaurus</mj-text>
+          <mj-text mj-class="p">You're not impressing anyone.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con4.png" alt="impressing peopl"></mj-image>
+          <mj-text mj-class="pbold">7/ Don’t try too hard</mj-text>
+          <mj-text mj-class="p">Customers can see through fake writing.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con13.png" alt="don't try"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
@@ -176,8 +185,8 @@
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
-          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list. | <a class="unsub" href="https://marketingexamples.com/best-of/unsubscribe" trigger-id="2301452">Unsubscribe from the “The best of Marketing Examples”</a></mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe from all emails</a> | Wimbledon, London, SW19 5AE</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

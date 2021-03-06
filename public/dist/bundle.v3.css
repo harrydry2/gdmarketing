@@ -793,14 +793,11 @@ p {
       margin-right: 2rem; }
       @media screen and (max-width: 768px) {
         .ph__sticker__left {
-          margin-right: 1.4rem; } }
+          display: none; } }
   .ph__text {
     color: #fff;
     font-weight: 600;
     font-size: 1.4rem; }
-    @media screen and (max-width: 768px) {
-      .ph__text {
-        display: none; } }
     .ph__text span {
       border-bottom: 2px solid white; }
   .ph__text-mobile {

@@ -4,7 +4,7 @@
     <mj-breakpoint width="320px" />
     <mj-attributes>
       <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
-      <mj-wrapper background-color="#fff" padding="0px 9px" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="0px 0px 30px 0px" />
       <mj-button padding="24px 0px 24px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
@@ -23,7 +23,6 @@
       <mj-class name="bg4" background-color="#D9F4E2" />
       <mj-class name="bg5" background-color="#E4E2FA" />
       <mj-class name="inwardSpeech" padding="12px 20px" font-style="italic" />
-      <mj-class name="inward" padding="12px 20px" />
       <mj-class name="nm" padding="8px 30px" />
       <mj-class name="nmTop" padding="10px 30px 8px 30px" font-weight="600" line-height="29px" />
       <mj-class name="list" padding="1px 7px 1px 20px" />
@@ -108,84 +107,84 @@
           <mj-text mj-class="h1" align="center">The last dance</mj-text>
           <mj-text mj-class="h3" align="center">(“Best of” #005 • 3 mins)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey — Harry here.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Well... I guess... this is it folks. Today's the last in the series.</mj-text>
-          <mj-text mj-class="p"><span class="italic">I've got ten practical examples. Coming at you thick and fast. Grab some popcorn, sit back, relax. We're going out like Michael!</mj-text>
+          <mj-text mj-class="p"><span class="italic">Well... this is it folks. Today's the last in the series.</mj-text>
+          <mj-text mj-class="p"><span class="italic">I've got ten practical examples. Coming thick and fast. Grab some popcorn, sit back, relax. And enjoy the last dance.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl1.jpg" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg1">1/ A quick social media tip</mj-button>
-          <mj-text mj-class="p inwardSpeech">It’s not about making your content the best. It’s about making your content easy to consume — Matthew Kobach</mj-text>
+          <mj-button mj-class="bg4">1/ A quick social media tip</mj-button>
+          <mj-text mj-class="p inwardSpeech">“It’s not about making your content the best. It’s about making your content easy to consume”— Matthew Kobach</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl4.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg2">2/ The content marketing “Hall of Fame”</mj-button>
+          <mj-button mj-class="bg4">2/ A little bit of creativity</mj-button>
+          <mj-text mj-class="p">In 2008 an intern at Shreddies rotated the cereal 45 degrees, and said, <span class="italic">it's not a square, it’s a diamond.</span></mj-text>
+          <mj-text mj-class="p">Everyone laughed. “Diamond Shreddies” was born. Sales increased by 18% ($2M) the following quarter.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl3.png" alt="more leads please"></mj-image>
+          <mj-button mj-class="bg4">3/ Make your marketing <span class="italic">REALER</span></mj-button>
+          <mj-text mj-class="p">Let's start with this image.</mj-text>
+          <mj-text mj-class="p">Same title. Same painting. Same subreddit. One gets <span class="italic">300</span> votes. The other gets <span class="italic">70,000</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl7.jpg" alt="more leads please"></mj-image>
+          <mj-text mj-class="p">People love <span class="italic">REAL</span> stuff. But it's rare. Let me show you some examples:</mj-text>
+          <mj-text mj-class="p">For Mother's Day last year Chanel asked employees' kids to draw products. 15% increase in sales.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl8.png" alt="more leads please"></mj-image>
+          <mj-text mj-class="p">Most bloggers write the title on the left. <a class="underA subscribeColor" href="https://twitter.com/taskett" target="_blank">Madison</a> wrote the title on the right. Her <a class="underA subscribeColor" href="https://www.madisontaskett.com/lazy-bastard-productivity/" target="_blank">article</a> took over the internet for a week.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl5.png" alt="more leads please"></mj-image>
+          <mj-text mj-class="p">Last year I brought my newsletter to life. 90% increase in conversions.</span>:</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl8.png" alt="more leads please"></mj-image>
+          <mj-button mj-class="bg4">4/ My approach to ads</mj-button>
+          <mj-text mj-class="p list list__top">1/ Quick experiments on different platforms</mj-text>
+          <mj-text mj-class="p list">2/ Embrace the small losses</mj-text>
+          <mj-text mj-class="p list list__bottom">3/ When you find what works, hone it</mj-text>
+          <mj-text mj-class="p">This is how you find <span class="italic">the global maximum</span>. Otherwise, you can spend six months “optimising” one channel and go from “A” to “B”.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl11.png" alt="more leads please"></mj-image>
+          <mj-button mj-class="bg4">5/ How to create a viral loop </mj-button>
+          <mj-text mj-class="p">On check-in at any Hilton Doubletree hotel, every single guest gets given a warm chocolate chip cookie.</mj-text>
+          <mj-text mj-class="p">75,000 are given out each day. 34% of guests tell their friends. That's 25,000 stories being told about Doubletree, every single day.</mj-text>
+          <mj-text mj-class="p">The cost of a cookie is $0.20.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl9.jpg" alt="more leads please"></mj-image>
+          <mj-button mj-class="bg4">6/ Currently missing</mj-button>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl10.jpg" alt="more leads please"></mj-image>
+          <mj-button mj-class="bg4">7/ How to get more leads from your site</mj-button>
+          <mj-text mj-class="p list list__top">1/ Offer something upfront</mj-text>
+          <mj-text mj-class="p list">2/ Use a real persons face and email</mj-text>
+          <mj-text mj-class="p list list__bottom">3/ Be specific with timings</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/birth4.png" alt="more leads please"></mj-image>
+          <mj-button mj-class="bg4">4/ The content marketing “Hall of Fame”</mj-button>
           <mj-text mj-class="p"><span class="emoji">🥉 </span> <span class="bold ">The LEGO Movie</span></mj-text>
           <mj-text mj-class="p">$400 million profit. Oscar nomination. LEGO sales up $3.6 billion.</mj-text>
           <mj-text mj-class="p inwardSpeech">Nobody watches ads. People watch what entertains them. Sometimes it's an ad — Howard Gossage</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl6.jpg" alt="more leads please"></mj-image>
           <mj-text mj-class="p"><span class="emoji">🥈 </span><span class="bold">Confessions of an Advertising Man</span></mj-text>
           <mj-text mj-class="p">In 1962 David Ogilvy had 19 clients. He took a long vacation to write about everything he’d learnt from 14 years in advertising.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Confessions of an Advertising Man</span> sold one million copies. In two decades Ogilvy's agency grew to <span class="italic">3000</span> clients and <span class="italic">267</span> offices worldwide.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl13.png" alt="more leads please"></mj-image>
+          <mj-text mj-class="p"><span class="italic">Confessions of an Advertising Man</span> sold one million copies. In two decades Ogilvy's agency grew to <span class="italic">3000</span> clients and <span class="italic">267</span> offices around the world.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl6.jpg" alt="more leads please"></mj-image>
           <mj-text mj-class="p"><span class="emoji">🥇 </span><span class="bold">The Michelin Guide</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Clermont-Ferrand, 1900</span>.</mj-text>
-          <mj-text mj-class="p">Andre and Edouard Michelin set out to write the “ultimate guide for new motorists” to help promote their tyre business.</mj-text>
-          <mj-text mj-class="p">Each year they improved the guide. By 1930 it was a regular on France’s bestseller list and Michelin became a household name. The brothers never had to worry about selling tyres again.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl14.jpg" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg3">3/ How to get more leads from your website</mj-button>
-          <mj-text mj-class="p list list__top">1/ Offer something upfront</mj-text>
-          <mj-text mj-class="p list">2/ Use a real persons face and email</mj-text>
-          <mj-text mj-class="p list list__bottom">3/ Be specific with timings</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/birth4.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg4">4/ A little bit of creativity</mj-button>
-          <mj-text mj-class="p">In 2008 an intern at Shreddies rotated the cereal 45 degrees, and said, <span class="italic">it's not a square, it’s a diamond.</span></mj-text>
-          <mj-text mj-class="p">Everyone laughed. “Diamond Shreddies” was born. Sales increased by 18% ($2M) the following quarter.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl3.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg5">5/ My approach to ads</mj-button>
-          <mj-text mj-class="p list list__top">1/ Quick experiments on different platforms</mj-text>
-          <mj-text mj-class="p list">2/ Embrace small losses</mj-text>
-          <mj-text mj-class="p list list__bottom">3/ When you find what works, hone it</mj-text>
-          <mj-text mj-class="p">This is how you find <span class="italic">the global maximum</span>. Otherwise, you can spend six months “optimising” one channel and go from “A” to “B”.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl11.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg1">6/ Make your marketing <span class="italic">REALER</span></mj-button>
-          <mj-text mj-class="p">Let's start with this image.</mj-text>
-          <mj-text mj-class="p">Same title. Same painting. Same subreddit. One gets <span class="italic">300</span> votes. The other gets <span class="italic">70,000</span>.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl7.jpg" alt="more leads please"></mj-image>
-          <mj-text mj-class="p">People love <span class="italic">REAL</span> stuff. But it's rare. Let me show you three examples:</mj-text>
-          <mj-text mj-class="p inward"> 1/ For Mother's Day last year Chanel asked employees' kids to draw products. <span class="italic">Result: 15% increase in sales.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl8.png" alt="more leads please"></mj-image>
-          <mj-text mj-class="p inward">2/ Back in June, I added some personality to my email popup. <span class="italic">Result: 110% more conversions.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/rs8.png" alt="more leads please"></mj-image>
-          <mj-text mj-class="p inward">3/ Most bloggers write like robots. <a class="underA subscribeColor" href="https://twitter.com/taskett" target="_blank">Madison</a> writes like she's chatting away to her pals. <span class="italic">Result: <a class="underA subscribeColor" href="https://news.ycombinator.com/item?id=23314485" target="_blank">#1 on Hacker News</a>.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl5.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg2">7/ The easiest way to stand out</mj-button>
-          <mj-text mj-class="p"><span class="italic">Through contrast</span>. Point at the status quo and pit yourself against it. Contrast burns your brand into the customer's mind.</mj-text>
-          <mj-text mj-class="p list list__top">• Hey pit themselves against mainstream email</mj-text>
-          <mj-text mj-class="p list">• Lemonde pit themselves against insurance stereotypes</mj-text>
-          <mj-text mj-class="p list list__bottom">• The <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=sdF5IsyOxU4" target="_blank">“I'm a Mac”</a> ads pit themselves against the PC</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl15.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg3">8/ How to create a growth loop</mj-button>
-          <mj-text mj-class="p">On check-in at any Hilton Doubletree hotel, every single guest gets given a warm chocolate chip cookie.</mj-text>
-          <mj-text mj-class="p">75,000 are given out each day. 34% of guests tell their friends. That's 25,000 stories being told about Doubletree, every single day.</mj-text>
-          <mj-text mj-class="p">The cost of a cookie is $0.20.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl9.jpg" alt="more leads please"></mj-image>
+          <mj-text mj-class="p">$400 million profit. Oscar nomination. LEGO sales up $3.6 billion.</mj-text>
+          <mj-text mj-class="p">Nobody watches ads. People watch what entertains them. Sometimes it's an ad — Howard Gossage</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl6.jpg" alt="more leads please"></mj-image>
           <mj-button mj-class="bg4">9/ How to make your higher tier package more inviting</mj-button>
           <mj-text mj-class="p list list__top">1) Create hierarchy</mj-text>
           <mj-text mj-class="p list">2) More compelling discount</mj-text>
           <mj-text mj-class="p list list__bottom">3) Use tier names to set expectations</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/cl2.png" alt="more leads please"></mj-image>
           <mj-button mj-class="bg5">10/ Lessons from “Shot on iPhone”</mj-button>
+          <mj-text mj-class="p">I must have seen 100 Samsung ads last year. I don’t remember any of them. Too much information.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Shot on iPhone</span> is just three words. It doesn't dwell on features. Instead, it brings to life <span class="italic"> the outcome</span>.</mj-text>
+          <mj-text mj-class="p">And it’s believable. <span class="italic">REAL</span> photos from regular people.</mj-text>
           <mj-text mj-class="p list list__top">• Sell outcomes, not features</mj-text>
           <mj-text mj-class="p list">• Narrow your focus</mj-text>
           <mj-text mj-class="p list list__bottom">• Nothing is more believable than real customers</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip24.jpg" alt="Sea of sameness brand positioning"></mj-image>
           <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p"><span class="italic">Phew! You made it. Thanks for reading. Here's a link to each email in case you'd like a recap.</span></mj-text>
-          <mj-text mj-class="p list list__top"><span class="italic">1/ <a class="underA subscribeColor" href="https://ckarchive.com/b/lmuehmh7q0ml" target="_blank">My copywriting handbook</a></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Alright. You made it. Thanks for reading. Here's a link to each email in case you'd like a recap.</span></mj-text>
+          <mj-text mj-class="p list list__top"><span class="italic">1/ <a class="underA subscribeColor" href="https://ckarchive.com/b/lmuehmh7q0ml" target="_blank">My copwriting handbook</a></span></mj-text>
           <mj-text mj-class="p list"><span class="italic">2/ <a class="underA subscribeColor" href="https://ckarchive.com/b/lmuehmh76538" target="_blank">How I promote my content</a></span></mj-text>
           <mj-text mj-class="p list"><span class="italic">3/ <a class="underA subscribeColor" href="https://ckarchive.com/b/p9ueh9hoxdkr" target="_blank">My guide to landing pages</a></span></mj-text>
           <mj-text mj-class="p list"><span class="italic">4/ <a class="underA subscribeColor" href="https://ckarchive.com/b/5quvh7h278lm" target="_blank">Five great cold emails</a></span></mj-text>
           <mj-text mj-class="p list list__bottom"><span class="italic">5/ <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">The last dance</a></span></mj-text>
-          <mj-text mj-class="p"><span class="italic">If you enjoyed the series, I'd really appreciate if you could take a second and tell a friend. Honestly. It makes such a big difference.</span></mj-text>
-          <mj-text mj-class="p inwardSpeech"><span class="italic">Forward this email. Recommend <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">the newsletter</a>. Share on <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">Twitter</a>, Slack, via owl, wherever! </span></mj-text>
-          <mj-text mj-class="p"><span class="italic">What next? Well, normally I email new tips twice a month. But at the minute I'm fully focused on <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">my course</a>. So I'm not quite sure when I'm back. When I am, it's going to be as good as ever.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=DB6PuG7udP0" target="_blank">Cheers</a> — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">If you enjoyed the series, I wonder if you could take a second and help me out. Honestly. It makes such a big difference.</span></mj-text>
+          <mj-text mj-class="p inwardSpeech"><span class="italic">Forward this email. Tell a pal to subscribe. Share on Twitter, LinkedIn, Slack, via owl, wherever! </span></mj-text>
+          <mj-text mj-class="p"><span class="italic"> And I really appreciate it. </span></mj-text>
+          <mj-text mj-class="p"><span class="italic">What next? Well, normally I email new tips twice a month. But atm... I'm fully focused on <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">my course</a>. So I'm not quite sure when I'm back. </span></mj-text>
+          <mj-text mj-class="p"><span class="italic">When I am, it's going to be better than ever.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=DB6PuG7udP0" target="_blank">See you then</a> — Harry</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">

@@ -8,7 +8,6 @@
       <mj-column padding="0" />
       <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
-      <mj-class name="buttonSection" background-color="#fff" padding="14px 0px 14px 0px" />
       <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
       <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
       <mj-class name="shareSection" padding="12px 20px" />
@@ -88,33 +87,26 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#059 - Some exciting news. Then 6 mini examples</mj-text>
           <mj-text mj-class="h3" align="center">(A different kind of email • 3 mins)</mj-text>
-          <mj-text mj-class="p"><span class="">Hey — Harry here. Hope you're all well. It's been a while. </span></mj-text>
+          <mj-text mj-class="p"><span class="">Hey — Harry here. Hope you're well.</span></mj-text>
+          <mj-text mj-class="p"><span class="">I think you missed the newsletter last week. So, I'm resending, in case you'd like to read it.</span></mj-text>
+          <mj-text mj-class="p"><span class="">If you're busy at the moment and would like to stop getting my marketing tips, no sweat — <a class="underA subscribeColor" href="{{unsubscribe_url}}">click here</a> to unsubscribe.</span></mj-text>
           <mj-button mj-class="bg4">Some exciting news</mj-button>
-          <mj-text mj-class="p">I’m working on a practical marketing course. I spent last month planning it and making the landing page.</mj-text>
+          <mj-text mj-class="p">I’m working on an all-action marketing course. I spent last month planning it and making the landing page.</mj-text>
           <mj-text mj-class="p"><a class="underA underB subscribeColor bold" href="https://marketingexamples.com/course" target="_blank">Check it out</a></mj-text>
           <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/cards/coursePoster1.png" href="https://marketingexamples.com/course" alt="Marketing Examples Course"></mj-image>
           <mj-text mj-class="p">Now, I'm proud of this newsletter. And want to keep it clean. So the course <span class="italic bold">has a separate email list</span>.</mj-text>
           <mj-text mj-class="p">If you'd like to know when it comes out (and get a 15% discount) subscribe from the <a class="underA subscribeColor" href="https://marketingexamples.com/course" target="_blank"> landing page</a>. If you’re lazy — <a class="underA subscribeColor" href="https://marketingexamples.com/course?added=true" trigger-id="2304936" target="_blank">click here</a> — I’ll add you.</mj-text>
-          <mj-button mj-class="bg1">Some more news</mj-button>
-          <mj-text mj-class="p">I know a lot of you missed 50 odd emails… So I spent Sunday putting together this email series:</mj-text>
-          <mj-text mj-class="p inwardSpeech">The 5 articles subscribers found most useful over the last 2 years</mj-text>
-          <mj-text mj-class="p">If you’d like them in your inbox <a class="underA subscribeColor" trigger-id="2297969" href="https://marketingexamples.com/best-of/subscribe" target="_blank">click here</a>. You'll get one each weekday.</mj-text>
           <mj-button mj-class="bg5">Alright. On with the examples. Enjoy!</mj-button>
           <mj-text mj-class="pbold">1/ Two underrated words in copywriting: “If you...”</mj-text>
           <mj-text mj-class="p list list__top">• Involves the reader</mj-text>
           <mj-text mj-class="p list">• Gives up control</mj-text>
           <mj-text mj-class="p list list__bottom">• Let's them persuade <span class="italic">themselves</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip25.png" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="pbold">2/ Don't complicate marketing</mj-text>
-          <mj-text mj-class="p">I've been chatting to the owner of a decorative concrete company.</mj-text>
-          <mj-text mj-class="p">Each month they pay <span class="italic">$600 / mo</span> for an ad in a local magazine that gets sent to 7000 wealthy homes in Georgia. Last 3 months they've made <span class="italic">$75,000</span> from these ads.</mj-text>
-          <mj-text mj-class="p">Don't complicate marketing. Fish where the fish are.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip21.jpg" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="pbold">3/ Cold emails should be simple</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip25.png" alt="Copywriting tips"></mj-image>
+          <mj-text mj-class="pbold">2/ Cold emails should be simple</mj-text>
           <mj-text mj-class="p">Let's say I built some podcast recoding software. This would be the email I'd send to get my first 10 customers.</mj-text>
           <mj-text mj-class="p">If you want to personalise: <span class="italic">PS — Get Dr Patel on again. Hilarious episode!</span></span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip22.png" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="pbold">4/ Lessons from Apple's “Shot on iPhone” ad</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip22.png" alt="Cold email templat"></mj-image>
+          <mj-text mj-class="pbold">3/ Lessons from Apple's “Shot on iPhone” ad</mj-text>
           <mj-text mj-class="p">I must have seen 100 Samsung ads last year. I don’t remember any of them. Too much boring information.</mj-text>
           <mj-text mj-class="p"><span class="italic">Shot on iPhone</span> is three words, no information. It doesn't dwell on features. Instead, it brings to life <span class="italic"> the outcome</span>.</mj-text>
           <mj-text mj-class="p">And it’s believable. <span class="italic">REAL</span> photos from regular people. If <span class="italic">Liz from Vacaville</span> can do it so can I.</mj-text>
@@ -122,9 +114,14 @@
           <mj-text mj-class="p list">• Narrow your focus</mj-text>
           <mj-text mj-class="p list list__bottom">• Nothing is more believable than real customers</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip24.jpg" alt="Sea of sameness brand positioning"></mj-image>
+          <mj-text mj-class="pbold">4/ Don't complicate marketing</mj-text>
+          <mj-text mj-class="p">I've been chatting to the owner of a decorative concrete company.</mj-text>
+          <mj-text mj-class="p">Each month they pay <span class="italic">$600 / mo</span> for an ad in a local magazine that gets sent to 7000 wealthy homes in Georgia. Last 3 months they've made <span class="italic">$75,000</span> from these ads.</mj-text>
+          <mj-text mj-class="p">Don't complicate marketing. Fish where the fish are.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip21.jpg" alt="Fish where the fish are"></mj-image>
           <mj-text mj-class="pbold">5/ If you want to grow on social media...</mj-text>
           <mj-text mj-class="p">Make yourself easy to sum up</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip23.png" alt="Sea of sameness brand positioning"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip23.png" alt="Grow on social"></mj-image>
           <mj-text mj-class="pbold">6/ Kapwing's a meme maker. I love their YouTube strategy</mj-text>
           <mj-text mj-class="p list list__top">• Finds memes about to go viral</mj-text>
           <mj-text mj-class="p list">• Uploads “how to make meme” videos to YT</mj-text>
@@ -132,11 +129,13 @@
           <mj-text mj-class="p list">• Watch Kapwing's tutorial</mj-text>
           <mj-text mj-class="p list list__bottom">• Which uses <span class="italic">their app</span> to make the meme</mj-text>
           <mj-text mj-class="p">420k views / month</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip20.jpg" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="p"><span class="italic">Alright. That's all folks. Sorry about the wait. Planning this course took longer than anticipated.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/tip20.jpg" alt="Kapwing's YouTube"></mj-image>
+          <mj-text mj-class="p"><span class="italic">That's all folks. Sorry about the wait. Planning this course took longer than anticipated.</span></mj-text>
           <mj-text mj-class="p"><span class="italic"> Let's end on a high. A couple of weeks ago we got voted the #1 marketing newsletter in a <a class="underA subscribeColor" href="https://ahrefs.com/blog/best-marketing-newsletters/" target="_blank">survey by Ahrefs</a>. Honestly, made my week.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">As a little thank you I'm giving away my 7 favourite marketing books. They're full of images and low on words. So don't worry about being overwhelmed. To enter reply with... your favourite movie. Haha. Can't think of anything else. Next week, I'll draw a name and post them :)</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Last thing. I've just changed email providers and am a bit nervous about open rates. If you enjoy the newsletter please take a sec to “Add to Contacts”, to make sure you keep getting it. Would really appreciate it.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">As a little thank you I'm giving away my 7 favourite marketing books. They're full of images and low on words. So don't worry about being overwhelmed. To enter reply with... your favourite movie. Next newsletter, I'll draw a name and post them :)</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Last thing. I know a lot of you missed 50 odd newsletters… So I spent Sunday putting together this email series:</span></mj-text>
+          <mj-text mj-class="p inwardSpeech"><span class="bold">The 5 articles subscribers found most useful over the last 2 years</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">If you’d like them in your inbox <a class="underA subscribeColor" trigger-id="2297969" href="https://marketingexamples.com/best-of/subscribe" target="_blank">click here</a>. You'll get one each weekday.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">I'll be back on the 10th March (my birthday) with some more tips.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
           <mj-text mj-class="pbold">Sponsored by Ahrefs</mj-text>
@@ -146,7 +145,7 @@
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
-          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
           <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
         </mj-column>
       </mj-section>

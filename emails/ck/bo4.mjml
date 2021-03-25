@@ -1,0 +1,152 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-button padding="24px 0px 24px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="pbold" font-size="17px" font-weight="600" padding="8px 0px 8px 0px" line-height="29px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="inwardSpeech" padding="12px 30px" font-style="italic" />
+      <mj-class name="nm" padding="8px 30px" />
+      <mj-class name="nmTop" padding="10px 30px 8px 30px" font-weight="600" line-height="29px" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .ss1 {
+        background-color: rgba(78, 204, 121, 0.3);
+      }
+
+      .ss2 {
+        background-color: rgba(251, 77, 123, 0.3);
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">Five great cold emails</mj-text>
+          <mj-text mj-class="h3" align="center">(“Best of” #004 • 3 mins)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey — Harry again.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Today, it's all about cold emails. We don't talk about them enough. How do you think most startups get their first customers?</mj-text>
+          <mj-text mj-class="p"><span class="italic">Down below are five I like. Take them, improve them, make them yours.</mj-text>
+          <mj-button mj-class="bg1">1/ Jason Cohen's “pay for your time” email</mj-button>
+          <mj-text mj-class="p"><span class="italic">February 2010</span>. Jason Cohen launched a new WordPress hosting service. Here's the email he sent to forty WordPress consultants.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/boi2.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">To quote Jason: <span class="italic">100% agreed to talk to me on the phone. Not one asked for any money. Thirty agreed to pay $50 / mo.</span></mj-text>
+          <mj-text mj-class="p">Today, WP Engine makes $100M / year.</mj-text>
+          <mj-button mj-class="bg2">2/ My “pain point” email</mj-button>
+          <mj-text mj-class="p">Let's say I'd built some podcast recording software. This would be the email I'd send to get my first ten customers. Nice and simple :)</mj-text>
+          <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/tip22.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">If you'd like to personalise: <span class="italic">PS - Get Dr Patel on again. Hilarious episode!</span></mj-text>
+          <mj-button mj-class="bg4">4/ Dave Gerhardt's one-liner</mj-button>
+          <mj-text mj-class="p">Imagine you're doing cold outreach for an exec coaching program. Here’s the email Dave would send the CEO.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/dave1a.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p">The goal is simple. <span class="italic bold">Get a reply</span>. A reply gives you something to work with. How'd you get a reply: <span class="italic">Keep it simple. Ask a question.</span></mj-text>
+          <mj-text mj-class="p">Much better than a hit and hope template asking for a “quick call”.</mj-text>
+          <mj-button mj-class="bg3">4/ My “advice” email</mj-button>
+          <mj-text mj-class="p">I used to work for a co-working startup. Here's the email I wrote to help get them their first customers.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/birth1.png" alt="don't try"></mj-image>
+          <mj-button mj-class="bg5">5/ David Perell's podcast invite email</mj-button>
+          <mj-text mj-class="p">The lesson — <span class="italic">Get specific</span>. It's the specifics that convince people.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/boi1.png" alt="don't try"></mj-image>
+          <mj-button mj-class="bg5">One last thing</mj-button>
+          <mj-text mj-class="p">Cold emails don't have to be work of arts. In fact, they don't even have to be clever.</mj-text>
+          <mj-text mj-class="p">You have twenty seconds with the prospect in an elevator. <span class="italic">What do you say?</span> That’s your email.</mj-text>
+          <mj-text mj-class="p inwardSpeech">Be specific. Be personal. Add value. Go away. — Sahil Lavingia</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">Alright. That's a wrap folks. Hope you found this useful.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Over and out — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">PS — If you're enjoying these feel free to connect on <a class="underA subscribeColor" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a></span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Previous case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+          <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="https://marketingexamples.com/best-of/unsubscribe" target="_blank" trigger-id="2301452">Unsubscribe from the “The best of” series</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe from all emails</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

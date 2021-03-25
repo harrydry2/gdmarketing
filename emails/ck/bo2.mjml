@@ -1,0 +1,165 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 20px" />
+      <mj-column padding="0" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-button padding="24px 0px 24px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="pbold" font-size="17px" font-weight="600" padding="8px 0px 8px 0px" line-height="29px" color="#4742DE" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center"="center" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="inwardSpeech" padding="12px 38px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underD {
+        color: #4742DE;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .underB {
+        color: #545454;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .longerButton {
+        width: 500px;
+        color: red;
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">“Best of” #002 - How I promote my content</mj-text>
+          <mj-text mj-class="p"><span class="italic">Hey — Harry again. </mj-text>
+          <mj-text mj-class="p"><span class="italic">I hope yesterday's copywriting handbook was useful. Today, I'm sharing a behind the scenes of how I promote each article.</mj-text>
+          <mj-text mj-class="p"><span class="italic">I wrote this one back in May 2020. My newsletter had just reached 20,000 subscribers. It was a good day. Since then, I've used the same formula to grow it past 50,000.</mj-text>
+          <mj-button mj-class="bg4">Here's my process</mj-button>
+          <mj-text mj-class="p">First, I found all the different places where marketers hang out.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul1.png" alt="Online marketing groups"></mj-image>
+          <mj-text mj-class="p">Then, I asked myself, “how can I add value <span class="bold">directly</span> to these platforms?</mj-text>
+          <mj-text mj-class="p">Adding value isn't dumping links. People are busy. Wow them on the platform they're <span class="bold">already</span> using. Or get ignored.</mj-text>
+          <mj-text mj-class="p">There's no “one-size-fits-all” formula. Twitter is not Facebook. I tailor my content to fit each platform.</mj-text>
+          <mj-button mj-class="bg2">The specifics</mj-button>
+          <mj-text mj-class="p">Twitter, Reddit and <span class="bold">Indie Hackers</span> are places where long-form sharing works.</mj-text>
+          <mj-text mj-class="p">My strategy is simple. I share my whole article. Then, I politely ask if the reader would like to join my email list. (<a class="underA subscribeColor" href="https://s3.amazonaws.com/harrydry/gdmarketing/paul.mp4" target="_blank">see video</a>)</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul8.png" alt="Drifts landing page"></mj-image>
+          <mj-text mj-class="p">Facebook and Slack groups are a different ball game. Attention spans are shorter. Self-promoters get lynched.</mj-text>
+          <mj-text mj-class="p">I break my articles into visual tips. Subtly branding each one. Upfront value. No hard sell.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul2.jpg" alt="How to share in Facebook groups"></mj-image>
+          <mj-text mj-class="p">Then, there's a bunch of sites where I share direct links: Hacker News, Designer News, Growth Hackers, Zest.is.</mj-text>
+          <mj-text mj-class="p">Same principle applies. <span class="italic">Tailor content to fit the platform</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul3.png" alt="Hacker News Vs. Growth Hackers"></mj-image>
+          <mj-text mj-class="p">The whole process takes me 8 hours. 4 hours posting. 4 hours replying.</mj-text>
+          <mj-button mj-class="bg3">The snowball effect</mj-button>
+          <mj-text mj-class="p">How <span class="italic">other people</span> share your content is just as important as how you share it.</mj-text>
+          <mj-text mj-class="p">You don't want people sharing <span class="italic">different things</span> on <span class="italic">different platforms</span>. You want everyone sharing the <span class="italic">same thing</span> on the <span class="italic">same platform</span>.</mj-text>
+          <mj-text mj-class="p">One share on 50 platforms gets ignored. 50 retweets turn into 500.</mj-text>
+          <mj-text mj-class="p">I direct everyone who likes my article to <span class="italic">the same</span> Twitter thread.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul4.png" alt="Twitter compounds growth"></mj-image>
+          <mj-button mj-class="bg5">Putting it all together</mj-button>
+          <mj-text mj-class="p list list__top">1) Create value on other platforms.</mj-text>
+          <mj-text mj-class="p list">2) Transfer <span class="italic">this value</span> to your own platform.</mj-text>
+          <mj-text mj-class="p list list__bottom">3) Store value with your email list.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul5.png" alt="How to promote content online"></mj-image>
+          <mj-text mj-class="p">Email subscribers are gold bars in the bank.</mj-text>
+          <mj-text mj-class="p">New media rise and fall. Email isn’t going anywhere. It’s been around longer. It will survive longer. <span class="italic">Medium</span> can't paywall it. It's the best place to build an audience online.</mj-text>
+          <mj-text mj-class="p">Here are the results of a year sharing content online.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/paul6.png" alt="Marketing Examples email list growth"></mj-image>
+          <mj-text mj-class="p">It's not rocket science:</mj-text>
+          <mj-text mj-class="p">The platforms where I add the most value <span class="bold">upfront</span> are the platforms that generate the most new subscribers.</mj-text>
+          <mj-text mj-class="p inwardSpeech">People are busy. Don't redirect them. Wow them.</mj-text>
+          <mj-button mj-class="bg1">One last thing</mj-button>
+          <mj-text mj-class="p">The best self-promoters aren't self-promoters. They take the time to become a <span class="bold">genuine</span> member of each community.</mj-text>
+          <mj-text mj-class="p">Share others' content. Write detailed comments. Make friends.</mj-text>
+          <mj-text mj-class="p">Give more than you take. It's a positive-sum game.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie11.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p"><span class="italic">That's all folks. Any questions, feel free to reply. I'm a little behind on email atm, but will get back to you.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">I'll be back tomorrow with something completely different. SEO time.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Over and out — <a class="underA subscribeColor" href="https://www.linkedin.com/in/harrydry/" target="_blank">Harry</a></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">PS — If you enjoyed this please do forward to a pal who might enjoy a guide to sharing content. I really think you can apply this to most niches.</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">In case you didn't know — I'm currently working on an all-action course, coming in August. If you'd like to take a look — <a class="underA" href="https://marketingexamples.com/course" target="blank">click here</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome aboard. Previous case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+          <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="https://marketingexamples.com/best-of/unsubscribe" target="_blank" trigger-id="2301452">Unsubscribe from the “The best of” series</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe from all emails</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

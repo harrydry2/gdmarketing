@@ -7,7 +7,7 @@
       <mj-wrapper background-color="#fff" padding="0 20px" />
       <mj-column padding="0" />
       <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
-      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-button padding="24px 0px 24px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
       <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
       <mj-class name="shareSection" padding="12px 20px" />
       <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
@@ -30,7 +30,6 @@
       <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
       <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
       <mj-class name="img600" width="600px" fluid-on-mobile="true" />
-      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
     </mj-attributes>
     <mj-style inline="inline">
       .underA {
@@ -87,11 +86,11 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#001 - My copywriting handbook</mj-text>
+          <mj-text mj-class="h1" align="center">“Best of” #001 - My copywriting handbook</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey — Harry here. </mj-text>
-          <mj-text mj-class="p"><span class="italic">Over the next five working days I'm sending the five case studies subscribers found most useful over the last two years.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Today, you're getting <span class="bold">my crash course in copywriting</span>. Enjoy!</mj-text>
-          <mj-text mj-class="p"><span class="italic">PS: This is a long. Might be one to bookmark and come back to. If you'd like to opt-out of the just <a class="underA subscribeColor" trigger-id="2301452" target="_blank">click here</a> </mj-text>
+          <mj-text mj-class="p"><span class="italic">Over the next five days I'm sending the five case studies subscribers found most useful over the last two years.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Today, you're getting <span class="bold">my crash course in copywriting</span>. It's long. It's epic. Hope you enjoy it.</mj-text>
+          <mj-text mj-class="p"><span class="italic">PS — Sorry for the slight delay. I forgot to press publish!</mj-text>
           <mj-button mj-class="bg4">Let's start with 7 quick tips</mj-button>
           <mj-text mj-class="pbold">1/ No one cares what you can do</mj-text>
           <mj-text mj-class="p">Everyone cares what you can do <span class="italic">for them</span>.</mj-text>
@@ -108,17 +107,19 @@
           <mj-text mj-class="p">Keep it short.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cttt21.png" alt="Short first line"></mj-image>
           <mj-text mj-class="pbold">5/ Write the title only you can</mj-text>
+          <mj-text mj-class="p"><span class="italic">What can you say about your product that no-one else in the world can?</span></mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/cttt20.png" alt="Volkswagon ads"></mj-image>
-          <mj-text mj-class="pbold">6/ Kill adjectives. Kill adverbs.</mj-text>
-          <mj-text mj-class="p">The best brands feel <span class="italic">REAL</span>.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt11a.png" alt="Andie's email"></mj-image>
+          <mj-text mj-class="pbold">6/ Speak with conviction</mj-text>
+          <mj-text mj-class="p list list__top"> • Don't say “We help” say “It's how”</mj-text>
+          <mj-text mj-class="p list list__bottom"> • Don't say “alternative” say “replaces”</mj-text>
+          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt23.png" alt="Andie's email"></mj-image>
           <mj-text mj-class="pbold">7/ More periods, fewer commas</mj-text>
           <mj-text mj-class="p">Periods mean short sentences. We like short sentences.</mj-text>
-          <mj-text mj-class="p">Commas mean long, painful sentences, like this one, which New Yorker writers think are clever, but real people find torturous, because they wind on and on without actually saying anything</mj-text>
-          <mj-text mj-class="p"><span class="italic">h/t David Perell</span></mj-text>
+          <mj-text mj-class="p">Commas mean long, painful sentences, like this one, which New Yorker writers think are clever, but real people find torturous, because they wind on and on without actually saying anything.</mj-text>
+          <mj-text mj-class="p"><span class="italic"><a class="underA" href="https://twitter.com/david_perell/status/1250149037837176834" target="blank">h/t David Perell</a></span></mj-text>
           <mj-button mj-class="bg4">Now let's rewrite some real landing pages</mj-button>
-          <mj-text mj-class="p">Back in October, I asked people to “submit your company landing page” and I’d rewrite it. Well we did!</mj-text>
-          <mj-text mj-class="p">I worked on these with <a class="underA">Annie Maguire</a> — one of the best copywriters in the business.</mj-text>
+          <mj-text mj-class="p">Back in October, I asked people to “submit your company landing page” and I’d rewrite it. Well we did it!</mj-text>
+          <mj-text mj-class="p">I worked on these with <a class="underA" href="https://www.linkedin.com/in/maguireannie/" target="blank">Annie Maguire</a> — one of the best copywriters in the business.</mj-text>
           <mj-text mj-class="pbold">1/ Everydae</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie8a.png" alt="Banquist landing page copywriting"></mj-image>
           <mj-text mj-class="p">Put yourself in the customer's shoes. Kids don't care about “the next generation of SAT prep”. They care about “Acing the SAT”.</mj-text>
@@ -141,8 +142,8 @@
           <mj-text mj-class="p">This one had promise. But the language is too vague. It doesn't feel REAL.</mj-text>
           <mj-text mj-class="p">We replaced all their <span class="italic">vague</span> words with <span class="italic">specific</span> ones. You can't bullshit specifics.</mj-text>
           <mj-button mj-class="bg2">And finally...</mj-button>
-          <mj-text mj-class="p">I love conversational copywriting — <span class="italic">Writing how you talk. No sales megaphone. No business speak.</span></mj-text>
-          <mj-text mj-class="p">But it's easier said than done. Here's 7 tips to help you out.</mj-text>
+          <mj-text mj-class="p">My favourite type of copy is conversational copy — <span class="italic">Writing how you talk. No sales megaphone. No business speak.</span></mj-text>
+          <mj-text mj-class="p">But that's easier said than done. So here's 7 tips to help you out.</mj-text>
           <mj-text mj-class="pbold">1/ Don't write AT the reader</mj-text>
           <mj-text mj-class="p">Involve the reader in your copy.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con6.jpg" alt="reader time"></mj-image>
@@ -162,13 +163,17 @@
           <mj-text mj-class="p">You're not impressing anyone.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con4.png" alt="impressing peopl"></mj-image>
           <mj-text mj-class="pbold">7/ Don’t try too hard</mj-text>
-          <mj-text mj-class="p">Customers can see through fake writing.</mj-text>
+          <mj-text mj-class="p">Customers see through it.</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/con13.png" alt="don't try"></mj-image>
+          <mj-text mj-class="p"><span class="italic">You made it! This was a long one. I'll be back tomorrow with something much shorter on how to promote content online.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">If you'd like to opt-out of the series, no sweat. Just <a class="underA subscribeColor" trigger-id="2301452" href="https://marketingexamples.com/best-of/unsubscribe" target="_blank">click here</a></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Over and out — <a class="underA subscribeColor" href="https://www.linkedin.com/in/harrydry/" target="_blank">Harry</a></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">PS — If you found this useful (and you're feeling generous) please do forward to a pal who might like a copywriting crash course.</span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">I won't lie. I've been working on this for ages! If you're feeling generous please show some love to <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1258052549246140416" target="_blank">the thread</a> on Twitter.</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Previous case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -176,7 +181,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Also. I challenge you to forward this to a friend. Would really appreciate it. Anyone new can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Last thing — I'm working on an all-action course, coming in August. If you'd like to take a look and see what's cooking — <a class="underA" href="https://marketingexamples.com/course" target="blank">click here</a>.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">
@@ -185,8 +190,9 @@
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
-          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for the Marketing Examples mailing list. | <a class="unsub" href="https://marketingexamples.com/best-of/unsubscribe" trigger-id="2301452">Unsubscribe from the “The best of Marketing Examples”</a></mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{UnsubscribeURL}}">Unsubscribe from all emails</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+          <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="https://marketingexamples.com/best-of/unsubscribe" target="_blank" trigger-id="2301452">Unsubscribe from the “The best of” series</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe from all emails</a></mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

@@ -11,6 +11,7 @@ function validateEmail(email) {
 }
 
 function submitMail(button, red, input, num) {
+  console.log(window.SL, "is this a thing?");
   var numm = num;
   button.on("click", async () => {
     if (
@@ -21,6 +22,10 @@ function submitMail(button, red, input, num) {
     }
     red.style.display = "block";
     if (validateEmail(input.value)) {
+      if (window.SL) {
+        console.log("YAHOOOOOOO");
+        window.SL.trackSubscriber(input.value);
+      }
       window.localStorage.setItem("onEmailList", "true");
       if (numm === 7) {
         var { data } = await axios.post("/api/subscribeCourse", {

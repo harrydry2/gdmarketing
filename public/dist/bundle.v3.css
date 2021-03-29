@@ -1026,6 +1026,11 @@ p {
     @media screen and (max-width: 376px) {
       .newmail__input {
         padding: 1rem 1.8rem 1rem 1.8rem; } }
+    .newmail__input-red {
+      display: none;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 2.2rem; }
     .newmail__input-input {
       height: 5.5rem;
       display: flex;

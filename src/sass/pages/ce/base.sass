@@ -1,0 +1,240 @@
+.ceg
+  display: flex
+  justify-content: space-between
+
+.cegl
+  height: 100%
+  width: 25rem
+  background-color: $cegb
+  height: 100vh
+  width: 25rem
+  position: fixed
+  @media (max-width: 930px)
+    display: none
+  img
+    padding: 3rem 0 0 0
+    width: 15.6rem
+    transform: translateX(-10px)
+    margin: 0 auto
+    display: flex
+  &__filter
+    width: 23rem
+    background-color: #ffffff
+    margin-top: 4rem
+    display: flex
+    flex-direction: column
+    padding: 1.8rem 0 1.4rem 0
+    position: relative
+    &-title
+      position: absolute
+      left: 0
+      top: 0
+      transform: translateY(-50%)
+      padding: .7rem 1rem
+      display: inline-block
+      margin: 0 auto
+      background-color: #000000
+    &-tab
+      padding: 0.7rem 1rem
+      display: inline-block
+      margin: 0 auto
+      font-size: 1.5rem
+      font-family: Muggsy
+      text-transform: uppercase
+      margin-top: 1.1rem
+      border: 2px solid $cegb
+      cursor: pointer
+      background-size: 400% 400%
+      transition: all 0.4s
+      color: $cegblack
+      // animation: TransitioningBackground 5s ease infinite
+
+
+.cegtagSVG
+  transform: translateY(1px)
+
+.cegtagSVG1
+  transform: translateY(2px)
+
+.cegrid
+  display: grid
+  width: calc(100% - 25rem)
+  margin-left: 25rem
+  padding: 1.8rem
+  grid-gap: 1.8rem
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr))
+  grid-auto-rows: 1rem
+  grid-auto-flow: row
+  @media (max-width: 930px)
+    margin-left: 0rem
+    width: calc(100%)
+    padding: 1.4rem
+    grid-gap: 1.4rem
+
+.cegi
+  position: relative
+  cursor: pointer
+  overflow: hidden
+  &__notyetloaded
+    display: none
+  &:hover
+    .cegi__left
+      transform: translateX(0rem)
+      transition: all 0.4s ease
+      // opacity: 1
+    .cegi__right
+      transform: translateX(0rem)
+      transition: all 0.4s ease
+      // opacity: 1
+    .cegi__center
+      transition: all 0.4s ease
+      opacity: 1
+    img
+      // border: 4px solid hsla(156, 50, 59, 1)
+      // border: 4px solid hsla(0,0,0,1)
+      filter: blur(2px)
+      // filter: grayscale(100%)
+      transition: all 0.4s ease
+  &__left
+    position: absolute
+    bottom: 0
+    left: 0
+    transform: translateX(-100%)
+    background: $cegb
+    padding: 1rem 1rem .7rem .7rem
+    border-top-right-radius: 100px
+    transition: all 0.4s ease
+    z-index: 3
+  &__right
+    background: $cegb
+    right: 0
+    bottom: 0
+    position: absolute
+    padding: 0.6rem 0.6rem .6rem .6rem
+    border-top-left-radius: 20px
+    display: flex
+    transform: translateX(100%)
+    transition: all 0.4s ease
+    z-index: 3
+    &-pill
+      padding: 0.6rem 0.8rem
+      display: flex
+      justify-content: center
+      font-size: 1.2rem
+      font-weight: 500
+      border-radius: 20px
+      font-family: Muggsy
+      text-transform: uppercase
+      &:not(:last-child)
+        margin-right: 0.4rem
+  &__center
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    width: 100%
+    height: 100%
+    opacity: 0
+    padding: 2rem 3rem
+    background-color: hsla(0,0,0,.8)
+    font-style: italic
+    font-size: 1.8rem
+    color: white
+    border-radius: 2rem
+    transition: all 0.4s ease
+    z-index: 3
+    border: 4px solid $cegb
+  img
+    border-radius: 2rem
+    border: 4px solid #fafafa
+    width: 100%
+    height: 100%
+    object-fit: fill
+    // grid-row-end: span 10
+    transition: all 0.4s ease
+
+@keyframes TransitioningBackground
+  0%
+    background-position: 1% 0%
+  50%
+    background-position: 99% 100%
+  100%
+    background-position: 1% 0%
+
+.cegi-shade1, .cegi-shade6, .cegi-shade11
+  // background-image: linear-gradient(270deg, hsla(156, 50, 59, 0.20), hsla(156, 50, 59, 0.50))
+  background: $ceg1o
+  &:hover
+    background: $ceg1h
+    transition: all 0.4s
+
+.cegi-shade2, .cegi-shade7
+  background: $ceg2o
+  &:hover
+    background: $ceg2h
+    transition: all 0.4s
+
+.cegi-shade3, .cegi-shade8
+  background: $ceg3o
+  &:hover
+    background: $ceg3h
+    transition: all 0.4s
+
+
+.cegi-shade4, .cegi-shade9
+  background: $ceg4o
+  &:hover
+    background: $ceg4h
+    transition: all 0.4s
+
+
+.cegi-shade5, .cegi-shade10
+  background: $ceg5o
+  &:hover
+    background: $ceg5h
+    transition: all 0.4s
+
+.cegfilters__active1
+  .cegi-shade1
+    border: 2px solid $ceg1
+
+
+.cegfilters__active2
+  .cegi-shade2
+    border: 2px solid $ceg2
+
+.cegfilters__active3
+  .cegi-shade3
+    border: 2px solid $ceg3
+
+.cegfilters__active4
+  .cegi-shade4
+    border: 2px solid $ceg4
+
+.cegfilters__active5
+  .cegi-shade1
+    border: 2px solid $ceg1
+
+.cegfilters__active6
+  .cegi-shade2
+    border: 2px solid $ceg2
+
+.cegfilters__active7
+  .cegi-shade3
+    border: 2px solid $ceg3
+
+.cegfilters__active8
+  .cegi-shade4
+    border: 2px solid $ceg4
+
+.cegfilters__active9
+  .cegi-shade5
+    border: 2px solid $ceg5
+
+.cegfilters__active10
+  .cegi-shade6
+    border: 2px solid $ceg1
+
+.cegfilters__active11
+  .cegi-shade7
+    border: 2px solid $ceg2

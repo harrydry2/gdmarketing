@@ -15,6 +15,7 @@ mongoose.connect(
 require('./models/Cards.js');
 require('./models/Gifs.js');
 require('./models/GifsMob.js');
+require('./models/Ceg.js');
 require('./models/EmailsNum.js');
 
 const fs = require('fs');

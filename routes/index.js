@@ -12,6 +12,7 @@ router.get('/gifs', mainController.gifs);
 // router.get('/podcast', mainController.podcast);
 router.get('/handbook/twitter-inspiration', mainController.twitterhandbook);
 router.get('/course', mainController.course);
+router.get('/copywriting-examples', mainController.copywritingexamples);
 router.get('/sitemap.xml', mainController.xml);
 router.get('/rss', mainController.rss);
 // tes
@@ -21,12 +22,14 @@ router.get('/best-of/unsubscribe', mainController.bestofunsub);
 // api
 
 router.get('/api/lazy/:page/:filterParam', mainController.lazy);
+router.get('/api/lazyceg/:page/:filterParam', mainController.lazyCeg);
 router.get('/api/lazyGif/:page', mainController.lazyGif);
 router.get('/api/getcontent', mainController.getcontent);
 router.get('/api/getpCard', mainController.getpCard);
 router.get('/api/postideas', mainController.postideas);
 router.get('/api/postgifs', mainController.postgifs);
 router.get('/api/postgifsMob', mainController.postgifsMob);
+router.get('/api/postceg', mainController.postceg);
 router.post('/api/subscribe', emailController2.subscribe);
 router.post('/api/subscribeCourse', emailController2.subscribeCourse);
 

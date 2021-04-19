@@ -1,0 +1,28 @@
+extends base
+
+include ./ceg
+
+block content
+  .ceg
+    .cegl
+      img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
+      .cegl__filter
+        .cegl__filter-title!=icon("ceg1")
+        .cegl__filter-tab.cegi-shade1(data-num='1') Header
+        .cegl__filter-tab.cegi-shade2(data-num='2') Features + Benefits
+        .cegl__filter-tab.cegi-shade3(data-num='3') Social Proof
+        .cegl__filter-tab.cegi-shade4(data-num='4') Ad
+      .cegl__filter
+        .cegl__filter-title!=icon("ceg2")
+        .cegl__filter-tab.cegi-shade1(data-num='5') Simple
+        .cegl__filter-tab.cegi-shade2(data-num='6') Specific
+        .cegl__filter-tab.cegi-shade3(data-num='7') Conflict
+        .cegl__filter-tab.cegi-shade4(data-num='8') Conversational
+        .cegl__filter-tab.cegi-shade5(data-num='9') Creative
+        .cegl__filter-tab.cegi-shade6(data-num='10') Outcomes
+        .cegl__filter-tab.cegi-shade7(data-num='11') Beliefs
+      .cegl__filter
+        .cegl__filter-title!=icon("ceg3")
+    .cegrid
+      //- each ceg in cegs
+      //-   +ceg(ceg)

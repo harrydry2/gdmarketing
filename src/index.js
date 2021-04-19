@@ -1,8 +1,10 @@
 import './sass/styles.sass';
 import axios from 'axios';
+import debounce from 'lodash.debounce';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { resize, copyGif, gifStart } from './modules/gifs';
+import { resizeCegAll, cegLoad, cegLoadScroll, cegFilter } from './modules/ceg';
 import { thScroll, courseScroll } from './modules/thScroll';
 // import { thScroll, courseScroll } from './modules/thScroll1';
 
@@ -18,8 +20,10 @@ import {
 import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
 
 window.page = 2;
+window.cegpage = 1;
 window.busy = false;
 window.gifbusy = false;
+window.cegbusy = false;
 
 // 1) Deals with the filter across screens
 
@@ -33,11 +37,11 @@ if (window.innerWidth < 768) {
   filterArray = array.slice(0, arrayLength / 2);
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
   lazyLoad(filterArray);
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
   console.log('books');
   filterArray.forEach(filterItem => {
     filterItem.on('click', async e => {
@@ -69,7 +73,7 @@ if (!$('.gif') && !$('.th') && !$('.cc')) {
   });
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
   const hmButton = $('.hm__button');
   const hmFilters = $('.hm__filters');
   hmButton.on('click', () => {
@@ -86,7 +90,7 @@ if (!$('.gif') && !$('.th') && !$('.cc')) {
 }
 
 // mailPopup
-if (!$('.gif') && !$('.th') && !$('.cc')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
   if (!window.location.href.includes('utm_source=newsletter')) {
     mailPopup();
   } else {
@@ -109,7 +113,7 @@ if ($('.postNoScroll')) {
 }
 
 // popup from homepage (also if close post page)
-if (!$('.gif') && !$('.th') && !$('.cc')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
   postPopup(Array.from($$('.card')));
 }
 
@@ -142,4 +146,12 @@ if ($('.cc')) {
     tc.style.display = 'grid';
     tc.style.height = 'auto';
   }, 2000);
+}
+
+if ($('.ceg')) {
+  // window.addEventListener('load', resizeCEG);
+  cegLoad(false);
+  cegLoadScroll();
+  cegFilter();
+  window.on('resize', debounce(async () => resizeCegAll(), 100));
 }

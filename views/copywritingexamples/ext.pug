@@ -7,8 +7,11 @@ block content
     //- .cegm
     .cegm__top
       img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
-      .cegm__top-menu!=icon("cegmenu")
-      //- .cegm__menu!=icon("cegfilter")
+      .cegm__top-right
+        .cegm__top-right-minus!=icon("cegfilterminus")
+        .cegm__top-right-plus.cegmtr__active!=icon("cegfilterplus")
+        .cegm__top-right-menu!=icon("cegmenu")
+        //- .cegm__menu!=icon("cegfilter")
     .cegm__bottom
       .cegm__bottom-inner
         .cegm__bottom-inner-title!=icon("ceg1m")

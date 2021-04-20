@@ -4,7 +4,13 @@ import debounce from 'lodash.debounce';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
 import { resize, copyGif, gifStart } from './modules/gifs';
-import { resizeCegAll, cegLoad, cegLoadScroll, cegFilter } from './modules/ceg';
+import {
+  resizeCegAll,
+  cegLoad,
+  cegLoadScroll,
+  cegFilter,
+  cegMobileFilter,
+} from './modules/ceg';
 import { thScroll, courseScroll } from './modules/thScroll';
 // import { thScroll, courseScroll } from './modules/thScroll1';
 
@@ -153,5 +159,8 @@ if ($('.ceg')) {
   cegLoad(false);
   cegLoadScroll();
   cegFilter();
+  if (window.innerWidth < 930) {
+    cegMobileFilter();
+  }
   window.on('resize', debounce(async () => resizeCegAll(), 100));
 }

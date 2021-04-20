@@ -25,6 +25,22 @@ function getFilterParam() {
   return activeFilters.length === 0 ? 'all' : activeFilters;
 }
 
+export function cegMobileFilter() {
+  const minus = $('.cegm__top-right-minus');
+  const plus = $('.cegm__top-right-plus');
+  const bottomMenu = $('.cegm__bottom');
+  minus.on('click', e => {
+    bottomMenu.classList.toggle('cegmtr__active');
+    minus.classList.toggle('cegmtr__active');
+    plus.classList.toggle('cegmtr__active');
+  });
+  plus.on('click', e => {
+    bottomMenu.classList.toggle('cegmtr__active');
+    minus.classList.toggle('cegmtr__active');
+    plus.classList.toggle('cegmtr__active');
+  });
+}
+
 export function resizeCegLoad(parents) {
   const grid = document.querySelector('.cegrid');
   grid.style.gridAutoRows = 'auto';

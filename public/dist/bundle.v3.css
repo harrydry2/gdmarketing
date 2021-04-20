@@ -2175,10 +2175,26 @@ h2.slab {
     border-bottom: 2px solid #fafafa;
     padding: 1.8rem;
     align-items: center;
-    display: flex; }
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 101; }
     .cegm__top img {
       height: 2.9rem;
       transform: translateY(1px); }
+    .cegm__top-right {
+      display: flex;
+      align-items: center; }
+      .cegm__top-right-menu {
+        margin-left: 1rem; }
+      .cegm__top-right-plus {
+        margin-left: 1rem;
+        display: none; }
+      .cegm__top-right-minus {
+        margin-left: 1rem;
+        display: none; }
   .cegm__notice {
     display: none;
     text-align: center;
@@ -2186,17 +2202,18 @@ h2.slab {
     font-style: italic;
     color: #212121;
     font-size: 1.6rem;
-    margin-top: 1.8rem; }
+    margin-top: 8.4rem; }
     @media (max-width: 930px) {
       .cegm__notice {
         display: block; } }
   .cegm__bottom {
     padding: 1rem 0;
     border-bottom: 2px solid #fafafa;
-    position: sticky;
-    top: 0;
     background-color: #fafafa;
-    z-index: 3; }
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    display: none; }
     .cegm__bottom-inner {
       padding: 0.35rem 0rem 0.35rem 0rem;
       display: flex;
@@ -2231,6 +2248,9 @@ h2.slab {
           margin-left: 0.7rem; }
         .cegm__bottom-slide-tab:last-child {
           margin-right: 0.7rem; }
+
+.cegmtr__active {
+  display: block; }
 
 .cegl {
   height: 100%;
@@ -2282,7 +2302,7 @@ h2.slab {
   width: 3.5rem; }
   @media (max-width: 930px) {
     .cegtagSVG1 {
-      width: 2.7rem;
+      width: 2.9rem;
       transform: translateY(0.5px); } }
 
 .cegtagSVG2 {
@@ -2290,7 +2310,7 @@ h2.slab {
   width: 4.2rem; }
   @media (max-width: 930px) {
     .cegtagSVG2 {
-      width: 3rem;
+      width: 3.2rem;
       transform: translateY(0.5px); } }
 
 .cegrid {

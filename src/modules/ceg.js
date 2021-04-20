@@ -16,7 +16,7 @@ function getFilterParam() {
   // const cegFilterArray = Array.from($$(".cegl__filter-tab"));
   const cegFilterArray =
     window.innerWidth < 930
-      ? Array.from($$('.cegm__bottom-slide-tab'))
+      ? Array.from($$('.cegm__bottom-tab'))
       : Array.from($$('.cegl__filter-tab'));
   const activeFilters = cegFilterArray
     .filter(filter => filter.classList.contains('cegfilter__active'))
@@ -28,16 +28,23 @@ function getFilterParam() {
 export function cegMobileFilter() {
   const minus = $('.cegm__top-right-minus');
   const plus = $('.cegm__top-right-plus');
+  const cross = $('.cegm__bottom-cross');
   const bottomMenu = $('.cegm__bottom');
-  minus.on('click', e => {
-    bottomMenu.classList.toggle('cegmtr__active');
-    minus.classList.toggle('cegmtr__active');
-    plus.classList.toggle('cegmtr__active');
+  const clickies = [plus, minus, cross];
+  clickies.forEach(clicki => {
+    clicki.on('click', e => {
+      bottomMenu.classList.toggle('cegmtr__active');
+      minus.classList.toggle('cegmtr__active');
+      plus.classList.toggle('cegmtr__active');
+    });
   });
-  plus.on('click', e => {
-    bottomMenu.classList.toggle('cegmtr__active');
-    minus.classList.toggle('cegmtr__active');
-    plus.classList.toggle('cegmtr__active');
+}
+
+export function cegimobtap(parents) {
+  parents.forEach(parent => {
+    parent.on('click', e => {
+      parent.classList.toggle('cegimobtap');
+    });
   });
 }
 
@@ -94,6 +101,9 @@ export async function cegLoad(filter) {
       imgloaded.forEach(img => {
         img.src = img.dataset.src;
       });
+      if (window.innerWidth < 930) {
+        cegimobtap(parentsloaded);
+      }
     });
     if (data.length) window.cegpage += 1;
   } catch (e) {
@@ -105,7 +115,7 @@ export function cegFilter() {
   // const cegfilterArray = Array.from($$('.cegl__filter-tab'));
   const cegFilterArray =
     window.innerWidth < 930
-      ? Array.from($$('.cegm__bottom-slide-tab'))
+      ? Array.from($$('.cegm__bottom-tab'))
       : Array.from($$('.cegl__filter-tab'));
   cegFilterArray.forEach(filterItem => {
     filterItem.on('click', async e => {

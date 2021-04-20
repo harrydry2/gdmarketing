@@ -1,6 +1,78 @@
 .ceg
   display: flex
   justify-content: space-between
+  @media (max-width: 930px)
+    display: block
+
+.cegm
+  display: none
+  @media (max-width: 930px)
+    display: block
+    position: fixed
+    width: 100%
+    top: 0
+    background-color: #ffffff
+    z-index: 100
+  &__top
+    justify-content: space-between
+    border-bottom: 2px solid $cegb
+    padding: 1.8rem
+    align-items: center
+    display: flex
+    img
+      height: 2.9rem
+      transform: translateY(1px)
+  &__notice
+    display: none
+    text-align: center
+    font-weight: 500
+    font-style: italic
+    color: $cegblack
+    font-size: 1.6rem
+    margin-top: 1.8rem
+    @media (max-width: 930px)
+      display: block
+  &__bottom
+    padding: 1rem 0
+    border-bottom: 2px solid $cegb
+    position: sticky
+    top: 0
+    background-color: #fafafa
+    z-index: 3
+    &-inner
+      padding: 0.35rem 0rem 0.35rem 0rem
+      display: flex
+      align-items: center
+      &-title
+        height: 2.1rem
+        padding: 0rem .7rem 0rem .5rem
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        border-top-right-radius: 2rem
+        border-bottom-right-radius: 2rem
+        margin-right: 0.7rem
+        background-color: #fafafa
+        border: 1px solid $cegblack
+        border-left-color: rgba(0,0,0,0)
+    &-slide
+      overflow: auto
+      white-space: nowrap
+      &::-webkit-scrollbar
+        display: none
+      &-tab
+        padding: 0.6rem .9rem
+        display: inline-block
+        font-size: 1.45rem
+        font-family: Muggsy
+        text-transform: uppercase
+        border: 2px solid $cegb
+        cursor: pointer
+        color: $cegblack
+        &:not(:first-child)
+          margin-left: 0.7rem
+        &:last-child
+          margin-right: 0.7rem
 
 .cegl
   height: 100%
@@ -33,7 +105,7 @@
       padding: .7rem 1rem
       display: inline-block
       margin: 0 auto
-      background-color: #000000
+      background-color: $cegblack
     &-tab
       padding: 0.7rem 1rem
       display: inline-block
@@ -44,17 +116,21 @@
       margin-top: 1.1rem
       border: 2px solid $cegb
       cursor: pointer
-      background-size: 400% 400%
-      transition: all 0.4s
       color: $cegblack
-      // animation: TransitioningBackground 5s ease infinite
-
-
-.cegtagSVG
-  transform: translateY(1px)
 
 .cegtagSVG1
   transform: translateY(2px)
+  width: 3.5rem
+  @media (max-width: 930px)
+    width: 2.7rem
+    transform: translateY(.5px)
+
+.cegtagSVG2
+  transform: translateY(1px)
+  width: 4.2rem
+  @media (max-width: 930px)
+    width: 3rem
+    transform: translateY(.5px)
 
 .cegrid
   display: grid
@@ -167,7 +243,6 @@
   &:hover
     background: $ceg1h
     transition: all 0.4s
-
 .cegi-shade2, .cegi-shade7
   background: $ceg2o
   &:hover

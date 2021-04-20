@@ -4,6 +4,29 @@ include ./ceg
 
 block content
   .ceg
+    //- .cegm
+    .cegm__top
+      img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
+      .cegm__top-menu!=icon("cegmenu")
+      //- .cegm__menu!=icon("cegfilter")
+    .cegm__bottom
+      .cegm__bottom-inner
+        .cegm__bottom-inner-title!=icon("ceg1m")
+        .cegm__bottom-slide
+          .cegm__bottom-slide-tab.cegi-shade1(data-num='1') Header
+          .cegm__bottom-slide-tab.cegi-shade2(data-num='2') Features + Benefits
+          .cegm__bottom-slide-tab.cegi-shade3(data-num='3') Social Proof
+          .cegm__bottom-slide-tab.cegi-shade4(data-num='4') Ad
+      .cegm__bottom-inner
+        .cegm__bottom-inner-title!=icon("ceg2m")
+        .cegm__bottom-slide
+          .cegm__bottom-slide-tab.cegi-shade1(data-num='5') Simple
+          .cegm__bottom-slide-tab.cegi-shade2(data-num='6') Specific
+          .cegm__bottom-slide-tab.cegi-shade3(data-num='7') Pick a fight
+          .cegm__bottom-slide-tab.cegi-shade4(data-num='8') Conversational
+          .cegm__bottom-slide-tab.cegi-shade5(data-num='9') Creative
+          .cegm__bottom-slide-tab.cegi-shade6(data-num='10') Outcomes
+          .cegm__bottom-slide-tab.cegi-shade7(data-num='11') Beliefs
     .cegl
       img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
       .cegl__filter
@@ -16,13 +39,14 @@ block content
         .cegl__filter-title!=icon("ceg2")
         .cegl__filter-tab.cegi-shade1(data-num='5') Simple
         .cegl__filter-tab.cegi-shade2(data-num='6') Specific
-        .cegl__filter-tab.cegi-shade3(data-num='7') Conflict
+        .cegl__filter-tab.cegi-shade3(data-num='7') Pick a fight
         .cegl__filter-tab.cegi-shade4(data-num='8') Conversational
         .cegl__filter-tab.cegi-shade5(data-num='9') Creative
         .cegl__filter-tab.cegi-shade6(data-num='10') Outcomes
         .cegl__filter-tab.cegi-shade7(data-num='11') Beliefs
       .cegl__filter
         .cegl__filter-title!=icon("ceg3")
+    .cegm__notice Tap image for thoughts
     .cegrid
       //- each ceg in cegs
       //-   +ceg(ceg)

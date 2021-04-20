@@ -13,7 +13,11 @@ function getStyleValue(element, style) {
 }
 
 function getFilterParam() {
-  const cegFilterArray = Array.from($$('.cegl__filter-tab'));
+  // const cegFilterArray = Array.from($$(".cegl__filter-tab"));
+  const cegFilterArray =
+    window.innerWidth < 930
+      ? Array.from($$('.cegm__bottom-slide-tab'))
+      : Array.from($$('.cegl__filter-tab'));
   const activeFilters = cegFilterArray
     .filter(filter => filter.classList.contains('cegfilter__active'))
     .map(each => each.dataset.num)
@@ -82,8 +86,12 @@ export async function cegLoad(filter) {
 }
 
 export function cegFilter() {
-  const cegfilterArray = Array.from($$('.cegl__filter-tab'));
-  cegfilterArray.forEach(filterItem => {
+  // const cegfilterArray = Array.from($$('.cegl__filter-tab'));
+  const cegFilterArray =
+    window.innerWidth < 930
+      ? Array.from($$('.cegm__bottom-slide-tab'))
+      : Array.from($$('.cegl__filter-tab'));
+  cegFilterArray.forEach(filterItem => {
     filterItem.on('click', async e => {
       const { num } = e.currentTarget.dataset;
       e.currentTarget.parentElement.classList.toggle(

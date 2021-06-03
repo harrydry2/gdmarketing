@@ -6,7 +6,7 @@ axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 const rowHeight = 10;
 
-const rowGap = window.innerWidth < 1000 ? 14 : 18;
+const rowGap = window.innerWidth < 1000 ? 14 : 15;
 
 function getStyleValue(element, style) {
   return parseInt(window.getComputedStyle(element).getPropertyValue(style));
@@ -48,13 +48,13 @@ export function cegimobtap(parents) {
   });
 }
 
-export function resizeCegLoad(parents) {
+export function resizeCegLoad(parent) {
   const grid = document.querySelector('.cegrid');
   grid.style.gridAutoRows = 'auto';
   grid.style.alignItems = 'self-start';
-  parents.forEach(item => {
+  parent.forEach(item => {
     item.classList.remove('cegi__notyetloaded');
-    item.style.gridRowEnd = `span ${Math.ceil(
+    item.style.gridRowEnd = `span ${Math.round(
       (item.clientHeight + rowGap) / (rowHeight + rowGap)
     )}`;
   });
@@ -66,6 +66,7 @@ export function resizeCegAll() {
   grid.style.gridAutoRows = 'auto';
   grid.style.alignItems = 'self-start';
   Array.from($$('.cegi')).forEach(item => {
+    item.classList.remove('cegi__notyetloaded');
     item.style.gridRowEnd = `span ${Math.ceil(
       (item.clientHeight + rowGap) / (rowHeight + rowGap)
     )}`;
@@ -100,6 +101,10 @@ export async function cegLoad(filter) {
       resizeCegLoad(parentsloaded);
       imgloaded.forEach(img => {
         img.src = img.dataset.src;
+      });
+      parentsloaded.forEach(parent => {
+        parent.firstElementChild.firstElementChild.innerHTML =
+          parent.firstElementChild.dataset.html;
       });
       if (window.innerWidth < 930) {
         cegimobtap(parentsloaded);

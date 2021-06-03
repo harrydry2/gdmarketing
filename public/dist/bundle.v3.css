@@ -62,6 +62,11 @@ video {
 
 @font-face {
   font-family: "AvenirNext";
+  src: url(../fonts/../fonts/AvenirNext-Regular.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Regular.woff) format("woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "AvenirNext";
   src: url(../fonts/../fonts/AvenirNext-Italic.woff2) format("woff2"), url(../fonts/../fonts/AvenirNext-Italic.woff) format("woff");
   font-weight: 400;
   font-style: italic; }
@@ -273,7 +278,37 @@ p {
   width: 4.4rem; }
   @media screen and (max-width: 768px) {
     .gmLogoSmallSVG {
-      width: 4.2rem; } }
+      width: 4.4rem; } }
+
+.gmLogoSmallSVGCEG {
+  width: 4rem; }
+  @media screen and (max-width: 768px) {
+    .gmLogoSmallSVGCEG {
+      width: 4rem; } }
+
+.linkedinSVGCEG {
+  height: 2.8rem; }
+  @media screen and (max-width: 768px) {
+    .linkedinSVGCEG {
+      height: 2.4rem; } }
+  .linkedinSVGCEG > * {
+    fill: #212121; }
+
+.ytSVGCEG {
+  height: 2.6rem; }
+  @media screen and (max-width: 768px) {
+    .ytSVGCEG {
+      height: 2.6rem; } }
+  .ytSVGCEG > * {
+    fill: #212121; }
+
+.twitterSVGCEG {
+  height: 2.3rem; }
+  @media screen and (max-width: 768px) {
+    .twitterSVGCEG {
+      height: 2.3rem; } }
+  .twitterSVGCEG > * {
+    fill: #212121; }
 
 .twitterSVG {
   height: 2.1rem; }
@@ -2227,7 +2262,7 @@ h2.slab {
     background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    padding: 2.2rem .5rem .6rem .5rem;
+    padding: 2.2rem 0rem 1.1rem 0rem;
     position: relative; }
   .cegm__bottom-title {
     position: absolute;
@@ -2239,44 +2274,36 @@ h2.slab {
     display: inline-block;
     margin: 0 auto;
     background-color: #212121; }
-  .cegm__bottom-tab {
-    padding: 0.7rem 1rem;
-    font-size: 1.5rem;
-    display: inline-block;
-    font-family: Muggsy;
-    text-transform: uppercase;
-    border: 2px solid #fafafa;
-    cursor: pointer;
-    color: #212121;
-    margin: 0.5rem; }
 
 .cegmtr__active {
   display: block; }
 
 .cegl {
   height: 100%;
-  width: 25rem;
-  background-color: #fafafa;
+  width: 21.1rem;
+  background-color: white;
   height: 100vh;
-  width: 25rem;
   position: fixed; }
   @media (max-width: 930px) {
     .cegl {
       display: none; } }
   .cegl img {
-    padding: 3rem 0 0 0;
-    width: 15.6rem;
-    transform: translateX(-10px);
+    padding: 2.4rem 0 0 0;
+    width: 15rem;
+    transform: translateY(3px);
     margin: 0 auto;
     display: flex; }
   .cegl__filter {
-    width: 23rem;
+    width: 21.1rem;
     background-color: #ffffff;
-    margin-top: 4rem;
     display: flex;
-    flex-direction: column;
-    padding: 1.8rem 0 1.4rem 0;
-    position: relative; }
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 3.5rem;
+    padding: 1.8rem 0rem 1.4rem 0.1rem;
+    border-radius: 2rem;
+    border: 4px solid #fafafa;
+    border-left: 0rem; }
     .cegl__filter-title {
       position: absolute;
       left: 0;
@@ -2290,13 +2317,14 @@ h2.slab {
       padding: 0.7rem 1rem;
       font-size: 1.5rem;
       display: inline-block;
-      margin: 0 auto;
-      font-family: Muggsy;
-      text-transform: uppercase;
-      margin-top: 1.1rem;
       border: 2px solid #fafafa;
       cursor: pointer;
-      color: #212121; }
+      color: #212121;
+      transition: all 0.4s ease;
+      font-family: Avenir;
+      margin-top: 1rem;
+      margin-left: .9rem;
+      font-weight: 500; }
 
 .cegtagSVG1 {
   transform: translateY(2px);
@@ -2313,21 +2341,89 @@ h2.slab {
       width: 4.1rem;
       transform: translateY(0.7px); } }
 
-.cegrid {
-  display: grid;
-  width: calc(100% - 25rem);
-  margin-left: 25rem;
-  padding: 1.8rem;
-  grid-gap: 1.8rem;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-  grid-auto-rows: 1rem;
-  grid-auto-flow: row; }
+.ceRight {
+  width: calc(100% - 21.1rem);
+  margin-left: 21.1rem;
+  padding: 0 1.6rem; }
   @media (max-width: 930px) {
-    .cegrid {
+    .ceRight {
       margin-left: 0rem;
       width: calc(100%);
       padding: 1.4rem;
       grid-gap: 1.4rem; } }
+
+.ceTop {
+  height: 8.8rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 4;
+  position: sticky;
+  top: 0; }
+  @media (max-width: 930px) {
+    .ceTop {
+      display: none; } }
+  .ceTop-mail {
+    width: 51rem;
+    margin: 0 auto;
+    background-color: white;
+    height: 5.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0.8rem 0.8rem 1.7rem;
+    border-radius: 2rem;
+    border: 4px solid #fafafa; }
+    .ceTop-mail-left {
+      display: flex;
+      justify-content: flex-start; }
+      .ceTop-mail-left-icon {
+        display: flex;
+        align-items: center; }
+      .ceTop-mail-left input {
+        margin-left: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        width: 33rem;
+        color: #8795A1; }
+    .ceTop-mail button {
+      border-radius: 4px;
+      background-color: #212121;
+      border: none;
+      color: #fff;
+      padding: 0 1rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+      font-family: "AvenirNext";
+      cursor: pointer; }
+  .ceTop__right {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding-right: 0.8rem; }
+    .ceTop__right-sign {
+      font-size: 1.55rem;
+      font-weight: 500;
+      font-style: italic;
+      transform: rotateZ(-1deg);
+      margin-right: .2rem; }
+    .ceTop__right img {
+      width: 3.2rem;
+      transform: rotateZ(387deg); }
+    .ceTop__right a {
+      margin-left: 1.4rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 600; }
+      .ceTop__right a > * {
+        fill: #212121 !important; }
+
+.cegrid {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-auto-rows: 1rem;
+  grid-auto-flow: row; }
 
 .cegi {
   position: relative;
@@ -2345,6 +2441,8 @@ h2.slab {
     .cegi:hover .cegi__center {
       transition: all 0.4s ease;
       opacity: 1; }
+    .cegi:hover p {
+      margin-top: 0rem; }
     .cegi:hover img {
       filter: blur(2px);
       transition: all 0.4s ease; } }
@@ -2373,11 +2471,9 @@ h2.slab {
       padding: 0.6rem 0.8rem;
       display: flex;
       justify-content: center;
-      font-size: 1.2rem;
-      font-weight: 500;
-      border-radius: 20px;
-      font-family: Muggsy;
-      text-transform: uppercase; }
+      font-size: 1.4rem;
+      font-weight: 400;
+      border-radius: 20px; }
       .cegi__right-pill:not(:last-child) {
         margin-right: 0.4rem; }
   .cegi__center {
@@ -2388,15 +2484,20 @@ h2.slab {
     width: 100%;
     height: 100%;
     opacity: 0;
-    padding: 2rem 3rem;
+    padding: 1.8rem 1.8rem;
     background-color: rgba(0, 0, 0, 0.8);
-    font-style: italic;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: center;
     color: white;
     border-radius: 2rem;
     transition: all 0.4s ease;
     z-index: 3;
     border: 4px solid #fafafa; }
+    .cegi__center-inner p {
+      font-size: .5rem; }
+    .cegi__center-inner .ptitle {
+      font-size: .7rem !important; }
   .cegi img {
     border-radius: 2rem;
     border: 4px solid #fafafa;
@@ -2421,68 +2522,155 @@ h2.slab {
   filter: blur(2px);
   transition: all 0.4s ease; }
 
-.cegi-shade1, .cegi-shade6, .cegi-shade11 {
-  background: rgba(98, 203, 161, 0.24); }
-  .cegi-shade1:hover, .cegi-shade6:hover, .cegi-shade11:hover {
-    background: rgba(98, 203, 161, 0.32);
+.cegi-shade1 {
+  background: rgba(98, 203, 157, 0.24); }
+  .cegi-shade1:hover {
+    background: rgba(98, 203, 157, 0.3);
     transition: all 0.4s; }
 
-.cegi-shade2, .cegi-shade7 {
-  background: rgba(255, 56, 56, 0.15); }
-  .cegi-shade2:hover, .cegi-shade7:hover {
+.cegi-shade2 {
+  background: rgba(255, 56, 56, 0.2); }
+  .cegi-shade2:hover {
     background: rgba(255, 56, 56, 0.2);
     transition: all 0.4s; }
 
-.cegi-shade3, .cegi-shade8 {
-  background: rgba(19, 216, 196, 0.2); }
-  .cegi-shade3:hover, .cegi-shade8:hover {
-    background: rgba(19, 216, 196, 0.26);
+.cegi-shade3 {
+  background: rgba(69, 96, 232, 0.18); }
+  .cegi-shade3:hover {
+    background: rgba(69, 96, 232, 0.24);
     transition: all 0.4s; }
 
-.cegi-shade4, .cegi-shade9 {
-  background: rgba(255, 5, 93, 0.16); }
-  .cegi-shade4:hover, .cegi-shade9:hover {
+.cegi-shade4 {
+  background: rgba(255, 5, 93, 0.15); }
+  .cegi-shade4:hover {
     background: rgba(255, 5, 93, 0.21);
     transition: all 0.4s; }
 
-.cegi-shade5, .cegi-shade10 {
-  background: rgba(69, 64, 221, 0.12); }
-  .cegi-shade5:hover, .cegi-shade10:hover {
-    background: rgba(69, 64, 221, 0.17);
+.cegi-shade5 {
+  background: rgba(19, 216, 196, 0.22); }
+  .cegi-shade5:hover {
+    background: rgba(19, 216, 196, 0.25);
+    transition: all 0.4s; }
+
+.cegi-shade6 {
+  background: rgba(242, 238, 13, 0.23); }
+  .cegi-shade6:hover {
+    background: rgba(242, 238, 13, 0.3);
+    transition: all 0.4s; }
+
+.cegi-shade7 {
+  background: rgba(98, 203, 157, 0.24); }
+  .cegi-shade7:hover {
+    background: rgba(98, 203, 157, 0.3);
+    transition: all 0.4s; }
+
+.cegi-shade8 {
+  background: rgba(255, 56, 56, 0.2); }
+  .cegi-shade8:hover {
+    background: rgba(255, 56, 56, 0.2);
+    transition: all 0.4s; }
+
+.cegi-shade9 {
+  background: rgba(69, 96, 232, 0.18); }
+  .cegi-shade9:hover {
+    background: rgba(69, 96, 232, 0.24);
+    transition: all 0.4s; }
+
+.cegi-shade10 {
+  background: rgba(255, 5, 93, 0.15); }
+  .cegi-shade10:hover {
+    background: rgba(255, 5, 93, 0.21);
+    transition: all 0.4s; }
+
+.cegi-shade11 {
+  background: rgba(19, 216, 196, 0.22); }
+  .cegi-shade11:hover {
+    background: rgba(19, 216, 196, 0.25);
+    transition: all 0.4s; }
+
+.cegi-shade12 {
+  background: rgba(242, 238, 13, 0.23); }
+  .cegi-shade12:hover {
+    background: rgba(242, 238, 13, 0.3);
+    transition: all 0.4s; }
+
+.cegi-shade13 {
+  background: rgba(0, 158, 250, 0.19); }
+  .cegi-shade13:hover {
+    background: rgba(0, 158, 250, 0.24);
     transition: all 0.4s; }
 
 .cegfilters__active1 .cegi-shade1 {
-  border: 2px solid rgba(98, 203, 161, 0.8); }
+  border: 2px solid rgba(98, 203, 157, 0.8); }
 
 .cegfilters__active2 .cegi-shade2 {
   border: 2px solid rgba(255, 56, 56, 0.5); }
 
 .cegfilters__active3 .cegi-shade3 {
-  border: 2px solid rgba(19, 216, 196, 0.6); }
+  border: 2px solid rgba(69, 96, 232, 0.5); }
 
 .cegfilters__active4 .cegi-shade4 {
   border: 2px solid rgba(255, 5, 93, 0.4); }
 
-.cegfilters__active5 .cegi-shade1 {
-  border: 2px solid rgba(98, 203, 161, 0.8); }
-
-.cegfilters__active6 .cegi-shade2 {
-  border: 2px solid rgba(255, 56, 56, 0.5); }
-
-.cegfilters__active7 .cegi-shade3 {
+.cegfilters__active5 .cegi-shade5 {
   border: 2px solid rgba(19, 216, 196, 0.6); }
 
-.cegfilters__active8 .cegi-shade4 {
+.cegfilters__active6 .cegi-shade6 {
+  border: 2px solid rgba(242, 238, 13, 0.7); }
+
+.cegfilters__active7 .cegi-shade7 {
+  border: 2px solid rgba(98, 203, 157, 0.8); }
+
+.cegfilters__active8 .cegi-shade8 {
+  border: 2px solid rgba(255, 56, 56, 0.5); }
+
+.cegfilters__active9 .cegi-shade9 {
+  border: 2px solid rgba(69, 96, 232, 0.5); }
+
+.cegfilters__active10 .cegi-shade10 {
   border: 2px solid rgba(255, 5, 93, 0.4); }
 
-.cegfilters__active9 .cegi-shade5 {
-  border: 2px solid rgba(69, 64, 221, 0.5); }
+.cegfilters__active11 .cegi-shade11 {
+  border: 2px solid rgba(19, 216, 196, 0.6); }
 
-.cegfilters__active10 .cegi-shade6 {
-  border: 2px solid rgba(98, 203, 161, 0.8); }
+.cegfilters__active12 .cegi-shade12 {
+  border: 2px solid rgba(242, 238, 13, 0.7); }
 
-.cegfilters__active11 .cegi-shade7 {
-  border: 2px solid rgba(255, 56, 56, 0.5); }
+.cegfilters__active13 .cegi-shade13 {
+  border: 2px solid rgba(0, 158, 250, 0.5); }
+
+.cegx1 {
+  background: rgba(98, 203, 157, 0.24); }
+
+.cegx2 {
+  background: rgba(255, 56, 56, 0.2); }
+
+.cegx3 {
+  background: rgba(69, 96, 232, 0.3); }
+
+.cegx4 {
+  background: rgba(225, 35, 193, 0.18); }
+
+.cegx5 {
+  background: rgba(19, 216, 196, 0.2); }
+
+.cegx6 {
+  background: rgba(242, 238, 13, 0.16); }
+
+.cegx7 {
+  background: rgba(0, 158, 250, 0.19); }
+
+.cegxbold {
+  font-weight: 500; }
+
+.cegxitalic {
+  font-style: italic; }
+
+.cegxtitle {
+  font-style: italic;
+  margin-bottom: 2px;
+  text-decoration: underline;
+  text-underline-offset: 0.4rem; }
 
 .left__menu {
   position: fixed;

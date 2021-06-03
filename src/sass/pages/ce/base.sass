@@ -57,7 +57,7 @@
       background-color: #ffffff
       display: flex
       flex-wrap: wrap
-      padding: 2.2rem .5rem .6rem .5rem
+      padding: 2.2rem 0rem 1.1rem 0rem
       position: relative
     &-title
       position: absolute
@@ -69,43 +69,49 @@
       display: inline-block
       margin: 0 auto
       background-color: $cegblack
-    &-tab
-      padding: 0.7rem 1rem
-      font-size: 1.5rem
-      display: inline-block
-      font-family: Muggsy
-      text-transform: uppercase
-      border: 2px solid $cegb
-      cursor: pointer
-      color: $cegblack
-      margin: 0.5rem
+    // &-tab
+    //   padding: 0.7rem 1rem
+    //   font-size: 1.5rem
+    //   display: inline-block
+    //   text-transform: uppercase
+    //   border: 2px solid $cegb
+    //   cursor: pointer
+    //   color: $cegblack
+    //   margin: 0.5rem
+    //   transition: all 0.4s
 
 .cegmtr__active
   display: block
 
 .cegl
   height: 100%
-  width: 25rem
-  background-color: $cegb
+  width: 21.1rem
+  background-color: white
   height: 100vh
-  width: 25rem
   position: fixed
+  // width: 25rem
   @media (max-width: 930px)
     display: none
   img
-    padding: 3rem 0 0 0
-    width: 15.6rem
-    transform: translateX(-10px)
+    padding: 2.4rem 0 0 0
+    width: 15rem
+    transform: translateY(3px)
     margin: 0 auto
     display: flex
   &__filter
-    width: 23rem
+    width: 21.1rem
     background-color: #ffffff
-    margin-top: 4rem
     display: flex
-    flex-direction: column
-    padding: 1.8rem 0 1.4rem 0
     position: relative
+    flex-wrap: wrap
+    margin-top: 3.5rem
+    padding: 1.8rem 0rem 1.4rem 0.1rem
+    border-radius: 2rem
+    border: 4px solid $cegb
+    border-left: 0rem
+    // width: 20.7rem
+    // margin-top: 4rem
+    // padding: 1.8rem 1rem 1.4rem 0.1rem
     &-title
       position: absolute
       left: 0
@@ -119,13 +125,18 @@
       padding: 0.7rem 1rem
       font-size: 1.5rem
       display: inline-block
-      margin: 0 auto
-      font-family: Muggsy
-      text-transform: uppercase
-      margin-top: 1.1rem
       border: 2px solid $cegb
       cursor: pointer
       color: $cegblack
+      transition: all 0.4s ease
+      font-family: Avenir
+      margin-top: 1rem
+      margin-left: .9rem
+      font-weight: 500
+      // margin-top: 1rem
+      // margin-left: 1rem
+      // text-transform: uppercase
+      // font-family: Muggsy
 
 .cegtagSVG1
   transform: translateY(2px)
@@ -141,20 +152,93 @@
     width: 4.1rem
     transform: translateY(.7px)
 
-.cegrid
-  display: grid
-  width: calc(100% - 25rem)
-  margin-left: 25rem
-  padding: 1.8rem
-  grid-gap: 1.8rem
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr))
-  grid-auto-rows: 1rem
-  grid-auto-flow: row
+.ceRight
+  width: calc(100% - 21.1rem)
+  margin-left: 21.1rem
+  padding: 0 1.6rem
   @media (max-width: 930px)
     margin-left: 0rem
     width: calc(100%)
     padding: 1.4rem
     grid-gap: 1.4rem
+
+.ceTop
+  height: 8.8rem
+  background-color: white
+  display: flex
+  align-items: center
+  justify-content: space-between
+  z-index: 4
+  position: sticky
+  top: 0
+  @media (max-width: 930px)
+    display: none
+  &__left
+  &-mail
+    width: 51rem
+    margin: 0 auto
+    background-color: white
+    height: 5.8rem
+    display: flex
+    justify-content: space-between
+    padding: 0.8rem 0.8rem 0.8rem 1.7rem
+    border-radius: 2rem
+    border: 4px solid $cegb
+    &-left
+      display: flex
+      justify-content: flex-start
+      &-icon
+        display: flex
+        align-items: center
+      input
+        // background-color: #F1F5F8
+        margin-left: 1.2rem
+        font-size: 1.5rem
+        font-weight: 500
+        width: 33rem
+        color: #8795A1
+    button
+      border-radius: 4px
+      background-color: $cegblack
+      border: none
+      color: #fff
+      padding: 0 1rem
+      font-size: 1.4rem
+      font-weight: 600
+      font-family: "AvenirNext"
+      cursor: pointer
+  &__right
+    display: flex
+    align-items: center
+    height: 5rem
+    padding-right: 0.8rem
+    &-sign
+      font-size: 1.55rem
+      font-weight: 500
+      font-style: italic
+      transform: rotateZ(-1deg)
+      margin-right: .2rem
+    img
+      width: 3.2rem
+      transform: rotateZ(387deg)
+    a
+      margin-left: 1.4rem
+      font-size: 1.5rem
+      text-transform: uppercase
+      font-weight: 600
+      // color: $brand
+      & > *
+        fill: $cegblack !important
+
+.cegrid
+  display: grid
+  // width: calc(100% - 22.7rem)
+  // margin-left: 22.7rem
+  // padding: 1.4rem
+  grid-gap: 1.5rem
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr))
+  grid-auto-rows: 1rem
+  grid-auto-flow: row
 
 .cegi
   position: relative
@@ -173,6 +257,8 @@
       .cegi__center
         transition: all 0.4s ease
         opacity: 1
+      p
+        margin-top: 0rem
       img
         filter: blur(2px)
         transition: all 0.4s ease
@@ -201,11 +287,11 @@
       padding: 0.6rem 0.8rem
       display: flex
       justify-content: center
-      font-size: 1.2rem
-      font-weight: 500
+      font-size: 1.4rem
+      font-weight: 400
       border-radius: 20px
-      font-family: Muggsy
-      text-transform: uppercase
+      // font-family: Muggsy
+      // text-transform: uppercase
       &:not(:last-child)
         margin-right: 0.4rem
   &__center
@@ -216,18 +302,25 @@
     width: 100%
     height: 100%
     opacity: 0
-    padding: 2rem 3rem
+    padding: 1.8rem 1.8rem
     background-color: hsla(0,0,0,.8)
-    font-style: italic
-    font-size: 1.8rem
+    // font-style: italic
+    font-size: 1.6rem
+    line-height: 1.4
+    text-align: center
     color: white
     border-radius: 2rem
     transition: all 0.4s ease
     z-index: 3
     border: 4px solid $cegb
+    &-inner
+      p
+        font-size: .5rem
+      .ptitle
+        font-size: .7rem !important
   img
     border-radius: 2rem
-    border: 4px solid #fafafa
+    border: 4px solid $cegb
     width: 100%
     height: 100%
     object-fit: fill
@@ -248,43 +341,88 @@
     filter: blur(2px)
     transition: all 0.4s ease
 
-
-
-.cegi-shade1, .cegi-shade6, .cegi-shade11
+.cegi-shade1
   background: $ceg1o
   &:hover
     background: $ceg1h
     transition: all 0.4s
-.cegi-shade2, .cegi-shade7
+
+.cegi-shade2
   background: $ceg2o
   &:hover
     background: $ceg2h
     transition: all 0.4s
 
-.cegi-shade3, .cegi-shade8
+.cegi-shade3
   background: $ceg3o
   &:hover
     background: $ceg3h
     transition: all 0.4s
 
-
-.cegi-shade4, .cegi-shade9
+.cegi-shade4
   background: $ceg4o
   &:hover
     background: $ceg4h
     transition: all 0.4s
 
-
-.cegi-shade5, .cegi-shade10
+.cegi-shade5
   background: $ceg5o
   &:hover
     background: $ceg5h
     transition: all 0.4s
 
+.cegi-shade6
+  background: $ceg6o
+  &:hover
+    background: $ceg6h
+    transition: all 0.4s
+
+.cegi-shade7
+  background: $ceg1o
+  &:hover
+    background: $ceg1h
+    transition: all 0.4s
+
+.cegi-shade8
+  background: $ceg2o
+  &:hover
+    background: $ceg2h
+    transition: all 0.4s
+
+.cegi-shade9
+  background: $ceg3o
+  &:hover
+    background: $ceg3h
+    transition: all 0.4s
+
+.cegi-shade10
+  background: $ceg4o
+  &:hover
+    background: $ceg4h
+    transition: all 0.4s
+
+.cegi-shade11
+  background: $ceg5o
+  &:hover
+    background: $ceg5h
+    transition: all 0.4s
+
+.cegi-shade12
+  background: $ceg6o
+  &:hover
+    background: $ceg6h
+    transition: all 0.4s
+
+.cegi-shade13
+  background: $ceg7o
+  &:hover
+    background: $ceg7h
+    transition: all 0.4s
+
+
 .cegfilters__active1
   .cegi-shade1
     border: 2px solid $ceg1
-
 
 .cegfilters__active2
   .cegi-shade2
@@ -299,118 +437,70 @@
     border: 2px solid $ceg4
 
 .cegfilters__active5
-  .cegi-shade1
-    border: 2px solid $ceg1
-
-.cegfilters__active6
-  .cegi-shade2
-    border: 2px solid $ceg2
-
-.cegfilters__active7
-  .cegi-shade3
-    border: 2px solid $ceg3
-
-.cegfilters__active8
-  .cegi-shade4
-    border: 2px solid $ceg4
-
-.cegfilters__active9
   .cegi-shade5
     border: 2px solid $ceg5
 
-.cegfilters__active10
+.cegfilters__active6
   .cegi-shade6
+    border: 2px solid $ceg6
+
+.cegfilters__active7
+  .cegi-shade7
     border: 2px solid $ceg1
 
-.cegfilters__active11
-  .cegi-shade7
+.cegfilters__active8
+  .cegi-shade8
     border: 2px solid $ceg2
 
+.cegfilters__active9
+  .cegi-shade9
+    border: 2px solid $ceg3
 
+.cegfilters__active10
+  .cegi-shade10
+    border: 2px solid $ceg4
 
-// .cegm
-//   // display: none
-//   // @media (max-width: 930px)
-//   //   display: block
-//   //   position: fixed
-//   //   width: 100%
-//   //   top: 0
-//   //   background-color: #ffffff
-//   //   z-index: 100
-//   &__top
-//     justify-content: space-between
-//     border-bottom: 2px solid $cegb
-//     padding: 1.3rem 1.2rem 1.3rem 1.8rem
-//     align-items: center
-//     position: fixed
-//     width: 100%
-//     top: 0
-//     background-color: white
-//     z-index: 101
-//     display: none
-//     @media (max-width: 930px)
-//       display: flex
-//     img
-//       height: 2.9rem
-//       transform: translateY(1px)
-//     &-right
-//       display: flex
-//       align-items: center
-//       &-menu
-//         padding: 0.6rem
-//       &-plus
-//         padding: 0.6rem
-//         display: none
-//       &-minus
-//         padding: 0.6rem
-//         display: none
-//   &__notice
-//     display: none
-//     text-align: center
-//     font-weight: 500
-//     font-style: italic
-//     color: $cegblack
-//     font-size: 1.6rem
-//     margin-top: 8.6rem
-//     @media (max-width: 930px)
-//       display: block
-//   &__bottom
-//     padding: 1rem 0
-//     border-bottom: 2px solid $cegb
-//     background-color: #fafafa
-//     z-index: 3
-//     position: fixed
-//     bottom: 0
-//     &-inner
-//       padding: 0.35rem 0rem 0.35rem 0rem
-//       display: flex
-//       align-items: center
-//       &-title
-//         height: 2.1rem
-//         padding: 0rem .7rem 0rem .5rem
-//         display: inline-flex
-//         justify-content: center
-//         align-items: center
-//         border-top-right-radius: 2rem
-//         border-bottom-right-radius: 2rem
-//         margin-right: 0.7rem
-//         background-color: $cegblack
-//         border: 1px solid $cegblack
-//     &-slide
-//       overflow: auto
-//       white-space: nowrap
-//       &::-webkit-scrollbar
-//         display: none
-//       &-tab
-//         padding: 0.6rem .9rem
-//         display: inline-block
-//         font-size: 1.45rem
-//         font-family: Muggsy
-//         text-transform: uppercase
-//         border: 2px solid $cegb
-//         cursor: pointer
-//         color: $cegblack
-//         &:not(:first-child)
-//           margin-left: 0.7rem
-//         &:last-child
-//           margin-right: 0.7rem
+.cegfilters__active11
+  .cegi-shade11
+    border: 2px solid $ceg5
+
+.cegfilters__active12
+  .cegi-shade12
+    border: 2px solid $ceg6
+
+.cegfilters__active13
+  .cegi-shade13
+    border: 2px solid $ceg7
+
+.cegx1
+  background: $ceg1o
+
+.cegx2
+  background: $ceg2o
+
+.cegx3
+  background: $ceg3ox
+
+.cegx4
+  background: $ceg4ox
+
+.cegx5
+  background: $ceg5ox
+
+.cegx6
+  background: $ceg6ox
+
+.cegx7
+  background: $ceg7o
+
+.cegxbold
+  font-weight: 500
+
+.cegxitalic
+  font-style: italic
+
+.cegxtitle
+  font-style: italic
+  margin-bottom: 2px
+  text-decoration: underline
+  text-underline-offset: 0.4rem

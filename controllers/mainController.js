@@ -1,15 +1,15 @@
 /* eslint-disable no-var */
-const mongoose = require("mongoose");
-const path = require("path");
+const mongoose = require('mongoose');
+const path = require('path');
 
-const Cards = mongoose.model("Cards");
-const Gifs = mongoose.model("Gifs");
-const GifsMob = mongoose.model("GifsMob");
-const Ceg = mongoose.model("Ceg");
-const dbCards = require("../scripts/cards");
-const dbGifs = require("../scripts/gifs");
-const dbGifsMob = require("../scripts/gifsMob");
-const dbCeg = require("../scripts/ceg");
+const Cards = mongoose.model('Cards');
+const Gifs = mongoose.model('Gifs');
+const GifsMob = mongoose.model('GifsMob');
+const Ceg = mongoose.model('Ceg');
+const dbCards = require('../scripts/cards');
+const dbGifs = require('../scripts/gifs');
+const dbGifsMob = require('../scripts/gifsMob');
+const dbCeg = require('../scripts/ceg');
 
 let shuffledCeg;
 
@@ -39,7 +39,7 @@ exports.home = async (req, res) => {
   const cards = await Cards.find()
     .skip(skip)
     .limit(limit);
-  res.render("./home/ext", { cards });
+  res.render('./home/ext', { cards });
 };
 
 // exports.podcast = async (req, res) => {
@@ -47,7 +47,7 @@ exports.home = async (req, res) => {
 // };
 
 exports.twitterhandbook = async (req, res) => {
-  res.render("./twitterhandbook/ext");
+  res.render('./twitterhandbook/ext');
 };
 
 exports.copywritingexamples = async (req, res) => {
@@ -59,7 +59,7 @@ exports.copywritingexamples = async (req, res) => {
   //   .limit(limit);
   // shuffledCeg = shuffleFisherYates(dbCeg);
   shuffledCeg = dbCeg;
-  res.render("./copywritingexamples/ext");
+  res.render('./copywritingexamples/ext');
 };
 
 exports.course = async (req, res) => {
@@ -68,50 +68,50 @@ exports.course = async (req, res) => {
     console.log(req.query.added);
     added = true;
   }
-  res.render("./course/ext", {
-    added
+  res.render('./course/ext', {
+    added,
   });
 };
 
 exports.bestofsub = async (req, res) => {
-  res.render("./bestofsub/ext");
+  res.render('./bestofsub/ext');
 };
 
 exports.bestofunsub = async (req, res) => {
-  res.render("./bestofunsub/ext");
+  res.render('./bestofunsub/ext');
 };
 
 exports.gifs = async (req, res) => {
   const page = +req.params.page || 1;
   const limit = 8;
   const skip = limit * page - limit;
-  if (!isMobile(req.headers["user-agent"])) {
+  if (!isMobile(req.headers['user-agent'])) {
     const gifs = await Gifs.find()
       .skip(skip)
       .limit(limit);
-    res.render("./home/gifs", { gifs });
+    res.render('./home/gifs', { gifs });
   } else {
     const gifsMob = await GifsMob.find()
       .skip(skip)
       .limit(limit);
     console.log(gifsMob);
-    res.render("./home/gifsMob", { gifsMob });
+    res.render('./home/gifsMob', { gifsMob });
   }
 };
 
 exports.xml = async (req, res) => {
-  res.contentType("application/xml");
-  res.sendFile(path.join(__dirname, "sitemap.xml"));
+  res.contentType('application/xml');
+  res.sendFile(path.join(__dirname, 'sitemap.xml'));
 };
 
 exports.txt = async (req, res) => {
-  res.contentType("text/plain");
-  res.sendFile(path.join(__dirname, "robots.txt"));
+  res.contentType('text/plain');
+  res.sendFile(path.join(__dirname, 'robots.txt'));
 };
 
 exports.rss = async (req, res) => {
-  res.contentType("application/xml");
-  res.sendFile(path.join(__dirname, "marketingexamples.rss"));
+  res.contentType('application/xml');
+  res.sendFile(path.join(__dirname, 'marketingexamples.rss'));
 };
 
 exports.lazy = async (req, res) => {
@@ -120,17 +120,17 @@ exports.lazy = async (req, res) => {
   const { filterParam } = req.params;
   const limit = 8;
   const skip = limit * page - limit;
-  if (filterParam === "all") {
+  if (filterParam === 'all') {
     cards = await Cards.find()
       .skip(skip)
       .limit(limit);
   } else {
-    const activeFilters = filterParam.split("-");
+    const activeFilters = filterParam.split('-');
     cards = await Cards.find({ tBack: { $in: activeFilters } })
       .skip(skip)
       .limit(limit);
   }
-  res.render("./backend/cards", { cards });
+  res.render('./backend/cards', { cards });
 };
 
 exports.lazyCeg = async (req, res) => {
@@ -147,16 +147,16 @@ exports.lazyCeg = async (req, res) => {
     end = parseInt(page) * 10 + 4;
   }
   const pageString = page.toString();
-  if (filterParam === "all") {
+  if (filterParam === 'all') {
     cegs = shuffledCeg.slice(start, end);
   } else {
-    const activeFilters = filterParam.split("-");
+    const activeFilters = filterParam.split('-');
     const filteredCeg = shuffledCeg.filter(item =>
       findCommonElements(activeFilters, item.filter)
     );
     cegs = filteredCeg.slice(start, end);
   }
-  res.render("./backend/cegs", { cegs, pageString });
+  res.render('./backend/cegs', { cegs, pageString });
 };
 
 // exports.lazyCeg = async (req, res) => {
@@ -190,17 +190,17 @@ exports.lazyGif = async (req, res) => {
   const { page } = req.params || 1;
   const limit = 8;
   const skip = limit * page - limit;
-  if (!isMobile(req.headers["user-agent"])) {
+  if (!isMobile(req.headers['user-agent'])) {
     const gifs = await Gifs.find()
       .skip(skip)
       .limit(limit);
-    res.render("./backend/gifs", { gifs });
+    res.render('./backend/gifs', { gifs });
   } else {
     const gifsMob = await GifsMob.find()
       .skip(skip)
       .limit(limit);
     console.log(gifsMob);
-    res.render("./backend/gifsMob", { gifsMob });
+    res.render('./backend/gifsMob', { gifsMob });
   }
 };
 
@@ -246,7 +246,7 @@ exports.postceg = async (req, res) => {
 
 exports.filters = async (req, res) => {
   const { filters } = req.params;
-  const activeFilters = filters.split("-");
+  const activeFilters = filters.split('-');
   const page = req.params.page || 1;
   const limit = 8;
   const skip = limit * page - limit;
@@ -257,10 +257,10 @@ exports.filters = async (req, res) => {
   // turn active filters into meta suitable
   let title = activeFilters
     .map(string => string.charAt(0).toUpperCase() + string.slice(1))
-    .join(" and ");
+    .join(' and ');
   // edge case for two word filters
-  if (title.includes("Coldemail")) {
-    title = title.replace("Coldemail", "Cold Email");
+  if (title.includes('Coldemail')) {
+    title = title.replace('Coldemail', 'Cold Email');
   }
-  res.render("filters/ext", { cards, title, activeFilters, filters });
+  res.render('filters/ext', { cards, title, activeFilters, filters });
 };

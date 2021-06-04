@@ -1,8 +1,8 @@
-import axios from 'axios';
-import debounce from 'lodash.debounce';
-import { $, $$ } from './bling';
+import axios from "axios";
+import debounce from "lodash.debounce";
+import { $, $$ } from "./bling";
 
-axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
 const rowHeight = 10;
 
@@ -16,62 +16,62 @@ function getFilterParam() {
   // const cegFilterArray = Array.from($$(".cegl__filter-tab"));
   const cegFilterArray =
     window.innerWidth < 930
-      ? Array.from($$('.cegm__bottom-tab'))
-      : Array.from($$('.cegl__filter-tab'));
+      ? Array.from($$(".cegm__bottom-tab"))
+      : Array.from($$(".cegl__filter-tab"));
   const activeFilters = cegFilterArray
-    .filter(filter => filter.classList.contains('cegfilter__active'))
+    .filter(filter => filter.classList.contains("cegfilter__active"))
     .map(each => each.dataset.num)
-    .join('-');
-  return activeFilters.length === 0 ? 'all' : activeFilters;
+    .join("-");
+  return activeFilters.length === 0 ? "all" : activeFilters;
 }
 
 export function cegMobileFilter() {
-  const minus = $('.cegm__top-right-minus');
-  const plus = $('.cegm__top-right-plus');
-  const cross = $('.cegm__bottom-cross');
-  const bottomMenu = $('.cegm__bottom');
+  const minus = $(".cegm__top-right-minus");
+  const plus = $(".cegm__top-right-plus");
+  const cross = $(".cegm__bottom-cross");
+  const bottomMenu = $(".cegm__bottom");
   const clickies = [plus, minus, cross];
   clickies.forEach(clicki => {
-    clicki.on('click', e => {
-      bottomMenu.classList.toggle('cegmtr__active');
-      minus.classList.toggle('cegmtr__active');
-      plus.classList.toggle('cegmtr__active');
+    clicki.on("click", e => {
+      bottomMenu.classList.toggle("cegmtr__active");
+      minus.classList.toggle("cegmtr__active");
+      plus.classList.toggle("cegmtr__active");
     });
   });
 }
 
 export function cegimobtap(parents) {
   parents.forEach(parent => {
-    parent.on('click', e => {
-      parent.classList.toggle('cegimobtap');
+    parent.on("click", e => {
+      parent.classList.toggle("cegimobtap");
     });
   });
 }
 
-export function resizeCegLoad(parent) {
-  const grid = document.querySelector('.cegrid');
-  grid.style.gridAutoRows = 'auto';
-  grid.style.alignItems = 'self-start';
-  parent.forEach(item => {
-    item.classList.remove('cegi__notyetloaded');
-    item.style.gridRowEnd = `span ${Math.round(
-      (item.clientHeight + rowGap) / (rowHeight + rowGap)
-    )}`;
-  });
-  grid.removeAttribute('style');
-}
-
 export function resizeCegAll() {
-  const grid = document.querySelector('.cegrid');
-  grid.style.gridAutoRows = 'auto';
-  grid.style.alignItems = 'self-start';
-  Array.from($$('.cegi')).forEach(item => {
-    item.classList.remove('cegi__notyetloaded');
+  const grid = document.querySelector(".cegrid");
+  grid.style.gridAutoRows = "auto";
+  grid.style.alignItems = "self-start";
+  Array.from($$(".cegi")).forEach(item => {
+    item.classList.remove("cegi__notyetloaded");
     item.style.gridRowEnd = `span ${Math.ceil(
       (item.clientHeight + rowGap) / (rowHeight + rowGap)
     )}`;
   });
-  grid.removeAttribute('style');
+  grid.removeAttribute("style");
+}
+
+export function resizeCegLoad(parent) {
+  const grid = document.querySelector(".cegrid");
+  grid.style.gridAutoRows = "auto";
+  grid.style.alignItems = "self-start";
+  parent.forEach(item => {
+    item.classList.remove("cegi__notyetloaded");
+    item.style.gridRowEnd = `span ${Math.round(
+      (item.clientHeight + rowGap) / (rowHeight + rowGap)
+    )}`;
+  });
+  grid.removeAttribute("style");
 }
 
 export async function cegLoad(filter) {
@@ -81,9 +81,9 @@ export async function cegLoad(filter) {
       `/api/lazyceg/${window.cegpage}/${filterParam}`
     );
     if (filter) {
-      $('.cegrid').innerHTML = data;
+      $(".cegrid").innerHTML = data;
     } else {
-      await $('.cegrid').insertAdjacentHTML('beforeend', data);
+      await $(".cegrid").insertAdjacentHTML("beforeend", data);
     }
     if (!data.length) return;
     const imgloaded = Array.from($$(`[data-fnum='${window.cegpage}']`));
@@ -98,6 +98,7 @@ export async function cegLoad(filter) {
             })
         )
     ).then(() => {
+      console.log(parentsloaded, "beef");
       resizeCegLoad(parentsloaded);
       imgloaded.forEach(img => {
         img.src = img.dataset.src;
@@ -110,7 +111,12 @@ export async function cegLoad(filter) {
         cegimobtap(parentsloaded);
       }
     });
-    if (data.length) window.cegpage += 1;
+    if (data.length) {
+      window.cegpage += 1;
+    } else {
+      resizeCegLoad(parentsloaded);
+      console.log("hoes");
+    }
   } catch (e) {
     console.log(e);
   }
@@ -120,10 +126,10 @@ export function cegFilter() {
   // const cegfilterArray = Array.from($$('.cegl__filter-tab'));
   const cegFilterArray =
     window.innerWidth < 930
-      ? Array.from($$('.cegm__bottom-tab'))
-      : Array.from($$('.cegl__filter-tab'));
+      ? Array.from($$(".cegm__bottom-tab"))
+      : Array.from($$(".cegl__filter-tab"));
   cegFilterArray.forEach(filterItem => {
-    filterItem.on('click', async e => {
+    filterItem.on("click", async e => {
       const { num } = e.currentTarget.dataset;
       e.currentTarget.parentElement.classList.toggle(
         `cegfilters__active${num}`
@@ -137,7 +143,7 @@ export function cegFilter() {
 
 export function cegLoadScroll() {
   window.on(
-    'scroll',
+    "scroll",
     debounce(async () => {
       if (
         Math.round(window.innerHeight + window.scrollY + 500) >=

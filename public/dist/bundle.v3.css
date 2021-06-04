@@ -2344,7 +2344,7 @@ h2.slab {
 .ceRight {
   width: calc(100% - 21.1rem);
   margin-left: 21.1rem;
-  padding: 0 1.6rem; }
+  padding: 0 1.6rem 1.6rem 1.6rem; }
   @media (max-width: 930px) {
     .ceRight {
       margin-left: 0rem;

@@ -1,0 +1,11 @@
+mixin ceg(cegs, pageString)
+  .cegio
+    .cegi
+      .cegi__center(data-html=`${cegs.desc}`)
+        .cegi__center-inner
+      .cegi__left
+        a(href=`${cegs.website}` target="_blank").cegi__left-icon!=icon("link1")
+      .cegi__right
+        each tag in cegs.tags
+          .cegi__right-pill(class=`cegi-shade${tag.code}`)=tag.word
+      img(src=`https://ik.imagekit.io/o08ysq9vx/tr:w-.05,bl-100,q-06/${cegs.img}.png`, alt="" class="ceg__img" data-src=`https://ik.imagekit.io/o08ysq9vx/${cegs.img}.png` data-fnum=`${pageString}`)

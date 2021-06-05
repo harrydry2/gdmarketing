@@ -2425,6 +2425,14 @@ h2.slab {
   grid-auto-rows: 1rem;
   grid-auto-flow: row; }
 
+.cegio {
+  width: calc((100% - 30px) / 3);
+  margin-bottom: 1.5rem; }
+  @media (max-width: 930px) {
+    .cegio {
+      width: calc(100%);
+      margin-bottom: 1.4rem; } }
+
 .cegi {
   position: relative;
   cursor: pointer;

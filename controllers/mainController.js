@@ -50,6 +50,11 @@ exports.twitterhandbook = async (req, res) => {
   res.render('./twitterhandbook/ext');
 };
 
+exports.ce = async (req, res) => {
+  shuffledCeg = dbCeg;
+  res.render('./ce/ext');
+};
+
 exports.copywritingexamples = async (req, res) => {
   // const page = +req.params.page || 1;
   // const limit = 14;

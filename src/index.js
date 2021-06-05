@@ -1,5 +1,6 @@
 import './sass/styles.sass';
 import axios from 'axios';
+import Masonry from 'masonry-layout';
 import debounce from 'lodash.debounce';
 import { $, $$ } from './modules/bling';
 import { postPopup } from './modules/postPopup';
@@ -11,6 +12,8 @@ import {
   cegFilter,
   cegMobileFilter,
 } from './modules/ceg';
+
+import { nuLoad, nuLoadScroll, nuFilter } from './modules/nu';
 import { thScroll, courseScroll } from './modules/thScroll';
 // import { thScroll, courseScroll } from './modules/thScroll1';
 
@@ -43,11 +46,11 @@ if (window.innerWidth < 768) {
   filterArray = array.slice(0, arrayLength / 2);
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
   lazyLoad(filterArray);
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
   console.log('books');
   filterArray.forEach(filterItem => {
     filterItem.on('click', async e => {
@@ -79,7 +82,7 @@ if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
   });
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
   const hmButton = $('.hm__button');
   const hmFilters = $('.hm__filters');
   hmButton.on('click', () => {
@@ -96,7 +99,7 @@ if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
 }
 
 // mailPopup
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
   if (!window.location.href.includes('utm_source=newsletter')) {
     mailPopup();
   } else {
@@ -119,7 +122,7 @@ if ($('.postNoScroll')) {
 }
 
 // popup from homepage (also if close post page)
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg')) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
   postPopup(Array.from($$('.card')));
 }
 
@@ -163,4 +166,10 @@ if ($('.ceg')) {
     cegMobileFilter();
   }
   window.on('resize', debounce(async () => resizeCegAll(), 100));
+}
+
+if ($('.cegM')) {
+  nuLoadScroll();
+  nuLoad(false);
+  nuFilter();
 }

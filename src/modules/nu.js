@@ -1,7 +1,7 @@
 import axios from 'axios';
 import debounce from 'lodash.debounce';
 import Masonry from 'masonry-layout';
-import imagesLoaded from 'imagesLoaded';
+import imagesLoaded from 'imagesloaded';
 import { $, $$ } from './bling';
 
 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';

@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 const cegSchema = new mongoose.Schema({
+  code: String,
   img: String,
   alt: String,
   website: String,

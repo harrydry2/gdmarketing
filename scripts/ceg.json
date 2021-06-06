@@ -1,5 +1,6 @@
 [
   {
+    "code": "1",
     "img": "cegy1",
     "alt": "Support Shepherd Landing Page Title",
     "website": "https://www.supportshepherd.com/",
@@ -13,6 +14,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span> <span class=\"cegx1\">value prop</span>"
   },
   {
+    "code": "2",
     "img": "cegy2",
     "alt": "Wynter Landing Page Title",
     "website": "https://wynter.com/",
@@ -25,6 +27,7 @@
     "desc": "<span class=\"cegxtitle\">Story formula</span><p class=\"ptitle\"><br></p>1. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx7\">“new way”</span><p><br></p>2. “We're <span class=\"cegx1\">how</span> you get there”"
   },
   {
+    "code": "3",
     "img": "cegy3",
     "alt": "Ahrefs Landing Page Title",
     "website": "https://ahrefs.com",
@@ -37,6 +40,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p>Handle main <span class=\"cegx4\">objection</span> + <span class=\"cegx1\">Value</span> you provide"
   },
   {
+    "code": "4",
     "img": "cegy4",
     "alt": "Magic Spoon Packaging",
     "website": "https://magicspoon.com/",
@@ -48,6 +52,7 @@
     "desc": "Clever way of <span class=\"cegx4\">differentiating</span> from cereals that <span class=\"cegxitalic\">do taste like cardboard</span>"
   },
   {
+    "code": "5",
     "img": "cegy5",
     "alt": "Design Academy Landing Page Title",
     "website": "https://www.designacademy.io/",
@@ -61,6 +66,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">What</span> you do + <span class=\"cegx4\">Contrast</span> with <span class=\"cegxitalic\">status quo</span>"
   },
   {
+    "code": "6",
     "img": "cegy6",
     "alt": "First round Landing Page Title",
     "website": "https://firstround.com/",
@@ -75,6 +81,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Forces customer to <span class=\"cegx7\">read on</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. Your <span class=\"cegx5\">wedge</span> + <span class=\"cegx3\">Social proof</span> (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "7",
     "img": "cegy7",
     "alt": "Hotjar Landing Page Title",
     "website": "https://www.hotjar.com/",
@@ -87,6 +94,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx1\">Value</span> you provide + <span class=\"cegx4\">Contrast</span> with <span class=\"cegxitalic\">status quo</span>"
   },
   {
+    "code": "8",
     "img": "cegy8",
     "alt": "Pillow Cube Landing Page Title",
     "website": "https://www.pillowcube.com/",
@@ -100,6 +108,7 @@
     "desc1": "<span class=\"cegxtitle\">“Why we exist” breakdown</span><p class=\"ptitle\"><br></p>Contrasts<span class=\"cegx4\">regular pillows</span> w/ the <span class=\"cegx1\">“pillow cube”</span>.<p><br></p>And you're left thinking you've been sleeping the wrong way your whole life."
   },
   {
+    "code": "9",
     "img": "cegy9",
     "alt": "Get cold turkey Landing Page Title",
     "website": "https://getcoldturkey.com/",
@@ -114,6 +123,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Sells a <span class=\"cegx7\">better version</span> of you (<span class=\"cegxitalic\">title</span>)<span class=\"cegx4\"></span><p><br></p>2. <span class=\"cegx2\">What</span> you do + <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "10",
     "img": "cegy10",
     "alt": "Vintage Lego Ad",
     "website": "",
@@ -126,6 +136,7 @@
     "desc1": "People buy <span class=\"cegx1\">outcomes</span>.<p><br></p> Lego is cool. A proud daughter is cooler."
   },
   {
+    "code": "11",
     "img": "cegy11",
     "alt": "Coinbase Landing Page Title",
     "website": "https://www.coinbase.com/",
@@ -137,6 +148,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>Coinbase are <span class=\"cegxbold\">the #1 in crypto</span>.<p><br></p> They can <span class=\"cegx2\">keep it simple</span>. Their competitors have to be different."
   },
   {
+    "code": "12",
     "img": "cegy12",
     "alt": "Duck Duck Go Billboard Google Tracks You",
     "website": "",
@@ -149,6 +161,7 @@
     "desc1": "Explain <span class=\"cegx4\">why you're different</span> in five words and you've probably wrote a good title"
   },
   {
+    "code": "13",
     "img": "cegy13",
     "alt": "App Sumo Landing Page Title",
     "website": "",
@@ -163,6 +176,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life the <span class=\"cegx1\">outcome</span></span>.<p><br></p>Don't sell speakers. Sell Keith Moon playing drums in your room.<p><br></p> “Only safer” - Great <span class=\"cegx3\">punchline</span>"
   },
   {
+    "code": "14",
     "img": "cegy14",
     "alt": "App Sumo Landing Page Title",
     "website": "",
@@ -176,6 +190,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">People buy <span class=\"cegx1\">outcomes</span></span>.<p><br></p> Don't bore me with pixel specifications. Show me the photo."
   },
   {
+    "code": "15",
     "img": "cegy15",
     "alt": "Walkman vintage ad",
     "website": "",
@@ -188,6 +203,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't sell a walkman.<p><br></p>Sell skating through the park with your boyfriend, listening to your walkman."
   },
   {
+    "code": "16",
     "img": "cegy16",
     "alt": "Tesco conversational copy ads",
     "website": "",
@@ -200,6 +216,7 @@
     "desc": "<span class=\"cegxtitle\">Textbook conversational copy:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Self-aware.</span> <span class=\"cegx6\">Light-hearted.</span> Sounds like my Aunt (who shops at Tesco).</span>"
   },
   {
+    "code": "17",
     "img": "cegy17",
     "alt": "Tesco conversational copy ads",
     "website": "",
@@ -211,6 +228,7 @@
     "desc": "“It's not copy, it's natter” — Ian David"
   },
   {
+    "code": "18",
     "img": "cegy18",
     "alt": "Spacetime Landing Page Title",
     "website": "https://spacetime.am/",
@@ -223,6 +241,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Single-minded <span class=\"cegx1\">value prop</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you create that value (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "19",
     "img": "cegy19",
     "alt": "App Sumo Landing Page Title",
     "website": "https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=GB",
@@ -237,6 +256,7 @@
     "desc1": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> 1. Makes <span class=\"cegxitalic\">YOU</span> the <span class=\"cegx1\">hero</span>. <span class=\"cegxitalic\">You</span> can “defend independence”.<p><br></p>2. All for “just <span class=\"cegx5\">$2.75</span>”<p><br></p>3. <span class=\"cegx4\">Contrast</span> with the “98% who don't give”<p><br></p>4. “If Wikipedia has given you $2.75 worth of knowledge...” — Clever <span class=\"cegx6\"> framing</span>"
   },
   {
+    "code": "20",
     "img": "cegy20",
     "alt": "App Sumo Landing Page Title",
     "website": "https://www.aguulp.com/the-science/",
@@ -250,6 +270,7 @@
     "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> <span class=\"cegx5\">Stats</span> made <span class=\"cegx1\">relatable</span>.<p><br></p>“Acetate” → “Boosts immune system”"
   },
   {
+    "code": "21",
     "img": "cegy21",
     "alt": "Purple Mattress Landing Page Title",
     "website": "https://purple.com/",
@@ -263,6 +284,7 @@
     "desc2": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Contrast</span> with the <span class=\"cegxitalic\">old way</span></span> emphasises Purple's <span class=\"cegxitalic\">new way</span>.<p><br></p>2. “Hardcore macromolecular science”, “30 patents later” — <span class=\"cegx5\">signals quality</span>"
   },
   {
+    "code": "22",
     "img": "cegy22",
     "alt": "Purple Mattress Landing Page Title",
     "website": "https://purple.com/mattresses/purple-bed",
@@ -275,6 +297,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Short, sweet, <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Made believable by <span class=\"cegx5\">specifics</span> (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "23",
     "img": "cegy23",
     "alt": "App Sumo Landing Page Title",
     "website": "https://appsumo.com",
@@ -287,6 +310,7 @@
     "desc": "<span class=\"cegxtitle\">Oldest formula in the book</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you'll create it (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "24",
     "img": "cegy24",
     "alt": "Unscreen Landing Page",
     "website": "https://www.unscreen.com/",
@@ -301,6 +325,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Tangible <span class=\"cegx1\">benefit</span> (w/ <span class=\"cegx6\">alliteration</span>)<p><br></p>2. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx2\">“new way”</span>"
   },
   {
+    "code": "25",
     "img": "cegy25",
     "alt": "App Sumo Landing Page Title",
     "website": "",
@@ -313,6 +338,7 @@
     "desc": "<span class=\"cegxtitle\">Billboard breakdown:</span><p class=\"ptitle\"><br></p>Handle objection. Creates <span class=\"cegx3\">urgency</span>.<br>Makes you chuckle."
   },
   {
+    "code": "26",
     "img": "cegy26",
     "alt": "Tl Dental Landing Page Title",
     "website": "https://www.tldental.com.au/",
@@ -325,6 +351,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p> Handle main <span class=\"cegx6\">objection</span> w/ <span class=\"cegx5\">humour</span>."
   },
   {
+    "code": "27",
     "img": "cegy27",
     "alt": "Veles Landing Page Title",
     "website": "https://veles.com/",
@@ -337,6 +364,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span>, <span class=\"cegxitalic\">surprising</span> <span class=\"cegx1\">value prop</span>"
   },
   {
+    "code": "28",
     "img": "cegy28",
     "alt": "Gumroad Landing Page Title",
     "website": "https://gumroad.com/",
@@ -348,6 +376,7 @@
     "desc": "<span class=\"cegxtitle\">Story formula:</span><p class=\"ptitle\"><br></p>The <span class=\"cegx7\">creator</span> is the <span class=\"cegxitalic cegxbold\">hero</span>. <span class=\"cegx1\">Gumroad</span> is the <span class=\"cegxitalic cegxbold\">guide</span> who helps them on their journey."
   },
   {
+    "code": "29",
     "img": "cegy29",
     "alt": "Fast Landing Page Title",
     "website": "https://www.fast.co/",
@@ -360,6 +389,7 @@
     "desc": "<span class=\"cegxtitle\">Power of three:</span><p class=\"ptitle\"><br></p>Two <span class=\"cegx5\">specifics</span>. One <span class=\"cegx2\">punchline</span>."
   },
   {
+    "code": "30",
     "img": "cegy30",
     "alt": "Yumwoof Landing Page Title",
     "website": "https://yumwoof.com/",
@@ -371,6 +401,7 @@
     "desc": "“The purpose of the first line is to get you to read the second line.” — Joseph Sugarman"
   },
   {
+    "code": "31",
     "img": "cegy31",
     "alt": "Lemonade Landing Page Title",
     "website": "https://www.lemonade.com/de/en",
@@ -385,6 +416,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Pick a fight</span> w/ status quo <span class=\"cegxitalic\">(title)</span><p><br></p>2. Three quickfire <span class=\"cegx2\">differences</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "32",
     "img": "cegy32",
     "alt": "Ogilvy's Hathaway shirt ad",
     "website": "",
@@ -397,6 +429,7 @@
     "desc": "“Nobody reads ads. People read what interests them. Sometimes it’s an ad.” <p><br></p> — Howard Gossage"
   },
   {
+    "code": "33",
     "img": "cegy33",
     "alt": "Hey Email No Data Extraction",
     "website": "https://hey.com/no-data-extraction/",
@@ -410,6 +443,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Picks a fight</span> w/ status quo.<p><br></p>2. Negatives have power. Stating what <span class=\"cegxitalic\">you're not</span> can be more revealing than saying what <span class=\"cegxitalic\">you are</span>"
   },
   {
+    "code": "34",
     "img": "cegy34",
     "alt": "Rxbar packaging",
     "website": "https://www.rxbar.com/",
@@ -421,6 +455,7 @@
     "desc": "<span class=\"cegxtitle\">Packaging breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx5\">Specific</span>. Clear. Concise.<p><br></p>2. <span class=\"cegx4\">Calls out</span> the “B.S.” in “healthy” bars."
   },
   {
+    "code": "35",
     "img": "cegy35",
     "alt": "Patek Phillipe Ad",
     "website": "https://www.patek.com/en/home",
@@ -433,6 +468,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Excellent <span class=\"cegx6\">reframe</span>. You're not buying an expensive watch. You're starting a tradition."
   },
   {
+    "code": "36",
     "img": "cegy36",
     "alt": "Sexy Food Therapy Page Title",
     "website": "https://sexyfoodtherapy.com/",
@@ -447,6 +483,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Real</span> person w/ <span class=\"cegx3\">personality</span><p><br></p>Will outsell any faceless brand."
   },
   {
+    "code": "37",
     "img": "cegy37",
     "alt": "Who Gives A Crap Landing Page Title",
     "website": "https://uk.whogivesacrap.org/",
@@ -461,6 +498,7 @@
     "desc1": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Reframe</span> regular toilet paper as trees.<p><br></p> 2. Makes <span class=\"cegxitalic\">recycled toilet paper</span> make sense."
   },
   {
+    "code": "38",
     "img": "cegy38",
     "alt": "Less AccountingLanding Page Title",
     "website": "https://www.lessaccounting.com/",
@@ -473,6 +511,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">What</span> you do + <span class=\"cegx4\">Contrast</span> w/ status quo"
   },
   {
+    "code": "39",
     "img": "cegy39",
     "alt": "Replens Ad",
     "website": "http://www.replens.com/",
@@ -487,6 +526,7 @@
     "desc2": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>The power of simplicity.<p><br></p><span class=\"cegxitalic\">Four words and a photo.</span><p><br></p>“Eliminate the unnecessary so that the necessary may speak.” <p><br></p>— Hans Hofman"
   },
   {
+    "code": "40",
     "img": "cegy40",
     "alt": "Funny Dentistry ad",
     "website": "",
@@ -500,6 +540,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Engages</span> reader. <span class=\"cegx3\">Agitates</span> pain. <br>Makes you chuckle."
   },
   {
+    "code": "41",
     "img": "cegy41",
     "alt": "Dave Harland copy",
     "website": "",
@@ -513,6 +554,7 @@
     "desc": "“Don't write <span class=\"cegxitalic\">AT</span> the reader. <span class=\"cegx6\">Involve</span> the reader in your copy.” — Dave Harland"
   },
   {
+    "code": "42",
     "img": "cegy42",
     "alt": "Conversational copy popup",
     "website": "",
@@ -527,6 +569,7 @@
     "desc": "<span class=\"cegxtitle\">Lead magnet breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">title</span>)<p><br></p>2. Brought to life <span class=\"cegxitalic\">(visual)</span><p><br></p>3. <span class=\"cegx7\">Actionable</span> next step (<span class=\"cegxitalic\">CTA</span>)"
   },
   {
+    "code": "43",
     "img": "cegy43",
     "alt": "Ogilvy's Rolls-Royce ad",
     "website": "",
@@ -538,6 +581,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't <span class=\"cegxitalic\">TRY</span> and persuade.<p><br></p>Let the reader <span class=\"cegx3\">persuade themselves</span>."
   },
   {
+    "code": "44",
     "img": "cegy44",
     "alt": "Old school Volvo ad",
     "website": "",
@@ -551,6 +595,7 @@
     "desc": "“Interrogate the product until it confesses its strengths” — Robin Wight"
   },
   {
+    "code": "45",
     "img": "cegy45",
     "alt": "Annie Maguire Landing Page Title",
     "website": "https://anniemaguire.com/",
@@ -563,6 +608,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Sell the <span class=\"cegx1\">transformation</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Explain <span class=\"cegx6\">how</span> you'll create it <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "46",
     "img": "cegy46",
     "alt": "Wise Landing Page",
     "website": "",
@@ -576,6 +622,7 @@
     "desc": "<span class=\"cegxtitle\">Subheader breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegxitalic\">“Join 10M people”</span> - <span class=\"cegx3\">Credibility</span><p><br></p>2. <span class=\"cegxitalic\">“real exchange rate”</span> - <span class=\"cegx1\">Value prop</span><p><br></p>3. <span class=\"cegxitalic\">“8x cheaper”</span> <span class=\"cegx4\">Differentiator</span>"
   },
   {
+    "code": "47",
     "img": "cegy47",
     "alt": "100% refund copy",
     "website": "https://www.miraclebrand.co/",
@@ -587,6 +634,7 @@
     "desc": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> <span class=\"cegx6\">Engages</span> reader. Handles <span class=\"cegx1\">objection</span>. <br> Removes <span class=\"cegx4\">friction</span>."
   },
   {
+    "code": "48",
     "img": "cegy48",
     "alt": "Spark Loop Landing Page Title",
     "website": "https://sparkloop.app/",
@@ -600,6 +648,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx2\">Own</span> your niche<span class=\"cegxitalic\"> (title)</span><p><br></p>2. <span class=\"cegx1\">Outcome</span> made <span class=\"cegx3\">believable</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "49",
     "img": "cegy49",
     "alt": "Innocent Ad",
     "website": "",
@@ -615,6 +664,7 @@
     "desc1": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Question</span> engages reader <span class=\"cegxitalic\"></span> <p><br></p>2. <span class=\"cegx6\">Repetition</span> creates rhythm<span class=\"cegxitalic\"></span><p><br></p>3. <span class=\"cegx1\">Bring to life</span> <span class=\"cegxitalic\">(“Sugar” → “Kids bouncing into walls”)"
   },
   {
+    "code": "50",
     "img": "cegy50",
     "alt": "Privy's Landing Page Title",
     "website": "https://www.privy.com/",
@@ -627,6 +677,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx7\">Own</span> your niche<span class=\"cegxitalic\"> (title)</span><p><br></p>2. <span class=\"cegx1\">Value</span> you provide + <span class=\"cegx2\">How</span> you create it <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "51",
     "img": "cegy51",
     "alt": "Descript Landing Page Title",
     "website": "https://www.descript.com/",
@@ -639,6 +690,7 @@
     "desc1": "A throwaway line a customer might say that captures your product in a way a formula can’t."
   },
   {
+    "code": "52",
     "img": "cegy52",
     "alt": "Alberta Business Grants Landing Page Title",
     "website": "https://albertabusinessgrants.ca/",
@@ -652,6 +704,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx2\">Own</span> your niche<span class=\"cegxitalic\"> (title)</span><p><br></p>2. Establish <span class=\"cegx3\">credibility</span>. Quickfire <span class=\"cegx1\">benefits</span>. Remove <span class=\"cegx6\">friction</span>. <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "53",
     "img": "cegy53",
     "alt": "Baremetrics Recover Landing Page Title",
     "website": "https://baremetrics.com/features/recover",
@@ -666,6 +719,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p>1. Introduce <span class=\"cegx5\">problem</span> <span class=\"cegxitalic\">(“MRR at risk...”)</span><p><br></p>2. Forces user to <span class=\"cegx6\">confront it</span> <span class=\"cegxitalic\">(“What are you...”)</span>"
   },
   {
+    "code": "54",
     "img": "cegy54",
     "alt": "Coda Landing Page Title",
     "website": "https://coda.io/",
@@ -678,6 +732,7 @@
     "desc": "“Put a <span class=\"cegx4\">mood</span> into words. Transfer that mood to the reader” — Helen Woodward"
   },
   {
+    "code": "55",
     "img": "cegy55",
     "alt": "Shopify Landing Page Title",
     "website": "https://www.shopify.com/",
@@ -686,6 +741,7 @@
     "desc": "<span class=\"cegxtitle\">Story formula:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">You</span> are the <span class=\"cegxitalic cegxbold\">hero</span>. <span class=\"\">You</span> can start a business. <span class=\"cegx1\">Shopify</span> <span class=\"cegxitalic cegxbold\">helps</span> you on your journey."
   },
   {
+    "code": "56",
     "img": "cegy56",
     "alt": "Old Spice Landing Page Title",
     "website": "https://oldspice.com/",
@@ -698,6 +754,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>People buy w/ <span class=\"cegx1\">emotion</span>. Don't sell <span class=\"cegxitalic\">deodrant</span>. Sell <span class=\"cegxitalic\">first date confidence</span>."
   },
   {
+    "code": "57",
     "img": "cegy57",
     "alt": "Duolingo Landing Page Title",
     "website": "https://www.duolingo.com/",
@@ -710,6 +767,7 @@
     "desc": "“If you’ve got something great to say, go ahead and say it. Free beer is free frickin’ beer”<p><br></p>— Ian David"
   },
   {
+    "code": "58",
     "img": "cegy58",
     "alt": "Angels Cup Landing Page title",
     "website": "https://angelscup.com/",
@@ -722,6 +780,7 @@
     "desc": "<span class=\"cegxtitle\">Title formula:</span><p class=\"ptitle\"><br></p>Why you're <span class=\"cegx4\">different</span> + <span class=\"cegx2\">What</span> you do"
   },
   {
+    "code": "59",
     "img": "cegy59",
     "alt": "Huel Facebook ad",
     "website": "https://www.instagram.com/huel/",
@@ -735,6 +794,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Engages</span> reader <span class=\"cegxitalic\">(“Did you know...”)</span><p><br></p>2. <span class=\"cegx2\">Reframes</span> value <span class=\"cegxitalic\">(“160g protein” → “More protein than 4 eggs”)</span><p><br></p>3. <span class=\"cegx5\">Specific</span> punchline <span class=\"cegxitalic\">(“Only £1.32...”)</span>"
   },
   {
+    "code": "60",
     "img": "cegy60",
     "alt": "Huel ad",
     "website": "https://www.instagram.com/huel/",
@@ -749,6 +809,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Juxtoposition</span> creates intrigue <span class=\"cegxitalic\">(title)</span> <p><br></p> 2. Specifics makes <span class=\"cegx5\">believable</span> (“£1.32 per meal”, “Complete nutrition”)"
   },
   {
+    "code": "61",
     "img": "cegy61",
     "alt": "Smile Direct Club Landing Page Title",
     "website": "https://smiledirectclub.com/",
@@ -763,6 +824,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Outcome</span> + Price <span class=\"cegx6\">reframe</span> <span class=\"cegxitalic\">(title)</span> <p><br></p>2. Three <span class=\"cegx2\">objections</span> handled <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "62",
     "img": "cegy62",
     "alt": "Fix my churn landing Page Title",
     "website": "https://fixmychurn.com/",
@@ -776,6 +838,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>Customers buy <span class=\"cegx1\">outcomes</span>.<p><br></p>You don't write <span class=\"cegxitalic\">email sequences, help docs, and micro copy</span>. You create <span class=\"cegxitalic\">customers for life</span>."
   },
   {
+    "code": "63",
     "img": "cegy63",
     "alt": "Slack Landing Page Title",
     "website": "https://slack.com/intl/en-gb/",
@@ -790,6 +853,7 @@
     "desc2": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Write what no-one else can. <span class=\"cegx5\">Bespoke</span> copy stands out. </span>"
   },
   {
+    "code": "64",
     "img": "cegy64",
     "alt": "Success Minds Landing Page Title",
     "website": "https://successminds.com/product/lose-weight-hypnosis/",
@@ -804,6 +868,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Engage</span> reader <span class=\"cegxitalic\">(title)</span><p><br></p>2. Create <span class=\"cegx1\">interest</span> <span class=\"cegxitalic\">(subtitle)</span><p><br></p>3. Add <span class=\"cegx5\">crediblity</span> <span class=\"cegxitalic\">(social proof)</span>"
   },
   {
+    "code": "65",
     "img": "cegy65",
     "alt": "Alberta Business Grants Popup",
     "website": "https://albertabusinessgrants.ca/",
@@ -817,6 +882,7 @@
     "desc1": "<span class=\"cegxtitle\">Lead magnet breakdown:</span><p class=\"ptitle\"><br></p>1. Tease <span class=\"cegx1\">outcome</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Introduce <span class=\"cegx4\">stumbling block</span> <span class=\"cegxitalic\">(“But...”)</span><p><br></p>3. Present <span class=\"cegx2\">solution</span> <span class=\"cegxitalic\">(“Learn...”)</span>"
   },
   {
+    "code": "66",
     "img": "cegy66",
     "alt": "1000 songs in your pocket",
     "website": "",
@@ -830,6 +896,7 @@
     "desc2": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>1. Juxtoposition === Interest<p><br></p> 2. Apple <span class=\"cegxbold\">made</span><span class=\"cegxitalic\"> a portable media player</span>. They <span class=\"cegxbold\">sold</span> <span class=\"cegxitalic\">what it can do for you</span>."
   },
   {
+    "code": "67",
     "img": "cegy67",
     "alt": "Patch plants popup",
     "website": "https://www.patchplants.com/gb/en/",
@@ -843,6 +910,7 @@
     "desc": "<span class=\"cegxtitle\">Lead magnet breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx7\">Friendly face</span> <span class=\"cegxitalic\"></span><p><br></p>2. Succinct <span class=\"cegx1\">value prop</span> <span class=\"cegxitalic\">(title)</span><p><br></p>3. <span class=\"cegx2\">How</span> you'll create <span class=\"\">it</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "68",
     "img": "cegy68",
     "alt": "Mailbrew landing page title",
     "website": "https://mailbrew.com/",
@@ -857,6 +925,7 @@
     "desc": "Copywriting is selling. Selling is persuading. Persuading is arguing<p><br></p>Communicating value via contrast with “newsfeeds” is a good way of arguing."
   },
   {
+    "code": "69",
     "img": "cegy69",
     "alt": "Hinge slogan",
     "website": "https://hinge.co/",
@@ -867,6 +936,7 @@
     "desc1": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Differentiated value prop.<p><br></p><span class=\"cegx6\">Alliteration</span> and <span class=\"cegx3\">juxtposition</span> make it memorable."
   },
   {
+    "code": "70",
     "img": "cegy70",
     "alt": "Medium landing page title",
     "website": "",
@@ -878,6 +948,7 @@
     "desc": "<span class=\"cegxtitle\">Story formula:</span><p class=\"ptitle\"><br></p>Your <span class=\"cegx7\">ideas</span> are the <span class=\"cegxbold cegxitalic\">hero</span>. <span class=\"cegx1\">Medium</span> is the <span class=\"cegxbold cegxitalic\">guide</span> who helps your ideas take off."
   },
   {
+    "code": "71",
     "img": "cegy71",
     "alt": "Dormio landing page title",
     "website": "https://dormio.co",
@@ -890,6 +961,7 @@
     "desc": "<span class=\"cegxtitle\">Bring to life the outcome</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegxitalic\">“most restful sleep”</span> - <span class=\"cegx1\">outcome</span><p><br></p>2. <span class=\"cegxitalic\">“only a sip away”</span> - <span class=\"cegx6\">brought to life</span>"
   },
   {
+    "code": "72",
     "img": "cegy72",
     "alt": "Michael Jordan “I'm back”",
     "website": "",
@@ -898,6 +970,7 @@
     "desc": "“The less you say, the more weight your words carry.” — Leigh Bardugo"
   },
   {
+    "code": "73",
     "img": "cegy73",
     "alt": "Ritual landing page",
     "website": "https://ritual.com/",
@@ -912,6 +985,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>Sell the <span class=\"cegx1\">transformation</span>.<p><br></p><span class=\"cegxitalic\">“a moment” → “something real”</span>"
   },
   {
+    "code": "74",
     "img": "cegy74",
     "alt": "Ritual landing page",
     "website": "https://ritual.com/",
@@ -925,6 +999,7 @@
     "desc1": "<span class=\"cegxtitle\">Features + Benefits breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Picks a fight</span> w/ <span class=\"cegxitalic\">status quo</span <span class=\"cegxitalic\">(title)</span><p><br></p>2. Specifically, why you're <span class=\"cegx2\">different</span> <span class=\"cegxitalic\">(bullets)</span>"
   },
   {
+    "code": "75",
     "img": "cegy75",
     "alt": "Diamond Shreddies packaging",
     "website": "https://diamondshreddies.com",
@@ -933,6 +1008,7 @@
     "desc": "Sometimes it's as easy as looking at your product from a different <span class=\"cegx3\">angle</span> ;)"
   },
   {
+    "code": "76",
     "img": "cegy76",
     "alt": "",
     "website": "",
@@ -946,6 +1022,7 @@
     "desc2": "“All you have to do is write one true sentence” — Ernest Hemingway"
   },
   {
+    "code": "77",
     "img": "cegy77",
     "alt": "",
     "website": "https://mybillie.com/pages/razor",
@@ -959,6 +1036,7 @@
     "desc1": "<span class=\"cegxtitle\">PAS formula:</span><p class=\"ptitle\"><br></p>1. Present <span class=\"cegx3\">problem</span> <span class=\"cegxitalic\">(“Fact:”)</span> <p><br></p> 2. <span class=\"cegx4\">Agitate</span> pain <span class=\"cegxitalic\">(“10x the area...”)</span><p><br></p> 3. Present <span class=\"cegx1\">solution</span> <span class=\"cegxitalic\">(“Desigined for womenkind”)</span>"
   },
   {
+    "code": "78",
     "img": "cegy78",
     "alt": "",
     "website": "https://www.privy.com/",
@@ -973,6 +1051,7 @@
     "desc1": "“A man who makes a specific claim is either telling the truth or a lie. People do not expect an advertiser to lie.”<p><br></p>— Claude Hopkins (1923)”"
   },
   {
+    "code": "79",
     "img": "cegy79",
     "alt": "",
     "website": "https://medium.com/about",
@@ -986,6 +1065,7 @@
     "desc2": "<span class=\"cegxtitle\">Contrast principle:</span><p class=\"ptitle\"><br></p>Stating what you're <span class=\"cegx4\">not</span> emphasises what you <span class=\"cegx1\">are</span>."
   },
   {
+    "code": "80",
     "img": "cegy80",
     "alt": "",
     "website": "https://us.oatly.com/pages/the-oatly-way",
@@ -999,6 +1079,7 @@
     "desc": "<span class=\"cegxtitle\">Packaging breakdown:</span><p class=\"ptitle\"><br></p>Give customer's something to remember.<p><br></p><span class=\"cegx7\">Purpose</span>. <span class=\"cegx6\">Humour</span>. <span class=\"cegx4\">Personality</span>."
   },
   {
+    "code": "81",
     "img": "cegy81",
     "alt": "",
     "website": "",
@@ -1011,6 +1092,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>1. Pattern <span class=\"cegx6\">interrupt</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Set up <span class=\"cegx4\">contrast</span> <span class=\"cegxitalic\">(“illegal to...”)</span><p><br></p>3. Deliver <span class=\"cegx3\">punchline</span> <span class=\"cegxitalic\">(“not illegal to...”)</span>"
   },
   {
+    "code": "82",
     "img": "cegy82",
     "alt": "",
     "website": "https://www.tovala.com/",
@@ -1024,6 +1106,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx4\">Niche</span> you serve. <span class=\"cegx1\">Value</span> you provide em'."
   },
   {
+    "code": "83",
     "img": "cegy83",
     "alt": "",
     "website": "",
@@ -1036,6 +1119,7 @@
     "desc": "Your job is to… marry an essential brand truth to a universal human desire, and do so in a way that’s clear, persuasive and impactful. – Ian David"
   },
   {
+    "code": "84",
     "img": "cegy84",
     "alt": "",
     "website": "https://www.chanel.com/gb/mothers-day/",
@@ -1048,6 +1132,7 @@
     "desc1": "<span class=\"cegxtitle\">The best ads feel <span class=\"cegxitalic\">REAL</span>:</span><p class=\"ptitle\"><br></p>Children's drawing of Chanel bottle for Mother's day."
   },
   {
+    "code": "85",
     "img": "cegy85",
     "alt": "",
     "website": "",
@@ -1061,6 +1146,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Embrace your <span class=\"cegx5\">flaws</span>.<p><br></p>It's endearing. It builds trust. It kicks the elephant out the room."
   },
   {
+    "code": "86",
     "img": "cegy86",
     "alt": "",
     "website": "https://www.uksmosthatedsalestrainer.com/",
@@ -1072,6 +1158,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx4\">Memorable</span> is more important than <span class=\"\">likeable</span>."
   },
   {
+    "code": "87",
     "img": "cegy87",
     "alt": "",
     "website": "https://www.thatplumber.co.uk/",
@@ -1084,6 +1171,7 @@
     "desc": "<span class=\"cegxtitle\">Friendly conversational copy:</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">Contractions</span>. <span class=\"cegx6\">Parentheses</span>. <span class=\"cegx7\">Colloquial</span> language."
   },
   {
+    "code": "88",
     "img": "cegy88",
     "alt": "",
     "website": "https://www.manual.co/",
@@ -1097,6 +1185,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Picks a fight</span> w/ <span class=\"cegxitalic\">status quo</span> <p><br></p> 2. Contrast “<span class=\"cegx6\">old way</span>” w/ your “<span class=\"cegx2\">new way</span>”"
   },
   {
+    "code": "89",
     "img": "cegy89",
     "alt": "",
     "website": "https://quantumsquares.com/",
@@ -1109,6 +1198,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Exactly</span> <span class=\"cegx2\">what you do</span> (in as few words as possible)"
   },
   {
+    "code": "90",
     "img": "cegy90",
     "alt": "",
     "website": "https://www.prosperops.com/",
@@ -1121,6 +1211,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span> <span class=\"cegx1\">outcome</span>"
   },
   {
+    "code": "91",
     "img": "cegy91",
     "alt": "",
     "website": "https://www.bakersdelight.com.au/",
@@ -1133,6 +1224,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx4\">Picks a fight</span> w/ factory bread.<p><br></p> An enemy gives you a story to tell. <span class=\"cegx6\">Alliteration</span> makes it memorable."
   },
   {
+    "code": "92",
     "img": "cegy92",
     "alt": "",
     "website": "https://hiutdenim.co.uk/blogs/story/4800102-do-one-thing-well",
@@ -1145,6 +1237,7 @@
     "desc": "<span class=\"cegxtitle\">“Brand manifesto” breakdown:</span><p class=\"ptitle\"><br></p>1. Four word <span class=\"cegx3\">philosophy</span>. <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx2\">What</span> you do. <span class=\"cegx7\">Why</span> you do it. <span class=\"cegxitalic\">(paragraphs)</span>"
   },
   {
+    "code": "93",
     "img": "cegy93",
     "alt": "",
     "website": "https://quantumsquares.com/",
@@ -1159,6 +1252,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Alliteration</span>, <span class=\"cegx7\">repetition</span>, <span class=\"cegx2\">varied sentence length</span> create <span class=\"cegxitalic cegxbold\">rhythm</span>.<p><br></p><span class=\"cegxitalic\">Don't write words. Write music.</span>"
   },
   {
+    "code": "94",
     "img": "cegy94",
     "alt": "",
     "website": "https://www.instagram.com/davegerhardtdgmg/",
@@ -1171,6 +1265,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx4\">Why you exist</span> in a line."
   },
   {
+    "code": "95",
     "img": "cegy95",
     "alt": "",
     "website": "",
@@ -1185,6 +1280,7 @@
     "desc4": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>1. Get your <span class=\"cegx5\">attention</span> <span class=\"cegxitalic\">(punchline)</span>.<p><br></p>2. Get you <span class=\"cegx4\">thinking</span>."
   },
   {
+    "code": "96",
     "img": "cegy96",
     "alt": "",
     "website": "",
@@ -1197,6 +1293,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx4\">Picks a fight</span> w/ fancy coffee.<p><br></p> Forces customer's to pick a side."
   },
   {
+    "code": "97",
     "img": "cegy97",
     "alt": "",
     "website": "",
@@ -1211,6 +1308,7 @@
     "desc": "<span class=\"cegxitalic\">A Volkswagen ad about how to do a Volkswagen ad.</span><p><br></p>Confidence."
   },
   {
+    "code": "98",
     "img": "cegy98",
     "alt": "",
     "website": "https://www.ikea.com/ms/en_JP/this-is-ikea/ikea-highlights/Best-IKEA-ads/index.html",
@@ -1225,6 +1323,7 @@
     "desc3": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\"></span>A good night sleep is the <span class=\"cegxitalic cegxbold\">hero</span>. Fad supplements are the <span class=\"cegxitalic cegxbold\">enemy</span>. <br>Ikea's pillows are the <span class=\"cegxitalic cegxbold\">guide</span> who helps solve the hero's problems."
   },
   {
+    "code": "99",
     "img": "cegy99",
     "alt": "",
     "website": "",
@@ -1237,6 +1336,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Present <span class=\"cegx5\">problem</span>. Introduce <span class=\"cegx1\">solution</span>.<p><br></p><span class=\"cegx6\">Paradoxical</span> question w/ <span class=\"cegx6\">parallel</span> structure make a memorable hook."
   },
   {
+    "code": "100",
     "img": "cegy100",
     "alt": "",
     "website": "https://basecamp.com/",
@@ -1252,6 +1352,7 @@
     "desc": "<span class=\"cegxtitle\">“Before and after” breakdown:</span><p class=\"ptitle\"><br></p>1. Casual. <span class=\"cegx7\">Colloquial</span>. Full of <span class=\"cegx6\">pronouns</span></span>.<p><br></p>2. Doesn't <span class=\"cegxitalic\">persuade</span>. Let's reader <span class=\"cegxitalic\">persuade themselves</span>."
   },
   {
+    "code": "101",
     "img": "cegu101",
     "alt": "",
     "website": "https://appsumo.com/",
@@ -1266,6 +1367,7 @@
     "desc1": "<span class=\"cegxtitle\">“Three simple steps” breakdown:</span><p class=\"ptitle\"><br></p>Two <span class=\"cegx2\">steps.</span> One <span class=\"cegx1\">outcome</span>."
   },
   {
+    "code": "102",
     "img": "cegu102",
     "alt": "",
     "website": "https://curology.com/free-trial/",
@@ -1279,6 +1381,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefit” breakdown:</span><p class=\"ptitle\"><br></p>1. Your <span class=\"cegx5\">difference</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx4\">Problem</span>. <span class=\"cegx6\">Agitate</span>. <span class=\"cegx2\">Solution</span>. <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "103",
     "img": "cegu103",
     "alt": "",
     "website": "https://yumwoof.com/",
@@ -1291,6 +1394,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Bold <span class=\"cegx3\">claim</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Made concrete w/ <span class=\"cegx4\">contrast</span> and <span class=\"cegx5\">specifics</span> <span class=\"cegxitalic\">(subtitle)</span><p><br></p>3. Reiterate <span class=\"cegx2\">USP</span> <span class=\"cegxitalic\">(CTA)</span>"
   },
   {
+    "code": "104",
     "img": "cegu104",
     "alt": "",
     "website": "https://yumwoof.com/",
@@ -1304,6 +1408,7 @@
     "desc": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. Your <span class=\"cegx5\">purpose</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx4\">Pick a fight</span> w/ <span class=\"cegxitalic\">status-quo</span>. Contrast <span class=\"cegx1\">outcomes</span>. <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "105",
     "img": "cegu105",
     "alt": "",
     "website": "https://www.drift.com/drift-vs-intercom/",
@@ -1312,6 +1417,7 @@
     "desc": "<span class=\"cegxtitle\">“Competitor comparison” breakdown:</span><p class=\"ptitle\"><br></p>“A small <span class=\"cegx6\">admission</span> gains a large <span class=\"cegx7\">acceptance</span>”<p><br></p>— Bill Bernbach"
   },
   {
+    "code": "106",
     "img": "cegu106",
     "alt": "",
     "website": "",
@@ -1325,6 +1431,7 @@
     "desc1": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx6\">Open question</span> engages reader<p><br></p>2. <span class=\"cegx4\">Contrast</span> emphasises USP."
   },
   {
+    "code": "107",
     "img": "cegu107",
     "alt": "",
     "website": "https://www.miraclebrand.co/",
@@ -1337,6 +1444,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Two word</span> <span class=\"cegx4\">contrasts</span>. Say more w/ less."
   },
   {
+    "code": "108",
     "img": "cegu108",
     "alt": "",
     "website": "https://unplugged.rest/",
@@ -1350,6 +1458,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Bring to life value <span class=\"cegxitalic\">(visual)</span> <p><br></p> 2. Sell <span class=\"cegx4\">contrast</span> w/ <span class=\"cegx6\">double entendre</span>. <span class=\"cegxitalic\">(title)</span> <p><br></p> 3. <span class=\"cegx2\">How</span> it works <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "109",
     "img": "cegu109",
     "alt": "",
     "website": "",
@@ -1362,6 +1471,7 @@
     "desc": "<span class=\"cegxtitle\">Pret's COVID response:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">How you build a brand.</span><p><br></p>Lovely <span class=\"cegx5\">touch</span>. Lovely <span class=\"cegx6\">tone</span>."
   },
   {
+    "code": "110",
     "img": "cegu110",
     "alt": "",
     "website": "",
@@ -1375,6 +1485,7 @@
     "desc": "<span class=\"cegxtitle\">The ad that got America brushing their teeth:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Intrigue</span> reader <span class=\"cegxitalic\">(title)</span><p><br></p>2. Make <span class=\"cegx2\">problem</span> <span class=\"cegx7\">tangible</span> <span class=\"cegxitalic\">(2nd line)</span><p><br></p> 3. Present <span class=\"cegx1\">solution</span> <span class=\"cegxitalic\">(3rd line)"
   },
   {
+    "code": "111",
     "img": "cegu111",
     "alt": "",
     "website": "",
@@ -1386,6 +1497,7 @@
     "desc": "<span class=\"cegxtitle\">“Social proof” breakdown</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Scannable</span>. <span class=\"cegx5\">Specific</span>. <span class=\"cegx7\">Vibrant</span>."
   },
   {
+    "code": "112",
     "img": "cegu112",
     "alt": "",
     "website": "https://paste.bywetransfer.com/",
@@ -1398,6 +1510,7 @@
     "desc": "<span class=\"cegxtitle\">Features + Benefits breakdown:</span><p class=\"ptitle\"><br></p>1. Sell the <span class=\"cegx7\">transformation</span> <span class=\"cegxitalic\">(“messy → beautiful”)</span><p><br></p>2. Explain <span class=\"cegx2\">how</span> you get there <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "113",
     "img": "cegu113",
     "alt": "",
     "website": "https://mailninja.co.uk/",
@@ -1410,6 +1523,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">Own</span> your niche."
   },
   {
+    "code": "114",
     "img": "cegu114",
     "alt": "",
     "website": "",
@@ -1423,6 +1537,7 @@
     "desc1": "<span class=\"cegxtitle\">Poster breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Simile</span> and <span class=\"cegx6\">punchline</span> paint a picture...<p><br></p>Who doesn't want to try “mum's homemade cider before she was arrested...”?<p><br></p>“"
   },
   {
+    "code": "115",
     "img": "cegu115",
     "alt": "https://www.designacademy.io/",
     "website": "",
@@ -1434,6 +1549,7 @@
     "desc": "<span class=\"cegxtitle\">“Founders note” breakdown:</span><p class=\"ptitle\"><br></p>1. Put yourself in <span class=\"cegx5\">customer's shoes</span>.<p><br></p>2. Empathise w/ their <span class=\"cegx6\">problem</span>. <p><br></p>3. Introduce your <span class=\"cegx1\">solution</span>."
   },
   {
+    "code": "116",
     "img": "cegu116",
     "alt": "",
     "website": "https://muzzleapp.com/",
@@ -1447,6 +1563,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Exactly</span> <span class=\"cegx2\">what you do</span>."
   },
   {
+    "code": "117",
     "img": "cegu117",
     "alt": "",
     "website": "https://uk.huel.com/",
@@ -1461,6 +1578,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx2\">Own</span> your niche. <span class=\"cegxitalic\">(title)</span><p><br></p> 2. Establish <span class=\"cegx5\">credibility</span>. <span class=\"cegxitalic\">(“150 million meals...”)</span><p><br></p> 3. Quickfire <span class=\"cegx1\">selling-points</span>. <span class=\"cegxitalic\">(“26 vitamins”, “save time”, “only £1.32”)</span>"
   },
   {
+    "code": "118",
     "img": "cegu118",
     "alt": "",
     "website": "https://wiza.co/",
@@ -1474,6 +1592,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx5\">Specific</span> outcome <span class=\"cegxitalic\">(title)</span><p><br></p>2. Contrast <span class=\"cegx4\">“old way”</span> w/ your <span class=\"cegx1\">“new way”</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "119",
     "img": "cegu119",
     "alt": "",
     "website": "https://www.miraclebrand.co/pages/miracle-sheets",
@@ -1486,6 +1605,7 @@
     "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx3\">Logos</span> add <span class=\"cegxitalic\">credibility</span>. <span class=\"cegx2\">Quotes</span> <span class=\"cegxitalic\">sell</span> product."
   },
   {
+    "code": "120",
     "img": "cegu120",
     "alt": "",
     "website": "https://oonagoods.com/",
@@ -1499,6 +1619,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. Pick a <span class=\"cegx4\">fight</span> w/ status-quo <span class=\"cegxitalic\">(title)</span><p><br></p>2. Explain <span class=\"cegx3\">why</span> <span class=\"cegxitalic\">(“51,000 trees...”)</span><p><br></p>3. Present <span class=\"cegx1\">solution</span> <span class=\"cegxitalic\">(“Kick the habit...”)</span>"
   },
   {
+    "code": "121",
     "img": "cegu121",
     "alt": "",
     "website": "https://designacademy.com",
@@ -1512,6 +1633,7 @@
     "desc2": "<span class=\"cegxtitle\">Lead magnet breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx5\">Specific</span> value prop <span class=\"cegxitalic\">(title)</span><p><br></p>2. Tangible <span class=\"cegx1\">value</span> <span class=\"cegxitalic\">(CTA)</span> <p><br></p>3. Establish <span class=\"cegx5\">credibility</span> <span class=\"cegxitalic\">(social proof)</span>"
   },
   {
+    "code": "122",
     "img": "cegu122",
     "alt": "",
     "website": "",
@@ -1524,6 +1646,7 @@
     "desc": "<span class=\"cegxtitle\">Tesco's COVID response:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">How you build a brand.</span><p><br></p>Lovely <span class=\"cegx3\">touch</span>. Lovely <span class=\"cegx7\">tone</span>."
   },
   {
+    "code": "123",
     "img": "cegu123",
     "alt": "",
     "website": "https://riverside.fm/",
@@ -1536,6 +1659,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Lead w/ <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Contrast “<span class=\"cegx4\">old way</span>” with your “<span class=\"cegx6\">new way</span>”"
   },
   {
+    "code": "124",
     "img": "cegu124",
     "alt": "",
     "website": "https://riverside.fm/",
@@ -1549,6 +1673,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Lead w/ <span class=\"cegx2\">feature</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Explain <span class=\"cegx5\">specifics</span> + Bring to life <span class=\"cegx1\">outcome</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "125",
     "img": "cegu125",
     "alt": "",
     "website": "https://www.iplanetstore.in/products/bts",
@@ -1560,6 +1685,7 @@
     "desc": "“One headline. Two purposes.” — Alex Garcia"
   },
   {
+    "code": "126",
     "img": "cegu126",
     "alt": "",
     "website": "https://www.remove.bg/",
@@ -1573,6 +1699,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p>Clear <span class=\"cegx1\">value-prop</span>. Quickfire <span class=\"cegx5\">objection handling</span>."
   },
   {
+    "code": "127",
     "img": "cegu127",
     "alt": "",
     "website": "https://www.privy.com/",
@@ -1585,6 +1712,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Lead w/ <span class=\"cegx5\">benefit</span>. <span class=\"cegxitalic\">(title)</span><p><br></p>2. Explain <span class=\"cegx2\">feature</span>. Bring to life <span class=\"cegx1\">outcome</span>. <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "128",
     "img": "cegu128",
     "alt": "",
     "website": "https://www.miraclebrand.co/",
@@ -1597,6 +1725,7 @@
     "desc": "<span class=\"cegxtitle\">Features and benefits breakdown:</span><p class=\"ptitle\"><br></p>1. Short, sweet <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Made <span class=\"cegx5\">believable</span> <span class=\"cegxitalic\">(subtitle)</span><p><br></p>3. Brought to <span class=\"cegx3\">life</span> <span class=\"cegxitalic\">(visual)</span>"
   },
   {
+    "code": "129",
     "img": "cegu129",
     "alt": "",
     "website": "https://www.miraclebrand.co/",
@@ -1610,6 +1739,7 @@
     "desc2": "<span class=\"cegxtitle\">Features and benefits breakdown:</span><p class=\"ptitle\"><br></p>1. Specifics establish <span class=\"cegx5\">credibility</span><p><br></p></p>2. Visual emphasises <span class=\"cegx4\">contrast</span>"
   },
   {
+    "code": "130",
     "img": "cegu130",
     "alt": "",
     "website": "",
@@ -1623,6 +1753,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Show, don't tell</span>.<p><br></p>We process images faster than text."
   },
   {
+    "code": "131",
     "img": "cegu131",
     "alt": "",
     "website": "",
@@ -1636,6 +1767,7 @@
     "desc1": "<span class=\"cegxtitle\">A legendary ad born of a simple insight:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">You only notice milk when you run out of it</span>"
   },
   {
+    "code": "132",
     "img": "cegu132",
     "alt": "",
     "website": "https://uk.mihigh.com/",
@@ -1649,6 +1781,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Back-to-back <span class=\"cegx1\">benefits</span> <span class=\"cegxitalic\">(kicker + title)</span><p><br></p>2. Made <span class=\"cegxitalic\">concrete</span> w/ <span class=\"cegx5\">facts</span>, <span class=\"cegx2\">features</span>, <span class=\"cegx4\">contrasts</span> <span class=\"cegxitalic\">(subtitle)</span><p><br></p>3. Brought to <span class=\"cegx3\">life</span> <span class=\"cegxitalic\">(visual)</span>"
   },
   {
+    "code": "133",
     "img": "cegu133",
     "alt": "",
     "website": "https://paste.bywetransfer.com/features",
@@ -1661,6 +1794,7 @@
     "desc": "<span class=\"cegxtitle\">“Feature and benefit” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Onomatopoeia</span> brings to life <span class=\"cegxitalic\">(title)</span> <p><br></p>2. <span class=\"cegx2\">Feature</span> + <span class=\"cegx4\">Contrast</span> w/ “old way” <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "134",
     "img": "cegu134",
     "alt": "",
     "website": "https://paste.bywetransfer.com/",
@@ -1673,6 +1807,7 @@
     "desc2": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p> 1. Contrast “<span class=\"cegx1\">formatting</span>” with “<span class=\"cegx1\">focusing</span>”<p><br></p>2. <span class=\"cegx5\">Alliteration</span> adds punch."
   },
   {
+    "code": "135",
     "img": "cegu135",
     "alt": "",
     "website": "https://smiledirectclub.com/",
@@ -1687,6 +1822,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. The <span class=\"cegx1\">outcome</span> + <span class=\"cegx4\">Why</span> you're better  <span class=\"cegxitalic\">(title)</span><p><br></p> 2. <span class=\"cegx5\">Specific</span> details <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "136",
     "img": "cegu136",
     "alt": "",
     "website": "https://www.banjorobinson.com/",
@@ -1699,6 +1835,7 @@
     "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p>Words are cheap. <span class=\"cegx5\">Numbers</span> aren't."
   },
   {
+    "code": "137",
     "img": "cegu137",
     "alt": "",
     "website": "https://www.apple.com/uk/iphone-12-pro/",
@@ -1712,6 +1849,7 @@
     "desc": "<span class=\"cegxtitle\">Clever <span class=\"cegx6\">reframe</span>:</span><p class=\"ptitle\"><br></p>“2M metric tonnes” → “450,000 fewer cars...”"
   },
   {
+    "code": "138",
     "img": "cegu138",
     "alt": "",
     "website": "https://paste.bywetransfer.com/features",
@@ -1723,6 +1861,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life</span> the <span class=\"cegx1\">outcome</span>"
   },
   {
+    "code": "139",
     "img": "cegu139",
     "alt": "",
     "website": "https://www.apple.com/uk/iphone-12-pro/",
@@ -1736,6 +1875,7 @@
     "desc": "<span class=\"cegxtitle\">Feature & Benefit breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx6\">Metaphor</span> gets attention <span class=\"cegxitalic\">(title)</span><p><br></p> 2. <span class=\"cegx4\">Comparison</span> make concrete <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "140",
     "img": "cegu140",
     "alt": "",
     "website": "https://www.livefeather.com/",
@@ -1749,6 +1889,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Lead w/ <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Contrast “<span class=\"cegx5\">old way</span>” with your “<span class=\"cegx2\">new way</span>”"
   },
   {
+    "code": "141",
     "img": "cegu141",
     "alt": "",
     "website": "https://coda.io/welcome",
@@ -1762,6 +1903,7 @@
     "desc1": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. No-fluff <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Contrast “<span class=\"cegx4\">old way</span>” w/ “<span class=\"cegx2\">new way</span>” <span class=\"cegxitalic\">(subtitle)</span><p><br></p>3.<span class=\"cegx6\">Onomatopoeia</span> brings to life <span class=\"cegxitalic\">(“ping-ponging”)</span>"
   },
   {
+    "code": "142",
     "img": "cegu142",
     "alt": "",
     "website": "https://salesforfounders.com/",
@@ -1775,6 +1917,7 @@
     "desc2": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Sell the <span class=\"cegx1\">transformation</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegxitalic\">“just good enough”</span> — <span class=\"cegx6\">honesty</span> sells<p><br></p>3. <span class=\"cegx3\">Specific</span> outcomes <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "143",
     "img": "cegu143",
     "alt": "",
     "website": "https://marketingexamples.com/course",
@@ -1789,6 +1932,7 @@
     "desc1": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. Scannable. Simple. <span class=\"cegx6\">Rhythmic</span> <span class=\"cegxitalic\">(subheadings)</span><p><br></p> 2. <span class=\"cegx4\">Pick a fight</span> w/ <span class=\"cegxitalic\">status-quo</span> <span class=\"cegxitalic\">(1st line)</span><p><br></p> 3. <span class=\"cegx5\">Contrast</span> w/ your way <span class=\"cegxitalic\">(2nd line)</span>"
   },
   {
+    "code": "144",
     "img": "cegu144",
     "alt": "",
     "website": "https://refactoringui.com/book",
@@ -1802,6 +1946,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Value</span> + <span class=\"cegx6\">Hook</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx2\">What</span> you do + <span class=\"cegx5\">Why</span> you're different <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "145",
     "img": "cegu145",
     "alt": "",
     "website": "",
@@ -1814,6 +1959,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Double entendre</span> create neural connections create memory."
   },
   {
+    "code": "146",
     "img": "cegu146",
     "alt": "",
     "website": "https://trainual.com/",
@@ -1826,6 +1972,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Benefit</span> made <span class=\"cegx6\">memorable</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Contrast “<span class=\"cegx5\">old way</span>” w/ “<span class=\"cegx2\">new way</span>” <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "147",
     "img": "cegu147",
     "alt": "",
     "website": "https://smiledirectclub.com/",
@@ -1835,6 +1982,7 @@
     "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Reviews</span> establish <span class=\"cegxitalic\">credibility</span>. <span class=\"cegx3\">Pics</span> inspire <span class=\"cegxitalic\">action</span>."
   },
   {
+    "code": "148",
     "img": "cegu148",
     "alt": "",
     "website": "",
@@ -1848,6 +1996,7 @@
     "desc2": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>“Unless your advertising contains a big idea, it will pass like a ship in the night.”"
   },
   {
+    "code": "149",
     "img": "cegu149",
     "alt": "",
     "website": "",
@@ -1857,6 +2006,7 @@
     "desc": "<span class=\"cegxtitle\">The power of <span class=\"cegx3\">removing friction</span>:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bob Bob Ricard</span> sells more champagne than any UK restaurant.<p><br></p>All thanks to this little button."
   },
   {
+    "code": "150",
     "img": "cegu150",
     "alt": "",
     "website": "https://fever-tree.com/en_GB/our-approach",
@@ -1869,6 +2019,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Quite a brilliant <span class=\"cegx2\">reframe</span>.<p><br></p><span class=\"cegxitalic\">Make your product make sense.</span>"
   },
   {
+    "code": "151",
     "img": "cegu151",
     "alt": "",
     "website": "",
@@ -1877,6 +2028,7 @@
     "desc": "“It may well be that <span class=\"cegx5\">creativity</span> is the last unfair advantage we're legally allowed to take over our competitors.” <p><br></p>— Bill Bernbach"
   },
   {
+    "code": "152",
     "img": "cegu152",
     "alt": "",
     "website": "",
@@ -1889,6 +2041,7 @@
     "desc": "<span class=\"cegxtitle\">Poster breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Credibility</span>. <span class=\"cegx4\">Contrast</span>. <span class=\"cegx1\">Conclusion</span>."
   },
   {
+    "code": "153",
     "img": "cegu153",
     "alt": "",
     "website": "",
@@ -1903,6 +2056,7 @@
     "desc1": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>An <span class=\"cegx4\">enemy</span> means a clear marketing message. You’re not just a swing. You're the  people a story they want to hear.."
   },
   {
+    "code": "154",
     "img": "cegu154",
     "alt": "",
     "website": "",
@@ -1915,6 +2069,7 @@
     "desc1": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Grab a cliché. <span class=\"cegx3\">Flip</span> it"
   },
   {
+    "code": "155",
     "img": "cegu155",
     "alt": "",
     "website": "https://cardsagainsthumanity.com/",
@@ -1928,6 +2083,7 @@
     "desc1": "Nice guys finish last. So does nice copy. In fact oneof the worse hings yoiurcopy can be is nice. decent, friendly, and agreeable"
   },
   {
+    "code": "156",
     "img": "cegu156",
     "alt": "",
     "website": "https://zerotomarketing.com/",
@@ -1940,6 +2096,7 @@
     "desc1": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specifcially</span> <span class=\"cegx2\">what</span> you do."
   },
   {
+    "code": "157",
     "img": "cegu157",
     "alt": "",
     "website": "https://trends.vc/",
@@ -1952,18 +2109,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Juxtoposition</span> highlights value."
   },
   {
-    "img": "cegu157a",
-    "alt": "",
-    "website": "https://trends.vc/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "8", "word": "Features" },
-      { "code": "4", "word": "CTA" }
-    ],
-    "filter": ["10", "8", "4"],
-    "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Juxtoposition</span> highlights value."
-  },
-  {
+    "code": "158",
     "img": "cegu158",
     "alt": "",
     "website": "https://www.glossier.com/products/body-hero-daily-oil-wash",
@@ -1979,6 +2125,7 @@
     "desc3": "<span class=\"cegxtitle\">Write scannable copy <span class=\"cegx6\">subheadings</span>:</span><p class=\"ptitle\"><br></p>1. Subheadings <p><br></p> 2. Bullets 3. Selling points"
   },
   {
+    "code": "159",
     "img": "cegu159",
     "alt": "",
     "website": "https://eu.patagonia.com/gb/en/stories/dont-buy-this-jacket-black-friday-and-the-new-york-times/story-18615.html",
@@ -1992,6 +2139,7 @@
     "desc1": "<span class=\"cegxtitle\">Patagonia's Black Friday Ad</span><p class=\"ptitle\"><br></p>Zig when everybody zags.<p><br></p><span class=\"cegxbold\">Takes a stand</span> against consumerism."
   },
   {
+    "code": "160",
     "img": "cegu160",
     "alt": "Allbirds — Light on your feet. Light on the planet.",
     "website": "https://www.allbirds.co.uk/",
@@ -2003,6 +2151,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx7\">Refrain</span> creates <span class=\"cegxitalic\">rhythm</span. Rhythm makes it <span class=\"cegxitalic\">memorable</span>."
   },
   {
+    "code": "161",
     "img": "cegu161",
     "alt": "",
     "website": "https://sparkloop.app/",
@@ -2016,6 +2165,7 @@
     "desc2": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Remove <span class=\"cegx1\">friction</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx4\">Single out</span>. <span class=\"cegx3\">Specific</span> promise. <span class=\"cegx2\">Objection</span> handle. <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "162",
     "img": "cegu162",
     "alt": "",
     "website": "http://ahrefs.com/",
@@ -2028,6 +2178,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Vivid</span> language helps bring to life.<p><br></p><span class=\"cegxitalic\">(“bounce ideas”, “SEO-obsessed”, “seen it all”)</span>"
   },
   {
+    "code": "163",
     "img": "cegu163",
     "alt": "",
     "website": "http://ahrefs.com/",
@@ -2041,6 +2192,7 @@
     "desc": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx7\">Repetition</span>, <span class=\"cegx7\">alliteration</span> make memorable.<br> <span class=\"cegxitalic\">(“7 days. 7 dollars.”)</span><p><br></p>2. Subtle <span class=\"cegx2\">FOMO</span> <span class=\"cegxitalic\">(“opportunities you're missing”)</span>"
   },
   {
+    "code": "164",
     "img": "cegu164",
     "alt": "",
     "website": "https://binbuddy.challs.com/gb/",
@@ -2053,6 +2205,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Dumbed-down <span class=\"cegx1\">outcome</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx6\">Rhyme</span> adds rhythm <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "165",
     "img": "cegu165",
     "alt": "",
     "website": "https://citypantry.com/",
@@ -2066,6 +2219,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Picks a fight</span> w/ enemy (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">What</span> you do. <span class=\"cegx4\">Contrast</span> w/ <span class=\"cegxitalic\">enemy</span> (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "166",
     "img": "cegu166",
     "alt": "",
     "website": "https://jawzrsize.com/",
@@ -2079,6 +2233,7 @@
     "desc": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Story</span> is how you escape competition.<p><br></p>You can clone <span class=\"cegxitalic\">what</span>. You can't clone <span class=\"cegxitalic\">why</span>."
   },
   {
+    "code": "167",
     "img": "cegu167",
     "alt": "",
     "website": "https://getbevel.com/",
@@ -2093,6 +2248,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. One. Word. Sentences. Draw. <span class=\"cegx4\">Attention</span>. <p><br></p> 2. Contrast <span class=\"cegx1\">outcomes</span> <span class=\"cegxitalic\">(title)</span> <p><br></p>3. Back up w/ <span class=\"cegx3\">stats</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "168",
     "img": "cegu168",
     "alt": "",
     "website": "https://wynter.com",
@@ -2105,6 +2261,7 @@
     "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p>An email from a customer. <span class=\"cegx4\">Raw</span>, real, rare!"
   },
   {
+    "code": "169",
     "img": "cegu169",
     "alt": "",
     "website": "",
@@ -2113,6 +2270,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> <span class=\"cegx5\">Specific</span> <span class=\"cegx4\">comparison</span>."
   },
   {
+    "code": "170",
     "img": "cegu170",
     "alt": "",
     "website": "https://www.cleanomic.com/products/earthwash",
@@ -2129,6 +2287,7 @@
     "desc3": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Wit and charm. “Laughter is the shortest distance between two people” — Victor Borge"
   },
   {
+    "code": "171",
     "img": "cegu171",
     "alt": "",
     "website": "https://brave.com/",
@@ -2141,6 +2300,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx3\">Specific</span> <span class=\"cegx1\">outcome</span> <span class=\"cegxitalic\">(title)</span> <p><br></p> 2. Three quickfire <span class=\"cegx3\">benefits</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "172",
     "img": "cegu172",
     "alt": "",
     "website": "https://liquiddeath.com/",
@@ -2154,6 +2314,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx6\">Heavy metal branding</span>. It works because it's <span class=\"cegxbold\">congruent</span>: Liquid Death — Murder Your Thirst <p><br></p> To sell something familiar, make it surprising”<p><br></p> — Raymond Loewy"
   },
   {
+    "code": "173",
     "img": "cegu173",
     "alt": "",
     "website": "https://liquiddeath.com/",
@@ -2168,6 +2329,7 @@
     "desc1": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx2\">Summarise</span> the story <span class=\"cegxitalic\">(title)</span><p><br></p>2. Contrast <span class=\"cegx4\">status-quo</span> w/ your own <span class=\"cegx6\">story</span>. Lead into <span class=\"cegx2\">benefit</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "174",
     "img": "cegu174",
     "alt": "",
     "website": "https://liquiddeath.com/",
@@ -2181,6 +2343,7 @@
     "desc": "“To sell something surprising, make it familiar; and to sell something familiar, make it surprising” — Raymond Loewy"
   },
   {
+    "code": "175",
     "img": "cegu175",
     "alt": "",
     "website": "https://clickatree.com/",
@@ -2194,6 +2357,7 @@
     "desc1": "<span class=\"cegxtitle\">Lead magnet breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Forces you to read on</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Gives me <span class=\"cegx2\">a reason</span> to sign up <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "176",
     "img": "cegu176",
     "alt": "",
     "website": "",
@@ -2207,6 +2371,7 @@
     "desc": "String"
   },
   {
+    "code": "177",
     "img": "cegu177",
     "alt": "",
     "website": "",
@@ -2219,6 +2384,7 @@
     "desc1": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Timely content wins."
   },
   {
+    "code": "178",
     "img": "cegu178",
     "alt": "",
     "website": "https://trypigeon.co/",
@@ -2233,6 +2399,7 @@
     "desc2": "<span class=\"cegxtitle\">“Footer CTA” breakdown:</span><p class=\"ptitle\"><br></p>1. Happy users<p><br></p> 2. Reiterate <span class=\"cegx1\">value prop</span> <p><br></p>3. “Immediate results” <p><br></p>4. <span class=\"cegx4\">Remove friction w/ CTA</span> <span class=\"cegxitalic\">CTA</span>"
   },
   {
+    "code": "179",
     "img": "cegu179",
     "alt": "",
     "website": "https://learn.canva.com/",
@@ -2246,6 +2413,7 @@
     "desc1": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p>All about removing friction:<p><br></p> • “23 seconds” <span class=\"cegxitalic\">(time)</span><p><br></p>• “it's free” <span class=\"cegxitalic\">(cost)</span>"
   },
   {
+    "code": "180",
     "img": "cegu180",
     "alt": "",
     "website": "https://www.evesleep.co.uk/",
@@ -2259,6 +2427,7 @@
     "desc": "<span class=\"cegxtitle\">Textbook objection handling:</span><p class=\"ptitle\"><br></p>Silences objection and get them to take a leap of faith. A mattIt's easier to buy a  job to make the purchase as easy as frictionless. "
   },
   {
+    "code": "181",
     "img": "cegu181",
     "alt": "",
     "website": "https://www.elysiumhealth.com/en-us/matter",
@@ -2271,6 +2440,7 @@
     "desc1": "<span class=\"cegxtitle\">Make customer problem aware:</span><p class=\"ptitle\"><br></p>1. Introduce <span class=\"cegxbold\"></span>problem.()<p><br></p>2. Agitate w/ specifics. Make concrete with graph."
   },
   {
+    "code": "182",
     "img": "cegu182",
     "alt": "",
     "website": "https://magicmind.co/",
@@ -2283,6 +2453,7 @@
     "desc": "<span class=\"cegxtitle\">Packaging breakdown:</span><p class=\"ptitle\"><br></p>1. One word <span class=\"cegx2\">feature</span>.<p><br></p>2. “you” focused <span class=\"cegx1\"> benefit</span>.<p><br></p>Power of brevity + rhythm."
   },
   {
+    "code": "183",
     "img": "cegu183",
     "alt": "",
     "website": "http://mightyapp.com/",
@@ -2295,6 +2466,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p> 1. One, single powerful <span class=\"cegx1\">value prop</span> <span class=\"cegxitalic\">(title)</span> <p><br></p> 2. <span class=\"cegx3\">Specifcs</span> + Exactly <span class=\"cegx2\">how it works</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "184",
     "img": "cegu184",
     "alt": "",
     "website": "https://www.hioscar.com/",
@@ -2307,6 +2479,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>“If you’ve got something great to say, go ahead and say it. Free beer is free frickin’ beer”<p><br></p> — Ian David"
   },
   {
+    "code": "185",
     "img": "cegu185",
     "alt": "",
     "website": "",
@@ -2315,6 +2488,7 @@
     "desc": "String"
   },
   {
+    "code": "186",
     "img": "cegu186",
     "alt": "",
     "website": "https://www.thousandfell.com/pages/sustainability",
@@ -2327,6 +2501,7 @@
     "desc": "<span class=\"cegxtitle\">Hook breakdown:</span><p class=\"ptitle\"><br></p>Single-minded <span class=\"cegx1\">value prop</span>."
   },
   {
+    "code": "187",
     "img": "cegu187",
     "alt": "",
     "website": "https://www.hunterboots.com/gb/en_gb/",
@@ -2340,6 +2515,7 @@
     "desc": "String"
   },
   {
+    "code": "188",
     "img": "cegu188",
     "alt": "",
     "website": "https://www.prettylitter.com/",
@@ -2353,6 +2529,7 @@
     "desc": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Conversational</span> value prop <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx3\">How it works</span> + Reiterate <span class=\"cegx1\">value</span> <span class=\"cegxitalic\">(subtitle)</span><p><br></p> 3. Short, sweet, <span class=\"cegx3\">specifics</span></span>"
   },
   {
+    "code": "189",
     "img": "cegu189",
     "alt": "",
     "website": "https://explodingtopics.com/pro.com/",
@@ -2365,6 +2542,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Bold, <span class=\"cegx3\">specific</span> <span class=\"cegx\">value prop</span> <span class=\"cegxitalic\">(title)</span> <p><br></p> 2. Let the user <span class=\"cegx2\">visualise</span> it <span class=\"cegxitalic\">(visual)</span>"
   },
   {
+    "code": "190",
     "img": "cegu190",
     "alt": "",
     "website": "https://sonicservicesmn.com/",
@@ -2377,6 +2555,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>All about the visual. Let the reader visualise the value you provide. <span class=\"cegxitalic\">Nothing is more believable than the product itself.</span>"
   },
   {
+    "code": "191",
     "img": "cegu191",
     "alt": "",
     "website": "https://www.jambys.com/",
@@ -2386,6 +2565,7 @@
     "desc1": "<span class=\"cegxtitle\">Make social proof fun again:</span><p class=\"ptitle\"><br></p>Full of <span class=\"cegx7\">personality</span>. Short and sweet. Brought to life by scrolling animation."
   },
   {
+    "code": "192",
     "img": "cegu192",
     "alt": "",
     "website": "",
@@ -2398,6 +2578,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Negative reviews:<p><br></p>Onbrand. Memorable. Anti-marketing"
   },
   {
+    "code": "193",
     "img": "cegu193",
     "alt": "",
     "website": "",
@@ -2410,6 +2591,7 @@
     "desc1": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Creative <span class=\"cegx6 cegxitalic\">double entendre</span><p><br></p>Does it sell? I don't know."
   },
   {
+    "code": "194",
     "img": "cegu194",
     "alt": "",
     "website": "https://privy.com",
@@ -2422,6 +2604,7 @@
     "desc1": "<span class=\"cegxtitle\">“Features and benefits” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Benefit</span> + <span class=\"cegx2\">Feature</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx3\">Stat</span> emphasises benefit + Remove <span class=\"cegx5\">friction</span> + Reiterate <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "195",
     "img": "cegu195",
     "alt": "",
     "website": "http://mightyapp.com/",
@@ -2434,6 +2617,7 @@
     "desc": "String"
   },
   {
+    "code": "196",
     "img": "cegu196",
     "alt": "",
     "website": "http://mailbrew.com/",
@@ -2447,6 +2631,7 @@
     "desc": "<span class=\"cegxtitle\">“Escape chute popup” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx2\">Engage</span> reader <span class=\"cegxitalic\">(title)</span><p><br></p> 2. Handle main <span class=\"cegx5\">objections</span> <span class=\"cegxitalic\">(bullets)</span> <p><br></p> 3. <span class=\"cegx2\">Actionable</span> next step reader <span class=\"cegxitalic\">(CTA)</span>"
   },
   {
+    "code": "197",
     "img": "cegu197",
     "alt": "",
     "website": "",
@@ -2459,6 +2644,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p> 1. <span class=\"cegx1\">Contrast</span> your USP with the status quo<p><br></p>2. “tastes like grandma's pumpkin pie” — <span class=\"cegx5\">Great simile</span>"
   },
   {
+    "code": "198",
     "img": "cegu198",
     "alt": "",
     "website": "https://sweetkick.com/",
@@ -2474,6 +2660,7 @@
     "desc3": "<span class=\"cegxtitle\">“Features Benefits” breakdown:</span><p class=\"ptitle\"><br></p>“Reduced sugar” is the <span class=\"cegx2\">feature</span><p><br></p> 2. “Increase melatonin” is the <span class=\"cegx3\">benefit</span>. • “Sleep improvement” is the <span class=\"cegx1\">outcome</span>."
   },
   {
+    "code": "199",
     "img": "cegu199",
     "alt": "",
     "website": "https://okcupid.com/",
@@ -2486,6 +2673,7 @@
     "desc": "<span class=\"cegxtitle\">How to “pick a fight” w/ status quo:</span><p class=\"ptitle\"><br></p>Point at the status quo and pit yourself against it. Contrast burns your brand into the customer's mind."
   },
   {
+    "code": "200",
     "img": "cegu200",
     "alt": "",
     "website": "https://bitetoothpastebits.com/",
@@ -2498,6 +2686,7 @@
     "desc2": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx3\">Make problem tangible</span>. Agitate it. <span class=\"cegxitalic\">(stat)</span><p><br></p>2. “We exist to <span class=\"cegx1\">solve this</span>” <span class=\"cegxitalic\">(subtitle)</span>"
   },
   {
+    "code": "201",
     "img": "cegy201",
     "alt": "Support Shepherd Landing Page Title",
     "website": "https://www.supportshepherd.com/",
@@ -2511,6 +2700,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span> <span class=\"cegx1\">value prop</span>"
   },
   {
+    "code": "202",
     "img": "cegy202",
     "alt": "Wynter Landing Page Title",
     "website": "https://wynter.com/",
@@ -2523,6 +2713,7 @@
     "desc": "<span class=\"cegxtitle\">Story formula</span><p class=\"ptitle\"><br></p>1. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx7\">“new way”</span><p><br></p>2. “We're <span class=\"cegx1\">how</span> you get there”"
   },
   {
+    "code": "203",
     "img": "cegy203",
     "alt": "Ahrefs Landing Page Title",
     "website": "https://ahrefs.com",
@@ -2535,6 +2726,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p>Handle main <span class=\"cegx4\">objection</span> + <span class=\"cegx1\">Value</span> you provide"
   },
   {
+    "code": "204",
     "img": "cegy204",
     "alt": "Magic Spoon Packaging",
     "website": "https://magicspoon.com/",
@@ -2546,6 +2738,7 @@
     "desc": "Clever way of <span class=\"cegx4\">differentiating</span> from cereals that <span class=\"cegxitalic\">do taste like cardboard</span>"
   },
   {
+    "code": "205",
     "img": "cegy205",
     "alt": "Design Academy Landing Page Title",
     "website": "https://www.designacademy.io/",
@@ -2559,6 +2752,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">What</span> you do + <span class=\"cegx4\">Contrast</span> with <span class=\"cegxitalic\">status quo</span>"
   },
   {
+    "code": "206",
     "img": "cegy206",
     "alt": "First round Landing Page Title",
     "website": "https://firstround.com/",
@@ -2573,6 +2767,7 @@
     "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Forces customer to <span class=\"cegx7\">read on</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. Your <span class=\"cegx5\">wedge</span> + <span class=\"cegx3\">Social proof</span> (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "207",
     "img": "cegy207",
     "alt": "Hotjar Landing Page Title",
     "website": "https://www.hotjar.com/",
@@ -2585,6 +2780,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx1\">Value</span> you provide + <span class=\"cegx4\">Contrast</span> with <span class=\"cegxitalic\">status quo</span>"
   },
   {
+    "code": "208",
     "img": "cegy208",
     "alt": "Pillow Cube Landing Page Title",
     "website": "https://www.pillowcube.com/",
@@ -2598,6 +2794,7 @@
     "desc1": "<span class=\"cegxtitle\">“Why we exist” breakdown</span><p class=\"ptitle\"><br></p>Contrasts<span class=\"cegx4\">regular pillows</span> w/ the <span class=\"cegx1\">“pillow cube”</span>.<p><br></p>And you're left thinking you've been sleeping the wrong way your whole life."
   },
   {
+    "code": "209",
     "img": "cegy209",
     "alt": "Get cold turkey Landing Page Title",
     "website": "https://getcoldturkey.com/",
@@ -2612,6 +2809,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Sells a <span class=\"cegx7\">better version</span> of you (<span class=\"cegxitalic\">title</span>)<span class=\"cegx4\"></span><p><br></p>2. <span class=\"cegx2\">What</span> you do + <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "210",
     "img": "cegy210",
     "alt": "Vintage Lego Ad",
     "website": "",
@@ -2624,6 +2822,7 @@
     "desc1": "People buy <span class=\"cegx1\">outcomes</span>.<p><br></p> Lego is cool. A proud daughter is cooler."
   },
   {
+    "code": "211",
     "img": "ceg211",
     "alt": "Coinbase Landing Page Title",
     "website": "https://www.coinbase.com/",
@@ -2635,6 +2834,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>Coinbase are <span class=\"cegxbold\">the #1 in crypto</span>.<p><br></p> They can <span class=\"cegx2\">keep it simple</span>. Their competitors have to be different."
   },
   {
+    "code": "212",
     "img": "ceg212",
     "alt": "Duck Duck Go Billboard Google Tracks You",
     "website": "",
@@ -2647,6 +2847,7 @@
     "desc1": "Explain <span class=\"cegx4\">why you're different</span> in five words and you've probably wrote a good title"
   },
   {
+    "code": "213",
     "img": "ceg213",
     "alt": "App Sumo Landing Page Title",
     "website": "",
@@ -2661,6 +2862,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life the <span class=\"cegx1\">outcome</span></span>.<p><br></p>Don't sell speakers. Sell Keith Moon playing drums in your room.<p><br></p> “Only safer” - Great <span class=\"cegx3\">punchline</span>"
   },
   {
+    "code": "214",
     "img": "ceg214",
     "alt": "App Sumo Landing Page Title",
     "website": "",
@@ -2674,6 +2876,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">People buy <span class=\"cegx1\">outcomes</span></span>.<p><br></p> Don't bore me with pixel specifications. Show me the photo."
   },
   {
+    "code": "215",
     "img": "ceg215",
     "alt": "Walkman vintage ad",
     "website": "",
@@ -2686,6 +2889,7 @@
     "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't sell a walkman.<p><br></p>Sell skating through the park with your boyfriend, listening to your walkman."
   },
   {
+    "code": "216",
     "img": "ceg216",
     "alt": "Tesco conversational copy ads",
     "website": "",
@@ -2698,6 +2902,7 @@
     "desc": "<span class=\"cegxtitle\">Textbook conversational copy:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Self-aware.</span> <span class=\"cegx6\">Light-hearted.</span> Sounds like my Aunt (who shops at Tesco).</span>"
   },
   {
+    "code": "217",
     "img": "ceg217",
     "alt": "Tesco conversational copy ads",
     "website": "",
@@ -2709,6 +2914,7 @@
     "desc": "“It's not copy, it's natter” — Ian David"
   },
   {
+    "code": "218",
     "img": "ceg218",
     "alt": "Spacetime Landing Page Title",
     "website": "https://spacetime.am/",
@@ -2721,6 +2927,7 @@
     "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Single-minded <span class=\"cegx1\">value prop</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you create that value (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "219",
     "img": "ceg219",
     "alt": "App Sumo Landing Page Title",
     "website": "https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=GB",
@@ -2735,6 +2942,7 @@
     "desc1": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> 1. Makes <span class=\"cegxitalic\">YOU</span> the <span class=\"cegx1\">hero</span>. <span class=\"cegxitalic\">You</span> can “defend independence”.<p><br></p>2. All for “just <span class=\"cegx5\">$2.75</span>”<p><br></p>3. <span class=\"cegx4\">Contrast</span> with the “98% who don't give”<p><br></p>4. “If Wikipedia has given you $2.75 worth of knowledge...” — Clever <span class=\"cegx6\"> framing</span>"
   },
   {
+    "code": "220",
     "img": "ceg220",
     "alt": "App Sumo Landing Page Title",
     "website": "https://www.aguulp.com/the-science/",
@@ -2748,6 +2956,7 @@
     "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> <span class=\"cegx5\">Stats</span> made <span class=\"cegx1\">relatable</span>.<p><br></p>“Acetate” → “Boosts immune system”"
   },
   {
+    "code": "221",
     "img": "ceg221",
     "alt": "Purple Mattress Landing Page Title",
     "website": "https://purple.com/",
@@ -2761,6 +2970,7 @@
     "desc2": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Contrast</span> with the <span class=\"cegxitalic\">old way</span></span> emphasises Purple's <span class=\"cegxitalic\">new way</span>.<p><br></p>2. “Hardcore macromolecular science”, “30 patents later” — <span class=\"cegx5\">signals quality</span>"
   },
   {
+    "code": "222",
     "img": "ceg222",
     "alt": "Purple Mattress Landing Page Title",
     "website": "https://purple.com/mattresses/purple-bed",
@@ -2773,6 +2983,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Short, sweet, <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Made believable by <span class=\"cegx5\">specifics</span> (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "223",
     "img": "ceg223",
     "alt": "App Sumo Landing Page Title",
     "website": "https://appsumo.com",
@@ -2785,6 +2996,7 @@
     "desc": "<span class=\"cegxtitle\">Oldest formula in the book</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you'll create it (<span class=\"cegxitalic\">subtitle</span>)"
   },
   {
+    "code": "224",
     "img": "ceg224",
     "alt": "Unscreen Landing Page",
     "website": "https://www.unscreen.com/",
@@ -2799,6 +3011,7 @@
     "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Tangible <span class=\"cegx1\">benefit</span> (w/ <span class=\"cegx6\">alliteration</span>)<p><br></p>2. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx2\">“new way”</span>"
   },
   {
+    "code": "225",
     "img": "ceg225",
     "alt": "App Sumo Landing Page Title",
     "website": "",
@@ -2811,6 +3024,7 @@
     "desc": "<span class=\"cegxtitle\">Billboard breakdown:</span><p class=\"ptitle\"><br></p>Handle objection. Creates <span class=\"cegx3\">urgency</span>.<br>Makes you chuckle."
   },
   {
+    "code": "226",
     "img": "ceg226",
     "alt": "Tl Dental Landing Page Title",
     "website": "https://www.tldental.com.au/",
@@ -2823,6 +3037,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p> Handle main <span class=\"cegx6\">objection</span> w/ <span class=\"cegx5\">humour</span>."
   },
   {
+    "code": "227",
     "img": "ceg227",
     "alt": "Veles Landing Page Title",
     "website": "https://veles.com/",
@@ -2835,6 +3050,7 @@
     "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span>, <span class=\"cegxitalic\">surprising</span> <span class=\"cegx1\">value prop</span>"
   },
   {
+    "code": "228",
     "img": "ceg228",
     "alt": "Gumroad Landing Page Title",
     "website": "https://gumroad.com/",
@@ -2846,6 +3062,7 @@
     "desc": "<span class=\"cegxtitle\">Story formula:</span><p class=\"ptitle\"><br></p>The <span class=\"cegx7\">creator</span> is the <span class=\"cegxitalic cegxbold\">hero</span>. <span class=\"cegx1\">Gumroad</span> is the <span class=\"cegxitalic cegxbold\">guide</span> who helps them on their journey."
   },
   {
+    "code": "229",
     "img": "ceg229",
     "alt": "Fast Landing Page Title",
     "website": "https://www.fast.co/",
@@ -2858,6 +3075,7 @@
     "desc": "<span class=\"cegxtitle\">Power of three:</span><p class=\"ptitle\"><br></p>Two <span class=\"cegx5\">specifics</span>. One <span class=\"cegx2\">punchline</span>."
   },
   {
+    "code": "230",
     "img": "ceg230",
     "alt": "Yumwoof Landing Page Title",
     "website": "https://yumwoof.com/",

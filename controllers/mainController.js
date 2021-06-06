@@ -52,6 +52,7 @@ exports.twitterhandbook = async (req, res) => {
 
 exports.ce = async (req, res) => {
   shuffledCeg = dbCeg;
+  // shuffledCeg = shuffleFisherYates(dbCeg);
   res.render('./ce/ext');
 };
 
@@ -62,8 +63,8 @@ exports.copywritingexamples = async (req, res) => {
   // const cegs = await Ceg.find()
   //   .skip(skip)
   //   .limit(limit);
-  // shuffledCeg = shuffleFisherYates(dbCeg);
-  shuffledCeg = dbCeg;
+  shuffledCeg = shuffleFisherYates(dbCeg);
+  // shuffledCeg = dbCeg;
   res.render('./copywritingexamples/ext');
 };
 
@@ -140,6 +141,7 @@ exports.lazy = async (req, res) => {
 
 exports.lazyCeg = async (req, res) => {
   let cegs;
+  let nextTen;
   let start;
   let end;
   const { page } = req.params || 1;
@@ -154,7 +156,10 @@ exports.lazyCeg = async (req, res) => {
   const pageString = page.toString();
   if (filterParam === 'all') {
     cegs = shuffledCeg.slice(start, end);
-    console.log(cegs, start, end, 'bitch');
+    nextTen = shuffledCeg
+      .slice(end, end + 10)
+      .map(ceg => ceg.code)
+      .toString();
   } else {
     const activeFilters = filterParam.split('-');
     const filteredCeg = shuffledCeg.filter(item =>
@@ -162,7 +167,7 @@ exports.lazyCeg = async (req, res) => {
     );
     cegs = filteredCeg.slice(start, end);
   }
-  res.render('./backend/cegs', { cegs, pageString });
+  res.render('./backend/cegs', { cegs, pageString, nextTen });
 };
 
 // exports.lazyCeg = async (req, res) => {

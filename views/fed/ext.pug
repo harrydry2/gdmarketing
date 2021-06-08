@@ -3,69 +3,72 @@ extends base
 include ./ceg
 
 block content
-  .fed
-    .cegm__top
-      a(href="/copywriting-examples")
-        img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/logo1.png", alt="Logo")
-      .cegm__top-right
-        .cegm__top-right-minus!=icon("cegfilterminus")
-        .cegm__top-right-plus.cegmtr__active!=icon("cegfilterplus1")
-        .cegm__top-right-menu!=icon("cegmenu")
-    .cegm__bottom
-      .cegm__bottom-cross!=icon("cross")
-      .cegm__bottom-inner
-        .cegm__bottom-title!=icon("ceg1")
-        .cegm__bottom-tab.fth.cegi-shade1(data-num='1') Header
-        .cegm__bottom-tab.fth.cegi-shade2(data-num='2') Features + Benefits
-        .cegm__bottom-tab.fth.cegi-shade3(data-num='3') Social Proof
-        .cegm__bottom-tab.fth.cegi-shade4(data-num='4') CTA
-        .cegm__bottom-tab.fth.cegi-shade5(data-num='5') Why we exist!
-        .cegm__bottom-tab.fth.cegi-shade6(data-num='6') Ad
-      .cegm__bottom-sep
-      .cegm__bottom-inner
-        .cegm__bottom-title!=icon("ceg2")
-        .cegm__bottom-tab.bth.cegi-shade7(data-num='7') Outcomes
-        .cegm__bottom-tab.bth.cegi-shade8(data-num='8') Features
-        .cegm__bottom-tab.bth.cegi-shade9(data-num='9') Creative
-        .cegm__bottom-tab.bth.cegi-shade10(data-num='10') Contrast
-        .cegm__bottom-tab.bth.cegi-shade11(data-num='11') Specific
-        .cegm__bottom-tab.bth.cegi-shade12(data-num='12') Rhetorical
-        .cegm__bottom-tab.bth.cegi-shade13(data-num='13') Conversational
-    .cegl
-      img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
-      .cegl__filter
-        .cegl__filter-title!=icon("ceg1")
-        .cegl__filter-tab.fth.cegi-shade1(data-num='1') Header
-        .cegl__filter-tab.fth.cegi-shade2(data-num='2') Features + Benefits
-        .cegl__filter-tab.fth.cegi-shade3(data-num='3') Social Proof
-        .cegl__filter-tab.fth.cegi-shade4(data-num='4') CTA
-        .cegl__filter-tab.fth.cegi-shade5(data-num='5') Why we exist!
-        .cegl__filter-tab.fth.cegi-shade6(data-num='6') Ad
-      .cegl__filter
-        .cegl__filter-title!=icon("ceg2")
-        .cegl__filter-tab.bth.cegi-shade7(data-num='7') Outcomes
-        .cegl__filter-tab.bth.cegi-shade8(data-num='8') Features
-        .cegl__filter-tab.bth.cegi-shade9(data-num='9') Creative
-        .cegl__filter-tab.bth.cegi-shade10(data-num='10') Contrast
-        .cegl__filter-tab.bth.cegi-shade11(data-num='11') Specific
-        .cegl__filter-tab.bth.cegi-shade12(data-num='12') Rhetorical
-        .cegl__filter-tab.bth.cegi-shade13(data-num='13') Conversational
-      .cegl__filter
-        .cegl__filter-title!=icon("ceg3")
-    .cegm__notice Tap image for breakdown
-    .ceRight
-      .ceTop
-        .ceTop__left
-          .ceTop-mail
-            .ceTop-mail-left
-              .ceTop-mail-left-icon!=icon("mail")
-              input(type="text" placeholder="Get 7 new examples in your inbox every Friday").cmt2
-            button.cmt1 Yes Please :)
-        .ceTop__right
-          .ceTop__right-sign Marketing Examples
-          a(href="https://www.youtube.com/marketingexamples" target="_blank")!=icon("ytnu")
-          a(href="https://www.linkedin.com/in/harrydry/" target="_blank")!=icon("linu")
-          a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("tnu")
-      .fedgrid(data-masonry='{ "itemSelector": ".cegio", "gutter": 15, "transitionDuration": 0}')
-        each ceg in cegs
-          +ceg(ceg)
+  .fed__outer
+    //- canvas
+    #stars
+    .fed
+      .cegm__top
+        a(href="/copywriting-examples")
+          img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
+        .cegm__top-right
+          .cegm__top-right-minus!=icon("cegfilterminus")
+          .cegm__top-right-plus.cegmtr__active!=icon("cegfilterplus1")
+          .cegm__top-right-menu!=icon("cegmenu")
+      .cegm__bottom
+        .cegm__bottom-cross!=icon("cross")
+        .cegm__bottom-inner
+          .cegm__bottom-title!=icon("ceg1")
+          .cegm__bottom-tab.fth.cegi-shade1(data-num='1') Header
+          .cegm__bottom-tab.fth.cegi-shade2(data-num='2') Features + Benefits
+          .cegm__bottom-tab.fth.cegi-shade3(data-num='3') Social Proof
+          .cegm__bottom-tab.fth.cegi-shade4(data-num='4') CTA
+          .cegm__bottom-tab.fth.cegi-shade5(data-num='5') Why we exist!
+          .cegm__bottom-tab.fth.cegi-shade6(data-num='6') Ad
+        .cegm__bottom-sep
+        .cegm__bottom-inner
+          .cegm__bottom-title!=icon("ceg2")
+          .cegm__bottom-tab.bth.cegi-shade7(data-num='7') Outcomes
+          .cegm__bottom-tab.bth.cegi-shade8(data-num='8') Features
+          .cegm__bottom-tab.bth.cegi-shade9(data-num='9') Creative
+          .cegm__bottom-tab.bth.cegi-shade10(data-num='10') Contrast
+          .cegm__bottom-tab.bth.cegi-shade11(data-num='11') Specific
+          .cegm__bottom-tab.bth.cegi-shade12(data-num='12') Rhetorical
+          .cegm__bottom-tab.bth.cegi-shade13(data-num='13') Conversational
+      .cegl
+        img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
+        .cegl__filter
+          .cegl__filter-title!=icon("ceg1")
+          .cegl__filter-tab.fth.cegi-shade1(data-num='1') Header
+          .cegl__filter-tab.fth.cegi-shade2(data-num='2') Features + Benefits
+          .cegl__filter-tab.fth.cegi-shade3(data-num='3') Social Proof
+          .cegl__filter-tab.fth.cegi-shade4(data-num='4') CTA
+          .cegl__filter-tab.fth.cegi-shade5(data-num='5') Why we exist!
+          .cegl__filter-tab.fth.cegi-shade6(data-num='6') Ad
+        .cegl__filter
+          .cegl__filter-title!=icon("ceg2")
+          .cegl__filter-tab.bth.cegi-shade7(data-num='7') Outcomes
+          .cegl__filter-tab.bth.cegi-shade8(data-num='8') Features
+          .cegl__filter-tab.bth.cegi-shade9(data-num='9') Creative
+          .cegl__filter-tab.bth.cegi-shade10(data-num='10') Contrast
+          .cegl__filter-tab.bth.cegi-shade11(data-num='11') Specific
+          .cegl__filter-tab.bth.cegi-shade12(data-num='12') Rhetorical
+          .cegl__filter-tab.bth.cegi-shade13(data-num='13') Conversational
+        .cegl__filter
+          .cegl__filter-title!=icon("ceg3")
+      .cegm__notice Tap image for breakdown
+      .ceRight
+        .ceTop
+          .ceTop__left
+            .ceTop-mail
+              .ceTop-mail-left
+                .ceTop-mail-left-icon!=icon("mail")
+                input(type="text" placeholder="Get 7 new examples in your inbox every Friday").cmt2
+              button.cmt1 Yes Please :)
+          .ceTop__right
+            .ceTop__right-sign Marketing Examples
+            a(href="https://www.youtube.com/marketingexamples" target="_blank")!=icon("ytnu")
+            a(href="https://www.linkedin.com/in/harrydry/" target="_blank")!=icon("linu")
+            a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("tnu")
+        .fedgrid(data-masonry='{ "itemSelector": ".cegio", "gutter": 15, "transitionDuration": 0}')
+          each ceg in cegs
+            +ceg(ceg)

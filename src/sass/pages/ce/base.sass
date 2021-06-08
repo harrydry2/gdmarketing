@@ -1,3 +1,77 @@
+// stars shit
+
+// n is number of stars required
+@function multiple-box-shadow ($n)
+  $value: '#{random(2000)}px #{random(2000)}px #FFF'
+  @for $i from 2 through $n
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
+  @return unquote($value)
+
+.fed__outer
+  height: 100%
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)
+  @media (max-width: 1440px)
+    background: none
+  // background: #212121
+  // overflow: hidden
+
+$shadows-small:  multiple-box-shadow(100)
+$shadows-medium: multiple-box-shadow(200)
+$shadows-big:    multiple-box-shadow(100)
+
+canvas
+  position: fixed
+  width: 100%
+  height: 100%
+  @media (max-width: 1440px)
+    display: none
+
+#stars
+  width: 1px
+  height: 1px
+  background: transparent
+  box-shadow: $shadows-small
+  animation: animStar 100s linear infinite
+  position: absolute
+  @media (max-width: 1440px)
+    display: none
+  &:after
+    content: " "
+    position: absolute
+    top: 1000px
+    width: 1px
+    height: 1px
+    background: transparent
+    box-shadow: $shadows-small
+
+#stars2
+  width: 2px
+  height: 2px
+  background: transparent
+  box-shadow: $shadows-medium
+  animation: animStar 100s linear infinite
+  position: absolute
+  @media (max-width: 1440px)
+    display: none
+  &:after
+    content: ""
+    position: absolute
+    top: 2000px
+    width: 2px
+    height: 2px
+    background: transparent
+    box-shadow: $shadows-medium
+
+@keyframes animStar
+  from
+    transform: translateY(0px)
+  to
+    transform: translateY(-1000px)
+
+.fed
+  max-width: 144rem
+  margin: 0 auto
+
 .ceg
   display: flex
   justify-content: space-between
@@ -77,20 +151,9 @@
       cursor: pointer
       color: #212121
       transition: all 0.4s ease
-      font-family: Avenir
       margin-top: 1rem
       margin-left: .9rem
-      font-weight: 500
-    // &-tab
-    //   padding: 0.7rem 1rem
-    //   font-size: 1.5rem
-    //   display: inline-block
-    //   text-transform: uppercase
-    //   border: 2px solid $cegb
-    //   cursor: pointer
-    //   color: $cegblack
-    //   margin: 0.5rem
-    //   transition: all 0.4s
+      font-weight: 400
 
 .cegmtr__active
   display: block
@@ -168,6 +231,7 @@
   width: calc(100% - 21.1rem)
   margin-left: 21.1rem
   padding: 0 1.6rem 1.6rem 1.6rem
+  background: white
   @media (max-width: 930px)
     margin-left: 0rem
     width: calc(100%)

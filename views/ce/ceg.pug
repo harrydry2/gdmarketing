@@ -1,5 +1,5 @@
 mixin ceg(cegs, pageString, nextTen)
-  .cegio.cegio__notyetloaded(data-nextten=`${nextTen}`)
+  .cegio(data-nextten=`${nextTen}`)
     .cegi
       .cegi__center(data-html=`${cegs.desc}`)
         .cegi__center-inner
@@ -8,4 +8,4 @@ mixin ceg(cegs, pageString, nextTen)
       .cegi__right
         each tag in cegs.tags
           .cegi__right-pill(class=`cegi-shade${tag.code}`)=tag.word
-      img(src=`https://ik.imagekit.io/o08ysq9vx/tr:w-.12,bl-100,q-05/${cegs.img}.png`, alt="" class="ceg__img" data-src=`https://ik.imagekit.io/o08ysq9vx/${cegs.img}.png` data-fnum=`${pageString}`)
+      img(src=`https://ik.imagekit.io/o08ysq9vx/tr:w-.12,bl-100,q-05/${cegs.img}.png`, alt="" class="ceg__img cegio__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${cegs.img}.png` data-fnum=`${pageString}`)

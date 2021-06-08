@@ -56,6 +56,13 @@ exports.ce = async (req, res) => {
   res.render('./ce/ext');
 };
 
+exports.fed = async (req, res) => {
+  shuffledCeg = shuffleFisherYates(dbCeg);
+  const cegs = shuffledCeg.slice(0, 14);
+  // const cegs = shuffledCeg;
+  res.render('./fed/ext', { cegs });
+};
+
 exports.copywritingexamples = async (req, res) => {
   // const page = +req.params.page || 1;
   // const limit = 14;
@@ -140,10 +147,10 @@ exports.lazy = async (req, res) => {
 };
 
 exports.lazyCeg = async (req, res) => {
-  let cegs;
-  let nextTen;
-  let start;
-  let end;
+  var cegs;
+  var nextTen;
+  var start;
+  var end;
   const { page } = req.params || 1;
   const { filterParam } = req.params;
   if (parseInt(page) === 1) {
@@ -154,12 +161,14 @@ exports.lazyCeg = async (req, res) => {
     end = parseInt(page) * 10 + 4;
   }
   const pageString = page.toString();
-  if (filterParam === 'all') {
+  if (filterParam === 'beenDone') {
     cegs = shuffledCeg.slice(start, end);
-    nextTen = shuffledCeg
-      .slice(end, end + 10)
-      .map(ceg => ceg.code)
-      .toString();
+  } else if (filterParam === 'all') {
+    cegs = shuffledCeg.slice(start + 14, end + 14);
+    // nextTen = shuffledCeg
+    //   .slice(end, end + 10)
+    //   .map(ceg => ceg.code)
+    //   .toString();
   } else {
     const activeFilters = filterParam.split('-');
     const filteredCeg = shuffledCeg.filter(item =>

@@ -4,6 +4,7 @@ mongoose.Promise = global.Promise;
 
 const cegSchema = new mongoose.Schema({
   code: String,
+  h: String,
   img: String,
   alt: String,
   website: String,

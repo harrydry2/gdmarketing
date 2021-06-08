@@ -14,6 +14,12 @@ import {
 } from './modules/ceg';
 
 import { nuLoad, nuLoadScroll, nuFilter } from './modules/nu';
+import {
+  imgObserver,
+  fedLoadScroll,
+  fedFilter,
+  cegimobtap,
+} from './modules/fed';
 import { thScroll, courseScroll } from './modules/thScroll';
 // import { thScroll, courseScroll } from './modules/thScroll1';
 
@@ -31,6 +37,7 @@ import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
 window.page = 2;
 window.cegpage = 1;
 window.busy = false;
+window.beenDone = false;
 window.gifbusy = false;
 window.cegbusy = false;
 
@@ -46,11 +53,25 @@ if (window.innerWidth < 768) {
   filterArray = array.slice(0, arrayLength / 2);
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+if (
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
+) {
   lazyLoad(filterArray);
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+if (
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
+) {
   console.log('books');
   filterArray.forEach(filterItem => {
     filterItem.on('click', async e => {
@@ -82,7 +103,14 @@ if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
   });
 }
 
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+if (
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
+) {
   const hmButton = $('.hm__button');
   const hmFilters = $('.hm__filters');
   hmButton.on('click', () => {
@@ -99,7 +127,14 @@ if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
 }
 
 // mailPopup
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+if (
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
+) {
   if (!window.location.href.includes('utm_source=newsletter')) {
     mailPopup();
   } else {
@@ -122,7 +157,14 @@ if ($('.postNoScroll')) {
 }
 
 // popup from homepage (also if close post page)
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+if (
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
+) {
   postPopup(Array.from($$('.card')));
 }
 
@@ -168,8 +210,16 @@ if ($('.ceg')) {
   window.on('resize', debounce(async () => resizeCegAll(), 100));
 }
 
-if ($('.cegM')) {
-  nuLoadScroll();
-  nuLoad(false);
-  nuFilter();
+if ($('.fed')) {
+  imgObserver();
+  fedLoadScroll();
+  fedFilter();
+  $$('.cegi').forEach(parent => {
+    parent.firstElementChild.firstElementChild.innerHTML =
+      parent.firstElementChild.dataset.html;
+  });
+  if (window.innerWidth < 930) {
+    cegMobileFilter();
+    cegimobtap($$('.cegio'));
+  }
 }

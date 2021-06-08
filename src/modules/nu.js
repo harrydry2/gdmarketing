@@ -14,6 +14,23 @@ function getStyleValue(element, style) {
   return parseInt(window.getComputedStyle(element).getPropertyValue(style));
 }
 
+const imageObserver = new IntersectionObserver(
+  function(entries, observer) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        const image = entry.target;
+        image.src = image.dataset.src;
+        // image.classList.remove("lazy");
+        imageObserver.unobserve(image);
+      }
+    });
+  },
+  {
+    root: document.querySelector('.nugrid'),
+    rootMargin: '0px 0px -500px 0px',
+  }
+);
+
 function preloadImages(srcs) {
   function loadImage(src) {
     return new Promise(function(resolve, reject) {
@@ -50,12 +67,12 @@ function createnext10(arr) {
   return arr.map(x => `https://ik.imagekit.io/o08ysq9vx/cegy${x}.png`);
 }
 
-const msnry = new Masonry('.nugrid', {
-  itemSelector: '.cegio',
-  gutter: 15,
-  // stagger: 30,
-  transitionDuration: 0,
-});
+// const msnry = new Masonry(".nugrid", {
+//   itemSelector: ".cegio",
+//   gutter: 15,
+//   // stagger: 30,
+//   transitionDuration: 0
+// });
 
 function getFilterParam() {
   // const cegFilterArray = Array.from($$(".cegl__filter-tab"));
@@ -103,7 +120,6 @@ export async function nuLoad(filter) {
     if (filter) {
       msnry.remove($$('.cegio'));
       $('.nugrid').append(html);
-      msnry.appended(html);
     } else {
       $('.nugrid').append(html);
     }
@@ -113,15 +129,16 @@ export async function nuLoad(filter) {
     const next10array = parentsloaded[0].dataset.nextten.split(',');
     imagesLoaded('.nugrid', function() {
       msnry.appended(html);
-      msnry.layout();
+      msnry.layout(imgloaded);
       parentsloaded.forEach(parent => {
         parent.classList.remove('cegio__notyetloaded');
         parent.firstElementChild.firstElementChild.firstElementChild.innerHTML =
           parent.firstElementChild.firstElementChild.dataset.html;
       });
-      imgloaded.forEach(img => {
-        img.src = img.dataset.src;
-      });
+      // imgloaded.forEach(img => {
+      //   img.src = img.dataset.src;
+      // });
+      imgloaded.forEach(image => imageObserver.observe(image));
       window.cegbusy = false;
       imagesLoaded('.nugrid', function() {
         const next10mini = createnext10mini(next10array);
@@ -187,7 +204,7 @@ export function nuLoadScroll() {
         return;
       }
       if (
-        Math.round(window.innerHeight + window.scrollY + 200) >=
+        Math.round(window.innerHeight + window.scrollY + 1200) >=
         document.body.offsetHeight
       ) {
         nuLoad(false);

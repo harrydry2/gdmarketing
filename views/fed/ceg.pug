@@ -1,0 +1,12 @@
+mixin ceg(ceg, pageString="")
+  .cegio
+    .cegi
+      .cegi__center(data-html=`${ceg.desc}`)
+        .cegi__center-inner
+      .cegi__left
+        a(href=`${ceg.website}` target="_blank").cegi__left-icon!=icon("link1")
+      .cegi__right
+        each tag in ceg.tags
+          .cegi__right-pill(class=`cegi-shade${tag.code}`)=tag.word
+      .cegi__img
+        img(src=``, alt="" class="fed__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${ceg.img}.png` data-fnum=`${pageString}` width="800" height=`${ceg.h}`)

@@ -1,4 +1,5 @@
 mixin ceg(ceg, pageString="")
+  - var newh = (parseInt(ceg.h) / 8).toString()
   .cegio
     .cegi
       .cegi__center(data-html=`${ceg.desc}`)
@@ -9,4 +10,5 @@ mixin ceg(ceg, pageString="")
         each tag in ceg.tags
           .cegi__right-pill(class=`cegi-shade${tag.code}`)=tag.word
       .cegi__img
-        img(src=``, alt="" class="fed__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${ceg.img}.png` data-fnum=`${pageString}` width="800" height=`${ceg.h}`)
+        .cegi__img-wrapper
+          img(src=`https://ik.imagekit.io/o08ysq9vx/square.png/tr:w-100,ar-800-${ceg.h}`, alt="" class="fed__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${ceg.img}.png` data-fnum=`${pageString}` width="800" height=`${ceg.h}`)

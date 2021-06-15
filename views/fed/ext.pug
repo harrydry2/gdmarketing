@@ -4,8 +4,9 @@ include ./ceg
 
 block content
   .fed__outer
-    //- canvas
-    #stars
+    .fed__outer-side.fed__outer-side-left
+      #stars.stars-left
+      #stars2.stars2-left
     .fed
       .cegm__top
         a(href="/copywriting-examples")
@@ -72,3 +73,6 @@ block content
         .fedgrid(data-masonry='{ "itemSelector": ".cegio", "gutter": 15, "transitionDuration": 0}')
           each ceg in cegs
             +ceg(ceg)
+    .fed__outer-side.fed__outer-side-right
+      #stars.stars-right
+      #stars2.stars2-right

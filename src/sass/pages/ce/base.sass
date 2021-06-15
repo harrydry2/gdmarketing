@@ -1,81 +1,97 @@
 // stars shit
 
-// n is number of stars required
+$starwidthvalue: ((1800 - 1440) / 2 )
+
 @function multiple-box-shadow ($n)
-  $value: '#{random(2000)}px #{random(2000)}px #FFF'
+  $value: '#{random(100)}vh #{random(100)}vh #FFF'
   @for $i from 2 through $n
-    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
+    $value: '#{$value} , #{random($starwidthvalue)}px #{random(100)}vh #FFF'
   @return unquote($value)
 
 .fed__outer
-  height: 100%
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)
-  @media (max-width: 1440px)
-    background: none
-  // background: #212121
-  // overflow: hidden
+  display: flex
+  justify-content: center
+  &-side
+    width: calc((100vw - 1440px) / 2 )
+    margin: 0 auto
+    height: 100%
+    overflow: hidden
+    position: fixed
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)
+    @media (max-width: 1440px)
+      display: none
+    &-right
+      right: 0
+    &-left
+      left: 0
 
-$shadows-small:  multiple-box-shadow(100)
-$shadows-medium: multiple-box-shadow(200)
-$shadows-big:    multiple-box-shadow(100)
+.fed
+  width: 144rem
+  margin: 0 auto
 
-canvas
-  position: fixed
-  width: 100%
-  height: 100%
-  @media (max-width: 1440px)
-    display: none
+$shadows-small-left: multiple-box-shadow(100)
+$shadows-medium-left: multiple-box-shadow(20)
+$shadows-small-right: multiple-box-shadow(100)
+$shadows-medium-right: multiple-box-shadow(20)
+
+.stars-left
+  box-shadow: $shadows-small-left
+  &:after
+    box-shadow: $shadows-small-left
+
+.stars2-left
+  box-shadow: $shadows-medium-left
+  &:after
+    box-shadow: $shadows-medium-left
+
+.stars-right
+  box-shadow: $shadows-small-right
+  &:after
+    box-shadow: $shadows-small-right
+
+.stars2-right
+  box-shadow: $shadows-medium-right
+  &:after
+    box-shadow: $shadows-medium-right
 
 #stars
   width: 1px
   height: 1px
   background: transparent
-  box-shadow: $shadows-small
   animation: animStar 100s linear infinite
   position: absolute
-  @media (max-width: 1440px)
-    display: none
   &:after
-    content: " "
+    content: ""
     position: absolute
-    top: 1000px
+    top: 100vh
     width: 1px
     height: 1px
     background: transparent
-    box-shadow: $shadows-small
 
 #stars2
   width: 2px
   height: 2px
   background: transparent
-  box-shadow: $shadows-medium
   animation: animStar 100s linear infinite
   position: absolute
-  @media (max-width: 1440px)
-    display: none
   &:after
     content: ""
     position: absolute
-    top: 2000px
+    top: 100vh
     width: 2px
     height: 2px
     background: transparent
-    box-shadow: $shadows-medium
 
 @keyframes animStar
   from
-    transform: translateY(0px)
+    transform: translateY(-100vh)
   to
-    transform: translateY(-1000px)
-
-.fed
-  max-width: 144rem
-  margin: 0 auto
+    transform: translateY(0px)
 
 .ceg
   display: flex
   justify-content: space-between
-  @media (max-width: 930px)
+  @media (max-width: 1026px)
     display: block
 
 .cegm
@@ -90,7 +106,7 @@ canvas
     background-color: white
     z-index: 101
     display: none
-    @media (max-width: 930px)
+    @media (max-width: 1026px)
       display: flex
     img
       height: 2.9rem
@@ -114,7 +130,7 @@ canvas
     color: $cegblack
     font-size: 1.6rem
     margin-top: 8.6rem
-    @media (max-width: 930px)
+    @media (max-width: 1026px)
       display: block
   &__bottom
     background-color: #fff
@@ -165,7 +181,7 @@ canvas
   height: 100vh
   position: fixed
   // width: 25rem
-  @media (max-width: 930px)
+  @media (max-width: 1026px)
     display: none
   img
     padding: 2.4rem 0 0 0
@@ -184,9 +200,8 @@ canvas
     border-radius: 2rem
     border: 4px solid $cegb
     border-left: 0rem
-    // width: 20.7rem
-    // margin-top: 4rem
-    // padding: 1.8rem 1rem 1.4rem 0.1rem
+    @media (max-width: 1320px)
+      width: 20rem
     &-title
       position: absolute
       left: 0
@@ -208,22 +223,21 @@ canvas
       margin-top: 1rem
       margin-left: .9rem
       font-weight: 500
-      // margin-top: 1rem
-      // margin-left: 1rem
-      // text-transform: uppercase
-      // font-family: Muggsy
-
+      @media (max-width: 1320px)
+        font-size: 1.4rem
+        margin-top: .9rem
+        margin-left: .8rem
 .cegtagSVG1
   transform: translateY(2px)
   width: 3.5rem
-  @media (max-width: 930px)
-    width: 3.4rem
+  @media (max-width: 1026px)
+    width: 3.5rem
     // transform: translateY(.5px)
 
 .cegtagSVG2
   transform: translateY(1px)
   width: 4.2rem
-  @media (max-width: 930px)
+  @media (max-width: 1026px)
     width: 4.1rem
     transform: translateY(.7px)
 
@@ -232,11 +246,13 @@ canvas
   margin-left: 21.1rem
   padding: 0 1.6rem 1.6rem 1.6rem
   background: white
-  @media (max-width: 930px)
+  @media (max-width: 1320px)
+    width: calc(100% - 20rem)
+    margin-left: 20rem
+  @media (max-width: 1026px)
     margin-left: 0rem
     width: calc(100%)
     padding: 1.4rem
-    grid-gap: 1.4rem
 
 .ceTop
   height: 8.8rem
@@ -247,7 +263,7 @@ canvas
   z-index: 4
   position: sticky
   top: 0
-  @media (max-width: 930px)
+  @media (max-width: 1026px)
     display: none
   &__left
   &-mail
@@ -318,26 +334,23 @@ canvas
 
 .cegio
   width: calc((100% - 30px) / 3)
-  margin-bottom: 1.5rem
+  margin-bottom: 1.6rem
   transition: all 0.2s
   &__notyetloaded
     opacity: 0
     transition: all 0.2s
-  @media (max-width: 930px)
+  @media (max-width: 1026px)
+    width: calc((100% - 15px) / 2)
+  @media (max-width: 767px)
     width: calc(100%)
-    margin-bottom: 1.4rem
+    margin-bottom: 1.5rem
 
 
 .cegi
   position: relative
   cursor: pointer
   overflow: hidden
-  &__img
-    border-radius: 2rem
-    border: 4px solid $cegb
-    display: grid
-    overflow: hidden
-  @media (min-width: 930px)
+  @media (min-width: 1026px)
     &:hover
       .cegi__left
         transform: translateX(0rem)
@@ -363,26 +376,45 @@ canvas
     border-top-right-radius: 100px
     transition: all 0.4s ease
     z-index: 3
+    @media (max-width: 1320px)
+      padding: .95rem .9rem .65rem .6rem
+    @media (max-width: 1026px)
+      padding: 1rem 1rem .7rem .7rem
+    @media (max-width: 380px)
+      padding: .95rem .9rem .65rem .6rem
   &__right
     background: $cegb
     right: 0
     bottom: 0
     position: absolute
-    padding: 0.6rem 0.6rem .6rem .6rem
+    padding: 0.6rem
     border-top-left-radius: 20px
     display: flex
     transform: translateX(100%)
     transition: all 0.4s ease
     z-index: 3
+    @media (max-width: 1320px)
+      padding: 0.55rem
+    @media (max-width: 1026px)
+      padding: 0.6rem
+    @media (max-width: 380px)
+      padding: 0.55rem
     &-pill
       padding: 0.6rem 0.8rem
+      font-size: 1.4rem
       display: flex
       justify-content: center
-      font-size: 1.4rem
       font-weight: 400
       border-radius: 20px
-      // font-family: Muggsy
-      // text-transform: uppercase
+      @media (max-width: 1320px)
+        font-size: 1.35rem
+        padding: 0.55rem 0.7rem
+      @media (max-width: 1026px)
+        padding: 0.6rem 0.8rem
+        font-size: 1.4rem
+      @media (max-width: 380px)
+        font-size: 1.35rem
+        padding: 0.55rem 0.7rem
       &:not(:last-child)
         margin-right: 0.4rem
   &__center
@@ -404,11 +436,43 @@ canvas
     transition: all 0.4s ease
     z-index: 3
     border: 4px solid $cegb
+    @media (max-width: 1320px)
+      font-size: 1.5rem
+    @media (max-width: 1026px)
+      font-size: 1.6rem
+    @media (max-width: 380px)
+      font-size: 1.5rem
     &-inner
       p
         font-size: .5rem
+        @media (max-width: 1320px)
+          font-size: .4rem
+        @media (max-width: 1026px)
+          font-size: .5rem
+        @media (max-width: 380px)
+          font-size: .4rem
       .ptitle
         font-size: .7rem !important
+        @media (max-width: 1320px)
+          font-size: .6rem !important
+        @media (max-width: 1026px)
+          font-size: .7rem !important
+        @media (max-width: 380px)
+          font-size: .6rem !important
+  &__img
+    border-radius: 2rem
+    border: 4px solid $cegb
+    overflow: hidden
+    -webkit-backface-visibility: hidden
+    -moz-backface-visibility: hidden
+    -webkit-transform: translate3d(0, 0, 0)
+    -moz-transform: translate3d(0, 0, 0)
+    display: grid
+    align-items: start
+    &-wrapper
+      display: flex
+      width: 100%
+      height: 100%
   img
     width: 100%
     height: 100%
@@ -420,6 +484,9 @@ canvas
 .fed__loaded
   opacity: 1 !important
   transition: all .3s linear
+
+.fedgrid
+  opacity: 0
 
 .cegimobtap
   .cegi__left

@@ -1,645 +1,972 @@
 [
   {
-    "img": "cega201",
-    "alt": "Support Shepherd Landing Page Title",
-    "website": "https://www.supportshepherd.com/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["11", "7", "1"],
-    "desc1": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx1\">Value you provide</span> + <span class=\"cegx5\">Why you're better</span>",
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span> <span class=\"cegx1\">value prop</span>"
-  },
-  {
-    "img": "cega202",
-    "alt": "Wynter Landing Page Title",
-    "website": "https://wynter.com/",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["10", "7", "1"],
-    "desc": "<span class=\"cegxtitle\">Story formula</span><p class=\"ptitle\"><br></p>1. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx7\">“new way”</span><p><br></p>2. “We're <span class=\"cegx1\">how</span> you get there”"
-  },
-  {
-    "img": "cega203",
-    "alt": "Ahrefs Landing Page Title",
-    "website": "https://ahrefs.com",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["10", "7", "1"],
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p>Handle main <span class=\"cegx4\">objection</span> + <span class=\"cegx1\">Value</span> you provide"
-  },
-  {
-    "img": "cega204",
-    "alt": "Magic Spoon Packaging",
-    "website": "https://magicspoon.com/",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "10", "word": "Contrast" }
-    ],
-    "filter": ["10", "9"],
-    "desc": "Clever way of <span class=\"cegx4\">differentiating</span> from cereals that <span class=\"cegxitalic\">do taste like cardboard</span>"
-  },
-  {
-    "img": "cega205",
-    "alt": "Design Academy Landing Page Title",
-    "website": "https://www.designacademy.io/",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "8", "word": "Features" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["10", "8", "1"],
-    "desc1": "<span class=\"cegx4\">Picks a fight</span> with “pretentious, bullshitty” design courses.",
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">What</span> you do + <span class=\"cegx4\">Contrast</span> with <span class=\"cegxitalic\">status quo</span>"
-  },
-  {
-    "img": "cega206",
-    "alt": "First round Landing Page Title",
-    "website": "https://firstround.com/",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "5", "word": "Why we exist!" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["12", "7", "5", "1"],
-    "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Forces customer to <span class=\"cegx7\">read on</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx5\">Why</span> you exist + Made <span class=\"cegx3\">believable</span> (<span class=\"cegxitalic\">subtitle</span>)",
-    "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Forces customer to <span class=\"cegx7\">read on</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. Your <span class=\"cegx5\">wedge</span> + <span class=\"cegx3\">Social proof</span> (<span class=\"cegxitalic\">subtitle</span>)"
-  },
-  {
-    "img": "cega207",
-    "alt": "Hotjar Landing Page Title",
-    "website": "https://www.hotjar.com/",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["5", "1"],
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx1\">Value</span> you provide + <span class=\"cegx4\">Contrast</span> with <span class=\"cegxitalic\">status quo</span>"
-  },
-  {
-    "img": "cega208",
-    "alt": "Pillow Cube Landing Page Title",
-    "website": "https://www.pillowcube.com/",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "5", "word": "Why we exist!" }
-    ],
-    "filter": ["11", "10", "7", "5"],
-    "desc": "<span class=\"cegxtitle\">“Why we exist” breakdown</span><p class=\"ptitle\"><br></p><span class=\"cegx4\">Picks a fight</span> with regular pillows.<p><br></p>And you're left thinking you've been sleeping the wrong way your whole life.",
-    "desc1": "<span class=\"cegxtitle\">“Why we exist” breakdown</span><p class=\"ptitle\"><br></p>Contrasts<span class=\"cegx4\">regular pillows</span> w/ the <span class=\"cegx1\">“pillow cube”</span>.<p><br></p>And you're left thinking you've been sleeping the wrong way your whole life."
-  },
-  {
-    "img": "cega209",
-    "alt": "Get cold turkey Landing Page Title",
-    "website": "https://getcoldturkey.com/",
-    "tags": [
-      { "code": "8", "word": "Features" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["8", "7", "1"],
-    "desc1": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Leads with the <span class=\"cegx1\">outcome</span> (<span class=\"cegxitalic\">title</span>)<p><br></p> 2. The <span class=\"cegx2 cegxitalic\">what</span> + The <span class=\"cegx7 cegxitalic\">why</span> (<span class=\"cegxitalic\">subtitle</span>)",
-    "desc2": "“You’re selling your prospects a better version of themselves.” – Joanna Wiebe",
-    "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Sells a <span class=\"cegx7\">better version</span> of you (<span class=\"cegxitalic\">title</span>)<span class=\"cegx4\"></span><p><br></p>2. <span class=\"cegx2\">What</span> you do + <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">subtitle</span>)"
-  },
-  {
-    "img": "cega210",
-    "alt": "Vintage Lego Ad",
+    "code": "201",
+    "h": "1115",
+    "img": "cegl201",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["7", "6"],
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>People buy <span class=\"cegx1\">outcomes</span>.<p><br></p> Lego is cool. A proud daughter is cooler.",
-    "desc1": "People buy <span class=\"cegx1\">outcomes</span>.<p><br></p> Lego is cool. A proud daughter is cooler."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg211",
-    "alt": "Coinbase Landing Page Title",
-    "website": "https://www.coinbase.com/",
-    "tags": [
-      { "code": "8", "word": "Features" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["8", "1"],
-    "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>Coinbase are <span class=\"cegxbold\">the #1 in crypto</span>.<p><br></p> They can <span class=\"cegx2\">keep it simple</span>. Their competitors have to be different."
+    "code": "202",
+    "h": "330",
+    "img": "cegl202",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
+    "code": "203",
+    "h": "851",
+    "img": "cegl203",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "204",
+    "h": "521",
+    "img": "cegl204",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "205",
+    "h": "388",
+    "img": "cegl205",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "206",
+    "h": "491",
+    "img": "cegl206",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "207",
+    "h": "2636",
+    "img": "cegl207",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "208",
+    "h": "923",
+    "img": "cegl208",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "209",
+    "h": "2618",
+    "img": "cegl209",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "210",
+    "h": "965",
+    "img": "cegl210",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "211",
+    "h": "865",
+    "img": "cegl211",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
     "code": "212",
-    "img": "ceg212",
-    "alt": "Duck Duck Go Billboard Google Tracks You",
+    "h": "420",
+    "img": "cegl212",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["10", "6"],
-    "desc": "<span class=\"cegxtitle\">Billboard breakdown:</span><p class=\"ptitle\"><br></p>Why you're <span class=\"cegx4\">different</span> in five words.",
-    "desc1": "Explain <span class=\"cegx4\">why you're different</span> in five words and you've probably wrote a good title"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "213",
-    "img": "ceg213",
-    "alt": "App Sumo Landing Page Title",
+    "h": "1283",
+    "img": "cegl213",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" },
-      { "code": "12", "word": "Rhetorical" }
-    ],
-    "filter": ["12", "9", "7", "6"],
-    "desc1": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life the <span class=\"cegx1\">outcome</span></span>.<p><br></p>Don't sell speakers. Sell Keith Moon playing drums in your room. “Only safer” - Great <span class=\"cegx3\">punchline</span>",
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life the <span class=\"cegx1\">outcome</span></span>.<p><br></p>Don't sell speakers. Sell Keith Moon playing drums in your room.<p><br></p> “Only safer” - Great <span class=\"cegx3\">punchline</span>"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "214",
-    "img": "ceg214",
-    "alt": "App Sumo Landing Page Title",
+    "h": "1123",
+    "img": "cegl214",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["9", "7", "6"],
-    "desc2": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't show me pixels. Show me the photo.",
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">People buy <span class=\"cegx1\">outcomes</span></span>.<p><br></p> Don't bore me with pixel specifications. Show me the photo."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "215",
-    "img": "ceg215",
-    "alt": "Walkman vintage ad",
+    "h": "633",
+    "img": "cegl215",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["9s", "7", "6"],
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't sell a walkman.<p><br></p>Sell skating through the park with your boyfriend, listening to your walkman."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "216",
-    "img": "ceg216",
-    "alt": "Tesco conversational copy ads",
+    "h": "435",
+    "img": "cegl216",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "13 ", "word": "Conversational" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["13", "10", "6"],
-    "desc": "<span class=\"cegxtitle\">Textbook conversational copy:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Self-aware.</span> <span class=\"cegx6\">Light-hearted.</span> Sounds like my Aunt (who shops at Tesco).</span>"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "217",
-    "img": "ceg217",
-    "alt": "Tesco conversational copy ads",
+    "h": "1055",
+    "img": "cegl217",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "13 ", "word": "Conversational" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["13", "6"],
-    "desc": "“It's not copy, it's natter” — Ian David"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "218",
-    "img": "ceg218",
-    "alt": "Spacetime Landing Page Title",
-    "website": "https://spacetime.am/",
-    "tags": [
-      { "code": "8", "word": "Features" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["8", "7", "1"],
-    "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Single-minded <span class=\"cegx1\">value prop</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you create that value (<span class=\"cegxitalic\">subtitle</span>)"
+    "h": "390",
+    "img": "cegl218",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "219",
-    "img": "ceg219",
-    "alt": "App Sumo Landing Page Title",
-    "website": "https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=GB",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "11", "word": "Specific" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "4", "word": "CTA" }
-    ],
-    "filter": ["12", "11", "10", "4"],
-    "desc": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> 1. Makes <span class=\"cegxitalic\">YOU</span> the <span class=\"cegx1\">hero</span>. <span class=\"cegxitalic\">You</span> can “defend independence”. For “just <span class=\"cegx5\">$2.75</span>”<p><br></p>2. <span class=\"cegx4\">Contrast</span> with the “98% who don't give”<p><br></p>3. “If Wikipedia has given you $2.75 worth of knowledge...” — Clever <span class=\"cegx6\"> framing</span>",
-    "desc1": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> 1. Makes <span class=\"cegxitalic\">YOU</span> the <span class=\"cegx1\">hero</span>. <span class=\"cegxitalic\">You</span> can “defend independence”.<p><br></p>2. All for “just <span class=\"cegx5\">$2.75</span>”<p><br></p>3. <span class=\"cegx4\">Contrast</span> with the “98% who don't give”<p><br></p>4. “If Wikipedia has given you $2.75 worth of knowledge...” — Clever <span class=\"cegx6\"> framing</span>"
+    "h": "541",
+    "img": "cegl219",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "220",
-    "img": "ceg220",
-    "alt": "App Sumo Landing Page Title",
-    "website": "https://www.aguulp.com/the-science/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "3", "word": "Social Proof" }
-    ],
-    "filter": ["11", "3"],
-    "desc1": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> Raw <span class=\"cegx5\">stats</span> + Real world <span class=\"cegx1\">benefit</span>.<p><br></p>“58% increase in Acetate” → “Boosts immune system”",
-    "desc2": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> Raw <span class=\"cegx5\">stats</span>. Brought to <span class=\"cegx1\">life</span>.<p><br></p>“Acetate” → “Boosts immune system”",
-    "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> <span class=\"cegx5\">Stats</span> made <span class=\"cegx1\">relatable</span>.<p><br></p>“Acetate” → “Boosts immune system”"
+    "h": "1123",
+    "img": "cegl220a",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "221",
-    "img": "ceg221",
-    "alt": "Purple Mattress Landing Page Title",
-    "website": "https://purple.com/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "5", "word": "Why we exist!" }
-    ],
-    "filter": ["11", "10", "5"],
-    "desc": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Pick a fight</span> w/ the “old way” <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx1\">Introduce</span> your “new way” <span class=\"cegxitalic\">(subtitle)</span>",
-    "desc2": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Contrast</span> with the <span class=\"cegxitalic\">old way</span></span> emphasises Purple's <span class=\"cegxitalic\">new way</span>.<p><br></p>2. “Hardcore macromolecular science”, “30 patents later” — <span class=\"cegx5\">signals quality</span>"
+    "h": "1183",
+    "img": "cegl221",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "222",
-    "img": "ceg222",
-    "alt": "Purple Mattress Landing Page Title",
-    "website": "https://purple.com/mattresses/purple-bed",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "2", "word": "F + B's" }
-    ],
-    "filter": ["11", "7", "2"],
-    "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Short, sweet, <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Made believable by <span class=\"cegx5\">specifics</span> (<span class=\"cegxitalic\">subtitle</span>)"
+    "h": "568",
+    "img": "cegl222",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "223",
-    "img": "ceg223",
-    "alt": "App Sumo Landing Page Title",
-    "website": "https://appsumo.com",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "8", "word": "Features" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["10", "8", "1"],
-    "desc": "<span class=\"cegxtitle\">Oldest formula in the book</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you'll create it (<span class=\"cegxitalic\">subtitle</span>)"
+    "h": "1026",
+    "img": "cegl223",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "224",
-    "img": "ceg224",
-    "alt": "Unscreen Landing Page",
-    "website": "https://www.unscreen.com/",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "2", "word": "F + B's" }
-    ],
-    "filter": ["12", "10", "7", "2"],
-    "desc1": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Short, sweet <span class=\"cegx1\">benefit</span><p><br></p>2. Contrast the <span class=\"cegx4\">old way</span> with your <span class=\"cegx2\">new way</span>",
-    "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Tangible <span class=\"cegx1\">benefit</span> (w/ <span class=\"cegx6\">alliteration</span>)<p><br></p>2. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx2\">“new way”</span>"
+    "h": "1210",
+    "img": "cegl224",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "225",
-    "img": "ceg225",
-    "alt": "App Sumo Landing Page Title",
+    "h": "505",
+    "img": "cegl225",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["9", "6"],
-    "desc1": "Handles objection. Creates <span class=\"cegx2\">urgency</span>.<br>Makes you chuckle.",
-    "desc": "<span class=\"cegxtitle\">Billboard breakdown:</span><p class=\"ptitle\"><br></p>Handle objection. Creates <span class=\"cegx3\">urgency</span>.<br>Makes you chuckle."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "226",
-    "img": "ceg226",
-    "alt": "Tl Dental Landing Page Title",
-    "website": "https://www.tldental.com.au/",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "9", "word": "Creative" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["12", "9", "1"],
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p> Handle main <span class=\"cegx6\">objection</span> w/ <span class=\"cegx5\">humour</span>."
+    "h": "655",
+    "img": "cegl226",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "227",
-    "img": "ceg227",
-    "alt": "Veles Landing Page Title",
-    "website": "https://veles.com/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "9", "word": "Creative" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["11", "9", "1"],
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span>, <span class=\"cegxitalic\">surprising</span> <span class=\"cegx1\">value prop</span>"
+    "h": "438",
+    "img": "cegl227",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "228",
-    "img": "ceg228",
-    "alt": "Gumroad Landing Page Title",
-    "website": "https://gumroad.com/",
-    "tags": [
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["7", "1"],
-    "desc": "<span class=\"cegxtitle\">Story formula:</span><p class=\"ptitle\"><br></p>The <span class=\"cegx7\">creator</span> is the <span class=\"cegxitalic cegxbold\">hero</span>. <span class=\"cegx1\">Gumroad</span> is the <span class=\"cegxitalic cegxbold\">guide</span> who helps them on their journey."
+    "h": "438",
+    "img": "cegl228",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "229",
-    "img": "ceg229",
-    "alt": "Fast Landing Page Title",
-    "website": "https://www.fast.co/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "8", "word": "Features" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["11", "8", "7", "1"],
-    "desc": "<span class=\"cegxtitle\">Power of three:</span><p class=\"ptitle\"><br></p>Two <span class=\"cegx5\">specifics</span>. One <span class=\"cegx2\">punchline</span>."
+    "h": "1593",
+    "img": "cegl229",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "h": "300",
     "code": "230",
-    "img": "ceg230",
-    "alt": "Yumwoof Landing Page Title",
-    "website": "https://yumwoof.com/",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["9", "1"],
-    "desc": "“The purpose of the first line is to get you to read the second line.” — Joseph Sugarman"
-  },
-  {
-    "img": "ceg212",
-    "alt": "Duck Duck Go Billboard Google Tracks You",
+    "h": "650",
+    "img": "cegl230",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["10", "6"],
-    "desc": "<span class=\"cegxtitle\">Billboard breakdown:</span><p class=\"ptitle\"><br></p>Why you're <span class=\"cegx4\">different</span> in five words.",
-    "desc1": "Explain <span class=\"cegx4\">why you're different</span> in five words and you've probably wrote a good title"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg213",
-    "alt": "App Sumo Landing Page Title",
+    "code": "231",
+    "h": "606",
+    "img": "cegl231",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" },
-      { "code": "12", "word": "Rhetorical" }
-    ],
-    "filter": ["12", "9", "7", "6"],
-    "desc1": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life the <span class=\"cegx1\">outcome</span></span>.<p><br></p>Don't sell speakers. Sell Keith Moon playing drums in your room. “Only safer” - Great <span class=\"cegx3\">punchline</span>",
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">Bring to life the <span class=\"cegx1\">outcome</span></span>.<p><br></p>Don't sell speakers. Sell Keith Moon playing drums in your room.<p><br></p> “Only safer” - Great <span class=\"cegx3\">punchline</span>"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg214",
-    "alt": "App Sumo Landing Page Title",
+    "code": "232",
+    "h": "925",
+    "img": "cegl232",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["9", "7", "6"],
-    "desc2": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't show me pixels. Show me the photo.",
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">People buy <span class=\"cegx1\">outcomes</span></span>.<p><br></p> Don't bore me with pixel specifications. Show me the photo."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg215",
-    "alt": "Walkman vintage ad",
+    "code": "233",
+    "h": "501",
+    "img": "cegl233",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["9s", "7", "6"],
-    "desc": "<span class=\"cegxtitle\">Ad breakdown:</span><p class=\"ptitle\"><br></p>Don't sell a walkman.<p><br></p>Sell skating through the park with your boyfriend, listening to your walkman."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg216",
-    "alt": "Tesco conversational copy ads",
+    "code": "234",
+    "h": "303",
+    "img": "cegl234",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "13 ", "word": "Conversational" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["13", "10", "6"],
-    "desc": "<span class=\"cegxtitle\">Textbook conversational copy:</span><p class=\"ptitle\"><br></p><span class=\"cegx7\">Self-aware.</span> <span class=\"cegx6\">Light-hearted.</span> Sounds like my Aunt (who shops at Tesco).</span>"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg217",
-    "alt": "Tesco conversational copy ads",
+    "code": "235",
+    "h": "410",
+    "img": "cegl235",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "13 ", "word": "Conversational" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["13", "6"],
-    "desc": "“It's not copy, it's natter” — Ian David"
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg218",
-    "alt": "Spacetime Landing Page Title",
-    "website": "https://spacetime.am/",
-    "tags": [
-      { "code": "8", "word": "Features" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["8", "7", "1"],
-    "desc": "<span class=\"cegxtitle\">Header breakdown:</span><p class=\"ptitle\"><br></p>1. Single-minded <span class=\"cegx1\">value prop</span> (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you create that value (<span class=\"cegxitalic\">subtitle</span>)"
-  },
-  {
-    "img": "ceg219",
-    "alt": "App Sumo Landing Page Title",
-    "website": "https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=GB",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "11", "word": "Specific" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "4", "word": "CTA" }
-    ],
-    "filter": ["12", "11", "10", "4"],
-    "desc": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> 1. Makes <span class=\"cegxitalic\">YOU</span> the <span class=\"cegx1\">hero</span>. <span class=\"cegxitalic\">You</span> can “defend independence”. For “just <span class=\"cegx5\">$2.75</span>”<p><br></p>2. <span class=\"cegx4\">Contrast</span> with the “98% who don't give”<p><br></p>3. “If Wikipedia has given you $2.75 worth of knowledge...” — Clever <span class=\"cegx6\"> framing</span>",
-    "desc1": "<span class=\"cegxtitle\">CTA breakdown:</span><p class=\"ptitle\"><br></p> 1. Makes <span class=\"cegxitalic\">YOU</span> the <span class=\"cegx1\">hero</span>. <span class=\"cegxitalic\">You</span> can “defend independence”.<p><br></p>2. All for “just <span class=\"cegx5\">$2.75</span>”<p><br></p>3. <span class=\"cegx4\">Contrast</span> with the “98% who don't give”<p><br></p>4. “If Wikipedia has given you $2.75 worth of knowledge...” — Clever <span class=\"cegx6\"> framing</span>"
-  },
-  {
-    "img": "ceg220",
-    "alt": "App Sumo Landing Page Title",
-    "website": "https://www.aguulp.com/the-science/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "3", "word": "Social Proof" }
-    ],
-    "filter": ["11", "3"],
-    "desc1": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> Raw <span class=\"cegx5\">stats</span> + Real world <span class=\"cegx1\">benefit</span>.<p><br></p>“58% increase in Acetate” → “Boosts immune system”",
-    "desc2": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> Raw <span class=\"cegx5\">stats</span>. Brought to <span class=\"cegx1\">life</span>.<p><br></p>“Acetate” → “Boosts immune system”",
-    "desc": "<span class=\"cegxtitle\">Social proof breakdown:</span><p class=\"ptitle\"><br></p> <span class=\"cegx5\">Stats</span> made <span class=\"cegx1\">relatable</span>.<p><br></p>“Acetate” → “Boosts immune system”"
-  },
-  {
-    "img": "ceg221",
-    "alt": "Purple Mattress Landing Page Title",
-    "website": "https://purple.com/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "5", "word": "Why we exist!" }
-    ],
-    "filter": ["11", "10", "5"],
-    "desc": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Pick a fight</span> w/ the “old way” <span class=\"cegxitalic\">(title)</span><p><br></p>2. <span class=\"cegx1\">Introduce</span> your “new way” <span class=\"cegxitalic\">(subtitle)</span>",
-    "desc2": "<span class=\"cegxtitle\">“Why we exist” breakdown:</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Contrast</span> with the <span class=\"cegxitalic\">old way</span></span> emphasises Purple's <span class=\"cegxitalic\">new way</span>.<p><br></p>2. “Hardcore macromolecular science”, “30 patents later” — <span class=\"cegx5\">signals quality</span>"
-  },
-  {
-    "img": "ceg222",
-    "alt": "Purple Mattress Landing Page Title",
-    "website": "https://purple.com/mattresses/purple-bed",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "2", "word": "F + B's" }
-    ],
-    "filter": ["11", "7", "2"],
-    "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Short, sweet, <span class=\"cegx1\">benefit</span> <span class=\"cegxitalic\">(title)</span><p><br></p>2. Made believable by <span class=\"cegx5\">specifics</span> (<span class=\"cegxitalic\">subtitle</span>)"
-  },
-  {
-    "img": "ceg223",
-    "alt": "App Sumo Landing Page Title",
-    "website": "https://appsumo.com",
-    "tags": [
-      { "code": "10", "word": "Contrast" },
-      { "code": "8", "word": "Features" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["10", "8", "1"],
-    "desc": "<span class=\"cegxtitle\">Oldest formula in the book</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Value</span> you provide (<span class=\"cegxitalic\">title</span>)<p><br></p>2. <span class=\"cegx2\">How</span> you'll create it (<span class=\"cegxitalic\">subtitle</span>)"
-  },
-  {
-    "img": "ceg224",
-    "alt": "Unscreen Landing Page",
-    "website": "https://www.unscreen.com/",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "10", "word": "Contrast" },
-      { "code": "7", "word": "Outcomes" },
-      { "code": "2", "word": "F + B's" }
-    ],
-    "filter": ["12", "10", "7", "2"],
-    "desc1": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Short, sweet <span class=\"cegx1\">benefit</span><p><br></p>2. Contrast the <span class=\"cegx4\">old way</span> with your <span class=\"cegx2\">new way</span>",
-    "desc": "<span class=\"cegxtitle\">“Features & benefits” breakdown</span><p class=\"ptitle\"><br></p>1. Tangible <span class=\"cegx1\">benefit</span> (w/ <span class=\"cegx6\">alliteration</span>)<p><br></p>2. Contrast <span class=\"cegx4\">“old way”</span> with your <span class=\"cegx2\">“new way”</span>"
-  },
-  {
-    "img": "ceg225",
-    "alt": "App Sumo Landing Page Title",
+    "code": "236",
+    "h": "376",
+    "img": "cegl236",
+    "alt": "",
     "website": "",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "6", "word": "Ad" }
-    ],
-    "filter": ["9", "6"],
-    "desc1": "Handles objection. Creates <span class=\"cegx2\">urgency</span>.<br>Makes you chuckle.",
-    "desc": "<span class=\"cegxtitle\">Billboard breakdown:</span><p class=\"ptitle\"><br></p>Handle objection. Creates <span class=\"cegx3\">urgency</span>.<br>Makes you chuckle."
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg226",
-    "alt": "Tl Dental Landing Page Title",
-    "website": "https://www.tldental.com.au/",
-    "tags": [
-      { "code": "12", "word": "Rhetorical" },
-      { "code": "9", "word": "Creative" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["12", "9", "1"],
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p> Handle main <span class=\"cegx6\">objection</span> w/ <span class=\"cegx5\">humour</span>."
+    "code": "237",
+    "h": "453",
+    "img": "cegl237",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg227",
-    "alt": "Veles Landing Page Title",
-    "website": "https://veles.com/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "9", "word": "Creative" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["11", "9", "1"],
-    "desc": "<span class=\"cegxtitle\">Title breakdown:</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Specific</span>, <span class=\"cegxitalic\">surprising</span> <span class=\"cegx1\">value prop</span>"
+    "code": "238",
+    "h": "350",
+    "img": "cegl238",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg228",
-    "alt": "Gumroad Landing Page Title",
-    "website": "https://gumroad.com/",
-    "tags": [
-      { "code": "7", "word": "Outcomes" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["7", "1"],
-    "desc": "<span class=\"cegxtitle\">Story formula:</span><p class=\"ptitle\"><br></p>The <span class=\"cegx7\">creator</span> is the <span class=\"cegxitalic cegxbold\">hero</span>. <span class=\"cegx1\">Gumroad</span> is the <span class=\"cegxitalic cegxbold\">guide</span> who helps them on their journey."
+    "code": "239",
+    "h": "418",
+    "img": "cegl239",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg229",
-    "alt": "Fast Landing Page Title",
-    "website": "https://www.fast.co/",
-    "tags": [
-      { "code": "11", "word": "Specific" },
-      { "code": "8", "word": "Features" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["11", "8", "7", "1"],
-    "desc": "<span class=\"cegxtitle\">Power of three:</span><p class=\"ptitle\"><br></p>Two <span class=\"cegx5\">specifics</span>. One <span class=\"cegx2\">punchline</span>."
+    "code": "240",
+    "h": "751",
+    "img": "cegl240",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   },
   {
-    "img": "ceg230",
-    "alt": "Yumwoof Landing Page Title",
-    "website": "https://yumwoof.com/",
-    "tags": [
-      { "code": "9", "word": "Creative" },
-      { "code": "1", "word": "Header" }
-    ],
-    "filter": ["9", "1"],
-    "desc": "“The purpose of the first line is to get you to read the second line.” — Joseph Sugarman"
+    "code": "241",
+    "h": "728",
+    "img": "cegl241",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "242",
+    "h": "458",
+    "img": "cegl242",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "243",
+    "h": "790",
+    "img": "cegl243",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "244",
+    "h": "541",
+    "img": "cegl244",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "245",
+    "h": "1013",
+    "img": "cegl245",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "246",
+    "h": "280",
+    "img": "cegl246",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "247",
+    "h": "405",
+    "img": "cegl247",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "248",
+    "h": "643",
+    "img": "cegl248",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "249",
+    "h": "433",
+    "img": "cegl249",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "250",
+    "h": "318",
+    "img": "cegl250",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "251",
+    "h": "1006",
+    "img": "cegz251",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "252",
+    "h": "476",
+    "img": "cegz252",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "253",
+    "h": "758",
+    "img": "cegz253",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "254",
+    "h": "1336",
+    "img": "cegz254",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "255",
+    "h": "558",
+    "img": "cegz255",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "256",
+    "h": "1175",
+    "img": "cegz256",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "257",
+    "h": "2041",
+    "img": "cegz257",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "258",
+    "h": "511",
+    "img": "cegz258",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "259",
+    "h": "340",
+    "img": "cegz259",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "260",
+    "h": "626",
+    "img": "cegl260",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "261",
+    "h": "1125",
+    "img": "cegz261",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "262",
+    "h": "630",
+    "img": "cegz262",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "263",
+    "h": "378",
+    "img": "cegz263",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "264",
+    "h": "1148",
+    "img": "cegz264",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "265",
+    "h": "631",
+    "img": "cegz265",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "266",
+    "h": "616",
+    "img": "cegz266",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "267",
+    "h": "563",
+    "img": "cegz267",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "268",
+    "h": "821",
+    "img": "cegz268",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "269",
+    "h": "435",
+    "img": "cegz269",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "270",
+    "h": "450",
+    "img": "cegz270",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "271",
+    "h": "513",
+    "img": "cegz271",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "272",
+    "h": "261",
+    "img": "cegz272",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "273",
+    "h": "485",
+    "img": "cegz273",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "274",
+    "h": "638",
+    "img": "cegz274",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "275",
+    "h": "343",
+    "img": "cegz275",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "276",
+    "h": "418",
+    "img": "cegz276",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "277",
+    "h": "665",
+    "img": "cegz277",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "278",
+    "h": "693",
+    "img": "cegz278",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "279",
+    "h": "328",
+    "img": "cegz279",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "280",
+    "h": "851",
+    "img": "cegz280",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "281",
+    "h": "846",
+    "img": "cegz281",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "282",
+    "h": "1395",
+    "img": "cegz282",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "283",
+    "h": "1076",
+    "img": "cegz283",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "284",
+    "h": "608",
+    "img": "cegz284",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "285",
+    "h": "810",
+    "img": "cegz285",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "286",
+    "h": "268",
+    "img": "cegz286",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "287",
+    "h": "471",
+    "img": "cegz287",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "288",
+    "h": "251",
+    "img": "cegz288",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "289",
+    "h": "968",
+    "img": "cegz289",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "290",
+    "h": "640",
+    "img": "cegz290",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "291",
+    "h": "480",
+    "img": "cegz291",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "292",
+    "h": "480",
+    "img": "cegz292",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "293",
+    "h": "2565",
+    "img": "cegz293",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "294",
+    "h": "570",
+    "img": "cegz294",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "295",
+    "h": "385",
+    "img": "cegz295",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "296",
+    "h": "703",
+    "img": "cegz296",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
+  },
+  {
+    "code": "297",
+    "h": "608",
+    "img": "cegz297",
+    "alt": "",
+    "website": "",
+    "tags": [],
+    "filter": [],
+    "desc1": ""
   }
 ]

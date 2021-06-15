@@ -57,9 +57,9 @@ exports.ce = async (req, res) => {
 };
 
 exports.fed = async (req, res) => {
-  shuffledCeg = shuffleFisherYates(dbCeg);
+  // shuffledCeg = shuffleFisherYates(dbCeg);
+  shuffledCeg = dbCeg;
   const cegs = shuffledCeg.slice(0, 14);
-  // const cegs = shuffledCeg;
   res.render('./fed/ext', { cegs });
 };
 
@@ -148,7 +148,6 @@ exports.lazy = async (req, res) => {
 
 exports.lazyCeg = async (req, res) => {
   var cegs;
-  var nextTen;
   var start;
   var end;
   const { page } = req.params || 1;
@@ -165,10 +164,6 @@ exports.lazyCeg = async (req, res) => {
     cegs = shuffledCeg.slice(start, end);
   } else if (filterParam === 'all') {
     cegs = shuffledCeg.slice(start + 14, end + 14);
-    // nextTen = shuffledCeg
-    //   .slice(end, end + 10)
-    //   .map(ceg => ceg.code)
-    //   .toString();
   } else {
     const activeFilters = filterParam.split('-');
     const filteredCeg = shuffledCeg.filter(item =>
@@ -176,7 +171,7 @@ exports.lazyCeg = async (req, res) => {
     );
     cegs = filteredCeg.slice(start, end);
   }
-  res.render('./backend/cegs', { cegs, pageString, nextTen });
+  res.render('./backend/cegs', { cegs, pageString });
 };
 
 // exports.lazyCeg = async (req, res) => {

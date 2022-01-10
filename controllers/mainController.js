@@ -61,7 +61,7 @@ exports.twitterhandbook = async (req, res) => {
 // };
 
 exports.fed = async (req, res) => {
-  // shuffledCeg = shuffleFisherYates(dbCeg);
+  shuffledCeg = shuffleFisherYates(dbCeg);
   shuffledCeg = dbCeg;
   const cegs = shuffledCeg.slice(0, 10);
   res.render("./fed/ext", { cegs });

@@ -122,7 +122,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/newsletter">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

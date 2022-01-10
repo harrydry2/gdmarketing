@@ -128,7 +128,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who'd like the article? Please do forward the email. It's how the site grows. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who'd like the article? Please do forward the email. It's how the site grows. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

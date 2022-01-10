@@ -148,7 +148,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">Mini example - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/dave-gerhardt" target="_blank">Why Burger King sponsored Stevenage F.C.</a></mj-text>
+          <mj-text mj-class="p">Mini example - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/one-line-email" target="_blank">Why Burger King sponsored Stevenage F.C.</a></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -156,7 +156,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

@@ -2,11 +2,14 @@
 const mongoose = require("mongoose");
 const path = require("path");
 
+// swap Cards for Test. Simple. On 3 controllers.
 const Cards = mongoose.model("Cards");
+// const Test = mongoose.model("Test");
 const Gifs = mongoose.model("Gifs");
 const GifsMob = mongoose.model("GifsMob");
 const Ceg = mongoose.model("Ceg");
 const dbCards = require("../scripts/cards");
+const dbTest = require("../scripts/test");
 const dbGifs = require("../scripts/gifs");
 const dbGifsMob = require("../scripts/gifsMob");
 const dbCeg = require("../scripts/ceg");
@@ -14,7 +17,9 @@ const dbCeg = require("../scripts/ceg");
 let shuffledCeg = [];
 
 function findCommonElements(arr1, arr2) {
-  return arr1.some(item => arr2.includes(item));
+  console.log(arr1, arr2);
+  return arr1.every(item => arr2.includes(item));
+  // return arr1.some(item => arr2.includes(item));
 }
 
 function shuffleFisherYates(array) {
@@ -34,7 +39,7 @@ function isMobile(ua) {
 exports.home = async (req, res) => {
   // get skip + limit
   const page = +req.params.page || 1;
-  const limit = 8;
+  const limit = 12;
   const skip = limit * page - limit;
   const cards = await Cards.find()
     .skip(skip)
@@ -57,23 +62,23 @@ exports.ce = async (req, res) => {
 };
 
 exports.fed = async (req, res) => {
-  // shuffledCeg = shuffleFisherYates(dbCeg);
+  shuffledCeg = shuffleFisherYates(dbCeg);
   shuffledCeg = dbCeg;
   const cegs = shuffledCeg.slice(0, 14);
   res.render("./fed/ext", { cegs });
 };
 
-exports.copywritingexamples = async (req, res) => {
-  // const page = +req.params.page || 1;
-  // const limit = 14;
-  // const skip = limit * page - limit;
-  // const cegs = await Ceg.find()
-  //   .skip(skip)
-  //   .limit(limit);
-  shuffledCeg = shuffleFisherYates(dbCeg);
-  // shuffledCeg = dbCeg;
-  res.render("./copywritingexamples/ext");
-};
+// exports.copywritingexamples = async (req, res) => {
+//   // const page = +req.params.page || 1;
+//   // const limit = 14;
+//   // const skip = limit * page - limit;
+//   // const cegs = await Ceg.find()
+//   //   .skip(skip)
+//   //   .limit(limit);
+//   shuffledCeg = shuffleFisherYates(dbCeg);
+//   // shuffledCeg = dbCeg;
+//   res.render('./copywritingexamples/ext');
+// };
 
 exports.course = async (req, res) => {
   var added = false;
@@ -131,14 +136,15 @@ exports.lazy = async (req, res) => {
   let cards;
   const { page } = req.params || 1;
   const { filterParam } = req.params;
-  const limit = 8;
+  const limit = 12;
   const skip = limit * page - limit;
   if (filterParam === "all") {
     cards = await Cards.find()
       .skip(skip)
       .limit(limit);
   } else {
-    const activeFilters = filterParam.split("-");
+    // const activeFilters = filterParam.split("-");
+    const activeFilters = filterParam;
     cards = await Cards.find({ tBack: { $in: activeFilters } })
       .skip(skip)
       .limit(limit);
@@ -237,6 +243,13 @@ exports.postideas = async (req, res) => {
   res.json(cards);
 };
 
+exports.testideas = async (req, res) => {
+  await Test.deleteMany({});
+  await Test.insertMany(dbTest);
+  const test = await Test.find();
+  res.json(test);
+};
+
 exports.postgifs = async (req, res) => {
   await Gifs.deleteMany({});
   await Gifs.insertMany(dbGifs);
@@ -261,21 +274,55 @@ exports.postceg = async (req, res) => {
 
 exports.filters = async (req, res) => {
   const { filters } = req.params;
-  const activeFilters = filters.split("-");
+  // const activeFilters = filters.split("-");
+  const activeFilters = [filters];
   const page = req.params.page || 1;
-  const limit = 8;
+  const limit = 12;
   const skip = limit * page - limit;
   // find active cards
   const cards = await Cards.find({ tBack: { $in: activeFilters } })
     .skip(skip)
     .limit(limit);
-  // turn active filters into meta suitable
-  let title = activeFilters
-    .map(string => string.charAt(0).toUpperCase() + string.slice(1))
-    .join(" and ");
-  // edge case for two word filters
-  if (title.includes("Coldemail")) {
-    title = title.replace("Coldemail", "Cold Email");
+  const smalltitle = activeFilters[0];
+  let titlenum = "";
+  let title;
+  if (smalltitle === "content") {
+    console.log("yabba");
+    titlenum = "1";
+  } else if (smalltitle === "seo") {
+    titlenum = "2";
+  } else if (smalltitle === "sales") {
+    titlenum = "3";
+  } else if (smalltitle === "social") {
+    titlenum = "4";
+  } else if (smalltitle === "ads") {
+    titlenum = "5";
+  } else if (smalltitle === "affiliate") {
+    titlenum = "6";
+  } else if (smalltitle === "copywriting") {
+    titlenum = "7";
+  } else if (smalltitle === "landing-page") {
+    titlenum = "8";
+  } else if (smalltitle === "retention") {
+    titlenum = "9";
+  } else if (smalltitle === "brand") {
+    titlenum = "10";
+  } else if (smalltitle === "referral") {
+    titlenum = "11";
+  } else if (smalltitle === "creative") {
+    titlenum = "12";
   }
-  res.render("filters/ext", { cards, title, activeFilters, filters });
+  const toTitleCase = phrase => {
+    return phrase
+      .toLowerCase()
+      .split(" ")
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
+  if (smalltitle === "landing-page") {
+    title = "Landing Page";
+  } else {
+    title = toTitleCase(smalltitle);
+  }
+  res.render("filters/ext", { cards, title, activeFilters, filters, titlenum });
 };

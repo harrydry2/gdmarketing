@@ -83,7 +83,7 @@
           <mj-column>
             <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
             <mj-text mj-class="h1" align="center">#031 - How to write a landing page title</mj-text>
-            <mj-text mj-class="h3" align="center">(Copywriting tips • 2 mins • <a class="underB" href="https://marketingexamples.com/copywriting/landing-page-title/?utm_source=newsletter&utm_medium=email&utm_campaign=email_31" target="_blank">Read on website</a>)</mj-text>
+            <mj-text mj-class="h3" align="center">(Copywriting tips • 2 mins • <a class="underB" href="https://marketingexamples.com/landing-page/titles/?utm_source=newsletter&utm_medium=email&utm_campaign=email_31" target="_blank">Read on website</a>)</mj-text>
             <mj-text mj-class="h2under">1) Speak with conviction</mj-text>
             <mj-text mj-class="p list list__top">• Don't say “We help” say “It's how”</mj-text>
             <mj-text mj-class="p list list__bottom">• Don't say “alternative” say “replaces”</mj-text>
@@ -118,7 +118,7 @@
         </mj-section>
         <mj-section mj-class="shareSection" background-color="#e5f5ff">
           <mj-column>
-            <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+            <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/newsletter">here</a> :)</mj-text>
           </mj-column>
         </mj-section>
         <mj-section mj-class="whiteSection" padding-top="36px">

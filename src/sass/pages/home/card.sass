@@ -1,19 +1,11 @@
 .outerCard
-  padding: 2.2rem
+  // padding: 2.2rem
   display: grid
   grid-template-columns: repeat(3, 1fr)
-  grid-gap: 2.2rem
+  grid-gap: 1.6rem
   // margin-top: 7rem
   @media screen and (max-width: 1240px)
     grid-template-columns: repeat(2, 1fr)
-  @media screen and (max-width: 940px)
-    margin-bottom: 6rem
-  @media screen and (max-width: 768px)
-    grid-gap: 2rem
-    padding: 2rem
-  @media screen and (max-width: 360px)
-    grid-gap: 1.8rem
-    padding: 1.8rem
   @media screen and (max-width: 660px)
     grid-template-columns: 1fr
 
@@ -23,7 +15,7 @@
   @media screen and (max-width: 1240px)
     grid-column-start: 2
   @media screen and (max-width: 768px)
-    height: 22rem
+    height: 21rem
     grid-row-start: 3
     grid-column-start: auto
 
@@ -33,7 +25,7 @@
   @media screen and (max-width: 1240px)
     grid-column-start: 2
   @media screen and (max-width: 768px)
-    height: 22rem
+    height: 21rem
     grid-row-start: 6
     grid-column-start: auto
 
@@ -43,7 +35,7 @@
   @media screen and (max-width: 1240px)
     grid-column-start: 2
   @media screen and (max-width: 768px)
-    height: 22rem
+    height: 21rem
     grid-row-start: 9
     grid-column-start: auto
 
@@ -53,7 +45,7 @@
   @media screen and (max-width: 1240px)
     grid-column-start: 2
   @media screen and (max-width: 768px)
-    height: 22rem
+    height: 21rem
     grid-row-start: 12
     grid-column-start: auto
 
@@ -91,17 +83,18 @@
 
 .card
   padding: 0.9rem
-  height: 23.9rem
+  height: 23rem
   display: flex
   flex-direction: column
   justify-content: space-between
-  border-radius: 8px
+  border-radius: 2rem
+  border: 3px solid $cegb
   position: relative
   overflow: hidden
   cursor: pointer
   z-index: 2
   @media screen and (max-width: 768px)
-    height: 22rem
+    height: 21rem
   img, picture
     position: absolute
     object-fit: cover
@@ -140,51 +133,38 @@
         margin-left: 0.7rem
         font-weight: 500
     &-tag
-      width: 10.1rem
-      padding: 0.8rem 0
-      // background: #C7E9BA
+      padding: 0.8rem 1.8rem
       display: flex
       justify-content: center
-      font-size: 1.2rem
+      font-size: 1.25rem
       font-weight: 500
       border-radius: 100px
+      // border: 2px solid #f7f7f7
 
 // for both post card and home card
 
 .ct
-  &__referral
-    background: #C7E9BA
-  &__pricing
-    background: #DCDBF4
-  &__giveaway
-    background: #FDAFC4
-  &__coldemail
-    background: hsla(293, 52, 82, 1)
-  &__viral
-    background: hsla(203, 72, 82, 1)
   &__content
-    background: hsla(63, 80, 84, 1)
+    background: #F6C5C4
   &__seo
-    background: hsla(171, 80, 86, 1)
-  &__conversion
-    background: hsla(0, 40, 86, 1)
+    background: #b5edd4
   &__sales
-    background: hsla(320, 100, 92, 1)
-  &__brand
-    background: hsla(300, 40, 92, 1)
-  &__sideproject
-    background: hsla(166, 86, 58, 1)
-  &__email
-    background: hsla(300, 40, 92, 1)
-  &__copywriting
-    background: hsla(166, 86, 58, 1)
-  &__socialmedia
-    background: hsla(320, 100, 92, 1)
-  &__ppc
-    background: hsla(320, 100, 92, 1)
-  &__customers
-    background: hsla(172, 50, 85, 1)
+    background: #C2C9FB
+  &__social
+    background: #F1C7ED
   &__ads
-    background: hsla(73, 92, 85, 1)
-  &__misc
-    background: hsla(73, 92, 85, 1)
+    background: #FFF9B8
+  &__affiliate
+    background: #C6F0FD
+  &__copywriting
+    background: #F6C5C4
+  &__landing-page
+    background: #b5edd4
+  &__retention
+    background: #C2C9FB
+  &__brand
+    background: #F1C7ED
+  &__referral
+    background: #FFF9B8
+  &__creative
+    background: #C6F0FD

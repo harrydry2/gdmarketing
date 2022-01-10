@@ -86,7 +86,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#037 - Surprising a customer with birthday cake</mj-text>
-          <mj-text mj-class="h3" align="center">(Customers • 1 min • <a class="underB" href="https://marketingexamples.com/customers/birthday-cake/?utm_source=newsletter&utm_medium=email&utm_campaign=email_37" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Customers • 1 min • <a class="underB" href="https://marketingexamples.com/retention/birthday-cake/?utm_source=newsletter&utm_medium=email&utm_campaign=email_37" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p">Insurance company, Lemonade, sent a personalised birthday email to loyal customer, Andrew.</mj-text>
           <mj-text mj-class="p">Andrew was touched and thanked them on Twitter:</mj-text>
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/lemon1.png" alt="Lemonade email"></mj-image>
@@ -109,7 +109,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who'd enjoy the story? Please do forward the email. Anyone new can subscribe to the marketing tips <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who'd enjoy the story? Please do forward the email. Anyone new can subscribe to the marketing tips <a class="underD subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

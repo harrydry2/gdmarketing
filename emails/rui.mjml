@@ -85,7 +85,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/sideproject/tour-de-france?utm_source=newsletter&utm_medium=email&utm_campaign=email_15">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/tour-de-france?utm_source=newsletter&utm_medium=email&utm_campaign=email_15">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>
@@ -93,7 +93,7 @@
       <mj-section mj-class="preSection">
         <mj-column>
           <mj-text mj-class="p">I tried something a little different this one. Personally, I find it interesting to see some expert “Side project marketing” in action over <span class="bold">100 years</span> ago. The fundamentals of marketing don't change.</mj-text>
-          <mj-text mj-class="p">I'll be back on Tuesday with another. If you're enjoying the stories emailing them to your marketing friends is appreciated. Anyone new can subscribe <a class="underA" href="https://marketingexamples.com/subscribe" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">I'll be back on Tuesday with another. If you're enjoying the stories emailing them to your marketing friends is appreciated. Anyone new can subscribe <a class="underA" href="https://marketingexamples.com/newsletter" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="h2">Sponsor</mj-text>
           <mj-text mj-class="p">Thanks to my sponsor, <a class="underA" href="https://emailoctopus.com/?ref=marketingexamples" target="_blank">EmailOctopus</a>. I use them for all my own <span class="bold">email marketing</span> and would definately recommend them.</mj-text>
           <mj-text mj-class="p">Cheers, <br>Harry</mj-text>

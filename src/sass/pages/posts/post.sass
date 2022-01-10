@@ -3,14 +3,14 @@
   align-items: center
   position: fixed
   display: flex
-  z-index: 4
+  z-index: 6
   left: 0
   top: 0
   height: 100%
   width: 100%
   background-color: rgba(255, 255, 255, 0.8)
-  @media (max-width: 768px)
-    // overflow: auto
+  @media (max-width: 1024px)
+    padding-top: 6.5rem
   &__fh
     display: none
   &__close
@@ -21,7 +21,7 @@
     z-index: 10
     padding: 1rem
     @media screen and (max-width: 768px)
-      top: .7rem
+      top: 7.2rem
       right: .7rem
 
 
@@ -34,10 +34,11 @@
   position: relative
   border-radius: 6px
   overflow-y: scroll
-  @media (max-width: 768px)
+  @media (max-width: 1024px)
     width: 100%
     height: 100%
     border-radius: 0px
+    // margin-bottom: 6.5rem
     // overflow: visible
   &__top
     height: 24rem

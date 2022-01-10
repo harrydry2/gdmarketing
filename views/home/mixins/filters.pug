@@ -1,22 +1,38 @@
-mixin filter(fFilter, bFilter, activeFilters=[])
+mixin filter(fFilter, bFilter, activeFilters=[], num)
   - var active = activeFilters.indexOf(bFilter) > -1 ? "filters__active" : "";
-  a.filters__spec(href=`/${bFilter}` data-slug=`${bFilter}` data-term=`${bFilter}` class=active)
-    .filters__spec-inner
-      .filters__spec-inner-icon!=icon(`./filters/${bFilter}`)
-      .filters__spec-inner-text=fFilter
+  a.filters__spec(href=`/${bFilter}` data-slug=`${bFilter}` data-term=`${bFilter}` data-num=`${num}` class=`${active} cegi-shade${num}`)=fFilter
 
-mixin filters(activeFilters)
-  .filters
-    +filter("Cold Email", "coldemail", activeFilters)
-    +filter("Viral", "viral", activeFilters)
-    +filter("Giveaway", "giveaway", activeFilters)
-    +filter("Conversion", "conversion", activeFilters)
-    +filter("Content", "content", activeFilters)
-    +filter("Referral", "referral", activeFilters)
-    +filter("Copywriting", "copywriting", activeFilters)
-    +filter("Pricing", "pricing", activeFilters)
-    +filter("SEO", "seo", activeFilters)
-    +filter("Sales", "sales", activeFilters)
-    +filter("Brand", "brand", activeFilters)
-    +filter("PPC", "ppc", activeFilters)
-    +filter("Side Project", "sideproject", activeFilters)
+mixin filters(activeFilters, titlenum)
+  .filterContainer(class=`cegfilters__active${titlenum}`)
+    .homel__filter.homel__filter-one
+      .cegl__filter-title!=icon("me1")
+      +filter("Content", "content", activeFilters, "1")
+      +filter("SEO", "seo", activeFilters, "2")
+      +filter("Sales", "sales", activeFilters, "3")
+      +filter("Social", "social", activeFilters, "4")
+      +filter("Ads", "ads", activeFilters, "5")
+      +filter("Affiliate", "affiliate", activeFilters, "6")
+    .homel__filter.homel__filter-two
+      .cegl__filter-title!=icon("me2")
+      +filter("Copywriting", "copywriting", activeFilters, "7")
+      +filter("Landing Page", "landing-page", activeFilters, "8")
+    .homel__filter.homel__filter-three
+      .cegl__filter-title!=icon("me4")
+      +filter("Retention", "retention", activeFilters, "9")
+      +filter("Brand", "brand", activeFilters, "10")
+      +filter("Referral", "referral", activeFilters, "11")
+      +filter("Creative", "creative", activeFilters, "12")
+    .homel__filter.homel__filter-three
+      .cegl__filter-title!=icon("me3")
+      .handbook
+        img(src="https://ik.imagekit.io/o08ysq9vx/mebits/tape.png", alt="Mixtapes").imgSpin
+        .handbook__bottom
+          a(href="/newsletter")
+            img(src="https://ik.imagekit.io/o08ysq9vx/mebits/tmm5.svg", alt="" class="handbook-button")
+        .handbook__proof
+          img(src="https://ik.imagekit.io/o08ysq9vx/mebits/stars2.svg", alt="" class="")
+          .handbook__proof-text “
+            span.bold #1
+            |!{' '}Marketing Newsletter”
+          .handbook__proof-text Read by!{' '}
+            span.bold 85k+

@@ -138,7 +138,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -146,7 +146,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">Last Sunday I put together this email series —<span class="italic"> The 5 articles subscribers found most useful over the last 2 years.</span> If you'd like them in your inbox — <a class="underA subscribeColor" trigger-id="2297969" href="https://marketingexamples.com/best-of/subscribe" target="_blank">click here</a>.</mj-text>
+          <mj-text mj-class="p">Last Sunday I put together this email series —<span class="italic"> The 5 articles subscribers found most useful over the last 2 years.</span> If you'd like them in your inbox — <a class="underA subscribeColor" trigger-id="2297969" href="https://marketingexamples.com/best-of/newsletter" target="_blank">click here</a>.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

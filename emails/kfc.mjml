@@ -88,7 +88,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/viral/antifragile-brand?utm_source=newsletter&utm_medium=email&utm_campaign=email_7">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/brand/antifragile?utm_source=newsletter&utm_medium=email&utm_campaign=email_7">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>

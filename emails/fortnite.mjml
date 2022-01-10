@@ -86,7 +86,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/viral/fortnite-changed-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_5">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/retention/fortnite?utm_source=newsletter&utm_medium=email&utm_campaign=email_5">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>

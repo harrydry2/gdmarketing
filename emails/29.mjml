@@ -82,7 +82,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#029 - The Indie Hackers Newsletters</mj-text>
-          <mj-text mj-class="h3" align="center">(A case for email segmentation • 2 mins • <a class="underB" href="https://marketingexamples.com/email/indie-hackers-newsletter/?utm_source=newsletter&utm_medium=email&utm_campaign=email_29" target="_blank">Read on website</a> )</mj-text>
+          <mj-text mj-class="h3" align="center">(A case for email segmentation • 2 mins • <a class="underB" href="https://marketingexamples.com/retention/email-segmentation/?utm_source=newsletter&utm_medium=email&utm_campaign=email_29" target="_blank">Read on website</a> )</mj-text>
           <mj-text mj-class="p">Indie Hackers is an online community of independent entrepreneurs, with a pretty sizeable email list.</mj-text>
           <mj-text mj-class="p">Throughout 2019 they’ve moved away from one <span class="bold">generic</span> email digest and started offering users the option of up to seven <span class="bold">tailored</span> newsletters:</mj-text>
           <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/ih1.png" alt="Indie Hackers Newsletter"></mj-image>
@@ -119,7 +119,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any marketers this email might help? Feel free to forward it. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any marketers this email might help? Feel free to forward it. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/newsletter">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

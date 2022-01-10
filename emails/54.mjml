@@ -92,7 +92,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#055 - Rewriting landing pages with a pro copywriter</mj-text>
-          <mj-text mj-class="h3" align="center">(Copywriting • 3 mins • <a class="underB" href="https://marketingexamples.com/copywriting/rewriting-landing-pages" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Copywriting • 3 mins • <a class="underB" href="https://marketingexamples.com/landing-page/rewrites" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey. So last week I asked people on social media to “submit your company landing page” and I’d rewrite it.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Well, we did it! I teamed up with <a class="underA subscribeColor" href="https://www.linkedin.com/in/maguireannie/" target="_blank">Annie Maguire</a>, one of the best copywriters in the business.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Hopefully this gives you an insight into <span class="italic">the mind</span> of a pro copywriter.</span></mj-text>
@@ -156,7 +156,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

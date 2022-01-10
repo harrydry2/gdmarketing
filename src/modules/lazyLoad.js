@@ -1,9 +1,9 @@
-import axios from 'axios';
-import { $, $$ } from './bling';
-import { postPopup } from './postPopup';
-import { resize, copyGif } from './gifs';
+import axios from "axios";
+import { $, $$ } from "./bling";
+import { postPopup } from "./postPopup";
+import { resize, copyGif } from "./gifs";
 
-axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
 export function lazyLoad(filterArray) {
   window.onscroll = async () => {
@@ -17,17 +17,17 @@ export function lazyLoad(filterArray) {
       window.busy = true;
       // get active filters
       const activeFilters = filterArray
-        .filter(filter => filter.classList.contains('filters__active'))
+        .filter(filter => filter.classList.contains("filters__active"))
         .map(filter => filter.dataset.term)
-        .join('-');
+        .join("-");
       // set filter param
-      const filterParam = activeFilters.length === 0 ? 'all' : activeFilters;
+      const filterParam = activeFilters.length === 0 ? "all" : activeFilters;
       try {
         const { data } = await axios.get(
           `/api/lazy/${window.page}/${filterParam}`
         );
-        $('.outerCard').insertAdjacentHTML('beforeend', data);
-        postPopup(Array.from($$('.card')));
+        $(".outerCard").insertAdjacentHTML("beforeend", data);
+        postPopup(Array.from($$(".card")));
         if (data.length) {
           window.page += 1;
         } else {
@@ -78,7 +78,7 @@ const box2 = `<div class="harryGIF">
     </g>
 </svg></div>
     <div class="harryGIF__inner-p">For a practical marketing lesson I wrote about how Notion's sign up form converts so well.</div>
-    <a class="harryGIF__inner-button" href="/conversion/sign-up-form-converts">Read Notion's story</a>
+    <a class="harryGIF__inner-button" href="/landing-page/sign-up">Read Notion's story</a>
 </div>
 </div>`;
 
@@ -106,7 +106,7 @@ const box3 = `<div class="harryGIF">
     </g>
 </svg></div>
 <div class="harryGIF__inner-p">Or for a classic marketing tale, I wrote about how Nike sold it’s first shoes</div>
-    <a class="harryGIF__inner-button" href="https://marketingexamples.com/direct/how-nike-sold-first-shoes">Read Nike's story</a>
+    <a class="harryGIF__inner-button" href="https://marketingexamples.com/direct/nikes-first-shoes">Read Nike's story</a>
 </div>
 </div>`;
 
@@ -134,7 +134,7 @@ const box3 = `<div class="harryGIF">
 //     </g>
 // </svg></div>
 // <div class="harryGIF__inner-p">Or for a lesson in copywriting I wrote 7 pra how Nike sold it’s first shoes</div>
-//     <a class="harryGIF__inner-button" href="/conversion/sign-up-form-converts">Read Nike's story</a>
+//     <a class="harryGIF__inner-button" href="/landing-page/sign-up">Read Nike's story</a>
 // </div>
 // </div>`;
 
@@ -156,7 +156,7 @@ export function gifLoad() {
       try {
         let newdata;
         const { data } = await axios.get(`/api/lazyGif/${window.page}`);
-        console.log(data, 'data');
+        console.log(data, "data");
         if (window.page === 2) {
           newdata = box1.concat(data);
         } else if (window.page === 3) {
@@ -168,15 +168,15 @@ export function gifLoad() {
         } else {
           newdata = data;
         }
-        $('.gif__inner-gif').insertAdjacentHTML('beforeend', newdata);
+        $(".gif__inner-gif").insertAdjacentHTML("beforeend", newdata);
         copyGif();
         if (!isMobile(navigator.userAgent)) {
-          $$('.gif__video').forEach(img => {
-            img.addEventListener('loadeddata', resize);
+          $$(".gif__video").forEach(img => {
+            img.addEventListener("loadeddata", resize);
           });
         } else {
-          $$('.gif__video').forEach(img => {
-            img.addEventListener('load', resize);
+          $$(".gif__video").forEach(img => {
+            img.addEventListener("load", resize);
           });
         }
         if (data.length) {

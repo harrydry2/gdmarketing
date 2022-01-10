@@ -1,0 +1,26 @@
+mixin filter(fFilter, bFilter, activeFilters=[], num)
+  - var active = activeFilters.indexOf(bFilter) > -1 ? "filters__active" : "";
+  a.filters__spec(href=`/${bFilter}` data-slug=`${bFilter}` data-term=`${bFilter}` data-num=`${num}` class=`${active} cegi-shade${num}`)=fFilter
+
+mixin mobfilters(activeFilters, titlenum)
+  .filterContainer.cegm__bottom(class=`cegfilters__active${titlenum}`)
+    .cegm__bottom-inner
+      .cegm__bottom-title!=icon("me1")
+      +filter("Content", "content", activeFilters, "1")
+      +filter("SEO", "seo", activeFilters, "2")
+      +filter("Sales", "sales", activeFilters, "3")
+      +filter("Social", "social", activeFilters, "4")
+      +filter("Ads", "ads", activeFilters, "5")
+      +filter("Affiliate", "affiliate", activeFilters, "6")
+    .cegm__bottom-sep
+    .cegm__bottom-inner
+      .cegl__filter-title!=icon("me2")
+      +filter("Copywriting", "copywriting", activeFilters, "7")
+      +filter("Landing Page", "landing-page", activeFilters, "8")
+    .cegm__bottom-sep
+    .cegm__bottom-inner
+      .cegl__filter-title!=icon("me4")
+      +filter("Retention", "retention", activeFilters, "9")
+      +filter("Brand", "brand", activeFilters, "10")
+      +filter("Referral", "referral", activeFilters, "11")
+      +filter("Creative", "creative", activeFilters, "12")

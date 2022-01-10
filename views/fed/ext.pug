@@ -1,6 +1,7 @@
 extends base
 
 include ./ceg
+include ../home/mixins/mail
 
 block content
   .fed__outer
@@ -9,70 +10,95 @@ block content
       #stars2.stars2-left
     .fed
       .cegm__top
-        a(href="/copywriting-examples")
-          img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
+        a(href="/inspiration")
+          //- img(src="https://ik.imagekit.io/o08ysq9vx/cebits/cegLogo.png", alt="Logo")
+          img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo2.png", alt="Logo")
         .cegm__top-right
-          .cegm__top-right-minus!=icon("cegfilterminus")
+          .cegm__top-right-minus!=icon("cegfilterminus3")
           .cegm__top-right-plus.cegmtr__active!=icon("cegfilterplus1")
-          .cegm__top-right-menu!=icon("cegmenu")
+          .cegm__top-right-menu.cegmtr__active!=icon("cegmail1")
+          .cegm__top-right-menuminus!=icon("cegmail3a")
       .cegm__bottom
-        .cegm__bottom-cross!=icon("cross")
         .cegm__bottom-inner
           .cegm__bottom-title!=icon("ceg1")
-          .cegm__bottom-tab.fth.cegi-shade1(data-num='1') Header
-          .cegm__bottom-tab.fth.cegi-shade2(data-num='2') Features + Benefits
+          .cegm__bottom-tab.fth.cegi-shade1(data-num='1') Headers
+          .cegm__bottom-tab.fth.cegi-shade2(data-num='2') Features
           .cegm__bottom-tab.fth.cegi-shade3(data-num='3') Social Proof
-          .cegm__bottom-tab.fth.cegi-shade4(data-num='4') CTA
-          .cegm__bottom-tab.fth.cegi-shade5(data-num='5') Why we exist!
-          .cegm__bottom-tab.fth.cegi-shade6(data-num='6') Ad
+          .cegm__bottom-tab.fth.cegi-shade4(data-num='4') Story
+          .cegm__bottom-tab.fth.cegi-shade5(data-num='5') Lead Magnet
+          .cegm__bottom-tab.fth.cegi-shade6(data-num='6') Ads
         .cegm__bottom-sep
         .cegm__bottom-inner
           .cegm__bottom-title!=icon("ceg2")
-          .cegm__bottom-tab.bth.cegi-shade7(data-num='7') Outcomes
-          .cegm__bottom-tab.bth.cegi-shade8(data-num='8') Features
+          .cegm__bottom-tab.bth.cegi-shade7(data-num='7') Simple
+          .cegm__bottom-tab.bth.cegi-shade8(data-num='8') Outcomes
           .cegm__bottom-tab.bth.cegi-shade9(data-num='9') Creative
           .cegm__bottom-tab.bth.cegi-shade10(data-num='10') Contrast
           .cegm__bottom-tab.bth.cegi-shade11(data-num='11') Specific
           .cegm__bottom-tab.bth.cegi-shade12(data-num='12') Rhetorical
           .cegm__bottom-tab.bth.cegi-shade13(data-num='13') Conversational
+        .cegm__bottom-sep
+        .cegm__bottom-inner
+          .cegm__bottom-title!=icon("ceg8")
+          .cegl__filter-tab.bbth.cegi-shade13(data-num='13') B2B
+          .cegl__filter-tab.bbth.cegi-shade14(data-num='14') B2C
       .cegl
-        img(src="https://harrydry.s3.amazonaws.com/gdmarketing/ceg/cegLogo.png", alt="Logo")
-        .cegl__filter
+        img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo2.png", alt="Logo" class="cegl__logo")
+        .cegl__filter.cegl__filter-one
           .cegl__filter-title!=icon("ceg1")
-          .cegl__filter-tab.fth.cegi-shade1(data-num='1') Header
-          .cegl__filter-tab.fth.cegi-shade2(data-num='2') Features + Benefits
+          .cegl__filter-tab.fth.cegi-shade1(data-num='1') Headers
+          .cegl__filter-tab.fth.cegi-shade2(data-num='2') Features
           .cegl__filter-tab.fth.cegi-shade3(data-num='3') Social Proof
-          .cegl__filter-tab.fth.cegi-shade4(data-num='4') CTA
-          .cegl__filter-tab.fth.cegi-shade5(data-num='5') Why we exist!
-          .cegl__filter-tab.fth.cegi-shade6(data-num='6') Ad
+          .cegl__filter-tab.fth.cegi-shade4(data-num='4') Story
+          .cegl__filter-tab.fth.cegi-shade5(data-num='5') Lead Magnet
+          .cegl__filter-tab.fth.cegi-shade6(data-num='6') Ads
         .cegl__filter
           .cegl__filter-title!=icon("ceg2")
-          .cegl__filter-tab.bth.cegi-shade7(data-num='7') Outcomes
-          .cegl__filter-tab.bth.cegi-shade8(data-num='8') Features
+          .cegl__filter-tab.bth.cegi-shade7(data-num='7') Simple
+          .cegl__filter-tab.bth.cegi-shade8(data-num='8') Outcomes
           .cegl__filter-tab.bth.cegi-shade9(data-num='9') Creative
           .cegl__filter-tab.bth.cegi-shade10(data-num='10') Contrast
-          .cegl__filter-tab.bth.cegi-shade11(data-num='11') Specific
-          .cegl__filter-tab.bth.cegi-shade12(data-num='12') Rhetorical
-          .cegl__filter-tab.bth.cegi-shade13(data-num='13') Conversational
+          .cegl__filter-tab.bth.cegi-shade11(data-num='11') Rhetorical
+          .cegl__filter-tab.bth.cegi-shade12(data-num='12') Conversational
+        .cegl__filter.cegl__filter-three
+          .cegl__filter-title!=icon("ceg8")
+          .cegl__filter-tab.bbth.cegi-shade13(data-num='13') B2B
+          .cegl__filter-tab.bbth.cegi-shade14(data-num='14') B2C
         .cegl__filter
-          .cegl__filter-title!=icon("ceg3")
+          .cegl__filter-title!=icon("me3")
+          .handbook
+            img(src="https://ik.imagekit.io/o08ysq9vx/mebits/tape.png", alt="Mixtapes").imgSpin
+            .handbook__bottom
+              img(src="https://ik.imagekit.io/o08ysq9vx/mebits/tmm5.svg", alt="" class="handbook-button")
+            .handbook__proof
+              img(src="https://ik.imagekit.io/o08ysq9vx/mebits/stars2.svg", alt="" class="")
+              .handbook__proof-text “
+                span.bold #1
+                |!{' '}Marketing Newsletter”
+              .handbook__proof-text Read by!{' '}
+                span.bold 85sk+
       .cegm__notice Tap image for breakdown
       .ceRight
+        .cegArt
+          .cegArt__toggle
+            .cegArt__toggle-open!=icon("close1")
+            .cegArt__toggle-close!=icon("open1")
         .ceTop
           .ceTop__left
             .ceTop-mail
               .ceTop-mail-left
                 .ceTop-mail-left-icon!=icon("mail")
-                input(type="text" placeholder="Get 7 new examples in your inbox every Friday").cmt2
+                input(type="text" placeholder="Get 6 new tips in your inbox every Monday").cmt2
               button.cmt1 Yes Please :)
           .ceTop__right
-            .ceTop__right-sign Marketing Examples
+            a(href="/").ceTop__right-sign Marketing Examples
             a(href="https://www.youtube.com/marketingexamples" target="_blank")!=icon("ytnu")
             a(href="https://www.linkedin.com/in/harrydry/" target="_blank")!=icon("linu")
-            a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("tnu")
-        .fedgrid(data-masonry='{ "itemSelector": ".cegio", "gutter": 15, "transitionDuration": 0}')
+            a(href="https://twitter.com/harrydry" target="_blank")!=icon("tnu")
+        .fedgrid(data-masonry='{ "itemSelector": ".cegio",  "gutter": 16, "transitionDuration": 0}')
           each ceg in cegs
             +ceg(ceg)
+    +mail()
     .fed__outer-side.fed__outer-side-right
       #stars.stars-right
       #stars2.stars2-right

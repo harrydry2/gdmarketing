@@ -4,11 +4,15 @@ mixin ceg(ceg, pageString="")
     .cegi
       .cegi__center(data-html=`${ceg.desc}`)
         .cegi__center-inner
-      .cegi__left
-        a(href=`${ceg.website}` target="_blank").cegi__left-icon!=icon("link1")
-      .cegi__right
-        each tag in ceg.tags
-          .cegi__right-pill(class=`cegi-shade${tag.code}`)=tag.word
+      if ceg.website.length !== 0
+        .cegi__left
+          a(href=`${ceg.website}` target="_blank").cegi__left-icon!=icon("link1")
+      if ceg.ht.length !== 0
+        .cegi__right
+          p h/t #{ceg.ht}
+          //- each tag in ceg.tags
+          //-   .cegi__right-pill(class=`cegi-shade${tag.code}`)=tag.word
       .cegi__img
         .cegi__img-wrapper
-          img(src=`https://ik.imagekit.io/o08ysq9vx/square.png/tr:w-100,ar-800-${ceg.h}`, alt="" class="fed__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${ceg.img}.png` data-fnum=`${pageString}` width="800" height=`${ceg.h}`)
+          img(src=`https://ik.imagekit.io/o08ysq9vx/cebits/square.png/tr:w-100,ar-800-${ceg.h}`, alt="" class="fed__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${ceg.img}` data-fnum=`${pageString}` width="800" height=`${ceg.h}`)
+          //- object(src=`https://ik.imagekit.io/o08ysq9vx/square.png/tr:w-100,ar-800-${ceg.h}`, alt="" class="fed__lazy" data-src=`https://ik.imagekit.io/o08ysq9vx/${ceg.img}` data-fnum=`${pageString}` type="image/svg+xml" width="800" height=`${ceg.h}`)

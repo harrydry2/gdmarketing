@@ -92,7 +92,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#051 - The marketing genius of Andrew Schulz</mj-text>
-          <mj-text mj-class="h3" align="center">(Audience building • 3 mins • <a class="underB" href="https://marketingexamples.com/viral/andrew-schulz/?utm_source=newsletter&utm_medium=email&utm_campaign=email_51" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Audience building • 3 mins • <a class="underB" href="https://marketingexamples.com/content/andrew-schulz/?utm_source=newsletter&utm_medium=email&utm_campaign=email_51" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone. Today I've got a story about a New York comedian.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Except, it's really a blueprint for <span class="bold">anybody</span> trying to grow an audience. One of my favourites to write. Hope you enjoy it.</span></mj-text>
           <mj-text mj-class="h2under">Pt 1</mj-text>
@@ -145,7 +145,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you sign up to get new articles <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a>. Short, sweet, and practical :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you sign up to get new articles <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a>. Short, sweet, and practical :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="22px">

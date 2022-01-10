@@ -6,8 +6,14 @@ include ./mixins/cardPopup
 include ./mixins/harry
 
 block content
-  .iosOverflow
+  .iosOverflow.home__outer.pausedatanimation
+    .home__outer-side.home__outer-side-left
+      #stars.stars-left
+      #stars2.stars2-left
     +home(cards, activeFilters)
     +mail(subscribePage)
     +cardPopup()
+    .home__outer-side.fed__outer-side-right
+      #stars.stars-right
+      #stars2.stars2-right
     //- +harry()

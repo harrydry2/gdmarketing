@@ -92,7 +92,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#050 - A crash course in getting press and building links</mj-text>
-          <mj-text mj-class="h3" align="center">(Press • 3 mins • <a class="underB" href="https://marketingexamples.com/seo/press/?utm_source=newsletter&utm_medium=email&utm_campaign=email_49" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Press • 3 mins • <a class="underB" href="https://marketingexamples.com/seo/digital-pr/?utm_source=newsletter&utm_medium=email&utm_campaign=email_49" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">I'm honestly pretty surprised. We made it to 50 newsletters.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">95 people read my first ever one. Now we're above 30,000!</span></mj-text>
@@ -152,7 +152,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">10 second tip - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/dave-gerhardt" target="_blank">Dave Gerhardt's 1 line sales email</a>.</mj-text>
+          <mj-text mj-class="p">10 second tip - <a class="underA subscribeColor" href="https://marketingexamples.com/sales/one-line-email" target="_blank">Dave Gerhardt's 1 line sales email</a>.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -160,7 +160,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

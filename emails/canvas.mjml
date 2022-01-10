@@ -92,7 +92,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/giveaway/youtube-marketing?utm_source=newsletter&utm_medium=email&utm_campaign=email_4">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/social/mail-time?utm_source=newsletter&utm_medium=email&utm_campaign=email_4">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>

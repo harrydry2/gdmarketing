@@ -1,43 +1,48 @@
 include ./card
 include ./filters
+include ./mobfilters
 include ./ph
 
-mixin home(cards, activeFilters, title, displaynone = "")
+mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
   .home(class=`${displaynone}`)
+    +phBase()
+    .cegm__top.cegm__top-ph
+      a(href="/inspiration")
+        //- img(src="https://ik.imagekit.io/o08ysq9vx/cebits/cegLogo.png", alt="Logo")
+        img(src="https://ik.imagekit.io/o08ysq9vx/mebits/q1.png", alt="Logo")
+      .cegm__top-right
+        .cegm__top-right-minus!=icon("cegfilterminus3")
+        .cegm__top-right-plus.cegmtr__active!=icon("cegfilterplus1")
+        .cegm__top-right-menu.cegmtr__active!=icon("cegmail1")
+        .cegm__top-right-menuminus!=icon("cegmail3a")
     .home__left
-      a.home__left-logo(href="/")!=icon("meLogoBig")
-      +filters(activeFilters)
+      //- a.home__left-logo(href="/")!=icon("meLogoBig")
+      //- img(src="https://ik.imagekit.io/o08ysq9vx/mebits/me1a.png", alt="Logo" class="home__left-logo")
+      //- img(src="https://ik.imagekit.io/o08ysq9vx/mebits/ceg1c.png", alt="Logo" class="home__left-logo")
+      //- img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo1.png", alt="Logo" class="home__left-logo")
+      a(href="/")
+        img(src="https://ik.imagekit.io/o08ysq9vx/mebits/q1.png", alt="Logo" class="home__left-logo")
+      +filters(activeFilters, titlenum)
     .home__right
-      //- +phBase()
       .home__right-header
-        .home__right-header-wrap
-          a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")
-          .search
-            .search__left
-              .search__icon!=icon("mail1")
-              input(placeholder="Twice a month I send the best tips to the newsletter").search__inner-text
-            .search__text Subscribe
-            .search__text-info
-          .home__right-header-icons
-            a.home__right-header-icons-gnt(href="/subscribe") get new tips
-            a(href="https://www.linkedin.com/in/harrydry/" target="_blank")!=icon("linkedin")
-            a(href="https://www.youtube.com/marketingexamples" target="_blank")!=icon("yt")
-            a(href="https://www.instagram.com/marketing_examples" target="_blank")!=icon("instagram")
-            a(href="https://twitter.com/GoodMarketingHQ" target="_blank")!=icon("twitter")
+        a.home__right-header-wrap-logoSmall(href="/")!=icon("gmLogoSmall")
+        .ceTop__left
+          .ceTop-mail
+            .ceTop-mail-left
+              .ceTop-mail-left-icon!=icon("mail")
+              input(type="text" placeholder="Get 6 new tips in your inbox every Monday").cmt2
+            a(href="/newsletter").cmt1 Yes Please :)
+        .ceTop__right
+          //- a(href="/inspiration").ceTop__right-sign Copywriting Examples
+          a(href="https://www.youtube.com/marketingexamples" target="_blank")!=icon("ytnu")
+          a(href="https://www.linkedin.com/in/harrydry/" target="_blank")!=icon("linu")
+          a(href="https://twitter.com/harrydry" target="_blank")!=icon("tnu")
       .outerCard
-        if (title)
-          h1.filterH1 #{title} Marketing Examples
         .sponsor.sponsor1
           .sponsor__inner
             img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/ahrefs.png", alt="Ahrefs Logo")
             .sponsor__inner-p I rely on Ahrefs to grow my search traffic.<br> It makes SEO dead simple
             a.sponsor__inner-button(href="https://ahrefs.com" target="_blank") Check it out
-        //- .sponsor.sponsor2
-        //-   .sponsor__inner
-        //-     //- img(src="https://pbs.twimg.com/profile_images/1208177788789899272/5qFvBb7Q_400x400.png", alt="Growth Design")
-        //-     img.sponsor2Img(src="https://pbs.twimg.com/profile_images/1160705348694675458/sY8zJjeg_400x400.jpg", alt="Growth Design")
-        //-     .sponsor__inner-p No brainer. I've just bought Dave's<br>“10 laws of copywriting”
-        //-     a.sponsor__inner-button(href="https://lawsofcopywriting.com/?ref=marketingexamples" target="_blank") Check it out
         .sponsor.sponsor2
           .sponsor__inner
             img(src="https://harrydry.s3.amazonaws.com/gdmarketing/sponsors/ahrefs.png", alt="Ahrefs Logo")
@@ -53,6 +58,5 @@ mixin home(cards, activeFilters, title, displaynone = "")
       //- .outerLoader
       //-   .loader
     //- mobile layout
-    .hm__button Show filters
-    .hm__filters
-      +filters(activeFilters)
+    +mobfilters(activeFilters, titlenum)
+    //- .hm__filters

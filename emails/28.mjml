@@ -71,7 +71,7 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/referral/tesla-marketing-strategy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_28"></mj-image>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/brand/tesla/?utm_source=newsletter&utm_medium=email&utm_campaign=email_28"></mj-image>
           <mj-text mj-class="h1" align="center">#028 - The genius of Tesla's marketing strategy</mj-text>
           <mj-text mj-class="p">Traditional advertising is <span class="bold">less</span> effective than ever before. It interrupts. It can’t get through ad blockers. We’ve learned to ignore it.</mj-text>
           <mj-text mj-class="p">Having fans sell your product is <span class="bold">more</span> effective than ever before.</mj-text>
@@ -87,7 +87,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/referral/tesla-marketing-strategy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_28">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/brand/tesla/?utm_source=newsletter&utm_medium=email&utm_campaign=email_28">
             <span class="brand semibold">Read the full case study</span>
           </mj-button>
         </mj-column>
@@ -97,7 +97,7 @@
           <mj-text mj-class="h2">Sponsor</mj-text>
           <mj-text mj-class="p">Are your company processes scattered across a dozen different Google Docs? Well, <a class="underA" href="https://trainual.com/?utm_campaign=marketingexamples&utm_medium=paid&utm_source=email-sponsorship" target="_blank">Trainual</a> solves this problem. You should check them out.</mj-text>
           <mj-text mj-class="p">Over and out, <br>Harry</mj-text>
-          <mj-text mj-class="p">P.S. If you got forwarded the email you can subscribe <a class="underA" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">P.S. If you got forwarded the email you can subscribe <a class="underA" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

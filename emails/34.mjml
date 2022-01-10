@@ -86,7 +86,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#033 - The marketing genius of Lil Nas X</mj-text>
-          <mj-text mj-class="h3" align="center">(Virality • 4 mins • <a class="underB" href="https://marketingexamples.com/viral/lil-nas-x/?utm_source=newsletter&utm_medium=email&utm_campaign=email_32" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Virality • 4 mins • <a class="underB" href="https://marketingexamples.com/social/lil-nas-x/?utm_source=newsletter&utm_medium=email&utm_campaign=email_32" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="h2under">Part 1</mj-text>
           <mj-text mj-class="p">Failed musicians think like failed startups. Too much time creating. Not enough time promoting.</mj-text>
           <mj-text mj-class="p">When Lil Nas X dropped out of college to pursue music he didn’t create much. Instead, he lived on Twitter, made online friends and got popular posting memes. His account quickly grew to 30,000 followers.</mj-text>
@@ -139,7 +139,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any friends who'd like this article? Please do forward this email. Anyone new can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/newsletter">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

@@ -123,7 +123,7 @@
       <mj-section mj-class="shareSection" background-color="#E6FFE5">
         <mj-column>
           <mj-text mj-class="p">
-            <mj-text mj-class="p">Bonus article — <a class="underA subscribeColor" href="https://marketingexamples.com/viral/counterpunch" target="_blank">How to counterpunch in marketing</a></mj-text>
+            <mj-text mj-class="p">Bonus article — <a class="underA subscribeColor" href="https://marketingexamples.com/social/counterpunch" target="_blank">How to counterpunch in marketing</a></mj-text>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -142,7 +142,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know any marketing pals who'd enjoy this? Please do forward the email. Any newbies can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know any marketing pals who'd enjoy this? Please do forward the email. Any newbies can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

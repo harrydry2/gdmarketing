@@ -92,7 +92,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#045 - Make your Marketing Realer</mj-text>
-          <mj-text mj-class="h3" align="center">(Raw • 3 mins • <a class="underB" href="https://marketingexamples.com/misc/real-marketing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_47" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Raw • 3 mins • <a class="underB" href="https://marketingexamples.com/brand/real/?utm_source=newsletter&utm_medium=email&utm_campaign=email_47" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone. Sorry for the delay. Ended up taking a little holiday. Needed an oil change. But I'm back with a vengeance.</mj-text>
           <mj-text mj-class="p"><span class="italic">This one is all about bringing your marketing to life. Hope you enjoy.</mj-text>
           <mj-text mj-class="p asterix">* * *</mj-text>
@@ -159,7 +159,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">Anyone who got forwarded this. Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Anyone who got forwarded this. Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

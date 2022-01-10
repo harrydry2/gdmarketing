@@ -1,0 +1,64 @@
+[
+  {
+    "code": "301",
+    "h": "293",
+    "ht": "",
+    "img": "rd350/ceg314g.svg",
+    "alt": "",
+    "website": "",
+    "filter": [],
+    "desc": "<span class=\"cegx6\">#1 objection</span>. <span class=\"cegx1\">Handled</span>."
+  },
+  {
+    "ht": "",
+    "code": "2",
+    "h": "270",
+    "img": "rd50/ceg2.svg",
+    "alt": "Wynter Landing Page Title",
+    "website": "https://wynter.com/",
+    "filter": ["1", "7,", "8", "12", "13"],
+    "desc": "<span class=\"cegxtitle\">Use <span class=\"cegx1\">everyday</span> language</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">“converts effectively” → “hits the mark”</span>"
+  },
+  {
+    "ht": "",
+    "code": "2",
+    "h": "270",
+    "img": "rd50/ceg2.svg",
+    "alt": "Wynter Landing Page Title",
+    "website": "https://wynter.com/",
+    "filter": ["1", "7,", "8", "12", "13"],
+    "desc": "<span class=\"cegxtitle\">Avoid “<span class=\"cegx1\">dictionary words</span>”</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">“converts effectively” → “hits the mark”</span>",
+    "desc1": "<span class=\"cegxtitle\">“B-A-B” formula</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Before</span> - <span class=\"cegxitalic\">“Product based differentiation”</span> <p><br></p> 2. <span class=\"cegx2\">After</span> - <span class=\"cegxitalic\">“Win on messaging”</span> <p><br></p>3. <span class=\"cegx1\">Bridge</span> - <span class=\"cegxitalic\">“Wynter is the fastest way to...”</span>"
+  },
+  {
+    "code": "301",
+    "h": "1500",
+    "ht": "",
+    "img": "rd350/ceg313.png",
+    "alt": "",
+    "website": "",
+    "filter": [],
+    "desc": "“<span class=\"cegx5\">Creativity</span> is the last unfair advantage we're legally allowed to take over our competitors” <p><br></p>— <span class=\"cegxnq\">Bill Bernbach</span>"
+  },
+  {
+    "h": "873",
+    "ht": "",
+    "code": "188",
+    "img": "eg200/ceg188d.png",
+    "alt": "",
+    "website": "https://www.prettylitter.com/",
+    "filter": ["10", "8", "7", "2"],
+    "desc": "<span class=\"cegxtitle\">Simple “features & benefits” pattern</span><p class=\"ptitle\"><br></p>1. Relieve <span class=\"cegx2\">pain</span> - <span class=\"cegxitalic\">“Say Goodbye to...”</span><p><br></p>2. Explain <span class=\"cegx1\">how</span> - <span class=\"cegxitalic\">“PrettyLitter traps...”</span>"
+  },
+  {
+    "code": "6",
+    "h": "595",
+    "ht": "",
+    "img": "rd100/ceg6.svg",
+    "alt": "First round Landing Page Title",
+    "website": "https://firstround.com/",
+    "filter": ["1", "13"],
+    "desc": "<span class=\"\">“The role of your <span class=\"cegx5\">first line</span> is to get me to read the second one”</span> — <span class=\"cegxitalic\">Jo Sugarman</span>",
+    "desc1": "<span class=\"cegxtitle\">There's thousands of VC's</span><p class=\"ptitle\"><br></p>Give me <span class=\"cegxnq cegx5\">a reason</span> to remember yours"
+  }
+]

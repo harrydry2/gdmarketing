@@ -9,16 +9,16 @@ html(lang='en')
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
-    link(rel='stylesheet', href='/dist/bundle.v5.css')
+    link(rel='stylesheet', href='/dist/bundle.v6.css')
     link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/harrydry/gdmarketing/meFav.png')
     meta(name='twitter:site', content='@harrydry')
-    meta(property='og:site_name', content='Marketing Examples — Good marketing examples')
+    meta(property='og:site_name', content='Marketing Examples')
     meta(name='twitter:card', content='summary_large_image')
     meta(property='og:image:height', content='630')
     meta(property='og:image:width', content='1200')
     meta(property='og:type', content='website')
     script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-91909305-10')
-    script(async='' src='https://dash.sparkloop.app/widget/MFdc2f2006be/embed.js' data-sparkloop='')
+    //- script(async='' src='https://dash.sparkloop.app/widget/MFdc2f2006be/embed.js' data-sparkloop='')
     script.
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -42,7 +42,10 @@ html(lang='en')
     body
     noscript
       iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-KFP5QFB' height='0' width='0' style='display:none;visibility:hidden')
-    .iosOverflow.postNoScroll
+    .iosOverflow.home__outer.pausedatanimation
+      .home__outer-side.home__outer-side-left
+        #stars.stars-left
+        #stars2.stars2-left
       .outerPost
         a(href="/").outerPost__close!=icon("cross")
         article.post
@@ -59,7 +62,7 @@ html(lang='en')
                 a.undera__center-twitter(href=`https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}` target="_blank")!=icon("linkedin")
             .postEmail
               .postEmail__header Join!{' '}
-                span.bold 58,780
+                span.bold 85,273
                 |!{' '}marketers getting<br> the weekly case study
               .mail__input
                 .mail__input-icon!=icon("mail")
@@ -88,7 +91,10 @@ html(lang='en')
                     a(href="https://twitter.com/bentossell" target="_blank").monial__inner-bottom-text-top Ben Tossell
                     a(href="https://www.makerpad.co?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Founder, Makerpad
       +home(cards, activeFilters)
-      +mail()
+      +mail(subscribePage)
+      .home__outer-side.fed__outer-side-right
+        #stars.stars-right
+        #stars2.stars2-right
       //- +harry()
   block scripts
     script(src="/dist/bundle.js")

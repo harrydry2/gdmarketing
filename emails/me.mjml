@@ -101,7 +101,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/conversion/product-hunt?utm_source=newsletter&utm_medium=email&utm_campaign=email_12">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/social/product-hunt?utm_source=newsletter&utm_medium=email&utm_campaign=email_12">
             <span class="brand semibold"> Read the full case study </span>
           </mj-button>
         </mj-column>

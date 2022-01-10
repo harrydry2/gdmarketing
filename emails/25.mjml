@@ -70,7 +70,7 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/content/giphy-marketing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_25"></mj-image>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/content/giphy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_25"></mj-image>
           <mj-text mj-class="h1" align="center">#025 - Using GIPHY for free brand awareness</mj-text>
           <mj-text mj-class="p">Giphy serves <span class="bold">7 billion</span> GIFs and stickers to <span class="bold">500 million</span> people every single day. Their API powers pretty much every messaging app out there: Facebook, Twitter, Instagram, TikTok etc.</mj-text>
           <mj-text mj-class="p">This has opened up a novel way for brands to get exposure. All you need is a Giphy brand channel. Then any GIF you upload is publicly available on Giphy's search engine. And there's nothing stopping you slipping in your logo, product, or even URL.</mj-text>
@@ -83,7 +83,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/giphy-marketing/?utm_source=newsletter&utm_medium=email&utm_campaign=email_25">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/giphy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_25">
             <span class="brand semibold">Read the full case study</span>
           </mj-button>
         </mj-column>

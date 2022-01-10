@@ -92,7 +92,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#052 - £8k Instagram Giveaway → 1M followers</mj-text>
-          <mj-text mj-class="h3" align="center">(Giveaway • 2 mins • <a class="underB" href="https://marketingexamples.com/giveaway/molly-mae/?utm_source=newsletter&utm_medium=email&utm_campaign=email_52" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Giveaway • 2 mins • <a class="underB" href="https://marketingexamples.com/social/molly-mae/?utm_source=newsletter&utm_medium=email&utm_campaign=email_52" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone. Hope you're well.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Last week my friends kept sharing this Instagram giveaway from ex Love Island star, Molly-Mae.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">I'd never heard of her. But I'm a sucker for good marketing. So I investigated.</span></mj-text>
@@ -143,7 +143,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">New round here? Welcome aboard. Old case studies <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or, you can join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

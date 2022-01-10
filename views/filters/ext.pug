@@ -16,8 +16,14 @@ block head
   meta(property='og:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/cards/coldemail.jpg`)
   meta(name='twitter:image', content=`https://s3.amazonaws.com/harrydry/gdmarketing/cards/coldemail.jpg`)
 block content
-  .iosOverflow
-    +home(cards, activeFilters, title)
+  .iosOverflow.home__outer
+    .home__outer-side.home__outer-side-left
+      #stars.stars-left
+      #stars2.stars2-left
+    +home(cards, title, activeFilters, filters, titlenum)
     +mail()
     +cardPopup()
+    .home__outer-side.fed__outer-side-right
+      #stars.stars-right
+      #stars2.stars2-right
     //- +harry()

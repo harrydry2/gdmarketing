@@ -92,7 +92,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#040 - The most creative Coronavirus company pivots</mj-text>
-          <mj-text mj-class="h3" align="center">(Pivots • 3 mins • <a class="underB" href="https://marketingexamples.com/viral/coronavirus-pivots/?utm_source=newsletter&utm_medium=email&utm_campaign=email_41" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Pivots • 3 mins • <a class="underB" href="https://marketingexamples.com/creative/coronavirus-pivots/?utm_source=newsletter&utm_medium=email&utm_campaign=email_41" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hola. It's been a while. I had an article done last week. But it didn't make it past the wine tasters (my brothers). So I've done another.</mj-text>
           <mj-text mj-class="p"><span class="italic">All aboard the coronavirus creative pivot train:</mj-text>
           <mj-text mj-class="h2under">1) Evo Entertainment cinema</mj-text>
@@ -140,7 +140,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Any pals who might like this email? Please do forward the email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Any pals who might like this email? Please do forward the email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

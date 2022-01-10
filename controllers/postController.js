@@ -1,6 +1,7 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const Cards = mongoose.model('Cards');
+// const Cards = mongoose.model('Test');
+const Cards = mongoose.model("Cards");
 
 exports.post = async (req, res) => {
   // find specific card

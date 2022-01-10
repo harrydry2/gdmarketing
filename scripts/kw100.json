@@ -1,0 +1,1017 @@
+[
+  {
+    "ht": "",
+    "code": "1",
+    "h": "345",
+    "img": "life50/ceg1.svg",
+    "alt": "Support Shepherd Landing Page Title",
+    "website": "https://www.supportshepherd.com/",
+    "filter": ["1", "8", "10", "13"],
+    "desc": "<span class=\"cegxtitle\">Simple header pattern</span><p class=\"ptitle\"><br></p><span class=\"cegx2\">What</span> you do. <span class=\"cegx4\">Why</span> you're different."
+  },
+  {
+    "ht": "",
+    "code": "2",
+    "h": "270",
+    "img": "life50/ceg2.svg",
+    "alt": "Wynter Landing Page Title",
+    "website": "https://wynter.com/",
+    "filter": ["1", "7,", "8", "12", "13"],
+    "desc": "<span class=\"cegxtitle\">Avoid “<span class=\"cegx1\">dictionary words</span>”</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">“converts effectively” → “hits the mark”</span>",
+    "desc1": "<span class=\"cegxtitle\">“B-A-B” formula</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Before</span> - <span class=\"cegxitalic\">“Product based differentiation”</span> <p><br></p> 2. <span class=\"cegx2\">After</span> - <span class=\"cegxitalic\">“Win on messaging”</span> <p><br></p>3. <span class=\"cegx1\">Bridge</span> - <span class=\"cegxitalic\">“Wynter is the fastest way to...”</span>"
+  },
+  {
+    "ht": "",
+    "code": "3",
+    "h": "388",
+    "img": "life50/ceg3.svg",
+    "alt": "Ahrefs Landing Page Title",
+    "website": "https://ahrefs.com",
+    "filter": ["1", "8", "10", "12", "13"],
+    "desc": "<span class=\"cegxtitle\">Ahrefs' header</span><p class=\"ptitle\"><br></p>• <span class=\"cegxnq\">#1</span> <span class=\"cegx4\">objection</span> - <span class=\"cegxitalic\">“don't have to be an SEO pro”</span> <p><br></p> • <span class=\"cegxnq\">#1</span> <span class=\"cegx2\">outcome</span> - <span class=\"cegxitalic\">“rank higher”</span>"
+  },
+  {
+    "ht": "Peep Laja",
+    "code": "4",
+    "h": "346",
+    "img": "life50/ceg4.png",
+    "alt": "Magic Spoon Packaging",
+    "website": "https://magicspoon.com/",
+    "filter": ["9", "10", "14"],
+    "desc": "Wit sharpens <span class=\"cegx4\">contrast</span>"
+  },
+  {
+    "ht": "",
+    "code": "5",
+    "h": "330",
+    "img": "life50/ceg5.svg",
+    "alt": "Design Academy Landing Page Title",
+    "website": "https://www.designacademy.io/",
+    "filter": ["1", "10", "12", "14"],
+    "desc": "1. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“Design principles”</span><p><br></p> 2. <span class=\"cegx2\">Who</span> for - <span class=\"cegxitalic\">“for developers”</span><p><br></p> 3. <span class=\"cegx4\">Why</span> your different - <span class=\"cegxitalic\">“non-pretentious”</span>"
+  },
+  {
+    "code": "301",
+    "h": "293",
+    "ht": "",
+    "img": "life50/ceg6.svg",
+    "alt": "",
+    "website": "https://www.bloomtech.com/",
+    "filter": ["2", "7", "14"],
+    "desc": "<span class=\"cegx6\">#1 objection</span>. <span class=\"cegx1\">Handled</span>."
+  },
+  {
+    "code": "7",
+    "h": "320",
+    "ht": "",
+    "img": "life50/ceg7.svg",
+    "alt": "Hotjar Landing Page Title",
+    "website": "https://www.hotjar.com/",
+    "filter": ["1", "8", "10", "12", "13"],
+    "desc": "Tease <span class=\"cegx2\">outcome</span>. Draw <span class=\"cegx4\">contrast</span>"
+  },
+  {
+    "ht": "",
+    "code": "8",
+    "h": "1298",
+    "img": "life50/ceg8.png",
+    "alt": "Pillow Cube Landing Page Title",
+    "website": "https://www.pillowcube.com/",
+    "filter": ["4", "8", "10", "12", "14"],
+    "desc": "<span class=\"cegxtitle\"><span class=\"cegx2\">Show</span>, don't tell</span><p class=\"ptitle\"><br></p>We process images faster than text"
+  },
+  {
+    "ht": "",
+    "code": "9",
+    "h": "685",
+    "img": "life50/ceg9.png",
+    "alt": "Yumwoof Ingredients",
+    "website": "https://yumwoof.com/",
+    "filter": ["2", "8", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">The kind of copy I like</span><p class=\"ptitle\"><br></p>• <span class=\"cegx5\">Facts</span> - <span class=\"cegxitalic\">“All ingredients you'd eat”</span><p><br></p>• <span class=\"cegx6\">Facts</span> - <span class=\"cegxitalic\">“NYC chef and pet nutritionist”</span><p><br></p> • <span class=\"cegx4\">Facts</span> - <span class=\"cegxitalic\">“#1 ingredient is...”</span> <p><br></p> • <span class=\"cegx1\">Facts</span> - <span class=\"cegxitalic\">“19 antioxidants...”</span><p><br></p> • <span class=\"cegx3\">Facts</span> - <span class=\"cegxitalic\">“8% coconut oil...”</span>",
+    "desc1": "<span class=\"cegxnq\">“If you believe that <span class=\"cegx3\">facts persuade</span> (as I do), you’d better learn how to write a list so that it doesn’t read like a list”</span> <p><br></p>— <span class=\"cegxitalic\">David Abbott</span>"
+  },
+  {
+    "ht": "VintageAds",
+    "code": "10",
+    "h": "748",
+    "img": "life50/ceg10.png",
+    "alt": "What it is is beautiful — Vintage Lego Ad",
+    "website": "",
+    "filter": ["6", "8", "9", "14"],
+    "desc": "<span class=\"cegxtitle\">People buy <span class=\"cegx2\">outcomes</span></span><p class=\"ptitle\"><br></p>Lego is cool. A proud daughter is cooler."
+  },
+  {
+    "ht": "",
+    "code": "11",
+    "h": "380",
+    "img": "life50/ceg11.svg",
+    "alt": "Coinbase Landing Page Title",
+    "website": "https://www.coinbase.com/",
+    "filter": ["1", "7", "14"],
+    "desc": "<span class=\"cegxtitle\">Coinbase are <span class=\"cegxnq\">#1</span></span><p class=\"ptitle\"><br></p> They can <span class=\"cegx1\">keep it simple</span>.<br> Competitors have to differentiate."
+  },
+  {
+    "ht": "",
+    "code": "12",
+    "h": "398",
+    "img": "life50/ceg12.png",
+    "alt": "Google Tracks You — Duck Duck Go Billboard",
+    "website": "https://duckduckgo.com/",
+    "filter": ["6", "7", "10", "14"],
+    "desc2": "<span class=\"cegx4\">Why you're different</span> in five words",
+    "desc1": "Ruthlessly <span class=\"cegx4\">concise</span>",
+    "desc": "“If you can't reduce your argument to a few <span class=\"cegx4\">crisp words </span> there's something wrong with your argument” <span class=\"cegxitalic\">— Maurice Saatchi</span>"
+  },
+  {
+    "ht": "r/Copywriting",
+    "code": "13",
+    "h": "775",
+    "img": "life50/ceg13.png",
+    "alt": "It's like having Keith Moon in the room — Vintage Sony Ad",
+    "website": "",
+    "filter": ["6", "8", "9", "11", "14"],
+    "desc": "Don't sell speakers. Sell Keith Moon <span class=\"cegx2\">playing drums</span> in your room."
+  },
+  {
+    "ht": "",
+    "code": "14",
+    "h": "755",
+    "img": "life50/ceg14.png",
+    "alt": "Shot on iPhone — Landing Page Title",
+    "website": "https://www.instagram.com/apple",
+    "filter": ["6", "7", "8", "9", "14"],
+    "desc": "“Sell <span class=\"cegx2\">the photo</span>, not the pixels”<p><br></p> — <span class=\"cegxitalic\">James Copeland</span>"
+  },
+  {
+    "ht": "r/VintageAds",
+    "code": "15",
+    "h": "978",
+    "img": "life50/ceg15.png",
+    "alt": "Sony Walkman vintage ad",
+    "website": "",
+    "filter": ["6", "7", "8", "9", "14"],
+    "desc": "<span class=\"cegxtitle\">Bring to life the <span class=\"cegx2\">outcome</span></span><p class=\"ptitle\"><br></p>Don't sell a walkman. Sell skating through the park with your boyfriend listening to it."
+  },
+  {
+    "h": "826",
+    "ht": "Ian David",
+    "code": "16",
+    "img": "life50/ceg16.png",
+    "alt": "Tesco “Beans in a can” copywriting ad",
+    "website": "https://twitter.com/blokewriter/status/1318243052541087746",
+    "filter": ["6", "9", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Tesco's conversational copy</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Self-aware</span> - <span class=\"cegxitalic\">“17p. Who cares?”</span> <p><br></p>2. <span class=\"cegx5\">Light-hearted</span> - <span class=\"cegxitalic\">“Not the mantelpiece”</span>"
+  },
+  {
+    "h": "826",
+    "ht": "",
+    "code": "17",
+    "img": "life50/ceg17.png",
+    "alt": "Tesco's Conversational Copywriting ad",
+    "website": "https://twitter.com/blokewriter/status/1318243052541087746",
+    "filter": ["6", "9", "12", "14"],
+    "desc": "“It's not copy, it's <span class=\"cegx6\">natter</span>”<p><br></p> <span class=\"cegxitalic\">— Ian David</span>"
+  },
+  {
+    "h": "1008",
+    "ht": "",
+    "code": "18",
+    "img": "life50/ceg18.png",
+    "alt": "Lemon Copy",
+    "website": "https://lemon.io/",
+    "filter": ["1", "9", "13"],
+    "desc": "<span class=\"cegxtitle\">Copywriting doesn't mean copying writing</span><p class=\"ptitle\"><br></p><span class=\"\">“Develop your <span class=\"cegx5\">own style</span>. Celebrate your own individuality. It's a lot more fun.”</span><p><br></p>— <span class=\"cegxitalic\">Simon Dicketts</span>"
+  },
+  {
+    "h": "855",
+    "ht": "r/copywriting",
+    "code": "19",
+    "img": "life50/ceg19.svg",
+    "alt": "Wikipedia Donate Page copywriting",
+    "website": "https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=GB",
+    "filter": ["4", "8", "14"],
+    "desc": "<span class=\"cegxtitle\">Wikipedia's copy</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">Addresses</span> <span class=\"cegxnq\">elephant in room</span> - <span class=\"cegxitalic\">“little awkward”</span><p><br></p> 2. Makes <span class=\"cegxnq\">YOU</span> the <span class=\"cegx2\">hero</span> - <span class=\"cegxitalic\">“you can defend independence”</span><p><br></p>3. <span class=\"cegx4\">Specific</span> ask - <span class=\"cegxitalic\">“just £2.75”</span><p><br></p>4. <span class=\"cegx5\">Reframe</span> value - <span class=\"cegxitalic\">“If Wikipedia has given you $2.75 worth of knowledge...”</span>"
+  },
+  {
+    "h": "733",
+    "ht": "",
+    "code": "20",
+    "img": "life50/ceg20.svg",
+    "alt": "Aguulp Social Proof copywriting",
+    "website": "https://www.aguulp.com/the-science/",
+    "filter": ["3", "8", "14"],
+    "desc": "<span class=\"cegxtitle\">No-fluff social proof</span><p class=\"ptitle\"><br></p> Real <span class=\"cegx1\">numbers</span>. Made <span class=\"cegx2\">relatable</span>.<p><br></p><span class=\"cegxitalic\">“116% increase in...” → “reduces anxiety”</span>"
+  },
+  {
+    "h": "578",
+    "ht": "",
+    "code": "21",
+    "img": "life50/ceg21.svg",
+    "alt": "Purple Mattress Landing Page Copywriting",
+    "website": "https://purple.com/",
+    "filter": ["4", "10", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Textbook differentiation</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Set scene</span> - <span class=\"cegxitalic\">“hasn't changed in 40 years”</span><p><br></p>2. “<span class=\"cegx4\">Old way</span>” - <span class=\"cegxitalic\">“repurpose memory foam”</span><p><br></p>3. “<span class=\"cegx2\">New way</span>” - <span class=\"cegxitalic\">“30 patents later...”</span>"
+  },
+  {
+    "h": "578",
+    "ht": "",
+    "code": "22",
+    "img": "life50/ceg22.png",
+    "alt": "Blinkist Copywriting Ad",
+    "website": "https://www.blinkist.com/",
+    "filter": ["1", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">Reframe until it's a “no-brainer”</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">“4,500+ books... <span class=\"cegx5\">3 lattes a month</span>”</span>"
+  },
+  {
+    "h": "475",
+    "ht": "",
+    "code": "23",
+    "img": "life50/ceg23.svg",
+    "alt": "App Sumo Copywriting",
+    "website": "https://appsumo.com",
+    "filter": ["1", "8", "13", "14"],
+    "desc": "<span class=\"cegxtitle\">Oldest formula in the book</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx2\">Value</span> you provide - <span class=\"cegxitalic\">“You're never paying...”</span><p><br></p>2. <span class=\"cegx1\">How</span> you create it - <span class=\"cegxitalic\">“We send you the...”</span>"
+  },
+  {
+    "h": "683",
+    "ht": "",
+    "code": "24",
+    "img": "life50/ceg24.png",
+    "alt": "Unscreen Landing Page Copywriting",
+    "website": "https://www.unscreen.com/",
+    "filter": ["2", "8", "10", "13", "14"],
+    "desc": "<span class=\"cegxtitle\">“Features & benefits” pattern</span><p class=\"ptitle\"><br></p>1. Lead with <span class=\"cegx2\">benefit</span> - <span class=\"cegxitalic\">“Goodbye Greenscreen”</span><p><br></p>2. <span class=\"cegx4 cegxnq\">Old way</span> - <span class=\"cegxitalic\">“used to require complex...”</span><p><br></p>3. <span class=\"cegx6 cegxnq\">New way</span> - <span class=\"cegxitalic\">“With Unscreen you can...”</span>"
+  },
+  {
+    "h": "376",
+    "ht": "",
+    "code": "25",
+    "img": "life50/ceg25.png",
+    "alt": "Best Time To Get Braces Copywriting",
+    "website": "",
+    "filter": ["6", "7", "9", "14"],
+    "desc": "<span class=\"cegx3\">Newsjacking</span>, at it's finest"
+  },
+  {
+    "h": "340",
+    "ht": "",
+    "code": "26",
+    "img": "life50/ceg26.svg",
+    "alt": "Tl Dental Landing Page Title",
+    "website": "https://www.tldental.com.au/",
+    "filter": ["1", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">A header with personality</span><p class=\"ptitle\"><br></p>1. Allay <span class=\"cegx1\">fears</span> — <span class=\"cegxitalic\">“Dental visits without tears”</span><p><br></p> 2. Sprinkle <span class=\"cegx5\">humour</span>  — <span class=\"cegxitalic\">“little - and big - kids”</span>"
+  },
+  {
+    "h": "290",
+    "ht": "",
+    "code": "27",
+    "img": "life50/ceg27.png",
+    "alt": "Veles Landing Page Copywriting",
+    "website": "https://veles.com/",
+    "filter": ["1", "10", "14"],
+    "desc": "<span class=\"\">“Put the <span class=\"cegx4\">most intriguing fact</span> first” <p><br></p><span class=\"cegxitalic\">— Alfredo Marcantonio</span></span>"
+  },
+  {
+    "h": "340",
+    "ht": "",
+    "code": "28",
+    "img": "life50/ceg28.svg",
+    "alt": "Gumroad Landing Page Title",
+    "website": "",
+    "filter": ["1", "8", "14"],
+    "desc": "<span class=\"\">“Make your <span class=\"cegx6\">customer the hero</span>” <p><br></p>— <span class=\"cegxitalic\">Donald Miller</span>"
+  },
+  {
+    "h": "305",
+    "ht": "",
+    "code": "29",
+    "img": "life50/ceg29.svg",
+    "alt": "Fast.co Landing Page Title",
+    "website": "https://www.fast.co/",
+    "filter": ["1", "7", "11", "13"],
+    "desc": "<span class=\"cegxtitle\">Power of three</span><p class=\"ptitle\"><br></p>Two <span class=\"cegx6\">specifics</span> - <span class=\"cegxitalic\">“One click. No passwords.”</span><p><br></p>One <span class=\"cegx1\">punchline</span> - <span class=\"cegxitalic\">“The world's fastest...”"
+  },
+  {
+    "h": "321",
+    "ht": "Pat Walls",
+    "code": "30",
+    "img": "life50/ceg30.png",
+    "alt": "Yumwoof Landing Page Copywriting",
+    "website": "https://yumwoof.com/",
+    "filter": ["1", "7", "9", "14"],
+    "desc1": "Well, I <span class=\"cegx5\">scrolled</span>",
+    "desc": "<span class=\"\">“The role of your <span class=\"cegx5\">first line</span> is to get me to read the second one”</span> — <span class=\"cegxitalic\">Jo Sugarman</span>"
+  },
+  {
+    "h": "340",
+    "ht": "",
+    "code": "31",
+    "img": "life50/ceg31.svg",
+    "alt": "Lemonade Landing Page Title",
+    "website": "https://www.lemonade.com/de/en",
+    "filter": ["1", "10", "14"],
+    "desc": "<span class=\"cegxtitle\">How to break the insurance stereotype</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Point at</span> <span class=\"cegxnq\">status-quo</span> - <span class=\"cegxitalic\">“Forget...”</span><p><br></p>2. <span class=\"cegx2\">Pit yourself</span> against it - <span class=\"cegxitalic\">“Instant...”</span>"
+  },
+  {
+    "h": "700",
+    "ht": "",
+    "code": "32",
+    "img": "life50/ceg32.png",
+    "alt": "Ogilvy's Man in the Hathaway shirt Copywriting",
+    "website": "",
+    "filter": ["6", "9", "14"],
+    "desc": "<span class=\"\">“Nobody reads ads. People read <span class=\"cegx3\">what interests them</span>. Sometimes it’s an ad.”</span><p><br></p><span class=\"cegxitalic\">— Howard Gossage</span>"
+  },
+  {
+    "h": "518",
+    "ht": "",
+    "code": "33",
+    "img": "life50/ceg33.svg",
+    "alt": "Hey Email Copywriting",
+    "website": "https://hey.com/no-data-extraction/",
+    "filter": ["2", "10", "14"],
+    "desc": "<span class=\"\">“<span class=\"cegx4\">Pick a fight</span>. An enemy gives you a story, a purpose, a reason to exist”</span> <span class=\"cegxitalic\">— Jason Fried</span>"
+  },
+  {
+    "h": "898",
+    "ht": "Honey Copy",
+    "code": "34",
+    "img": "life50/ceg34.png",
+    "alt": "Rxbar packaging",
+    "website": "https://www.rxbar.com/",
+    "filter": ["7", "9", "10", "14"],
+    "desc": "<span class=\"cegxtitle\">Three copy lessons</span><p class=\"ptitle\"><br></p>1. Be <span class=\"cegx1\">specific</span> - <span class=\"cegxitalic\">“3”, “6”, “4”</span><p><br></p> 2. Be <span class=\"cegx6\">succinct</span> - <span class=\"cegxitalic\">“Egg Whites”</span><p><br></p> 3. Have an <span class=\"cegx4\">enemy</span> - <span class=\"cegxitalic\">“No B.S.”</span>"
+  },
+  {
+    "h": "415",
+    "ht": "",
+    "code": "35",
+    "img": "life50/ceg35.png",
+    "alt": "Famous Patek Phillipe Ad",
+    "website": "https://www.patek.com/en/home",
+    "filter": ["6", "8", "9", "14"],
+    "desc": "You're not buying an expensive watch, <br>you're <span class=\"cegx6\">starting a tradition</span>"
+  },
+  {
+    "h": "520",
+    "ht": "",
+    "code": "36",
+    "img": "life50/ceg36.png",
+    "alt": "Sexy Food Therapy Page Title",
+    "website": "https://sexyfoodtherapy.com/",
+    "filter": ["1", "12", "14"],
+    "desc": "A <span class=\"cegx5\">real person</span> with <span class=\"cegx6\">personality</span> will outsell<br> any faceless brand"
+  },
+  {
+    "h": "523",
+    "ht": "",
+    "code": "37",
+    "img": "life50/ceg37.png",
+    "alt": "Who Gives A Crap Landing Page",
+    "website": "https://uk.whogivesacrap.org/",
+    "filter": ["1", "6", "10", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">How to sell recycled toilet paper</span><p class=\"ptitle\"><br></p><span class=\"cegx5\">Reframe</span> regular toilet paper as trees"
+  },
+  {
+    "h": "493",
+    "ht": "",
+    "code": "38",
+    "img": "life50/ceg38.png",
+    "alt": "",
+    "website": "https://www.menguin.com/",
+    "filter": ["1", "7", "14"],
+    "desc": "<span class=\"cegxtitle\">Keep it simple stupid</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“Great Tuxes. Delivered”</span><p><br></p> 2. <span class=\"cegx6\">Who</span> for - <span class=\"cegxitalic\">“any wedding”</span>"
+  },
+  {
+    "h": "1221",
+    "ht": "",
+    "code": "39",
+    "img": "life50/ceg39.png",
+    "alt": "Sex Never Gets Old Ad",
+    "website": "https://www.campaignlive.co.uk/article/replens-md-sex-gets-old-gate/1710114",
+    "filter": ["6", "7", "8", "9", "14"],
+    "desc": "“Big things are best said in <span class=\"cegx3\">small words</span>”<p><br></p><span class=\"cegxitalic\">— Peggy Noonan</span>",
+    "desc1": "One, single, <span class=\"cegx3\">powerful idea</span>.<br> Given room to breathe."
+  },
+  {
+    "h": "641",
+    "ht": "",
+    "code": "40",
+    "img": "life50/ceg40.png",
+    "alt": "Why is Dentistry important",
+    "website": "",
+    "filter": ["6", "9", "14"],
+    "desc1": "Hook. Line. <span class=\"cegx5\">Sinker</span>",
+    "desc": "<span class=\"cegx5\">Gotcha</span> ;)",
+    "desc2": "“When baiting a trap with cheese, always <span class=\"cegx5\">leave room</span> for the mouse.” <span class=\"cegxitalic\">— Howard Gossage</span>",
+    "desc3": "“If your words can't <span class=\"cegx5\">surprise you</span>, they won't surprise anyone else” — <span class=\"cegxitalic\">David Abbott</span>"
+  },
+  {
+    "h": "543",
+    "ht": "",
+    "code": "41",
+    "img": "life50/ceg41.png",
+    "alt": "Dave Harland Conversational Copywriting",
+    "website": "https://twitter.com/wordmancopy/status/1248870665949675525",
+    "filter": ["1", "9", "12", "13", "14"],
+    "desc": "<span class=\"\">“Don't write <span class=\"cegxnq\">AT</span> the reader. <span class=\"cegx5\">Involve</span> the reader”</span><p><br></p><span class=\"cegxitalic\"> — Dave Harland</span>"
+  },
+  {
+    "h": "635",
+    "ht": "",
+    "code": "42",
+    "img": "life50/ceg42.png",
+    "alt": "Conversational Copy Popup",
+    "website": "",
+    "filter": ["5", "7", "14"],
+    "desc": "<span class=\"cegxtitle\">How to approach “lead magnets”</span><p class=\"ptitle\"><br></p>1. Make something <span class=\"cegx2\">customers want</span><p><br></p>2. Make it <span class=\"cegx1\">easy to get</span>"
+  },
+  {
+    "h": "601",
+    "ht": "Ogilvy on Advertising",
+    "code": "43",
+    "img": "life50/ceg43.png",
+    "alt": "Ogilvy's Rolls-Royce ad",
+    "website": "",
+    "filter": ["6", "9", "14"],
+    "desc": "Don't persuade. <span class=\"\">Let the reader <span class=\"cegx4\">persuade themselves</span>.</span>"
+  },
+  {
+    "h": "540",
+    "ht": "George Tannenbaum",
+    "code": "44",
+    "img": "life50/ceg44.png",
+    "alt": "Volvo Copywriting Old school",
+    "website": "https://twitter.com/georget20/status/1318992098364973056",
+    "filter": ["6", "9", "10", "14"],
+    "desc": "“<span class=\"cegx4\">Interrogate the product</span> until it confesses its strengths” <span class=\"cegxitalic\">— Robin Wight</span>"
+  },
+  {
+    "h": "770",
+    "ht": "The Copy Book",
+    "code": "45",
+    "img": "life50/ceg45.png",
+    "alt": "",
+    "website": "",
+    "filter": ["6", "9", "14"],
+    "desc": "<span class=\"cegxtitle\">Good copywriting is good thinking</span><p class=\"ptitle\"><br></p>1. <span class=\"cegxnq\">#1</span> <span class=\"cegx1\">objection</span> - <span class=\"cegxitalic\">“There are less expensive...”</span><p><br></p>2. Effortlessly <span class=\"cegx6\">dismantled</span> - <span class=\"cegxitalic\">“There are also...”</span>"
+  },
+  {
+    "h": "478",
+    "ht": "",
+    "code": "46",
+    "img": "life50/ceg46.png",
+    "alt": "Wise Landing Page Copywriting",
+    "website": "https://wise.com/",
+    "filter": ["1", "7", "10", "14"],
+    "desc": "<span class=\"cegxtitle\">How Wise “own's its niche”</span><p class=\"ptitle\"><br></p>1. One line <span class=\"cegx1\">summary</span> - <span class=\"cegxitalic\">“The cheap, fast way to”</span><p><br></p>2. Establish <span class=\"cegx2\">credibility</span> - <span class=\"cegxitalic\">“10 million people”</span><p><br></p>3. Clear <span class=\"cegx4\">differentiator</span> - <span class=\"cegxitalic\">“6x cheaper”</span>"
+  },
+  {
+    "h": "390",
+    "ht": "",
+    "code": "47",
+    "img": "life50/ceg47.png",
+    "alt": "100% refund Copywriting",
+    "website": "",
+    "filter": ["9", "11", "13"],
+    "desc": "<span class=\"cegxtitle\">A little hyperbole</span><p class=\"ptitle\"><br></p>Turns a plain line into a <span class=\"cegx3\">playful one</span></span>"
+  },
+  {
+    "h": "470",
+    "ht": "",
+    "code": "48",
+    "img": "life50/ceg48.svg",
+    "alt": "Spark Loop Landing Page Title",
+    "website": "https://sparkloop.app/",
+    "filter": ["1", "7", "8", "13"],
+    "desc": "<span class=\"cegx1\">Narrow your scope</span></span> until your <span class=\"cegxnq\">#1</span>"
+  },
+  {
+    "h": "496",
+    "ht": "Dave Dye",
+    "code": "49",
+    "img": "life50/ceg49.png",
+    "alt": "Innocent Copywriting",
+    "website": "https://davedye.com/2019/03/29/pitch-innocent/",
+    "filter": ["6", "9", "10", "11", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">A fun Innocent ad</span><p class=\"ptitle\"><br></p>1. Spark <span class=\"cegx4\">curiosity</span> - <span class=\"cegxitalic\">“Why don't we...?”</span><p><br></p>2. Make pain <span class=\"cegx2\">relatable</span> - <span class=\"cegxitalic\">“Kids, bouncing, walls”</span><p><br></p>3. Add <span class=\"cegx5\">rhythm</span> - <span class=\"cegxitalic\">“think, think, think”</span>"
+  },
+  {
+    "h": "593",
+    "ht": "",
+    "code": "50",
+    "img": "life50/ceg50.svg",
+    "alt": "Innocent Copywriting",
+    "website": "privy.com",
+    "filter": ["1", "8", "13"],
+    "desc": "<span class=\"cegxtitle\">Oldest formula in the book</span><p class=\"ptitle\"><br></p>1. Lead with <span class=\"cegx2\">outcome</span> - <span class=\"cegxitalic\">“Grow Sales...”</span><p><br></p>2. Back up with <span class=\"cegx1\">features</span>  - <span class=\"cegxitalic\">“Build your list...”</span>"
+  },
+  {
+    "h": "353",
+    "ht": "",
+    "code": "51",
+    "img": "life100/ceg51.svg",
+    "alt": "Descript Landing Page Title",
+    "website": "https://www.descript.com/",
+    "filter": ["1", "8", "9", "12", "13", "14"],
+    "desc": "<span class=\"\">A <span class=\"cegx2\">throwaway line</span> a customer might say that captures the product in a way a formula can’t</span>"
+  },
+  {
+    "h": "703",
+    "ht": "",
+    "code": "52",
+    "img": "life100/ceg52.png",
+    "alt": "Alberta Business Grants Landing Page Title",
+    "website": "https://jenis.com/icecreamtruck/",
+    "filter": ["6", "11", "14"],
+    "desc": "Why sell vanilla when you can sell <br>“<span class=\"cegx5\">fading summer sunlight</span>”"
+  },
+  {
+    "h": "375",
+    "ht": "Corey Haines",
+    "code": "53",
+    "img": "life100/ceg53.svg",
+    "alt": "Baremetrics Recover Landing Page Title",
+    "website": "https://baremetrics.com/features/recover",
+    "filter": ["1", "8", "11", "13"],
+    "desc": "Present <span class=\"cegx6\">problem</span>. <span class=\"cegx5\">Challenge</span> reader."
+  },
+  {
+    "h": "591",
+    "code": "54",
+    "ht": "Peep Laja",
+    "img": "life100/ceg54.png",
+    "alt": "Coda Landing Page Title",
+    "website": "https://coda.io/",
+    "filter": ["1", "10", "11", "13"],
+    "desc": "<span class=\"cegxtitle\">A memorable header</span><p class=\"ptitle\"><br></p>1. “<span class=\"cegx4\">Old way</span>” - <span class=\"cegxitalic\">“Enough of this...”</span> <p><br></p>2. <span class=\"cegx5\">Wordplay</span> - <span class=\"cegxitalic\">“Sh*t”</span><p><br></p>3. “<span class=\"cegx2\">New way</span>” - <span class=\"cegxitalic\">“It's time for a new doc”</span>"
+  },
+  {
+    "h": "338",
+    "ht": "",
+    "code": "55",
+    "img": "life100/ceg55.png",
+    "alt": "Shopify Landing Page Title",
+    "website": "https://www.shopify.com/",
+    "filter": ["1", "7", "8", "13"],
+    "desc": "Shopify make <span class=\"cegx2 cegxnq\">YOU</span> the <span class=\"cegxnq cegxbold\">hero</span>"
+  },
+  {
+    "h": "315",
+    "ht": "",
+    "code": "56",
+    "img": "life100/ceg56.png",
+    "alt": "Old Spice Landing Page Copywriting",
+    "website": "https://oldspice.com/",
+    "filter": ["1", "7", "8", "14"],
+    "desc": "Don't sell deodrant. Sell <span class=\"cegxnq\">first date</span> <span class=\"cegx2\">confidence</span>"
+  },
+  {
+    "h": "545",
+    "ht": "",
+    "code": "57",
+    "img": "life100/ceg57.png",
+    "alt": "Duolingo Landing Page Copywriting",
+    "website": "https://www.duolingo.com/",
+    "filter": ["1", "7", "8", "14"],
+    "desc": "“If you’ve got something <span class=\"cegx2\">great to say</span>, go ahead and say it. Free beer is free frickin’ beer.”<p><br></p><span class=\"cegxitalic\">— Ian David</span>"
+  },
+  {
+    "h": "373",
+    "ht": "",
+    "code": "58",
+    "img": "life100/ceg58.png",
+    "alt": "Angels Cup Landing Page Copywriting",
+    "website": "https://angelscup.com/",
+    "filter": ["1", "14"],
+    "desc": "<span class=\"\">“Customers are not literary critics. They buy <span class=\"cegx4\">your passion</span>, not your prose.”</span><p><br></p> <span class=\"cegxitalic\">— Paul Silverman</span>"
+  },
+  {
+    "h": "795",
+    "ht": "",
+    "code": "59",
+    "img": "life100/ceg59.png",
+    "alt": "Huel's Facebook ad breakdown",
+    "website": "",
+    "filter": ["6", "11", "14"],
+    "desc1": "<span class=\"cegxtitle\">A trusty ad pattern</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Engage</span> reader - <span class=\"cegxitalic\">“Did you know...”</span><p><br></p>2. <span class=\"cegx4\">Reframe</span> <span class=\"cegx2\">value</span> - <span class=\"cegxitalic\">“More protein than 4 eggs”</span><p><br></p>3. <span class=\"cegx5\">Punchline</span> - <span class=\"cegxitalic\">“For only £1.32...”</span>",
+    "desc": "<span class=\"cegxtitle\"><span class=\"cegx6\">Reframe</span> until the value is tangible</span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">“24g protein” → “More than 4 eggs”</span>"
+  },
+  {
+    "h": "758",
+    "ht": "",
+    "code": "60",
+    "img": "life100/ceg60.png",
+    "alt": "Huel Ad Copywriting",
+    "website": "",
+    "filter": ["6", "10", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">Simple ad pattern</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Open</span> loop - <span class=\"cegxitalic\">“Who says eating healthy...”</span> <p><br></p> 2. <span class=\"cegx6\">Close</span> loop - <span class=\"cegxitalic\">“£1.32”, “plant based”, “B12”</span>"
+  },
+  {
+    "h": "418",
+    "ht": "",
+    "code": "61",
+    "img": "life100/ceg61.svg",
+    "alt": "Smile Direct Club Landing Page Copywriting",
+    "website": "https://smiledirectclub.com/",
+    "filter": ["1", "7", "8", "14"],
+    "desc": "<span class=\"cegxtitle\">You can say a lot with a little</span><p class=\"ptitle\"><br></p>1. Tease <span class=\"cegx2\">outcome</span> - <span class=\"cegxitalic\">“A smile you'll love”</span><p><br></p>2. <span class=\"cegx5\">Reframe</span> cost - <span class=\"cegxitalic\">“less than $3 per day”</span><p><br></p>3. Drain <span class=\"cegx1\">objections</span> - <span class=\"cegxitalic\">“Safely”, “from home”</span>"
+  },
+  {
+    "h": "450",
+    "ht": "",
+    "code": "62",
+    "img": "life100/ceg62.svg",
+    "alt": "Fix My Churn Landing Page Title",
+    "website": "https://fixmychurn.com/",
+    "filter": ["1", "8", "13"],
+    "desc": "You've <span class=\"cegxnq cegx5\">already done</span> the hard work.<br> Don't waste it."
+  },
+  {
+    "h": "291",
+    "ht": "",
+    "code": "63",
+    "img": "life100/ceg63.png",
+    "alt": "Slack Landing Page Title Robots on Mars",
+    "website": "",
+    "filter": ["1", "9", "13"],
+    "desc": "The best copy <span class=\"cegx5\">can't be copied</span>"
+  },
+  {
+    "h": "740",
+    "ht": "",
+    "code": "64",
+    "img": "life100/ceg64.svg",
+    "alt": "Imagine a Place",
+    "website": "https://discord.com/",
+    "filter": ["1", "8", "12", "13", "14"],
+    "desc": "<span class=\"cegxtitle\">Copy that propels you along</span><p class=\"ptitle\"><br></p>“Like jumping gently from <span class=\"cegx6\">one trampoline</span> <span class=\"cegx4\">to another</span>, never slamming into hard ground.”<p><br></p><span class=\"cegxitalic\"> — Jason Fried</span>"
+  },
+  {
+    "h": "740",
+    "ht": "",
+    "code": "65",
+    "img": "life100/ceg65.svg",
+    "alt": "Alberta Business Grants Popup",
+    "website": "https://albertabusinessgrants.ca/",
+    "filter": ["5", "8", "13"],
+    "desc": "<span class=\"cegxtitle\">Alberta Grant's “lead magnet”</span><p class=\"ptitle\"><br></p>1. Tease <span class=\"cegx2\">outcome</span> - <span class=\"cegxitalic\">“Grant Money Waiting...”</span><p><br></p>2. Create <span class=\"cegx4\">friction</span> - <span class=\"cegxitalic\">“BUT if you step in a...”</span><p><br></p>3. Provide <span class=\"cegx1\">solution</span> - <span class=\"cegxitalic\">“Get the 5 Grant Gotchas”</span>"
+  },
+  {
+    "h": "528",
+    "ht": "",
+    "code": "66",
+    "img": "life100/ceg66.png",
+    "alt": "1000 songs in your pocket",
+    "website": "",
+    "filter": ["6", "7", "8", "11", "14"],
+    "desc": "Apple <span class=\"cegxbold cegxnq\">made</span> a portable media player.<br>They <span class=\"cegxbold cegxnq\">sold</span> what it can do <span class=\"cegx2\">for you</span>."
+  },
+  {
+    "h": "720",
+    "ht": "",
+    "code": "67",
+    "img": "life100/ceg67.png",
+    "alt": "Patch plants Popup Copywriting",
+    "website": "https://www.patchplants.com",
+    "filter": ["5", "8", "14"],
+    "desc": "<span class=\"cegxtitle\">A simple popup pattern</span><p class=\"ptitle\"><br></p>1. Catchy <span class=\"cegx2\">outcome</span> - <span class=\"cegxitalic\">“Stop killing your plants”</span>.<p><br></p>2. Clear <span class=\"cegx1\">offer</span> - <span class=\"cegxitalic\">“free houseplant course”</span>"
+  },
+  {
+    "h": "420",
+    "ht": "",
+    "code": "68",
+    "img": "life100/ceg68.svg",
+    "alt": "Mailbrew landing page title",
+    "website": "https://mailbrew.com/",
+    "filter": ["1", "8", "10", "14"],
+    "desc": "<span class=\"cegxtitle\">Mailbrew's header</span><p class=\"ptitle\"><br></p>1. Agitate <span class=\"cegx4\">pain</span> - <span class=\"cegxitalic\">“Tame the feeds”</span><p><br></p>2. Present <span class=\"cegx2\">solution</span> - <span class=\"cegxitalic\">“with a daily email”</span><p><br></p>3. Explain <span class=\"cegx1\">specifics</span> - <span class=\"cegxitalic\">“Your favourite Tweets...”</span>"
+  },
+  {
+    "h": "425",
+    "ht": "",
+    "code": "69",
+    "img": "life100/ceg69.png",
+    "alt": "The Dating App Designed to be Deleted — Hinge",
+    "website": "https://hinge.co/",
+    "filter": ["1", "6", "7", "8", "9", "10", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">Hinge's tagline</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx1\">USP</span> - <span class=\"cegxitalic\">“designed to be deleted”</span><p><br></p>2. Made memorable by <span class=\"cegx5\">alliteration</span> - <span class=\"cegxitalic\">“d, d, d”</span>"
+  },
+  {
+    "h": "318",
+    "ht": "",
+    "code": "70",
+    "img": "life100/ceg70.svg",
+    "alt": "Every Idea Needs a Medium",
+    "website": "https://medium.com/about",
+    "filter": ["4", "8", "14"],
+    "desc": "Your <span class=\"cegx6\">ideas</span> are the <span class=\"cegxbold\">hero</span>.<br>Medium <span class=\"\">“is where they take off”</span>."
+  },
+  {
+    "h": "451",
+    "ht": "",
+    "code": "71",
+    "img": "life100/ceg71.png",
+    "alt": "Landing page Copywriting",
+    "website": "",
+    "filter": ["1", "8", "14"],
+    "desc": "<span class=\"cegxtitle\">Dormio's header</span><p class=\"ptitle\"><br></p> 1. Alluring <span class=\"cegx2\">outcome</span> - <span class=\"cegxitalic\">“Your most restful sleep”</span><p><br></p>2. Made <span class=\"cegx4\">frictionless</span> - <span class=\"cegxitalic\">“just a sip away”</span><p><br></p>3. And <span class=\"cegx1\">vivid</span> - <span class=\"cegxitalic\">“relax”, “unwind”, “restorative”</span>"
+  },
+  {
+    "h": "328",
+    "ht": "",
+    "code": "72",
+    "img": "life100/ceg72.png",
+    "alt": "Image Kit Landing Page Copywriting",
+    "website": "https://imagekit.io/",
+    "filter": ["1", "7", "13"],
+    "desc": "<span class=\"cegxtitle\">Write with conviction</span><p class=\"ptitle\"><br></p>You're <span class=\"cegxnq cegx2\">THE</span> <span class=\"\">solution</span>"
+  },
+  {
+    "h": "401",
+    "ht": "Dave Gerhardt",
+    "code": "73",
+    "img": "life100/ceg73.png",
+    "alt": "Poloroid Copywriting",
+    "website": "",
+    "filter": ["8", "11", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Show the <span class=\"cegx2\">transformation</span></span><p class=\"ptitle\"><br></p><span class=\"cegxitalic\">“a <span class=\"\">moment</span>” → “something <span class=\"\">real</span>”</span>"
+  },
+  {
+    "h": "481",
+    "ht": "The Copy Book",
+    "code": "74",
+    "img": "life100/ceg74.png",
+    "alt": "",
+    "website": "",
+    "filter": ["6", "8", "9", "10", "14"],
+    "desc": "“Our job is to bring the <span class=\"cegx3\">dead facts to life</span>”<p><br></p><span class=\"cegxitalic\">— Bill Bernbach</span>"
+  },
+  {
+    "h": "382",
+    "ht": "",
+    "code": "75",
+    "img": "life100/ceg75.png",
+    "alt": "Diamond Shreddies Packaging",
+    "website": "",
+    "filter": ["6", "9", "14"],
+    "desc": "Sometimes it's as easy as looking at your <br>product from a <span class=\"cegx3 cegxnq\">different angle</span>"
+  },
+  {
+    "h": "1858",
+    "ht": "",
+    "code": "76",
+    "img": "life100/ceg76.svg",
+    "alt": "Magic Mind Story Copywriting",
+    "website": "https://magicmind.co/pages/learn",
+    "filter": ["4", "8", "10", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Your story doesn't have fit some framework</span><p class=\"ptitle\"><br></p>Explain <span class=\"cegx6\">why</span> you started the business",
+    "desc1": "<span class=\"cegxtitle\">A founder with a story</span><p class=\"ptitle\"><br></p>1. Hook <span class=\"cegx6\">attention</span> - <span class=\"cegxitalic\">“After a trip to the E.R...”</span> <p><br></p> 2. Explain <span class=\"cegx4\">problem</span> — <span class=\"cegxitalic\">“limit my caffeine”</span> <p><br></p>3. Your <span class=\"cegx2\">solution</span> — <span class=\"cegxitalic\">“your new morning ritual...”</span>"
+  },
+  {
+    "h": "596",
+    "ht": "",
+    "code": "77",
+    "img": "life100/ceg77.png",
+    "alt": "My Billie Landing Page Copywriting",
+    "website": "https://mybillie.com/pages/razor",
+    "filter": ["1", "10", "14"],
+    "desc": "<span class=\"cegxtitle\">“P-A-S” formula</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Problem</span> - <span class=\"cegxitalic\">“Women and men shave differently”</span> <p><br></p> 2. <span class=\"cegx3\">Agitate</span> - <span class=\"cegxitalic\">“10x the area”, “more curves”</span><p><br></p> 3. <span class=\"cegx2\">Solution</span> - <span class=\"cegxitalic\">“Razor for womenkind”</span>"
+  },
+  {
+    "h": "460",
+    "ht": "",
+    "code": "78",
+    "img": "life100/ceg78.svg",
+    "alt": "Specific Social Proof Example Copywriting",
+    "website": "https://www.privy.com/",
+    "filter": ["3", "7", "8", "12", "13"],
+    "desc": "“<span class=\"cegx1\">Raw statistics</span> are more convincing than a polished opinion” — <span class=\"cegxitalic\">David Abbott</span>"
+  },
+  {
+    "h": "538",
+    "ht": "Honey Copy",
+    "code": "79",
+    "img": "life100/ceg79.png",
+    "alt": "Pick a Fight Copywriting",
+    "website": "https://medium.com/about",
+    "filter": ["4", "10", "14"],
+    "desc": "<span class=\"cegxtitle\">The power of contrast</span><p class=\"ptitle\"><br></p>1. What you <span class=\"cegx4\">oppose</span> - <span class=\"cegxitalic\">“advertisers”</span><p><br></p>2. What you <span class=\"cegx2\">stand for</span> - <span class=\"cegxitalic\">“people”</span>"
+  },
+  {
+    "h": "1551",
+    "ht": "Ana Alessandra",
+    "code": "80",
+    "img": "life100/ceg80.png",
+    "alt": "Oatly Conversational Copywriting",
+    "website": "https://us.oatly.com/pages/the-oatly-way",
+    "filter": ["4", "9", "10", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Oatly's packaging</span><p class=\"ptitle\"><br></p>1. Takes a <span class=\"cegx4\">stand</span> - <span class=\"cegxitalic\">“Most companies think...”</span><p><br></p>2. Has a <span class=\"cegx6\">personality</span> - <span class=\"cegxitalic\">“We believe...”</span><p><br></p>3. Makes me <span class=\"cegx3\">laugh</span> - <span class=\"cegxitalic\">“Bigfoot is real...”</span><p><br></p><span class=\"\"> Give me something to hold onto beyond<br>“we sell oat milk”</span>"
+  },
+  {
+    "h": "1010",
+    "ht": "",
+    "code": "81",
+    "img": "life100/ceg81.png",
+    "alt": "UN Women — This is a photo of a man beating his wife. Copywriting",
+    "website": "https://www.fastcompany.com/90580904/why-un-women-is-promoting-a-photo-of-a-man-beating-his-wife",
+    "filter": ["6", "9", "14"],
+    "desc": "<span class=\"cegxtitle\">Copy that punches you in the face</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx5\">Pattern interrupt</span> - <span class=\"cegxitalic\">“This is a photo of...”</span><p><br></p>2. <span class=\"cegx4\">Setup</span> - <span class=\"cegxitalic\">“It's illegal for us to...”</span><p><br></p>3. <span class=\"cegx3\">Punchline</span> - <span class=\"cegxitalic\">“But in 35 countries...”</span>"
+  },
+  {
+    "h": "343",
+    "ht": "",
+    "code": "82",
+    "img": "life100/ceg82.png",
+    "alt": "Tovala Landing Page Title",
+    "website": "https://www.tovala.com/",
+    "filter": ["1", "8", "14"],
+    "desc1": "<span class=\"cegxtitle\">Tovala's header</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx4\">Single</span> out target - <span class=\"cegxitalic\">“insanely busy people”</span><p><br></p>2. <span class=\"cegx2\">Soothe</span> their pain - <span class=\"cegxitalic\">“save you time”</span>",
+    "desc": "1. <span class=\"cegx4\">Single</span> out target - <span class=\"cegxitalic\">“insanely busy people”</span><p><br></p>2. <span class=\"cegx2\">Soothe</span> their pain - <span class=\"cegxitalic\">“save you time”</span>"
+  },
+  {
+    "h": "451",
+    "ht": "",
+    "code": "83",
+    "img": "life100/ceg83.png",
+    "alt": "They don't write songs about Volvos. Copywriting ",
+    "website": "https://www.linkedin.com/pulse/dont-write-songs-volvos-cmo-tim-mahoney-chevrolets-close-uli-reese/",
+    "filter": ["6", "9", "10", "14"],
+    "desc": "“Tap into the <span class=\"cegx3\">imagination</span> of the consumer and your ad can run all day”<span class=\"cegxitalic\"> — Don Draper</span>"
+  },
+  {
+    "h": "741",
+    "ht": "",
+    "code": "84",
+    "img": "life100/ceg84.png",
+    "alt": "Chanel Mother's Day Ad",
+    "website": "https://www.chanel.com/gb/mothers-day/",
+    "filter": ["6", "7", "9", "14"],
+    "desc": "Mother's day. Kid's drawing.<br>It <span class=\"cegxnq\">just works</span>."
+  },
+  {
+    "h": "756",
+    "ht": "",
+    "code": "85",
+    "img": "life100/ceg85.png",
+    "alt": "Vintage Volkswagen Beetle ad. It couldn't.",
+    "website": "",
+    "filter": ["6", "9", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">Don't exaggerate</span><p class=\"ptitle\"><br></p>An <span class=\"cegx5\">honest line</span> always feels warmer"
+  },
+  {
+    "h": "413",
+    "ht": "",
+    "code": "86",
+    "img": "life100/ceg86.png",
+    "alt": "Memorable Copywriting Examples",
+    "website": "https://www.uksmosthatedsalestrainer.com/",
+    "filter": ["1", "7", "10", "11", "13"],
+    "desc": "<span class=\"cegx4\">Memorable</span> is more important than <span class=\"\">likeable</span>",
+    "desc1": "Being <span class=\"cegx4 cegxnq\">memorable</span> is more important <br>than being <span class=\"cegxnq\">likeable</span>"
+  },
+  {
+    "h": "475",
+    "ht": "Dave Harland",
+    "code": "87",
+    "img": "life100/ceg87.svg",
+    "alt": "Conversational Copywriting Examples",
+    "website": "https://www.thatplumber.co.uk/",
+    "filter": ["2", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Copy that reads like your customer spoke it</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx6\">Casual</span> - <span class=\"cegxitalic\">“Got a leak...”</span><p><br></p> 2. <span class=\"cegx4\">Colloquial</span> - <span class=\"cegxitalic\">“hook it up, dodgy tap...”</span><p><br></p>3. Full of <span class=\"cegx5\">contractions</span> - <span class=\"cegxitalic\">“don't, I'll, there's...”</span>"
+  },
+  {
+    "h": "635",
+    "ht": "",
+    "code": "88",
+    "img": "life100/ceg88.png",
+    "alt": "Manual Landing Page Copywriting",
+    "website": "https://www.manual.co/",
+    "filter": ["1", "7", "14"],
+    "desc": "<span class=\"cegxtitle\">A lesson in simplicity</span><p class=\"ptitle\"><br></p>Not <span class=\"cegx6\">one word</span> I could remove"
+  },
+  {
+    "h": "433",
+    "ht": "",
+    "code": "89",
+    "img": "life100/ceg89.png",
+    "alt": "Simple Copywriting Example",
+    "website": "https://quantumsquares.com/",
+    "filter": ["1", "7", "14"],
+    "desc": "<span class=\"cegxtitle\">Don't complicate an original product</span><p class=\"ptitle\"><br></p>Explain it as <span class=\"cegx1\">simply as possible</span>"
+  },
+  {
+    "h": "278",
+    "ht": "",
+    "code": "90",
+    "img": "life100/ceg90.svg",
+    "alt": "Specific Copywriting Example",
+    "website": "https://www.prosperops.com/",
+    "filter": ["1", "8", "13"],
+    "desc": "You can't bullshit <span class=\"cegx5\">specifics</span>",
+    "desc1": "<span class=\"cegxtitle\">A foolproof way to write a hook</span><p class=\"ptitle\"><br></p>1. <span class=\"cegx5\">Specific</span> - <span class=\"cegxitalic\">“33.7%”</span><p><br></p>2. <span class=\"cegx2\">Outcome</span> - <span class=\"cegxitalic\">“Save on your AWS bill...”</span>"
+  },
+  {
+    "h": "903",
+    "ht": "",
+    "code": "91",
+    "img": "life100/ceg91.png",
+    "alt": "Contrast in Copywriting Example",
+    "website": "",
+    "filter": ["4", "6", "10", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">The power of contrast</span><p class=\"ptitle\"><br></p>1. What you're <span class=\"cegx4 cegxnq\">NOT</span> - <span class=\"cegxitalic\">“made in factories”</span> <p><br></p>2. What you <span class=\"cegx2 cegnq\">ARE</span> - <span class=\"cegxitalic\">“baked in bakeries”</span>"
+  },
+  {
+    "h": "1293",
+    "ht": "",
+    "code": "92",
+    "img": "life100/ceg92.svg",
+    "alt": "Do One Thing Well — Hiut Denim",
+    "website": "https://hiutdenim.co.uk/blogs/story/4800102-do-one-thing-well",
+    "filter": ["4", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">A simple brand manifesto</span><p class=\"ptitle\"><br></p>1. Core <span class=\"cegx4\">philosophy</span> - <span class=\"cegxitalic\">“Do one thing well”</span><p><br></p> 2. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“We make jeans. That's it.”</span><p><br></p> 3. <span class=\"cegx6\">Why</span> you do it - <span class=\"cegxitalic\">“great deal of satisfaction...”</span>",
+    "desc1": "<span class=\"cegxtitle\">How to write a brand manifesto</span><p class=\"ptitle\"><br></p>1. Core <span class=\"cegx4\">philosophy</span> - <span class=\"cegxitalic\">“Do one thing well”</span><p><br></p> 2. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“We make jeans. That's it.”</span><p><br></p> 3. <span class=\"cegx6\">Why</span> you do it - <span class=\"cegxitalic\">“great deal of satisfaction...”</span>"
+  },
+  {
+    "h": "751",
+    "ht": "",
+    "code": "93",
+    "img": "life100/ceg93.png",
+    "alt": "Quantum Squares Landing Page",
+    "website": "https://quantumsquares.com/",
+    "filter": ["1", "11", "14"],
+    "desc": "<span class=\"cegxtitle\">Tools to add rhythm</span><p class=\"ptitle\"><br></p><span class=\"cegx1\">Parallelism</span> - <span class=\"cegxitalic\">“Caffeine... Protein...”</span><p><br></p><span class=\"cegx2\">Anaphora</span> - <span class=\"cegxitalic\">“It's a... It's a...”</span><p><br></p><span class=\"cegx5\">Alliteration</span> - <span class=\"cegxitalic\">“cup of coffee”</span>"
+  },
+  {
+    "h": "335",
+    "ht": "",
+    "code": "94",
+    "img": "life100/ceg94.png",
+    "alt": "Dave Gerhardt Copywriting",
+    "website": "https://www.instagram.com/davegerhardtdgmg/",
+    "filter": ["1", "12", "13", "14"],
+    "desc": "<span class=\"cegxtitle\">My favourite prompt when writing hooks</span><p class=\"ptitle\"><br></p>“<span class=\"cegxitalic cegx2\">Because...</span>”"
+  },
+  {
+    "h": "1245",
+    "ht": "Demand Curve",
+    "code": "95",
+    "img": "life100/ceg95.png",
+    "alt": "As many wheels as a Rolls Royce: Citroen 2CV Creative Ad",
+    "website": "",
+    "filter": ["6", "9", "10", "11", "14"],
+    "desc": "“<span class=\"cegx1\">Creativity</span> is the last unfair advantage we're legally allowed to take over <span class=\"cegx3\">our competitors</span>” <p><br></p>— <span class=\"cegxitalic\">Bill Bernbach</span>"
+  },
+  {
+    "h": "925",
+    "ht": "",
+    "code": "96",
+    "img": "life100/ceg96.png",
+    "alt": "Mc Donalds' 'We could make patters with our milk' — Creative Ad",
+    "website": "http://www.millersandlong.com/portfolio/great-tasting-coffee-simple/",
+    "filter": ["6", "9", "10", "12", "14"],
+    "desc": "An enemy gives you <span class=\"cegx4\">purpose</span>.<br>Without one you're <span class=\"cegxnq\">cheap coffee</span>."
+  },
+  {
+    "h": "968",
+    "ht": "",
+    "code": "97",
+    "img": "life100/ceg97.svg",
+    "alt": "'How to do a Volkswagen ad' — Copywriting",
+    "website": "",
+    "filter": ["6", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">Your first line is crucial</span><p class=\"ptitle\"><br></p>“If people don’t read it, they’re not going to read your second line either. <span class=\"cegx2\">Keep it short</span>.”<p><br></p><span class=\"cegxitalic\">— Jo Sugarman</span>"
+  },
+  {
+    "h": "743",
+    "ht": "",
+    "code": "98",
+    "img": "life100/ceg98.png",
+    "alt": "Ikea Sleep Ad — Creative Copywriting",
+    "website": "https://www.ikea.com/ms/en_JP/this-is-ikea/ikea-highlights/Best-IKEA-ads/index.html",
+    "filter": ["6", "7", "8", "9", "10", "14"],
+    "desc": "“In any ad, most people will tell you...<p><br></p>There's a minimum of <span class=\"cegxbold\">four elements</span>: headline, picture, copy, logo.<p><br></p>If you can do an ad using <span class=\"cegx3 cegxbold\">only one</span> of these elements, you've got a winner.”<p><br></p>— <span class=\"cegxitalic\">Neil French</span>"
+  },
+  {
+    "h": "965",
+    "ht": "",
+    "code": "99",
+    "img": "life100/ceg99.png",
+    "alt": "'How Does the Man Who Drives The Snowplow Drive to the Snowplow' - Ad",
+    "website": "https://www.creativemoment.co/creative-classics-volkswagen-shows-that-legends-are-made-not-born",
+    "filter": ["6", "9", "11", "14"],
+    "desc": "<span class=\"cegxtitle\"><span class=\"cegx5\">Paradox</span></span></span><p class=\"ptitle\"><br></p>Gets stuck in the reader's head"
+  },
+  {
+    "h": "568",
+    "ht": "",
+    "code": "100",
+    "img": "life100/ceg100.svg",
+    "alt": "Basecamp Landing Page Copywriting",
+    "website": "https://basecamp.com/",
+    "filter": ["2", "8", "10", "12", "13"],
+    "desc": "<span class=\"cegxtitle\">Three tips for conversational copy</span><p class=\"ptitle\"><br></p>1. Keep it <span class=\"cegx1\">casual</span> - <span class=\"cegxitalic\">“You're wondering...”</span><p><br></p> 2. Keep it <span class=\"cegx6\">colloquial</span> - <span class=\"cegxitalic\">“stressed”, “scattered”</span><p><br></p>3. Load up on <span class=\"cegx5\">pronouns</span> - <span class=\"cegxitalic\">“You're, you'll, your”</span>"
+  }
+]

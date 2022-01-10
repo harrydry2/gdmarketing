@@ -13,6 +13,7 @@ mongoose.connect(
   { useNewUrlParser: true }
 );
 require('./models/Cards.js');
+require('./models/Test.js');
 require('./models/Gifs.js');
 require('./models/GifsMob.js');
 require('./models/Ceg.js');

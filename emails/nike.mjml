@@ -83,14 +83,14 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/direct/how-nike-sold-first-shoes?utm_source=newsletter&utm_medium=email&utm_campaign=email_2">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/direct/nikes-first-shoes?utm_source=newsletter&utm_medium=email&utm_campaign=email_2">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>
       </mj-section>
       <mj-section mj-class="preSection">
         <mj-column>
-          <mj-text mj-class="p">If you enjoy these emails forwarding onto friends does make a big difference. Anyone new can join the email list <a class="underA" href="https://marketingexamples.com/subscribe?utm_source=newsletter&utm_medium=email&utm_campaign=subscribe" target="_blank">here</a>, or follow the twitter threads <a class="underA" href="https://twitter.com/GoodMarketingHQ" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">If you enjoy these emails forwarding onto friends does make a big difference. Anyone new can join the email list <a class="underA" href="https://marketingexamples.com/newsletter?utm_source=newsletter&utm_medium=email&utm_campaign=subscribe" target="_blank">here</a>, or follow the twitter threads <a class="underA" href="https://twitter.com/GoodMarketingHQ" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="p">Cheers, <br>Harry (<a class="underA" href="https://twitter.com/goodmarketinghq" target="_blank">@harrydry</a>) </mj-text>
           <mj-text mj-class="p">p.s. - to get in touch just reply to this email :)</mj-text>
         </mj-column>

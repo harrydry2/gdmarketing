@@ -82,7 +82,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#030 - How Rev. Chris grew 100k Instagram followers</mj-text>
-          <mj-text mj-class="h3" align="center">(3 social media lessons • 2 mins • <a class="underB" href="https://marketingexamples.com/socialmedia/rev-chris-instagram/?utm_source=newsletter&utm_medium=email&utm_campaign=email_30" target="_blank">Read on website</a> )</mj-text>
+          <mj-text mj-class="h3" align="center">(3 social media lessons • 2 mins • <a class="underB" href="https://marketingexamples.com/social/rev-chris/?utm_source=newsletter&utm_medium=email&utm_campaign=email_30" target="_blank">Read on website</a> )</mj-text>
           <mj-text mj-class="p">For two and and a half years Rev. Chris Lee's Instagram account grew steadily. He posted mostly pictures of himself, his family, and the church.</mj-text>
           <mj-text mj-class="p">In July 2019 things changed. Chris started uploading “60 second sermons”. The next five months saw him go from averaging <span class="bold">1,000</span> new followers each month to <span class="bold">10,000</span>.</mj-text>
           <mj-image mj-class="cImg img500" src="https://harrydry.s3.amazonaws.com/gdmarketing/revchris1.png" alt="Rev Chris 60s sermon Instagram Growth"></mj-image>
@@ -113,7 +113,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Know anyone trying to grow a social media account? Feel free to forward this. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/subscribe">here</a> :)</mj-text>
+          <mj-text mj-class="p">Know anyone trying to grow a social media account? Feel free to forward this. Anyone new can subscribe <a class="underA bold subscribeColor" href="https://marketingexamples.com/newsletter">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

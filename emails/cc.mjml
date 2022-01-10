@@ -70,7 +70,7 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/conversion/copywriting?utm_source=newsletter&utm_medium=email&utm_campaign=email_21"></mj-image>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/copywriting/conversion?utm_source=newsletter&utm_medium=email&utm_campaign=email_21"></mj-image>
           <mj-text mj-class="h1" align="center">#021 - 7 practical ways to write copy that converts:</mj-text>
           <mj-text mj-class="h2under">1) Use value-based messaging</mj-text>
           <mj-text mj-class="p">Talk less about your <span class="bold">product</span> and more about the <span class="bold">value</span> your product brings. People don’t want a <span class="bold">better toothbrush</span>. They want a <span class="bold">brighter smile</span>:</mj-text>
@@ -92,7 +92,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/conversion/copywriting?utm_source=newsletter&utm_medium=email&utm_campaign=email_21">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/copywriting/conversion?utm_source=newsletter&utm_medium=email&utm_campaign=email_21">
             <span class="brand semibold">Read all the tips</span>
           </mj-button>
         </mj-column>

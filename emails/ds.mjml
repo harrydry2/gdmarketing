@@ -82,7 +82,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/referral/cd-baby-confirmation-email?utm_source=newsletter&utm_medium=email&utm_campaign=email_18">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/brand/cd-baby?utm_source=newsletter&utm_medium=email&utm_campaign=email_18">
             <span class="brand semibold">Read the article</span>
           </mj-button>
         </mj-column>

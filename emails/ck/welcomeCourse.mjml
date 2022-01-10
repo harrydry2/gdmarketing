@@ -51,7 +51,7 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding="9px"></mj-image>
           <mj-text mj-class="p">Hey — It’s Harry</mj-text>
           <mj-text mj-class="p">You're here for the course. Awesome. I’m working hard on it. The code for the 15% discount will be <span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4jXEuIHY9ic" target="_blank">steamedhams</a></span>. Enjoy!</mj-text>
-          <mj-text mj-class="p">Whilst you wait, I've put together an email series: <span class="italic">The 5 case studies subscribers found most useful over the last 2 years</span>. If you’d like to read them <a class="underA subscribeColor" href="https://marketingexamples.com/best-of/subscribe" trigger-id="2297969" target="_blank">click here</a>. You'll get one each weekday.</mj-text>
+          <mj-text mj-class="p">Whilst you wait, I've put together an email series: <span class="italic">The 5 case studies subscribers found most useful over the last 2 years</span>. If you’d like to read them <a class="underA subscribeColor" href="https://marketingexamples.com/best-of/newsletter" trigger-id="2297969" target="_blank">click here</a>. You'll get one each weekday.</mj-text>
           <mj-text mj-class="p">That’s everything I think. Can't wait to get this out there.</mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
           <mj-text mj-class="p">PS — It'd be nice to learn more about the folks interested in this. Feel free to reply with: <span class="italic ">Where you're at with your own marketing, the #1 topic you want to get better at, anything else.</span> I'll reply back.</mj-text>

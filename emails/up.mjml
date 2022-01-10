@@ -88,7 +88,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/seo/specsavers?utm_source=newsletter&utm_medium=email&utm_campaign=email_19">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/seo/basics?utm_source=newsletter&utm_medium=email&utm_campaign=email_19">
             <span class="brand semibold">Read the article</span>
           </mj-button>
         </mj-column>

@@ -86,7 +86,7 @@
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">#038 - Chewy</mj-text>
-          <mj-text mj-class="h3" align="center">(Customers • 4 mins • <a class="underB" href="https://marketingexamples.com/customers/chewy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_39" target="_blank">Read on website</a>)</mj-text>
+          <mj-text mj-class="h3" align="center">(Customers • 4 mins • <a class="underB" href="https://marketingexamples.com/brand/chewy/?utm_source=newsletter&utm_medium=email&utm_campaign=email_39" target="_blank">Read on website</a>)</mj-text>
           <mj-text mj-class="p"><span class="italic">Hey everyone. Crazy times. I hope you're all doing ok. Genuinely.</mj-text>
           <mj-text mj-class="p inwardSpeech">The multiplier effect of delighting your customers is contextual on the marketplace.</mj-text>
           <mj-text mj-class="p">You can’t set up an online kitchenware store and outcompete Amazon with better customer service. The customer service multiplier just isn't big enough.</mj-text>
@@ -110,7 +110,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Got any pals who'd enjoy a story about customer service? Forward them this email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Got any pals who'd enjoy a story about customer service? Forward them this email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

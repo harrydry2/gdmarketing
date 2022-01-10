@@ -86,7 +86,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/referral/design-virality-into-product?utm_source=newsletter&utm_medium=email&utm_campaign=email_6">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/referral/tweet-photo?utm_source=newsletter&utm_medium=email&utm_campaign=email_6">
             <span class="brand semibold"> Read the full story </span>
           </mj-button>
         </mj-column>

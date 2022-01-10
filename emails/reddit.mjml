@@ -86,7 +86,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/self-promote-on-reddit?utm_source=newsletter&utm_medium=email&utm_campaign=email_1">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/reddit?utm_source=newsletter&utm_medium=email&utm_campaign=email_1">
             Full case study <span class="underA brand semibold"> here </span>
           </mj-button>
         </mj-column>

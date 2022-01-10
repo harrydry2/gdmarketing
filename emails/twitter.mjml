@@ -70,7 +70,7 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/content/share-content-on-twitter/?utm_source=newsletter&utm_medium=email&utm_campaign=email_24"></mj-image>
+          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" padding-top="9px" href="https://marketingexamples.com/social/share-on-twitter/?utm_source=newsletter&utm_medium=email&utm_campaign=email_24"></mj-image>
           <mj-text mj-class="h1" align="center">#024 - Six keys to sharing content on Twitter</mj-text>
           <mj-text mj-class="p"><span class="bold">How</span> you share is just as important as <span class="bold">what</span> you share.</mj-text>
           <mj-text mj-class="p">In one second someone subconsciously decides whether to engage with your content or to scroll by. These tips are about optimising for that one second:</mj-text>
@@ -90,7 +90,7 @@
       </mj-section>
       <mj-section mj-class="buttonSection">
         <mj-column>
-          <mj-button mj-class="longerButton" href="https://marketingexamples.com/content/share-content-on-twitter/?utm_source=newsletter&utm_medium=email&utm_campaign=email_24">
+          <mj-button mj-class="longerButton" href="https://marketingexamples.com/social/share-on-twitter/?utm_source=newsletter&utm_medium=email&utm_campaign=email_24">
             <span class="brand semibold">Read all the tips</span>
           </mj-button>
         </mj-column>

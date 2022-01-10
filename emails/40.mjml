@@ -120,7 +120,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">
         <mj-column>
-          <mj-text mj-class="p">Bonus — <a class="underA subscribeColor" href="https://marketingexamples.com/ppc/creative-google-ad" target="_blank">How a creative Google ad got an investor's attention</a></mj-text>
+          <mj-text mj-class="p">Bonus — <a class="underA subscribeColor" href="https://marketingexamples.com/ads/creative-google-ad" target="_blank">How a creative Google ad got an investor's attention</a></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">
@@ -128,7 +128,7 @@
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Got any pals who are into SEO? Please forward them this email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/subscribe" target="_blank">here</a> :)</mj-text>
+          <mj-text mj-class="p">Got any pals who are into SEO? Please forward them this email. Any newbies can subscribe <a class="underD subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding-top="36px">

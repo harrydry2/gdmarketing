@@ -48,7 +48,7 @@
     "alt": "Design Academy Landing Page Title",
     "website": "https://www.designacademy.io/",
     "filter": ["1", "10", "12", "14"],
-    "desc": "1. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“Design principles”</span><p><br></p> 2. <span class=\"cegx2\">Who</span> for - <span class=\"cegxitalic\">“for developers”</span><p><br></p> 3. <span class=\"cegx4\">Why</span> your different - <span class=\"cegxitalic\">“non-pretentious”</span>"
+    "desc": "1. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“Design principles”</span><p><br></p> 2. <span class=\"cegx2\">Who</span> for - <span class=\"cegxitalic\">“for developers”</span><p><br></p> 3. <span class=\"cegx4\">Why</span> you're different - <span class=\"cegxitalic\">“non-pretentious”</span>"
   },
   {
     "code": "301",

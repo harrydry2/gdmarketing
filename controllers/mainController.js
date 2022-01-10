@@ -4,7 +4,7 @@ const path = require("path");
 
 // swap Cards for Test. Simple. On 3 controllers.
 const Cards = mongoose.model("Cards");
-// const Test = mongoose.model("Test");
+const Test = mongoose.model("Test");
 const Gifs = mongoose.model("Gifs");
 const GifsMob = mongoose.model("GifsMob");
 const Ceg = mongoose.model("Ceg");
@@ -55,11 +55,10 @@ exports.twitterhandbook = async (req, res) => {
   res.render("./twitterhandbook/ext");
 };
 
-exports.ce = async (req, res) => {
-  shuffledCeg = dbCeg;
-  // shuffledCeg = shuffleFisherYates(dbCeg);
-  res.render("./ce/ext");
-};
+// exports.ce = async (req, res) => {
+//   shuffledCeg = dbCeg;
+//   res.render("./ce/ext");
+// };
 
 exports.fed = async (req, res) => {
   shuffledCeg = shuffleFisherYates(dbCeg);

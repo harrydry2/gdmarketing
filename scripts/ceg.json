@@ -1,65 +1,5 @@
 [
   {
-    "code": "301",
-    "h": "353",
-    "ht": "",
-    "img": "lifee350/ceg327a.svg",
-    "alt": "",
-    "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "1. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“SEO tactics”</span><p><br></p> 2. <span class=\"cegx2\">Why</span> I care - <span class=\"cegxitalic\">“actually ranking websites”</span>"
-  },
-  {
-    "code": "301",
-    "h": "350",
-    "ht": "",
-    "img": "lifee350/ceg327b.svg",
-    "alt": "",
-    "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "<span class=\"cegxtitle\">One word to stand out from the <span class=\"cegxnq\">status-quo</span></span><p class=\"ptitle\"><br></p>“<span class=\"cegxnq cegx4\">actually</span>”"
-  },
-  {
-    "code": "301",
-    "h": "350",
-    "ht": "",
-    "img": "lifee350/ceg327b.svg",
-    "alt": "",
-    "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "<span class=\"cegxtitle\">One word differentiation</span><p class=\"ptitle\"><br></p>“<span class=\"cegxnq cegx4\">actually</span>”"
-  },
-  {
-    "code": "301",
-    "h": "350",
-    "ht": "",
-    "img": "lifee350/ceg327b.svg",
-    "alt": "",
-    "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "<span class=\"cegxtitle\">One word to draw contrast</span><p class=\"ptitle\"><br></p>“<span class=\"cegxnq cegx4\">actually</span>”"
-  },
-  {
-    "code": "301",
-    "h": "350",
-    "ht": "",
-    "img": "lifee350/ceg327b.svg",
-    "alt": "",
-    "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "<span class=\"cegxtitle\">One word to pick a fight</span><p class=\"ptitle\"><br></p>“<span class=\"cegxnq cegx4\">actually</span>”"
-  },
-  {
-    "code": "301",
-    "h": "483",
-    "ht": "",
-    "img": "lifee350/ceg327c.png",
-    "alt": "",
-    "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "1. <span class=\"cegx1\">What</span> you do - <span class=\"cegxitalic\">“SEO tactics”</span><p><br></p> 2. <span class=\"cegx5\">Why</span> you're different - <span class=\"cegxitalic\">“actually”</span><p><br></p>3. <span class=\"cegx2\">Why</span> I care - <span class=\"cegxitalic\">“ranking websites”</span>"
-  },
-  {
     "ht": "",
     "code": "1",
     "h": "345",
@@ -3346,5 +3286,15 @@
     "website": "https://www.julian.com/newsletter",
     "filter": ["5", "14"],
     "desc": "Don't think about “<span class=\"\">capturing emails</span>”. Think about <span class=\"cegx6\">making something</span> worth subscribing to."
+  },
+  {
+    "code": "301",
+    "h": "350",
+    "ht": "",
+    "img": "lifee350/ceg327.svg",
+    "alt": "",
+    "website": "https://seoblueprint.com/",
+    "filter": ["1", "8", "10", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">One word differentiation</span><p class=\"ptitle\"><br></p>“<span class=\"cegxnq cegx4\">actually</span>”"
   }
 ]

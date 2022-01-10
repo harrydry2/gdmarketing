@@ -263,12 +263,12 @@
   },
   {
     "code": "301",
-    "h": "968",
+    "h": "350",
     "ht": "",
-    "img": "lifee350/ceg327.png",
+    "img": "lifee350/ceg327.svg",
     "alt": "",
     "website": "https://seoblueprint.com/",
-    "filter": ["1", "7", "8", "12", "14"],
-    "desc": "Don't think about “<span class=\"\">capturing emails</span>”. Think about <span class=\"cegx6\">making something</span> worth subscribing to."
+    "filter": ["1", "8", "10", "12", "14"],
+    "desc": "<span class=\"cegxtitle\">One word differentiation</span><p class=\"ptitle\"><br></p>“<span class=\"cegxnq cegx4\">actually</span>”"
   }
 ]

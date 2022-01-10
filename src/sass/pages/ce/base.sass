@@ -320,7 +320,7 @@ $shadows-medium-right: multiple-box-shadow(20)
 .ceRight
   width: calc(100% - #{$cegborder})
   margin-left: $cegborder
-  padding: 0 1.6rem 0rem 1.6rem
+  padding: 0 1.5rem 0rem 1.5rem
   // background: white
   // margin-bottom: 1.6rem
   position: relative
@@ -328,6 +328,8 @@ $shadows-medium-right: multiple-box-shadow(20)
     width: calc(100% - #{$cegborderless})
     margin-left: $cegborderless
     padding: 0 1.4rem 1.6rem 1.4rem
+  @media (max-width: 940px)
+    padding: 0 1.5rem 0rem 1.5rem
   &__on
     margin-left: 0rem
     width: calc(100%)
@@ -416,16 +418,16 @@ $shadows-medium-right: multiple-box-shadow(20)
 
 .fedgrid
   display: grid
-  // width: calc(100% - 22.7rem)
-  // margin-left: 22.7rem
-  // padding: 1.4rem
-  grid-gap: 1.6rem
+  // grid-gap: 1.6rem
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr))
   grid-auto-rows: 1rem
   grid-auto-flow: row
+  opacity: 0
+  // @media (max-width: 1026px)
+  //   grid-gap: 1.5rem
 
 .cegio
-  width: calc((100% - 32px) / 3)
+  width: calc((100% - 30px) / 3)
   margin-bottom: 1.6rem
   transition: all 0.2s
   &__notyetloaded
@@ -434,7 +436,7 @@ $shadows-medium-right: multiple-box-shadow(20)
   @media (max-width: 1320px)
     width: calc((100% - 28px) / 3)
     margin-bottom: 1.4rem
-  @media (max-width: 1026px)
+  @media (max-width: 940px)
     width: calc((100% - 15px) / 2)
   @media (max-width: 767px)
     width: calc(100%)
@@ -535,9 +537,9 @@ $shadows-medium-right: multiple-box-shadow(20)
     z-index: 3
     border: 3px solid $cegb
     font-weight: 500
-    @media (max-width: 1320px)
-      font-size: 1.48rem
-    @media (max-width: 1026px)
+    @media (max-width: 1280px)
+      font-size: 1.5rem
+    @media (max-width: 940px)
       font-size: 1.6rem
     @media (max-width: 500px)
       border-left: none
@@ -548,17 +550,17 @@ $shadows-medium-right: multiple-box-shadow(20)
     &-inner
       p
         font-size: .5rem
-        @media (max-width: 1320px)
+        @media (max-width: 1280px)
           font-size: .4rem
-        @media (max-width: 1026px)
+        @media (max-width: 940px)
           font-size: .5rem
         @media (max-width: 380px)
           font-size: .4rem
       .ptitle
         font-size: .7rem !important
-        @media (max-width: 1320px)
+        @media (max-width: 1280px)
           font-size: .6rem !important
-        @media (max-width: 1026px)
+        @media (max-width: 940px)
           font-size: .7rem !important
         @media (max-width: 380px)
           font-size: .6rem !important
@@ -591,9 +593,6 @@ $shadows-medium-right: multiple-box-shadow(20)
 .fed__loaded
   opacity: 1 !important
   transition: all .3s linear
-
-.fedgrid
-  opacity: 0
 
 .cegimobtap
   .cegi__left
@@ -756,43 +755,55 @@ $shadows-medium-right: multiple-box-shadow(20)
   // background: $cegy1
   line-height: 2rem
   display: inline-flex
-  background: linear-gradient(180deg, rgba(0,0,0,0) 70%, $cegy1 70%, $cegy1 97%, rgba(0,0,0,0) 97%)
+  background: linear-gradient(180deg, rgba(0,0,0,0) 71%, $cegy1 71%, $cegy1 97%, rgba(0,0,0,0) 97%)
   height: 1.9rem
+  @media (max-width: 380px)
+    background: linear-gradient(180deg, rgba(0,0,0,0) 72%, $cegy1 72%, $cegy1 95%, rgba(0,0,0,0) 95%)
 
 .cegx2
   // background: $cegy2
   line-height: 2rem
   display: inline-flex
-  background: linear-gradient(180deg, rgba(0,0,0,0) 70%, $cegy2 70%, $cegy2 97%, rgba(0,0,0,0) 97%)
+  background: linear-gradient(180deg, rgba(0,0,0,0) 71%, $cegy2 71%, $cegy2 97%, rgba(0,0,0,0) 97%)
   height: 1.9rem
+  @media (max-width: 380px)
+    background: linear-gradient(180deg, rgba(0,0,0,0) 72%, $cegy2 72%, $cegy2 95%, rgba(0,0,0,0) 95%)
 
 .cegx3
   // background: $cegy3
   line-height: 2rem
   display: inline-flex
-  background: linear-gradient(180deg, rgba(0,0,0,0) 70%, $cegy3 70%, $cegy3 97%, rgba(0,0,0,0) 97%)
+  background: linear-gradient(180deg, rgba(0,0,0,0) 71%, $cegy3 71%, $cegy3 97%, rgba(0,0,0,0) 97%)
   height: 1.9rem
+  @media (max-width: 380px)
+    background: linear-gradient(180deg, rgba(0,0,0,0) 72%, $cegy3 72%, $cegy3 95%, rgba(0,0,0,0) 95%)
 
 .cegx4
   // background: $cegy4
   line-height: 2rem
   display: inline-flex
-  background: linear-gradient(180deg, rgba(0,0,0,0) 70%, $cegy4 70%, $cegy4 97%, rgba(0,0,0,0) 97%)
+  background: linear-gradient(180deg, rgba(0,0,0,0) 71%, $cegy4 71%, $cegy4 97%, rgba(0,0,0,0) 97%)
   height: 1.9rem
+  @media (max-width: 380px)
+    background: linear-gradient(180deg, rgba(0,0,0,0) 72%, $cegy4 72%, $cegy4 95%, rgba(0,0,0,0) 95%)
 
 .cegx5
   // background: $cegy5
   line-height: 2rem
   display: inline-flex
-  background: linear-gradient(180deg, rgba(0,0,0,0) 70%, $cegy5 70%, $cegy5 97%, rgba(0,0,0,0) 97%)
+  background: linear-gradient(180deg, rgba(0,0,0,0) 71%, $cegy5 71%, $cegy5 97%, rgba(0,0,0,0) 97%)
   height: 1.9rem
+  @media (max-width: 380px)
+    background: linear-gradient(180deg, rgba(0,0,0,0) 72%, $cegy5 72%, $cegy5 95%, rgba(0,0,0,0) 95%)
 
 .cegx6
   // background: $cegy6
   line-height: 2rem
   display: inline-flex
-  background: linear-gradient(180deg, rgba(0,0,0,0) 70%, $cegy6 70%, $cegy6 97%, rgba(0,0,0,0) 97%)
+  background: linear-gradient(180deg, rgba(0,0,0,0) 71%, $cegy6 71%, $cegy6 97%, rgba(0,0,0,0) 97%)
   height: 1.9rem
+  @media (max-width: 380px)
+    background: linear-gradient(180deg, rgba(0,0,0,0) 72%, $cegy6 72%, $cegy6 95%, rgba(0,0,0,0) 95%)
 
 // .cegx7
 //   background: $cegy7

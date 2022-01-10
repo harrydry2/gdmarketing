@@ -256,8 +256,8 @@ if ($(".fed")) {
   if (window.innerWidth < 1026) {
     cegMobileFilter();
     cegMobileNewsletter();
-    cegimobtap($$(".cegio"));
   }
+  cegimobtap($$(".cegio"));
   $(".handbook__bottom").on("click", () => {
     actualPopup();
   });

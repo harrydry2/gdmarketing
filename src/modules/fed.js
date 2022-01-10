@@ -7,8 +7,12 @@ import { $, $$ } from "./bling";
 
 if (window.innerWidth > 1320) {
   window.gutter = 15;
-} else {
+}
+
+if (window.innerWidth < 1320 && window.innerWidth > 1022) {
   window.gutter = 14;
+} else {
+  window.gutter = 15;
 }
 
 axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";

@@ -61,23 +61,11 @@ exports.twitterhandbook = async (req, res) => {
 // };
 
 exports.fed = async (req, res) => {
-  shuffledCeg = shuffleFisherYates(dbCeg);
+  // shuffledCeg = shuffleFisherYates(dbCeg);
   shuffledCeg = dbCeg;
-  const cegs = shuffledCeg.slice(0, 14);
+  const cegs = shuffledCeg.slice(0, 10);
   res.render("./fed/ext", { cegs });
 };
-
-// exports.copywritingexamples = async (req, res) => {
-//   // const page = +req.params.page || 1;
-//   // const limit = 14;
-//   // const skip = limit * page - limit;
-//   // const cegs = await Ceg.find()
-//   //   .skip(skip)
-//   //   .limit(limit);
-//   shuffledCeg = shuffleFisherYates(dbCeg);
-//   // shuffledCeg = dbCeg;
-//   res.render('./copywritingexamples/ext');
-// };
 
 exports.course = async (req, res) => {
   var added = false;
@@ -158,17 +146,17 @@ exports.lazyCeg = async (req, res) => {
   const { page } = req.params || 1;
   const { filterParam } = req.params;
   if (parseInt(page) === 1) {
-    end = 14;
+    end = 10;
     start = 0;
   } else {
-    start = parseInt(page) * 10 + 4 - 10;
-    end = parseInt(page) * 10 + 4;
+    start = parseInt(page) * 6 + 4 - 6;
+    end = parseInt(page) * 6 + 4;
   }
   const pageString = page.toString();
   if (filterParam === "beenDone") {
     cegs = shuffledCeg.slice(start, end);
   } else if (filterParam === "all") {
-    cegs = shuffledCeg.slice(start + 14, end + 14);
+    cegs = shuffledCeg.slice(start + 10, end + 10);
   } else {
     const activeFilters = filterParam.split("-");
     const filteredCeg = shuffledCeg.filter(item =>

@@ -5,7 +5,9 @@ mixin filter(fFilter, bFilter, activeFilters=[], num)
 mixin mobfilters(activeFilters, titlenum)
   .filterContainer.cegm__bottom(class=`cegfilters__active${titlenum}`)
     .cegm__bottom-inner
-      .cegm__bottom-ns ACQUISITION
+      //- .cegm__bottom-ns ACQUISITION
+      //- .cegm__bottom-ns ACQUISITION
+      .cegm__bottom-ns!=icon("ra1")
       +filter("Content", "content", activeFilters, "1")
       +filter("SEO", "seo", activeFilters, "2")
       +filter("Sales", "sales", activeFilters, "3")
@@ -14,12 +16,14 @@ mixin mobfilters(activeFilters, titlenum)
       +filter("Affiliate", "affiliate", activeFilters, "6")
     .cegm__bottom-sep
     .cegm__bottom-inner
-      .cegm__bottom-ns CONVERSION
+      .cegm__bottom-ns!=icon("ra2")
+      //- .cegm__bottom-ns CONVERSION
       +filter("Copywriting", "copywriting", activeFilters, "7")
       +filter("Landing Page", "landing-page", activeFilters, "8")
     .cegm__bottom-sep
     .cegm__bottom-inner
-      .cegm__bottom-ns MORE
+      .cegm__bottom-ns!=icon("ra3")
+      //- .cegm__bottom-ns MORE
       +filter("Retention", "retention", activeFilters, "9")
       +filter("Brand", "brand", activeFilters, "10")
       +filter("Referral", "referral", activeFilters, "11")

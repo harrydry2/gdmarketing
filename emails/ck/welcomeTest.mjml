@@ -31,6 +31,13 @@
         border-bottom: 1px solid;
       }
 
+      .po div {
+        font-size: 17px !important;
+        padding: 8px 0 8px 0;
+        line-height: 28px !important;
+        color: #030212 !important;
+      }
+
       .bold {
         font-weight: 500;
       }
@@ -50,7 +57,7 @@
         <mj-column>
           <mj-image mj-class="cImg img600" align="center" src="https://ik.imagekit.io/o08ysq9vx/cebits/newsletter/nw.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
           <mj-text mj-class="p">Hey — Harry here.</mj-text>
-          <mj-text mj-class="p">It feels good to know people enjoy my work. Thanks for signing up. Expect an email every Monday.</mj-text>
+          <mj-text css-class="po">It feels good to know people enjoy my work. Thanks for signing up. Expect an email every Monday.</mj-text>
           <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> where I share quick tips.</mj-text>
           <mj-text mj-class="p">People kept asking, so I've put together <span class="italic"> The Best of Marketing Examples</span> email series for you:</mj-text>
           <mj-text mj-class="p inwardSpeech">The 5 case studies people found most useful over the last 2 years</mj-text>

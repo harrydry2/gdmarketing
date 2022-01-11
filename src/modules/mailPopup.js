@@ -141,7 +141,12 @@ export function mailPopup() {
       $(".iosOverflow").classList.remove("mailNoScroll");
     }
     alreadyPoppedUp = true;
-    window.history.pushState("", "", `/`);
+    if ($(".fed")) {
+      window.history.pushState("", "", `/inspiration`);
+    } else {
+      window.history.pushState("", "", `/`);
+    }
+    // window.history.back();
   });
   submitMail(mailButton, mailRed, mailInput, emailNum);
 }

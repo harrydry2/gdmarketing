@@ -49,6 +49,12 @@
         border-bottom: 1px solid;
       }
 
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
       .brand {
         color: #4742DE;
       }
@@ -85,51 +91,27 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">#060 - The last dance</mj-text>
-          <mj-text mj-class="p"><span class="italic">Hey — Harry again.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Today is my birthday. Don’t ask how old! Only joking, I’m twenty-five.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">To my left is a glass of ribena. To my right are six empty Ferrero Rocher wrappers. It's been a wild night.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Now, I must say, I've had a busy week and haven't managed to write a new case study. So, instead, I'm sharing seven of my favourite tips from the last two years. Enjoy.</span></mj-text>
-          <mj-button mj-class="bg1">1/ Don't think about “capturing emails”</mj-button>
-          <mj-text mj-class="p">Think about creating something worth subscribing to.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip4.png" alt="Capturing emails"></mj-image>
-          <mj-button mj-class="bg2">2/ No one cares what you can do</mj-button>
-          <mj-text mj-class="p">Everyone cares what you can do <span class="italic">for them</span>.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/ctt3.jpg" alt="iPhone songs"></mj-image>
-          <mj-button mj-class="bg3">3/ Simple CTA tip</mj-button>
-          <mj-text mj-class="p">Add a few words to your button to handle the user's biggest objection to clicking.</mj-text>
-          <mj-text mj-class="p">Trainual made this change and saw an 18% lift in trial conversions.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/birth2.png" alt="CTA handled"></mj-image>
-          <mj-button mj-class="bg4">4/ How to get more leads from your website</mj-button>
-          <mj-text mj-class="p list list__top">1/ Offer something upfront</mj-text>
-          <mj-text mj-class="p list">2/ Use a real persons face and email</mj-text>
-          <mj-text mj-class="p list list__bottom">3/ Be specific with timings</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/birth4.png" alt="more leads please"></mj-image>
-          <mj-button mj-class="bg5">5/ Clear writing is concise writing</mj-button>
-          <mj-text mj-class="p list list__top">• In order to → To</mj-text>
+          <mj-text mj-class="p">Hey — It's Harry.</mj-text>
+          <mj-text mj-class="p">To old readers thank you for your patience. To 32,314 new readers (who probably forgot you signed up) a warm welcome.</span></mj-text>
+          <mj-text mj-class="p">I took some time off. And made a masterpiece.</span></mj-text>
+          <mj-text mj-class="p"><a class="underA brand bold " href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> — The world's best copy. In one place.</span></mj-text>
+          <mj-image mj-class="cImg img400" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl1/nl1a.jpg" href="https://marketingexamples.com/inspiration" alt="Capturing emails"></mj-image>
+          <mj-text mj-class="p">I wanted to make <span class="italic bold ">the</span> site you come back to every time you're writing new copy. Here's three ways to use it:</span></mj-text>
+          <mj-button mj-class="bg1">1/ Scroll like a little kid</mj-button>
+          <mj-text mj-class="p">It’s a deep sea. Go diving.</mj-text>
+          <mj-button mj-class="bg1">1/ Scroll like a little kid</mj-button>
+          <mj-text mj-class="p">It’s a deep sea. Go diving.</mj-text>
+          <mj-button mj-class="bg2">2/ Hover and learn</mj-button>
+          <mj-text mj-class="p">Every example comes with a short explanation</mj-text>
+          <mj-button mj-class="bg2">3/ Steal like an artist</mj-button>
+          <mj-text mj-class="p">Every example comes with an explanation.</mj-text>
+          <!-- <mj-text mj-class="p list list__top">• In order to → To</mj-text>
           <mj-text mj-class="p list">• In spite of → Despite</mj-text>
           <mj-text mj-class="p list">• In the event that → If</mj-text>
           <mj-text mj-class="p list">• A number of → Some</mj-text>
           <mj-text mj-class="p list">• The majority of → Most</mj-text>
           <mj-text mj-class="p list">• Has the opportunity to → Can</mj-text>
-          <mj-text mj-class="p list list__bottom">• Despite the fact that → Although</mj-text>
-          <mj-text mj-class="p">h/t <a class="underA subscribeColor" href="https://annhandley.com/newsletter/" target="_blank">Ann Handley</a> (a legend)</mj-text>
-          <mj-button mj-class="bg1">6/ Cold emails shouldn't be cold</mj-button>
-          <mj-text mj-class="p">Here's one I wrote two years ago for an early stage startup.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/birth1.png" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-button mj-class="bg2">7/ Let's rewrite a landing page</mj-button>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/annie8a.png" alt="Banquist landing page copywriting"></mj-image>
-          <mj-text mj-class="p">Put yourself in the customer's shoes. Kids don't care about “the next generation of SAT prep”. They care about “Acing the SAT”.</mj-text>
-          <mj-text mj-class="p">I also pulled up the $1 trial. And made the “five stars” feel <span class="italic">REALER</span>.</mj-text>
-          <mj-text mj-class="p asterix">* * *</mj-text>
-          <mj-text mj-class="p"><span class="italic">That's all folks. Thanks for your movies last week. I read every one and it's fair to say Shawshank Redemption is the people's champion.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">I drew a name a few hours ago and the winner is <a class="underA subscribeColor" href="https://twitter.com/lisa_tait" target="_blank">Lisa from Dundee</a> who tells me it's okay to reveal her favourite movie is True Romance!</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Congrats Lisa. I'll pop down to the post office tomorrow.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/email/birth3.jpg" alt="Sea of sameness brand positioning"></mj-image>
-          <mj-text mj-class="p"><span class="italic">Now, I'm going to be away for a little while. I've got <a class="underA subscribeColor" href="https://marketingexamples.com/course" target="_blank">my course</a> to make. And I want to make sure the next newsletter is awesome. </span></mj-text>
-          <mj-text mj-class="p"><span class="italic">When I'm back, I'm coming back better than ever.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">PS — To anyone who emailed about the course. Thank you. I'm taking the time to reply to each one properly. Bear with me.</span></mj-text>
+          <mj-text mj-class="p list list__bottom">• Despite the fact that → Although</mj-text> -->
           <mj-text mj-class="pbold">Oh, last thing</mj-text>
           <mj-text mj-class="p">Two job opportunities. Neither are sponsored. I'm sharing because I'd apply for both myself if I wasn't doing this.</mj-text>
           <mj-text mj-class="p list list__top"><span class="bold">1/</span> Tim from <span class="">Ahrefs</span> is <a class="underA subscribeColor" href="https://ahrefs.com/jobs/digital-marketer" target="_blank">hiring a content marketer</a></mj-text>

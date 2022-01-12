@@ -1,15 +1,15 @@
-const webpack = require("webpack");
-const path = require("path");
+const webpack = require('webpack');
+const path = require('path');
 // minify build
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    bundle: ["./src/index.js"]
+    bundle: ['./src/index.js']
   },
   output: {
-    path: path.resolve(__dirname, "public", "dist"),
-    filename: "bundle3.js"
+    path: path.resolve(__dirname, 'public', 'dist'),
+    filename: 'bundle4.js'
   },
   module: {
     rules: [
@@ -17,39 +17,39 @@ module.exports = {
         test: /\.(sa|sc|c)ss$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
+            loader: MiniCssExtractPlugin.loader,
           },
-          "css-loader",
-          "sass-loader"
-        ]
+          'css-loader',
+          'sass-loader'
+        ],
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
+          loader: 'babel-loader'
+        },
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-        loader: "url-loader",
+        loader: 'url-loader',
         options: {
-          publicPath: "../fonts/",
-          name: "../fonts/[name].[ext]",
-          limit: 1000
-        }
-      }
-    ]
+          publicPath: '../fonts/',
+          name: '../fonts/[name].[ext]',
+          limit: 1000,
+        },
+      },
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "bundle.v14.css"
-    })
+      filename: 'bundle.v15.css',
+    }),
     // minify
     // new webpack.DefinePlugin({
     //   "process.env": {
     //     NODE_ENV: JSON.stringify("production")
     //   }
     // })
-  ]
+  ],
 };

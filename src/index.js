@@ -80,8 +80,8 @@ if (
   !$(".fed")
 ) {
   // preSetuptogetexisitingoldnum
-  var currentnum;
-  var oldnum;
+  let currentnum;
+  let oldnum;
   const fcString = $(".filterContainer").className;
   if (fcString.includes(" ")) {
     console.log(fcString.length);
@@ -261,5 +261,10 @@ if ($(".fed")) {
   $(".handbook__bottom").on("click", () => {
     actualPopup();
   });
+  if ($(".cmtGlitchClick")) {
+    $(".cmtGlitchClick").on("click", () => {
+      actualPopup();
+    });
+  }
   history.scrollRestoration = "manual";
 }

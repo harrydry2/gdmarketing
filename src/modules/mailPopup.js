@@ -124,7 +124,7 @@ export function mailPopup() {
           $('.iosOverflow').classList.add('mailNoScroll');
           $('.iosOverflow').classList.add('number5chanel');
         }
-      }, 120000);
+      }, 60000);
     }
   }
 

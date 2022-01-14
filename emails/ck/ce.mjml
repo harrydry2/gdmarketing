@@ -93,32 +93,28 @@
           <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
           <mj-text mj-class="p">To long-time readers thank you for your patience. To first-time readers a warm welcome.</span></mj-text>
-          <mj-text mj-class="p">I took some time off. And made a masterpiece.</span></mj-text>
+          <mj-text mj-class="p">I took some time off. To make something I always wanted to.</span></mj-text>
           <mj-text mj-class="p"><a class="underA bold " href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> — The world's best copy. In one place.</span></mj-text>
           <mj-image mj-class="cImg img400" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl1/nl1a.jpg" href="https://marketingexamples.com/inspiration" alt="Capturing emails"></mj-image>
-          <mj-text mj-class="p">I wanted to make <span class="italic bold">the</span> site you open up every time you're writing new copy. Here's three ways to use it:</span></mj-text>
+          <mj-text mj-class="p">I wanted to make <span class="italic bold">the</span> site you open up every time you're writing new copy. 98% of the stuff I read online is word-shaped air. This is my collection of the 2% I think is alright.</span></mj-text>
           <mj-button mj-class="bg1">1/ Scroll</mj-button>
           <mj-text mj-class="p">It’s a long way to the bottom. Dive in. Find inspiration.</mj-text>
           <mj-button mj-class="bg2">2/ Hover</mj-button>
-          <mj-text mj-class="p">Hover over each example and I explain <span class="italic bold">why</span> it works.</mj-text>
+          <mj-text mj-class="p">Hover over each example to see <span class="italic bold">why</span> it works.</mj-text>
           <!-- <mj-text mj-class="p">Hover and you'll see a short break down. Read them and you'll start to learn how copy is assembled.</mj-text> -->
           <mj-text mj-class="p inwardSpeech">“Any fool can know. The point is to understand.” — Albert Einstein</mj-text>
           <mj-button mj-class="bg3">3/ Filter</mj-button>
           <mj-text mj-class="p">Want ads, headers, lead-magnets? Use the <span class="italic">filters</span>. Find copy you like. Take it, twist it, make it <span class="italic">yours</span>.</mj-text>
           <mj-text mj-class="p inwardSpeech">“It's not where you take things from. It's where you take them to.” — Jean-Luc Godard</mj-text>
-          <mj-button mj-class="bg1">1/ Scroll like a kid</mj-button>
-          <mj-text mj-class="p">It’s a deep sea. Dive in. Find inspiration.</mj-text>
-          <mj-button mj-class="bg2">2/ Hover and learn</mj-button>
-          <mj-text mj-class="p">Hover and you'll see a short break down where I explain <span class="italic bold">why</span> it works.</mj-text>
-          <mj-text mj-class="p">Hover over each example and I explain <span class="italic bold">why</span> it works.</mj-text>
-          <mj-text mj-class="p inwardSpeech">“Any fool can know. The point is to understand.” — Albert Einstein</mj-text>
-          <mj-button mj-class="bg3">3/ Steal like an artist</mj-button>
-          <mj-text mj-class="p">You want a header? Find one you like. Take it, twist it, make it yours.</mj-text>
-          <mj-text mj-class="p inwardSpeech">“Any fool can know. The point is to understand.” — Albert Einstein</mj-text>
-          <mj-text mj-class="pbold">Oh, last thing</mj-text>
-          <mj-text mj-class="p">Two job opportunities. Neither are sponsored. I'm sharing because I'd apply for both myself if I wasn't doing this.</mj-text>
-          <mj-text mj-class="p list list__top"><span class="bold">1/</span> Tim from <span class="">Ahrefs</span> is <a class="underA subscribeColor" href="https://ahrefs.com/jobs/digital-marketer" target="_blank">hiring a content marketer</a></mj-text>
-          <mj-text mj-class="p list list__bottom"><span class="bold">2/</span> Mikael from Unsplash is <a class="underA subscribeColor" href="https://twitter.com/mikaelcho/status/1351990844027514883" target="_blank">hiring someone</a> to run email and social media (send a DM)</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Now. I've worked too hard to not ask for your help sharing this. So to thank anyone who does I'm doing a big old giveaway. On offer:</mj-text>
+          <mj-text mj-class="p list list__top"><span class="bold">5x</span> — My seven favourite copywriting books</mj-text>
+          <mj-text mj-class="p list"><span class="bold">4x</span> — One hour messaging / strategy sprint session</mj-text>
+          <mj-text mj-class="p list"><span class="bold">3x</span> — Learn Copywriting (upcoming course)</mj-text>
+          <mj-text mj-class="p list"><span class="bold">2x</span> — Lifetime DGMG membership (thanks dave)</mj-text>
+          <mj-text mj-class="p list list__bottom"><span class="bold">1x</span> — Top secret (extra secret) very special care package</mj-text>
+          <mj-text mj-class="p">To enter simply share my launch post on <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1263831025240719362" target="_blank">LinkedIn</a> or <a class="underA subscribeColor" href="https://twitter.com/GoodMarketingHQ/status/1263831025240719362" target="_blank">Twitter</a>. Then reply to this email to let me know you've entered. Cheers.</mj-text>
+          <mj-button mj-class="bg3">I'm doing a big giv</mj-button>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#ffebef">

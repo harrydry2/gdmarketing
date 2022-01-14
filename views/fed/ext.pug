@@ -2,6 +2,7 @@ extends base
 
 include ./ceg
 include ../home/mixins/mail
+include ../home/mixins/ph
 
 block content
   .fed__outer
@@ -9,10 +10,11 @@ block content
       #stars.stars-left
       #stars2.stars2-left
     .fed
-      .cegm__top
+      +phBase1()
+      .cegm__top.cegm__top-ph
         a(href="/inspiration")
-          //- img(src="https://ik.imagekit.io/o08ysq9vx/cebits/cegLogo.png", alt="Logo")
           img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo2.png", alt="Logo")
+          //- img(src="https://ik.imagekit.io/o08ysq9vx/cebits/cegLogo.png", alt="Logo")
         .cegm__top-right
           .cegm__top-right-minus!=icon("cegfilterminus3")
           .cegm__top-right-plus.cegmtr__active!=icon("cegfilterplus1")
@@ -46,7 +48,9 @@ block content
           .cegm__bottom-tab.bbth.cegi-shade13(data-num='13') B2B
           .cegm__bottom-tab.bbth.cegi-shade14(data-num='14') B2C
       .cegl
-        img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo2.png", alt="Logo" class="cegl__logo")
+        a(href="/inspiration")
+          img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo2.png", alt="Logo" class="cegl__logo")
+        //- img(src="https://ik.imagekit.io/o08ysq9vx/mebits/logo2.png", alt="Logo" class="cegl__logo")
         .cegl__filter.cegl__filter-one
           .cegl__filter-title!=icon("ceg1")
           .cegl__filter-tab.fth.cegi-shade1(data-num='1') Headers

@@ -75,11 +75,6 @@
         color: #808080
       }
 
-      .longerButton {
-        width: 500px;
-        color: red;
-      }
-
       .isBreak {
         margin-bottom: -0.9rem;
         display: block;
@@ -90,50 +85,40 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="52px" src="https://harrydry.s3.amazonaws.com/gdmarketing/email/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-image width="52px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl1/meLogo1.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#061 — I'm back</mj-text>
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
           <mj-text mj-class="p">To long-time readers thank you for your patience. To first-time readers a warm welcome.</span></mj-text>
           <mj-text mj-class="p">I took some time off. And made a masterpiece.</span></mj-text>
           <mj-text mj-class="p"><a class="underA bold " href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> — The world's best copy. In one place.</span></mj-text>
           <mj-image mj-class="cImg img400" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl1/nl1a.jpg" href="https://marketingexamples.com/inspiration" alt="Capturing emails"></mj-image>
-          <mj-text mj-class="p">Most of the copy I read online is <span class="italic">word-shaped air</span>. This is my collection of the 2% that is actually quite good. I wanted to make <span class="italic bold">the</span> site you open up every time you're writing new stuff.</mj-text>
-          <mj-text mj-class="p">Here's three ways to use it:</span></mj-text>
-          <mj-button mj-class="bg1">1/ Scroll like a kid</mj-button>
-          <mj-text mj-class="p">It’s a deep sea. Dive in.</mj-text>
-          <mj-button mj-class="bg2">2/ Hover and learn</mj-button>
-          <mj-text mj-class="p">Hover over each example to see <span class="italic bold">why</span> it works.</mj-text>
+          <mj-text mj-class="p">I wanted to make <span class="italic bold">the</span> site you open up every time you're writing new copy.</span></mj-text>
+          <mj-text mj-class="p">It’s a deep sea. Dive in. Filter to find what you're looking for. Hover over each example to see <span class="italic bold">why</span> it works.</mj-text>
           <mj-text mj-class="p inwardSpeech">“Any fool can know. The point is to understand.” — Albert Einstein</mj-text>
-          <mj-button mj-class="bg3">3/ Steal like an artist</mj-button>
-          <mj-text mj-class="p">Want ads, headers, lead-magnets? Use the <span class="italic">filters</span>. Find copy you like. Adapt it, improve it, make it <span class="italic">yours</span>.</mj-text>
-          <mj-text mj-class="p inwardSpeech">“It's not where you take things from. It's where you take them to.” — Jean-Luc Godard</mj-text>
-          <mj-text mj-class="pbold">Oh, last thing</mj-text>
-          <mj-text mj-class="p">Two job opportunities. Neither are sponsored. I'm sharing because I'd apply for both myself if I wasn't doing this.</mj-text>
-          <mj-text mj-class="p list list__top"><span class="bold">1/</span> Tim from <span class="">Ahrefs</span> is <a class="underA subscribeColor" href="https://ahrefs.com/jobs/digital-marketer" target="_blank">hiring a content marketer</a></mj-text>
-          <mj-text mj-class="p list list__bottom"><span class="bold">2/</span> Mikael from Unsplash is <a class="underA subscribeColor" href="https://twitter.com/mikaelcho/status/1351990844027514883" target="_blank">hiring someone</a> to run email and social media (send a DM)</mj-text>
+          <mj-button mj-class="bg1">A big giveaway</mj-button>
+          <mj-text mj-class="p">Now. I've worked too hard to not ask for your help sharing this. So to thank anyone who does I'm giving away a load of stuff:</mj-text>
+          <mj-text mj-class="p list list__top"><span class="bold">5x</span> — My seven favourite copywriting books</mj-text>
+          <mj-text mj-class="p list"><span class="bold">5x</span> — One hour messaging / strategy sprint session</mj-text>
+          <mj-text mj-class="p list"><span class="bold">5x</span> — Learn Copywriting (upcoming course)</mj-text>
+          <mj-text mj-class="p list"><span class="bold">5x</span> — Lifetime <a class="underA subscribeColor" href="https://davegerhardt.com/" target="_blank">DGMG membership</a> (thanks dave)</mj-text>
+          <mj-text mj-class="p list list__bottom"><span class="bold">1x</span> — Top secret (extra special) care package</mj-text>
+          <mj-text mj-class="p">To enter, share my launch post on <a class="underA subscribeColor" href="https://www.linkedin.com/posts/harrydry_copywriting-examples-out-nowww-link-activity-6887117353742671873-6Mr7" target="_blank">LinkedIn</a> or <a class="underA subscribeColor" href="https://twitter.com/harrydry/status/1481342175682220032" target="_blank">Twitter</a>. Then reply to this email to let me know you've entered.</mj-text>
+          <mj-button mj-class="bg2">Two thank you's</mj-button>
+          <mj-text mj-class="p">First to my brother Tom. I showed him the first draft back in April. Since, we've sat together for hours and hours improving it.</mj-text>
+          <mj-text mj-class="p">Secondly to <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> for sponsoring. I needed time to make this and they gave me that. They're an awesome company who are hiring marketers as well. <a class="underA subscribeColor" href="https://ahrefs.com/jobs?department=marketing" target="_blank">Go apply.</a> You can do it.</mj-text>
+          <mj-text mj-class="p">That’s everything. I’ll be back this Monday with a new newsletter. Full of tips and an explanation of what's gone on.,</mj-text>
+          <mj-text mj-class="p">Till then — Harry</mj-text>
+          <mj-image mj-class="cImg img250" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl1/nature1.jpg" alt="Capturing emails"></mj-image>
+          <mj-text mj-class="p"><span class="italic">PS — If you've emailed me and I haven't replied it's nothing personal. I stopped using email to focus on this. Catching up now.</span></mj-text>
         </mj-column>
       </mj-section>
-      <mj-section mj-class="shareSection" background-color="#ffebef">
-        <mj-column>
-          <mj-text mj-class="p">New round here? Welcome aboard. More articles <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Or you can subscribe <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="whiteSection" padding="9px 0">
-        <mj-column></mj-column>
-      </mj-section>
-      <mj-section mj-class="shareSection" background-color="#FFFCDB">
-        <mj-column>
-          <mj-text mj-class="p">Last Sunday I put together this email series —<span class="italic"> The 5 articles subscribers found most useful over the last 2 years.</span> If you'd like them in your inbox — <a class="underA subscribeColor" trigger-id="2297969" href="https://marketingexamples.com/best-of/newsletter" target="_blank">click here</a>.</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section mj-class="whiteSection" padding-top="36px">
-        <mj-column></mj-column>
-      </mj-section>
+
       <mj-section mj-class="bottomSection">
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
           <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="https://marketingexamples.com/best-of/unsubscribe" target="_blank" trigger-id="2319502">Unsubscribe from newsletter</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe from all email</a></mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

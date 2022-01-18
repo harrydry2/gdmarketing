@@ -274,7 +274,6 @@ exports.filters = async (req, res) => {
   let titlenum = '';
   let title;
   if (smalltitle === 'content') {
-    console.log('yabba');
     titlenum = '1';
   } else if (smalltitle === 'seo') {
     titlenum = '2';
@@ -284,20 +283,18 @@ exports.filters = async (req, res) => {
     titlenum = '4';
   } else if (smalltitle === 'ads') {
     titlenum = '5';
-  } else if (smalltitle === 'affiliate') {
-    titlenum = '6';
   } else if (smalltitle === 'copywriting') {
-    titlenum = '7';
+    titlenum = '6';
   } else if (smalltitle === 'landing-page') {
-    titlenum = '8';
+    titlenum = '7';
   } else if (smalltitle === 'retention') {
-    titlenum = '9';
+    titlenum = '8';
   } else if (smalltitle === 'brand') {
-    titlenum = '10';
+    titlenum = '9';
   } else if (smalltitle === 'referral') {
-    titlenum = '11';
+    titlenum = '10';
   } else if (smalltitle === 'creative') {
-    titlenum = '12';
+    titlenum = '11';
   }
   const toTitleCase = phrase =>
     phrase

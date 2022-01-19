@@ -373,11 +373,12 @@ $shadows-medium-right: multiple-box-shadow(20)
   align-items: center
   justify-content: space-between
   z-index: 4
-  // position: sticky
   top: 0
   @media (max-width: 1026px)
     display: none
   &__left
+    display: flex
+    align-items: center
   &-mail
     width: 51rem
     margin: 0 auto
@@ -424,6 +425,10 @@ $shadows-medium-right: multiple-box-shadow(20)
       // color: $brand
       & > *
         fill: $cegblack !important
+
+.nh3
+  margin-left: 1rem
+  font-size: 1.4rem
 
 .fedgrid
   display: grid

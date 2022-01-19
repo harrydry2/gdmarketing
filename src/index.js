@@ -1,11 +1,11 @@
-import "./sass/styles.sass";
-import axios from "axios";
-import Masonry from "masonry-layout";
-import debounce from "lodash.debounce";
+import './sass/styles.sass';
+import axios from 'axios';
+import Masonry from 'masonry-layout';
+import debounce from 'lodash.debounce';
 
-import { $, $$ } from "./modules/bling";
-import { postPopup } from "./modules/postPopup";
-import { resize, copyGif, gifStart } from "./modules/gifs";
+import { $, $$ } from './modules/bling';
+import { postPopup } from './modules/postPopup';
+import { resize, copyGif, gifStart } from './modules/gifs';
 import {
   initObserver,
   fedLoadScroll,
@@ -13,12 +13,12 @@ import {
   cegimobtap,
   toggle,
   cegMobileFilter,
-  cegMobileNewsletter
-} from "./modules/fed";
-import { thScroll, courseScroll } from "./modules/thScroll";
+  cegMobileNewsletter,
+} from './modules/fed';
+import { thScroll, courseScroll } from './modules/thScroll';
 // import { thScroll, courseScroll } from './modules/thScroll1';
 
-import { cycleImages } from "./modules/course";
+import { cycleImages } from './modules/course';
 import {
   mailPopup,
   actualPopup,
@@ -26,9 +26,9 @@ import {
   mailSubmitHome,
   mailSubmitFromHandbook,
   mailSubmitFromCourseTop,
-  mailSubmitFromCourseBottom
-} from "./modules/mailPopup";
-import { lazyLoad, gifLoad, gifLoadMobile } from "./modules/lazyLoad";
+  mailSubmitFromCourseBottom,
+} from './modules/mailPopup';
+import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
 
 window.page = 2;
 window.cegpage = 1;
@@ -39,7 +39,7 @@ window.cegbusy = false;
 // 1) Deals with the filter across screens
 
 let filterArray;
-const array = Array.from($$(".filters__spec"));
+const array = Array.from($$('.filters__spec'));
 const arrayLength = array.length;
 
 if (window.innerWidth < 768) {
@@ -50,17 +50,17 @@ if (window.innerWidth < 768) {
 
 // wierdthingforanimation
 
-if ($(".pausedatanimation")) {
-  $(".ph").style.animationPlayState = "paused";
+if ($('.pausedatanimation')) {
+  $('.ph').style.animationPlayState = 'paused';
 }
 
 if (
-  !$(".gif") &&
-  !$(".th") &&
-  !$(".cc") &&
-  !$(".ceg") &&
-  !$(".cegM") &&
-  !$(".fed")
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
 ) {
   lazyLoad(filterArray);
   if (window.innerWidth < 1025) {
@@ -72,18 +72,18 @@ if (
 }
 
 if (
-  !$(".gif") &&
-  !$(".th") &&
-  !$(".cc") &&
-  !$(".ceg") &&
-  !$(".cegM") &&
-  !$(".fed")
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
 ) {
   // preSetuptogetexisitingoldnum
   let currentnum;
   let oldnum;
-  const fcString = $(".filterContainer").className;
-  if (fcString.includes(" ")) {
+  const fcString = $('.filterContainer').className;
+  if (fcString.includes(' ')) {
     console.log(fcString.length);
     if (fcString.length > 35) {
       oldnum = fcString.slice(-2);
@@ -91,11 +91,11 @@ if (
       oldnum = fcString.slice(-1);
     }
   } else {
-    oldnum = "0";
+    oldnum = '0';
   }
   console.log(oldnum);
   filterArray.forEach(filterItem => {
-    filterItem.on("click", async e => {
+    filterItem.on('click', async e => {
       currentnum = e.currentTarget.dataset.num;
       // reset page settings for new filters
       e.preventDefault();
@@ -111,31 +111,31 @@ if (
       );
       // remove any filters active already there
       if (oldnum === currentnum) {
-        e.currentTarget.classList.toggle("filters__active");
+        e.currentTarget.classList.toggle('filters__active');
       } else {
         filterArray.forEach(filter => {
           filter.classList.remove(`filters__active`);
         });
-        e.currentTarget.classList.toggle("filters__active");
+        e.currentTarget.classList.toggle('filters__active');
       }
       // array of active filters
       const activeFilters = filterArray
-        .filter(filter => filter.classList.contains("filters__active"))
+        .filter(filter => filter.classList.contains('filters__active'))
         .map(filter => filter.dataset.term);
       // if no filters default to all
       if (activeFilters.length === 0) {
-        window.history.pushState("", "", `/`);
+        window.history.pushState('', '', `/`);
         var { data } = await axios.get(`/api/lazy/1/all`);
       } else {
         // change push state
-        window.history.pushState("", "", `/${activeFilters}`);
+        window.history.pushState('', '', `/${activeFilters}`);
         // axios the filtered marketing ideas
         var { data } = await axios.get(`/api/lazy/1/${activeFilters}`);
       }
       oldnum = currentnum;
-      $(".outerCard").innerHTML = data;
+      $('.outerCard').innerHTML = data;
       // popup after dynamically inserted
-      postPopup(Array.from($$(".card")));
+      postPopup(Array.from($$('.card')));
     });
   });
 }
@@ -164,68 +164,61 @@ if (
 // }
 
 // mailPopup
-if (
-  !$(".gif") &&
-  !$(".th") &&
-  !$(".cc") &&
-  !$(".ceg") &&
-  !$(".cegM") &&
-  !$(".fed")
-) {
-  if (!window.location.href.includes("utm_source=newsletter")) {
+if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+  if (!window.location.href.includes('utm_source=newsletter')) {
     mailPopup();
   } else {
-    console.log("no more emails popups for loving subs");
+    console.log('no more emails popups for loving subs');
   }
-  // mailSubmitHome();
+  mailSubmitHome();
 }
 
 //
 
-if ($(".undera__center-text")) {
+if ($('.undera__center-text')) {
   if (window.innerWidth > 768) {
-    $(".undera__center-text").innerText = "CLICK ICON TO SHARE";
+    $('.undera__center-text').innerText = 'CLICK ICON TO SHARE';
   }
 }
 
 // only if Post page
-if ($(".postNoScroll")) {
+if ($('.postNoScroll')) {
   mailSubmitFromPost();
 }
 
 // popup from homepage (also if close post page)
 if (
-  !$(".gif") &&
-  !$(".th") &&
-  !$(".cc") &&
-  !$(".ceg") &&
-  !$(".cegM") &&
-  !$(".fed")
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.cc') &&
+  !$('.ceg') &&
+  !$('.cegM') &&
+  !$('.fed')
 ) {
-  postPopup(Array.from($$(".card")));
+  postPopup(Array.from($$('.card')));
 }
 
 // gif page
-if ($(".gif")) {
+if ($('.gif')) {
   mailPopup();
   copyGif();
   // if (window.innerWidth > 768) {
-  window.addEventListener("load", resize);
-  window.addEventListener("resize", resize);
+  window.addEventListener('load', resize);
+  window.addEventListener('resize', resize);
   gifLoad();
 }
 
-if ($(".cc")) {
+if ($('.cc')) {
   if (window.innerWidth > 1023) {
     courseScroll();
   }
   mailSubmitFromCourseTop();
   mailSubmitFromCourseBottom();
   setTimeout(() => {
-    const tc = $(".tweets__container");
-    console.log("hello");
-    tc.style.display = "grid";
-    tc.style.height = "auto";
+    const tc = $('.tweets__container');
+    console.log('hello');
+    tc.style.display = 'grid';
+    tc.style.height = 'auto';
   }, 2000);
 }
 
@@ -240,16 +233,16 @@ if ($(".cc")) {
 //   window.on("resize", debounce(async () => resizeCegAll(), 100));
 // }
 
-if ($(".fed")) {
+if ($('.fed')) {
   mailPopup();
-  const msnry = new Masonry(".fedgrid", {
+  const msnry = new Masonry('.fedgrid', {
     // options
-    itemSelector: ".cegio",
+    itemSelector: '.cegio',
     gutter: window.gutter,
-    transitionDuration: 0
+    transitionDuration: 0,
   });
   msnry.layout();
-  $(".fedgrid").style.opacity = 1;
+  $('.fedgrid').style.opacity = 1;
   initObserver();
   fedFilter();
   toggle();
@@ -257,14 +250,14 @@ if ($(".fed")) {
     cegMobileFilter();
     cegMobileNewsletter();
   }
-  cegimobtap($$(".cegio"));
-  $(".handbook__bottom").on("click", () => {
+  cegimobtap($$('.cegio'));
+  $('.handbook__bottom').on('click', () => {
     actualPopup();
   });
-  if ($(".cmtGlitchClick")) {
-    $(".cmtGlitchClick").on("click", () => {
-      actualPopup();
-    });
-  }
-  history.scrollRestoration = "manual";
+  // if ($('.cmtGlitchClick')) {
+  //   $('.cmtGlitchClick').on('click', () => {
+  //     actualPopup();
+  //   });
+  // }
+  history.scrollRestoration = 'manual';
 }

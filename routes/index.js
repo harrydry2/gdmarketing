@@ -167,6 +167,10 @@ router.get("/misc/refactoring-ui", (req, res) => {
   res.redirect(301, "https://marketingexamples.com/landing-page/pricing");
 });
 
+router.get("/pricing/refactoring-ui", (req, res) => {
+  res.redirect(301, "https://marketingexamples.com/landing-page/pricing");
+});
+
 router.get("/conversion/product-hunt", (req, res) => {
   res.redirect(301, "https://marketingexamples.com/social/product-hunt");
 });

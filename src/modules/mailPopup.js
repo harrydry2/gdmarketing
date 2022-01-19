@@ -152,9 +152,9 @@ export function mailPopup() {
 }
 
 export function mailSubmitHome() {
-  const mailButtonSpec = $('.search__text');
-  const mailInputSpec = $('.search__left > input');
-  const mailRedSpec = $('.search__text-info');
+  const mailButtonSpec = $('.nh1');
+  const mailInputSpec = $('.nh2');
+  const mailRedSpec = $('.nh3');
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 1);
 }
 

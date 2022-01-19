@@ -13,6 +13,18 @@
   },
   {
     "num": "9",
+    "title": "Worldle's referral loop is beautiful",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "wordle",
+    "img": "wordle1",
+    "imgType": "png",
+    "desc": "Wordle is a simple word game that's taken over the world recently. On 99% of sites if you click “share” you get a link. On Wordle, if you click “share” your scoreboard is copied to your clipboard for you to paste onto social directly."
+  },
+  {
+    "num": "9",
     "title": "My Twitter Inspiration Handbook",
     "sUrl": "",
     "sText": "6 mins",

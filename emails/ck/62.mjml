@@ -91,11 +91,12 @@
           <mj-text mj-class="h1" align="center">#062 — A new newsletter</mj-text>
           <mj-text mj-class="p">Hey — Harry again.</mj-text>
           <mj-text mj-class="p">First up — Thank you for so many lovely messages about <a class="underA semibold" href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a>.</span></mj-text>
-          <mj-text mj-class="p">Second up — I'm changing the newsletter format. Every Monday — <span class="bold">3</span> short examples, <span class="bold">2</span> copywriting tips, <span class="bold">1</span> favourite tweet. Let's eat</mj-text>
+          <mj-text mj-class="p">Second up — I'm changing the newsletter format. Every Monday — <span class="bold">3</span> short examples, <span class="bold">2</span> copywriting tips, <span class="bold">1</span> favourite tweet.</mj-text>
           <mj-button mj-class="bg1">Three short examples</mj-button>
-          <mj-text mj-class="p"><span class="bold">1/ The power of removing friction</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">Bob Bob Ricard</span> sells more champagne than any UK restaurant. All thanks to this little button.</mj-text>
-          <mj-text mj-class="p"><span class="italic">h/t <a class="underA" href="https://twitter.com/rshotton" target="_blank">Richard Shotton</a> — A great follow on Twitter.</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">1/ Five backlinks in twenty-five minutes</span></mj-text>
+          <mj-text mj-class="p">So. I built Copywriting Examples. So I wanted some quick backlinks.</mj-text>
+          <mj-text mj-class="p">I messaged five podcast built Copywriting Examples. And. </mj-text>
+          <mj-text mj-class="p">The shortest </mj-text>
           <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl2a.jpg" alt="Bob Bob Ricard"></mj-image>
           <mj-text mj-class="p"><span class="bold">2/ Kapwing's a meme maker. I love their YouTube strategy</span></mj-text>
           <mj-text mj-class="p list list__top">• Finds memes about to go viral</mj-text>

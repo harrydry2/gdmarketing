@@ -103,6 +103,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/seo/simple-links</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- sales -->
   <url>
     <loc>https://marketingexamples.com/sales/one-line-email</loc>
@@ -141,6 +146,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/sales/personalise</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/sales/convert-kit</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -419,6 +429,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/creative/peak-design</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/magic-veggies</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

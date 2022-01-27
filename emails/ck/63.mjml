@@ -1,0 +1,180 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 12px" />
+      <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="nmTop" padding="10px 20px 8px 20px" font-weight="600" line-height="29px" />
+      <mj-class name="nm" padding="8px 20px" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 20px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .ss1 {
+        border-bottom: 2px solid rgba(78, 204, 121, 0.7);
+      }
+
+      .ss2 {
+        border-bottom: 2px solid rgba(10, 202, 255, 0.8);
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#063 — Backlinks, cold email, and copywriting tips</mj-text>
+          <mj-text mj-class="p">Hey — Harry here.</mj-text>
+          <mj-text mj-class="p">For anyone who missed last week, I've changed the format. Every Monday night — <span class="bold">3</span> short examples, <span class="bold">2</span> copywriting tips, <span class="bold">1</span> favourite tweet.</mj-text>
+          <mj-button mj-class="bg1">Three short examples</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ Magic Veggies</span></mj-text>
+          <mj-text mj-class="p">June 2018. Belgian supermarket <span class="italic">Delhaize</span> changed the names of their fruit and veg to encourage more kids to eat them.</mj-text>
+          <mj-text mj-class="p">Carrots became <span class="italic">Orange rockets</span>. Courgettes became <span class="italic">Troll Bats</span>. Sales increased by <span class="bold">151%</span>.</mj-text>
+          <mj-text mj-class="p inwardSpeech">“Creativity is the last unfair advantage we're legally allowed to take over our competitors” — Bill Bernbach</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl3d.jpg" alt="Delhaize Supermarket"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Seven links in twenty-seven minutes</span></mj-text>
+          <mj-text mj-class="p">When I made <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> the goal was to rank <span class="italic">#1</span> on Google. I need backlinks. So last week...</mj-text>
+          <mj-text mj-class="p list list__top">• I texted anyone who’d “interviewed” me in the last two years</mj-text>
+          <mj-text mj-class="p list">• Asking if they could update the article </mj-text>
+          <mj-text mj-class="p list">• With a “PS” about Copywriting Examples</mj-text>
+          <mj-text mj-class="p list list__bottom">• And woke up to seven new links</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl2b.png" alt="Link building"></mj-image>
+          <mj-text mj-class="p">This isn’t <span class="">clever</span>, it’s <span class="italic">obvious</span>. That’s <span class="italic">why</span> I’m sharing it. </mj-text>
+          <mj-text mj-class="p"><span class="italic">“What obvious thing are we missing?”</span> is a better question than <span class="italic">“What exciting thing could we be doing?”</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">3/ How Convert Kit grew from $1.5k to $100k MRR</span></mj-text>
+          <mj-text mj-class="p">This week I read an <a class="underA subscribeColor" href="https://twitter.com/nathanbarry/status/1482374302414426116" target="_blank">excellent thread</a> from Nathan Barry explaining how he used <span class="bold">direct sales</span> to grow his email marketing platform:</mj-text>
+          <mj-text mj-class="p">Here's four lessons:</mj-text>
+          <mj-text mj-class="p nmTop">a) Start with a niche</mj-text>
+          <mj-text mj-class="p nm">When Convert Kit launched it was <span class="italic">just</span> for bloggers.</mj-text>
+          <mj-text mj-class="p nm">There’s a big difference between “want to try this random new tool?” and “want to try this new tool <span class="italic">made specifically for people like you?</span>”</mj-text>
+          <mj-text mj-class="p nmTop">b) Don't sell. Ask about frustrations.</mj-text>
+          <mj-text mj-class="p nm">Here’s Nathan's first email.</mj-text>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl1a.png" alt="Nathan Barry Link Building"></mj-image>
+          <mj-text mj-class="p nm">He'd then offer a call to help people through their frustrations and show off Convert Kit.</mj-text>
+          <mj-text mj-class="p nmTop">c) Remove the biggest objection</mj-text>
+          <mj-text mj-class="p nm">Most calls would end with “Sounds great but switching is a hassle...” So Nathan offered to <span class="bold">migrate customers for free</span>.</mj-text>
+          <mj-text mj-class="p nm">Forms, sequences, templates. One by one.</mj-text>
+          <mj-text mj-class="p nmTop">d) Always ask for referrals</mj-text>
+          <mj-text mj-class="p nm">Once one blogger was set up Nathan would ask for intros to others.</mj-text>
+          <mj-text mj-class="p nm">It’s 10x easier to persuade a <span class="italic">friend's friend</span> than it is to persuade a <span class="italic">stranger</span>. Soon referrals drove as many leads as cold outreach.</mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Today, Convert Kit makes $29M/yr. To quote Nathan, </mj-text>
+          <mj-text mj-class="p inwardSpeech">“My rate was $5/hr. But you do things that don’t scale. Because that enables channels that do scale.”</mj-text>
+          <mj-button mj-class="bg2">Two Copywriting Tips</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ <span class="ss1">Simplify</span>, then <span class="ss2">exaggerate</span>.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl5c.png" alt="Simplify Copy"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Narrow your scope until you're <span class="ss1">number one</span></span>.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl4a.png" alt="Narrow your scope"></mj-image>
+          <mj-button mj-class="bg3">One Favourite Tweet</mj-button>
+          <mj-text mj-class="p">The one and only <a class="underA subscribeColor" href="https://twitter.com/george__mack" target="_blank">George Mack</a> with a lesson in contrast.</mj-text>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl6.png" alt="Contrast in Marketing"></mj-image>
+          <mj-button mj-class="bg4">One small favour</mj-button>
+          <mj-text mj-class="p">I've had some problems with emails going to spam recently. So if you like my emails please reply and “add to address book”. If you don't please unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>. Cheers.</mj-text>
+          <mj-button mj-class="bg5">Giveaway winners</mj-button>
+          <mj-text mj-class="p">Twenty-one winners were emailed today.</mj-text>
+          <mj-image mj-class="cImg img450" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nlgive.jpg" alt="Giveaway Winners"></mj-image>
+          <mj-text mj-class="p">Congrats to <span class="italic">Madelen Rosengren, Ben Catley-Richardson, Michael Norris, Natalie Moxey, Stefano Bernardi, Telma Almeida, Jake Eriksen, David Manicum, Anna David, David Levine, Luqman Hakim, Ale del Valle, Nia Carnelio, Casey Lightbody, Joe Cole, and six others who haven't got back to me yet.</span></mj-text>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">The last thing to do is thank <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> for sponsoring. And remind you they're still hiring a load of <a class="underA subscribeColor" href="https://ahrefs.com/jobs?department=marketing" target="_blank">new marketing positions</a>.</mj-text>
+          <mj-text mj-class="p">Have a great week — Harry</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Enjoy the newsletter? Please do forward this email to a pal. It really does make a big difference. Cheers.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome. Marketing Examples <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Copywriting Examples <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration" target="_blank">here</a>. Join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

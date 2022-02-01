@@ -122,7 +122,7 @@
   {
     "num": "9",
     "title": "How I promote my content",
-    "sUrl": "https://www.marketingexamples.com",
+    "sUrl": "",
     "sText": "3 mins",
     "tFront": "Content",
     "tBack": "content",
@@ -994,5 +994,41 @@
     "img": "shotoniphone",
     "imgType": "jpg",
     "desc": ""
+  },
+  {
+    "num": "9",
+    "title": "Signal's Instagram Ads",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Ads",
+    "tBack": "ads",
+    "slug": "signal",
+    "img": "signal2",
+    "imgType": "jpg",
+    "desc": ""
+  },
+  {
+    "num": "9",
+    "title": "Cronitor's Little Side-Project",
+    "sUrl": "",
+    "sText": "2 mins",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "cronitor",
+    "img": "cron",
+    "imgType": "jpg",
+    "desc": "“Cron jobs” are what developers write to schedule tasks. They're hard to remember. So Cronitor made a little side project to help. Developers search “Cron job every [time interval]”. And Crontab (the little side project) gives you the code to copy and paste. Lovely."
+  },
+  {
+    "num": "9",
+    "title": "People Warm to People, Not Brands",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Brand",
+    "tBack": "brand",
+    "slug": "personal",
+    "img": "foster",
+    "imgType": "jpg",
+    "desc": "It took Watford F.C. ten years to get 170k YouTube subscribers. It took Watford F.C. goalkeeper Ben Foster one year to get 1M YouTube subscribers."
   }
 ]

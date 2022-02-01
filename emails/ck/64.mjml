@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 2px" />
+      <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="nmTop" padding="10px 20px 8px 20px" font-weight="600" line-height="29px" />
+      <mj-class name="nm" padding="8px 20px" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 20px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .ss1 {
+        border-bottom: 2px solid rgba(78, 204, 121, 1);
+      }
+
+      .ss2 {
+        border-bottom: 2px solid rgba(10, 202, 255, 1);
+      }
+
+      .ss3 {
+        border-bottom: 2px solid rgba(230, 28, 167, 1);
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#064 — Ben Foster, Signal's ads, and Copywriting Tips</mj-text>
+          <mj-text mj-class="p">Hey — It's Harry.</mj-text>
+          <mj-text mj-class="p">Hope you had a nice weekend. I binge-watched Afterlife and chopped my brother on the tennis court.</mj-text>
+          <mj-text mj-class="p">Enjoy the newsletter. <span class="bold">3</span> examples, <span class="bold">2</span> tips, <span class="bold">1</span> tweet.</mj-text>
+          <mj-button mj-class="bg1">Three short examples</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ People warm to people, not brands</span></mj-text>
+          <mj-text mj-class="p">It took Watford F.C. ten years to get <span class="bold">170k</span> YouTube subscribers.</mj-text>
+          <mj-text mj-class="p">It took Watford F.C. goalkeeper Ben Foster one year to get <span class="bold">1M</span> YouTube subscribers.</mj-text>
+          <mj-text mj-class="p"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/JonBaxter17" target="_blank">Jon Baxter</a></span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl1.png" alt="Ben Foster's YouTube"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Signal's Instagram Ads</span></mj-text>
+          <mj-text mj-class="p">Signal is a private messenger app.</mj-text>
+          <mj-text mj-class="p">May 2021. They made Instagram ads to show all the personal data that Facebook sells about you. Facebook banned them. Signal replied with a viral blog post.</mj-text>
+          <mj-image mj-class="cImg img350" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl3a.png" alt="Signal's Ads"></mj-image>
+          <mj-text mj-class="p">This is a great example of how to <span class="italic">pick a fight</span>.</mj-text>
+          <mj-text mj-class="p">An enemy gives you a story, a wedge, a reason to exist. It gets people off the fence. It gets you noticed. <span class="italic">Conflict creates interest</span>.</mj-text>
+          <mj-text mj-class="p"><span class="bold">3/ Cronitor's Little Side-Project</span></mj-text>
+          <mj-text mj-class="p">“Cron jobs” are what developers write to schedule tasks. They're hard to remember. So <span class="italic">Cronitor</span> made a little side project to help.</mj-text>
+          <mj-text mj-class="p">Developers search “Cron job every [time interval]”. And <span class="italic">Crontab</span> (the little side project) gives you the code to copy and paste. Lovely.</mj-text>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl2f.png" alt="Delhaize Supermarket"></mj-image>
+          <mj-text mj-class="p">Now, there's 100’s of possible time intervals (meaning 100's of possible keywords). <span class="italic">Crontab</span> has a new page for every single one.</mj-text>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl2d.png" alt="Delhaize Supermarket"></mj-image>
+          <mj-text mj-class="p">It's a ridiculously simple site. Pulling in <span class="italic">120k organic traffic/mo</span>. Lightly promoting their paid tool. Quite brilliant.</mj-text>
+          <mj-text mj-class="p"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/PierreDeWulf" target="_blank">Pierre de Wulf</a></span></mj-text>
+          <mj-button mj-class="bg2">Two Copywriting Tips</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ My favourite social proof pattern</span></mj-text>
+          <mj-text mj-class="p list list__top">• <span class="ss2">Timeframe</span> — <span class="italic">“Just last week”</span></mj-text>
+          <mj-text mj-class="p list">• <span class="ss3">Customers</span> — <span class="italic">“8,979 creators”</span></mj-text>
+          <mj-text mj-class="p list list__bottom">• <span class="ss1">Outcome</span> — <span class="italic">“got paid $3,009,862”</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl4e.png" alt="Simple social proof"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Sincerity sells</mj-text>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl5.png" alt="Sincerity sells"></mj-image>
+          <mj-button mj-class="bg3">One Favourite Tweet</mj-button>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl6.png" alt="Dave Gerhardt Tweet"></mj-image>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p">Thank you to <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> for sponsoring. The king of the jungle.</mj-text>
+          <mj-text mj-class="p">See you next Monday — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=82xcICYq11Y" target="_blank">Song of the week</span></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.P.S — 400 new people are joining this newsletter every day right now. That's honestly so awesome. Thank you for the support.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p"> Enjoy the newsletter? Please do share. It only takes 10 seconds. Writing it takes me 10 hours.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome. Marketing Examples <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Copywriting Examples <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration" target="_blank">here</a>. Join the Monday newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

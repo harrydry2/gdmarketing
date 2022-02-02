@@ -182,9 +182,10 @@ if ($('.undera__center-text')) {
 }
 
 // only if Post page
-if ($('.postNoScroll')) {
-  mailSubmitFromPost();
-}
+// now disabled
+// if ($('.postNoScroll')) {
+//   mailSubmitFromPost();
+// }
 
 // popup from homepage (also if close post page)
 if (

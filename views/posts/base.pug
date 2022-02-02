@@ -9,7 +9,7 @@ html(lang='en')
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
-    link(rel='stylesheet', href='/dist/bundle.v19.css')
+    link(rel='stylesheet', href='/dist/bundle.v20.css')
     link(rel='icon', type='image/png', sizes='32x32', href='https://s3.amazonaws.com/harrydry/gdmarketing/meFav.png')
     meta(name='twitter:site', content='@harrydry')
     meta(property='og:site_name', content='Marketing Examples')
@@ -60,36 +60,36 @@ html(lang='en')
                 a.undera__center-twitter(href=`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}` target="_blank")!=icon("facebook")
                 a.undera__center-twitter(href=`https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}&via=GoodMarketingHQ%20&text=${encodeURI(card.title)}` target="_blank")!=icon("twitter")
                 a.undera__center-twitter(href=`https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmarketingexamples.com/${card.tBack}/${card.slug}` target="_blank")!=icon("linkedin")
-            .postEmail
-              .postEmail__header Join!{' '}
-                span.bold 85,273
-                |!{' '}marketers getting<br> the weekly case study
-              .mail__input
-                .mail__input-icon!=icon("mail")
-                input(placeholder="example@example.com")
-              .mail__button Get new case studies
-              .mail__bc-red
-            .monial
-              .monial__inner
-                .monial__inner-quote “
-                .monial__inner-text Hands down!{' '}
-                  span.monial__inner-text-bold the best
-                  |!{' '}marketing newsletter I'm subscribed to.
-                .monial__inner-bottom
-                  a(href="https://twitter.com/george__mack" target="_blank")
-                    img.monial__inner-bottom-pic(src="https://harrydry.s3.amazonaws.com/gdmarketing/gm.jpg", alt="George Mack Marketing")
-                  .monial__inner-bottom-text
-                    a(href="https://twitter.com/george__mack" target="_blank").monial__inner-bottom-text-top George Mack
-                    a(href="https://www.sportstack.com?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Growth marketing consultant
-              .monial__inner
-                .monial__inner-quote “
-                .monial__inner-text Marketing Examples is so f***ing great. I love it!
-                .monial__inner-bottom
-                  a(href="https://twitter.com/bentossell" target="_blank")
-                    img.monial__inner-bottom-pic(src="https://harrydry.s3.amazonaws.com/gdmarketing/ben.jpg", alt="Ben Tossell Marketing")
-                  .monial__inner-bottom-text
-                    a(href="https://twitter.com/bentossell" target="_blank").monial__inner-bottom-text-top Ben Tossell
-                    a(href="https://www.makerpad.co?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Founder, Makerpad
+            //- .postEmail
+            //-   .postEmail__header Join!{' '}
+            //-     span.bold 85,273
+            //-     |!{' '}marketers getting<br> the weekly case study
+            //-   .mail__input
+            //-     .mail__input-icon!=icon("mail")
+            //-     input(placeholder="example@example.com")
+            //-   .mail__button Get new case studies
+            //-   .mail__bc-red
+            //- .monial
+            //-   .monial__inner
+            //-     .monial__inner-quote “
+            //-     .monial__inner-text Hands down!{' '}
+            //-       span.monial__inner-text-bold the best
+            //-       |!{' '}marketing newsletter I'm subscribed to.
+            //-     .monial__inner-bottom
+            //-       a(href="https://twitter.com/george__mack" target="_blank")
+            //-         img.monial__inner-bottom-pic(src="https://harrydry.s3.amazonaws.com/gdmarketing/gm.jpg", alt="George Mack Marketing")
+            //-       .monial__inner-bottom-text
+            //-         a(href="https://twitter.com/george__mack" target="_blank").monial__inner-bottom-text-top George Mack
+            //-         a(href="https://www.sportstack.com?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Growth marketing consultant
+            //-   .monial__inner
+            //-     .monial__inner-quote “
+            //-     .monial__inner-text Marketing Examples is so f***ing great. I love it!
+            //-     .monial__inner-bottom
+            //-       a(href="https://twitter.com/bentossell" target="_blank")
+            //-         img.monial__inner-bottom-pic(src="https://harrydry.s3.amazonaws.com/gdmarketing/ben.jpg", alt="Ben Tossell Marketing")
+            //-       .monial__inner-bottom-text
+            //-         a(href="https://twitter.com/bentossell" target="_blank").monial__inner-bottom-text-top Ben Tossell
+            //-         a(href="https://www.makerpad.co?ref=marketingexamples" target="_blank").monial__inner-bottom-text-bottom Founder, Makerpad
       +home(cards, activeFilters)
       +mail(subscribePage)
       .home__outer-side.fed__outer-side-right
@@ -97,4 +97,4 @@ html(lang='en')
         #stars2.stars2-right
       //- +harry()
   block scripts
-    script(src="/dist/bundle7.js")
+    script(src="/dist/bundle8.js")

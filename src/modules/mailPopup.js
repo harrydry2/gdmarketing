@@ -158,19 +158,19 @@ export function mailSubmitHome() {
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 1);
 }
 
-export function mailSubmitFromPost() {
-  const mailButtonSpec = $('.postEmail .mail__button');
-  const mailInputSpec = $('.postEmail .mail__input > input');
-  const mailRedSpec = $('.postEmail .mail__bc-red');
-  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 2);
-}
+// export function mailSubmitFromPost() {
+//   const mailButtonSpec = $('.postEmail .mail__button');
+//   const mailInputSpec = $('.postEmail .mail__input > input');
+//   const mailRedSpec = $('.postEmail .mail__bc-red');
+//   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 2);
+// }
 
-export function mailSubmitAddOn() {
-  const mailButtonSpec = $('.addOnEmail .mail__button');
-  const mailInputSpec = $('.addOnEmail .mail__input > input');
-  const mailRedSpec = $('.addOnEmail .mail__bc-red');
-  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 3);
-}
+// export function mailSubmitAddOn() {
+//   const mailButtonSpec = $('.addOnEmail .mail__button');
+//   const mailInputSpec = $('.addOnEmail .mail__input > input');
+//   const mailRedSpec = $('.addOnEmail .mail__bc-red');
+//   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 3);
+// }
 
 export function mailSubmitFromHandbook() {
   const mailButtonSpec = $('.flowBreaker__inner .mail__button');

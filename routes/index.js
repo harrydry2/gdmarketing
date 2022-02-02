@@ -90,6 +90,10 @@ router.get("/sales/dave-gerhardt", (req, res) => {
   res.redirect(301, "https://marketingexamples.com/sales/one-line-email");
 });
 
+router.get("/direct/how-nike-sold-first-shoes", (req, res) => {
+  res.redirect(301, "https://marketingexamples.com/sales/nikes-first-shoes");
+});
+
 router.get("/sales/how-nike-sold-first-shoes", (req, res) => {
   res.redirect(301, "https://marketingexamples.com/sales/nikes-first-shoes");
 });

@@ -49,6 +49,78 @@
   },
   {
     "num": "9",
+    "title": "Share a Coke",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "share-a-coke",
+    "img": "coke1",
+    "imgType": "jpg",
+    "desc": "If I told you Coca-Cola's sales in Australia increased ~7% in 2011 you'd probably guess they changed the taste or the price. Nope. They simply replaced their logo with 150 of the most popular teenage names and encouraged people to “share a coke”."
+  },
+  {
+    "num": "9",
+    "title": "Arc'teryx's TikTok Fame",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Social",
+    "tBack": "social",
+    "slug": "arcteryx",
+    "img": "arcteryx1",
+    "imgType": "jpg",
+    "desc": "A TikTok trend of people taking showers in Arc'teryx's extra waterproof jackets (started by Arc'teryx last year). ~111M cumulative views."
+  },
+  {
+    "num": "9",
+    "title": "One Tweet. Eighty media placements.",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Brand",
+    "tBack": "brand",
+    "slug": "asos",
+    "img": "asos1",
+    "imgType": "jpg",
+    "desc": "Guy on Tinder insults a woman's ASOS dress. ASOS update their site making her the new model. Story goes completely viral. 80+ media placements."
+  },
+  {
+    "num": "9",
+    "title": "A Table of Contents can work wonders for SEO",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "table-of-contents",
+    "img": "toc1",
+    "imgType": "jpg",
+    "desc": "Anchor links are included in the SERP. Keywords rank long-tail in Google. Better UX means longer session duration (a ranking factor)."
+  },
+  {
+    "num": "9",
+    "title": "A simple idea that’s makes Gillette $60M/yr",
+    "sUrl": "",
+    "sText": "2 mins",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "gillette",
+    "img": "gillette1",
+    "imgType": "jpg",
+    "desc": "In the early 90's Gillette started posting free shaving kits to men to celebrate their 18th birthday. The idea was simple — Hook men at the age they decide their shaving brand for life."
+  },
+  {
+    "num": "9",
+    "title": "Taylordle",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Content",
+    "tBack": "content",
+    "slug": "taylordle",
+    "img": "taylordle1",
+    "imgType": "jpg",
+    "desc": "Newsjacking is the art of piggybacking on trending topics to draw attention to your own brand. Yesterday I saw a good example. A Taylor Swift themed Wordle. From a Taylor Swift themed podcast."
+  },
+  {
+    "num": "9",
     "title": "The Vegetable Name Change",
     "sUrl": "",
     "sText": "1 min",
@@ -1029,6 +1101,6 @@
     "slug": "shot-on-iphone",
     "img": "shotoniphone",
     "imgType": "jpg",
-    "desc": ""
+    "desc": "I must have seen 100 Samsung ads last year. I don’t remember any of them. Too much boring information. Shot on iPhone is three words, no information. It doesn't dwell on features. Instead, it brings to life the outcome."
   }
 ]

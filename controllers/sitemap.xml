@@ -57,6 +57,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/content/taylordle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- seo -->
   <url>
     <loc>https://marketingexamples.com/seo/unsplash</loc>
@@ -110,6 +115,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/seo/cronitor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/seo/table-of-contents</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -202,6 +212,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/social/twitter-inspiration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/social/arcteryx</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -380,6 +395,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/brand/asos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- referral -->
   <url>
     <loc>https://marketingexamples.com/referral/word-of-mouth</loc>
@@ -411,6 +431,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/referral/share-a-coke</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/referral/gillette</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 <!-- creative -->
   <url>
     <loc>https://marketingexamples.com/creative/stevenage-challenge</loc>

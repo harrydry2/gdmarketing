@@ -65,7 +65,7 @@
       }
 
       .ss3 {
-        border-bottom: 2px solid rgba(230, 28, 167, 1);
+        border-bottom: 2px solid rgba(255, 66, 66, 1);
       }
 
       .brand {
@@ -104,23 +104,25 @@
           <mj-text mj-class="p">Hope you had a nice weekend. I binge-watched Afterlife and chopped my brother on the tennis court.</mj-text>
           <mj-text mj-class="p">Enjoy the newsletter. <span class="bold">3</span> examples, <span class="bold">2</span> tips, <span class="bold">1</span> tweet.</mj-text>
           <mj-button mj-class="bg1">Three short examples</mj-button>
-          <mj-text mj-class="p"><span class="bold">1/ People warm to people, not brands</span></mj-text>
-          <mj-text mj-class="p">It took Watford F.C. ten years to get <span class="bold">170k</span> YouTube subscribers.</mj-text>
-          <mj-text mj-class="p">It took Watford F.C. goalkeeper Ben Foster one year to get <span class="bold">1M</span> YouTube subscribers.</mj-text>
-          <mj-text mj-class="p"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/JonBaxter17" target="_blank">Jon Baxter</a></span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl1.png" alt="Ben Foster's YouTube"></mj-image>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl5/nl1.png" alt="Ben Foster's YouTube"></mj-image>
+          <mj-text mj-class="p"><span class="bold">1/ Three reasons to add a <span class="italic">Contents Table</span> to your blog</span></mj-text>
+          <mj-text mj-class="p list list__top">a) Google includes <span class="italic">Contents Table</span> links in the SERP</mj-text>
+          <mj-text mj-class="p list">b) Google ranks long-tail <span class="italic">Contents Table</span> keywords</span></mj-text>
+          <mj-text mj-class="p list list__bottom">c) Feeling of progress means longer session duration (which Google uses to rank pages)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Thanks to <a class="underA subscribeColor" href="https://twitter.com/thepatwalls" target="_blank">Pat Walls</a> for sharing. He ran <a class="underA subscribeColor" href="https://twitter.com/thepatwalls" target="_blank">A/B tests on Starter Story</a> and found a <span class="bold">2.6x</span> increase in session duration with a <span class="italic">Table of Contents</span>.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl5/nl1c.png" alt="Ben Foster's YouTube"></mj-image>
+          <mj-text mj-class="p"><span class="bold">1/ Three reasons to add a <span class="italic">Table of Contents</span> to your blog</span></mj-text>
+          <mj-text mj-class="p list list__top">1/ <span class="italic">Table of Contents'</span> links are <span class="ss3">included in the SERP</span></mj-text>
+          <mj-text mj-class="p list">2/ <span class="italic">Table of Contents'</span> keywords <span class="ss1">rank long-tail in Google</span></mj-text>
+          <mj-text mj-class="p list list__bottom">3/ Better UX mean <span class="ss2">longer session duration</span> (which Google uses to rank pages)</mj-text>
+          <mj-text mj-class="p"><span class="italic">Thanks to <a class="underA subscribeColor" href="https://twitter.com/thepatwalls" target="_blank">Pat Walls</a> for sharing. He ran A/B tests on Starter Story and found a <a class="underA subscribeColor" href="https://twitter.com/thepatwalls" target="_blank"><span class="bold">2.6x</span> increase in session duration</a> after adding a <span class="italic">Table of Contents</span>. </span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl5/nl1c.png" alt="Signal's Ads"></mj-image>
           <mj-text mj-class="p"><span class="bold">2/ Signal's Instagram Ads</span></mj-text>
           <mj-text mj-class="p">Signal is a private messenger app.</mj-text>
           <mj-text mj-class="p">May 2021. They made Instagram ads to show all the personal data that Facebook sells about you. Facebook banned them. Signal replied with a viral blog post.</mj-text>
-          <mj-image mj-class="cImg img350" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl3a.png" alt="Signal's Ads"></mj-image>
           <mj-text mj-class="p">This is a great example of how to <span class="italic">pick a fight</span>.</mj-text>
           <mj-text mj-class="p">An enemy gives you a story, a wedge, a reason to exist. It gets people off the fence. It gets you noticed. <span class="italic">Conflict creates interest</span>.</mj-text>
           <mj-text mj-class="p"><span class="bold">3/ Cronitor's Little Side-Project</span></mj-text>
-          <mj-text mj-class="p">“Cron jobs” are what developers write to schedule tasks. They're hard to remember. So <span class="italic">Cronitor</span> made a little side project to help.</mj-text>
-          <mj-text mj-class="p">Developers search “Cron job every [time interval]”. And <span class="italic">Crontab</span> (the little side project) gives you the code to copy and paste. Lovely.</mj-text>
-          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl2f.png" alt="Delhaize Supermarket"></mj-image>
-          <mj-text mj-class="p">Now, there's 100’s of possible time intervals (meaning 100's of possible keywords). <span class="italic">Crontab</span> has a new page for every single one.</mj-text>
-          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl2d.png" alt="Delhaize Supermarket"></mj-image>
           <mj-text mj-class="p">It's a ridiculously simple site. Pulling in <span class="italic">120k organic traffic/mo</span>. Lightly promoting their paid tool. Quite brilliant.</mj-text>
           <mj-text mj-class="p"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/PierreDeWulf" target="_blank">Pierre de Wulf</a></span></mj-text>
           <mj-button mj-class="bg2">Two Copywriting Tips</mj-button>
@@ -129,15 +131,26 @@
           <mj-text mj-class="p list">• <span class="ss3">Customers</span> — <span class="italic">“8,979 creators”</span></mj-text>
           <mj-text mj-class="p list list__bottom">• <span class="ss1">Outcome</span> — <span class="italic">“got paid $3,009,862”</span></mj-text>
           <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl4e.png" alt="Simple social proof"></mj-image>
-          <mj-text mj-class="p"><span class="bold">2/ Sincerity sells</mj-text>
-          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl5.png" alt="Sincerity sells"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Three ways of reframing price</mj-text>
+          <mj-text mj-class="p nmTop">a) Shorter Timeframe</mj-text>
+          <mj-text mj-class="p nm"><span <span class="italic">From $1,261 / year ⟶ From $3.45 / day</span></mj-text>
+          <mj-text mj-class="p nmTop">b) Smaller units</mj-text>
+          <mj-text mj-class="p nm"><span <span class="italic">$3,600 / yr for a team of 10 ⟶ $1 per day / employee</span></mj-text>
+          <mj-text mj-class="p nmTop">c) Comparison with an everyday iteem</mj-text>
+          <mj-text mj-class="p nm"><span <span class="italic">From $1,261 / year ⟶ $1 per day / employee</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">2/ Three ways to make a price seem cheaper</mj-text>
+          <mj-text mj-class="p list list__top"><span class="">1/ Shorter timeframe</span>: <span class="italic">$1,261 / year ⟶ $3.45 / day</span></mj-text>
+          <mj-text mj-class="p list"><span class="">2/ Smaller units</span>: <span class="italic">$720 for the team ⟶ $5 per employee</span></mj-text>
+          <mj-text mj-class="p list list__bottom"><span class="">3/ Comparison</span>: <span class="italic">$12 / week ⟶ 3 lattes ☕️ a week</span></mj-text>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl5/nl4b.png" alt="Dave Gerhardt Tweet"></mj-image>
           <mj-button mj-class="bg3">One Favourite Tweet</mj-button>
-          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl4/nl6.png" alt="Dave Gerhardt Tweet"></mj-image>
+          <mj-text mj-class="p">How to write a memorable line? Twist a familiar line.</mj-text>
+          <mj-image mj-class="cImg img550" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl5/nl6a.png" alt="Dave Gerhardt Tweet"></mj-image>
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p">Thank you to <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> for sponsoring. The king of the jungle.</mj-text>
           <mj-text mj-class="p">See you next Monday — Harry</mj-text>
-          <mj-text mj-class="p"><span class="italic">P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=82xcICYq11Y" target="_blank">Song of the week</span></span></mj-text>
-          <mj-text mj-class="p"><span class="italic">P.P.S — 400 new people are joining this newsletter every day right now. That's honestly so awesome. Thank you for the support.</mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — <a class="underA subscribeColor" href="https://youtu.be/1bRt13ygKwE?t=13" target="_blank">DJ Dry's song of the week</span></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.P.S — Want to share an example with nearly 90,000 marketers? Reply to this email. Keep it short and sweet. </mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
@@ -160,7 +173,6 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
-
           <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
         </mj-column>
       </mj-section>

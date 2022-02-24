@@ -13,15 +13,63 @@
   },
   {
     "num": "9",
-    "title": "Signal's Instagram Ads",
+    "title": "17 tips for great copywriting",
+    "sUrl": "",
+    "sText": "5 mins",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "tips",
+    "img": "ct",
+    "imgType": "jpg",
+    "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
+  },
+  {
+    "num": "9",
+    "title": "My Twitter Inspiration Handbook",
+    "sUrl": "",
+    "sText": "6 mins",
+    "tFront": "Social",
+    "tBack": "social",
+    "slug": "twitter-inspiration",
+    "img": "tia1",
+    "imgType": "png",
+    "desc": "When I started on Twitter I had no idea what I was doing. So I made one big Google Doc where I started saving all the best “brand tweets” and grouped them into categories. Today, it's ready to share. I hope you find it useful."
+  },
+  {
+    "num": "9",
+    "title": "Neiman's magazine ads",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Ads",
+    "tBack": "ads",
+    "slug": "neiman",
+    "img": "neiman",
+    "imgType": "jpg",
+    "desc": "I've been chatting to the owner of a decorative concrete company. Each month they pay $600/mo for an ad in a local magazine that gets sent to 7000 wealthy homes in Georgia. Last 3 months they've made $75,000 from these ads."
+  },
+  {
+    "num": "9",
+    "title": "Apple’s “Shot on iPhone” campaign",
     "sUrl": "",
     "sText": "1 min",
     "tFront": "Ads",
     "tBack": "ads",
-    "slug": "signal",
-    "img": "signal2",
+    "slug": "shot-on-iphone",
+    "img": "shotoniphone",
     "imgType": "jpg",
-    "desc": " Signal is a private messenger app. May 2021. They made Instagram ads to show all the personal data that Facebook sells about you. Facebook banned them. Signal replied with a viral blog post."
+    "desc": "I must have seen 100 Samsung ads last year. I don’t remember any of them. Too much boring information. Shot on iPhone is three words, no information. It doesn't dwell on features. Instead, it brings to life the outcome."
+  },
+  {
+    "num": "9",
+    "title": "Barilla's pasta playlist",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Creative",
+    "tBack": "creative",
+    "slug": "barilla",
+    "img": "barilla",
+    "imgType": "jpg",
+    "desc": "January 2021. Italian pasta producer Barilla created Spotify playlists that are the exact length of time it takes to cook different types of pasta."
   },
   {
     "num": "9",
@@ -46,18 +94,6 @@
     "img": "foster",
     "imgType": "jpg",
     "desc": "It took Watford F.C. ten years to get 170k YouTube subscribers. It took Watford F.C. goalkeeper Ben Foster one year to get 1M YouTube subscribers."
-  },
-  {
-    "num": "9",
-    "title": "Share a Coke",
-    "sUrl": "",
-    "sText": "1 min",
-    "tFront": "Referral",
-    "tBack": "referral",
-    "slug": "share-a-coke",
-    "img": "coke1",
-    "imgType": "jpg",
-    "desc": "If I told you Coca-Cola's sales in Australia increased ~7% in 2011 you'd probably guess they changed the taste or the price. Nope. They simply replaced their logo with 150 of the most popular teenage names and encouraged people to “share a coke”."
   },
   {
     "num": "9",
@@ -106,6 +142,18 @@
     "img": "gillette1",
     "imgType": "jpg",
     "desc": "In the early 90's Gillette started posting free shaving kits to men to celebrate their 18th birthday. The idea was simple — Hook men at the age they decide their shaving brand for life."
+  },
+  {
+    "num": "9",
+    "title": "Signal's Instagram Ads",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Ads",
+    "tBack": "ads",
+    "slug": "signal",
+    "img": "signal2",
+    "imgType": "jpg",
+    "desc": " Signal is a private messenger app. May 2021. They made Instagram ads to show all the personal data that Facebook sells about you. Facebook banned them. Signal replied with a viral blog post."
   },
   {
     "num": "9",
@@ -169,18 +217,6 @@
   },
   {
     "num": "9",
-    "title": "My Twitter Inspiration Handbook",
-    "sUrl": "",
-    "sText": "6 mins",
-    "tFront": "Social",
-    "tBack": "social",
-    "slug": "twitter-inspiration",
-    "img": "tia1",
-    "imgType": "png",
-    "desc": "When I started on Twitter I had no idea what I was doing. So I made one big Google Doc where I started saving all the best “brand tweets” and grouped them into categories. Today, it's ready to share. I hope you find it useful."
-  },
-  {
-    "num": "9",
     "title": "Kapwing's YouTube strategy",
     "sUrl": "",
     "sText": "1 min",
@@ -238,18 +274,6 @@
     "img": "paul",
     "imgType": "jpg",
     "desc": "June 2019 I wrote my first marketing article. A year later my email list hit 19,000. No ads. No connections. No existing audience. The site grew because I learned how to promote my content on the internet. Here's my process."
-  },
-  {
-    "num": "9",
-    "title": "17 tips for great copywriting",
-    "sUrl": "",
-    "sText": "5 mins",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "tips",
-    "img": "ct",
-    "imgType": "jpg",
-    "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
   },
   {
     "num": "9",
@@ -817,6 +841,18 @@
   },
   {
     "num": "9",
+    "title": "Share a Coke",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Referral",
+    "tBack": "referral",
+    "slug": "share-a-coke",
+    "img": "coke1",
+    "imgType": "jpg",
+    "desc": "If I told you Coca-Cola's sales in Australia increased ~7% in 2011 you'd probably guess they changed the taste or the price. Nope. They simply replaced their logo with 150 of the most popular teenage names and encouraged people to “share a coke”."
+  },
+  {
+    "num": "9",
     "title": "How to get Tom Hanks on your podcast",
     "sUrl": "https://beamery.com/blog/personalized-emails",
     "sText": "2 mins",
@@ -1090,17 +1126,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Apple’s “Shot on iPhone” campaign",
-    "sUrl": "",
-    "sText": "1 min",
-    "tFront": "Ads",
-    "tBack": "ads",
-    "slug": "shot-on-iphone",
-    "img": "shotoniphone",
-    "imgType": "jpg",
-    "desc": "I must have seen 100 Samsung ads last year. I don’t remember any of them. Too much boring information. Shot on iPhone is three words, no information. It doesn't dwell on features. Instead, it brings to life the outcome."
   }
 ]

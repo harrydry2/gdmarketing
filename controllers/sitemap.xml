@@ -246,6 +246,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/ads/neiman</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- copywriting -->
   <url>
     <loc>https://marketingexamples.com/copywriting/tips</loc>
@@ -480,6 +485,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/creative/magic-veggies</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/barilla</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

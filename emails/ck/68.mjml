@@ -1,0 +1,180 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 2px" />
+      <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="topSection" background-color="#fff" padding="32px 0px 30px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="20px 0px 16px 0px" />
+      <mj-class name="sponSection" padding="16px 20px 0px 20px" />
+      <mj-class name="sponSectionInner" padding="14px 10px 15px 6px " />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="nmTop" padding="10px 20px 8px 20px" font-weight="600" line-height="29px" />
+      <mj-class name="nm" padding="8px 20px" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pS" font-size="15px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="ht" mj-text align="center" padding="0px 0px 10px 0px" />
+      <mj-class name="inwardSpeech" padding="12px 20px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 20px 12px 20px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="27px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="htImg" padding="27px 0px 10px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .ss1 {
+        border-bottom: 2px solid rgba(78, 204, 121, 1);
+      }
+
+      .ss2 {
+        border-bottom: 2px solid rgba(10, 202, 255, 1);
+      }
+
+      .ss3 {
+        border-bottom: 2px solid rgba(255, 66, 66, 1);
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">#068 — Canva's Ad, The Kyiv Independent, Copywriting Tips</mj-text>
+          <mj-text mj-class="p">Hey — It's Harry.</mj-text>
+          <mj-text mj-class="p">Good to be back. I spent some time underground working on my copywriting course. Expect something beautiful.</mj-text>
+          <mj-text mj-class="p">Whilst I finish it the newsletter will be bi-weekly. Enjoy today's attempt.</mj-text>
+          <mj-text mj-class="p"><span class="italic">Before we begin... Thank you to this week's sponsor...</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="sponSection">
+        <mj-column mj-class="sponSectionInner" background-color="#e5f5ff">
+          <mj-image width="450px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nlspon1.png" alt="Wynter" href="https://wynter.com/?utm_source=newsletter&utm_medium=email&utm_campaign=marketing_examples&utm_id=issue1" padding-top="9px"></mj-image>
+          <mj-text mj-class="p list list__top">• Got the right product but your copy’s not resonating?</span></mj-text>
+          <mj-text mj-class="p list">• <a class="underA bold" href="https://wynter.com/?utm_source=newsletter&utm_medium=email&utm_campaign=marketing_examples&utm_id=issue1" target="_blank">Wynter</a> gives you messaging feedback from your actual target market. Perfect for B2B SaaS.</span></mj-text>
+          <mj-text mj-class="p list list__bottom">• $250 off. Message Intercom and Peep will hook you up.</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-button mj-class="bg1">Three short examples</mj-button>
+          <mj-text mj-class="pbold">1/ How to stop a competitor leeching off your brand name</mj-text>
+          <mj-image mj-class="htImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl1d.png" alt="Google Ads"></mj-image>
+          <mj-text mj-class="p ht"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/tejas3732" target="_blank">Tejas Rane</a></mj-text>
+          <mj-text mj-class="pbold">2/ The Tale of Two Twitter Strategies</mj-text>
+          <mj-text mj-class="p"><span class="italic">The Kyiv Post</span> and <span class="italic">The Kyiv Independent</span> are both reporting the Ukraine War.</mj-text>
+          <mj-text mj-class="p"><span class="italic">The Kyiv Post</span> shares article links. <span class="italic">The Kyiv Independent</span> condenses news into tweets and threads. </mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl2d.png" alt="Kyiv Post Vs. Kyiv Independent"></mj-image>
+          <mj-text mj-class="p">At the start of the war <span class="italic">The Kyiv Post</span> had <span class="bold">10x</span> the followers than <span class="italic">The Kyiv Independent</span>. Today they have <span class="bold">5x</span> less.</mj-text>
+          <mj-text mj-class="p">Don't redirect people. Be useful on the platform <span class="italic">itself</span>. You'll be rewarded.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl2c.png" alt="Kyiv Independent Twitter Graph"></mj-image>
+          <mj-text mj-class="pbold">3/ How Basecamp makes $99/month feel cheap</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl3z.png" alt="Basecamp's utility"></mj-image>
+          <mj-button mj-class="bg2">Two Copywriting Tips</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ Metonymy</span></mj-text>
+          <mj-text mj-class="p">Where a <span class="italic">related</span> term stands in for the <span class="italic">literal</span> term.</mj-text>
+          <mj-text mj-class="p">Punchy, surprising, and colourful.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl4.png" alt="Metonymy"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ The difference between <span class="ss3">one-time payment</span> and <span class="ss1">MRR</span></mj-text>
+          <mj-text mj-class="p">A habit forming hook.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl5a.png" alt="Habit Forming Copy"></mj-image>
+          <mj-button mj-class="bg3">One Favourite Tweet</mj-button>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl6a.jpg" alt="Andy Raskin Tweet" href="https://twitter.com/araskin/status/1404864978411085825"></mj-image>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">Quick Reminder:</span> If you like my emails please do “add to address book” or reply. If you don't unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>. Cheers.</mj-text>
+          <mj-text mj-class="p">See you in two weeks — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=74m07U53zDU" target="_blank">Song of the week</span></span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">Enjoy the newsletter? Please forward to a pal. It only takes 10 seconds. Writing it takes me 10 hours.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome. Marketing Examples <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Copywriting Examples <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration" target="_blank">here</a>. Join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+          <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

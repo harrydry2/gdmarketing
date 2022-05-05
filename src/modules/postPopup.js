@@ -53,7 +53,8 @@ export function postPopup(cards) {
           $('.undera__center-text').innerText = 'CLICK ICON TO SHARE';
         }
       }
-      $('.ph').style.animationPlayState = 'paused';
+      // bannertoggle
+      // $('.ph').style.animationPlayState = 'paused';
       window.history.pushState('brother', 'Brother MInda', `../${tag}/${slug}`);
       document.title = title;
       window.twttr.ready(twttr => {

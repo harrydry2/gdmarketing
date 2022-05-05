@@ -51,7 +51,8 @@ if (window.innerWidth < 768) {
 // wierdthingforanimation
 
 if ($('.pausedatanimation')) {
-  $('.ph').style.animationPlayState = 'paused';
+  // bannertoggle
+  // $('.ph').style.animationPlayState = 'paused';
 }
 
 if (

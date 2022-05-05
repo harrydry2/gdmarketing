@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 2px" />
+      <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="topSection" background-color="#fff" padding="32px 0px 30px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="20px 0px 16px 0px" />
+      <mj-class name="sponSection" padding="16px 20px 0px 20px" />
+      <mj-class name="sponSectionInner" padding="14px 10px 15px 6px " />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="nmTop" padding="10px 20px 8px 20px" line-height="29px" />
+      <mj-class name="nm" padding="8px 20px" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pS" font-size="15px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="ht" mj-text align="center" padding="0px 0px 10px 0px" />
+      <mj-class name="inwardSpeech" padding="12px 20px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 20px 12px 20px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="27px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="htImg" padding="27px 0px 10px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .ss1 {
+        border-bottom: 2px solid rgba(78, 204, 121, 1);
+      }
+
+      .ss2 {
+        border-bottom: 2px solid rgba(10, 202, 255, 1);
+      }
+
+      .ss3 {
+        border-bottom: 2px solid rgba(255, 66, 66, 1);
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .blue {
+        color: #1400ff;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="preSection">
+        <mj-column>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">3-2-1: Viral content, 49% Open rates, Copywriting tips</mj-text>
+          <mj-text mj-class="p">Hey — It's Harry.</mj-text>
+          <mj-text mj-class="p">Apologies for my lateness. I was up till 4am trying to finish. But I ran out of snacks so I got the night bus home. Enjoy this week's effort.</mj-text>
+          <mj-text mj-class="p"><span class="blue">Estimated read time: 2 minutes & 2 seconds.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">Before we begin... Thank you to this week's sponsor...</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="sponSection">
+        <mj-column mj-class="sponSectionInner" background-color="#e5f5ff">
+          <mj-image width="500px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/bcl1.png" alt="Wynter" padding-top="9px"></mj-image>
+          <mj-text mj-class="p list list__top">• Want high-quality ad inspiration?</mj-text>
+          <mj-text mj-class="p list">• <a class="underA bold" href="https://biddyco.com/?utm_source=newsletter&utm_medium=email&utm_campaign=marketing_examples&utm_id=issue1" target="_blank">Biddyco</a> spend millions every month testing ad creatives.</span></mj-text>
+          <mj-text mj-class="p list">• Every day Ben (the founder) sends a short email with one top performing ad and <span class="italic">why it works</span>.</mj-text>
+          <mj-text mj-class="p list list__bottom">• If you’d like to give it a try <a class="underA bold" href="https://magic.sparkloop.app/3b34eadc54?email={{subscriber.email_address}}" target="_blank">click here</a> (you'll be auto-subscribed)</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-button mj-class="bg1">Three short examples</mj-button>
+          <mj-text mj-class="pbold">1/ How to approach viral content marketing?</mj-text>
+          <mj-text mj-class="p">Write the title <span class="italic">THEN</span> make the content.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/nl2d.png" alt="Viral content marketing"></mj-image>
+          <mj-text mj-class="pbold">2/ A crash course in improving your open rate</mj-text>
+          <mj-text mj-class="p"><span class="italic">From someone who’s sent 1M+ emails with a 49.89% open rate.</span></mj-text>
+          <mj-text mj-class="p list list__top"><span class="bold">1/ </span>Ask subscribers to “add to address book”</mj-text>
+          <mj-text mj-class="p list"><span class="bold">2/ </span>Ask for a reply to your welcome email</mj-text>
+          <mj-text mj-class="p list"><span class="bold">3/ </span>Send as a real person. Add pic to sender address.</mj-text>
+          <mj-text mj-class="p list"><span class="bold">4/ </span>Lower case subject line. Add preview text.</mj-text>
+          <mj-text mj-class="p list"><span class="bold">5/ </span>Ask “what'd you think of today's email?” (boosts clicks)</mj-text>
+          <mj-text mj-class="p list"><span class="bold">6/ </span>Make unsubscribing easy</mj-text>
+          <mj-text mj-class="p list"><span class="bold">7/ </span>Ask cold subscribers if they’d like to stay</mj-text>
+          <mj-text mj-class="p list list__bottom"><span class="bold">8/</span> Write emails people want to open</mj-text>
+          <mj-image mj-class="cImg img550" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/nl3.png" alt="Open rate tips"></mj-image>
+          <mj-text mj-class="pbold">3/ The content marketing sweetspot</mj-text>
+          <mj-text mj-class="p">There’s two ways people discover content.</mj-text>
+          <mj-text mj-class="p list list__top">1/ By <span class="bold">searching</span> for it <span class="italic">(blog posts, video tutorials)</span></mj-text>
+          <mj-text mj-class="p list list__bottom">2/ By people <span class="bold">sharing</span> it <span class="italic">(podcasts, free tools, visuals, ebooks)</span></mj-text>
+          <mj-text mj-class="p">Occasionally a piece of content does both. It hits a big keyword <span class="italic">AND</span> it’s so awesome people share it. I call this the content marketing sweetspot.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/nl3c.png" alt="Content venn diagram"></mj-image>
+          <mj-button mj-class="bg2">Two Copywriting Tips</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ Four ways to write a CTA</span></mj-text>
+          <mj-image mj-class="htImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/nl4.png" alt="Four CTAs"></mj-image>
+          <mj-text mj-class="p ht"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/VikkiRossWrites/status/1156575317508722693" target="_blank">Vikki Ross</a> / <a class="underA subscribeColor" href="https://twitter.com/jasonfried/status/1271886889159622659" target="_blank">Jason Fried</a> </mj-text>
+          <mj-text mj-class="p"><span class="bold">2/ How to make “<span class="ss1">benefits</span>” more concrete?</span></mj-text>
+          <mj-text mj-class="p">Zap <span class="ss3">objections</span> mid sentence.</mj-text>
+          <mj-image mj-class="cImg img450" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/nl5b.png" alt="Concrete copywriting"></mj-image>
+          <mj-button mj-class="bg3">One Favourite Tweet</mj-button>
+          <mj-image mj-class="cImg img550" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl10/nl6a.png" alt="April Dunford Tweet" href="https://twitter.com/aprildunford/status/1517121923750244352"></mj-image>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">In the spirit of this email — </span> If you like my newsletter please do “add to address book” or reply. These are “positive signals” that help my emails land in your inbox. If you're bored of me you can unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">See you in two weeks — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. Mind rating today's email — </span> <a class="underA subscribeColor" href="https://tonsofthanks.com/wp-content/uploads/2020/10/Thank-you-for-your-feedback-768x512.jpg" target="_blank">Superb</a> / <a class="underA subscribeColor" href="https://image.shutterstock.com/image-photo/handwriting-text-thank-you-your-260nw-420079492.jpg" target="_blank">Solid</a> / <a class="underA subscribeColor" href="https://sequencewiz.org/wp-content/uploads/2015/10/Thank-you-Image.png" target="_blank">Subpar</a></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=CGt-rTDkMcM" target="_blank">Song of the week</a></span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">Enjoy the newsletter? Please forward to a pal. It only takes 10 seconds. Writing it takes me 10 hours</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#ffebef">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome. Marketing Examples <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Copywriting Examples <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration" target="_blank">here</a>. Join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+          <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

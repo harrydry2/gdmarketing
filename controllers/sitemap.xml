@@ -220,6 +220,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/social/two-tweets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/social/easy-to-sum-up</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/social/billboards</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- ads -->
   <url>
     <loc>https://marketingexamples.com/ads/creative-google-ad</loc>
@@ -248,6 +263,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/ads/neiman</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/ads/leeches</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -315,6 +335,16 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/landing-page/sign-up</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/price-comparison</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/meta-images</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

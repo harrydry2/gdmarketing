@@ -1,11 +1,11 @@
 include ./card
 include ./filters
 include ./mobfilters
-include ./ph
+//- include ./ph
 
 mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
   .home(class=`${displaynone}`)
-    +phBase()
+    //- +phBase()
     .cegm__top.cegm__top-ph
       a(href="/inspiration")
         //- img(src="https://ik.imagekit.io/o08ysq9vx/cebits/cegLogo.png", alt="Logo")
@@ -30,7 +30,7 @@ mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
           .ceTop-mail
             .ceTop-mail-left
               .ceTop-mail-left-icon!=icon("mail")
-              input(type="text" placeholder="Get 6 new tips in your inbox every Monday").nh2
+              input(type="text" placeholder="Get 6 new tips in your inbox every other Monday").nh2
             .nh1.cmtGlitch Yes Please :)
           .nh3
         .ceTop__right

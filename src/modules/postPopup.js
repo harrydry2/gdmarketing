@@ -68,14 +68,14 @@ export function postPopup(cards) {
     e.stopPropagation();
     e.preventDefault();
     closePopup();
-    $('.ph').style.animationPlayState = 'running';
+    // $('.ph').style.animationPlayState = 'running';
   });
 
   document.on('click', e => {
     if (e.target.classList.contains('outerPost')) {
       e.preventDefault();
       closePopup();
-      $('.ph').style.animationPlayState = 'running';
+      // $('.ph').style.animationPlayState = 'running';
     }
   });
 
@@ -83,7 +83,7 @@ export function postPopup(cards) {
   document.on('keydown', e => {
     if (e.keyCode === 27) {
       closePopup();
-      $('.ph').style.animationPlayState = 'running';
+      // $('.ph').style.animationPlayState = 'running';
     }
   });
 }

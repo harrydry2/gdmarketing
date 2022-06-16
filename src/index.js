@@ -215,6 +215,13 @@ if ($('.nlcc')) {
   // }
   // mailSubmitFromCourseTop();
   // mailSubmitFromCourseBottom();
+  const appHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+    console.log('run');
+  };
+  window.addEventListener('resize', appHeight);
+  appHeight();
   mailSubmitFromCourseNew();
   // setTimeout(() => {
   //   const tc = $('.tweets__container');

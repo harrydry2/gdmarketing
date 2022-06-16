@@ -1,5 +1,6 @@
 .nlc
   height: 100vh
+  min-height: -webkit-fill-available
   overflow: hidden
   background-color: black
   display: flex
@@ -32,6 +33,12 @@
     bottom: 1.4rem
   &__middle
     height: 21rem
+    position: absolute
+    margin-left: auto
+    margin-right: auto
+    left: 0
+    right: 0
+    text-align: center
     @media (max-width: 500px)
       width: 90%
       height: auto

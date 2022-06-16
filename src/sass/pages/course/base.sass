@@ -8,10 +8,13 @@
   &__added
     font-size: 1.9rem
     font-weight: 400
-    // top: 2.7rem
     bottom: 9rem
     position: absolute
     color: white
+    @media (max-width: 767px)
+      font-size: 1.7rem
+      bottom: auto
+      top: 2.4rem
   &__ab
     position: absolute
   &__1
@@ -31,6 +34,7 @@
     height: 21rem
     @media (max-width: 500px)
       width: 90%
+      height: auto
   &__email
     background-color: #fff
     height: 6.6rem

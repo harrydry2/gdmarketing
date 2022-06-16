@@ -215,7 +215,6 @@ if ($('.nlcc')) {
   // }
   // mailSubmitFromCourseTop();
   // mailSubmitFromCourseBottom();
-  // window.addEventListener("resize", setHeight);
   $('.nlc').style.minHeight = `${window.innerHeight}px`;
   // $('.nlc').style.minHeight = `40px`;
   mailSubmitFromCourseNew();

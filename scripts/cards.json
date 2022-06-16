@@ -24,6 +24,78 @@
     "desc": "No filler. No wasted words. Only gold. Pound for pound the best copywriting article on the web. 17 copywriting tips. Put your feet up and enjoy."
   },
   {
+    "num": "5",
+    "title": "The tale of two Twitter strategies",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Social",
+    "tBack": "social",
+    "slug": "two-tweets",
+    "img": "t2ts",
+    "imgType": "jpg",
+    "desc": "The Kyiv Post and The Kyiv Independent are both reporting the Ukraine War. The Kyiv Post shares article links. The Kyiv Independent condenses news into tweets and threads."
+  },
+  {
+    "num": "5",
+    "title": "How Basecamp makes $99/month feel cheap",
+    "sUrl": "",
+    "sText": "25 secs",
+    "tFront": "Landing Page",
+    "tBack": "landing-page",
+    "slug": "price-comparison",
+    "img": "bcpc2",
+    "imgType": "png",
+    "desc": "How Basecamp makes $99/month feel cheap. Sets expectations. Comparison table. Price anchoring."
+  },
+  {
+    "num": "5",
+    "title": "My favourite “Meta Images”",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Landing Page",
+    "tBack": "landing-page",
+    "slug": "meta-images",
+    "img": "mimage",
+    "imgType": "png",
+    "desc": "Your “Meta Image” is the image that appears when you share a link online. It's the most important image you make."
+  },
+  {
+    "num": "5",
+    "title": "How to stop a competitor leeching off your brand name",
+    "sUrl": "",
+    "sText": "20 secs",
+    "tFront": "Ads",
+    "tBack": "ads",
+    "slug": "leeches",
+    "img": "leeches",
+    "imgType": "jpg",
+    "desc": "How Canva and Basecamp stop competitors leeching off their brand name"
+  },
+  {
+    "num": "5",
+    "title": "If you want to grow on social make yourself easy to sum up",
+    "sUrl": "",
+    "sText": "40 secs",
+    "tFront": "Social",
+    "tBack": "social",
+    "slug": "easy-to-sum-up",
+    "img": "etsu",
+    "imgType": "jpg",
+    "desc": "If you want to grow on social media make yourself easy to sum up. 6 examples."
+  },
+  {
+    "num": "5",
+    "title": "I love Billboards designed for social",
+    "sUrl": "",
+    "sText": "2 mins",
+    "tFront": "Social",
+    "tBack": "social",
+    "slug": "billboards",
+    "img": "etsu2",
+    "imgType": "jpg",
+    "desc": "The idea is simple. You rent a digital billboard for 24hrs. You write something funny / controversial / clever. You post it on social. And because “it's on a billboard, wow!” it goes viral."
+  },
+  {
     "num": "9",
     "title": "My Twitter Inspiration Handbook",
     "sUrl": "",
@@ -1126,77 +1198,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "5",
-    "title": "The tale of two Twitter strategies",
-    "sUrl": "",
-    "sText": "1 min",
-    "tFront": "Social",
-    "tBack": "social",
-    "slug": "two-tweets",
-    "img": "t2ts",
-    "imgType": "jpg",
-    "desc": "The Kyiv Post and The Kyiv Independent are both reporting the Ukraine War. The Kyiv Post shares article links. The Kyiv Independent condenses news into tweets and threads."
-  },
-  {
-    "num": "5",
-    "title": "How Basecamp makes $99/month feel cheap",
-    "sUrl": "",
-    "sText": "25 secs",
-    "tFront": "Landing Page",
-    "tBack": "landing-page",
-    "slug": "price-comparison",
-    "img": "bcpc2",
-    "imgType": "png",
-    "desc": "How Basecamp makes $99/month feel cheap. Sets expectations. Comparison table. Price anchoring."
-  },
-  {
-    "num": "5",
-    "title": "My favourite “Meta Images”",
-    "sUrl": "",
-    "sText": "1 min",
-    "tFront": "Landing Page",
-    "tBack": "landing-page",
-    "slug": "meta-images",
-    "img": "mimage",
-    "imgType": "png",
-    "desc": "Your “Meta Image” is the image that appears when you share a link online. It's the most important image you make."
-  },
-  {
-    "num": "5",
-    "title": "How to stop a competitor leeching off your brand name",
-    "sUrl": "",
-    "sText": "20 secs",
-    "tFront": "Ads",
-    "tBack": "ads",
-    "slug": "leeches",
-    "img": "leeches",
-    "imgType": "jpg",
-    "desc": "How Canva and Basecamp stop competitors leeching off their brand name"
-  },
-  {
-    "num": "5",
-    "title": "If you want to grow on social make yourself easy to sum up",
-    "sUrl": "",
-    "sText": "40 secs",
-    "tFront": "Social",
-    "tBack": "social",
-    "slug": "easy-to-sum-up",
-    "img": "etsu",
-    "imgType": "jpg",
-    "desc": "If you want to grow on social media make yourself easy to sum up. 6 examples."
-  },
-  {
-    "num": "5",
-    "title": "I love Billboards designed for social",
-    "sUrl": "",
-    "sText": "2 mins",
-    "tFront": "Social",
-    "tBack": "social",
-    "slug": "billboards",
-    "img": "etsu2",
-    "imgType": "jpg",
-    "desc": "The idea is simple. You rent a digital billboard for 24hrs. You write something funny / controversial / clever. You post it on social. And because “it's on a billboard, wow!” it goes viral."
   }
 ]

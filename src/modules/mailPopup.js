@@ -179,17 +179,24 @@ export function mailSubmitFromHandbook() {
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 3);
 }
 
-export function mailSubmitFromCourseTop() {
-  const mailButtonSpec = $('.cmt1');
-  const mailInputSpec = $('.cmt2');
-  const mailRedSpec = $('.cmt3');
-  submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 7);
-}
+// export function mailSubmitFromCourseTop() {
+//   const mailButtonSpec = $(".cmt1");
+//   const mailInputSpec = $(".cmt2");
+//   const mailRedSpec = $(".cmt3");
+//   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 7);
+// }
 
-export function mailSubmitFromCourseBottom() {
-  const mailButtonSpec = $('.cmt4');
-  const mailInputSpec = $('.cmt5');
-  const mailRedSpec = $('.cmt6');
+// export function mailSubmitFromCourseBottom() {
+//   const mailButtonSpec = $(".cmt4");
+//   const mailInputSpec = $(".cmt5");
+//   const mailRedSpec = $(".cmt6");
+//   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 7);
+// }
+
+export function mailSubmitFromCourseNew() {
+  const mailButtonSpec = $('.lc1');
+  const mailInputSpec = $('.lc2');
+  const mailRedSpec = $('.lc3');
   submitMail(mailButtonSpec, mailRedSpec, mailInputSpec, 7);
 }
 

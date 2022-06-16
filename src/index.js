@@ -15,7 +15,7 @@ import {
   cegMobileFilter,
   cegMobileNewsletter,
 } from './modules/fed';
-import { thScroll, courseScroll } from './modules/thScroll';
+// import { thScroll, courseScroll } from './modules/thScroll';
 // import { thScroll, courseScroll } from './modules/thScroll1';
 
 import { cycleImages } from './modules/course';
@@ -23,10 +23,9 @@ import {
   mailPopup,
   actualPopup,
   mailSubmitFromPost,
+  mailSubmitFromCourseNew,
   mailSubmitHome,
   mailSubmitFromHandbook,
-  mailSubmitFromCourseTop,
-  mailSubmitFromCourseBottom,
 } from './modules/mailPopup';
 import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
 
@@ -58,7 +57,7 @@ if ($('.pausedatanimation')) {
 if (
   !$('.gif') &&
   !$('.th') &&
-  !$('.cc') &&
+  !$('.nlcc') &&
   !$('.ceg') &&
   !$('.cegM') &&
   !$('.fed')
@@ -75,7 +74,7 @@ if (
 if (
   !$('.gif') &&
   !$('.th') &&
-  !$('.cc') &&
+  !$('.nlcc') &&
   !$('.ceg') &&
   !$('.cegM') &&
   !$('.fed')
@@ -165,7 +164,7 @@ if (
 // }
 
 // mailPopup
-if (!$('.gif') && !$('.th') && !$('.cc') && !$('.ceg') && !$('.cegM')) {
+if (!$('.gif') && !$('.th') && !$('.nlcc') && !$('.ceg') && !$('.cegM')) {
   if (!window.location.href.includes('utm_source=newsletter')) {
     mailPopup();
   } else {
@@ -192,7 +191,7 @@ if ($('.undera__center-text')) {
 if (
   !$('.gif') &&
   !$('.th') &&
-  !$('.cc') &&
+  !$('.nlcc') &&
   !$('.ceg') &&
   !$('.cegM') &&
   !$('.fed')
@@ -210,18 +209,19 @@ if ($('.gif')) {
   gifLoad();
 }
 
-if ($('.cc')) {
-  if (window.innerWidth > 1023) {
-    courseScroll();
-  }
-  mailSubmitFromCourseTop();
-  mailSubmitFromCourseBottom();
-  setTimeout(() => {
-    const tc = $('.tweets__container');
-    console.log('hello');
-    tc.style.display = 'grid';
-    tc.style.height = 'auto';
-  }, 2000);
+if ($('.nlcc')) {
+  // if (window.innerWidth > 1023) {
+  //   courseScroll();
+  // }
+  // mailSubmitFromCourseTop();
+  // mailSubmitFromCourseBottom();
+  mailSubmitFromCourseNew();
+  // setTimeout(() => {
+  //   const tc = $('.tweets__container');
+  //   console.log('hello');
+  //   tc.style.display = 'grid';
+  //   tc.style.height = 'auto';
+  // }, 2000);
 }
 
 // if ($(".ceg")) {

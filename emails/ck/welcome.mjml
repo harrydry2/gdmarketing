@@ -48,20 +48,21 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image mj-class="cImg img600" align="center" src="https://ik.imagekit.io/o08ysq9vx/cebits/newsletter/nw.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px" padding-bottom="10px"></mj-image>
           <mj-text mj-class="p">Hey — Harry here.</mj-text>
-          <mj-text mj-class="p">It feels good to know people enjoy my work. Thanks for signing up. Expect an email every Monday.</mj-text>
+          <mj-text mj-class="p">Thanks for subscribing. Expect an email every other Monday.</mj-text>
           <mj-text mj-class="p">The best place to stay up to date is <a class="underA" href="https://twitter.com/goodmarketingHQ" target="_blank">Twitter</a> where I share quick tips.</mj-text>
           <mj-text mj-class="p">People kept asking, so I've put together <span class="italic"> The Best of Marketing Examples</span> email series for you:</mj-text>
           <mj-text mj-class="p inwardSpeech">The 5 case studies people found most useful over the last 2 years</mj-text>
           <mj-text mj-class="p">You'll get one in your inbox each weekday morning. If you'd rather not get these, no sweat, just <a class="underA subscribeColor" href="https://marketingexamples.com/best-of/unsubscribe" trigger-id="2301452" target="_blank">click here</a>.</mj-text>
+          <mj-text mj-class="p">Last thing. So, recently some of my emails been going to the dreaded “Promotions” tab. I'd really appreciate it if you <span class="italic">add this email address to contacts</span> so you actually see the emails!</mj-text>
           <mj-text mj-class="p">Last thing. So, recently some of my emails been going to the dreaded “Promotions” tab. I'd really appreciate it if you <span class="italic">add this email address to contacts</span> so you actually see the emails!</mj-text>
           <mj-text mj-class="p list list__top"> • <span class="">Gmail Web</span>: <span class="italic">Hover over icon at top of email > Add to Contact List</mj-text>
           <mj-text mj-class="p list"> • Gmail Mobile: <span class="italic">3 grey dots > Move to > Primary</span></mj-text>
           <mj-text mj-class="p list list__bottom"> • Apple Mail: <span class="italic">Tap on email address near top (next to “From:”) > Add to VIP</span></mj-text>
           <mj-text mj-class="p">Thank you. I really do appreciate people reading.</mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
-          <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if you want!</mj-text>
+          <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if you want</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="bottomSection">

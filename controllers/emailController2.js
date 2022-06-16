@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
-const axios = require("axios");
+const mongoose = require('mongoose');
+const axios = require('axios');
 
 // const Cards = mongoose.model("Test");
-const Cards = mongoose.model("Cards");
+const Cards = mongoose.model('Cards');
 
 async function tryAndPostToNewsletter(email, res) {
   try {
@@ -11,16 +11,16 @@ async function tryAndPostToNewsletter(email, res) {
       {
         api_key: process.env.CKAPI,
         email,
-        tags: [2218623]
+        tags: [2218623],
       }
     );
-    res.json({ email: "true" });
+    res.json({ email: 'true' });
   } catch (err) {
-    if (err.response.data.error.code === "MEMBER_EXISTS_WITH_EMAIL_ADDRESS") {
-      res.json({ email: "duplicate" });
+    if (err.response.data.error.code === 'MEMBER_EXISTS_WITH_EMAIL_ADDRESS') {
+      res.json({ email: 'duplicate' });
     } else {
-      console.log(err, "error");
-      res.json({ email: "dunno" });
+      console.log(err, 'error');
+      res.json({ email: 'dunno' });
     }
     console.log(err.response.data.error.code);
   }
@@ -32,20 +32,20 @@ exports.subscribeCourse = async (req, res) => {
   const { email } = req.body;
   try {
     const posted = await axios.post(
-      `https://api.convertkit.com/v3/forms/2080156/subscribe`,
+      `https://api.convertkit.com/v3/forms/3359166/subscribe`,
       {
         api_key: process.env.CKAPI,
         email,
-        tags: [2221847]
+        tags: [3169977],
       }
     );
-    res.json({ email: "true" });
+    res.json({ email: 'true' });
   } catch (err) {
-    if (err.response.data.error.code === "MEMBER_EXISTS_WITH_EMAIL_ADDRESS") {
-      res.json({ email: "duplicate" });
+    if (err.response.data.error.code === 'MEMBER_EXISTS_WITH_EMAIL_ADDRESS') {
+      res.json({ email: 'duplicate' });
     } else {
-      console.log(err, "error");
-      res.json({ email: "dunno" });
+      console.log(err, 'error');
+      res.json({ email: 'dunno' });
     }
     console.log(err.response.data.error.code);
   }
@@ -72,7 +72,7 @@ exports.subscribe = async (req, res) => {
         const { tags } = prePost2.data;
         const ArrayOfTags = tags.map(tag => tag.id);
         if (ArrayOfTags.includes(2218623 || 2217641)) {
-          res.json({ email: "duplicate" });
+          res.json({ email: 'duplicate' });
         } else {
           tryAndPostToNewsletter(email, res);
         }
@@ -95,8 +95,8 @@ exports.subscribePage = async (req, res) => {
   const cards = await Cards.find()
     .skip(skip)
     .limit(limit);
-  res.render("./home/extSubscribe", {
+  res.render('./home/extSubscribe', {
     cards,
-    subscribePage: "outerMailActive"
+    subscribePage: 'outerMailActive',
   });
 };

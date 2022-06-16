@@ -210,20 +210,9 @@ if ($('.gif')) {
 }
 
 if ($('.nlcc')) {
-  // if (window.innerWidth > 1023) {
-  //   courseScroll();
-  // }
-  // mailSubmitFromCourseTop();
-  // mailSubmitFromCourseBottom();
+  console.log('bingo111');
   $('.nlc').style.minHeight = `${window.innerHeight}px`;
-  // $('.nlc').style.minHeight = `40px`;
   mailSubmitFromCourseNew();
-  // setTimeout(() => {
-  //   const tc = $('.tweets__container');
-  //   console.log('hello');
-  //   tc.style.display = 'grid';
-  //   tc.style.height = 'auto';
-  // }, 2000);
 }
 
 // if ($(".ceg")) {

@@ -215,13 +215,9 @@ if ($('.nlcc')) {
   // }
   // mailSubmitFromCourseTop();
   // mailSubmitFromCourseBottom();
-  const appHeight = () => {
-    const doc = document.documentElement;
-    doc.style.setProperty('--app-height', `${window.innerHeight}px`);
-    console.log('run');
-  };
-  window.addEventListener('resize', appHeight);
-  appHeight();
+  // window.addEventListener("resize", setHeight);
+  $('.nlc').style.minHeight = `${window.innerHeight}px`;
+  // $('.nlc').style.minHeight = `40px`;
   mailSubmitFromCourseNew();
   // setTimeout(() => {
   //   const tc = $('.tweets__container');

@@ -213,6 +213,11 @@ if ($('.nlcc')) {
   console.log('bingo111');
   $('.nlc').style.minHeight = `${window.innerHeight}px`;
   mailSubmitFromCourseNew();
+  if ($('.nlc__added')) {
+    $('.nlc').on('click', () => {
+      $('.nlc__added').style.display = 'none';
+    });
+  }
 }
 
 // if ($(".ceg")) {

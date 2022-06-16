@@ -109,7 +109,7 @@
           <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">3-2-1: Metaphors, Math, Millions of Views</mj-text>
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
-          <mj-text mj-class="p">The only thing I care about right now is making the best copywriting course I can. So this will be the last newsletter until my course arrives.</mj-text>
+          <mj-text mj-class="p">The only thing I care about right now is making the best copywriting course I can. So this will be the last newsletter until <a class="underA bold" href="https://marketingexamples.com/course" trigger-id="3115060" target="_blank">my course</a> arrives.</mj-text>
           <mj-text mj-class="p">If you'd like to know when it's out (and get a 15% discount) — <a class="underA bold" href="https://marketingexamples.com/course?added=true" trigger-id="3115060" target="_blank">click here</a>.</mj-text>
           <mj-text mj-class="p">Enjoy my swan song.</mj-text>
           <mj-text mj-class="p"><span class="blue">Estimated read time: 3 minutes & 7 seconds.</span></mj-text>

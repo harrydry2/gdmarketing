@@ -210,9 +210,9 @@ if ($('.gif')) {
 }
 
 if ($('.nlcc')) {
-  console.log('bingo111');
   $('.nlc').style.minHeight = `${window.innerHeight}px`;
   $('.nlc__main').style.minHeight = `${window.innerHeight}px`;
+  $('.nlc__main').style.opacity = '1';
   mailSubmitFromCourseNew();
   if ($('.nlc__added')) {
     $('.nlc').on('click', () => {

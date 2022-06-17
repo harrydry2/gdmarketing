@@ -111,7 +111,7 @@
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
           <mj-text mj-class="p">The only thing I care about right now is making the best copywriting course I can. So this will be the last newsletter until <a class="underA bold" href="https://marketingexamples.com/course" trigger-id="3115060" target="_blank">my course</a> arrives.</mj-text>
           <mj-text mj-class="p">If you'd like to know when it's out (and get a 15% discount) — <a class="underA bold" href="https://marketingexamples.com/course?added=true" trigger-id="3115060" target="_blank">click here</a>.</mj-text>
-          <mj-text mj-class="p">Okay, enough admin. Enjoy my swan song.</mj-text>
+          <mj-text mj-class="p">Enough admin. Enjoy the swan song.</mj-text>
           <mj-text mj-class="p"><span class="blue">Estimated read time: 3 minutes & 7 seconds.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Before we begin... Thank you to this week's sponsor...</span></mj-text>
         </mj-column>
@@ -121,7 +121,7 @@
           <mj-image width="500px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n11/trends.png" alt="Wynter" padding-top="9px" href="https://trends.co/?utm_campaign=marketingexamples-060622&utm_medium=paid&utm_source=newsletter"></mj-image>
           <mj-text mj-class="p list list__top">• <a class="underA bold" href="https://trends.co/?utm_campaign=marketingexamples-060622&utm_medium=paid&utm_source=newsletter" target="_blank">Trends</a> is <span class="italic">the</span> single best group for entrepreneurs. Simple.</span></mj-text>
           <mj-text mj-class="p list">• I've been a member for a few years. It's <span class="italic">actually</span> good.</mj-text>
-          <mj-text mj-class="p list list__bottom">• Give it a try with their <a class="underA bold" href="https://trends.co/?utm_campaign=marketingexamples-060622&utm_medium=paid&utm_source=newsletter" target="_blank">7 day $1 trial</a></mj-text>
+          <mj-text mj-class="p list list__bottom">• Give it a try with their <a class="underA bold" href="https://trends.co/checkout/?utm_campaign=marketingexamples-060622&utm_medium=paid&utm_source=newsletter" target="_blank">7 day $1 trial</a></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="topSection">
@@ -158,18 +158,14 @@
           <mj-text mj-class="p nm">A peloton costs $2000. The subscription costs $39/mo. So, either, you're locked in, or you admit to your spouse you've thrown away $2000. </mj-text>
           <mj-text mj-class="p nmTop"><span class="bold">g)</span> <span class="italic">Ikea and <a class="underA" href="https://thedecisionlab.com/biases/the-sunk-cost-fallacy">The Sunk Cost Fallacy</span> (Time)</span></mj-text>
           <mj-text mj-class="p nm">Ikea stores are deliberately placed on the outskirts of cities. The extra effort to get there incentivises customers to make the most of their trip.</mj-text>
-          <mj-text mj-class="p nmTop"><span class="bold">h)</span> Lyft and <a class="underA" href="https://thedecisionlab.com/biases/zero-risk-bias">The Left Digit Bias</span></span></mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">h)</span> Lyft and <a class="underA" href="https://journals.sagepub.com/doi/full/10.1177/0022243720932532">The Left Digit Bias</span></span></mj-text>
           <mj-text mj-class="p nm">Lyft cutting the price of a journey from $15 to $14.99 had the same increase on consumer demand as from $15.99 to $15.</mj-text>
-          <mj-text mj-class="p nmTop"><span class="bold">i)</span> <span class="italic">Starbucks and <a class="underA" href="https://thedecisionlab.com/biases/zero-risk-bias">The Cocktail Party Effect</span></span></mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">i)</span> <span class="italic">Starbucks and <a class="underA" href="https://www.sciencedirect.com/topics/medicine-and-dentistry/cocktail-party-effect">The Cocktail Party Effect</span></span></mj-text>
           <mj-text mj-class="p nm">The sweetest sound in any language is our name. So Starbucks stopped calling out the drink and started using the customer's name instead.</mj-text>
           <mj-text mj-class="p"><span class="italic">These are not my own discoveries. Credit to <a class="underA" href="https://www.amazon.co.uk/dp/B01F1HOAWA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1">Rory Sutherland</a>, <a class="underA" href="https://twitter.com/rshotton">Richard Shotton</a>, <a class="underA" href="https://twitter.com/TrungTPhan">Trung Phan</a>, <a class="underA" href="https://productgems.io">Product Gems</a>. Four fountains of knowledge.</span></mj-text>
           <mj-text mj-class="p"><span class="bold">2/ How to grow a YouTube channel in 2022</mj-text>
           <mj-text mj-class="p list list__top">1. Film one longform video</mj-text>
           <mj-text mj-class="p list list__bottom">2. To get a dozen <span class="italic">clippable</span> moments</mj-text>
-          <mj-text mj-class="p">Clips attract <span class="italic">new</span> fans. Longform satisfies <span class="italic">old</span> fans.</mj-text>
-          <mj-text mj-class="p"><span class="bold">2/ How to grow a YouTube channel in 2022</mj-text>
-          <mj-text mj-class="p list list__top">1. Film one longform video</mj-text>
-          <mj-text mj-class="p list list__bottom">2. Slice into a dozen <span class="italic">clippable</span> moments</mj-text>
           <mj-text mj-class="p">Clips attract <span class="italic">new</span> fans. Longform satisfies <span class="italic">old</span> fans.</mj-text>
           <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl1q.jpg" alt="Veed Tools"></mj-image>
           <mj-button mj-class="bg3">One Favourite Tweet</mj-button>
@@ -177,13 +173,13 @@
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p"><span class="italic">Quick reminder</span> - If you like my newsletter please do “add to address book” or reply. These are “positive signals” that help my newsletter land in your inbox. If you don't you can unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="p">See you when the album is done — Harry</mj-text>
-          <mj-text mj-class="p"><span class="italic">P.S. — If you're new in town and want an old (but equally awesome) 3-2-1 newsletter in your inbox every Monday — <a class="underA bold" href="https://marketingexamples.com/321/subscribe" trigger-id="3115061" target="_blank">click here</a>.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — If you're new in town and want an old (but equally awesome) 3-2-1 newsletter in your inbox every Monday whilst I'm away — <a class="underA bold" href="https://marketingexamples.com/321/subscribe" trigger-id="3115061" target="_blank">click here</a>.</span></mj-text>
           <mj-text mj-class="p"><span class="italic">P.P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=OqR71_BYS-c" target="_blank">Song of the week</a></span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">
         <mj-column>
-          <mj-text mj-class="p">Enjoy the newsletter? Please forward to a pal. It only takes 10 seconds. Writing it takes me 10 hours</mj-text>
+          <mj-text mj-class="p">Enjoy the newsletter? Please forward to a pal. It only takes 15 seconds. Writing it takes me 15 hours.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">

@@ -3,16 +3,18 @@ extends base
 block content
   .iosOverflow.nlcc
   .nlc
-    img.nlc__middle(src="https://ik.imagekit.io/o08ysq9vx/lc/logo1.png", alt="")
     img.nlc__ab.nlc__1(src="https://ik.imagekit.io/o08ysq9vx/lc/autumn.svg", alt="")
     img.nlc__ab.nlc__2(src="https://ik.imagekit.io/o08ysq9vx/lc/2022.svg", alt="")
     img.nlc__ab.nlc__4(src="https://ik.imagekit.io/o08ysq9vx/lc/harry.svg", alt="")
     img.nlc__ab.nlc__3(src="https://ik.imagekit.io/o08ysq9vx/lc/dry.svg", alt="")
-    if (added)
-      .nlc__added Just added :)
-    .nlc__email__outer
-      .lc3
-      .nlc__email
-        .nlc__email-border
-        input.nlc__email-left(type="email" autofocus placeholder="Your Email").lc2
-        button.lc1 Stay updated
+    .nlc__main
+      img.nlc__middle(src="https://ik.imagekit.io/o08ysq9vx/lc/logo1.png", alt="")
+      .nlc__email__outer
+        .nlc__discount
+          img(src="https://ik.imagekit.io/o08ysq9vx/lc/micro4.svg", alt="")
+        .nlc__email
+          input.nlc__email-left(type="email" autofocus placeholder="Your Email").lc2
+          button.lc1 Email Me Once Done
+        .lc3
+        if (added)
+          .nlc__added Just added :)

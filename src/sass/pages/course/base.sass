@@ -1,65 +1,88 @@
 .nlc
   overflow: hidden
-  display: flex
-  justify-content: center
-  align-items: center
   background-color: black
-  &__added
-    font-size: 1.9rem
-    font-weight: 400
-    bottom: 8.6rem
+  &__discount
+    display: flex
     position: absolute
+    right: -20px
+    top: -60px
+    transform: rotate(-1deg)
+    @media (max-width: 600px)
+      top: -50px
+    img
+      @media (max-width: 600px)
+        width: 80%
+
+
+  &__main
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    position: relative
+    top: -0.6rem
+  &__added
+    position: absolute
+    text-align: center
+    font-size: 1.9rem
     color: white
+    left: 0
+    right: 0
+    margin: 2rem auto 0 auto
+    color: white !important
     @media (max-width: 767px)
       font-size: 1.7rem
-      bottom: auto
-      top: 2.4rem
   &__ab
     position: absolute
   &__1
-    left: 2rem
-    top: 2rem
+    left: 2.1rem
+    top: 2.1rem
     width: 10.5rem
   &__2
-    right: 2rem
-    top: 2rem
+    right: 2.1rem
+    top: 2.1rem
   &__3
-    right: 2rem
-    bottom: 2rem
+    right: 2.1rem
+    bottom: 2.1rem
   &__4
-    left: 2rem
-    bottom: 2rem
+    left: 2.1rem
+    bottom: 2.1rem
   &__middle
     height: 21rem
-    position: absolute
-    margin-left: auto
-    margin-right: auto
-    left: 0
-    right: 0
-    text-align: center
+    // position: absolute
+    // margin-left: auto
+    // margin-right: auto
+    // left: 0
+    // right: 0
+    // text-align: center
     @media (max-width: 500px)
       width: 90%
       height: auto
   &__email
     background-color: #fff
-    height: 6.6rem
+    height: 7.4rem
     justify-content: space-between
     padding: 0.8rem 0.8rem 0.8rem 2rem
-    border-left: 4px solid #83E0E2
     display: flex
     position: relative
-    border-right: 4px solid #F4C1CA
-    &-border
-      position: absolute
-      width: 50rem
-      height: 4px
-      background: linear-gradient(90deg, #E4C25F 0%, #E4C25F 50%, #B5EBBC 50%, #B5EBBC 100%)
-      top: -4px
-      left: -4px
+    border-left: 4px solid #83E0E2
+    border-right: 4px solid #B5EBBC
+    border-bottom: 4px solid #F4C1CA
+    border-top: 4px solid #E4C25F
+    @media (max-width: 600px)
+      padding: 0.8rem 0.8rem 0.8rem 0.8rem
+      height: 6.8rem
+      border-left: none
+      border-right: none
+      border-bottom: 3px solid #F4C1CA
+      border-top: 3px solid #E4C25F
     &-left
       width: 25rem
       color: hsla(0,0,0,1)
       font-size: 1.9rem
+      @media (max-width: 600px)
+        font-size: 1.6rem
+        width: 17.8rem
       &:placeholder
         color: hsla(0,0,0,0.8)
     button
@@ -68,29 +91,35 @@
       font-size: 1.7rem
       color: #fff
       font-family: Avenir
-      padding: 0 2rem
+      padding: 0 1.4rem
       cursor: pointer
+      @media (max-width: 600px)
+        font-size: 1.5rem
+        padding: 0 1rem
 
 .lcbg
   background-color: black !important
 
 .nlc__email__outer
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  width: 50rem
-  margin: 0 auto
-  @media (max-width: 767px)
-    display: none
+  width: 56rem
+  margin-top: 6.2rem
+  position: relative
+  @media (max-width: 600px)
+    width: 100%
+    margin-top: 5.6rem
 
 .lc3
+  position: absolute
   text-align: center
   font-size: 1.9rem
   color: white
-  margin-bottom: 2rem
+  left: 0
+  right: 0
+  margin: 2rem auto 0 auto
   display: none
   color: white !important
+  @media (max-width: 767px)
+    font-size: 1.7rem
 
 .left__menu
   position: fixed
@@ -339,7 +368,7 @@
       background-color: $brand
       border: none
       color: $white
-      width: 11.6rem
+      // padding: 0 1rem
       font-size: 1.4rem
       font-weight: 600
       font-family: "AvenirNext"

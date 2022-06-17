@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'public', 'dist'),
-    filename: 'bundle14.js'
+    filename: 'bundle15.js'
   },
   module: {
     rules: [
@@ -43,7 +43,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'bundle.v31.css',
+      filename: 'bundle.v32.css',
     }),
     // minify
     // new webpack.DefinePlugin({

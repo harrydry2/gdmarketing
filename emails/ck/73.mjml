@@ -134,7 +134,7 @@
           <mj-text mj-class="p inwardSpeech"><span class="ss4">Objection handle</span>. <span class="ss2">Social proof</span>. <span class="ss1">Actionable outcome</span>.</mj-text>
           <mj-text mj-class="p">Two minute tweak. Thousands of extra subscribers.</mj-text>
           <mj-image mj-class="htImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl4b.png" alt="Milk Road"></mj-image>
-          <mj-text mj-class="p ht"><span class="italic">Big thank you to <a class="underA subscribeColor" href="https://twitter.com/ShaanVP" target="_blank">Shaan</a>, from Milk Road, for this example.</mj-text>
+          <mj-text mj-class="p ht"><span class="italic">Big thank you to <a class="underA subscribeColor" href="https://twitter.com/ShaanVP" target="_blank">Shaan</a>, from <a class="underA subscribeColor" href="https://www.milkroad.com" target="_blank">Milk Road</a>,, for this example.</mj-text>
           <mj-text mj-class="p"><span class="bold">3/ This rebrand cost Tropicana $55M.</mj-text>
           <mj-text mj-class="p">Copy is about communication. The quicker the better.</mj-text>
           <mj-text mj-class="p">A straw in an orange is as clear as it gets. A yellow blob looks like medicine. And you miss the logo cause we read left to right. </mj-text>
@@ -173,8 +173,9 @@
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p"><span class="italic">Quick reminder</span> - If you like my newsletter please do “add to address book” or reply. These are “positive signals” that help my newsletter land in your inbox. If you don't you can unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="p">See you when the album is done — Harry</mj-text>
-          <mj-text mj-class="p"><span class="italic">P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=KUwjNBjqR-c" target="_blank">Song of the week</a> (a father's day request from dad)</a></span></mj-text>
           <mj-text mj-class="p"><span class="italic">P.P.S. — If you're new in town and want an old (but equally awesome) 3-2-1 newsletter in your inbox every Monday whilst I'm away — <a class="underA bold" href="https://marketingexamples.com/321/subscribe" trigger-id="3115061" target="_blank">click here</a>.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=KUwjNBjqR-c" target="_blank">Song of the week</a> (a father's day request from dad)</a></span></mj-text>
+          <mj-image mj-class="htImg img250" src="https://ik.imagekit.io/o08ysq9vx/lc/jd.jpg" alt="Dad"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#FFFCDB">

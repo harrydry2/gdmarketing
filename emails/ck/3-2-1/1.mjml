@@ -33,6 +33,8 @@
       <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
       <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
       <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="ht" mj-text align="center" padding="0px 0px 10px 0px" />
+      <mj-class name="htImg" padding="27px 0px 10px 0px" fluid-on-mobile="true" align="center" />
       <mj-class name="img200" width="200px" fluid-on-mobile="true" />
       <mj-class name="img250" width="250px" fluid-on-mobile="true" />
       <mj-class name="img300" width="300px" fluid-on-mobile="true" />
@@ -96,14 +98,15 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl7.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">3-2-1 — Bob Bob Ricard, Kapwing, Copywriting Tips </mj-text>
+          <mj-text mj-class="h1" align="center">3-2-1 — Bob Bob Ricard, Kapwing, Copywriting Tips</mj-text>
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
-          <mj-text mj-class="p">Hope you had a nice weekend. I watched <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=Oseqh7SMIvo" target="_blank">Norm MacDonald clips</a> and ate a lovely curry.</mj-text>
-          <mj-text mj-class="p">Anyhow. Enjoy <span class="bold">3</span> short examples, <span class="bold">2</span> copywriting tips, <span class="bold">1</span> favourite tweet.</mj-text>
+          <mj-text mj-class="p">Hope you had a nice weekend. I watched <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=Oseqh7SMIvo" target="_blank">Norm MacDonald clips</a> and ate a lovely chicken curry.</mj-text>
+          <mj-text mj-class="p">Enjoy <span class="bold">3</span> short examples, <span class="bold">2</span> copywriting tips, <span class="bold">1</span> favourite tweet.</mj-text>
           <mj-button mj-class="bg1">Three short examples</mj-button>
-          <mj-text mj-class="p"><span class="bold">2/ The power of removing friction</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">1/ The power of removing friction</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Bob Bob Ricard</span> sells more champagne than any UK restaurant. All thanks to this little button.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl2a.jpg" alt="Bob Bob Ricard"></mj-image>
+          <mj-image mj-class="htImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl2a.jpg" alt="Bob Bob Ricard"></mj-image>
+          <mj-text mj-class="p ht">h/t <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=Oseqh7SMIvo" target="_blank">Richard Shotton</a></mj-text>
           <mj-text mj-class="p"><span class="bold">2/ Kapwing's a meme maker. I love their YouTube strategy</span></mj-text>
           <mj-text mj-class="p list list__top">• Finds memes about to go viral</mj-text>
           <mj-text mj-class="p list">• Uploads “how to make meme” videos to YouTube</mj-text>

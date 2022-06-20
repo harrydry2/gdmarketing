@@ -48,11 +48,11 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px" padding-bottom="10px"></mj-image>
-          <mj-text mj-class="p">Hey — It's Harry .</mj-text>
-          <mj-text mj-class="p">Thanks for subscribing. I really appreciate it. Expect my newsletter every Monday.</mj-text>
-          <mj-text mj-class="p">One small favour — Please reply to this email with “Hey Harry” to make sure you actually get the emails.</mj-text>
-          <mj-text mj-class="p">It only takes 12 seconds. Each newsletter takes me 12 hours.</mj-text>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl7.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px" padding-bottom="10px"></mj-image>
+          <mj-text mj-class="p">Hey — It's Harry.</mj-text>
+          <mj-text mj-class="p">Thanks for subscribing. I really appreciate it. I send one newsletter every Monday.</mj-text>
+          <mj-text mj-class="p">One small favour — Please reply to this email with “Hey Harry” to make sure you actually get the emails. It only takes 12 seconds. Writing each newsletter takes me 12 hours.</mj-text>
+          <mj-text mj-class="p">If you're too cool for that please “add to address book”. Cheers.</mj-text>
           <mj-text mj-class="p">— <a class="underA" href="https://www.twitter.com/harrydry" target="_blank">Harry</a></mj-text>
           <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if you want</mj-text>
         </mj-column>

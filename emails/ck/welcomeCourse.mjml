@@ -48,10 +48,10 @@
     <mj-wrapper>
       <mj-section mj-class="topSection">
         <mj-column>
-          <mj-image width="240px" align="center" src="https://ik.imagekit.io/o08ysq9vx/lc/lc.png" alt="Marketing Examples Logo" padding-bottom="18px"></mj-image>
+          <mj-image width="400px" align="center" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl7.png" alt="Marketing Examples Logo" padding-bottom="18px" href="https://marketingexamples.com"></mj-image>
           <mj-text mj-class="p">Hey — It’s Harry</mj-text>
           <mj-text mj-class="p">You're here for the course. Awesome. I’m working hard on it. The code for the 15% discount will be <span class="italic"><a class="underA subscribeColor" href="https://www.youtube.com/watch?v=4jXEuIHY9ic" target="_blank">steamedhams</a></span>.</mj-text>
-          <mj-text mj-class="p">If you're new in town and would like <span class="italic">the five case studies subscribers found most useful over the last 3 years</span> — <a class="underA subscribeColor" href="https://marketingexamples.com/best-of/subscribe" trigger-id="3119551" target="_blank">click here</a> — you'll get one every Monday morning :)</mj-text>
+          <mj-text mj-class="p">If you're new in town and would like <span class="italic">the five case studies subscribers found most useful over the last 3 years</span> — <a class="underA subscribeColor" href="https://marketingexamples.com/best-of/subscribe" trigger-id="2297969" target="_blank">click here</a> — you'll get one every Monday morning :)</mj-text>
           <mj-text mj-class="p">That’s everything for now.</mj-text>
           <mj-text mj-class="p">— Harry</mj-text>
           <mj-text mj-class="p"><span class="italic">PS — It'd be nice to learn more about the folks interested in this. What's the #1 part of copywriting you want to get better at? I'll reply.</span></mj-text>

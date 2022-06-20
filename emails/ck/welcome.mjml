@@ -49,11 +49,10 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nltop.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px" padding-bottom="10px"></mj-image>
-          <mj-text mj-class="p">Hey — Harry here.</mj-text>
-          <mj-text mj-class="p">Thanks for subscribing. Expect an email every Monday.</mj-text>
+          <mj-text mj-class="p">Hey — It's Harry .</mj-text>
+          <mj-text mj-class="p">Thanks for subscribing. I really appreciate it. Expect my newsletter every Monday.</mj-text>
           <mj-text mj-class="p">One small favour — Please reply to this email with “Hey Harry” to make sure you actually get the emails.</mj-text>
           <mj-text mj-class="p">It only takes 12 seconds. Each newsletter takes me 12 hours.</mj-text>
-          <mj-text mj-class="p">I really do appreciate people reading.</mj-text>
           <mj-text mj-class="p">— <a class="underA" href="https://www.twitter.com/harrydry" target="_blank">Harry</a></mj-text>
           <mj-text mj-class="p">P.S. I'm down to connect on <a class="underA" href="https://www.linkedin.com/in/harrydry/" target="_blank">LinkedIn</a> if you want</mj-text>
         </mj-column>
@@ -62,7 +61,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this because you signed up to the Marketing Examples mailing list.</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | Wimbledon, London, SW19 5AE</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | London, SW19 5AE</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

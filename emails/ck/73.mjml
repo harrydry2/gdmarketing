@@ -198,8 +198,7 @@
         <mj-column>
           <mj-divider mj-class="divider"></mj-divider>
           <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
-          <mj-text mj-class="bottomP"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | Wimbledon, London, SW19 5AE</mj-text>
-          <mj-text mj-class="bottomP" padding-bottom="19px"> <a class="unsub" href="{{ unsubscribe_url }}">Unsubscribe from all email</a></mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | London, SW19 5AE</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>

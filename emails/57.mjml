@@ -154,7 +154,7 @@
           <mj-image mj-class="cImg img600" src="https://s3.amazonaws.com/harrydry/gdmarketing/tip11.png" alt="don't try"></mj-image>
           <mj-text mj-class="h2under">Sponsored by Ahrefs</mj-text>
           <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">— Harry</span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">

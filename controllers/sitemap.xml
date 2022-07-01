@@ -16,6 +16,11 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/course</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
 <!-- content -->
   <url>
     <loc>https://marketingexamples.com/content/sharing</loc>
@@ -59,6 +64,26 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/content/taylordle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/content/sweet-spot</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/content/clips</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/content/viral</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/content/search</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -169,6 +194,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/sales/ppp</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- social -->
   <url>
     <loc>https://marketingexamples.com/social/lil-nas-x</loc>
@@ -232,6 +262,16 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/social/billboards</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/social/ama</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/social/founder-brand</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -302,6 +342,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/copywriting/math</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- landing pages -->
   <url>
     <loc>https://marketingexamples.com/landing-page/guide</loc>
@@ -348,6 +393,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/cta</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- retention -->
   <url>
     <loc>https://marketingexamples.com/retention/birthday-cake</loc>
@@ -371,6 +421,16 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/retention/intercom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/retention/raffle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/retention/open-rate</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -432,6 +492,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/brand/asos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/brand/tropicana</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -520,6 +585,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/creative/barilla</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/cognitive-biases</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

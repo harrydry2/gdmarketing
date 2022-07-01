@@ -100,14 +100,19 @@
           <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl7.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
           <mj-text mj-class="h1" align="center">3-2-1 — Bob Bob Ricard, Kapwing, Copywriting Tips</mj-text>
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
-          <mj-text mj-class="p">Hope you had a nice weekend. I watched <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=Oseqh7SMIvo" target="_blank">Norm MacDonald clips</a> and ate a lovely chicken curry.</mj-text>
-          <mj-text mj-class="p">Enjoy <span class="bold">3</span> short examples, <span class="bold">2</span> copywriting tips, <span class="bold">1</span> favourite tweet.</mj-text>
-          <mj-button mj-class="bg1">Three short examples</mj-button>
-          <mj-text mj-class="p"><span class="bold">1/ The power of removing friction</span></mj-text>
+          <mj-text mj-class="p">Hope you had a nice weekend. I watched Norm MacDonald clips and ate a lovely chicken curry.</mj-text>
+          <mj-text mj-class="p">Enjoy <span class="bold">3</span> copywriting tips, <span class="bold">2</span> short examples, <span class="bold">1</span> favourite tweet.</mj-text>
+          <mj-button mj-class="bg1">Three copywriting tips</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ Avoid “dictionary words”</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl4.png" alt="Copywriting Tip"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Three techniques to add rhythm to your copy</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl5a.png" alt="Ahrefs Copy"></mj-image>
+          <mj-text mj-class="p"><span class="bold">3/ The power of removing friction</span></mj-text>
           <mj-text mj-class="p"><span class="italic">Bob Bob Ricard</span> sells more champagne than any UK restaurant. All thanks to this little button.</mj-text>
           <mj-image mj-class="htImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl2a.jpg" alt="Bob Bob Ricard"></mj-image>
           <mj-text mj-class="p ht">h/t <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=Oseqh7SMIvo" target="_blank">Richard Shotton</a></mj-text>
-          <mj-text mj-class="p"><span class="bold">2/ Kapwing's a meme maker. I love their YouTube strategy</span></mj-text>
+          <mj-button mj-class="bg2">Two short examples</mj-button>
+          <mj-text mj-class="p"><span class="bold">4/ Kapwing's a meme maker. I love their YouTube strategy</span></mj-text>
           <mj-text mj-class="p list list__top">• Finds memes about to go viral</mj-text>
           <mj-text mj-class="p list">• Uploads “how to make meme” videos to YouTube</mj-text>
           <mj-text mj-class="p list">• Hundreds of thousands start Googling</mj-text>
@@ -115,25 +120,24 @@
           <mj-text mj-class="p list list__bottom">• Which uses <span class="italic">their app</span> to make meme</mj-text>
           <mj-text mj-class="p"><span class="bold">420k views / week.</span></mj-text>
           <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl1.png" alt="Kapwing Email"></mj-image>
-          <mj-text mj-class="p"><span class="bold">3/ Five backlinks in twenty-five minutes</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">5/ Wordle's referral loop</span></mj-text>
           <mj-text mj-class="p">Wordle is a simple word game that’s taken over the world recently. I wondered why so many people were sharing it. Well...</mj-text>
           <mj-text mj-class="p">On 99% of sites if you click “share” you get a link.</mj-text>
           <mj-text mj-class="p">On Wordle, if you click “share” your scoreboard is copied to your clipboard for you to paste onto social <span class="italic">directly</span>.</mj-text>
           <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl3b.png" alt="Wordle"></mj-image>
           <mj-text mj-class="p">One small change. But it’s the difference between a link no one clicks and 50,000 people sharing Wordle <span class="italic">every day</span>.</mj-text>
-          <mj-button mj-class="bg2">Two Copywriting Tips</mj-button>
-          <mj-text mj-class="p"><span class="bold">1/ <span class="ss1">Simplify</span>, then <span class="ss2">exaggerate</span>.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl4.png" alt="Copywriting Tip"></mj-image>
-          <mj-text mj-class="p"><span class="bold">2/ Narrow your scope until you're <span class="ss1">number one</span></span>.</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl5.png" alt="Ahrefs Copy"></mj-image>
           <mj-button mj-class="bg3">One favourite tweet</mj-button>
-          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl3/nl6.png" alt="Jack Grealish"></mj-image>
-          <mj-text mj-class="p">Have a great week — Harry</mj-text>
+          <mj-image mj-class="cImg img550" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl6a.png" alt="Jack Grealish"></mj-image>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">Quick reminder</span> - If you like my newsletter please do “add to address book” or reply. These are “positive signals” that help my newsletter land in your inbox. If you don't you can unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">See you next Monday — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — I'm spending every working minute producing my flagship <a class="underA =" href="https://marketingexamples.com/course" target="_blank">copywriting course</a>. If you'd like to know when it comes out and get a 15% launch discount - <a class="underA" href="https://marketingexamples.com/course?added=true" trigger-id="3115038" target="_blank">click here</a> - I'll add you.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=aCnf46boC3I" target="_blank">Song of the week</a></a></span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">
         <mj-column>
-          <mj-text mj-class="p">Enjoy the newsletter? Please do forward this email to a pal. It really does make a big difference. Cheers.</mj-text>
+          <mj-text mj-class="p">Enjoy the newsletter? Please forward to a pal. It only takes 10 seconds. Writing it takes me 10 hours.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="whiteSection" padding="9px 0">

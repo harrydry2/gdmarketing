@@ -162,7 +162,7 @@
           <mj-text mj-class="p"><span class="italic">I've also just launched it on <a class="underA subscribeColor" href="https://www.producthunt.com/posts/my-twitter-inspiration-handbook" target="_blank">Product Hunt</a>. Any support appreciated. Maybe we can get the No.1 spot ;)</span></mj-text>
           <mj-text mj-class="h2under">Sponsored by Ahrefs</mj-text>
           <mj-text mj-class="p">The kind folk at <a class="underA subscribeColor" href="https://ahrefs.com" target="_blank">Ahrefs</a> are currently sponsoring me. Big thanks. I've used them for a while to help grow my search traffic. Go check them out.</mj-text>
-          <mj-text mj-class="p"><span class="italic">Over and out — Harry</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">— Harry</span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">

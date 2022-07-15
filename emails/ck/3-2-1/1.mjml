@@ -112,7 +112,7 @@
           <mj-image mj-class="htImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl2a.jpg" alt="Bob Bob Ricard"></mj-image>
           <mj-text mj-class="p ht">h/t <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=Oseqh7SMIvo" target="_blank">Richard Shotton</a></mj-text>
           <mj-button mj-class="bg2">Two short examples</mj-button>
-          <mj-text mj-class="p"><span class="bold">4/ Kapwing's a meme maker. I love their YouTube strategy</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">1/ Kapwing's a meme maker. I love their YouTube strategy</span></mj-text>
           <mj-text mj-class="p list list__top">• Finds memes about to go viral</mj-text>
           <mj-text mj-class="p list">• Uploads “how to make meme” videos to YouTube</mj-text>
           <mj-text mj-class="p list">• Hundreds of thousands start Googling</mj-text>
@@ -120,7 +120,7 @@
           <mj-text mj-class="p list list__bottom">• Which uses <span class="italic">their app</span> to make meme</mj-text>
           <mj-text mj-class="p"><span class="bold">420k views / week.</span></mj-text>
           <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl1.png" alt="Kapwing Email"></mj-image>
-          <mj-text mj-class="p"><span class="bold">5/ Wordle's referral loop</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">2/ Wordle's referral loop</span></mj-text>
           <mj-text mj-class="p">Wordle is a simple word game that’s taken over the world recently. I wondered why so many people were sharing it. Well...</mj-text>
           <mj-text mj-class="p">On 99% of sites if you click “share” you get a link.</mj-text>
           <mj-text mj-class="p">On Wordle, if you click “share” your scoreboard is copied to your clipboard for you to paste onto social <span class="italic">directly</span>.</mj-text>

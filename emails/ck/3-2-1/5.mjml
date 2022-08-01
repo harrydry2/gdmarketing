@@ -106,43 +106,36 @@
       <mj-section mj-class="topSection">
         <mj-column>
           <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl7.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
-          <mj-text mj-class="h1" align="center">3-2-1 — Barilla, Meta Images, Copywriting Tips</mj-text>
+          <mj-text mj-class="h1" align="center">Sent the wrong newsletter. Here's the right one.</mj-text>
           <mj-text mj-class="p">Hey — It's Harry.</mj-text>
-          <mj-text mj-class="p">Hope you had a nice weekend. I'm in Tenerife on training camp. <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=YlOzjc6kqgY" target="_blank">Living like Vasiliy</a>. Chop wood, carry water. Preparing my <a class="underA subscribeColor" href="https://marketingexamples.com/course" target="_blank">copywriting course</a>.</mj-text>
-          <mj-text mj-class="p">Enjoy this week's edition. <span class="bold">3</span> tips, <span class="bold">2</span> examples, <span class="bold">1</span> tweet.</mj-text>
+          <mj-text mj-class="p">I don't quite know how I managed it. But I just sent you the exact same newsletter as last week. Whoops!</mj-text>
+          <mj-text mj-class="p">Here's the right one :)</mj-text>
           <mj-button mj-class="bg1">Three copywriting tips</mj-button>
-          <mj-text mj-class="p"><span class="bold">1/</span> “Treat copy as a visual object. Copy that looks good has a knack of reading well.” <span class="italic">— Adrian Holmes</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl6/qq3.png" alt="Visual copy"></mj-image>
-          <mj-text mj-class="p"><span class="bold">2/ A great line is a good line made shorter</span></mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n11/nl4b.png" alt="Short lines"></mj-image>
-          <mj-text mj-class="p"><span class="bold">2/ Give it a name. Make it a <span class="italic">thing</span>.</mj-text>
-          <mj-text mj-class="p">People remember <span class="italic">things</span>.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl6/nl5.png" alt="First copywriting tip"></mj-image>
+          <mj-text mj-class="p"><span class="bold">1/ Metonymy</span></mj-text>
+          <mj-text mj-class="p">Where a <span class="italic">related</span> term stands in for the <span class="italic">literal</span> term.</mj-text>
+          <mj-text mj-class="p">Punchy, surprising, and colourful.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl4.png" alt="Metonymy"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Repetition creates rhythm. Rhythm creates memory.</span></mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl5/dr4.png" alt="Short lines"></mj-image>
+          <mj-text mj-class="p"><span class="bold">3/ The difference between <span class="ss3">one-time payment</span> and <span class="ss1">MRR</span></mj-text>
+          <mj-text mj-class="p">A habit forming hook.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl5a.png" alt="Habit Forming Copy"></mj-image>
           <mj-button mj-class="bg2">Two short examples</mj-button>
-          <mj-text mj-class="pbold">1/ Barilla's pasta playlist</mj-text>
-          <mj-text mj-class="p">January 2021. Italian pasta producer Barilla created <a class="underA subscribeColor" href="https://open.spotify.com/user/w2p1oq867ns7jele6g3lw66fk" target="_blank">Spotify playlists</a> that are the exact length of time it takes to cook different types of pasta.</mj-text>
-          <mj-text mj-class="p list list__top">• 330,000 Spotify followers</mj-text>
-          <mj-text mj-class="p list list">• 140 media placements</mj-text>
-          <mj-text mj-class="p list list__bottom">• <a class="underA subscribeColor" href="https://www.tiktok.com/@leahmelle/video/6936573326622002437" target="_blank">2M views</a> on TikTok</mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl7/nl2a.png" alt="Copywriting Examples Meta Image"></mj-image>
-          <mj-text mj-class="p">Don't get so strangled by data that you forget to have fun.</mj-text>
-          <mj-text mj-class="p"><span class="bold">2/ My favourite “Meta Images”</span></mj-text>
-          <mj-text mj-class="p">Your “Meta Image” is the image that appears when you share a link online. It's the most important image you make.</mj-text>
-          <mj-text mj-class="p">Before I launched <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration " target="_blank">Copywriting Examples</a> I spent a full day on mine. <span class="italic">402,000</span> viewed it in 24 hours. <span class="italic">30x</span> more people than went to my website.</mj-text>
-          <mj-text mj-class="p">Here are three ways to make yours better.</mj-text>
-          <mj-text mj-class="p nmTop">1/ Don’t write a title. Tease the content.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl7/nl11aa.png" alt="Copywriting Examples Meta Image"></mj-image>
-          <mj-text mj-class="p nmTop">2/ Don’t show your product. Show your product <span class="italic">in action</span>.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl7/nl11b.png" alt="Jamby's Meta Image"></mj-image>
-          <mj-text mj-class="p nmTop">3/ Don’t show a logo. Show the transformation.</mj-text>
-          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl7/nl11d.png" alt="Remove BG Meta Image"></mj-image>
+          <mj-text mj-class="pbold">4/ Neiman's local magazine ads</mj-text>
+          <mj-text mj-class="p">I've been chatting to the owner of a decorative concrete company.</mj-text>
+          <mj-text mj-class="p">Each month they pay <span class="italic">$600/mo</span> for an ad in a local magazine that gets sent to 7000 wealthy homes in Georgia. Last 3 months they've made <span class="italic">$75,000</span> from these ads.</mj-text>
+          <mj-text mj-class="p">Don't complicate marketing. Fish where the fish are.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl7/nl3.jpg" alt="Fish where the fish are"></mj-image>
+          <mj-text mj-class="pbold">5/ How to stop a competitor leeching off your brand name</mj-text>
+          <mj-image mj-class="htImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl8/nl1d.png" alt="Google Ads"></mj-image>
+          <mj-text mj-class="p ht"><span class="italic">h/t <a class="underA subscribeColor" href="https://twitter.com/tejas3732" target="_blank">Tejas Rane</a></mj-text>
           <mj-button mj-class="bg3">One favourite tweet</mj-button>
-          <mj-image mj-class="htImg img550" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n11/nl6.png" alt="Desiette Tweet" href="https://twitter.com/MimiYoyoStery/status/1520646555090382848"></mj-image>
+          <mj-image mj-class="cImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl7/nl6.png" alt="Andrea Bosoni Tweet" href="https://twitter.com/theandreboso/status/1335980590898831361"></mj-image>
           <mj-text mj-class="p asterix">* * *</mj-text>
           <mj-text mj-class="p"><span class="italic">Quick reminder</span> - If you like my newsletter please do “add to address book” or reply. These are “positive signals” that help my newsletter land in your inbox. If you don't you can unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>.</mj-text>
           <mj-text mj-class="p">See you next Monday — Harry</mj-text>
           <mj-text mj-class="p"><span class="italic">P.S. — I'm spending every working minute producing my flagship <a class="underA =" href="https://marketingexamples.com/course" target="_blank">copywriting course</a>. If you'd like to know when it comes out and get a 15% launch discount - <a class="underA" href="https://marketingexamples.com/course?added=true" trigger-id="3115038" target="_blank">click here</a> - I'll add you.</span></mj-text>
-          <mj-text mj-class="p"><span class="italic">P.P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=CGt-rTDkMcM" target="_blank">Song of the week</a></a></span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=74m07U53zDU" target="_blank">Song of the week</a></a></span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section mj-class="shareSection" background-color="#e5f5ff">

@@ -1,0 +1,193 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css?family=Nunito" />
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all padding='0' font-family="'Avenir Next',Nunito,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';" />
+      <mj-wrapper background-color="#fff" padding="0 12px" />
+      <mj-column padding="0" />
+      <mj-button padding="20px 0px 20px 0px" align="left" font-size="17px" font-weight="700" color="#030212" inner-padding="8px 16px 8px 16px" />
+      <mj-class name="topSection" background-color="#fff" padding="20px 0px 30px 0px" />
+      <mj-class name="preSection" background-color="#fff" padding="14px 0px 60px 0px" />
+      <mj-class name="bottomSection" background-color="#fafafa" padding="0" />
+      <mj-class name="shareSection" padding="12px 20px" />
+      <mj-class name="h2" font-size="15px" font-weight="bold" padding="20px 0px 20px 0px" text-transform="uppercase" line-height="21px" color="#4742DE" />
+      <mj-class name="h2under" font-size="17px" font-weight="600" padding="20px 0px 20px 0px" line-height="21px" color="#4742DE" />
+      <mj-class name="nmTop" padding="10px 20px 8px 20px" line-height="29px" />
+      <mj-class name="nm" padding="8px 10px" />
+      <mj-class name="bg1" background-color="#FADCED" />
+      <mj-class name="bg2" background-color="#CBF6F2" />
+      <mj-class name="bg3" background-color="#FFD5D5" />
+      <mj-class name="bg4" background-color="#D9F4E2" />
+      <mj-class name="bg5" background-color="#E4E2FA" />
+      <mj-class name="h1" font-size="18px" font-weight="700" padding="30px 0px 20px 0px" line-height="26px" />
+      <mj-class name="h3" font-size="17px" font-style="italic" padding="0px 0px 15px 0px" line-height="26px" color="#545454" font-weight="500" />
+      <mj-class name="p" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" />
+      <mj-class name="pbold" font-size="17px" padding="8px 0px 8px 0px" line-height="29px" color="#030212" font-weight="600" />
+      <mj-class name="asterix" mj-text align="center" />
+      <mj-class name="inwardSpeech" padding="12px 20px" font-style="italic" />
+      <mj-class name="inwardSpeech2" padding="4px 27px 12px 27px" font-style="italic" />
+      <mj-class name="list" padding="1px 7px 1px 20px" />
+      <mj-class name="list__top" padding-top="8px" />
+      <mj-class name="list__bottom" padding-bottom="8px" />
+      <mj-class name="bottomP" font-size="13px" padding="1px 20px 1px 20px" line-height="24px" color="#808080" />
+      <mj-class name="divider" border-width="2px" border-color="#ededed" padding="0px 0px 0px 0px" />
+      <mj-class name="cImg" padding="30px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="ht" mj-text align="center" padding="0px 0px 10px 0px" />
+      <mj-class name="htImg" padding="27px 0px 10px 0px" fluid-on-mobile="true" align="center" />
+      <mj-class name="img200" width="200px" fluid-on-mobile="true" />
+      <mj-class name="img250" width="250px" fluid-on-mobile="true" />
+      <mj-class name="img300" width="300px" fluid-on-mobile="true" />
+      <mj-class name="img350" width="350px" fluid-on-mobile="true" />
+      <mj-class name="img400" width="400px" fluid-on-mobile="true" />
+      <mj-class name="img450" width="450px" fluid-on-mobile="true" />
+      <mj-class name="img500" width="500px" fluid-on-mobile="true" />
+      <mj-class name="img550" width="550px" fluid-on-mobile="true" />
+      <mj-class name="img600" width="600px" fluid-on-mobile="true" />
+      <mj-class name="longerButton" background-color="#f2fafd" color="#030212" font-size="15px" border="2px solid #ededed" inner-padding="12px 60px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .underA {
+        color: #030212;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      .ss1 {
+        border-bottom: 1px solid rgba(78, 204, 121, 1);
+      }
+
+      .ss2 {
+        border-bottom: 1px solid rgba(10, 202, 255, 1);
+      }
+
+      .ss3 {
+        border-bottom: 1px solid rgba(255, 66, 66, 1);
+      }
+
+      .ss4 {
+        border-bottom: 1px solid rgba(254, 215, 57, 1);
+      }
+
+      .brand {
+        color: #4742DE;
+      }
+
+      .blue {
+        color: #1400ff;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .semibold {
+        font-weight: 500;
+      }
+
+      .unsub {
+        color: #808080
+      }
+
+      .isBreak {
+        margin-bottom: -0.9rem;
+        display: block;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <mj-section mj-class="topSection">
+        <mj-column>
+          <mj-image width="400px" src="https://ik.imagekit.io/o08ysq9vx/newsletters/nl2/nl7.png" alt="Marketing Examples Logo" href="https://marketingexamples.com" padding-top="9px"></mj-image>
+          <mj-text mj-class="h1" align="center">3-2-1: Metaphors, Cognitive Biases, Copywriting Tips</mj-text>
+          <mj-text mj-class="p">Hey — It's Harry.</mj-text>
+          <mj-text mj-class="p">Another Monday. Another newsletter.</mj-text>
+          <mj-text mj-class="p">Friends, Romans, countrymen, lend me your ears.</mj-text>
+          <mj-text mj-class="p"><span class="blue">Estimated read time: 3 minutes & 7 seconds.</span></mj-text>
+          <mj-button mj-class="bg1">Three copywriting tips</mj-button>
+          <mj-text mj-class="p"><span class="bold">1/ One tip to make copy less boring</span></mj-text>
+          <mj-text mj-class="p">Swap a <span class="ss3">literal word</span> for a <span class="ss1">metaphorical one</span>.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl3b.png" alt="Implied Metaphor"></mj-image>
+          <mj-text mj-class="p"><span class="bold">2/ Copywriting is more like math than you suspect</span></mj-text>
+          <mj-text mj-class="p inwardSpeech"><span class="ss4">Objection handle</span>. <span class="ss2">Social proof</span>. <span class="ss1">Actionable outcome</span>.</mj-text>
+          <mj-text mj-class="p">Two minute tweak. Thousands of extra subscribers.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl4b.png" alt="Milk Road"></mj-image>
+          <mj-text mj-class="p"><span class="bold">3/ This rebrand cost Tropicana $55M.</mj-text>
+          <mj-text mj-class="p">Copy is about communication. The quicker the better.</mj-text>
+          <mj-text mj-class="p">A straw in an orange is as clear as it gets. A yellow blob looks like medicine. And you miss the logo cause we read left to right. </mj-text>
+          <mj-text mj-class="p">I don't want to think to buy orange juice.</mj-text>
+          <mj-image mj-class="htImg img500" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl5.jpg" alt="Tropicana"></mj-image>
+          <mj-button mj-class="bg2">Two short examples</mj-button>
+          <mj-text mj-class="pbold">1/ Nine marketing examples that tap into cognitive biases</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">a)</span> <span class="italic">Alka-Seltzer and <a class="underA" href="https://thedecisionlab.com/biases/suggestibility">The Suggestibility Bias</span></span></mj-text>
+          <mj-text mj-class="p nm">Alka-Seltzer infamous jingle <span class="italic">“plop, plop, fizz, fizz, oh, what a relief it is”</span> reminded customers to take two tablets instead of one. Sales doubled.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">b)</span> <span class="italic">Nomad List and <a class="underA" href="https://thedecisionlab.com/biases/halo-effect">The Halo Effect</span></span></mj-text>
+          <mj-text mj-class="p nm">Nomad List started donating 5% of revenue to remove CO₂ from the atmosphere. <a class="underA subscribeColor" href="https://twitter.com/levelsio/status/1356685990354649089?s=20&t=vljH-MgiiAIOGsyWWo__yg" target="_blank">Conversions increased 200%</a>. Yes. This is unbelievable.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">c)</span> <span class="italic">Uber and <a class="underA" href="https://thedecisionlab.com/biases/zero-risk-bias">Our Bias Towards Certainty</span></span></mj-text>
+          <mj-text mj-class="p nm">Uber’s map didn't reduce waiting time but it did make waiting less frustrating. The uncertainty of waiting bothers us more than the duration.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">d)</span> <span class="italic">Swedish Blood Banks and <a class="underA" href="https://thedecisionlab.com/biases/peak-end-rule">The Peak End Rule</span></span></mj-text>
+          <mj-text mj-class="p nm">When you donate blood in Sweden you get sent a follow up text when your blood’s been used. The happy ending makes us want to do it again.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">e)</span> <span class="italic">Rolls Royce and <a class="underA" href="https://thedecisionlab.com/biases/anchoring-bias">The Anchoring Bias</span></span></mj-text>
+          <mj-text mj-class="p nm">Rolls Royce favourite exhibition spot is yacht and aircraft shows.</mj-text>
+          <mj-text mj-class="p nm">“If you’ve been looking at jets all morning, a £300,000 car is an impulse buy. It's like putting sweets next to the counter” <span class="italic">— Rory Sutherland</span></mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">f)</span> <span class="italic">Peloton and <a class="underA" href="https://thedecisionlab.com/biases/the-sunk-cost-fallacy">The Sunk Cost Fallacy</span> (Money)</span></mj-text>
+          <mj-text mj-class="p nm">A peloton costs $2000. The subscription costs $39/mo. So, either, you're locked in, or you admit to your spouse you've thrown away $2000.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">g)</span> <span class="italic">Ikea and <a class="underA" href="https://thedecisionlab.com/biases/the-sunk-cost-fallacy">The Sunk Cost Fallacy</span> (Time)</span></mj-text>
+          <mj-text mj-class="p nm">Ikea stores are deliberately placed on the outskirts of cities. The extra effort to get there incentivises customers to make the most of their trip.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">h)</span> Lyft and <a class="underA" href="https://journals.sagepub.com/doi/full/10.1177/0022243720932532">The Left Digit Bias</span></span></mj-text>
+          <mj-text mj-class="p nm">Lyft cutting the price of a journey from $15 to $14.99 had the same increase on consumer demand as from $15.99 to $15.</mj-text>
+          <mj-text mj-class="p nmTop"><span class="bold">i)</span> <span class="italic">Starbucks and <a class="underA" href="https://www.sciencedirect.com/topics/medicine-and-dentistry/cocktail-party-effect">The Cocktail Party Effect</span></span></mj-text>
+          <mj-text mj-class="p nm">The sweetest sound in any language is our name. So Starbucks stopped calling out the drink and started using the customer's name instead.</mj-text>
+          <mj-text mj-class="p"><span class="italic">These are not my own discoveries. Credit to <a class="underA" href="https://www.amazon.co.uk/dp/B01F1HOAWA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1">Rory Sutherland</a>, <a class="underA" href="https://twitter.com/rshotton">Richard Shotton</a>, <a class="underA" href="https://twitter.com/TrungTPhan">Trung Phan</a>, <a class="underA" href="https://productgems.io">Product Gems</a>. Four fountains of knowledge.</span></mj-text>
+          <mj-text mj-class="p"><span class="bold">2/ How to grow a YouTube channel in 2022</mj-text>
+          <mj-text mj-class="p list list__top">1. Film one longform video</mj-text>
+          <mj-text mj-class="p list list__bottom">2. To get a dozen <span class="italic">clippable</span> moments</mj-text>
+          <mj-text mj-class="p">Clips attract <span class="italic">new</span> fans. Longform satisfies <span class="italic">old</span> fans.</mj-text>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl1q.jpg" alt="ChrisMd YouTube"></mj-image>
+          <mj-button mj-class="bg3">One favourite tweet</mj-button>
+          <mj-image mj-class="cImg img600" src="https://ik.imagekit.io/o08ysq9vx/newsletters/n13/nl6a.png" alt="Beeple Tweet" href="https://twitter.com/beeple/status/1080846910016102405"></mj-image>
+          <mj-text mj-class="p asterix">* * *</mj-text>
+          <mj-text mj-class="p"><span class="italic">Quick reminder</span> - If you like my newsletter please do “add to address book” or reply. These are “positive signals” that help my newsletter land in your inbox. If you don't you can unsubscribe <a class="underA subscribeColor" href="{{ unsubscribe_url }}" target="_blank">here</a>.</mj-text>
+          <mj-text mj-class="p">See you next Monday — Harry</mj-text>
+          <mj-text mj-class="p"><span class="italic">P.S. — I'm spending every working minute producing my flagship <a class="underA =" href="https://marketingexamples.com/course" target="_blank">copywriting course</a>. If you'd like to know when it comes out and get a 15% launch discount - <a class="underA" href="https://marketingexamples.com/course?added=true" trigger-id="3115038" target="_blank">click here</a> - I'll add you.</span></mj-text>
+          <mj-text mj-class="p"><span class="italic">P.P.S. — <a class="underA subscribeColor" href="https://www.youtube.com/watch?v=KUwjNBjqR-c" target="_blank">Song of the week</a> (a birthday request from dad)</a></span></mj-text>
+          <mj-image mj-class="htImg img250" src="https://ik.imagekit.io/o08ysq9vx/lc/jd.jpg" alt="Dad"></mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#e5f5ff">
+        <mj-column>
+          <mj-text mj-class="p">Enjoy the newsletter? Please forward to a pal. It only takes 10 seconds. Writing it takes me 10 hours.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding="9px 0">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="shareSection" background-color="#FFFCDB">
+        <mj-column>
+          <mj-text mj-class="p">New round here? Welcome. Marketing Examples <a class="underA subscribeColor" href="https://marketingexamples.com" target="_blank">here</a>. Copywriting Examples <a class="underA subscribeColor" href="https://marketingexamples.com/inspiration" target="_blank">here</a>. Join the newsletter <a class="underA subscribeColor" href="https://marketingexamples.com/newsletter" target="_blank">here</a> :)</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="whiteSection" padding-top="36px">
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section mj-class="bottomSection">
+        <mj-column>
+          <mj-divider mj-class="divider"></mj-divider>
+          <mj-text mj-class="bottomP" padding-top="18px">You are receiving this email because you signed up for my mailing list.</mj-text>
+          <mj-text mj-class="bottomP" padding-bottom="19px"><a class="unsub" href="https://marketingexamples.com" target="_blank">Marketing Examples</a> | <a class="unsub" href="https://marketingexamples.com/inspiration" target="_blank">Copywriting Examples</a> | <a class="unsub" href="{{unsubscribe_url}}">Unsubscribe</a> | London, SW19 5AE</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

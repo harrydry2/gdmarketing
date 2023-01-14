@@ -148,6 +148,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/seo/chamaripa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- sales -->
   <url>
     <loc>https://marketingexamples.com/sales/one-line-email</loc>
@@ -272,6 +277,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/social/founder-brand</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/social/zero-likes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

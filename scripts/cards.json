@@ -1354,5 +1354,29 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "How Chamaripa turned celeb heights into shoe sales",
+    "sUrl": "",
+    "sText": "2 mins",
+    "tFront": "SEO",
+    "tBack": "seo",
+    "slug": "chamaripa",
+    "img": "chamaripa3",
+    "imgType": "jpg",
+    "desc": "Chamaripa sell elevator shoes. Last week I stumbled upon quite a crafty SEO strategy of theirs. They rank hundreds of pages matching the query: “How tall is [short celebrity]?”"
+  },
+  {
+    "num": "9",
+    "title": "A crafty social media giveaway",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Social",
+    "tBack": "social",
+    "slug": "zero-likes",
+    "img": "messi4",
+    "imgType": "jpg",
+    "desc": "One comment with zero likes will win a... Hacks two positive engagement metrics: Comments and likes on comments (to stop others winning). I'll let the results speak for themselves."
   }
 ]

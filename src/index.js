@@ -24,7 +24,7 @@ import {
   actualPopup,
   mailSubmitFromPost,
   mailSubmitFromCourseNew,
-  mailSubmitHome,
+  // mailSubmitHome,
   mailSubmitFromHandbook,
 } from './modules/mailPopup';
 import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
@@ -170,7 +170,7 @@ if (!$('.gif') && !$('.th') && !$('.nlcc') && !$('.ceg') && !$('.cegM')) {
   } else {
     console.log('no more emails popups for loving subs');
   }
-  mailSubmitHome();
+  // mailSubmitHome();
 }
 
 //

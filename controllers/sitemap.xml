@@ -317,6 +317,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://marketingexamples.com/ads/tabs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://marketingexamples.com/ads/leeches</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

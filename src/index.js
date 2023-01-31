@@ -24,7 +24,7 @@ import {
   actualPopup,
   mailSubmitFromPost,
   mailSubmitFromCourseNew,
-  // mailSubmitHome,
+  mailSubmitHome,
   mailSubmitFromHandbook,
 } from './modules/mailPopup';
 import { lazyLoad, gifLoad, gifLoadMobile } from './modules/lazyLoad';
@@ -233,6 +233,7 @@ if ($('.nlcc')) {
 // }
 
 if ($('.fed')) {
+  mailSubmitHome();
   mailPopup();
   const msnry = new Masonry('.fedgrid', {
     // options

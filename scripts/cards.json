@@ -1390,5 +1390,17 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
+  },
+  {
+    "num": "9",
+    "title": "I love Blinkist's free trial paywall",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Landing Page",
+    "tBack": "landing-page",
+    "slug": "blinkist",
+    "img": "blinkist",
+    "imgType": "jpg",
+    "desc": "What's the #1 objection to signing up for a free trial?. “I'll forget to cancel and get billed indefinitely”"
   }
 ]

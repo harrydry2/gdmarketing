@@ -61,6 +61,18 @@
   },
   {
     "num": "9",
+    "title": "My favourite sales email pattern",
+    "sUrl": "",
+    "sText": "20 secs",
+    "tFront": "Sales",
+    "tBack": "sales",
+    "slug": "ppp",
+    "img": "ppp",
+    "imgType": "jpg",
+    "desc": "Three lovely little short cute examples of how to write cold emails that actually get opened"
+  },
+  {
+    "num": "9",
     "title": "Four ways to write a CTA",
     "sUrl": "",
     "sText": "30 secs",
@@ -73,15 +85,15 @@
   },
   {
     "num": "9",
-    "title": "I love this DTC retention strategy",
+    "title": "I love Blinkist's free trial paywall",
     "sUrl": "",
     "sText": "1 min",
-    "tFront": "Retention",
-    "tBack": "retention",
-    "slug": "raffle",
-    "img": "raffle",
+    "tFront": "Landing Page",
+    "tBack": "landing-page",
+    "slug": "blinkist",
+    "img": "blinkist3",
     "imgType": "jpg",
-    "desc": "Weekly raffle. Ship tickets with order. Group text the winner. How clever. How simple."
+    "desc": "What's the #1 objection to signing up for a free trial?. “I'll forget to cancel and get billed indefinitely”"
   },
   {
     "num": "9",
@@ -193,15 +205,15 @@
   },
   {
     "num": "9",
-    "title": "My favourite sales email pattern",
+    "title": "I love this DTC retention strategy",
     "sUrl": "",
-    "sText": "20 secs",
-    "tFront": "Sales",
-    "tBack": "sales",
-    "slug": "ppp",
-    "img": "ppp",
+    "sText": "1 min",
+    "tFront": "Retention",
+    "tBack": "retention",
+    "slug": "raffle",
+    "img": "raffle",
     "imgType": "jpg",
-    "desc": "Three lovely little short cute examples of how to write cold emails that actually get opened"
+    "desc": "Weekly raffle. Ship tickets with order. Group text the winner. How clever. How simple."
   },
   {
     "num": "5",
@@ -1390,17 +1402,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "I love Blinkist's free trial paywall",
-    "sUrl": "",
-    "sText": "1 min",
-    "tFront": "Landing Page",
-    "tBack": "landing-page",
-    "slug": "blinkist",
-    "img": "blinkist3",
-    "imgType": "jpg",
-    "desc": "What's the #1 objection to signing up for a free trial?. “I'll forget to cancel and get billed indefinitely”"
   }
 ]

@@ -413,6 +413,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/blinkist</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- retention -->
   <url>
     <loc>https://marketingexamples.com/retention/birthday-cake</loc>

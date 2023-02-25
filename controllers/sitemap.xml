@@ -204,6 +204,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/sales/sticker-mule</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- social -->
   <url>
     <loc>https://marketingexamples.com/social/lil-nas-x</loc>
@@ -359,6 +364,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/copywriting/math</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/copywriting/naming</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -520,6 +530,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/brand/reforge</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- referral -->
   <url>
     <loc>https://marketingexamples.com/referral/word-of-mouth</loc>
@@ -610,6 +625,16 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/creative/cognitive-biases</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/angostura</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/wooly-hats</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

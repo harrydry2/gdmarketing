@@ -170,7 +170,7 @@ if (!$('.gif') && !$('.th') && !$('.nlcc') && !$('.ceg') && !$('.cegM')) {
   } else {
     console.log('no more emails popups for loving subs');
   }
-  // mailSubmitHome();
+  mailSubmitHome();
 }
 
 //

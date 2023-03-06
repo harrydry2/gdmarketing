@@ -372,6 +372,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/copywriting/rhetorical-devices</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- landing pages -->
   <url>
     <loc>https://marketingexamples.com/landing-page/guide</loc>
@@ -425,6 +430,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/landing-page/blinkist</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/wine-list</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -535,6 +545,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/brand/loom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- referral -->
   <url>
     <loc>https://marketingexamples.com/referral/word-of-mouth</loc>
@@ -635,6 +650,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/creative/wooly-hats</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/zendesk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

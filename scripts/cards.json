@@ -1,6 +1,66 @@
 [
   {
     "num": "9",
+    "title": "Sticker Mule's plain text emails",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Sales",
+    "tBack": "sales",
+    "slug": "sticker-mule",
+    "img": "stickermule2",
+    "imgType": "jpg",
+    "desc": "Six words, one offer. No frills, no pretence. You don't need an adverb or fancy image to tell me your sticker deal ends tonight. Respect my time. It works."
+  },
+  {
+    "num": "9",
+    "title": "Why is the Angostura bitters label too big?",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Creative",
+    "tBack": "creative",
+    "slug": "angostura",
+    "img": "angostura2",
+    "imgType": "jpg",
+    "desc": "Well, it was a mistake! In 1870 two sons took over the business and decided to rebrand for an upcoming competition. One son redesigned the bottle, the other the label. Neither consulted the other, they got a label too big for the bottle."
+  },
+  {
+    "num": "9",
+    "title": "Four (not boring) ways to name a new product line",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "naming",
+    "img": "naming2",
+    "imgType": "jpg",
+    "desc": "Personify with a human name. Call it what people say when they use it. Pull out an adjective. Call it the “job to be done”"
+  },
+  {
+    "num": "9",
+    "title": "Reforge and the Strategic Use of Language",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Brand",
+    "tBack": "brand",
+    "slug": "reforge",
+    "img": "reforge1",
+    "imgType": "jpg",
+    "desc": "Last week I started getting some interesting LinkedIn notifications. On a micro level it’s a clever growth loop. On a macro level it’s clever positioning."
+  },
+  {
+    "num": "9",
+    "title": "Innocent’s Wooly Hats",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Creative",
+    "tBack": "creative",
+    "slug": "wooly-hats",
+    "img": "woolyhats",
+    "imgType": "jpg",
+    "desc": "January 2003. Innocent co-founder Adam has an idea. “What if we ask customers to knit hats for our smoothies?”"
+  },
+  {
+    "num": "9",
     "title": "The chocolate that goes viral every day",
     "sUrl": "",
     "sText": "2 mins",
@@ -1100,7 +1160,7 @@
     "tBack": "seo",
     "slug": "basics",
     "img": "up",
-    "imgType": "jpg",
+    "imgType": "webp",
     "desc": "The most common SEO mistake is relying on a single page website. Every new page is a new opportunity to target and rank for a search term. So if you’re dumping all your content on one page you’re limiting the number of search terms you can rank well for."
   },
   {
@@ -1402,65 +1462,5 @@
     "img": "beamery",
     "imgType": "jpg",
     "desc": "An example from Beamery showing just how easy it is to personalise your cold emails without sounding like a jerk."
-  },
-  {
-    "num": "9",
-    "title": "Sticker Mule's plain text emails",
-    "sUrl": "",
-    "sText": "30 secs",
-    "tFront": "Sales",
-    "tBack": "sales",
-    "slug": "sticker-mule",
-    "img": "stickermule",
-    "imgType": "jpg",
-    "desc": "Six words, one offer. No frills, no pretence. You don't need an adverb or fancy image to tell me your sticker deal ends tonight. Respect my time. It works."
-  },
-  {
-    "num": "9",
-    "title": "Why is the Angostura bitters label too big?",
-    "sUrl": "",
-    "sText": "1 min",
-    "tFront": "Creative",
-    "tBack": "creative",
-    "slug": "angostura",
-    "img": "angostura",
-    "imgType": "jpg",
-    "desc": "Well, it was a mistake! In 1870 two sons took over the business and decided to rebrand for an upcoming competition. One son redesigned the bottle, the other the label. Neither consulted the other, they got a label too big for the bottle."
-  },
-  {
-    "num": "9",
-    "title": "Four (not boring) ways to name a new product line",
-    "sUrl": "",
-    "sText": "30 secs",
-    "tFront": "Copywriting",
-    "tBack": "copywriting",
-    "slug": "naming",
-    "img": "naming",
-    "imgType": "jpg",
-    "desc": "Personify with a human name. Call it what people say when they use it. Pull out an adjective. Call it the “job to be done”"
-  },
-  {
-    "num": "9",
-    "title": "Reforge and the Strategic Use of Language",
-    "sUrl": "",
-    "sText": "30 secs",
-    "tFront": "Brand",
-    "tBack": "brand",
-    "slug": "reforge",
-    "img": "reforge",
-    "imgType": "jpg",
-    "desc": "Last week I started getting some interesting LinkedIn notifications. On a micro level it’s a clever growth loop. On a macro level it’s clever positioning."
-  },
-  {
-    "num": "9",
-    "title": "Innocent’s Wooly Hats",
-    "sUrl": "",
-    "sText": "30 secs",
-    "tFront": "Creative",
-    "tBack": "creative",
-    "slug": "wooly-hats",
-    "img": "woolyhats",
-    "imgType": "jpg",
-    "desc": "January 2003. Innocent co-founder Adam has an idea. “What if we ask customers to knit hats for our smoothies?”"
   }
 ]

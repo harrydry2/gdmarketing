@@ -1,11 +1,12 @@
 mixin pCard({num, title, sUrl, sText, tFront, tBack, slug, img, imgType, done})
   .post__top
-    img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}`).post__top-img
+    img(src=`https://ik.imagekit.io/o08ysq9vx/main/${img}.${imgType}`).post__top-img
     .pCard(data-slug=`${slug}`)
-      picture
-        source(srcset=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.webp` type="image/webp")
-        source(srcset=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}` type="image/jpeg")
-        img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}` alt=`${sText}`)
+      img(src=`https://ik.imagekit.io/o08ysq9vx/main/${img}.${imgType}` alt=`${sText}`)
+      //- picture
+      //-   source(srcset=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.webp` type="image/webp")
+      //-   source(srcset=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}` type="image/jpeg")
+      //-   img(src=`https://s3.amazonaws.com/harrydry/gdmarketing/main/${img}.${imgType}` alt=`${sText}`)
       h1=title
       .pCard__bottom
         .pCard__bottom-link

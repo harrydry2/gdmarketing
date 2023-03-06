@@ -1,6 +1,30 @@
 [
   {
     "num": "9",
+    "title": "Wine List's Counterintuitive Pricing",
+    "sUrl": "",
+    "sText": "1 min",
+    "tFront": "Landing Page",
+    "tBack": "landing-page",
+    "slug": "wine-list",
+    "img": "winelist2",
+    "imgType": "jpg",
+    "desc": "99% of pricing tiers ascend left to right: Cheap. Middle. Expensive. Wine List is the 1%. A mistake? Nope."
+  },
+  {
+    "num": "9",
+    "title": "How Loom Created a Category",
+    "sUrl": "",
+    "sText": "2 min",
+    "tFront": "Brand",
+    "tBack": "brand",
+    "slug": "loom",
+    "img": "loom4",
+    "imgType": "jpg",
+    "desc": " When Loom launched in 2016 it was called OpenVid. And it was just another “easy-to-use screen recorder”. At the time all screen recorders walked the same and talked the same. No opinions, no personality."
+  },
+  {
+    "num": "9",
     "title": "Sticker Mule's plain text emails",
     "sUrl": "",
     "sText": "30 secs",
@@ -70,6 +94,30 @@
     "img": "tabs11",
     "imgType": "jpg",
     "desc": "Tabs makes “sex chocolate”. Last month they sold half a million worth. Oliver is the founder. A 21-year-old college kid from New York. I spoke to him on Friday. And there's one thing Tabs do ridiculously well:"
+  },
+  {
+    "num": "9",
+    "title": "My favourite indie rock band",
+    "sUrl": "",
+    "sText": "10 secs",
+    "tFront": "Creative",
+    "tBack": "creative",
+    "slug": "zendesk",
+    "img": "zendesk",
+    "imgType": "jpg",
+    "desc": "Zendesk Alternative — A tongue-in-cheek five-piece set up by Zendesk to prevent competitors ranking for their brand name."
+  },
+  {
+    "num": "9",
+    "title": "One line. Eight Rhetorical Devices.",
+    "sUrl": "",
+    "sText": "3 mins",
+    "tFront": "Copywriting",
+    "tBack": "copywriting",
+    "slug": "rhetorical-devices",
+    "img": "erd",
+    "imgType": "png",
+    "desc": "Last week I asked you for the rhetorical devices in the line: “One Scoop. Once a day. Every day.” I learnt a lot. So I'm dedicating this week's article to your answers. Alongside alliteration, repetition, tricolon we have..."
   },
   {
     "num": "9",

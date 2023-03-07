@@ -39,7 +39,6 @@ mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
           a(href="https://www.instagram.com/marketing_examples" target="_blank" class="dropout1")!=icon("instagram")
           a(href="https://www.linkedin.com/in/harrydry/" target="_blank" class="dropout1")!=icon("linu")
           a(href="https://twitter.com/goodmarketinghq" target="_blank" class="dropout2")!=icon("tnu")
-      .outerCard
         //- .sponsor.sponsor1
         //-   .sponsor__inner
         //-     img(src="https://ik.imagekit.io/o08ysq9vx/lc/semrushsite.png", alt="Semrush Logo")
@@ -55,6 +54,7 @@ mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
         //-     img(src="https://ik.imagekit.io/o08ysq9vx/lc/semrushsite.png", alt="Semrush Logo")
         //-     .sponsor__inner-p SEO, PPC, social, competitor research. All in one place. There's no alternative.
         //-     a.sponsor__inner-button(href="https://www.semrush.com/lp/seo-challenges/en/?utm_source=MarketingExamples&utm_medium=paid_media&utm_campaign=Tier1_AEOY_PM_Core1_Attract_EN_LP_SEOChallenges&utm_content=homepagetakeover" target="_blank") See the Semrush difference
+      .outerCard
         each card in cards
           +card(card)
       //- .outerLoader

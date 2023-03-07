@@ -71,6 +71,16 @@ if (
   }
 }
 
+// if ($('.home')) {
+//   console.log('helllll');
+//   const homemsnry = new Masonry('.outerCard', {
+//     // options
+//     itemSelector: '.cardMason',
+//     transitionDuration: 0,
+//   });
+//   homemsnry.layout();
+// }
+
 if (
   !$('.gif') &&
   !$('.th') &&

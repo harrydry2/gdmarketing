@@ -40,23 +40,23 @@ mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
           a(href="https://www.linkedin.com/in/harrydry/" target="_blank" class="dropout1")!=icon("linu")
           a(href="https://twitter.com/goodmarketinghq" target="_blank" class="dropout2")!=icon("tnu")
       .outerCard
+        .sponsor.sponsor1
+          .sponsor__inner
+            img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.svg", alt="Rows Logo")
+            .sponsor__inner-p Rows built the first spreadsheet for marketers. And it's free. No idea how.
+            a.sponsor__inner-button(href="https://rows.com/?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") Take a look
+        .sponsor.sponsor2
+          .sponsor__inner
+            img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.svg", alt="Rows Logo")
+            .sponsor__inner-p I was a little skeptical. But it's so much better than Google Sheets.
+            a.sponsor__inner-button(href="https://rows.com/?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") See the Rows' difference
+        .sponsor.sponsor3
+          .sponsor__inner
+            img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.svg", alt="Rows Logo")
+            .sponsor__inner-p Dozens of marketing templates. Ready-made to save you time and hit KPIs.
+            a.sponsor__inner-button(href="https://rows.com/templates/category/marketing?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") Free templates (yes please)
         each card in cards
           +card(card)
-          .sponsor.sponsor1
-            .sponsor__inner
-              img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.png", alt="Rows Logo")
-              .sponsor__inner-p Rows built the first spreadsheet for marketers. And it's free. No idea how.
-              a.sponsor__inner-button(href="https://rows.com/?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") Take a look
-          .sponsor.sponsor2
-            .sponsor__inner
-              img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.png", alt="Rows Logo")
-              .sponsor__inner-p I was a little skeptical. But it's so much better than Google Sheets.
-              a.sponsor__inner-button(href="https://rows.com/?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") See the Rows' difference
-          .sponsor.sponsor3
-            .sponsor__inner
-              img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.png", alt="Rows Logo")
-              .sponsor__inner-p Dozens of marketing templates. Ready-made to save you time and hit KPIs.
-              a.sponsor__inner-button(href="https://rows.com/templates/category/marketing?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") Free templates (yes please)
       //- .outerLoader
       //-   .loader
     //- mobile layout

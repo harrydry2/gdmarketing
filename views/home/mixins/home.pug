@@ -44,19 +44,21 @@ mixin home(cards, title, activeFilters, filters, titlenum, displaynone = "")
       .outerCard
         .sponsor.sponsor1
           .sponsor__inner
-            img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.svg", alt="Rows Logo")
-            .sponsor__inner-p Rows built the first spreadsheet for marketers. And it's free. No idea how.
-            a.sponsor__inner-button(href="https://rows.com/?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") Take a look
+            img(src="https://ik.imagekit.io/o08ysq9vx/lc/nbd.svg", alt="Rows Logo" href="https://www.noboringdesign.com/?utm_source=website&utm_medium=web&utm_campaign=marketingexamples")
+            .sponsor__inner-p Want a!{' '}
+              span.italic $150k / yr
+              |!{' '}designer at your fingertips? But can't afford one!
+            a.sponsor__inner-button(href="https://www.noboringdesign.com/?utm_source=website&utm_medium=web&utm_campaign=marketingexamples" target="_blank") Try No Boring Design
         .sponsor.sponsor2
           .sponsor__inner
-            img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.svg", alt="Rows Logo")
-            .sponsor__inner-p I was a little skeptical. But it's so much better than Google Sheets.
-            a.sponsor__inner-button(href="https://rows.com/?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") See why I love Rows
+            img(src="https://ik.imagekit.io/o08ysq9vx/lc/nbd.svg", alt="Rows Logo" href="https://www.noboringdesign.com/?utm_source=website&utm_medium=web&utm_campaign=marketingexamples")
+            .sponsor__inner-p Unlimited design. No contracts. Loved by Loom, Dropbox, and G2!
+            a.sponsor__inner-button(href="https://www.noboringdesign.com/?utm_source=website&utm_medium=web&utm_campaign=marketingexamples" target="_blank") See what all the fuss is about
         .sponsor.sponsor3
           .sponsor__inner
-            img(src="https://ik.imagekit.io/o08ysq9vx/lc/rows.svg", alt="Rows Logo")
-            .sponsor__inner-p Dozens of marketing templates. Ready-made to save you time and hit KPIs.
-            a.sponsor__inner-button(href="https://rows.com/templates/category/marketing?utm_source=website&utm_medium=link&utm_campaign=marketingexamples-mar2023" target="_blank") Free templates (yes please)
+            img(src="https://ik.imagekit.io/o08ysq9vx/lc/nbd.svg", alt="Rows Logo" href="https://www.noboringdesign.com/?utm_source=website&utm_medium=web&utm_campaign=marketingexamples")
+            .sponsor__inner-p An on-demand creative team for less than the cost of an in-house resource.
+            a.sponsor__inner-button(href="https://www.noboringdesign.com/?utm_source=website&utm_medium=web&utm_campaign=marketingexamples" target="_blank") Book a free consultation call
         each card in cards
           +card(card)
       //- .outerLoader

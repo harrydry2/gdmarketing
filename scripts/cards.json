@@ -25,6 +25,30 @@
   },
   {
     "num": "9",
+    "title": "Barbie Newsjacking",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Creative",
+    "tBack": "creative",
+    "slug": "barbie",
+    "img": "barbie",
+    "imgType": "jpg",
+    "desc": "Gymshark. Heineken. Not on The High Sreet. “Creativity is just connecting things” — Steve Jobs"
+  },
+  {
+    "num": "9",
+    "title": "“Make Ugly Ads”",
+    "sUrl": "",
+    "sText": "30 secs",
+    "tFront": "Ads",
+    "tBack": "ads",
+    "slug": "ugly",
+    "img": "uglyads",
+    "imgType": "jpg",
+    "desc": "Less polished, more authentic. Can test ten in an afternoon. $50K return on a “Post-it”"
+  },
+  {
+    "num": "9",
     "title": "Why is the Angostura bitters label too big?",
     "sUrl": "",
     "sText": "1 min",

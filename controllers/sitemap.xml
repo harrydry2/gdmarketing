@@ -87,6 +87,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/content/subject-lines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/content/vogue</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- seo -->
   <url>
     <loc>https://marketingexamples.com/seo/unsplash</loc>
@@ -209,6 +219,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/sales/step-by-step</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- social -->
   <url>
     <loc>https://marketingexamples.com/social/lil-nas-x</loc>
@@ -290,6 +305,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/social/calvin-klein</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- ads -->
   <url>
     <loc>https://marketingexamples.com/ads/creative-google-ad</loc>
@@ -328,6 +348,21 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/ads/leeches</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/ads/caliber</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/ads/adobe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/ads/leo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -374,6 +409,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/copywriting/rhetorical-devices</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/copywriting/sky-bet</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -438,6 +478,26 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/trial</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/rows</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/upsell</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/landing-page/press-b</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <!-- retention -->
   <url>
     <loc>https://marketingexamples.com/retention/birthday-cake</loc>
@@ -471,6 +531,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/retention/open-rate</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/retention/abandoned-cart</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -655,6 +720,11 @@
   </url>
   <url>
     <loc>https://marketingexamples.com/creative/zendesk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marketingexamples.com/creative/ketones</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

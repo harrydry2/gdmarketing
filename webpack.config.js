@@ -43,7 +43,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'bundle.v38.css',
+      filename: 'bundle.v39.css',
     }),
     // minify
     // new webpack.DefinePlugin({

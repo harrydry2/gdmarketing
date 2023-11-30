@@ -290,8 +290,7 @@ if ($('.fed')) {
 
 if ($('.zzy')) {
   $('.zzy__sexyButton').on('click', () => {
-    const stripe = $('stripe-buy-button');
-    console.log(Object.getOwnPropertyNames(stripe));
+    console.log('nothing!');
   });
 }
 // course 10

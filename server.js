@@ -1,9 +1,9 @@
-require('dotenv').config();
-const express = require('express');
-const path = require('path');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-const compression = require('compression');
+require("dotenv").config();
+const express = require("express");
+const path = require("path");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const compression = require("compression");
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
@@ -12,27 +12,27 @@ mongoose.connect(
   }@gdmarketing-mxilm.mongodb.net/test`,
   { useNewUrlParser: true }
 );
-require('./models/Cards.js');
-require('./models/Test.js');
-require('./models/Gifs.js');
-require('./models/GifsMob.js');
-require('./models/Ceg.js');
-require('./models/EmailsNum.js');
-require('./models/User.js');
+require("./models/Cards.js");
+require("./models/Test.js");
+require("./models/Gifs.js");
+require("./models/GifsMob.js");
+require("./models/Ceg.js");
+require("./models/EmailsNum.js");
+require("./models/User.js");
 
-const fs = require('fs');
+const fs = require("fs");
 
 const app = express();
-const cookieParser = require('cookie-parser');
+const cookieParser = require("cookie-parser");
 
-const routes = require('./routes/index');
+const routes = require("./routes/index");
 
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "pug");
 
 app.use(compression());
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(cookieParser());
 
 app.use(bodyParser.json());
@@ -48,7 +48,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/', routes);
+app.use("/", routes);
 
 const PORT = process.env.PORT || 7777;
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

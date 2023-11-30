@@ -14,6 +14,11 @@ const Users = mongoose.model('Users');
 
 const createToken = id => jwt.sign({ id }, 'hd', { expiresIn: '3d' });
 
+// const createToken = id =>
+//   jwt.sign({ id }, "net ninja secret", {
+//     expiresIn: maxAge
+//   });
+
 exports.course9 = async (req, res) => {
   console.log(req.query);
   res.render('./course9/ext', {});
@@ -28,10 +33,13 @@ exports.course10 = async (req, res) => {
       );
       const { email } = session.customer_details;
       const { payment_link } = session;
-      const user = new Users({ email, bought: payment_link });
-      await user.save();
+      const user = await Users.create({ email, bought: payment_link });
+      // cookie and json web token
+      console.log(user._id);
+      const token = createToken(user.email);
+      res.cookie('jwt', token);
+      console.log(token, 'mmm');
       // auth user
-      // cookis and json web token
       // send email with course details :)
     }
     res.render('./course10/ext', {
@@ -61,8 +69,9 @@ exports.createCheckout = async (req, res) => {
     success_url:
       'http://localhost:7777/course10?session_id={CHECKOUT_SESSION_ID}',
     line_items: [{ price: 'price_1OHBPLDCQDrt6ruzj0SWnslN', quantity: 1 }],
-    mode: 'payment'
+    mode: 'payment',
+    cancel_url: 'http://localhost:7777/course9',
   });
-  console.log(session, 'che');
+  // console.log(session, "che");
   res.redirect(session.url);
 };

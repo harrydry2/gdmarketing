@@ -1,0 +1,72 @@
+mixin men(title, slug, time, activeVid, num, last)
+  - var vidActive = activeVid === num ? "zzz__left-module-vid-t-active" : "";
+  .zzz__left-module-vid-t
+    a(href=`/course10/${slug}` class=`${vidActive}`) #{title}
+    span !{' '}(#{time})
+    if !last
+      |!{' '}-!{' '}
+
+mixin menu(matchingSlug)
+  .zzz__left
+    img(src="https://ik.imagekit.io/o08ysq9vx/gpt99/lclogo2.svg", alt="" class="zzz__left-logo")
+    .zzz__left-module
+      .zzz__left-module-head.zzz__left-module-head-first 1. ARE YOU SITTING COMFORTABLY
+      .zzz__left-module-vid
+        +men("Six hours in London", "six-hours-in-london", "3:04", matchingSlug.id, 1, false)
+        +men("My model of the game", "my-model-of-the-game", "3:12", matchingSlug.id, 2, false)
+        +men("Block theory", "block-theory", "2:44", matchingSlug.id, 3, true)
+    img(src="https://ik.imagekit.io/o08ysq9vx/gpt99/disc2c.svg", alt="" class="zzz__left-disc")
+    .zzz__left-module
+      .zzz__left-module-head 2. POSITIONING
+      .zzz__left-module-vid
+        +men("The five pieces", "the-five-pieces", "3:04", matchingSlug.id, 4, false)
+        +men("The space you own", "the-space-you-own", "3:12", matchingSlug.id, 5, false)
+        +men("How you win", "how-you-win", "2:44", matchingSlug.id, 6, false)
+        +men("Competitive set", "competitive set", "3:04", matchingSlug.id, 7, false)
+        +men("Why you", "six-hours-in-london", "3:12", matchingSlug.id, 8, false)
+        +men("Who's it for", "six-hours-in-london", "2:44", matchingSlug.id, 9, false)
+        +men("What it is", "six-hours-in-london", "3:12", matchingSlug.id, 10, false)
+        +men("All together now", "six-hours-in-london", "2:44", matchingSlug.id, 11, true)
+    .zzz__left-module
+      .zzz__left-module-head 3. WRITING SIMPLY
+      .zzz__left-module-vid
+        +men("Intro", "six-hours-in-london", "3:04", matchingSlug.id, 12, false)
+        +men("Cut", "six-hours-in-london", "3:12", matchingSlug.id, 13, false)
+        +men("Sharpen", "six-hours-in-london", "2:44", matchingSlug.id, 14, false)
+        +men("Stitch", "six-hours-in-london", "3:04", matchingSlug.id, 15, false)
+        +men("Three rewrites", "six-hours-in-london", "3:12", matchingSlug.id, 16, true)
+    .zzz__left-module
+      .zzz__left-module-head 4. WRITING PERSUASIVELY
+      .zzz__left-module-vid
+        +men("Three litmus tests", "six-hours-in-london", "3:04", matchingSlug.id, 17, false)
+        +men("Visual", "six-hours-in-london", "3:12", matchingSlug.id, 18, false)
+        +men("Falsifiable", "six-hours-in-london", "2:44", matchingSlug.id, 19, false)
+        +men("Yours", "six-hours-in-london", "3:04", matchingSlug.id, 20, false)
+        +men("How to write not like a robot", "six-hours-in-london", "3:12", matchingSlug.id, 21, false)
+        +men("Hot 97 Freestyle", "six-hours-in-london", "3:04", matchingSlug.id, 22, true)
+    img(src="https://ik.imagekit.io/o08ysq9vx/gpt99/disc2d.svg", alt="" class="zzz__left-disc")
+    .zzz__left-module
+      .zzz__left-module-head 6. WRITING RHYMICALLY
+      .zzz__left-module-vid
+        +men("Cadence", "six-hours-in-london", "3:04", matchingSlug.id, 23, false)
+        +men("Rhetorical", "six-hours-in-london", "3:12", matchingSlug.id, 24, false)
+        +men("Three rewrites", "six-hours-in-london", "2:44", matchingSlug.id, 25, true)
+    .zzz__left-module
+      .zzz__left-module-head 7. WRITING VISUALLY
+      .zzz__left-module-vid
+        +men("Three litmus tests", "six-hours-in-london", "3:04", matchingSlug.id, 26, false)
+        +men("Visual", "six-hours-in-london", "3:12", matchingSlug.id, 27, false)
+        +men("Falsifiable", "six-hours-in-london", "2:44", matchingSlug.id, 28, false)
+        +men("Yours", "six-hours-in-london", "3:04", matchingSlug.id, 29, false)
+        +men("How to write not like a robot", "six-hours-in-london", "3:12", matchingSlug.id, 30, false)
+        +men("Hot 97 Freestyle", "six-hours-in-london", "3:04", matchingSlug.id, 31, true)
+    img(src="https://ik.imagekit.io/o08ysq9vx/gpt99/disc2d.svg", alt="" class="zzz__left-disc")
+    .zzz__left-module
+      .zzz__left-module-head 7. LANDING PAGES
+      .zzz__left-module-vid
+        +men("Three litmus tests", "six-hours-in-london", "3:04", matchingSlug.id, 26, false)
+        +men("Visual", "six-hours-in-london", "3:12", matchingSlug.id, 27, false)
+        +men("Falsifiable", "six-hours-in-london", "2:44", matchingSlug.id, 28, false)
+        +men("Yours", "six-hours-in-london", "3:04", matchingSlug.id, 29, false)
+        +men("How to write not like a robot", "six-hours-in-london", "3:12", matchingSlug.id, 30, false)
+        +men("Hot 97 Freestyle", "six-hours-in-london", "3:04", matchingSlug.id, 31, true)

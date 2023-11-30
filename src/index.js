@@ -60,6 +60,8 @@ if (
   !$('.nlcc') &&
   !$('.ceg') &&
   !$('.cegM') &&
+  !$('.zzz') &&
+  !$('.zzy') &&
   !$('.fed')
 ) {
   lazyLoad(filterArray);
@@ -87,6 +89,8 @@ if (
   !$('.nlcc') &&
   !$('.ceg') &&
   !$('.cegM') &&
+  !$('.zzz') &&
+  !$('.zzy') &&
   !$('.fed')
 ) {
   // preSetuptogetexisitingoldnum
@@ -174,13 +178,21 @@ if (
 // }
 
 // mailPopup
-if (!$('.gif') && !$('.th') && !$('.nlcc') && !$('.ceg') && !$('.cegM')) {
+if (
+  !$('.gif') &&
+  !$('.th') &&
+  !$('.nlcc') &&
+  !$('.ceg') &&
+  !$('.zzz') &&
+  !$('.zzy') &&
+  !$('.cegM')
+) {
   if (!window.location.href.includes('utm_source=newsletter')) {
     mailPopup();
   } else {
     console.log('no more emails popups for loving subs');
   }
-  mailSubmitHome();
+  // mailSubmitHome();
 }
 
 //
@@ -204,6 +216,8 @@ if (
   !$('.nlcc') &&
   !$('.ceg') &&
   !$('.cegM') &&
+  !$('.zzz') &&
+  !$('.zzy') &&
   !$('.fed')
 ) {
   postPopup(Array.from($$('.card')));
@@ -243,7 +257,7 @@ if ($('.nlcc')) {
 // }
 
 if ($('.fed')) {
-  mailSubmitHome();
+  // mailSubmitHome();
   mailPopup();
   const msnry = new Masonry('.fedgrid', {
     // options
@@ -271,3 +285,13 @@ if ($('.fed')) {
   // }
   history.scrollRestoration = 'manual';
 }
+
+// course9
+
+if ($('.zzy')) {
+  $('.zzy__sexyButton').on('click', () => {
+    const stripe = $('stripe-buy-button');
+    console.log(Object.getOwnPropertyNames(stripe));
+  });
+}
+// course 10

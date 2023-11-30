@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const mainController = require('../controllers/mainController');
 const postController = require('../controllers/postController');
+const courseController = require('../controllers/courseController');
 // const emailController = require('../controllers/emailController');
 const emailController2 = require('../controllers/emailController2');
 
@@ -11,6 +12,14 @@ router.get('/', mainController.home);
 router.get('/gifs', mainController.gifs);
 // router.get('/podcast', mainController.podcast);
 router.get('/course', mainController.course);
+// course buy
+router.get('/course9', courseController.course9);
+// course use
+router.get('/course10', courseController.course10);
+router.get('/course10/:slug', courseController.coursePage);
+router.get('/createcheckout', courseController.createCheckout);
+// course post
+
 router.get('/inspiration', mainController.fed);
 router.get('/sitemap.xml', mainController.xml);
 router.get('/rss', mainController.rss);

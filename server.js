@@ -18,10 +18,12 @@ require('./models/Gifs.js');
 require('./models/GifsMob.js');
 require('./models/Ceg.js');
 require('./models/EmailsNum.js');
+require('./models/User.js');
 
 const fs = require('fs');
 
 const app = express();
+const cookieParser = require('cookie-parser');
 
 const routes = require('./routes/index');
 
@@ -31,6 +33,7 @@ app.set('view engine', 'pug');
 app.use(compression());
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(cookieParser());
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
